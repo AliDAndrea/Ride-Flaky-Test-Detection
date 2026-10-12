@@ -1,0 +1,77 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.wildfly.plugins:wildfly-plugin-core >---------------
+[INFO] Building WildFly Plugin Core Utilities 3.0.0.Alpha3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ wildfly-plugin-core >>>
+[INFO] Artifact org.jboss.galleon:galleon-parent:pom:4.2.8.Final is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [nexus (https://repository.jboss.org/nexus/content/groups/public-jboss, default, releases+snapshots), redhat-ga (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jboss.galleon:galleon-parent:pom:4.2.8.Final is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [nexus (https://repository.jboss.org/nexus/content/groups/public-jboss, default, releases+snapshots), redhat-ga (https://maven.repository.redhat.com/ga/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from nexus: https://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/galleon/galleon-parent/4.2.8.Final/galleon-parent-4.2.8.Final.pom
+[INFO] Downloaded from nexus: https://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/galleon/galleon-parent/4.2.8.Final/galleon-parent-4.2.8.Final.pom (0 B at 0 B/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-java-version) @ wildfly-plugin-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-version) @ wildfly-plugin-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ wildfly-plugin-core ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core
+[INFO] Storing buildNumber: ba664f977f4a20771eb7aab979164b2fb639a240 at timestamp: 1791760395053
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ wildfly-plugin-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1-jboss-2:compile (default-compile) @ wildfly-plugin-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:3.1.1:checkstyle (check-style) @ wildfly-plugin-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ wildfly-plugin-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1-jboss-2:testCompile (default-testCompile) @ wildfly-plugin-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ wildfly-plugin-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ wildfly-plugin-core ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.wildfly.plugin.core.DomainDeploymentManagerIT
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.182 s <<< FAILURE! - in org.wildfly.plugin.core.DomainDeploymentManagerIT
+[ERROR] org.wildfly.plugin.core.DomainDeploymentManagerIT  Time elapsed: 0.18 s  <<< FAILURE!
+java.lang.AssertionError: WildFly home property, jboss.home, was not set
+	at org.wildfly.plugin.core.DomainDeploymentManagerIT.startServer(DomainDeploymentManagerIT.java:80)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   DomainDeploymentManagerIT.startServer:80 WildFly home property, jboss.home, was not set
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_Ir0g7GLyndaNLeMC8F2TlS0UXsQclbksQwMpIO1Fm0I= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.969 s
+[INFO] Finished at: 2026-10-11T18:13:20-05:00
+[INFO] ------------------------------------------------------------------------

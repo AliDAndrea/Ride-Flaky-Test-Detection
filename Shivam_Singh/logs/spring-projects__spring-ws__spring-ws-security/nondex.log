@@ -1,0 +1,1299 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< org.springframework.ws:spring-ws-security >--------------
+[INFO] Building spring-ws-security 3.0.5.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ spring-ws-security >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-ws-security ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.1:compile (default-compile) @ spring-ws-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-ws-security ---
+[INFO] Copying 53 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.6.1:testCompile (default-testCompile) @ spring-ws-security ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ spring-ws-security <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ spring-ws-security ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_Z5trwLNVTZZU7k8wlLwl0glnArgKdD0u5IYkcvgmb0I=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.572 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=4iZc8Ip2brb4Yrduj3CMRBvwF2nesX26s4POgwSLlo=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.641 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=sJoAAdQZb1Iup0qIaMhUsIkLERGDnw6lgWve26kaIg=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.657 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=7IIyAHKQ48JizkxQAA20ju7xzvV89hme2NyKsurZQ=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.649 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=9UoO61gaynlGp79xPD0cNMGPE9fivvwZNjPlUVNYKaY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.292 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.216 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.652 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=IjIi9o+hMWQIx5sLcNicBYJmkly+BVJiEwL3HuGaxMc=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.677 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=OJ9885cB3Vlzj7ZyGh7HTuVy3fbO7gA0fZkvP+qtdwA=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.67 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=JzX9LvtbgeM1Qhic2fbCOkbLtkMsTzV6zMBLwtChl0M=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.682 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=xEeaKN7IVSE6sGSDDnNptMpiO++Bar8CgJSzDUnM98=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=8u4M+jqTOc5wKjlTdV8kctvL3dsrTsnbpdbvwIDNpgE=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.236 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.675 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex
+nondexExecid=5nlTlC9dHiZVk2vbG6+zBo2DbnXKmXKOSMJRRmnEOE=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.springframework.ws.soap.security.SkipValidationWsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.springframework.ws.soap.security.support.KeyManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.springframework.ws.soap.security.support.TrustManagersFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorEncryptTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in org.springframework.ws.soap.security.xwss.XwssMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidatorTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.springframework.ws.soap.security.xwss.XwsSecurityInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.callback.CallbackHandlerChainTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorHeaderTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSoapActionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.678 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorTimestampTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSamlTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.support.CryptoFactoryBeanTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorX509Test
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.springframework.ws.soap.security.wss4j2.callback.SpringSecurityPasswordValidationCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.callback.KeyStoreCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSpringSecurityCallbackHandlerTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorSignTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jInterceptorTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jMessageInterceptorEncryptionTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.springframework.ws.soap.security.wss4j2.AxiomWss4jMessageInterceptorUsernameTokenSignatureTest
+[INFO] Running org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.springframework.ws.soap.security.wss4j2.SaajWss4jInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 122, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=4iZc8Ip2brb4Yrduj3CMRBvwF2nesX26s4POgwSLlo= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=sJoAAdQZb1Iup0qIaMhUsIkLERGDnw6lgWve26kaIg= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=7IIyAHKQ48JizkxQAA20ju7xzvV89hme2NyKsurZQ= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=9UoO61gaynlGp79xPD0cNMGPE9fivvwZNjPlUVNYKaY= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=IjIi9o+hMWQIx5sLcNicBYJmkly+BVJiEwL3HuGaxMc= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=OJ9885cB3Vlzj7ZyGh7HTuVy3fbO7gA0fZkvP+qtdwA= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=JzX9LvtbgeM1Qhic2fbCOkbLtkMsTzV6zMBLwtChl0M= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=xEeaKN7IVSE6sGSDDnNptMpiO++Bar8CgJSzDUnM98= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=8u4M+jqTOc5wKjlTdV8kctvL3dsrTsnbpdbvwIDNpgE= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex" -DnondexExecid=5nlTlC9dHiZVk2vbG6+zBo2DbnXKmXKOSMJRRmnEOE= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-projects__spring-ws__spring-ws-security/spring-ws-security/.nondex/4iZc8Ip2brb4Yrduj3CMRBvwF2nesX26s4POgwSLlo=/test_results.html
+[INFO] [NonDex] The id of this run is: 4iZc8Ip2brb4Yrduj3CMRBvwF2nesX26s4POgwSLlo=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.927 s
+[INFO] Finished at: 2026-10-09T21:18:38-05:00
+[INFO] ------------------------------------------------------------------------

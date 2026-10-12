@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.apache.gora:gora-ignite >---------------------
+[INFO] Building Apache Gora :: Ignite 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ gora-ignite >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora-ignite ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora-ignite ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora-ignite ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (default) @ gora-ignite ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-ignite/gora-ignite/src/examples/java added.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora-ignite ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gora-ignite ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-ignite/gora-ignite/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ gora-ignite ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-ignite/gora-ignite/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-ignite/gora-ignite/src/main/java/org/apache/gora/ignite/utils/IgniteSQLBuilder.java:[124,48] non-varargs call of varargs method with inexact argument type for last parameter;
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gora-ignite ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora-ignite ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ gora-ignite <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ gora-ignite ---
+INFO: Running DeltaDebugMojo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.722 s
+[INFO] Finished at: 2026-10-11T18:18:57-05:00
+[INFO] ------------------------------------------------------------------------

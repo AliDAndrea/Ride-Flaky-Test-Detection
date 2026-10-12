@@ -1,0 +1,151 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.commons:commons-collections4 >---------------
+[INFO] Building Apache Commons Collections 4.5-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.19/animal-sniffer-maven-plugin-1.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.19/animal-sniffer-maven-plugin-1.19.pom (5.6 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.19/animal-sniffer-maven-plugin-1.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.19/animal-sniffer-maven-plugin-1.19.jar (35 kB at 393 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.pom (4.7 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.0.0/maven-antrun-plugin-3.0.0.jar (39 kB at 520 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-version) @ commons-collections4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat:0.13:check (rat-check) @ commons-collections4 ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper:3.2.0:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- antrun:3.0.0:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.14/ant-1.9.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.14/ant-1.9.14.pom (10.0 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.14/ant-parent-1.9.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.14/ant-parent-1.9.14.pom (5.6 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.14/ant-launcher-1.9.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.14/ant-launcher-1.9.14.pom (2.3 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.14/ant-1.9.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.14/ant-1.9.14.jar (2.1 MB at 10 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.14/ant-launcher-1.9.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.14/ant-launcher-1.9.14.jar (18 kB at 233 kB/s)
+[INFO] Executing tasks
+[INFO]      [copy] Copying 2 files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ commons-collections4 ---
+[INFO] Skipping remote resources execution.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root
+[INFO] Storing buildNumber: 371313a2e4d1da5e0776419ce94bb8b644158a20 at timestamp: 1791766874837
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 351 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/MapUtils.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/MapUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:5.1.1:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.2/biz.aQute.bndlib-5.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.2/biz.aQute.bndlib-5.1.2.pom (4.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.2/biz.aQute.bndlib-5.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.2/biz.aQute.bndlib-5.1.2.jar (3.7 MB at 15 MB/s)
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 180 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 239 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- animal-sniffer:1.19:check (checkAPIcompatibility) @ commons-collections4 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.19/animal-sniffer-1.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.19/animal-sniffer-1.19.pom (2.3 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.19/java-boot-classpath-detector-1.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.19/java-boot-classpath-detector-1.19.pom (2.5 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.19/animal-sniffer-1.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.19/animal-sniffer-1.19.jar (38 kB at 647 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.19/java-boot-classpath-detector-1.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.19/java-boot-classpath-detector-1.19.jar (5.1 kB at 83 kB/s)
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (prepare-agent) @ commons-collections4 ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ commons-collections4 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ commons-collections4 ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/commons-collections4-4.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.9.1:attach-descriptor (attach-descriptor) @ commons-collections4 ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/3.4.0/wagon-ssh-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/3.4.0/wagon-ssh-3.4.0.pom (6.5 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-providers/3.4.0/wagon-providers-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-providers/3.4.0/wagon-providers-3.4.0.pom (2.8 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.4.0/wagon-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.4.0/wagon-3.4.0.pom (21 kB at 324 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.pom (1.1 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/3.4.0/wagon-ssh-common-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/3.4.0/wagon-ssh-common-3.4.0.pom (2.0 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.0/wagon-provider-api-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.4.0/wagon-provider-api-3.4.0.pom (1.9 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/3.4.0/wagon-ssh-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh/3.4.0/wagon-ssh-3.4.0.jar (32 kB at 394 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/3.4.0/wagon-ssh-common-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar (4.4 kB at 58 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-ssh-common/3.4.0/wagon-ssh-common-3.4.0.jar (26 kB at 126 kB/s)
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- jar:3.2.0:test-jar (default) @ commons-collections4 ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/commons-collections4-4.5-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- source:3.2.1:jar-no-fork (create-source-jar) @ commons-collections4 ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- source:3.2.1:test-jar-no-fork (create-source-jar) @ commons-collections4 ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jacoco:0.8.7:check (check) @ commons-collections4 ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ commons-collections4 ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/commons-collections4-4.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/commons-collections4-4.5-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/apache/commons/commons-collections4/4.5-SNAPSHOT/commons-collections4-4.5-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.912 s
+[INFO] Finished at: 2026-10-11T20:01:46-05:00
+[INFO] ------------------------------------------------------------------------

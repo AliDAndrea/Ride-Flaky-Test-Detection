@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< org.zalando:riptide-spring-boot-autoconfigure >------------
+[INFO] Building Riptide: Spring Boot Auto Configuration 3.2.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ riptide-spring-boot-autoconfigure >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ riptide-spring-boot-autoconfigure ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- duplicate-finder:1.5.1:check (default) @ riptide-spring-boot-autoconfigure ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (prepare-agent) @ riptide-spring-boot-autoconfigure ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ riptide-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ riptide-spring-boot-autoconfigure ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ riptide-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ riptide-spring-boot-autoconfigure ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ riptide-spring-boot-autoconfigure <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ riptide-spring-boot-autoconfigure ---
+INFO: Running DeltaDebugMojo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.177 s
+[INFO] Finished at: 2026-10-11T20:41:41-05:00
+[INFO] ------------------------------------------------------------------------

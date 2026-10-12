@@ -1,0 +1,618 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] junit-quickcheck                                                   [pom]
+[INFO] junit-quickcheck-core                                              [jar]
+[INFO] junit-quickcheck-generators                                        [jar]
+[INFO] junit-quickcheck-guava                                             [jar]
+[INFO] 
+[INFO] --------------------< com.pholser:junit-quickcheck >--------------------
+[INFO] Building junit-quickcheck 0.9-SNAPSHOT                             [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ junit-quickcheck ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/pom.xml to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck/0.9-SNAPSHOT/junit-quickcheck-0.9-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< com.pholser:junit-quickcheck-core >------------------
+[INFO] Building junit-quickcheck-core 0.9-SNAPSHOT                        [2/4]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.6.201602180812/jacoco-maven-plugin-0.7.6.201602180812.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.6.201602180812/jacoco-maven-plugin-0.7.6.201602180812.pom (3.9 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.6.201602180812/org.jacoco.build-0.7.6.201602180812.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.6.201602180812/org.jacoco.build-0.7.6.201602180812.pom (36 kB at 765 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.6.201602180812/jacoco-maven-plugin-0.7.6.201602180812.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.6.201602180812/jacoco-maven-plugin-0.7.6.201602180812.jar (52 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.pom (13 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.17/maven-checkstyle-plugin-2.17.jar (109 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.6/maven-pmd-plugin-3.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.6/maven-pmd-plugin-3.6.pom (12 kB at 308 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.6/maven-pmd-plugin-3.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.6/maven-pmd-plugin-3.6.jar (98 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.pom (23 kB at 518 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 800 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.5/findbugs-maven-plugin-3.0.5.jar (145 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javaruntype/javaruntype/1.3/javaruntype-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javaruntype/javaruntype/1.3/javaruntype-1.3.pom (7.1 kB at 164 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.1.2/antlr-runtime-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.1.2/antlr-runtime-3.1.2.pom (4.2 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ru/vyarus/generics-resolver/2.0.1/generics-resolver-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ru/vyarus/generics-resolver/2.0.1/generics-resolver-2.0.1.pom (1.2 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.pom (930 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/23.0/guava-23.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/23.0/guava-23.0.pom (5.6 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/23.0/guava-parent-23.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/23.0/guava-parent-23.0.pom (9.3 kB at 233 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/23.0/guava-testlib-23.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/23.0/guava-testlib-23.0.pom (2.8 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javaruntype/javaruntype/1.3/javaruntype-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javaruntype/javaruntype/1.3/javaruntype-1.3.jar (72 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.1.2/antlr-runtime-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ru/vyarus/generics-resolver/2.0.1/generics-resolver-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/23.0/guava-23.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.1.2/antlr-runtime-3.1.2.jar (139 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/23.0/guava-testlib-23.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ru/vyarus/generics-resolver/2.0.1/generics-resolver-2.0.1.jar (22 kB at 104 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar (236 kB at 710 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/23.0/guava-testlib-23.0.jar (832 kB at 2.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar (1.2 MB at 3.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/23.0/guava-23.0.jar (2.6 MB at 5.3 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (default-prepare-agent) @ junit-quickcheck-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812.pom (2.9 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.pom (1.2 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.pom (2.0 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.6.201602180812/org.jacoco.report-0.7.6.201602180812.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.6.201602180812/org.jacoco.report-0.7.6.201602180812.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 5.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812-runtime.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.6.201602180812/org.jacoco.report-0.7.6.201602180812.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.6.201602180812/org.jacoco.report-0.7.6.201602180812.jar (142 kB at 3.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.jar (136 kB at 2.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.6.201602180812/org.jacoco.agent-0.7.6.201602180812-runtime.jar (289 kB at 4.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar (379 kB at 3.4 MB/s)
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-quickcheck-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ junit-quickcheck-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 73 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/main/java/com/pholser/junit/quickcheck/internal/generator/EnumGenerator.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/main/java/com/pholser/junit/quickcheck/internal/generator/EnumGenerator.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/main/java/com/pholser/junit/quickcheck/generator/Generators.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/main/java/com/pholser/junit/quickcheck/generator/Generators.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/main/java/com/pholser/junit/quickcheck/generator/Generators.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- checkstyle:2.17:check (default) @ junit-quickcheck-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-resources/1.0.1/plexus-resources-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-resources/1.0.1/plexus-resources-1.0.1.pom (1.3 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.11.2/checkstyle-6.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.11.2/checkstyle-6.11.2.pom (63 kB at 932 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.pom (2.3 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.5.1-1/antlr4-master-4.5.1-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.5.1-1/antlr4-master-4.5.1-1.pom (3.8 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-resources/1.0.1/plexus-resources-1.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-resources/1.0.1/plexus-resources-1.0.1.jar (22 kB at 466 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.11.2/checkstyle-6.11.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5.1-1/antlr4-runtime-4.5.1-1.jar (302 kB at 4.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.11.2/checkstyle-6.11.2.jar (1.1 MB at 10 MB/s)
+[INFO] 
+[INFO] >>> pmd:3.6:cpd-check (default) > :cpd @ junit-quickcheck-core >>>
+[INFO] 
+[INFO] --- pmd:3.6:cpd (cpd) @ junit-quickcheck-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom (6.8 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/5.3.5/pmd-core-5.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/5.3.5/pmd-core-5.3.5.pom (4.7 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd/5.3.5/pmd-5.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd/5.3.5/pmd-5.3.5.pom (36 kB at 811 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.35/jcommander-1.35.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.35/jcommander-1.35.pom (7.2 kB at 154 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/javacc/javacc/5.0/javacc-5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/javacc/javacc/5.0/javacc-5.0.pom (2.9 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.pom (5.7 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom (1.9 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.3/asm-parent-5.0.3.pom (5.5 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/5.3.5/pmd-java-5.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/5.3.5/pmd-java-5.3.5.pom (5.8 kB at 142 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/5.3.5/pmd-javascript-5.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/5.3.5/pmd-javascript-5.3.5.pom (3.0 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/5.3.5/pmd-jsp-5.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/5.3.5/pmd-jsp-5.3.5.pom (4.6 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar (314 kB at 6.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/5.3.5/pmd-core-5.3.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.35/jcommander-1.35.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/javacc/javacc/5.0/javacc-5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar (53 kB at 951 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8-dom.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/javacc/javacc/5.0/javacc-5.0.jar (299 kB at 4.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/5.3.5/pmd-java-5.3.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/beust/jcommander/1.35/jcommander-1.35.jar (61 kB at 865 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/5.3.5/pmd-javascript-5.3.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/5.3.5/pmd-core-5.3.5.jar (674 kB at 9.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/5.3.5/pmd-jsp-5.3.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/5.3.5/pmd-javascript-5.3.5.jar (98 kB at 828 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8-dom.jar (129 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/5.3.5/pmd-java-5.3.5.jar (721 kB at 4.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/5.3.5/pmd-jsp-5.3.5.jar (93 kB at 529 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.jar (5.0 MB at 16 MB/s)
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:3.6:cpd-check (default) < :cpd @ junit-quickcheck-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.6:cpd-check (default) @ junit-quickcheck-core ---
+[INFO] 
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-quickcheck-core ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ junit-quickcheck-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 120 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/test/java/com/pholser/junit/quickcheck/EnumPropertyParameterTypesTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/test/java/com/pholser/junit/quickcheck/EnumPropertyParameterTypesTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/test/java/com/pholser/junit/quickcheck/internal/ListsTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/test/java/com/pholser/junit/quickcheck/internal/ListsTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/src/test/java/com/pholser/junit/quickcheck/internal/ListsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ junit-quickcheck-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:report (default-report) @ junit-quickcheck-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ junit-quickcheck-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/junit-quickcheck-core-0.9-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:2.6:test-jar (default) @ junit-quickcheck-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/junit-quickcheck-core-0.9-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] >>> findbugs:3.0.5:check (default) > :findbugs @ junit-quickcheck-core >>>
+[INFO] 
+[INFO] --- findbugs:3.0.5:findbugs (findbugs) @ junit-quickcheck-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.pom (11 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/bcel-findbugs/6.0/bcel-findbugs-6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/bcel-findbugs/6.0/bcel-findbugs-6.0.pom (3.9 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.pom (950 B at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.pom (2.0 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.pom (2.1 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.pom (2.1 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom (5.9 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1.6/jaxen-1.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1.6/jaxen-1.1.6.pom (14 kB at 235 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.pom (9.6 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.9/ant-parent-1.9.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.9/ant-parent-1.9.9.pom (5.6 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.pom (2.3 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.pom (18 kB at 320 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/2.4.12/groovy-ant-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/2.4.12/groovy-ant-2.4.12.pom (18 kB at 343 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.4/ant-launcher-1.9.4.pom (2.3 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom (5.6 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-antlr/1.9.4/ant-antlr-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-antlr/1.9.4/ant-antlr-1.9.4.pom (3.1 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-junit/1.9.4/ant-junit-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-junit/1.9.4/ant-junit-1.9.4.pom (4.1 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.4/ant-1.9.4.pom (9.6 kB at 196 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovydoc/2.4.12/groovy-groovydoc-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovydoc/2.4.12/groovy-groovydoc-2.4.12.pom (17 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templates/2.4.12/groovy-templates-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templates/2.4.12/groovy-templates-2.4.12.pom (17 kB at 320 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.pom (16 kB at 310 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.pom (7.6 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.0/maven-plugin-api-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.0/maven-plugin-api-3.5.0.pom (2.7 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.5.0/maven-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.5.0/maven-3.5.0.pom (25 kB at 381 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.pom (4.0 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.0/maven-artifact-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.0/maven-artifact-3.5.0.pom (2.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.5.0/maven-compat-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.5.0/maven-compat-3.5.0.pom (4.4 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.pom (3.1 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.0/maven-builder-support-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.0/maven-builder-support-3.5.0.pom (1.7 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.pom (1.8 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.0/maven-core-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.0/maven-core-3.5.0.pom (8.6 kB at 190 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.0/maven-settings-builder-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.0/maven-settings-builder-3.5.0.pom (2.6 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.0/maven-repository-metadata-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.0/maven-repository-metadata-3.5.0.pom (1.9 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.0/maven-resolver-provider-3.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.0/maven-resolver-provider-3.5.0.pom (4.1 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.0.3/maven-resolver-api-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.0.3/maven-resolver-api-1.0.3.pom (1.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.0.3/maven-resolver-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.0.3/maven-resolver-1.0.3.pom (15 kB at 309 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.0.3/maven-resolver-spi-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.0.3/maven-resolver-spi-1.0.3.pom (1.9 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.0.3/maven-resolver-util-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.0.3/maven-resolver-util-1.0.3.pom (2.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.0.3/maven-resolver-impl-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.0.3/maven-resolver-impl-1.0.3.pom (3.2 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.12/wagon-provider-api-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.12/wagon-provider-api-2.12.pom (1.9 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.12/wagon-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.12/wagon-2.12.pom (21 kB at 443 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7/doxia-decoration-model-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7/doxia-decoration-model-1.7.pom (3.1 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.7/doxia-sitetools-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.7/doxia-sitetools-1.7.pom (14 kB at 267 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7/doxia-site-renderer-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7/doxia-site-renderer-1.7.pom (6.6 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7/doxia-skin-model-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7/doxia-skin-model-1.7.pom (2.9 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.pom (4.6 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.4/maven-doxia-tools-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.4/maven-doxia-tools-1.4.pom (7.7 kB at 160 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.jar (3.8 MB at 23 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/bcel-findbugs/6.0/bcel-findbugs-6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.jar (29 kB at 558 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.jar (42 kB at 758 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.jar (27 kB at 496 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/bcel-findbugs/6.0/bcel-findbugs-6.0.jar (612 kB at 7.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar (12 kB at 107 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar (232 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/2.4.12/groovy-ant-2.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.9.9/ant-launcher-1.9.9.jar (18 kB at 131 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.jar (380 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-antlr/1.9.4/ant-antlr-1.9.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-junit/1.9.4/ant-junit-1.9.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.9.9/ant-1.9.9.jar (2.0 MB at 11 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovydoc/2.4.12/groovy-groovydoc-2.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/2.4.12/groovy-ant-2.4.12.jar (69 kB at 358 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templates/2.4.12/groovy-templates-2.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-junit/1.9.4/ant-junit-1.9.4.jar (118 kB at 580 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-antlr/1.9.4/ant-antlr-1.9.4.jar (12 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovydoc/2.4.12/groovy-groovydoc-2.4.12.jar (136 kB at 460 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.0/maven-plugin-api-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar (215 kB at 713 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templates/2.4.12/groovy-templates-2.4.12.jar (98 kB at 314 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.jar (18 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.5.0/maven-compat-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar (4.6 MB at 14 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.0/maven-builder-support-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.0/maven-plugin-api-3.5.0.jar (48 kB at 132 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar (165 kB at 455 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.0/maven-resolver-provider-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.0/maven-model-builder-3.5.0.jar (179 kB at 483 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.0/maven-builder-support-3.5.0.jar (15 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.0.3/maven-resolver-api-1.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.0.3/maven-resolver-spi-1.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.5.0/maven-compat-3.5.0.jar (291 kB at 758 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.0.3/maven-resolver-util-1.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.0/maven-settings-3.5.0.jar (45 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.0.3/maven-resolver-impl-1.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.0/maven-resolver-provider-3.5.0.jar (68 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.12/wagon-provider-api-2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.0.3/maven-resolver-api-1.0.3.jar (146 kB at 352 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.0/maven-artifact-3.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.0.3/maven-resolver-spi-1.0.3.jar (36 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7/doxia-decoration-model-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.0.3/maven-resolver-util-1.0.3.jar (159 kB at 359 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7/doxia-site-renderer-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.12/wagon-provider-api-2.12.jar (55 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7/doxia-skin-model-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.0.3/maven-resolver-impl-1.0.3.jar (184 kB at 406 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.0/maven-artifact-3.5.0.jar (55 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.4/maven-doxia-tools-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.7/doxia-decoration-model-1.7.jar (60 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.7/doxia-skin-model-1.7.jar (16 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.jar (39 kB at 78 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.7/doxia-site-renderer-1.7.jar (62 kB at 126 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.4/maven-doxia-tools-1.4.jar (45 kB at 91 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.7.1/plexus-container-default-1.7.1.jar (231 kB at 449 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar (148 kB at 275 kB/s)
+[INFO] 
+[INFO] <<< findbugs:3.0.5:check (default) < :findbugs @ junit-quickcheck-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- findbugs:3.0.5:check (default) @ junit-quickcheck-core ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ junit-quickcheck-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/pom.xml to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-core/0.9-SNAPSHOT/junit-quickcheck-core-0.9-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/junit-quickcheck-core-0.9-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-core/0.9-SNAPSHOT/junit-quickcheck-core-0.9-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/core/target/junit-quickcheck-core-0.9-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-core/0.9-SNAPSHOT/junit-quickcheck-core-0.9-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --------------< com.pholser:junit-quickcheck-generators >---------------
+[INFO] Building junit-quickcheck-generators 0.9-SNAPSHOT                  [3/4]
+[INFO]   from generators/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/somatik/serviceloader-maven-plugin/serviceloader-maven-plugin/1.0.7/serviceloader-maven-plugin-1.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/somatik/serviceloader-maven-plugin/serviceloader-maven-plugin/1.0.7/serviceloader-maven-plugin-1.0.7.pom (12 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/somatik/serviceloader-maven-plugin/serviceloader-maven-plugin/1.0.7/serviceloader-maven-plugin-1.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/somatik/serviceloader-maven-plugin/serviceloader-maven-plugin/1.0.7/serviceloader-maven-plugin-1.0.7.jar (13 kB at 82 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck-generators ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (default-prepare-agent) @ junit-quickcheck-generators ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-quickcheck-generators ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ junit-quickcheck-generators ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 77 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/main/java/com/pholser/junit/quickcheck/generator/java/lang/BooleanGenerator.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/main/java/com/pholser/junit/quickcheck/generator/java/lang/BooleanGenerator.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/main/java/com/pholser/junit/quickcheck/generator/java/lang/BooleanGenerator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- checkstyle:2.17:check (default) @ junit-quickcheck-generators ---
+[INFO] 
+[INFO] >>> pmd:3.6:cpd-check (default) > :cpd @ junit-quickcheck-generators >>>
+[INFO] 
+[INFO] --- pmd:3.6:cpd (cpd) @ junit-quickcheck-generators ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:3.6:cpd-check (default) < :cpd @ junit-quickcheck-generators <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.6:cpd-check (default) @ junit-quickcheck-generators ---
+[INFO] 
+[INFO] 
+[INFO] --- serviceloader:1.0.7:generate (default) @ junit-quickcheck-generators ---
+[INFO] Scanning generated classes for implementations...
+[INFO] Generating service file /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.ArrayListGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.HashSetGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.LocaleGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.LinkedListGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.StackGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.OptionalDoubleGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.DateGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.LinkedHashMapGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.OptionalLongGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.TimeZoneGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.FunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.UnaryOperatorGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToIntBiFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.PredicateGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.BinaryOperatorGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.BiPredicateGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToIntFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToDoubleFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToLongBiFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.BiFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.IntFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToLongFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.DoubleFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.SupplierGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.LongFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.function.ToDoubleBiFunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.BitSetGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.OptionalIntGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.HashMapGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.VectorGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.PropertiesGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.OptionalGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.concurrent.CallableGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.RFC4122$Version4
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.HashtableGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.IdentityHashMapGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.LinkedHashSetGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.RFC4122$Version3
+[INFO]   + com.pholser.junit.quickcheck.generator.java.util.RFC4122$Version5
+[INFO]   + com.pholser.junit.quickcheck.generator.java.math.BigDecimalGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.math.BigIntegerGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.ZonedDateTimeGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.LocalDateGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.OffsetTimeGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.ZoneIdGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.PeriodGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.YearMonthGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.InstantGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.LocalDateTimeGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.OffsetDateTimeGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.DurationGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.YearGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.ClockGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.ZoneOffsetGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.LocalTimeGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.time.MonthDayGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.ShortGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.CharacterGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.DoubleGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.IntegerGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.StringGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.LongGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.FloatGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.ByteGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.Encoded
+[INFO]   + com.pholser.junit.quickcheck.generator.java.lang.BooleanGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.java.nio.charset.CharsetGenerator
+[INFO]   + com.pholser.junit.quickcheck.generator.VoidGenerator
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-quickcheck-generators ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ junit-quickcheck-generators ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 161 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/test/java/com/pholser/junit/quickcheck/PrimitivePropertyParameterTypesTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/test/java/com/pholser/junit/quickcheck/PrimitivePropertyParameterTypesTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/src/test/java/com/pholser/junit/quickcheck/PrimitivePropertyParameterTypesTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ junit-quickcheck-generators ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:report (default-report) @ junit-quickcheck-generators ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ junit-quickcheck-generators ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/junit-quickcheck-generators-0.9-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:2.6:test-jar (default) @ junit-quickcheck-generators ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/junit-quickcheck-generators-0.9-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] >>> findbugs:3.0.5:check (default) > :findbugs @ junit-quickcheck-generators >>>
+[INFO] 
+[INFO] --- findbugs:3.0.5:findbugs (findbugs) @ junit-quickcheck-generators ---
+[INFO] 
+[INFO] <<< findbugs:3.0.5:check (default) < :findbugs @ junit-quickcheck-generators <<<
+[INFO] 
+[INFO] 
+[INFO] --- findbugs:3.0.5:check (default) @ junit-quickcheck-generators ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ junit-quickcheck-generators ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/pom.xml to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-generators/0.9-SNAPSHOT/junit-quickcheck-generators-0.9-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/junit-quickcheck-generators-0.9-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-generators/0.9-SNAPSHOT/junit-quickcheck-generators-0.9-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/generators/target/junit-quickcheck-generators-0.9-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-generators/0.9-SNAPSHOT/junit-quickcheck-generators-0.9-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------< com.pholser:junit-quickcheck-guava >-----------------
+[INFO] Building junit-quickcheck-guava 0.9-SNAPSHOT                       [4/4]
+[INFO]   from guava/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck-guava ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (default-prepare-agent) @ junit-quickcheck-guava ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ junit-quickcheck-guava ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/classes
+[INFO] 
+[INFO] --- checkstyle:2.17:check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] >>> pmd:3.6:cpd-check (default) > :cpd @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- pmd:3.6:cpd (cpd) @ junit-quickcheck-guava ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:3.6:cpd-check (default) < :cpd @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.6:cpd-check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] 
+[INFO] --- serviceloader:1.0.7:generate (default) @ junit-quickcheck-guava ---
+[INFO] Scanning generated classes for implementations...
+[INFO] Generating service file /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.FunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.PredicateGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.OptionalGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.SupplierGenerator
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ junit-quickcheck-guava ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ junit-quickcheck-guava ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:report (default-report) @ junit-quickcheck-guava ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ junit-quickcheck-guava ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/junit-quickcheck-guava-0.9-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:2.6:test-jar (default) @ junit-quickcheck-guava ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/junit-quickcheck-guava-0.9-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] >>> findbugs:3.0.5:check (default) > :findbugs @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- findbugs:3.0.5:findbugs (findbugs) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] <<< findbugs:3.0.5:check (default) < :findbugs @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- findbugs:3.0.5:check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ junit-quickcheck-guava ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/pom.xml to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-guava/0.9-SNAPSHOT/junit-quickcheck-guava-0.9-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/junit-quickcheck-guava-0.9-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-guava/0.9-SNAPSHOT/junit-quickcheck-guava-0.9-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/junit-quickcheck-guava-0.9-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/com/pholser/junit-quickcheck-guava/0.9-SNAPSHOT/junit-quickcheck-guava-0.9-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for junit-quickcheck 0.9-SNAPSHOT:
+[INFO] 
+[INFO] junit-quickcheck ................................... SUCCESS [  0.638 s]
+[INFO] junit-quickcheck-core .............................. SUCCESS [ 18.461 s]
+[INFO] junit-quickcheck-generators ........................ SUCCESS [  2.954 s]
+[INFO] junit-quickcheck-guava ............................. SUCCESS [  0.313 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.554 s
+[INFO] Finished at: 2026-10-09T21:10:01-05:00
+[INFO] ------------------------------------------------------------------------

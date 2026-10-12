@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.intel.jndn.utils:jndn-utils >-------------------
+[INFO] Building jndn-utils 1.1.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ jndn-utils >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jndn-utils ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ jndn-utils ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jndn-utils ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ jndn-utils ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ jndn-utils <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ jndn-utils ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.intel.jndn.utils:jndn-utils:1.1.1 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 109 tests. Time taken: 0.5369999408721924 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/.dtfixingtools/original-order
+[INFO] Getting original results (109 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (27.4 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (27.4 seconds elapsed (57.0 total), 41.1 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (57.0 seconds elapsed (89.4 total), 38.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (89.4 seconds elapsed (119.4 total), 22.3 seconds remaining).
+Verified com.intel.jndn.utils.pubsub.NdnPublisherTest.basicUsage, status: expected PASS, got PASS
+Verified com.intel.jndn.utils.pubsub.NdnPublisherTest.basicUsage, status: expected ERROR, got PASS
+[INFO] Found 0 tests in round 5 of 5 (119.4 seconds elapsed (227.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/intel__jndn-utils__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:24 min
+[INFO] Finished at: 2026-10-11T19:26:10-05:00
+[INFO] ------------------------------------------------------------------------

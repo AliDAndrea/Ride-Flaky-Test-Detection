@@ -1,0 +1,139 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent                                                             [pom]
+[INFO] cat-client                                                         [jar]
+[INFO] 
+[INFO] ----------------------< com.dianping.cat:parent >-----------------------
+[INFO] Building parent 4.0-RC1                                            [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ parent ---
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/pom.xml to /Users/shivamsingh/.m2/repository/com/dianping/cat/parent/4.0-RC1/parent-4.0-RC1.pom
+[INFO] 
+[INFO] --------------------< com.dianping.cat:cat-client >---------------------
+[INFO] Building cat-client 4.0-RC1                                        [2/2]
+[INFO]   from cat-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.9/maven-surefire-plugin-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.9/maven-surefire-plugin-2.9.pom (9.6 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.9/surefire-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.9/surefire-2.9.pom (12 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.9/maven-surefire-plugin-2.9.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.9/maven-surefire-plugin-2.9.jar (30 kB at 348 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.pom (13 kB at 303 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.3.0/maven-shade-plugin-3.3.0.jar (141 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.pom (27 kB at 633 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/github/wangzihaogithub/spring-boot-protocol/2.2.9/spring-boot-protocol-2.2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/github/wangzihaogithub/spring-boot-protocol/2.2.9/spring-boot-protocol-2.2.9.pom (22 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar (4.1 MB at 17 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/com/github/wangzihaogithub/spring-boot-protocol/2.2.9/spring-boot-protocol-2.2.9.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/com/github/wangzihaogithub/spring-boot-protocol/2.2.9/spring-boot-protocol-2.2.9.jar (1.2 MB at 4.9 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cat-client ---
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ cat-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 140 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cat-client ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ cat-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.9:test (default-test) @ cat-client ---
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit47/2.9/surefire-junit47-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit47/2.9/surefire-junit47-2.9.pom (3.0 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.9/surefire-providers-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.9/surefire-providers-2.9.pom (2.3 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.9/surefire-api-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.9/surefire-api-2.9.pom (2.3 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.9/surefire-booter-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.9/surefire-booter-2.9.pom (3.0 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.9/maven-surefire-common-2.9.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.9/maven-surefire-common-2.9.pom (4.0 kB at 8.1 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit47/2.9/surefire-junit47-2.9.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit47/2.9/surefire-junit47-2.9.jar (46 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.9/surefire-api-2.9.jar
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.9/surefire-booter-2.9.jar
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.9/maven-surefire-common-2.9.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.9/surefire-api-2.9.jar (159 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.9/surefire-booter-2.9.jar (33 kB at 155 kB/s)
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.9/maven-surefire-common-2.9.jar (61 kB at 269 kB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ cat-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1.jar
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ cat-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1-sources.jar
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ cat-client ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- shade:3.3.0:shade (default) @ cat-client ---
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.pom
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.pom (14 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo1.maven.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.jar
+[INFO] Downloaded from central: https://repo1.maven.org/maven2/org/vafer/jdependency/2.7.0/jdependency-2.7.0.jar (233 kB at 3.0 MB/s)
+[INFO] Including io.netty:netty-all:jar:4.1.42.Final in the shaded jar.
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final-sources.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final-sources.jar (3.2 MB at 8.2 MB/s)
+[INFO] Minimizing jar com.dianping.cat:cat-client:jar:4.0-RC1
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/classes (Is a directory)
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/pom.xml
+[WARNING] cat-client-4.0-RC1.jar, netty-all-4.1.42.Final.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 2912 -> 947 (32%)
+[WARNING] cat-client-4.0-RC1-sources.jar, netty-all-4.1.42.Final-sources.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] maven-shade-plugin has detected that some class files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the class is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Minimized 4981 -> 3016 (60%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1.jar with /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1-shaded.jar
+[INFO] Replacing original source artifact with shaded source artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1-sources.jar with /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1-shaded-sources.jar
+[WARNING] artifact com.dianping.cat:cat-client:java-source:sources:4.0-RC1 already attached, replace previous instance
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ cat-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/pom.xml to /Users/shivamsingh/.m2/repository/com/dianping/cat/cat-client/4.0-RC1/cat-client-4.0-RC1.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1.jar to /Users/shivamsingh/.m2/repository/com/dianping/cat/cat-client/4.0-RC1/cat-client-4.0-RC1.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/cat-client-4.0-RC1-sources.jar to /Users/shivamsingh/.m2/repository/com/dianping/cat/cat-client/4.0-RC1/cat-client-4.0-RC1-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent 4.0-RC1:
+[INFO] 
+[INFO] parent ............................................. SUCCESS [  4.246 s]
+[INFO] cat-client ......................................... SUCCESS [ 21.203 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.850 s
+[INFO] Finished at: 2026-10-11T18:24:37-05:00
+[INFO] ------------------------------------------------------------------------

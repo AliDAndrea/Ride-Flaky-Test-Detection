@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< cern.c2mon.daq:c2mon-daq-core >--------------------
+[INFO] Building c2mon-daq-core 1.8.40-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ c2mon-daq-core >>>
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-daq-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-daq-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-daq-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-daq-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ c2mon-daq-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ c2mon-daq-core ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-daq@c2mon-daq-core/c2mon-daq/c2mon-daq-core/.flakesync/clean_ip6xrmFpkvGzNAe6uYRFl1yfD6wcAmdBnCIs43vGh9g=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.daq.filter.dynamic.DiffTimeDeadbandActivatorTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.157 sec <<< FAILURE!
+
+Results :
+
+Tests in error: 
+  cern.c2mon.daq.filter.dynamic.DiffTimeDeadbandActivatorTest: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "cern/c2mon/shared/common/ConfigurationException"
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_ip6xrmFpkvGzNAe6uYRFl1yfD6wcAmdBnCIs43vGh9g= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.004 s
+[INFO] Finished at: 2026-10-11T19:05:20-05:00
+[INFO] ------------------------------------------------------------------------

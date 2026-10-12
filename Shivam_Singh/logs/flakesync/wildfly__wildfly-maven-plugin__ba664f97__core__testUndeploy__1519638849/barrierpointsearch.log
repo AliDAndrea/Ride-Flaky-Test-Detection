@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.wildfly.plugins:wildfly-plugin-core >---------------
+[INFO] Building WildFly Plugin Core Utilities 3.0.0.Alpha3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) > test-compile @ wildfly-plugin-core >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-java-version) @ wildfly-plugin-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-version) @ wildfly-plugin-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ wildfly-plugin-core ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core
+[INFO] Storing buildNumber: ba664f977f4a20771eb7aab979164b2fb639a240 at timestamp: 1791765069564
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ wildfly-plugin-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1-jboss-2:compile (default-compile) @ wildfly-plugin-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:3.1.1:checkstyle (check-style) @ wildfly-plugin-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ wildfly-plugin-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wildfly__wildfly-maven-plugin__ba664f97__core/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1-jboss-2:testCompile (default-testCompile) @ wildfly-plugin-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) < test-compile @ wildfly-plugin-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) @ wildfly-plugin-core ---
+INFO: Running BarrierPointSearchMojo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.954 s
+[INFO] Finished at: 2026-10-11T19:31:13-05:00
+[INFO] ------------------------------------------------------------------------

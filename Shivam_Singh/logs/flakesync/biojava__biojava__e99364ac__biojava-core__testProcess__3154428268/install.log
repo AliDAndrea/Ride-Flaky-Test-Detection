@@ -1,0 +1,77 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 2 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] biojava                                                            [pom]
+[INFO] biojava-core                                                       [jar]
+[INFO] 
+[INFO] ------------------------< org.biojava:biojava >-------------------------
+[INFO] Building biojava 6.0.0-SNAPSHOT                                    [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-java) @ biojava ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ biojava ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.0.0-M1:install (default-install) @ biojava ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/pom.xml to /Users/shivamsingh/.m2/repository/org/biojava/biojava/6.0.0-SNAPSHOT/biojava-6.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------------------< org.biojava:biojava-core >----------------------
+[INFO] Building biojava-core 6.0.0-SNAPSHOT                               [2/2]
+[INFO]   from biojava-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-java) @ biojava-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ biojava-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ biojava-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ biojava-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 187 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/main/java/org/biojava/nbio/core/sequence/template/Sequence.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/main/java/org/biojava/nbio/core/sequence/template/Sequence.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ biojava-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 46 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ biojava-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/test/java/org/biojava/nbio/core/sequence/views/WindowViewTests.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/test/java/org/biojava/nbio/core/sequence/views/WindowViewTests.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/test/java/org/biojava/nbio/core/search/io/HspTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/test/java/org/biojava/nbio/core/search/io/HspTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/src/test/java/org/biojava/nbio/core/search/io/HspTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.0.0-M3:test (default-test) @ biojava-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.1.2:jar (default-jar) @ biojava-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/target/biojava-core-6.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.0.0-M1:install (default-install) @ biojava-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/target/biojava-core-6.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/biojava__biojava__e99364ac__biojava-core/biojava-core/pom.xml to /Users/shivamsingh/.m2/repository/org/biojava/biojava-core/6.0.0-SNAPSHOT/biojava-core-6.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for biojava 6.0.0-SNAPSHOT:
+[INFO] 
+[INFO] biojava ............................................ SUCCESS [  0.618 s]
+[INFO] biojava-core ....................................... SUCCESS [ 10.992 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.479 s
+[INFO] Finished at: 2026-10-11T20:31:18-05:00
+[INFO] ------------------------------------------------------------------------

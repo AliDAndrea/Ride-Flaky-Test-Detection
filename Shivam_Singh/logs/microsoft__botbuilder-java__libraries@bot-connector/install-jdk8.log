@@ -1,0 +1,321 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Microsoft BotBuilder Java SDK Parent                               [pom]
+[INFO] com.microsoft.bot:bot-schema                                       [jar]
+[INFO] com.microsoft.bot:bot-connector                                    [jar]
+[INFO] 
+[INFO] ---------------------< com.microsoft.bot:bot-java >---------------------
+[INFO] Building Microsoft BotBuilder Java SDK Parent 4.15.0-SNAPSHOT      [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.14.0/maven-pmd-plugin-3.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.14.0/maven-pmd-plugin-3.14.0.pom (13 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.14.0/maven-pmd-plugin-3.14.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pmd-plugin/3.14.0/maven-pmd-plugin-3.14.0.jar (140 kB at 1.4 MB/s)
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-java >>>
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-java ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/6.29.0/pmd-core-6.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/6.29.0/pmd-core-6.29.0.pom (8.6 kB at 149 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd/6.29.0/pmd-6.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd/6.29.0/pmd-6.29.0.pom (47 kB at 909 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.0-beta/asm-9.0-beta.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.0-beta/asm-9.0-beta.pom (2.7 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/6.29.0/pmd-java-6.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/6.29.0/pmd-java-6.29.0.pom (8.8 kB at 196 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/6.29.0/pmd-javascript-6.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/6.29.0/pmd-javascript-6.29.0.pom (3.9 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/6.29.0/pmd-jsp-6.29.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/6.29.0/pmd-jsp-6.29.0.pom (3.7 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/6.29.0/pmd-core-6.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-core/6.29.0/pmd-core-6.29.0.jar (1.2 MB at 5.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.0-beta/asm-9.0-beta.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/6.29.0/pmd-java-6.29.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/6.29.0/pmd-javascript-6.29.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/6.29.0/pmd-jsp-6.29.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-javascript/6.29.0/pmd-javascript-6.29.0.jar (134 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.0-beta/asm-9.0-beta.jar (122 kB at 210 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-jsp/6.29.0/pmd-jsp-6.29.0.jar (101 kB at 178 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/pmd/pmd-java/6.29.0/pmd-java-6.29.0.jar (1.1 MB at 1.1 MB/s)
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-java ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-java ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-java ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] >>> source:3.1.0:jar (attach-sources) > generate-sources @ bot-java >>>
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-java >>>
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-java ---
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-java ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-java ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-java ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.1.0:jar (attach-sources) < generate-sources @ bot-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.1.0:jar (attach-sources) @ bot-java ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (default-report) @ bot-java ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ bot-java ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/pom.xml to /Users/shivamsingh/.m2/repository/com/microsoft/bot/bot-java/4.15.0-SNAPSHOT/bot-java-4.15.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< com.microsoft.bot:bot-schema >--------------------
+[INFO] Building com.microsoft.bot:bot-schema 4.15.0-SNAPSHOT              [2/3]
+[INFO]   from libraries/bot-schema/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.1/maven-jar-plugin-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.1/maven-jar-plugin-2.1.pom (2.1 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/3/maven-plugins-3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/3/maven-plugins-3.pom (6.5 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.1/maven-jar-plugin-2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.1/maven-jar-plugin-2.1.jar (19 kB at 160 kB/s)
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-schema >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.1/jackson-module-parameter-names-2.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.1/jackson-module-parameter-names-2.12.1.jar (9.4 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.1/jackson-datatype-jdk8-2.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.1/jackson-datatype-jdk8-2.12.1.jar (34 kB at 410 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar (120 kB at 1.4 MB/s)
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-schema ---
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-schema <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-schema ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-schema ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-schema ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bot-schema ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ bot-schema ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 165 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/src/main/java/com/microsoft/bot/schema/Activity.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/src/main/java/com/microsoft/bot/schema/Activity.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/src/main/java/com/microsoft/bot/schema/Activity.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bot-schema ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ bot-schema ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ bot-schema ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.1:jar (default-jar) @ bot-schema ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/target/bot-schema-4.15.0-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.1.0:jar (attach-sources) > generate-sources @ bot-schema >>>
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-schema >>>
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-schema ---
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-schema <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-schema ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-schema ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-schema ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.1.0:jar (attach-sources) < generate-sources @ bot-schema <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.1.0:jar (attach-sources) @ bot-schema ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (default-report) @ bot-schema ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ bot-schema ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/pom.xml to /Users/shivamsingh/.m2/repository/com/microsoft/bot/bot-schema/4.15.0-SNAPSHOT/bot-schema-4.15.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-schema/target/bot-schema-4.15.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/microsoft/bot/bot-schema/4.15.0-SNAPSHOT/bot-schema-4.15.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< com.microsoft.bot:bot-connector >-------------------
+[INFO] Building com.microsoft.bot:bot-connector 4.15.0-SNAPSHOT           [3/3]
+[INFO]   from libraries/bot-connector/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-connector >>>
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.pom (2.5 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.pom (11 kB at 251 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.20/byte-buddy-parent-1.10.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.20/byte-buddy-parent-1.10.20.pom (41 kB at 799 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.pom (9.6 kB at 191 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.12.2/okhttp-3.12.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.12.2/okhttp-3.12.2.pom (2.5 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.12.2/parent-3.12.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.12.2/parent-3.12.2.pom (21 kB at 433 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.5.0/converter-jackson-2.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.5.0/converter-jackson-2.5.0.pom (1.9 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.5.0/retrofit-converters-2.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.5.0/retrofit-converters-2.5.0.pom (876 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.12.2/logging-interceptor-3.12.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.12.2/logging-interceptor-3.12.2.pom (2.0 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.12.2/okhttp-urlconnection-3.12.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.12.2/okhttp-urlconnection-3.12.2.pom (2.7 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom (2.2 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/msal4j/1.10.1/msal4j-1.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/msal4j/1.10.1/msal4j-1.10.1.pom (10 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.7/oauth2-oidc-sdk-9.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.7/oauth2-oidc-sdk-9.7.pom (12 kB at 194 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.pom (8.9 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.7/json-smart-2.4.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.7/json-smart-2.4.7.pom (8.2 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.pom (9.9 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom (9.2 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.pom (12 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.13.0/java-jwt-3.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.13.0/java-jwt-3.13.0.pom (1.8 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.15.0/jwks-rsa-0.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.15.0/jwks-rsa-0.15.0.pom (2.0 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.8.0/mockito-core-3.8.0.jar (666 kB at 4.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.5.0/converter-jackson-2.5.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.12.2/okhttp-3.12.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar (89 kB at 799 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.12.2/logging-interceptor-3.12.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.12.2/okhttp-3.12.2.jar (423 kB at 3.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.12.2/okhttp-urlconnection-3.12.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.20/byte-buddy-agent-1.10.20.jar (259 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.12.2/logging-interceptor-3.12.2.jar (12 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/msal4j/1.10.1/msal4j-1.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.12.2/okhttp-urlconnection-3.12.2.jar (34 kB at 182 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.7/oauth2-oidc-sdk-9.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.jar (18 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.5.0/converter-jackson-2.5.0.jar (5.7 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/azure/msal4j/1.10.1/msal4j-1.10.1.jar (280 kB at 885 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.7/oauth2-oidc-sdk-9.7.jar (661 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.jar (8.0 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar (29 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.13.0/java-jwt-3.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar (119 kB at 317 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.15.0/jwks-rsa-0.15.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.20/byte-buddy-1.10.20.jar (3.5 MB at 8.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar (11 kB at 27 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.13.0/java-jwt-3.13.0.jar (56 kB at 135 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/jwks-rsa/0.15.0/jwks-rsa-0.15.0.jar (16 kB at 33 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.9.3/nimbus-jose-jwt-9.9.3.jar (640 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-connector ---
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-connector <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-connector ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-connector ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-connector ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bot-connector ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ bot-connector ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 113 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/src/main/java/com/microsoft/bot/restclient/serializer/JacksonAdapter.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/src/main/java/com/microsoft/bot/restclient/serializer/JacksonAdapter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bot-connector ---
+[INFO] Copying 57 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ bot-connector ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 45 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ bot-connector ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.1:jar (default-jar) @ bot-connector ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/target/bot-connector-4.15.0-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.1.0:jar (attach-sources) > generate-sources @ bot-connector >>>
+[INFO] 
+[INFO] >>> pmd:3.14.0:check (default) > :pmd @ bot-connector >>>
+[INFO] 
+[INFO] --- pmd:3.14.0:pmd (pmd) @ bot-connector ---
+[INFO] 
+[INFO] <<< pmd:3.14.0:check (default) < :pmd @ bot-connector <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.14.0:check (default) @ bot-connector ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (validate) @ bot-connector ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default-prepare-agent) @ bot-connector ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.1.0:jar (attach-sources) < generate-sources @ bot-connector <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.1.0:jar (attach-sources) @ bot-connector ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (default-report) @ bot-connector ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ bot-connector ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/pom.xml to /Users/shivamsingh/.m2/repository/com/microsoft/bot/bot-connector/4.15.0-SNAPSHOT/bot-connector-4.15.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/microsoft__botbuilder-java__libraries@bot-connector/libraries/bot-connector/target/bot-connector-4.15.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/microsoft/bot/bot-connector/4.15.0-SNAPSHOT/bot-connector-4.15.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Microsoft BotBuilder Java SDK Parent 4.15.0-SNAPSHOT:
+[INFO] 
+[INFO] Microsoft BotBuilder Java SDK Parent ............... SUCCESS [  9.248 s]
+[INFO] com.microsoft.bot:bot-schema ....................... SUCCESS [ 15.920 s]
+[INFO] com.microsoft.bot:bot-connector .................... SUCCESS [ 17.722 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.644 s
+[INFO] Finished at: 2026-10-11T19:47:54-05:00
+[INFO] ------------------------------------------------------------------------

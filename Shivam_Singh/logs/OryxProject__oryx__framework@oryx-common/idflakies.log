@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.cloudera.oryx:oryx-common >--------------------
+[INFO] Building Common 2.9.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ oryx-common >>>
+[INFO] 
+[INFO] --- checkstyle:3.1.1:check (validate) @ oryx-common ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce) @ oryx-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ oryx-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oryx-common ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ oryx-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oryx-common ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/target/test-classes
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ oryx-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ oryx-common ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.cloudera.oryx:oryx-common:2.9.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 92 tests. Time taken: 0.5099999904632568 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/.dtfixingtools/original-order
+[INFO] Getting original results (92 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (29.5 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (29.5 seconds elapsed (58.7 total), 44.2 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (58.7 seconds elapsed (88.1 total), 39.1 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (88.1 seconds elapsed (116.8 total), 22.0 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (116.8 seconds elapsed (146.1 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/OryxProject__oryx__framework@oryx-common/framework/oryx-common/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:08 min
+[INFO] Finished at: 2026-10-11T19:43:58-05:00
+[INFO] ------------------------------------------------------------------------

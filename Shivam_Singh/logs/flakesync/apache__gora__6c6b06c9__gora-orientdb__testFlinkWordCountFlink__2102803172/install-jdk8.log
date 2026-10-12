@@ -1,0 +1,712 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Gora                                                        [pom]
+[INFO] Apache Gora :: Core                                             [bundle]
+[INFO] Apache Gora :: OrientDB                                         [bundle]
+[INFO] 
+[INFO] ------------------------< org.apache.gora:gora >------------------------
+[INFO] Building Apache Gora 1.0-SNAPSHOT                                  [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- site:3.9.1:attach-descriptor (attach-descriptor) @ gora ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- dependency:2.9:copy-dependencies (copy) @ gora ---
+[INFO] 
+[INFO] --- forbiddenapis:2.0:check (default) @ gora ---
+[INFO] Skipping execution for packaging "pom"
+[INFO] 
+[INFO] --- forbiddenapis:2.0:testCheck (default) @ gora ---
+[INFO] Skipping execution for packaging "pom"
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ gora ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/gora/gora/1.0-SNAPSHOT/gora-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< org.apache.gora:gora-core >----------------------
+[INFO] Building Apache Gora :: Core 1.0-SNAPSHOT                          [2/3]
+[INFO]   from gora-core/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora-core ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gora-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ gora-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 101 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/target/classes
+[INFO] 
+[INFO] --- build-helper:1.7:add-test-source (default) @ gora-core ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/src/examples/java added.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gora-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 41 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ gora-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.5.3:bundle (default-bundle) @ gora-core ---
+[INFO] 
+[INFO] --- site:3.9.1:attach-descriptor (attach-descriptor) @ gora-core ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] --- dependency:2.9:copy-dependencies (copy) @ gora-core ---
+[INFO] Copying flink-metrics-core-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-metrics-core-1.6.2.jar
+[INFO] Copying commons-el-1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-el-1.0.jar
+[INFO] Copying protobuf-java-2.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/protobuf-java-2.5.0.jar
+[INFO] Copying jul-to-slf4j-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jul-to-slf4j-1.6.6.jar
+[INFO] Copying lz4-java-1.4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/lz4-java-1.4.0.jar
+[INFO] Copying jasper-compiler-5.5.23.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jasper-compiler-5.5.23.jar
+[INFO] Copying jersey-json-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-json-1.9.jar
+[INFO] Copying flink-queryable-state-client-java_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-queryable-state-client-java_2.11-1.6.2.jar
+[INFO] Copying hadoop-mapreduce-client-jobclient-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-jobclient-2.5.2-tests.jar
+[INFO] Copying akka-protobuf_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/akka-protobuf_2.11-2.4.20.jar
+[INFO] Copying minlog-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/minlog-1.2.jar
+[INFO] Copying akka-stream_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/akka-stream_2.11-2.4.20.jar
+[INFO] Copying hadoop-minicluster-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-minicluster-2.5.2.jar
+[INFO] Copying flink-runtime_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-runtime_2.11-1.6.2.jar
+[INFO] Copying jersey-guava-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-guava-2.22.2.jar
+[INFO] Copying flink-optimizer_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-optimizer_2.11-1.6.2.jar
+[INFO] Copying jackson-module-scala_2.11-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-module-scala_2.11-2.12.1.jar
+[INFO] Copying commons-crypto-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-crypto-1.0.0.jar
+[INFO] Copying config-1.3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/config-1.3.0.jar
+[INFO] Copying hadoop-auth-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-auth-2.5.2.jar
+[INFO] Copying commons-logging-1.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-logging-1.1.1.jar
+[INFO] Copying commons-beanutils-1.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-beanutils-1.6.jar
+[INFO] Copying jackson-jaxrs-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-jaxrs-1.9.13.jar
+[INFO] Copying jersey-core-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-core-1.9.jar
+[INFO] Copying jersey-common-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-common-2.22.2.jar
+[INFO] Copying spark-network-common_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-network-common_2.11-2.4.8.jar
+[INFO] Copying scala-java8-compat_2.11-0.7.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/scala-java8-compat_2.11-0.7.0.jar
+[INFO] Copying hadoop-mapreduce-client-shuffle-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-shuffle-2.5.2.jar
+[INFO] Copying commons-net-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-net-3.1.jar
+[INFO] Copying jersey-server-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-server-2.22.2.jar
+[INFO] Copying chill_2.11-0.9.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/chill_2.11-0.9.3.jar
+[INFO] Copying commons-lang-2.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-lang-2.6.jar
+[INFO] Copying hadoop-yarn-server-applicationhistoryservice-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-applicationhistoryservice-2.5.2.jar
+[INFO] Copying spark-kvstore_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-kvstore_2.11-2.4.8.jar
+[INFO] Copying json4s-jackson_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/json4s-jackson_2.11-3.5.3.jar
+[INFO] Copying jsr311-api-1.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jsr311-api-1.1.1.jar
+[INFO] Copying xbean-asm6-shaded-4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/xbean-asm6-shaded-4.8.jar
+[INFO] Copying ivy-2.4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/ivy-2.4.0.jar
+[INFO] Copying log4j-1.2.16.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/log4j-1.2.16.jar
+[INFO] Copying force-shading-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/force-shading-1.6.2.jar
+[INFO] Copying reactive-streams-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/reactive-streams-1.0.0.jar
+[INFO] Copying osgi-resource-locator-1.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/osgi-resource-locator-1.0.1.jar
+[INFO] Copying metrics-graphite-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/metrics-graphite-3.1.5.jar
+[INFO] Copying slf4j-api-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/slf4j-api-1.6.6.jar
+[INFO] Copying jetty-6.1.26.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jetty-6.1.26.jar
+[INFO] Copying servlet-api-2.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/servlet-api-2.5.jar
+[INFO] Copying zstd-jni-1.4.4-3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/zstd-jni-1.4.4-3.jar
+[INFO] Copying json4s-scalap_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/json4s-scalap_2.11-3.5.3.jar
+[INFO] Copying javax.inject-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javax.inject-2.4.0-b34.jar
+[INFO] Copying jersey-container-servlet-core-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-container-servlet-core-2.22.2.jar
+[INFO] Copying jets3t-0.9.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jets3t-0.9.0.jar
+[INFO] Copying avro-mapred-1.8.2-hadoop2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/avro-mapred-1.8.2-hadoop2.jar
+[INFO] Copying hadoop-mapreduce-client-jobclient-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-jobclient-2.5.2.jar
+[INFO] Copying jettison-1.3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jettison-1.3.1.jar
+[INFO] Copying flink-avro-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-avro-1.6.2.jar
+[INFO] Copying avro-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/avro-1.8.2.jar
+[INFO] Copying apacheds-kerberos-codec-2.0.0-M15.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/apacheds-kerberos-codec-2.0.0-M15.jar
+[INFO] Copying flink-annotations-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-annotations-1.6.2.jar
+[INFO] Copying spring-expression-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-expression-3.0.6.RELEASE.jar
+[INFO] Copying hadoop-hdfs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-hdfs-2.5.2.jar
+[INFO] Copying cxf-rt-bindings-xml-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-rt-bindings-xml-2.5.2.jar
+[INFO] Copying jackson-mapper-asl-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-mapper-asl-1.9.13.jar
+[INFO] Copying javax.ws.rs-api-2.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javax.ws.rs-api-2.0.1.jar
+[INFO] Copying jsp-api-2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jsp-api-2.1.jar
+[INFO] Copying jersey-client-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-client-2.22.2.jar
+[INFO] Copying shims-0.7.45.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/shims-0.7.45.jar
+[INFO] Copying jersey-server-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-server-1.9.jar
+[INFO] Copying compress-lzf-1.0.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/compress-lzf-1.0.3.jar
+[INFO] Copying jcl-over-slf4j-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jcl-over-slf4j-1.6.6.jar
+[INFO] Copying spring-aop-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-aop-3.0.6.RELEASE.jar
+[INFO] Copying flink-shaded-jackson-2.7.9-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-shaded-jackson-2.7.9-4.0.jar
+[INFO] Copying commons-configuration-1.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-configuration-1.6.jar
+[INFO] Copying hadoop-annotations-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-annotations-2.5.2.jar
+[INFO] Copying apacheds-i18n-2.0.0-M15.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/apacheds-i18n-2.0.0-M15.jar
+[INFO] Copying scala-library-2.11.12.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/scala-library-2.11.12.jar
+[INFO] Copying commons-codec-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-codec-1.7.jar
+[INFO] Copying commons-cli-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-cli-1.2.jar
+[INFO] Copying hadoop-hdfs-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-hdfs-2.5.2-tests.jar
+[INFO] Copying objenesis-2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/objenesis-2.1.jar
+[INFO] Copying kryo-2.24.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/kryo-2.24.0.jar
+[INFO] Copying guava-13.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/guava-13.0.jar
+[INFO] Copying unused-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/unused-1.0.0.jar
+[INFO] Copying chill-java-0.9.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/chill-java-0.9.3.jar
+[INFO] Copying metrics-jvm-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/metrics-jvm-3.1.5.jar
+[INFO] Copying servlet-api-2.5-20081211.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/servlet-api-2.5-20081211.jar
+[INFO] Copying json4s-core_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/json4s-core_2.11-3.5.3.jar
+[INFO] Copying avro-mapred-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/avro-mapred-1.8.2.jar
+[INFO] Copying commons-collections-3.2.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-collections-3.2.2.jar
+[INFO] Copying hadoop-yarn-server-web-proxy-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-web-proxy-2.5.2.jar
+[INFO] Copying cxf-rt-core-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-rt-core-2.5.2.jar
+[INFO] Copying httpclient-4.5.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/httpclient-4.5.6.jar
+[INFO] Copying spring-asm-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-asm-3.0.6.RELEASE.jar
+[INFO] Copying pyrolite-4.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/pyrolite-4.13.jar
+[INFO] Copying akka-actor_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/akka-actor_2.11-2.4.20.jar
+[INFO] Copying akka-slf4j_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/akka-slf4j_2.11-2.4.20.jar
+[INFO] Copying hadoop-yarn-server-nodemanager-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-nodemanager-2.5.2.jar
+[INFO] Copying flink-shaded-asm-5.0.4-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-shaded-asm-5.0.4-4.0.jar
+[INFO] Copying spark-core_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-core_2.11-2.4.8.jar
+[INFO] Copying velocity-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/velocity-1.7.jar
+[INFO] Copying commons-httpclient-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-httpclient-3.1.jar
+[INFO] Copying jackson-annotations-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-annotations-2.12.1.jar
+[INFO] Copying hadoop-yarn-server-resourcemanager-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-resourcemanager-2.5.2.jar
+[INFO] Copying aopalliance-1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/aopalliance-1.0.jar
+[INFO] Copying hadoop-client-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-client-2.5.2.jar
+[INFO] Copying json4s-ast_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/json4s-ast_2.11-3.5.3.jar
+[INFO] Copying spring-context-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-context-3.0.6.RELEASE.jar
+[INFO] Copying netty-all-4.1.47.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/netty-all-4.1.47.Final.jar
+[INFO] Copying hadoop-common-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-common-2.5.2-tests.jar
+[INFO] Copying flink-clients_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-clients_2.11-1.6.2.jar
+[INFO] Copying commons-digester-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-digester-1.7.jar
+[INFO] Copying leveldbjni-all-1.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/leveldbjni-all-1.8.jar
+[INFO] Copying xz-1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/xz-1.5.jar
+[INFO] Copying hadoop-mapreduce-client-hs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-hs-2.5.2.jar
+[INFO] Copying cxf-common-utilities-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-common-utilities-2.5.2.jar
+[INFO] Copying guice-3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/guice-3.0.jar
+[INFO] Copying paranamer-2.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/paranamer-2.7.jar
+[INFO] Copying flink-hadoop-fs-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-hadoop-fs-1.6.2.jar
+[INFO] Copying commons-lang3-3.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-lang3-3.5.jar
+[INFO] Copying kryo-shaded-4.0.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/kryo-shaded-4.0.2.jar
+[INFO] Copying minlog-1.3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/minlog-1.3.0.jar
+[INFO] Copying flink-hadoop-compatibility_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-hadoop-compatibility_2.11-1.6.2.jar
+[INFO] Copying hadoop-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-common-2.5.2.jar
+[INFO] Copying snappy-java-1.1.1.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/snappy-java-1.1.1.3.jar
+[INFO] Copying jackson-core-asl-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-core-asl-1.9.13.jar
+[INFO] Copying validation-api-1.1.0.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/validation-api-1.1.0.Final.jar
+[INFO] Copying hadoop-yarn-client-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-client-2.5.2.jar
+[INFO] Copying jersey-guice-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-guice-1.9.jar
+[INFO] Copying jersey-client-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-client-1.9.jar
+[INFO] Copying jsr305-1.3.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jsr305-1.3.9.jar
+[INFO] Copying flink-java-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-java-1.6.2.jar
+[INFO] Copying jaxb-api-2.2.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jaxb-api-2.2.2.jar
+[INFO] Copying hk2-api-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hk2-api-2.4.0-b34.jar
+[INFO] Copying hadoop-mapreduce-client-core-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-core-2.5.2.jar
+[INFO] Copying activation-1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/activation-1.1.jar
+[INFO] Copying zookeeper-3.4.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/zookeeper-3.4.6.jar
+[INFO] Copying spring-beans-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-beans-3.0.6.RELEASE.jar
+[INFO] Copying asm-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/asm-3.1.jar
+[INFO] Copying woodstox-core-asl-4.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/woodstox-core-asl-4.1.1.jar
+[INFO] Copying flink-shaded-guava-18.0-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-shaded-guava-18.0-4.0.jar
+[INFO] Copying javax.inject-1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javax.inject-1.jar
+[INFO] Copying cxf-rt-transports-http-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-rt-transports-http-2.5.2.jar
+[INFO] Copying scala-xml_2.11-1.0.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/scala-xml_2.11-1.0.6.jar
+[INFO] Copying java-xmlbuilder-0.4.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/java-xmlbuilder-0.4.jar
+[INFO] Copying commons-beanutils-core-1.8.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-beanutils-core-1.8.0.jar
+[INFO] Copying javax.servlet-api-3.1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javax.servlet-api-3.1.0.jar
+[INFO] Copying cxf-rt-frontend-jaxrs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-rt-frontend-jaxrs-2.5.2.jar
+[INFO] Copying commons-math3-3.4.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-math3-3.4.1.jar
+[INFO] Copying stax-api-1.0-2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/stax-api-1.0-2.jar
+[INFO] Copying jackson-core-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-core-2.12.1.jar
+[INFO] Copying jackson-xc-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-xc-1.9.13.jar
+[INFO] Copying wsdl4j-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/wsdl4j-1.6.2.jar
+[INFO] Copying jsch-0.1.42.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jsch-0.1.42.jar
+[INFO] Copying hk2-utils-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hk2-utils-2.4.0-b34.jar
+[INFO] Copying aopalliance-repackaged-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/aopalliance-repackaged-2.4.0-b34.jar
+[INFO] Copying py4j-0.10.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/py4j-0.10.7.jar
+[INFO] Copying oro-2.0.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/oro-2.0.8.jar
+[INFO] Copying hadoop-mapreduce-client-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-common-2.5.2.jar
+[INFO] Copying stax2-api-3.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/stax2-api-3.1.1.jar
+[INFO] Copying curator-framework-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/curator-framework-2.6.0.jar
+[INFO] Copying hamcrest-core-1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hamcrest-core-1.1.jar
+[INFO] Copying jackson-databind-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jackson-databind-2.12.1.jar
+[INFO] Copying javassist-3.19.0-GA.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javassist-3.19.0-GA.jar
+[INFO] Copying commons-daemon-1.0.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-daemon-1.0.13.jar
+[INFO] Copying ssl-config-core_2.11-0.2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/ssl-config-core_2.11-0.2.1.jar
+[INFO] Copying spring-core-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-core-3.0.6.RELEASE.jar
+[INFO] Copying metrics-json-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/metrics-json-3.1.5.jar
+[INFO] Copying hadoop-yarn-api-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-api-2.5.2.jar
+[INFO] Copying commons-compress-1.4.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-compress-1.4.1.jar
+[INFO] Copying curator-recipes-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/curator-recipes-2.6.0.jar
+[INFO] Copying metrics-core-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/metrics-core-3.1.5.jar
+[INFO] Copying cxf-api-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-api-2.5.2.jar
+[INFO] Copying spring-web-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spring-web-3.0.6.RELEASE.jar
+[INFO] Copying hadoop-mapreduce-client-app-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-mapreduce-client-app-2.5.2.jar
+[INFO] Copying jetty-util-6.1.26.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jetty-util-6.1.26.jar
+[INFO] Copying geronimo-javamail_1.4_spec-1.7.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+[INFO] Copying hadoop-yarn-server-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-common-2.5.2.jar
+[INFO] Copying hadoop-yarn-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-common-2.5.2.jar
+[INFO] Copying netty-3.9.9.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/netty-3.9.9.Final.jar
+[INFO] Copying xmlenc-0.52.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/xmlenc-0.52.jar
+[INFO] Copying avro-ipc-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/avro-ipc-1.8.2.jar
+[INFO] Copying api-util-1.0.0-M20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/api-util-1.0.0-M20.jar
+[INFO] Copying jasper-runtime-5.5.23.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jasper-runtime-5.5.23.jar
+[INFO] Copying junit-4.10.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/junit-4.10.jar
+[INFO] Copying api-asn1-api-1.0.0-M20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/api-asn1-api-1.0.0-M20.jar
+[INFO] Copying stream-2.7.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/stream-2.7.0.jar
+[INFO] Copying cxf-rt-transports-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/cxf-rt-transports-common-2.5.2.jar
+[INFO] Copying commons-io-2.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/commons-io-2.5.jar
+[INFO] Copying curator-client-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/curator-client-2.6.0.jar
+[INFO] Copying jersey-container-servlet-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-container-servlet-2.22.2.jar
+[INFO] Copying grizzled-slf4j_2.11-1.0.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/grizzled-slf4j_2.11-1.0.2.jar
+[INFO] Copying hadoop-yarn-server-tests-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hadoop-yarn-server-tests-2.5.2-tests.jar
+[INFO] Copying jaxb-impl-2.1.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jaxb-impl-2.1.13.jar
+[INFO] Copying spark-unsafe_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-unsafe_2.11-2.4.8.jar
+[INFO] Copying RoaringBitmap-0.7.45.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/RoaringBitmap-0.7.45.jar
+[INFO] Copying scala-parser-combinators_2.11-1.0.4.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/scala-parser-combinators_2.11-1.0.4.jar
+[INFO] Copying neethi-3.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/neethi-3.0.1.jar
+[INFO] Copying spark-launcher_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-launcher_2.11-2.4.8.jar
+[INFO] Copying javax.annotation-api-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/javax.annotation-api-1.2.jar
+[INFO] Copying spark-tags_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-tags_2.11-2.4.8.jar
+[INFO] Copying slf4j-log4j12-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/slf4j-log4j12-1.6.6.jar
+[INFO] Copying xmlschema-core-2.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/xmlschema-core-2.0.1.jar
+[INFO] Copying jersey-media-jaxb-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/jersey-media-jaxb-2.22.2.jar
+[INFO] Copying scopt_2.11-3.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/scopt_2.11-3.5.0.jar
+[INFO] Copying spark-network-shuffle_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/spark-network-shuffle_2.11-2.4.8.jar
+[INFO] Copying hk2-locator-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/hk2-locator-2.4.0-b34.jar
+[INFO] Copying guice-servlet-3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/guice-servlet-3.0.jar
+[INFO] Copying flink-shaded-netty-4.1.24.Final-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-shaded-netty-4.1.24.Final-4.0.jar
+[INFO] Copying httpcore-4.1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/httpcore-4.1.2.jar
+[INFO] Copying flink-core-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/lib/flink-core-1.6.2.jar
+[INFO] 
+[INFO] --- jar:3.2.0:test-jar (default) @ gora-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/target/gora-core-1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- forbiddenapis:2.0:check (default) @ gora-core ---
+[INFO] Scanning for classes to check...
+[INFO] Reading bundled API signatures: jdk-unsafe-1.8
+[INFO] Reading bundled API signatures: jdk-deprecated-1.8
+[INFO] Reading bundled API signatures: jdk-system-out
+[INFO] Loading classes to check...
+[INFO] Scanning classes for violations...
+[INFO] Scanned 98 (and 428 related) class file(s) for forbidden API invocations (in 0.42s), 0 error(s).
+[INFO] 
+[INFO] --- forbiddenapis:2.0:testCheck (default) @ gora-core ---
+[INFO] Scanning for classes to check...
+[INFO] Reading bundled API signatures: jdk-unsafe-1.8
+[INFO] Reading bundled API signatures: jdk-deprecated-1.8
+[INFO] Reading bundled API signatures: jdk-system-out
+[INFO] Loading classes to check...
+[INFO] Scanning classes for violations...
+[INFO] Scanned 84 (and 413 related) class file(s) for forbidden API invocations (in 0.16s), 0 error(s).
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ gora-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/target/gora-core-1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/gora/gora-core/1.0-SNAPSHOT/gora-core-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/gora/gora-core/1.0-SNAPSHOT/gora-core-1.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-core/target/gora-core-1.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/apache/gora/gora-core/1.0-SNAPSHOT/gora-core-1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- bundle:2.5.3:install (default-install) @ gora-core ---
+[INFO] Installing org/apache/gora/gora-core/1.0-SNAPSHOT/gora-core-1.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -------------------< org.apache.gora:gora-orientdb >--------------------
+[INFO] Building Apache Gora :: OrientDB 1.0-SNAPSHOT                      [3/3]
+[INFO]   from gora-orientdb/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-server/3.0.30/orientdb-server-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-server/3.0.30/orientdb-server-3.0.30.pom (8.3 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-parent/3.0.30/orientdb-parent-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-parent/3.0.30/orientdb-parent-3.0.30.pom (32 kB at 368 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-client/3.0.30/orientdb-client-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-client/3.0.30/orientdb-client-3.0.30.pom (3.8 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-core/3.0.30/orientdb-core-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-core/3.0.30/orientdb-core-3.0.30.pom (15 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-tools/3.0.30/orientdb-tools-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-tools/3.0.30/orientdb-tools-3.0.30.pom (3.8 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-impl-2.3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-impl-2.3.0.1.pom (15 kB at 248 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.pom (16 kB at 311 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-graphdb/3.0.30/orientdb-graphdb-3.0.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-graphdb/3.0.30/orientdb-graphdb-3.0.30.pom (8.2 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints-core/2.6.0/blueprints-core-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints-core/2.6.0/blueprints-core-2.6.0.pom (3.6 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints/2.6.0/blueprints-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints/2.6.0/blueprints-2.6.0.pom (7.0 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.3/jettison-1.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.3/jettison-1.3.3.pom (4.3 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.6.0/hppc-0.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.6.0/hppc-0.6.0.pom (15 kB at 324 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc-parent/0.6.0/hppc-parent-0.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc-parent/0.6.0/hppc-parent-0.6.0.pom (10 kB at 238 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/raymanrt/orientqb/0.2.0/orientqb-0.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/raymanrt/orientqb/0.2.0/orientqb-0.2.0.pom (3.4 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-server/3.0.30/orientdb-server-3.0.30.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-server/3.0.30/orientdb-server-3.0.30.jar (578 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-tools/3.0.30/orientdb-tools-3.0.30.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-impl-2.3.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-core/3.0.30/orientdb-core-3.0.30.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-graphdb/3.0.30/orientdb-graphdb-3.0.30.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-core-2.3.0.1.jar (255 kB at 601 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-tools/3.0.30/orientdb-tools-3.0.30.jar (124 kB at 285 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints-core/2.6.0/blueprints-core-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.6.0/hppc-0.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-impl-2.3.0.1.jar (961 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-client/3.0.30/orientdb-client-3.0.30.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-graphdb/3.0.30/orientdb-graphdb-3.0.30.jar (358 kB at 742 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/raymanrt/orientqb/0.2.0/orientqb-0.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-core/3.0.30/orientdb-core-3.0.30.jar (5.3 MB at 10 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/tinkerpop/blueprints/blueprints-core/2.6.0/blueprints-core-2.6.0.jar (274 kB at 526 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/raymanrt/orientqb/0.2.0/orientqb-0.2.0.jar (46 kB at 83 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/carrotsearch/hppc/0.6.0/hppc-0.6.0.jar (1.3 MB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/orientechnologies/orientdb-client/3.0.30/orientdb-client-3.0.30.jar (387 kB at 652 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (default) @ gora-orientdb ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/examples/java added.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora-orientdb ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ gora-orientdb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[254,39] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[280,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[313,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[347,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[349,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[368,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[404,61] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora-orientdb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ gora-orientdb ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.5.3:bundle (default-bundle) @ gora-orientdb ---
+[INFO] 
+[INFO] --- site:3.9.1:attach-descriptor (attach-descriptor) @ gora-orientdb ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] --- dependency:2.9:copy-dependencies (copy) @ gora-orientdb ---
+[INFO] Copying orientqb-0.2.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientqb-0.2.0.jar
+[INFO] Copying flink-metrics-core-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-metrics-core-1.6.2.jar
+[INFO] Copying commons-el-1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-el-1.0.jar
+[INFO] Copying jul-to-slf4j-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jul-to-slf4j-1.6.6.jar
+[INFO] Copying protobuf-java-2.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/protobuf-java-2.5.0.jar
+[INFO] Copying lz4-java-1.4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/lz4-java-1.4.0.jar
+[INFO] Copying jasper-compiler-5.5.23.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jasper-compiler-5.5.23.jar
+[INFO] Copying orientdb-client-3.0.30.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientdb-client-3.0.30.jar
+[INFO] Copying jersey-json-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-json-1.9.jar
+[INFO] Copying flink-queryable-state-client-java_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-queryable-state-client-java_2.11-1.6.2.jar
+[INFO] Copying hadoop-mapreduce-client-jobclient-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-jobclient-2.5.2-tests.jar
+[INFO] Copying akka-protobuf_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/akka-protobuf_2.11-2.4.20.jar
+[INFO] Copying minlog-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/minlog-1.2.jar
+[INFO] Copying akka-stream_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/akka-stream_2.11-2.4.20.jar
+[INFO] Copying hadoop-minicluster-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-minicluster-2.5.2.jar
+[INFO] Copying flink-runtime_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-runtime_2.11-1.6.2.jar
+[INFO] Copying jersey-guava-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-guava-2.22.2.jar
+[INFO] Copying flink-optimizer_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-optimizer_2.11-1.6.2.jar
+[INFO] Copying jaxb-api-2.3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jaxb-api-2.3.0.jar
+[INFO] Copying jackson-module-scala_2.11-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-module-scala_2.11-2.12.1.jar
+[INFO] Copying commons-crypto-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-crypto-1.0.0.jar
+[INFO] Copying config-1.3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/config-1.3.0.jar
+[INFO] Copying hadoop-auth-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-auth-2.5.2.jar
+[INFO] Copying commons-logging-1.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-logging-1.1.1.jar
+[INFO] Copying jersey-core-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-core-1.9.jar
+[INFO] Copying commons-beanutils-1.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-beanutils-1.6.jar
+[INFO] Copying javax.activation-api-1.2.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.activation-api-1.2.0.jar
+[INFO] Copying jna-platform-4.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jna-platform-4.5.0.jar
+[INFO] Copying jersey-common-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-common-2.22.2.jar
+[INFO] Copying hppc-0.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hppc-0.6.0.jar
+[INFO] Copying spark-network-common_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-network-common_2.11-2.4.8.jar
+[INFO] Copying scala-java8-compat_2.11-0.7.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/scala-java8-compat_2.11-0.7.0.jar
+[INFO] Copying commons-net-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-net-3.1.jar
+[INFO] Copying hadoop-mapreduce-client-shuffle-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-shuffle-2.5.2.jar
+[INFO] Copying jersey-server-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-server-2.22.2.jar
+[INFO] Copying chill_2.11-0.9.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/chill_2.11-0.9.3.jar
+[INFO] Copying commons-lang-2.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-lang-2.6.jar
+[INFO] Copying jackson-jaxrs-1.8.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-jaxrs-1.8.3.jar
+[INFO] Copying hadoop-yarn-server-applicationhistoryservice-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-applicationhistoryservice-2.5.2.jar
+[INFO] Copying spark-kvstore_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-kvstore_2.11-2.4.8.jar
+[INFO] Copying json4s-jackson_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/json4s-jackson_2.11-3.5.3.jar
+[INFO] Copying jsr311-api-1.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jsr311-api-1.1.1.jar
+[INFO] Copying xbean-asm6-shaded-4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/xbean-asm6-shaded-4.8.jar
+[INFO] Copying ivy-2.4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/ivy-2.4.0.jar
+[INFO] Copying log4j-1.2.16.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/log4j-1.2.16.jar
+[INFO] Copying force-shading-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/force-shading-1.6.2.jar
+[INFO] Copying reactive-streams-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/reactive-streams-1.0.0.jar
+[INFO] Copying osgi-resource-locator-1.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/osgi-resource-locator-1.0.1.jar
+[INFO] Copying metrics-graphite-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/metrics-graphite-3.1.5.jar
+[INFO] Copying slf4j-api-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/slf4j-api-1.6.6.jar
+[INFO] Copying jetty-6.1.26.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jetty-6.1.26.jar
+[INFO] Copying servlet-api-2.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/servlet-api-2.5.jar
+[INFO] Copying zstd-jni-1.4.4-3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/zstd-jni-1.4.4-3.jar
+[INFO] Copying json4s-scalap_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/json4s-scalap_2.11-3.5.3.jar
+[INFO] Copying javax.inject-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.inject-2.4.0-b34.jar
+[INFO] Copying jersey-container-servlet-core-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-container-servlet-core-2.22.2.jar
+[INFO] Copying jets3t-0.9.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jets3t-0.9.0.jar
+[INFO] Copying avro-mapred-1.8.2-hadoop2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/avro-mapred-1.8.2-hadoop2.jar
+[INFO] Copying hadoop-mapreduce-client-jobclient-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-jobclient-2.5.2.jar
+[INFO] Copying concurrentlinkedhashmap-lru-1.4.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+[INFO] Copying jettison-1.3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jettison-1.3.1.jar
+[INFO] Copying flink-avro-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-avro-1.6.2.jar
+[INFO] Copying avro-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/avro-1.8.2.jar
+[INFO] Copying apacheds-kerberos-codec-2.0.0-M15.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/apacheds-kerberos-codec-2.0.0-M15.jar
+[INFO] Copying orientdb-core-3.0.30.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientdb-core-3.0.30.jar
+[INFO] Copying flink-annotations-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-annotations-1.6.2.jar
+[INFO] Copying spring-expression-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-expression-3.0.6.RELEASE.jar
+[INFO] Copying hadoop-hdfs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-hdfs-2.5.2.jar
+[INFO] Copying cxf-rt-bindings-xml-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-rt-bindings-xml-2.5.2.jar
+[INFO] Copying jackson-mapper-asl-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-mapper-asl-1.9.13.jar
+[INFO] Copying javax.ws.rs-api-2.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.ws.rs-api-2.0.1.jar
+[INFO] Copying jsp-api-2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jsp-api-2.1.jar
+[INFO] Copying jersey-client-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-client-2.22.2.jar
+[INFO] Copying shims-0.7.45.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/shims-0.7.45.jar
+[INFO] Copying jersey-server-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-server-1.9.jar
+[INFO] Copying compress-lzf-1.0.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/compress-lzf-1.0.3.jar
+[INFO] Copying jcl-over-slf4j-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jcl-over-slf4j-1.6.6.jar
+[INFO] Copying spring-aop-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-aop-3.0.6.RELEASE.jar
+[INFO] Copying flink-shaded-jackson-2.7.9-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-shaded-jackson-2.7.9-4.0.jar
+[INFO] Copying commons-configuration-1.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-configuration-1.6.jar
+[INFO] Copying hadoop-annotations-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-annotations-2.5.2.jar
+[INFO] Copying scala-library-2.11.12.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/scala-library-2.11.12.jar
+[INFO] Copying apacheds-i18n-2.0.0-M15.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/apacheds-i18n-2.0.0-M15.jar
+[INFO] Copying orientdb-server-3.0.30.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientdb-server-3.0.30.jar
+[INFO] Copying commons-codec-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-codec-1.7.jar
+[INFO] Copying commons-cli-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-cli-1.2.jar
+[INFO] Copying hadoop-hdfs-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-hdfs-2.5.2-tests.jar
+[INFO] Copying objenesis-2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/objenesis-2.1.jar
+[INFO] Copying kryo-2.24.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/kryo-2.24.0.jar
+[INFO] Copying guava-13.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/guava-13.0.jar
+[INFO] Copying unused-1.0.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/unused-1.0.0.jar
+[INFO] Copying chill-java-0.9.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/chill-java-0.9.3.jar
+[INFO] Copying metrics-jvm-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/metrics-jvm-3.1.5.jar
+[INFO] Copying servlet-api-2.5-20081211.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/servlet-api-2.5-20081211.jar
+[INFO] Copying json4s-core_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/json4s-core_2.11-3.5.3.jar
+[INFO] Copying orientdb-tools-3.0.30.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientdb-tools-3.0.30.jar
+[INFO] Copying avro-mapred-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/avro-mapred-1.8.2.jar
+[INFO] Copying commons-collections-3.2.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-collections-3.2.2.jar
+[INFO] Copying hadoop-yarn-server-web-proxy-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-web-proxy-2.5.2.jar
+[INFO] Copying cxf-rt-core-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-rt-core-2.5.2.jar
+[INFO] Copying spring-asm-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-asm-3.0.6.RELEASE.jar
+[INFO] Copying pyrolite-4.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/pyrolite-4.13.jar
+[INFO] Copying httpclient-4.5.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/httpclient-4.5.6.jar
+[INFO] Copying akka-actor_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/akka-actor_2.11-2.4.20.jar
+[INFO] Copying akka-slf4j_2.11-2.4.20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/akka-slf4j_2.11-2.4.20.jar
+[INFO] Copying orientdb-graphdb-3.0.30.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/orientdb-graphdb-3.0.30.jar
+[INFO] Copying hadoop-yarn-server-nodemanager-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-nodemanager-2.5.2.jar
+[INFO] Copying flink-shaded-asm-5.0.4-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-shaded-asm-5.0.4-4.0.jar
+[INFO] Copying spark-core_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-core_2.11-2.4.8.jar
+[INFO] Copying velocity-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/velocity-1.7.jar
+[INFO] Copying commons-httpclient-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-httpclient-3.1.jar
+[INFO] Copying jackson-annotations-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-annotations-2.12.1.jar
+[INFO] Copying hadoop-yarn-server-resourcemanager-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-resourcemanager-2.5.2.jar
+[INFO] Copying aopalliance-1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/aopalliance-1.0.jar
+[INFO] Copying json4s-ast_2.11-3.5.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/json4s-ast_2.11-3.5.3.jar
+[INFO] Copying jaxb-impl-2.3.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jaxb-impl-2.3.0.1.jar
+[INFO] Copying hadoop-client-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-client-2.5.2.jar
+[INFO] Copying spring-context-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-context-3.0.6.RELEASE.jar
+[INFO] Copying netty-all-4.1.47.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/netty-all-4.1.47.Final.jar
+[INFO] Copying hadoop-common-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-common-2.5.2-tests.jar
+[INFO] Copying flink-clients_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-clients_2.11-1.6.2.jar
+[INFO] Copying leveldbjni-all-1.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/leveldbjni-all-1.8.jar
+[INFO] Copying commons-digester-1.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-digester-1.7.jar
+[INFO] Copying xz-1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/xz-1.5.jar
+[INFO] Copying hadoop-mapreduce-client-hs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-hs-2.5.2.jar
+[INFO] Copying cxf-common-utilities-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-common-utilities-2.5.2.jar
+[INFO] Copying guice-3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/guice-3.0.jar
+[INFO] Copying paranamer-2.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/paranamer-2.7.jar
+[INFO] Copying flink-hadoop-fs-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-hadoop-fs-1.6.2.jar
+[INFO] Copying commons-lang3-3.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-lang3-3.5.jar
+[INFO] Copying kryo-shaded-4.0.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/kryo-shaded-4.0.2.jar
+[INFO] Copying minlog-1.3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/minlog-1.3.0.jar
+[INFO] Copying flink-hadoop-compatibility_2.11-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-hadoop-compatibility_2.11-1.6.2.jar
+[INFO] Copying snappy-java-1.1.1.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/snappy-java-1.1.1.3.jar
+[INFO] Copying hadoop-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-common-2.5.2.jar
+[INFO] Copying jackson-core-asl-1.9.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-core-asl-1.9.13.jar
+[INFO] Copying validation-api-1.1.0.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/validation-api-1.1.0.Final.jar
+[INFO] Copying hadoop-yarn-client-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-client-2.5.2.jar
+[INFO] Copying jersey-guice-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-guice-1.9.jar
+[INFO] Copying jersey-client-1.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-client-1.9.jar
+[INFO] Copying jsr305-1.3.9.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jsr305-1.3.9.jar
+[INFO] Copying flink-java-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-java-1.6.2.jar
+[INFO] Copying gora-core-1.0-SNAPSHOT-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/gora-core-1.0-SNAPSHOT-tests.jar
+[INFO] Copying hk2-api-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hk2-api-2.4.0-b34.jar
+[INFO] Copying hadoop-mapreduce-client-core-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-core-2.5.2.jar
+[INFO] Copying activation-1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/activation-1.1.jar
+[INFO] Copying zookeeper-3.4.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/zookeeper-3.4.6.jar
+[INFO] Copying spring-beans-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-beans-3.0.6.RELEASE.jar
+[INFO] Copying asm-3.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/asm-3.1.jar
+[INFO] Copying woodstox-core-asl-4.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/woodstox-core-asl-4.1.1.jar
+[INFO] Copying flink-shaded-guava-18.0-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-shaded-guava-18.0-4.0.jar
+[INFO] Copying javax.inject-1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.inject-1.jar
+[INFO] Copying jna-4.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jna-4.5.0.jar
+[INFO] Copying cxf-rt-transports-http-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-rt-transports-http-2.5.2.jar
+[INFO] Copying scala-xml_2.11-1.0.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/scala-xml_2.11-1.0.6.jar
+[INFO] Copying java-xmlbuilder-0.4.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/java-xmlbuilder-0.4.jar
+[INFO] Copying javax.servlet-api-3.1.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.servlet-api-3.1.0.jar
+[INFO] Copying commons-beanutils-core-1.8.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-beanutils-core-1.8.0.jar
+[INFO] Copying gora-core-1.0-SNAPSHOT.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/gora-core-1.0-SNAPSHOT.jar
+[INFO] Copying cxf-rt-frontend-jaxrs-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-rt-frontend-jaxrs-2.5.2.jar
+[INFO] Copying commons-math3-3.4.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-math3-3.4.1.jar
+[INFO] Copying jackson-core-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-core-2.12.1.jar
+[INFO] Copying wsdl4j-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/wsdl4j-1.6.2.jar
+[INFO] Copying jsch-0.1.42.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jsch-0.1.42.jar
+[INFO] Copying hk2-utils-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hk2-utils-2.4.0-b34.jar
+[INFO] Copying aopalliance-repackaged-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/aopalliance-repackaged-2.4.0-b34.jar
+[INFO] Copying py4j-0.10.7.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/py4j-0.10.7.jar
+[INFO] Copying oro-2.0.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/oro-2.0.8.jar
+[INFO] Copying stax2-api-3.1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/stax2-api-3.1.1.jar
+[INFO] Copying hadoop-mapreduce-client-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-common-2.5.2.jar
+[INFO] Copying curator-framework-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/curator-framework-2.6.0.jar
+[INFO] Copying hamcrest-core-1.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hamcrest-core-1.1.jar
+[INFO] Copying jackson-databind-2.12.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-databind-2.12.1.jar
+[INFO] Copying javassist-3.19.0-GA.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javassist-3.19.0-GA.jar
+[INFO] Copying commons-daemon-1.0.13.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-daemon-1.0.13.jar
+[INFO] Copying jackson-xc-1.8.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jackson-xc-1.8.3.jar
+[INFO] Copying ssl-config-core_2.11-0.2.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/ssl-config-core_2.11-0.2.1.jar
+[INFO] Copying spring-core-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-core-3.0.6.RELEASE.jar
+[INFO] Copying metrics-json-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/metrics-json-3.1.5.jar
+[INFO] Copying commons-compress-1.4.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-compress-1.4.1.jar
+[INFO] Copying hadoop-yarn-api-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-api-2.5.2.jar
+[INFO] Copying curator-recipes-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/curator-recipes-2.6.0.jar
+[INFO] Copying metrics-core-3.1.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/metrics-core-3.1.5.jar
+[INFO] Copying cxf-api-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-api-2.5.2.jar
+[INFO] Copying spring-web-3.0.6.RELEASE.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spring-web-3.0.6.RELEASE.jar
+[INFO] Copying hadoop-mapreduce-client-app-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-mapreduce-client-app-2.5.2.jar
+[INFO] Copying geronimo-javamail_1.4_spec-1.7.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+[INFO] Copying jetty-util-6.1.26.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jetty-util-6.1.26.jar
+[INFO] Copying hadoop-yarn-server-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-common-2.5.2.jar
+[INFO] Copying hadoop-yarn-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-common-2.5.2.jar
+[INFO] Copying netty-3.9.9.Final.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/netty-3.9.9.Final.jar
+[INFO] Copying avro-ipc-1.8.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/avro-ipc-1.8.2.jar
+[INFO] Copying xmlenc-0.52.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/xmlenc-0.52.jar
+[INFO] Copying jasper-runtime-5.5.23.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jasper-runtime-5.5.23.jar
+[INFO] Copying api-util-1.0.0-M20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/api-util-1.0.0-M20.jar
+[INFO] Copying junit-4.10.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/junit-4.10.jar
+[INFO] Copying stream-2.7.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/stream-2.7.0.jar
+[INFO] Copying api-asn1-api-1.0.0-M20.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/api-asn1-api-1.0.0-M20.jar
+[INFO] Copying cxf-rt-transports-common-2.5.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/cxf-rt-transports-common-2.5.2.jar
+[INFO] Copying curator-client-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/curator-client-2.6.0.jar
+[INFO] Copying commons-io-2.5.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/commons-io-2.5.jar
+[INFO] Copying jersey-container-servlet-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-container-servlet-2.22.2.jar
+[INFO] Copying grizzled-slf4j_2.11-1.0.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/grizzled-slf4j_2.11-1.0.2.jar
+[INFO] Copying hadoop-yarn-server-tests-2.5.2-tests.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hadoop-yarn-server-tests-2.5.2-tests.jar
+[INFO] Copying spark-unsafe_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-unsafe_2.11-2.4.8.jar
+[INFO] Copying blueprints-core-2.6.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/blueprints-core-2.6.0.jar
+[INFO] Copying RoaringBitmap-0.7.45.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/RoaringBitmap-0.7.45.jar
+[INFO] Copying scala-parser-combinators_2.11-1.0.4.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/scala-parser-combinators_2.11-1.0.4.jar
+[INFO] Copying neethi-3.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/neethi-3.0.1.jar
+[INFO] Copying spark-launcher_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-launcher_2.11-2.4.8.jar
+[INFO] Copying javax.annotation-api-1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/javax.annotation-api-1.2.jar
+[INFO] Copying spark-tags_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-tags_2.11-2.4.8.jar
+[INFO] Copying slf4j-log4j12-1.6.6.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/slf4j-log4j12-1.6.6.jar
+[INFO] Copying xmlschema-core-2.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/xmlschema-core-2.0.1.jar
+[INFO] Copying jersey-media-jaxb-2.22.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jersey-media-jaxb-2.22.2.jar
+[INFO] Copying scopt_2.11-3.5.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/scopt_2.11-3.5.0.jar
+[INFO] Copying spark-network-shuffle_2.11-2.4.8.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/spark-network-shuffle_2.11-2.4.8.jar
+[INFO] Copying hk2-locator-2.4.0-b34.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/hk2-locator-2.4.0-b34.jar
+[INFO] Copying guice-servlet-3.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/guice-servlet-3.0.jar
+[INFO] Copying flink-shaded-netty-4.1.24.Final-4.0.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-shaded-netty-4.1.24.Final-4.0.jar
+[INFO] Copying jaxb-core-2.3.0.1.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jaxb-core-2.3.0.1.jar
+[INFO] Copying httpcore-4.1.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/httpcore-4.1.2.jar
+[INFO] Copying flink-core-1.6.2.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/flink-core-1.6.2.jar
+[INFO] Copying jdom-1.1.3.jar to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/lib/jdom-1.1.3.jar
+[INFO] 
+[INFO] --- forbiddenapis:2.0:check (default) @ gora-orientdb ---
+[INFO] Scanning for classes to check...
+[INFO] Reading bundled API signatures: jdk-unsafe-1.8
+[INFO] Reading bundled API signatures: jdk-deprecated-1.8
+[INFO] Reading bundled API signatures: jdk-system-out
+[INFO] Loading classes to check...
+[INFO] Scanning classes for violations...
+[INFO] Scanned 8 (and 356 related) class file(s) for forbidden API invocations (in 0.23s), 0 error(s).
+[INFO] 
+[INFO] --- forbiddenapis:2.0:testCheck (default) @ gora-orientdb ---
+[INFO] Scanning for classes to check...
+[INFO] Reading bundled API signatures: jdk-unsafe-1.8
+[INFO] Reading bundled API signatures: jdk-deprecated-1.8
+[INFO] Reading bundled API signatures: jdk-system-out
+[INFO] Loading classes to check...
+[INFO] Scanning classes for violations...
+[INFO] Scanned 4 (and 267 related) class file(s) for forbidden API invocations (in 0.08s), 0 error(s).
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ gora-orientdb ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/target/gora-orientdb-1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/gora/gora-orientdb/1.0-SNAPSHOT/gora-orientdb-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/gora/gora-orientdb/1.0-SNAPSHOT/gora-orientdb-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:2.5.3:install (default-install) @ gora-orientdb ---
+[INFO] Installing org/apache/gora/gora-orientdb/1.0-SNAPSHOT/gora-orientdb-1.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Gora 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache Gora ........................................ SUCCESS [  5.626 s]
+[INFO] Apache Gora :: Core ................................ SUCCESS [ 28.077 s]
+[INFO] Apache Gora :: OrientDB ............................ SUCCESS [ 16.764 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  54.861 s
+[INFO] Finished at: 2026-10-11T19:32:38-05:00
+[INFO] ------------------------------------------------------------------------

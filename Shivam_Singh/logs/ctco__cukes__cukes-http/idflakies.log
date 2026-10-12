@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< lv.ctco.cukes:cukes-http >----------------------
+[INFO] Building Cukes HTTP 0.0.33-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ cukes-http >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cukes-http ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ cukes-http ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cukes-http ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ cukes-http ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ cukes-http <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ cukes-http ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving lv.ctco.cukes:cukes-http:0.0.33-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 14 tests. Time taken: 0.18700003623962402 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/.dtfixingtools/original-order
+[INFO] Getting original results (14 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.6 seconds elapsed (5.3 total), 23.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (5.3 seconds elapsed (7.9 total), 29.9 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (7.9 seconds elapsed (10.7 total), 31.8 seconds remaining).
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected PASS, got PASS
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected FAILURE, got FAILURE
+[INFO] Found 1 tests in round 5 of 20 (10.7 seconds elapsed (16.6 total), 32.0 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (0.0 seconds elapsed (19.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (2.6 seconds elapsed (22.0 total), 4.9 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (5.3 seconds elapsed (24.7 total), 8.0 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (8.0 seconds elapsed (27.3 total), 9.8 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (10.7 seconds elapsed (30.0 total), 10.7 seconds remaining).
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected PASS, got PASS
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 11 of 20 (13.4 seconds elapsed (36.5 total), 11.0 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (19.8 seconds elapsed (39.2 total), 13.2 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (22.5 seconds elapsed (41.9 total), 12.1 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (25.2 seconds elapsed (44.6 total), 10.8 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (27.9 seconds elapsed (47.3 total), 9.3 seconds remaining).
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected PASS, got PASS
+Verified lv.ctco.cukes.http.facade.HttpAssertionFacadeImplTest.shouldReturnBodyWhenEnabledAndNoMax, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 16 of 20 (30.6 seconds elapsed (53.7 total), 7.7 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (37.1 seconds elapsed (56.5 total), 6.5 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (39.8 seconds elapsed (59.1 total), 4.4 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (42.5 seconds elapsed (61.9 total), 2.2 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (45.2 seconds elapsed (64.6 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/ctco__cukes__cukes-http/cukes-http/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:09 min
+[INFO] Finished at: 2026-10-09T18:25:16-05:00
+[INFO] ------------------------------------------------------------------------

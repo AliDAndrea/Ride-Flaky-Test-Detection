@@ -1,0 +1,255 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< org.apache.cloudstack:cloud-plugin-network-opendaylight >-------
+[INFO] Building Apache CloudStack Plugin - Network Opendaylight 4.18.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ cloud-plugin-network-opendaylight >>>
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (cloudstack-checkstyle) @ cloud-plugin-network-opendaylight ---
+[INFO] 
+[INFO] --- remote-resources:1.3:process (default) @ cloud-plugin-network-opendaylight ---
+[INFO] 
+[INFO] --- resources:2.5:resources (default-resources) @ cloud-plugin-network-opendaylight ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ cloud-plugin-network-opendaylight ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.5:testResources (default-testResources) @ cloud-plugin-network-opendaylight ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ cloud-plugin-network-opendaylight ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ cloud-plugin-network-opendaylight <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ cloud-plugin-network-opendaylight ---
+INFO: The original argline is: -Djava.security.egd=file:/dev/./urandom -noverify
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_fgXpKPSYo0l5FABiWMMJbJMCJpMyC8etQJHzTS2pb6c=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexExecid=SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] gsonNeutronPortMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE]"}}> but was:<{"port":{"[name":"test_gre","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0]"}}>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest.gsonNeutronPortMarshalingTest(NeutronPortAdapterTest.java:64)
+
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] gsonNeutronNetworkMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...bc00-1f84927367e0","[name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test","provider:segmentation_id":1001]}}> but was:<...bc00-1f84927367e0","[provider:network_type":"test","provider:segmentation_id":1001,"shared":true,"name":"test_gre","tenant_id":"wilder"]}}>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest(NeutronNetworkAdapterTest.java:61)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest:61 expected:<...bc00-1f84927367e0","[name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test","provider:segmentation_id":1001]}}> but was:<...bc00-1f84927367e0","[provider:network_type":"test","provider:segmentation_id":1001,"shared":true,"name":"test_gre","tenant_id":"wilder"]}}>
+[ERROR]   NeutronPortAdapterTest.gsonNeutronPortMarshalingTest:64 expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE]"}}> but was:<{"port":{"[name":"test_gre","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0]"}}>
+[INFO] 
+[ERROR] Tests run: 24, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexExecid=92UY7ekVlNF8WWRUzE3t9EdN2QvF13Fck1sYdzZHso=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] gsonNeutronPortMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest)  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true],"status":"ACTIVE"}}> but was:<{"port":{"[network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","name":"test_gre"],"status":"ACTIVE"}}>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest.gsonNeutronPortMarshalingTest(NeutronPortAdapterTest.java:64)
+
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] gsonNeutronNetworkMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"network":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test"],"provider:segmentat...> but was:<{"network":{"[tenant_id":"wilder","name":"test_gre","provider:network_type":"test","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","shared":true],"provider:segmentat...>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest(NeutronNetworkAdapterTest.java:61)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest:61 expected:<{"network":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test"],"provider:segmentat...> but was:<{"network":{"[tenant_id":"wilder","name":"test_gre","provider:network_type":"test","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","shared":true],"provider:segmentat...>
+[ERROR]   NeutronPortAdapterTest.gsonNeutronPortMarshalingTest:64 expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true],"status":"ACTIVE"}}> but was:<{"port":{"[network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","name":"test_gre"],"status":"ACTIVE"}}>
+[INFO] 
+[ERROR] Tests run: 24, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for 92UY7ekVlNF8WWRUzE3t9EdN2QvF13Fck1sYdzZHso=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex
+nondexExecid=fExmGkhlmdVDfATDYzmQENzDyHDy47hzzPyE1zFOWkA=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNodeAdapterTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronRestApiTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.cloudstack.network.opendaylight.api.test.NeutronEnumsTest
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest
+[ERROR] gsonNeutronPortMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest)  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE"]}}> but was:<{"port":{"[device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","name":"test_gre","status":"ACTIVE","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true]}}>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest.gsonNeutronPortMarshalingTest(NeutronPortAdapterTest.java:64)
+
+[INFO] Running org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest
+[ERROR] gsonNeutronNetworkMarshalingTest(org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<{"network":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test","provider:segmentation_id":1001]}}> but was:<{"network":{"[name":"test_gre","provider:network_type":"test","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","provider:segmentation_id":1001,"shared":true,"tenant_id":"wilder"]}}>
+	at org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest(NeutronNetworkAdapterTest.java:61)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NeutronNetworkAdapterTest.gsonNeutronNetworkMarshalingTest:61 expected:<{"network":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","shared":true,"tenant_id":"wilder","provider:network_type":"test","provider:segmentation_id":1001]}}> but was:<{"network":{"[name":"test_gre","provider:network_type":"test","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","provider:segmentation_id":1001,"shared":true,"tenant_id":"wilder"]}}>
+[ERROR]   NeutronPortAdapterTest.gsonNeutronPortMarshalingTest:64 expected:<{"port":{"[id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","name":"test_gre","tenant_id":"wilder","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true,"status":"ACTIVE"]}}> but was:<{"port":{"[device_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","mac_address":"ca31aa7f-84c7-416d-bc00-1f84927367e0","tenant_id":"wilder","name":"test_gre","status":"ACTIVE","network_id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","id":"ca31aa7f-84c7-416d-bc00-1f84927367e0","admin_state_up":true]}}>
+[INFO] 
+[ERROR] Tests run: 24, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for fExmGkhlmdVDfATDYzmQENzDyHDy47hzzPyE1zFOWkA=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexExecid=SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s= -DnondexLogging=CONFIG
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest#gsonNeutronPortMarshalingTest
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest#gsonNeutronNetworkMarshalingTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexExecid=92UY7ekVlNF8WWRUzE3t9EdN2QvF13Fck1sYdzZHso= -DnondexLogging=CONFIG
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest#gsonNeutronPortMarshalingTest
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest#gsonNeutronNetworkMarshalingTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex" -DnondexExecid=fExmGkhlmdVDfATDYzmQENzDyHDy47hzzPyE1zFOWkA= -DnondexLogging=CONFIG
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest#gsonNeutronPortMarshalingTest
+[WARNING] org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest#gsonNeutronNetworkMarshalingTest
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] org.apache.cloudstack.network.opendaylight.api.test.NeutronPortAdapterTest#gsonNeutronPortMarshalingTest
+[INFO] org.apache.cloudstack.network.opendaylight.api.test.NeutronNetworkAdapterTest#gsonNeutronNetworkMarshalingTest
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex/SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s=/test_results.html
+[INFO] [NonDex] The id of this run is: SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.523 s
+[INFO] Finished at: 2026-10-11T19:41:39-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project cloud-plugin-network-opendaylight: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__cloudstack__plugins@network-elements@opendaylight/plugins/network-elements/opendaylight/.nondex/SncIwsBF1p4LRfNLXhnDPiq2SAtDouy6yscHrp0dU3s= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,162 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.mybatis.dynamic-sql:mybatis-dynamic-sql >-------------
+[INFO] Building MyBatis Dynamic SQL 2.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ mybatis-dynamic-sql >>>
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java) @ mybatis-dynamic-sql ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- git-commit-id:9.0.1:revision (git-commit-id) @ mybatis-dynamic-sql ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ mybatis-dynamic-sql ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- build-helper:3.6.0:add-source (default) @ mybatis-dynamic-sql ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/main/kotlin added.
+[INFO] 
+[INFO] --- whitespace:1.3.2:trim (default) @ mybatis-dynamic-sql ---
+[INFO] Processing the following extensions: css,groovy,html,java,js,json,jsp,jspx,kt,kts,md,properties,scala,sh,toml,wsdl,xhtml,xml,xsd,yaml,yml
+[INFO] 
+[INFO] --- license:4.5:format (default) @ mybatis-dynamic-sql ---
+[INFO] License Plugin is Skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mybatis-dynamic-sql ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from  to target/classes/META-INF
+[INFO] 
+[INFO] --- kotlin:2.0.21:compile (compile) @ mybatis-dynamic-sql ---
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (java-compile) @ mybatis-dynamic-sql ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- bnd:7.0.0:bnd-process (bnd-process) @ mybatis-dynamic-sql ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mybatis-dynamic-sql ---
+[INFO] Copying 25 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- kotlin:2.0.21:test-compile (test-compile) @ mybatis-dynamic-sql ---
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (59, 17) 'fun join(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (92, 13) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (112, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (115, 17) 'fun fullJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (180, 17) 'fun join(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (192, 17) 'fun fullJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (259, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (262, 17) 'fun fullJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (307, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (310, 17) 'fun leftJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (351, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (354, 17) 'fun leftJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (401, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (404, 17) 'fun leftJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (444, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (447, 17) 'fun rightJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (488, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (491, 17) 'fun rightJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (538, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (541, 17) 'fun rightJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (580, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (596, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (java-test-compile) @ mybatis-dynamic-sql ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ mybatis-dynamic-sql <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ mybatis-dynamic-sql ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.mybatis.dynamic-sql:mybatis-dynamic-sql:2.0.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 1.7820000648498535 seconds
+INFO: Locating tests...
+INFO: Located 1557 tests. Time taken: 1.2679998874664307 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/.dtfixingtools/original-order
+[INFO] Getting original results (1557 tests).
+---------------------------------------------------
+java.lang.Exception: Non-zero exit code (output in /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/failing-test-output-1791759406170-932f0b76-d692-48c1-8d01-78f12b8a8893): 2
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$3(Runner.scala:71)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$2(TempFiles.scala:38)
+	at edu.illinois.cs.testrunner.util.autoClose.$anonfun$autoCloseTry$1(autoClose.scala:7)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.autoClose.autoCloseTry(autoClose.scala:7)
+	at edu.illinois.cs.testrunner.util.autoClose.apply(autoClose.scala:24)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$1(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withProperties(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$2(Runner.scala:50)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$1(Runner.scala:49)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withSeq$1(TempFiles.scala:31)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withSeq(TempFiles.scala:25)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp(Runner.scala:48)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp$(Runner.scala:47)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runWithCp(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.lambda$runWithCp$0(InstrumentingSmartRunner.java:58)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles.withTempFile(TempFiles.scala)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.runWithCp(InstrumentingSmartRunner.java:54)
+	at edu.illinois.cs.testrunner.runner.Runner.run(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.Runner.run$(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.run(SmartRunner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList(Runner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList$(Runner.scala:27)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runList(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.detection.DetectorUtil.originalResults(DetectorUtil.java:35)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.<init>(RandomDetector.java:29)
+	at edu.illinois.cs.dt.tools.detection.detectors.DetectorFactory.makeDetector(DetectorFactory.java:20)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:268)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:204)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:204)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+COPY_FAILING_TEST_OUTPUT: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/failing-test-output-1791759406170-932f0b76-d692-48c1-8d01-78f12b8a8893
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.087 s
+[INFO] Finished at: 2026-10-11T17:57:06-05:00
+[INFO] ------------------------------------------------------------------------

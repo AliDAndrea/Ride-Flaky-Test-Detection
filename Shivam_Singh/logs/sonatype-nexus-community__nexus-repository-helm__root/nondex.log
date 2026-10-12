@@ -1,0 +1,2026 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------< org.sonatype.repository:nexus-repository-helm >------------
+[INFO] Building org.sonatype.repository:nexus-repository-helm 0.0.6
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ nexus-repository-helm >>>
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-environment) @ nexus-repository-helm ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-dependencies) @ nexus-repository-helm ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.3:create (build-identity) @ nexus-repository-helm ---
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root
+[INFO] Storing buildNumber: 60a9e8de0d97bfa4e3f7ee6bb87d518e398f03f2 at timestamp: 2026-10-09-2115-29834
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ nexus-repository-helm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/filtered-resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/resources-filtered
+[INFO] 
+[INFO] --- extjs:3.13.0-01:aggregate-js (default) @ nexus-repository-helm ---
+[WARNING] Expected class 'NX.coreui.view.repository.recipe.HelmHosted' to be defined in filename 'NX/coreui/view/repository/recipe/HelmHosted.js', but was defined in: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/resources/static/rapture/NX/helm/view/repository/recipe/HelmHosted.js
+[INFO] Writing: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/classes/static/rapture/nexus-repository-helm-debug.js
+[INFO] 
+[INFO] --- yuicompressor:1.1.0:aggregate-js (plugin-js) @ nexus-repository-helm ---
+[INFO] Writing: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/classes/static/rapture/nexus-repository-helm-prod.js
+[INFO] 
+[INFO] --- yuicompressor:1.1.0:aggregate-css (plugin-css) @ nexus-repository-helm ---
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ nexus-repository-helm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Using Groovy-Eclipse compiler to compile both Java and Groovy files
+[INFO] 
+[INFO] --- karaf:4.0.9:features-generate-descriptor (plugin-feature) @ nexus-repository-helm ---
+[INFO] Generating feature descriptor file /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/feature/feature.xml
+[INFO] ...done!
+[INFO] 
+[INFO] --- sisu:1.4:main-index (default) @ nexus-repository-helm ---
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ nexus-repository-helm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/test/filtered-resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/test/resources-filtered
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ nexus-repository-helm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Using Groovy-Eclipse compiler to compile both Java and Groovy files
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ nexus-repository-helm <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ nexus-repository-helm ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_VV1zqyvhDlFantwUrJKgtBdFgZqe5ySNCpCSdMsodDw=
+nondexLogging=CONFIG
+test=
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.pom (3.3 kB at 9.0 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom (2.6 kB at 60 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.20/surefire-junit4-2.20.jar (82 kB at 1.0 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.42 s - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM=
+nondexLogging=CONFIG
+test=
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.pom (6.2 kB at 127 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.pom (3.2 kB at 69 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.pom (1.6 kB at 34 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom (2.7 kB at 65 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom (2.6 kB at 63 kB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.20/surefire-junit47-2.20.jar (163 kB at 2.2 MB/s)
+[INFO] Downloading from rso-public-grid: https://repository.sonatype.org/content/groups/sonatype-public-grid/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar (40 kB at 799 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.20/common-junit4-2.20.jar (26 kB at 175 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.20/common-junit3-2.20.jar (12 kB at 67 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar (50 kB at 289 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.20/common-junit48-2.20.jar (23 kB at 126 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.231 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.217 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.3 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.016 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=4Q1ldu07azpSPF2EpC47oPNgiEZyoJRs2hJ1K1A8=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.116 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=GRFzVGOFEuBdLjm6KX26ZQTO9g65gzwiTaJbH7N8aI=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.238 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.219 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.29 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.059 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for GRFzVGOFEuBdLjm6KX26ZQTO9g65gzwiTaJbH7N8aI=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=efWxNyPKEYIwussyQmvaBrb8oV5phJZNPeJ1iAK53nw=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 s - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.051 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=q4BaJjp0kQafJRlrmYILXVXpNJSGc3eRb9Xbj7PpNWI=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.232 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.215 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.035 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for q4BaJjp0kQafJRlrmYILXVXpNJSGc3eRb9Xbj7PpNWI=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=IxTjLmj+sDlAUtz0opBR4Ej6e+gNac+779+OcAGDxm8=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.231 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.214 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.288 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.051 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for IxTjLmj+sDlAUtz0opBR4Ej6e+gNac+779+OcAGDxm8=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=8J7e1tiKtryB8OLQ54kyCIAmD8FY4igd5tdryLlr8K8=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.235 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.218 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.07 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for 8J7e1tiKtryB8OLQ54kyCIAmD8FY4igd5tdryLlr8K8=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=V92z3XiT5TWLT2fRcI4rivKkiP3Mi5os8t1v4qq0=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.239 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.221 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.3 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.066 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for V92z3XiT5TWLT2fRcI4rivKkiP3Mi5os8t1v4qq0=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=yExYzBykqOQVHV6rDO4O82AkAylZuAaVxvtUzhaCSk=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.232 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.212 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.072 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<...n: '1.0'
+entries:
+  [mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8
+  notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0]
+> but was:<...n: '1.0'
+entries:
+  [notmongdb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.8]
+>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for yExYzBykqOQVHV6rDO4O82AkAylZuAaVxvtUzhaCSk=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex
+nondexExecid=AAFJ10Mi0VGiVCjopTA3Qgf4W6u5YwmijFlfkOzdIQI=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.234 s <<< FAILURE! - in org.sonatype.repository.helm.internal.util.YamlParserTest
+[ERROR] testWriteIndexYaml(org.sonatype.repository.helm.internal.util.YamlParserTest)  Time elapsed: 0.217 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+	at org.sonatype.repository.helm.internal.util.YamlParserTest.testWriteIndexYaml(YamlParserTest.java:77)
+
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.sonatype.repository.helm.internal.util.HelmPathUtilsTest
+[INFO] Running org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.sonatype.repository.helm.internal.util.HelmAttributeParserTest
+[INFO] Running org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.sonatype.repository.helm.internal.util.TgzParserTest
+[INFO] Running org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.sonatype.repository.helm.internal.security.HelmSecurityFacetTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.sonatype.repository.helm.internal.HelmFormatTest
+[INFO] Running org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.sonatype.repository.helm.internal.HelmAssetAttributePopulatorTest
+[INFO] Running org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in org.sonatype.repository.helm.internal.createindex.CreateIndexServiceImplTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.sonatype.repository.helm.internal.metadata.ChartIndexTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.064 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlAbsoluteUrlRewriterTest
+[INFO] Running org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   YamlParserTest.testWriteIndexYaml:77 expected:<... maintainers:
+    - [email: containers@bitnami.com
+      name: Bitnami
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami]
+    name: mongodb
+ ...> but was:<... maintainers:
+    - [name: Bitnami
+      email: containers@bitnami.com
+    name: notmongdb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 1.0.0
+  mongodb:
+  - appVersion: 0.0.1
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - mongodb-0.5.2.tgz
+    version: 0.4.9
+  - appVersion: 0.0.2
+    created: 2018-08-13T22:05:33.023Z
+    description: |-
+      NoSQL document-oriented database that stores JSON-like documents with
+        dynamic schemas, simplifying the integration of data in content-driven applications.
+    digest: '12345'
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    maintainers:
+    - name: Bitnami
+      email: containers@bitnami.com]
+    name: mongodb
+ ...>
+[INFO] 
+[ERROR] Tests run: 18, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for AAFJ10Mi0VGiVCjopTA3Qgf4W6u5YwmijFlfkOzdIQI=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=4Q1ldu07azpSPF2EpC47oPNgiEZyoJRs2hJ1K1A8= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=GRFzVGOFEuBdLjm6KX26ZQTO9g65gzwiTaJbH7N8aI= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=efWxNyPKEYIwussyQmvaBrb8oV5phJZNPeJ1iAK53nw= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=q4BaJjp0kQafJRlrmYILXVXpNJSGc3eRb9Xbj7PpNWI= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=IxTjLmj+sDlAUtz0opBR4Ej6e+gNac+779+OcAGDxm8= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=8J7e1tiKtryB8OLQ54kyCIAmD8FY4igd5tdryLlr8K8= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=V92z3XiT5TWLT2fRcI4rivKkiP3Mi5os8t1v4qq0= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=yExYzBykqOQVHV6rDO4O82AkAylZuAaVxvtUzhaCSk= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex" -DnondexExecid=AAFJ10Mi0VGiVCjopTA3Qgf4W6u5YwmijFlfkOzdIQI= -DnondexLogging=CONFIG
+[WARNING] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] org.sonatype.repository.helm.internal.util.YamlParserTest#testWriteIndexYaml
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex/tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM=/test_results.html
+[INFO] [NonDex] The id of this run is: tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.680 s
+[INFO] Finished at: 2026-10-09T21:16:08-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project nexus-repository-helm: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.nondex/tFriNc6xy6Oe4Vmd3eD5W9hRMtYoQ0jpIDbCc52+DXM= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,507 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.baidu.disconf:disconf-client:jar:2.6.36
+[WARNING] 'version' contains an expression but should be a constant. @ com.baidu.disconf:disconf-client:${disconf-client.version}, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/pom.xml, line 8, column 14
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-test:jar -> duplicate declaration of version ${spring.version} @ com.baidu.disconf:disconf-base:2.6.36, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml, line 431, column 25
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ com.baidu.disconf:disconf-base:2.6.36, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml, line 662, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ com.baidu.disconf:disconf-base:2.6.36, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml, line 682, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.baidu.disconf:disconf-core:jar:2.6.36
+[WARNING] 'version' contains an expression but should be a constant. @ com.baidu.disconf:disconf-core:${disconf-core.version}, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/pom.xml, line 8, column 14
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ com.baidu.disconf:disconf-base:2.6.36, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml, line 662, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ com.baidu.disconf:disconf-base:2.6.36, /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml, line 682, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.baidu.disconf:disconf-base:pom:2.6.36
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-test:jar -> duplicate declaration of version ${spring.version} @ line 431, column 25
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 662, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 682, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] disconf                                                            [pom]
+[INFO] disconf-core                                                       [jar]
+[INFO] disconf-client                                                     [jar]
+[INFO] 
+[INFO] -------------------< com.baidu.disconf:disconf-base >-------------------
+[INFO] Building disconf 2.6.36                                            [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (1.7 kB at 3.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.6/cobertura-maven-plugin-2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.6/cobertura-maven-plugin-2.6.pom (8.7 kB at 135 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.6/cobertura-maven-plugin-2.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/2.6/cobertura-maven-plugin-2.6.jar (48 kB at 681 kB/s)
+[INFO] 
+[INFO] >>> cobertura:2.6:cobertura (default) > [cobertura]test @ disconf-base >>>
+[INFO] 
+[INFO] --- cobertura:2.6:instrument (default) @ disconf-base ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/2.0.3/cobertura-2.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/2.0.3/cobertura-2.0.3.pom (15 kB at 254 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom (2.1 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.pom (6.7 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xom/xom/1.0b3/xom-1.0b3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xom/xom/1.0b3/xom-1.0b3.pom (1.1 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.pom (153 B at 3.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.pom (681 B at 9.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.pom (144 B at 2.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura-runtime/2.0.3/cobertura-runtime-2.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura-runtime/2.0.3/cobertura-runtime-2.0.3.pom (3.2 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/2.0.3/cobertura-2.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/cobertura/cobertura/2.0.3/cobertura-2.0.3.jar (514 kB at 3.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xom/xom/1.0b3/xom-1.0b3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/2.6.1/icu4j-2.6.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.jar (232 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.jar (352 kB at 1.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar (38 kB at 104 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.jar (38 kB at 103 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xom/xom/1.0b3/xom-1.0b3.jar (104 kB at 275 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/2.6.1/icu4j-2.6.1.jar (2.5 MB at 1.6 MB/s)
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura:2.6:cobertura (default) < [cobertura]test @ disconf-base <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura:2.6:cobertura (default) @ disconf-base ---
+[INFO] 
+[INFO] >>> source:3.4.0:jar (attach-sources) > generate-sources @ disconf-base >>>
+[INFO] 
+[INFO] <<< source:3.4.0:jar (attach-sources) < generate-sources @ disconf-base <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.4.0:jar (attach-sources) @ disconf-base ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ disconf-base ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ disconf-base ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/pom.xml to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-base/2.6.36/disconf-base-2.6.36.pom
+[INFO] 
+[INFO] -------------------< com.baidu.disconf:disconf-core >-------------------
+[INFO] Building disconf-core 2.6.36                                       [2/3]
+[INFO]   from disconf-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.pom (7.4 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.5/surefire-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.5/surefire-2.5.pom (6.9 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.jar (33 kB at 509 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0-rc2/guava-19.0-rc2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0-rc2/guava-19.0-rc2.pom (6.8 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0-rc2/guava-parent-19.0-rc2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0-rc2/guava-parent-19.0-rc2.pom (9.9 kB at 225 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.3.6/zookeeper-3.3.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.3.6/zookeeper-3.3.6.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit/1.5/jmockit-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit/1.5/jmockit-1.5.pom (8.7 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/1.46/wiremock-1.46.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/1.46/wiremock-1.46.pom (3.5 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.3/jopt-simple-4.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.3/jopt-simple-4.3.pom (9.7 kB at 210 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.pom (4.8 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.2.1/jsonassert-1.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.2.1/jsonassert-1.2.1.pom (5.1 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/json/json/20090211/json-20090211.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/json/json/20090211/json-20090211.pom (1.4 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/0.8.1/json-path-0.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/0.8.1/json-path-0.8.1.pom (2.5 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-parent/0.8.1/json-path-parent-0.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path-parent/0.8.1/json-path-parent-0.8.1.pom (8.9 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.1.1/json-smart-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.1.1/json-smart-1.1.1.pom (1.4 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.1.1/parent-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/parent/1.1.1/parent-1.1.1.pom (11 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.pom (1.9 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/4/oss-parent-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/4/oss-parent-4.pom (18 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/junit/junit-dep/4.11/junit-dep-4.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit-dep/4.11/junit-dep-4.11.pom (2.0 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.pom (5.8 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0-rc2/guava-19.0-rc2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0-rc2/guava-19.0-rc2.jar (2.3 MB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.3.6/zookeeper-3.3.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit/1.5/jmockit-1.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.3/jopt-simple-4.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/1.46/wiremock-1.46-standalone.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.3/jopt-simple-4.3.jar (55 kB at 587 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.2.1/jsonassert-1.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/skyscreamer/jsonassert/1.2.1/jsonassert-1.2.1.jar (20 kB at 98 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.jar (259 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.3.6/zookeeper-3.3.6.jar (608 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/json/json/20090211/json-20090211.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.1.1/json-smart-1.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/0.8.1/json-path-0.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit/1.5/jmockit-1.5.jar (507 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/1.1.1/json-smart-1.1.1.jar (51 kB at 193 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/json/json/20090211/json-20090211.jar (46 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/0.8.1/json-path-0.8.1.jar (67 kB at 238 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.2/jackson-annotations-2.1.2.jar (34 kB at 91 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar (1.2 MB at 2.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/1.46/wiremock-1.46-standalone.jar (6.2 MB at 8.7 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ disconf-core ---
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:compile (default-compile) @ disconf-core ---
+[INFO] Compiling 36 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ disconf-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:testCompile (default-testCompile) @ disconf-core ---
+[INFO] Compiling 12 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.5:test (default-test) @ disconf-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.5/surefire-booter-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.5/surefire-booter-2.5.pom (2.0 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.5/surefire-api-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.5/surefire-api-2.5.pom (2.1 kB at 34 kB/s)
+[INFO] Artifact org.codehaus.plexus:plexus-utils:jar:1.5.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Artifact org.codehaus.plexus:plexus-utils:jar:1.5.9 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases), maven-default-http-blocker (http://0.0.0.0/, default, snapshots, blocked)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.5/surefire-booter-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.5/surefire-booter-2.5.jar (321 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.5/surefire-api-2.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.9/plexus-utils-1.5.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.9/plexus-utils-1.5.9.jar (0 B at 0 B/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.5/surefire-api-2.5.jar (571 kB at 4.4 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.4:jar (default-jar) @ disconf-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/disconf-core.jar
+[INFO] 
+[INFO] >>> cobertura:2.6:cobertura (default) > [cobertura]test @ disconf-core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ disconf-core ---
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:compile (default-compile) @ disconf-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura:2.6:instrument (default) @ disconf-core ---
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+
+[ERROR] Oct 11, 2026 7:09:38 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler saveCoverageData
+INFO: Cobertura: Saved information on 42 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ disconf-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:testCompile (default-testCompile) @ disconf-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.5:test (default-test) @ disconf-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] <<< cobertura:2.6:cobertura (default) < [cobertura]test @ disconf-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura:2.6:cobertura (default) @ disconf-core ---
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Report time: 1295ms
+
+[ERROR] Oct 11, 2026 7:09:39 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 42 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/RestfulMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/core/UnreliableInterface.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/retry/RetryStrategy.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/utils/http/HttpResponseCallbackHandler.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file org/apache/zookeeper/recipes/lock/LockListener.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file org/apache/zookeeper/recipes/lock/ZooKeeperOperation.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+Report time: 1598ms
+
+[ERROR] Oct 11, 2026 7:09:40 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 42 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- jar:2.4:test-jar (default) @ disconf-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/disconf-core-tests.jar
+[INFO] 
+[INFO] >>> source:3.4.0:jar (attach-sources) > generate-sources @ disconf-core >>>
+[INFO] 
+[INFO] <<< source:3.4.0:jar (attach-sources) < generate-sources @ disconf-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.4.0:jar (attach-sources) @ disconf-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ disconf-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ disconf-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/pom.xml to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-core/2.6.36/disconf-core-2.6.36.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/disconf-core.jar to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-core/2.6.36/disconf-core-2.6.36.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-core/target/disconf-core-tests.jar to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-core/2.6.36/disconf-core-2.6.36-tests.jar
+[INFO] 
+[INFO] ------------------< com.baidu.disconf:disconf-client >------------------
+[INFO] Building disconf-client 2.6.36                                     [3/3]
+[INFO]   from disconf-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.3/maven-assembly-plugin-2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.3/maven-assembly-plugin-2.3.pom (15 kB at 179 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.3/maven-assembly-plugin-2.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.3/maven-assembly-plugin-2.3.jar (221 kB at 1.8 MB/s)
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.16.1-GA during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjtools/1.7.4/aspectjtools-1.7.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjtools/1.7.4/aspectjtools-1.7.4.pom (1.0 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.9/logback-core-1.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.9/logback-core-1.0.9.pom (5.4 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.9/logback-parent-1.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.9/logback-parent-1.0.9.pom (16 kB at 231 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.9/logback-classic-1.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.9/logback-classic-1.0.9.pom (12 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit-coverage/0.999.24/jmockit-coverage-0.999.24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit-coverage/0.999.24/jmockit-coverage-0.999.24.pom (7.0 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.pom (6.8 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.pom (2.5 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.pom (4.8 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.pom (2.7 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.pom (2.5 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.pom (1.7 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjtools/1.7.4/aspectjtools-1.7.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjtools/1.7.4/aspectjtools-1.7.4.jar (10 MB at 4.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.9/logback-core-1.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.9/logback-classic-1.0.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit-coverage/0.999.24/jmockit-coverage-0.999.24.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.9/logback-classic-1.0.9.jar (253 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/jmockit/jmockit-coverage/0.999.24/jmockit-coverage-0.999.24.jar (236 kB at 825 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.9/logback-core-1.0.9.jar (366 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar (259 kB at 619 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar (503 kB at 896 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar (712 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.7.RELEASE/spring-context-4.1.7.RELEASE.jar (1.0 MB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar (359 kB at 570 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.7.RELEASE/spring-core-4.1.7.RELEASE.jar (1.0 MB at 1.5 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ disconf-client ---
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:2.3.1:compile (default-compile) @ disconf-client ---
+[INFO] Compiling 99 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/src/main/java/com/baidu/disconf/client/addons/properties/DelegatingProperties.java:[37,16] [deprecation] save(OutputStream,String) in Properties has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/src/main/java/com/baidu/disconf/client/addons/properties/DelegatingProperties.java:[38,21] [deprecation] save(OutputStream,String) in Properties has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/src/main/java/com/baidu/disconf/client/addons/properties/ReloadingPropertyPlaceholderConfigurer.java:[67,21] [deprecation] parseStringValue(String,Properties,Set<?>) in PropertyPlaceholderConfigurer has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/src/main/java/com/baidu/disconf/client/addons/properties/ReloadingPropertyPlaceholderConfigurer.java:[97,20] [deprecation] parseStringValue(String,Properties,Set<?>) in PropertyPlaceholderConfigurer has been deprecated
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ disconf-client ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.3.1:testCompile (default-testCompile) @ disconf-client ---
+[INFO] Compiling 25 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.5:test (default-test) @ disconf-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.4:jar (default-jar) @ disconf-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar
+[INFO] 
+[INFO] >>> cobertura:2.6:cobertura (default) > [cobertura]test @ disconf-client >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ disconf-client ---
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:2.3.1:compile (default-compile) @ disconf-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura:2.6:instrument (default) @ disconf-client ---
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+
+[ERROR] Oct 11, 2026 7:10:00 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler saveCoverageData
+INFO: Cobertura: Saved information on 115 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ disconf-client ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.3.1:testCompile (default-testCompile) @ disconf-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.5:test (default-test) @ disconf-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] <<< cobertura:2.6:cobertura (default) < [cobertura]test @ disconf-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura:2.6:cobertura (default) @ disconf-client ---
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Report time: 2289ms
+
+[ERROR] Oct 11, 2026 7:10:01 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 115 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/IReconfigurationAware.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/IReloadablePropertiesListener.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/ReconfigurableBean.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/ReloadableProperties.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfActiveBackupService.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfFile.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfFileItem.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfItem.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfUpdateService.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfSysUpdate.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfUpdate.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfUpdatePipeline.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/config/inner/DisInnerConfigAnnotation.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/DisconfCoreMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/filetype/DisconfFileTypeProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/processor/DisconfCoreProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/fetcher/FetcherMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/ScanMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/inner/statically/StaticScannerMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/inner/statically/strategy/ScanStaticStrategy.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/store/DisconfStorePipelineProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/store/DisconfStoreProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/support/registry/Registry.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/usertools/IDisconfDataGetter.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/watch/WatchMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+Report time: 3122ms
+
+[ERROR] Oct 11, 2026 7:10:04 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 115 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Executing aggregate cobertura:report for disconf
+Oct 11, 2026 7:10:07 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 42 classes.
+Oct 11, 2026 7:10:07 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 115 classes.
+[INFO] Saving aggregate cobertura information in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/target/cobertura/cobertura.ser
+Oct 11, 2026 7:10:08 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler saveCoverageData
+INFO: Cobertura: Saved information on 157 classes.
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Report time: 3105ms
+
+[ERROR] Oct 11, 2026 7:10:09 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 157 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.0.3 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/IReconfigurationAware.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/IReloadablePropertiesListener.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/ReconfigurableBean.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/addons/properties/ReloadableProperties.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfActiveBackupService.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfFile.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfFileItem.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfItem.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/annotations/DisconfUpdateService.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfSysUpdate.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfUpdate.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/common/update/IDisconfUpdatePipeline.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/config/inner/DisInnerConfigAnnotation.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/DisconfCoreMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/filetype/DisconfFileTypeProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/core/processor/DisconfCoreProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/fetcher/FetcherMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/ScanMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/inner/statically/StaticScannerMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/scan/inner/statically/strategy/ScanStaticStrategy.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/store/DisconfStorePipelineProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/store/DisconfStoreProcessor.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/support/registry/Registry.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/usertools/IDisconfDataGetter.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/client/watch/WatchMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/RestfulMgr.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/core/UnreliableInterface.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/restful/retry/RetryStrategy.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file com/baidu/disconf/core/common/utils/http/HttpResponseCallbackHandler.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file org/apache/zookeeper/recipes/lock/LockListener.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+[cobertura] INFO  [main] net.sourceforge.cobertura.reporting.html.HTMLReport - Data file does not contain instrumentation information for the file org/apache/zookeeper/recipes/lock/ZooKeeperOperation.java.  Ensure this class was instrumented, and this data file contains the instrumentation information.
+Report time: 4171ms
+
+[ERROR] Oct 11, 2026 7:10:12 PM net.sourceforge.cobertura.coveragedata.CoverageDataFileHandler loadCoverageData
+INFO: Cobertura: Loaded information on 157 classes.
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] >>> source:3.4.0:jar (attach-sources) > generate-sources @ disconf-client >>>
+[INFO] 
+[INFO] <<< source:3.4.0:jar (attach-sources) < generate-sources @ disconf-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.4.0:jar (attach-sources) @ disconf-client ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ disconf-client ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- assembly:2.3:single (make-jar) @ disconf-client ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.pom (5.8 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.jar (43 kB at 767 kB/s)
+[INFO] Reading assembly descriptor: deploy/package-jar.xml
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar
+[WARNING] Configuration options: 'appendAssemblyId' is set to false, and 'classifier' is missing.
+Instead of attaching the assembly file: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar
+with assembly file: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ disconf-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/pom.xml to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-client/2.6.36/disconf-client-2.6.36.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/knightliao__disconf__2ac5c827__disconf-client/disconf-client/target/disconf-client.jar to /Users/shivamsingh/.m2/repository/com/baidu/disconf/disconf-client/2.6.36/disconf-client-2.6.36.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for disconf 2.6.36:
+[INFO] 
+[INFO] disconf ............................................ SUCCESS [  7.983 s]
+[INFO] disconf-core ....................................... SUCCESS [ 17.649 s]
+[INFO] disconf-client ..................................... SUCCESS [ 36.155 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:02 min
+[INFO] Finished at: 2026-10-11T19:10:18-05:00
+[INFO] ------------------------------------------------------------------------

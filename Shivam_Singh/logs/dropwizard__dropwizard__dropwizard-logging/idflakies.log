@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< io.dropwizard:dropwizard-logging >------------------
+[INFO] Building Dropwizard Logging Support 2.0.0-rc1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ dropwizard-logging >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ dropwizard-logging ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle) @ dropwizard-logging ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ dropwizard-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ dropwizard-logging ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ dropwizard-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 26 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ dropwizard-logging ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ dropwizard-logging <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ dropwizard-logging ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving io.dropwizard:dropwizard-logging:2.0.0-rc1-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 80 tests. Time taken: 0.29799985885620117 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dropwizard__dropwizard__dropwizard-logging/dropwizard-logging/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dropwizard__dropwizard__dropwizard-logging/dropwizard-logging/.dtfixingtools/original-order
+[INFO] Getting original results (80 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (5.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (5.9 seconds elapsed (12.3 total), 53.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (12.3 seconds elapsed (18.4 total), 69.4 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (18.4 seconds elapsed (24.5 total), 73.6 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (24.5 seconds elapsed (30.7 total), 73.4 seconds remaining).
+Verified io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest.testLogbackStatusPrinterPrintStreamIsRestoredToSystemOut, status: expected PASS, got PASS
+Verified io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest.testLogbackStatusPrinterPrintStreamIsRestoredToSystemOut, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 6 of 20 (30.7 seconds elapsed (42.2 total), 71.6 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (0.0 seconds elapsed (48.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (6.1 seconds elapsed (54.4 total), 9.1 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (12.2 seconds elapsed (60.6 total), 14.9 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (18.4 seconds elapsed (66.7 total), 18.4 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (24.6 seconds elapsed (72.9 total), 20.1 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (30.7 seconds elapsed (79.1 total), 20.5 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (36.9 seconds elapsed (85.3 total), 19.9 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (43.1 seconds elapsed (91.6 total), 18.5 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (49.4 seconds elapsed (97.5 total), 16.5 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (55.4 seconds elapsed (103.9 total), 13.8 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (61.7 seconds elapsed (110.0 total), 10.9 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (67.8 seconds elapsed (116.3 total), 7.5 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (74.1 seconds elapsed (122.3 total), 3.9 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (80.2 seconds elapsed (128.6 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/dropwizard__dropwizard__dropwizard-logging/dropwizard-logging/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/dropwizard__dropwizard__dropwizard-logging/dropwizard-logging/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:19 min
+[INFO] Finished at: 2026-10-09T18:29:40-05:00
+[INFO] ------------------------------------------------------------------------

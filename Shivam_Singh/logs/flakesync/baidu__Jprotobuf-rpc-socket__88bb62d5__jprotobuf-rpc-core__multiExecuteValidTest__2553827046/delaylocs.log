@@ -1,0 +1,337 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.baidu:jprotobuf-rpc-core >--------------------
+[INFO] Building jprotobuf-rpc-core 4.2.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'skipErrorNoDescriptorsFound' is unknown for plugin 'jprotobuf-precompile-plugin:2.2.6:precompile (default)'
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ jprotobuf-rpc-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ jprotobuf-rpc-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jprotobuf-rpc-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ jprotobuf-rpc-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 104 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/main/java/com/baidu/jprotobuf/pbrpc/management/HttpServerInboundHandler.java: Some input files use or override a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/main/java/com/baidu/jprotobuf/pbrpc/management/HttpServerInboundHandler.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/main/java/com/baidu/jprotobuf/pbrpc/transport/ChannelPool.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/main/java/com/baidu/jprotobuf/pbrpc/transport/ChannelPool.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> source:2.1:jar (default) > generate-sources @ jprotobuf-rpc-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ jprotobuf-rpc-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.1:jar (default) < generate-sources @ jprotobuf-rpc-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.1:jar (default) @ jprotobuf-rpc-core ---
+[INFO] 
+[INFO] --- javadoc:2.9.1:jar (default) @ jprotobuf-rpc-core ---
+[WARNING]  Parameter 'aggregate' (user property 'aggregate') is deprecated: since 2.5. Use the goals <code>javadoc:aggregate</code> and <code>javadoc:test-aggregate</code> instead.
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- jprotobuf:2.2.6:precompile (default) @ jprotobuf-rpc-core ---
+[INFO] * filterClassPackages='[com.baidu]'
+[INFO] * generateProtofile='false'
+[INFO] * compileDependencies='true'
+[INFO] JProtobuf pre compile finished. 35 classes compiled.
+[INFO] JProtobuf pre compile done time took: 1219ms
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jprotobuf-rpc-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ jprotobuf-rpc-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/test/java/com/baidu/jprotobuf/pbrpc/proto/EchoServiceTest.java: Some input files use or override a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/baidu__Jprotobuf-rpc-socket__88bb62d5__jprotobuf-rpc-core/jprotobuf-rpc-core/src/test/java/com/baidu/jprotobuf/pbrpc/proto/EchoServiceTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ jprotobuf-rpc-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ jprotobuf-rpc-core ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.baidu.jprotobuf.pbrpc.proto.EchoServicePerformanceTest
+Oct 11, 2026 8:15:24 PM com.baidu.jprotobuf.pbrpc.server.RpcServiceRegistry doRegiterService
+INFO: RPC service register log: serviceName[__rpc_meta_watch_service__] methodName[ping] from com.baidu.jprotobuf.pbrpc.meta.RpcServiceMetaServiceProvider.ping
+Oct 11, 2026 8:15:26 PM com.baidu.jprotobuf.pbrpc.server.RpcServiceRegistry doRegiterService
+INFO: RPC service register log: serviceName[__rpc_meta_watch_service__] methodName[getRpcServiceMetaInfo] from com.baidu.jprotobuf.pbrpc.meta.RpcServiceMetaServiceProvider.getRpcServiceMetaInfo
+Oct 11, 2026 8:15:27 PM com.baidu.jprotobuf.pbrpc.server.RpcServiceRegistry doRegiterService
+INFO: RPC service register log: serviceName[echoService] methodName[echo] from com.baidu.jprotobuf.pbrpc.proto.EchoServiceImpl.doEcho
+Oct 11, 2026 8:15:28 PM com.baidu.jprotobuf.pbrpc.server.RpcServiceRegistry doRegiterService
+INFO: RPC service register log: serviceName[echoService] methodName[echoWithAttachement] from com.baidu.jprotobuf.pbrpc.proto.EchoServiceImpl.dealWithAttachement
+Oct 11, 2026 8:15:29 PM com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy proxy
+INFO: Use Simple share channel pool to create protobuf RPC proxy with interface interface com.baidu.jprotobuf.pbrpc.proto.EchoService
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x455f11ea, L:/127.0.0.1:1031 - R:/127.0.0.1:52033]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x455f11ea, L:/127.0.0.1:1031 - R:/127.0.0.1:52033]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x455f11ea, L:/127.0.0.1:1031 - R:/127.0.0.1:52033] ip=/127.0.0.1:52033 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x37a13ffd, L:/127.0.0.1:1031 - R:/127.0.0.1:52073]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x37a13ffd, L:/127.0.0.1:1031 - R:/127.0.0.1:52073]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x37a13ffd, L:/127.0.0.1:1031 - R:/127.0.0.1:52073] ip=/127.0.0.1:52073 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xed3d500b, L:/127.0.0.1:1031 - R:/127.0.0.1:52093]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xed3d500b, L:/127.0.0.1:1031 - R:/127.0.0.1:52093]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xed3d500b, L:/127.0.0.1:1031 - R:/127.0.0.1:52093] ip=/127.0.0.1:52093 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x3cdb3704, L:/127.0.0.1:1031 - R:/127.0.0.1:52064]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x3cdb3704, L:/127.0.0.1:1031 - R:/127.0.0.1:52064]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x795ccddc, L:/127.0.0.1:1031 - R:/127.0.0.1:52050]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x3cdb3704, L:/127.0.0.1:1031 - R:/127.0.0.1:52064] ip=/127.0.0.1:52064 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x795ccddc, L:/127.0.0.1:1031 - R:/127.0.0.1:52050]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x795ccddc, L:/127.0.0.1:1031 - R:/127.0.0.1:52050] ip=/127.0.0.1:52050 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x19775fc1, L:/127.0.0.1:1031 - R:/127.0.0.1:52070]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x120fafca, L:/127.0.0.1:1031 - R:/127.0.0.1:52104]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x120fafca, L:/127.0.0.1:1031 - R:/127.0.0.1:52104]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x19775fc1, L:/127.0.0.1:1031 - R:/127.0.0.1:52070]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x120fafca, L:/127.0.0.1:1031 - R:/127.0.0.1:52104] ip=/127.0.0.1:52104 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x19775fc1, L:/127.0.0.1:1031 - R:/127.0.0.1:52070] ip=/127.0.0.1:52070 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x9adc00cd, L:/127.0.0.1:1031 - R:/127.0.0.1:52239]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x7216f5d8, L:/127.0.0.1:1031 - R:/127.0.0.1:52090]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x9adc00cd, L:/127.0.0.1:1031 - R:/127.0.0.1:52239]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x7216f5d8, L:/127.0.0.1:1031 - R:/127.0.0.1:52090]
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x9adc00cd, L:/127.0.0.1:1031 - R:/127.0.0.1:52239] ip=/127.0.0.1:52239 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:10 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x7216f5d8, L:/127.0.0.1:1031 - R:/127.0.0.1:52090] ip=/127.0.0.1:52090 is idle for period time [60]. close now.
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy15.echo(Unknown Source)
+	at com.baidu.jprotobuf.pbrpc.proto.EchoServicePerformanceTest$2.run(EchoServicePerformanceTest.java:216)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.baidu.jprotobuf.pbrpc.ErrorDataException: A error occurred: errorCode=2001 errorMessage:Connection reset by peer
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.decodeRpcResult(ProtobufRpcProxy.java:690)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.doWaitCallback(ProtobufRpcProxy.java:660)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.invoke(ProtobufRpcProxy.java:611)
+	... 7 more
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy15.echo(Unknown Source)
+	at com.baidu.jprotobuf.pbrpc.proto.EchoServicePerformanceTest$2.run(EchoServicePerformanceTest.java:216)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.baidu.jprotobuf.pbrpc.ErrorDataException: A error occurred: errorCode=2001 errorMessage:Connection reset by peer
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.decodeRpcResult(ProtobufRpcProxy.java:690)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.doWaitCallback(ProtobufRpcProxy.java:660)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.invoke(ProtobufRpcProxy.java:611)
+	... 7 more
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy15.echo(Unknown Source)
+	at com.baidu.jprotobuf.pbrpc.proto.EchoServicePerformanceTest$2.run(EchoServicePerformanceTest.java:216)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.baidu.jprotobuf.pbrpc.ErrorDataException: A error occurred: errorCode=2001 errorMessage:Connection reset by peer
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.decodeRpcResult(ProtobufRpcProxy.java:690)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.doWaitCallback(ProtobufRpcProxy.java:660)
+	at com.baidu.jprotobuf.pbrpc.client.ProtobufRpcProxy.invoke(ProtobufRpcProxy.java:611)
+	... 7 more
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x6f6d01cb, L:/127.0.0.1:1031 - R:/127.0.0.1:52039]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x6f6d01cb, L:/127.0.0.1:1031 - R:/127.0.0.1:52039]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x6f6d01cb, L:/127.0.0.1:1031 - R:/127.0.0.1:52039] ip=/127.0.0.1:52039 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x514575f4, L:/127.0.0.1:1031 - R:/127.0.0.1:52059]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x514575f4, L:/127.0.0.1:1031 - R:/127.0.0.1:52059]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x514575f4, L:/127.0.0.1:1031 - R:/127.0.0.1:52059] ip=/127.0.0.1:52059 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xe3708d93, L:/127.0.0.1:1031 - R:/127.0.0.1:52119]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xe3708d93, L:/127.0.0.1:1031 - R:/127.0.0.1:52119]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xe3708d93, L:/127.0.0.1:1031 - R:/127.0.0.1:52119] ip=/127.0.0.1:52119 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x24c9e76d, L:/127.0.0.1:1031 - R:/127.0.0.1:52043]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x24c9e76d, L:/127.0.0.1:1031 - R:/127.0.0.1:52043]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x24c9e76d, L:/127.0.0.1:1031 - R:/127.0.0.1:52043] ip=/127.0.0.1:52043 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x2b59a57d, L:/127.0.0.1:1031 - R:/127.0.0.1:52038]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xa0dcd2e5, L:/127.0.0.1:1031 - R:/127.0.0.1:52063]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xff490896, L:/127.0.0.1:1031 - R:/127.0.0.1:52029]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xa0dcd2e5, L:/127.0.0.1:1031 - R:/127.0.0.1:52063]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x2b59a57d, L:/127.0.0.1:1031 - R:/127.0.0.1:52038]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xa0dcd2e5, L:/127.0.0.1:1031 - R:/127.0.0.1:52063] ip=/127.0.0.1:52063 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xff490896, L:/127.0.0.1:1031 - R:/127.0.0.1:52029]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xff490896, L:/127.0.0.1:1031 - R:/127.0.0.1:52029] ip=/127.0.0.1:52029 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xea7bf0ef, L:/127.0.0.1:1031 - R:/127.0.0.1:52123]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x2b59a57d, L:/127.0.0.1:1031 - R:/127.0.0.1:52038] ip=/127.0.0.1:52038 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xea7bf0ef, L:/127.0.0.1:1031 - R:/127.0.0.1:52123]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x43e917f6, L:/127.0.0.1:1031 - R:/127.0.0.1:52069]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x43e917f6, L:/127.0.0.1:1031 - R:/127.0.0.1:52069]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x43e917f6, L:/127.0.0.1:1031 - R:/127.0.0.1:52069] ip=/127.0.0.1:52069 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xea7bf0ef, L:/127.0.0.1:1031 - R:/127.0.0.1:52123] ip=/127.0.0.1:52123 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x9129fd69, L:/127.0.0.1:1031 - R:/127.0.0.1:52058]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x9129fd69, L:/127.0.0.1:1031 - R:/127.0.0.1:52058]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x37d8ef93, L:/127.0.0.1:1031 - R:/127.0.0.1:52109]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x9129fd69, L:/127.0.0.1:1031 - R:/127.0.0.1:52058] ip=/127.0.0.1:52058 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x37d8ef93, L:/127.0.0.1:1031 - R:/127.0.0.1:52109]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x37d8ef93, L:/127.0.0.1:1031 - R:/127.0.0.1:52109] ip=/127.0.0.1:52109 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x150698ad, L:/127.0.0.1:1031 - R:/127.0.0.1:52118]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x150698ad, L:/127.0.0.1:1031 - R:/127.0.0.1:52118]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x150698ad, L:/127.0.0.1:1031 - R:/127.0.0.1:52118] ip=/127.0.0.1:52118 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x40cfb2ed, L:/127.0.0.1:1031 - R:/127.0.0.1:52031]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x40cfb2ed, L:/127.0.0.1:1031 - R:/127.0.0.1:52031]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x40cfb2ed, L:/127.0.0.1:1031 - R:/127.0.0.1:52031] ip=/127.0.0.1:52031 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xf74ad066, L:/127.0.0.1:1031 - R:/127.0.0.1:52051]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xf74ad066, L:/127.0.0.1:1031 - R:/127.0.0.1:52051]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xf74ad066, L:/127.0.0.1:1031 - R:/127.0.0.1:52051] ip=/127.0.0.1:52051 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x8ca1eaf0, L:/127.0.0.1:1031 - R:/127.0.0.1:52111]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x8ca1eaf0, L:/127.0.0.1:1031 - R:/127.0.0.1:52111]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x8ca1eaf0, L:/127.0.0.1:1031 - R:/127.0.0.1:52111] ip=/127.0.0.1:52111 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xc043be79, L:/127.0.0.1:1031 - R:/127.0.0.1:52042]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x262bbd53, L:/127.0.0.1:1031 - R:/127.0.0.1:52080]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xc043be79, L:/127.0.0.1:1031 - R:/127.0.0.1:52042]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x262bbd53, L:/127.0.0.1:1031 - R:/127.0.0.1:52080]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xc043be79, L:/127.0.0.1:1031 - R:/127.0.0.1:52042] ip=/127.0.0.1:52042 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x262bbd53, L:/127.0.0.1:1031 - R:/127.0.0.1:52080] ip=/127.0.0.1:52080 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xa0cc6c31, L:/127.0.0.1:1031 - R:/127.0.0.1:52100]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xa0cc6c31, L:/127.0.0.1:1031 - R:/127.0.0.1:52100]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xe71d392f, L:/127.0.0.1:1031 - R:/127.0.0.1:52082]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xa0cc6c31, L:/127.0.0.1:1031 - R:/127.0.0.1:52100] ip=/127.0.0.1:52100 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xe71d392f, L:/127.0.0.1:1031 - R:/127.0.0.1:52082]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xe71d392f, L:/127.0.0.1:1031 - R:/127.0.0.1:52082] ip=/127.0.0.1:52082 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xdb083686, L:/127.0.0.1:1031 - R:/127.0.0.1:52120]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x9a3ba307, L:/127.0.0.1:1031 - R:/127.0.0.1:52102]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xdb083686, L:/127.0.0.1:1031 - R:/127.0.0.1:52120]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x9a3ba307, L:/127.0.0.1:1031 - R:/127.0.0.1:52102]
+Oct 11, 2026 8:19:43 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xdb083686, L:/127.0.0.1:1031 - R:/127.0.0.1:52120] ip=/127.0.0.1:52120 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x9a3ba307, L:/127.0.0.1:1031 - R:/127.0.0.1:52102] ip=/127.0.0.1:52102 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x9d7a1107, L:/127.0.0.1:1031 - R:/127.0.0.1:52035]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x9d7a1107, L:/127.0.0.1:1031 - R:/127.0.0.1:52035]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x9d7a1107, L:/127.0.0.1:1031 - R:/127.0.0.1:52035] ip=/127.0.0.1:52035 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x58b24e19, L:/127.0.0.1:1031 - R:/127.0.0.1:52075]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x58b24e19, L:/127.0.0.1:1031 - R:/127.0.0.1:52075]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x58b24e19, L:/127.0.0.1:1031 - R:/127.0.0.1:52075] ip=/127.0.0.1:52075 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0xb2c4a027, L:/127.0.0.1:1031 - R:/127.0.0.1:52115]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0xb2c4a027, L:/127.0.0.1:1031 - R:/127.0.0.1:52115]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0xb2c4a027, L:/127.0.0.1:1031 - R:/127.0.0.1:52115] ip=/127.0.0.1:52115 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x92b244fd, L:/127.0.0.1:1031 - R:/127.0.0.1:52036]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x92b244fd, L:/127.0.0.1:1031 - R:/127.0.0.1:52036]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x92b244fd, L:/127.0.0.1:1031 - R:/127.0.0.1:52036] ip=/127.0.0.1:52036 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x3069cb50, L:/127.0.0.1:1031 - R:/127.0.0.1:52076]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x3069cb50, L:/127.0.0.1:1031 - R:/127.0.0.1:52076]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x3069cb50, L:/127.0.0.1:1031 - R:/127.0.0.1:52076] ip=/127.0.0.1:52076 is idle for period time [60]. close now.
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[READER_IDLE]:[id: 0x290a969b, L:/127.0.0.1:1031 - R:/127.0.0.1:52096]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: idle on channel[WRITER_IDLE]:[id: 0x290a969b, L:/127.0.0.1:1031 - R:/127.0.0.1:52096]
+Oct 11, 2026 8:19:44 PM com.baidu.jprotobuf.pbrpc.transport.handler.RpcServerChannelIdleHandler userEventTriggered
+WARNING: channel:[id: 0x290a969b, L:/127.0.0.1:1031 - R:/127.0.0.1:52096] ip=/127.0.0.1:52096 is idle for period time [60]. close now.
+[INFO] 
+[INFO] Results:
+[INFO] 
+hed - stopping; results so far are kept

@@ -1,0 +1,158 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] hutool                                                             [pom]
+[INFO] hutool-core                                                        [jar]
+[INFO] hutool-log                                                         [jar]
+[INFO] hutool-setting                                                     [jar]
+[INFO] hutool-cron                                                        [jar]
+[INFO] 
+[INFO] ----------------------< cn.hutool:hutool-parent >-----------------------
+[INFO] Building hutool 4.1.14                                             [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-parent/4.1.14/hutool-parent-4.1.14.pom
+[INFO] 
+[INFO] -----------------------< cn.hutool:hutool-core >------------------------
+[INFO] Building hutool-core 4.1.14                                        [2/5]
+[INFO]   from hutool-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hutool-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ hutool-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 308 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/src/main/java/cn/hutool/core/lang/caller/ReflectionCaller.java:[16,35] sun.reflect.Reflection is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/src/main/java/cn/hutool/core/lang/caller/ReflectionCaller.java:[22,35] sun.reflect.Reflection is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/src/main/java/cn/hutool/core/lang/caller/ReflectionCaller.java:[28,35] sun.reflect.Reflection is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hutool-core ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ hutool-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 84 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hutool-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ hutool-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/target/hutool-core-4.1.14.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-core/4.1.14/hutool-core-4.1.14.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-core/target/hutool-core-4.1.14.jar to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-core/4.1.14/hutool-core-4.1.14.jar
+[INFO] 
+[INFO] ------------------------< cn.hutool:hutool-log >------------------------
+[INFO] Building hutool-log 4.1.14                                         [3/5]
+[INFO]   from hutool-log/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.pom (20 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tinylog/tinylog/1.3.2/tinylog-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tinylog/tinylog/1.3.2/tinylog-1.3.2.pom (2.4 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar (1.6 MB at 6.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tinylog/tinylog/1.3.2/tinylog-1.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tinylog/tinylog/1.3.2/tinylog-1.3.2.jar (107 kB at 818 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hutool-log ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ hutool-log ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 38 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hutool-log ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ hutool-log ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hutool-log ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ hutool-log ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/target/hutool-log-4.1.14.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-log ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-log/4.1.14/hutool-log-4.1.14.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-log/target/hutool-log-4.1.14.jar to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-log/4.1.14/hutool-log-4.1.14.jar
+[INFO] 
+[INFO] ----------------------< cn.hutool:hutool-setting >----------------------
+[INFO] Building hutool-setting 4.1.14                                     [4/5]
+[INFO]   from hutool-setting/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hutool-setting ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ hutool-setting ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hutool-setting ---
+[INFO] Copying 5 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ hutool-setting ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hutool-setting ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ hutool-setting ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/target/hutool-setting-4.1.14.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-setting ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-setting/4.1.14/hutool-setting-4.1.14.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-setting/target/hutool-setting-4.1.14.jar to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-setting/4.1.14/hutool-setting-4.1.14.jar
+[INFO] 
+[INFO] -----------------------< cn.hutool:hutool-cron >------------------------
+[INFO] Building hutool-cron 4.1.14                                        [5/5]
+[INFO]   from hutool-cron/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hutool-cron ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ hutool-cron ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hutool-cron ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ hutool-cron ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hutool-cron ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ hutool-cron ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/target/hutool-cron-4.1.14.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-cron ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-cron/4.1.14/hutool-cron-4.1.14.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/looly__hutool__91565d05__hutool-cron/hutool-cron/target/hutool-cron-4.1.14.jar to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-cron/4.1.14/hutool-cron-4.1.14.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for hutool 4.1.14:
+[INFO] 
+[INFO] hutool ............................................. SUCCESS [  0.965 s]
+[INFO] hutool-core ........................................ SUCCESS [ 15.345 s]
+[INFO] hutool-log ......................................... SUCCESS [  3.615 s]
+[INFO] hutool-setting ..................................... SUCCESS [  0.760 s]
+[INFO] hutool-cron ........................................ SUCCESS [  0.710 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.841 s
+[INFO] Finished at: 2026-10-11T17:49:57-05:00
+[INFO] ------------------------------------------------------------------------

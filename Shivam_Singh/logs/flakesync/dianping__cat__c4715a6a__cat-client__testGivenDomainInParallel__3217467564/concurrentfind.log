@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.dianping.cat:cat-client >---------------------
+[INFO] Building cat-client 4.0-RC1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ cat-client >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cat-client ---
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ cat-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 140 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cat-client ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ cat-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ cat-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ cat-client ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/.flakesync/clean_j6y2w3qhqT5Ktv7IO3mTcO+fYET05oXJVbKv1XFEKM=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.dianping.cat.message.context.MessageIdFactoryTest
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: -1,519,465.67 sec <<< FAILURE!
+
+Results :
+
+Failed tests:   testDefaultDomainInParallel(com.dianping.cat.message.context.MessageIdFactoryTest): Not all threads completed in time. expected:<123400> but was:<14242>
+  testGivenDomainInParallel(com.dianping.cat.message.context.MessageIdFactoryTest): Not all threads completed in time. expected:<123400> but was:<6003>
+
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_j6y2w3qhqT5Ktv7IO3mTcO+fYET05oXJVbKv1XFEKM= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.575 s
+[INFO] Finished at: 2026-10-11T18:24:59-05:00
+[INFO] ------------------------------------------------------------------------

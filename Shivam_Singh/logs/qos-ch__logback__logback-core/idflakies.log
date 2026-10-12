@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.qos.logback:logback-core-blackbox:jar:1.4.12-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.codehaus.janino:janino:jar -> duplicate declaration of version (?) @ line 33, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< ch.qos.logback:logback-core >---------------------
+[INFO] Building Logback Core Module 1.4.12-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ logback-core >>>
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ logback-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ logback-core ---
+[WARNING] ********************************************************************************************************************************************************************
+[WARNING] * Required filename-based automodules detected: [janino-3.1.8.jar, commons-compiler-3.1.8.jar]. Please don't publish this project to a public artifact repository! *
+[WARNING] ********************************************************************************************************************************************************************
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:5.1.8:manifest (bundle-manifest) @ logback-core ---
+[INFO] Writing manifest: /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ logback-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ logback-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ logback-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ logback-core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving ch.qos.logback:logback-core:1.4.12-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 551 tests. Time taken: 0.4850001335144043 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/.dtfixingtools/original-order
+[INFO] Getting original results (551 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (8.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (8.6 seconds elapsed (17.3 total), 12.9 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (17.3 seconds elapsed (25.9 total), 11.5 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (25.9 seconds elapsed (34.5 total), 6.5 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (34.5 seconds elapsed (42.4 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/qos-ch__logback__logback-core/logback-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:06 min
+[INFO] Finished at: 2026-10-11T17:31:13-05:00
+[INFO] ------------------------------------------------------------------------

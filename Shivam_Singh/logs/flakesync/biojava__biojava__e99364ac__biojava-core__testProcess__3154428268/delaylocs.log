@@ -1,0 +1,64 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< org.biojava:biojava-core >----------------------
+[INFO] Building biojava-core 6.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ biojava-core >>>
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-java) @ biojava-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ biojava-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ biojava-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ biojava-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ biojava-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 46 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ biojava-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ biojava-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ biojava-core ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.biojava.nbio.core.sequence.io.GenbankCookbookTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.206 s <<< FAILURE! - in org.biojava.nbio.core.sequence.io.GenbankCookbookTest
+[ERROR] testProcess(org.biojava.nbio.core.sequence.io.GenbankCookbookTest)  Time elapsed: 0.755 s  <<< ERROR!
+java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "org/biojava/nbio/core/sequence/loader/UniprotProxySequenceReader"
+	at org.biojava.nbio.core.sequence.io.GenbankCookbookTest.testProcess(GenbankCookbookTest.java:75)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   GenbankCookbookTest.testProcess:75 » Linkage loader (instance of  sun/misc/Lau...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_9RKm87ZQBmbO7ZvRO6EyU0HApnWTLaesyQvkQMfzkI= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.291 s
+[INFO] Finished at: 2026-10-11T20:31:41-05:00
+[INFO] ------------------------------------------------------------------------

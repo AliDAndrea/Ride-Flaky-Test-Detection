@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.unomi:unomi-persistence-elasticsearch-core:bundle:2.2.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.logging.log4j:log4j-api:jar -> duplicate declaration of version 2.17.0 @ line 146, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.logging.log4j:log4j-core:jar -> duplicate declaration of version 2.17.0 @ line 153, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.unomi:unomi-rest:bundle:2.2.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.unomi:unomi-persistence-spi:jar -> duplicate declaration of version ${project.version} @ line 102, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.cxf:cxf-rt-rs-security-cors:jar -> version (?) vs ${cxf.version} @ line 131, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.cxf:cxf-rt-frontend-jaxrs:jar -> version (?) vs ${cxf.version} @ line 137, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.unomi:cdp-graphql-api-impl:bundle:2.2.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.slf4j:slf4j-api:jar -> version (?) vs 1.7.21 @ line 126, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------< org.apache.unomi:unomi-persistence-elasticsearch >----------
+[INFO] Building Apache Unomi :: Persistence :: ElasticSearch 2.2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ unomi-persistence-elasticsearch >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ unomi-persistence-elasticsearch ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ unomi-persistence-elasticsearch ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ unomi-persistence-elasticsearch <<<
+[INFO] 
+[INFO] Downloading from smx.m2: https://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-api/1.7.1/slf4j-api-1.7.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.1/slf4j-api-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.1/slf4j-api-1.7.1.jar (26 kB at 139 kB/s)
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ unomi-persistence-elasticsearch ---
+SEVERE: Surefire is not explicitly declared in your pom.xml; we will use version 2.20, but you may want to change that.
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] No tests to run.
+INFO: Surefire failed when running tests for clean_ScMhPOczWa0JXddTjh8t0uCgiDmVDUTperuKm3UttE= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.504 s
+[INFO] Finished at: 2026-10-11T17:30:45-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,301 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Redpipe                                                            [pom]
+[INFO] redpipe-engine                                                     [jar]
+[INFO] redpipe-templating-freemarker                                      [jar]
+[INFO] 
+[INFO] ---------------------< net.redpipe:redpipe-parent >---------------------
+[INFO] Building Redpipe 0.0.5-SNAPSHOT                                    [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ redpipe-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/pom.xml to /Users/shivamsingh/.m2/repository/net/redpipe/redpipe-parent/0.0.5-SNAPSHOT/redpipe-parent-0.0.5-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< net.redpipe:redpipe-engine >---------------------
+[INFO] Building redpipe-engine 0.0.5-SNAPSHOT                             [2/3]
+[INFO]   from redpipe-engine/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-unit/3.5.1/vertx-unit-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-unit/3.5.1/vertx-unit-3.5.1.pom (7.5 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.5.1/vertx-dependencies-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/3.5.1/vertx-dependencies-3.5.1.pom (25 kB at 281 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.pom (30 kB at 338 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.pom (6.1 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1.pom (6.8 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.1/jackson-bom-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.1/jackson-bom-2.9.1.pom (12 kB at 222 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.pom (2.6 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-shiro/3.5.1/vertx-auth-shiro-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-shiro/3.5.1/vertx-auth-shiro-3.5.1.pom (6.7 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/3.5.1/vertx-auth-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth/3.5.1/vertx-auth-3.5.1.pom (3.8 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.pom (3.4 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.2.6/shiro-core-1.2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.2.6/shiro-core-1.2.6.pom (4.2 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.2.6/shiro-root-1.2.6.pom (44 kB at 297 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config/3.5.1/vertx-config-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config/3.5.1/vertx-config-3.5.1.pom (1.7 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config-parent/3.5.1/vertx-config-parent-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config-parent/3.5.1/vertx-config-parent-3.5.1.pom (5.0 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.5.1/vertx-jdbc-client-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.5.1/vertx-jdbc-client-3.5.1.pom (6.2 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.pom (4.1 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java/3.5.1/vertx-rx-java-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java/3.5.1/vertx-rx-java-3.5.1.pom (11 kB at 155 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx/3.5.1/vertx-rx-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx/3.5.1/vertx-rx-3.5.1.pom (3.8 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/3.5.1/vertx-rx-java2-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/3.5.1/vertx-rx-java2-3.5.1.pom (13 kB at 164 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.pom (2.4 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/3.5.1/vertx-web-client-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/3.5.1/vertx-web-client-3.5.1.pom (3.3 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/3.5.1/vertx-web-parent-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-parent/3.5.1/vertx-web-parent-3.5.1.pom (3.5 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.5.1/vertx-web-common-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.5.1/vertx-web-common-3.5.1.pom (2.7 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.pom (7.2 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.pom (6.7 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail-client/3.5.1/vertx-mail-client-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail-client/3.5.1/vertx-mail-client-3.5.1.pom (2.9 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail/3.5.1/vertx-mail-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail/3.5.1/vertx-mail-3.5.1.pom (4.8 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/4.0.0.Beta5/resteasy-jaxrs-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/4.0.0.Beta5/resteasy-jaxrs-4.0.0.Beta5.pom (9.5 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-all/4.0.0.Beta5/resteasy-jaxrs-all-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-all/4.0.0.Beta5/resteasy-jaxrs-all-4.0.0.Beta5.pom (13 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-dependencies/4.0.0.Beta5/resteasy-dependencies-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-dependencies/4.0.0.Beta5/resteasy-dependencies-4.0.0.Beta5.pom (39 kB at 462 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.1.Final/jboss-jaxrs-api_2.1_spec-1.0.1.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.1.Final/jboss-jaxrs-api_2.1_spec-1.0.1.Final.pom (4.0 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.0.Final/jboss-jaxb-api_2.3_spec-1.0.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.0.Final/jboss-jaxb-api_2.3_spec-1.0.0.Final.pom (4.4 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-services/4.0.0.Beta5/resteasy-jaxrs-services-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-services/4.0.0.Beta5/resteasy-jaxrs-services-4.0.0.Beta5.pom (685 B at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-validator-provider-11/4.0.0.Beta5/resteasy-validator-provider-11-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-validator-provider-11/4.0.0.Beta5/resteasy-validator-provider-11-4.0.0.Beta5.pom (5.9 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/4.0.0.Beta5/resteasy-jackson2-provider-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/4.0.0.Beta5/resteasy-jackson2-provider-4.0.0.Beta5.pom (2.8 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.1/jackson-jaxrs-json-provider-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.1/jackson-jaxrs-json-provider-2.9.1.pom (3.9 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.9.1/jackson-jaxrs-providers-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.9.1/jackson-jaxrs-providers-2.9.1.pom (4.1 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.1/jackson-jaxrs-base-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.1/jackson-jaxrs-base-2.9.1.pom (1.5 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.1/jackson-module-jaxb-annotations-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.1/jackson-module-jaxb-annotations-2.9.1.pom (2.0 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.9.1/jackson-modules-base-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.9.1/jackson-modules-base-2.9.1.pom (2.6 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/fge/json-patch/1.3/json-patch-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/fge/json-patch/1.3/json-patch-1.3.pom (5.7 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/fge/jackson-coreutils/1.0/jackson-coreutils-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/fge/jackson-coreutils/1.0/jackson-coreutils-1.0.pom (5.6 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-vertx/4.0.0.Beta5/resteasy-vertx-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-vertx/4.0.0.Beta5/resteasy-vertx-4.0.0.Beta5.pom (5.3 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-client/4.0.0.Beta5/resteasy-client-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-client/4.0.0.Beta5/resteasy-client-4.0.0.Beta5.pom (5.4 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava/4.0.0.Beta5/resteasy-rxjava-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava/4.0.0.Beta5/resteasy-rxjava-4.0.0.Beta5.pom (5.6 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-reactive-context/4.0.0.Beta5/resteasy-reactive-context-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-reactive-context/4.0.0.Beta5/resteasy-reactive-context-4.0.0.Beta5.pom (1.2 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-core/1.0.0/reactive-contexts-core-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-core/1.0.0/reactive-contexts-core-1.0.0.pom (1.3 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-parent/1.0.0/reactive-contexts-parent-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-parent/1.0.0/reactive-contexts-parent-1.0.0.pom (3.3 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava1/1.0.0/reactive-contexts-propagators-rxjava1-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava1/1.0.0/reactive-contexts-propagators-rxjava1-1.0.0.pom (1.9 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava2/4.0.0.Beta5/resteasy-rxjava2-4.0.0.Beta5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava2/4.0.0.Beta5/resteasy-rxjava2-4.0.0.Beta5.pom (5.4 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava2/1.0.0/reactive-contexts-propagators-rxjava2-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava2/1.0.0/reactive-contexts-propagators-rxjava2-1.0.0.pom (1.9 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.pom (11 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/el/el-ri/1.0/el-ri-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/el/el-ri/1.0/el-ri-1.0.pom (185 B at 2.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.6.3/slf4j-jdk14-1.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.6.3/slf4j-jdk14-1.6.3.pom (1.9 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/rjeschke/txtmark/0.13/txtmark-0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/rjeschke/txtmark/0.13/txtmark-0.13.pom (3.2 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.9/jackson-dataformat-yaml-2.8.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.9/jackson-dataformat-yaml-2.8.9.pom (6.2 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-unit/3.5.1/vertx-unit-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-unit/3.5.1/vertx-unit-3.5.1.jar (216 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-shiro/3.5.1/vertx-auth-shiro-3.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.2.6/shiro-core-1.2.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-common/3.5.1/vertx-auth-common-3.5.1.jar (57 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.1/jackson-databind-2.9.1.jar (1.3 MB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config/3.5.1/vertx-config-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.2.6/shiro-core-1.2.6.jar (378 kB at 667 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.5.1/vertx-jdbc-client-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-config/3.5.1/vertx-config-3.5.1.jar (73 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-auth-shiro/3.5.1/vertx-auth-shiro-3.5.1.jar (30 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java/3.5.1/vertx-rx-java-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.jar (321 kB at 482 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/3.5.1/vertx-rx-java2-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-jdbc-client/3.5.1/vertx-jdbc-client-3.5.1.jar (71 kB at 105 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-sql-common/3.5.1/vertx-sql-common-3.5.1.jar (125 kB at 176 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/3.5.1/vertx-core-3.5.1.jar (1.1 MB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/3.5.1/vertx-web-client-3.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.5.1/vertx-web-common-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java/3.5.1/vertx-rx-java-3.5.1.jar (397 kB at 557 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-rx-java2/3.5.1/vertx-rx-java2-3.5.1.jar (398 kB at 486 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-client/3.5.1/vertx-web-client-3.5.1.jar (94 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail-client/3.5.1/vertx-mail-client-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-common/3.5.1/vertx-web-common-3.5.1.jar (25 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/4.0.0.Beta5/resteasy-jaxrs-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web/3.5.1/vertx-web-3.5.1.jar (641 kB at 700 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.1.Final/jboss-jaxrs-api_2.1_spec-1.0.1.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-bridge-common/3.5.1/vertx-bridge-common-3.5.1.jar (37 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.0.Final/jboss-jaxb-api_2.3_spec-1.0.0.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-mail-client/3.5.1/vertx-mail-client-3.5.1.jar (100 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-services/4.0.0.Beta5/resteasy-jaxrs-services-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.jar (2.3 MB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/4.0.0.Beta5/resteasy-jaxrs-4.0.0.Beta5.jar (857 kB at 867 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-validator-provider-11/4.0.0.Beta5/resteasy-validator-provider-11-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/1.0.1.Final/jboss-jaxrs-api_2.1_spec-1.0.1.Final.jar (138 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/4.0.0.Beta5/resteasy-jackson2-provider-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/1.0.0.Final/jboss-jaxb-api_2.3_spec-1.0.0.Final.jar (131 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-services/4.0.0.Beta5/resteasy-jaxrs-services-4.0.0.Beta5.jar (2.6 kB at 2.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.1/jackson-jaxrs-json-provider-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.1/jackson-annotations-2.9.1.jar (67 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.1/jackson-jaxrs-base-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.7/httpcore-4.4.7.jar (325 kB at 309 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.1/jackson-module-jaxb-annotations-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-validator-provider-11/4.0.0.Beta5/resteasy-validator-provider-11-4.0.0.Beta5.jar (25 kB at 23 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.1/jackson-jaxrs-json-provider-2.9.1.jar (16 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/fge/json-patch/1.3/json-patch-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/4.0.0.Beta5/resteasy-jackson2-provider-4.0.0.Beta5.jar (23 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/fge/jackson-coreutils/1.0/jackson-coreutils-1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-vertx/4.0.0.Beta5/resteasy-vertx-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.1/jackson-module-jaxb-annotations-2.9.1.jar (33 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-client/4.0.0.Beta5/resteasy-client-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/fge/jackson-coreutils/1.0/jackson-coreutils-1.0.jar (23 kB at 20 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.1/jackson-jaxrs-base-2.9.1.jar (33 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava/4.0.0.Beta5/resteasy-rxjava-4.0.0.Beta5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-reactive-context/4.0.0.Beta5/resteasy-reactive-context-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/fge/json-patch/1.3/json-patch-1.3.jar (33 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava1/1.0.0/reactive-contexts-propagators-rxjava1-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-vertx/4.0.0.Beta5/resteasy-vertx-4.0.0.Beta5.jar (40 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava2/4.0.0.Beta5/resteasy-rxjava2-4.0.0.Beta5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-reactive-context/4.0.0.Beta5/resteasy-reactive-context-4.0.0.Beta5.jar (6.1 kB at 5.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava2/1.0.0/reactive-contexts-propagators-rxjava2-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava/4.0.0.Beta5/resteasy-rxjava-4.0.0.Beta5.jar (23 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-client/4.0.0.Beta5/resteasy-client-4.0.0.Beta5.jar (231 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/el/el-ri/1.0/el-ri-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava1/1.0.0/reactive-contexts-propagators-rxjava1-1.0.0.jar (13 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.6.3/slf4j-jdk14-1.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-rxjava2/4.0.0.Beta5/resteasy-rxjava2-4.0.0.Beta5.jar (32 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/rjeschke/txtmark/0.13/txtmark-0.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/el/el-ri/1.0/el-ri-1.0.jar (100 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.9/jackson-dataformat-yaml-2.8.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar (73 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-core/1.0.0/reactive-contexts-core-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-propagators-rxjava2/1.0.0/reactive-contexts-propagators-rxjava2-1.0.0.jar (24 kB at 18 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/rjeschke/txtmark/0.13/txtmark-0.13.jar (71 kB at 54 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.9/jackson-dataformat-yaml-2.8.9.jar (41 kB at 31 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.6.3/slf4j-jdk14-1.6.3.jar (8.9 kB at 6.8 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactiverse/reactive-contexts-core/1.0.0/reactive-contexts-core-1.0.0.jar (14 kB at 10 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ redpipe-engine ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ redpipe-engine ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 51 source files with javac [debug target 1.8] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/src/main/java/net/redpipe/engine/resteasy/ResteasyFilterContext.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/src/main/java/net/redpipe/engine/resteasy/ResteasyFilterContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/src/main/java/net/redpipe/engine/core/AppGlobals.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/src/main/java/net/redpipe/engine/core/AppGlobals.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ redpipe-engine ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ redpipe-engine ---
+[INFO] Recompiling the module because of changed dependency.
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 6 source files with javac [debug target 1.8] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ redpipe-engine ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ redpipe-engine ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/target/redpipe-engine-0.0.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ redpipe-engine ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/pom.xml to /Users/shivamsingh/.m2/repository/net/redpipe/redpipe-engine/0.0.5-SNAPSHOT/redpipe-engine-0.0.5-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-engine/target/redpipe-engine-0.0.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/net/redpipe/redpipe-engine/0.0.5-SNAPSHOT/redpipe-engine-0.0.5-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------< net.redpipe:redpipe-templating-freemarker >--------------
+[INFO] Building redpipe-templating-freemarker 0.0.5-SNAPSHOT              [3/3]
+[INFO]   from redpipe-templating-freemarker/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-templ-freemarker/3.5.1/vertx-web-templ-freemarker-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-templ-freemarker/3.5.1/vertx-web-templ-freemarker-3.5.1.pom (4.2 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-template-engines/3.5.1/vertx-template-engines-3.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-template-engines/3.5.1/vertx-template-engines-3.5.1.pom (1.6 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.3/slf4j-api-1.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.3/slf4j-api-1.6.3.jar (26 kB at 494 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-templ-freemarker/3.5.1/vertx-web-templ-freemarker-3.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-web-templ-freemarker/3.5.1/vertx-web-templ-freemarker-3.5.1.jar (19 kB at 247 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ redpipe-templating-freemarker ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ redpipe-templating-freemarker ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 1.8] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ redpipe-templating-freemarker ---
+[INFO] Copying 8 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ redpipe-templating-freemarker ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 1.8] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ redpipe-templating-freemarker ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ redpipe-templating-freemarker ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-templating-freemarker/target/redpipe-templating-freemarker-0.0.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ redpipe-templating-freemarker ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-templating-freemarker/pom.xml to /Users/shivamsingh/.m2/repository/net/redpipe/redpipe-templating-freemarker/0.0.5-SNAPSHOT/redpipe-templating-freemarker-0.0.5-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/fromage__redpipe__redpipe-templating-freemarker/redpipe-templating-freemarker/target/redpipe-templating-freemarker-0.0.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/net/redpipe/redpipe-templating-freemarker/0.0.5-SNAPSHOT/redpipe-templating-freemarker-0.0.5-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Redpipe 0.0.5-SNAPSHOT:
+[INFO] 
+[INFO] Redpipe ............................................ SUCCESS [  0.809 s]
+[INFO] redpipe-engine ..................................... SUCCESS [ 22.553 s]
+[INFO] redpipe-templating-freemarker ...................... SUCCESS [  1.669 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.772 s
+[INFO] Finished at: 2026-10-11T19:59:10-05:00
+[INFO] ------------------------------------------------------------------------

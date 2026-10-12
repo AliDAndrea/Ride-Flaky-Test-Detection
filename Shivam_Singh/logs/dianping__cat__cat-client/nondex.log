@@ -1,0 +1,318 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.dianping.cat:cat-client >---------------------
+[INFO] Building cat-client 4.0-RC1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ cat-client >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cat-client ---
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ cat-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cat-client ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ cat-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ cat-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ cat-client ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_87Pu1ExI2xasqEW7ByI80MS1E89RJUeJWeVPaakymsg=
+nondexLogging=CONFIG
+test=
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex/clean_87Pu1ExI2xasqEW7ByI80MS1E89RJUeJWeVPaakymsg=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.dianping.cat.CatBootstrapTest
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 sec
+Running com.dianping.cat.component.CatComponentFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec
+Running com.dianping.cat.component.ComponentContextTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.dianping.cat.component.ComponentLifecycleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.component.LoggerTest
+[2026-10-11 19:20:09.778] [INFO] Hello, world
+[2026-10-11 19:20:09.780] [WARN] Hello, world
+[2026-10-11 19:20:09.780] [ERROR] Hello, world
+[2026-10-11 19:20:09.781] [INFO] message
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.dianping.cat.component.ServiceLoaderComponentFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.dianping.cat.configuration.ConfigureManagerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.dianping.cat.configuration.ConfigureModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running com.dianping.cat.message.MessageTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+Running com.dianping.cat.message.MetricTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.dianping.cat.message.context.MessageContextTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.016 sec
+Running com.dianping.cat.message.context.MessageIdFactoryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.505 sec
+Running com.dianping.cat.message.internal.MockMessageBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.dianping.cat.message.pipeline.MetricAggregatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.dianping.cat.message.pipeline.MessagePipelineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.dianping.cat.status.StatusModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.dianping.cat.support.servlet.CatFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.544 sec
+Running com.dianping.cat.support.SplittersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexExecid=END2o3YCJY0pDWTvbELgCeqhWF8EVVAm3iti9gIU7fU=
+nondexLogging=CONFIG
+test=
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex/END2o3YCJY0pDWTvbELgCeqhWF8EVVAm3iti9gIU7fU=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.dianping.cat.CatBootstrapTest
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 sec
+Running com.dianping.cat.component.CatComponentFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running com.dianping.cat.component.ComponentContextTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.component.ComponentLifecycleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.dianping.cat.component.LoggerTest
+[2026-10-11 19:20:13.644] [INFO] Hello, world
+[2026-10-11 19:20:13.645] [WARN] Hello, world
+[2026-10-11 19:20:13.645] [ERROR] Hello, world
+[2026-10-11 19:20:13.647] [INFO] message
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.component.ServiceLoaderComponentFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.dianping.cat.configuration.ConfigureManagerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.dianping.cat.configuration.ConfigureModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.dianping.cat.message.MessageTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+Running com.dianping.cat.message.MetricTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.dianping.cat.message.context.MessageContextTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.009 sec
+Running com.dianping.cat.message.context.MessageIdFactoryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.446 sec
+Running com.dianping.cat.message.internal.MockMessageBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running com.dianping.cat.message.pipeline.MetricAggregatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.dianping.cat.message.pipeline.MessagePipelineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.dianping.cat.status.StatusModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running com.dianping.cat.support.servlet.CatFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.585 sec
+Running com.dianping.cat.support.SplittersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexExecid=HZh5vXMHjP31f2qfTSvHacr55lmdSwm5wDVfBMHAlc=
+nondexLogging=CONFIG
+test=
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex/HZh5vXMHjP31f2qfTSvHacr55lmdSwm5wDVfBMHAlc=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.dianping.cat.CatBootstrapTest
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec
+Running com.dianping.cat.component.CatComponentFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.dianping.cat.component.ComponentContextTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.dianping.cat.component.ComponentLifecycleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.dianping.cat.component.LoggerTest
+[2026-10-11 19:20:16.984] [INFO] Hello, world
+[2026-10-11 19:20:16.985] [WARN] Hello, world
+[2026-10-11 19:20:16.985] [ERROR] Hello, world
+[2026-10-11 19:20:16.986] [INFO] message
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.dianping.cat.component.ServiceLoaderComponentFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.dianping.cat.configuration.ConfigureManagerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.configuration.ConfigureModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.dianping.cat.message.MessageTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.dianping.cat.message.MetricTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.dianping.cat.message.context.MessageContextTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.007 sec
+Running com.dianping.cat.message.context.MessageIdFactoryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.937 sec
+Running com.dianping.cat.message.internal.MockMessageBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.dianping.cat.message.pipeline.MetricAggregatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.dianping.cat.message.pipeline.MessagePipelineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.status.StatusModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.dianping.cat.support.servlet.CatFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 sec
+Running com.dianping.cat.support.SplittersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex
+nondexExecid=a318RgkvfFktODjW7HCGKkDfuCU7adhUycnv0CTWsgQ=
+nondexLogging=CONFIG
+test=
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex/a318RgkvfFktODjW7HCGKkDfuCU7adhUycnv0CTWsgQ=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+Running com.dianping.cat.CatBootstrapTest
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec
+Running com.dianping.cat.component.CatComponentFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.dianping.cat.component.ComponentContextTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.dianping.cat.component.ComponentLifecycleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.dianping.cat.component.LoggerTest
+[2026-10-11 19:20:19.398] [INFO] Hello, world
+[2026-10-11 19:20:19.398] [WARN] Hello, world
+[2026-10-11 19:20:19.398] [ERROR] Hello, world
+[2026-10-11 19:20:19.399] [INFO] message
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.dianping.cat.component.ServiceLoaderComponentFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.dianping.cat.configuration.ConfigureManagerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.dianping.cat.configuration.ConfigureModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.dianping.cat.message.MessageTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running com.dianping.cat.message.MetricTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.dianping.cat.message.context.MessageContextTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.008 sec
+Running com.dianping.cat.message.context.MessageIdFactoryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.161 sec
+Running com.dianping.cat.message.internal.MockMessageBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running com.dianping.cat.message.pipeline.MetricAggregatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.dianping.cat.message.pipeline.MessagePipelineTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.dianping.cat.status.StatusModelTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.dianping.cat.support.servlet.CatFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.473 sec
+Running com.dianping.cat.support.SplittersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 67, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexExecid=END2o3YCJY0pDWTvbELgCeqhWF8EVVAm3iti9gIU7fU= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexExecid=HZh5vXMHjP31f2qfTSvHacr55lmdSwm5wDVfBMHAlc= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex" -DnondexExecid=a318RgkvfFktODjW7HCGKkDfuCU7adhUycnv0CTWsgQ= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/dianping__cat__cat-client/cat-client/.nondex/END2o3YCJY0pDWTvbELgCeqhWF8EVVAm3iti9gIU7fU=/test_results.html
+[INFO] [NonDex] The id of this run is: END2o3YCJY0pDWTvbELgCeqhWF8EVVAm3iti9gIU7fU=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.089 s
+[INFO] Finished at: 2026-10-11T19:20:21-05:00
+[INFO] ------------------------------------------------------------------------

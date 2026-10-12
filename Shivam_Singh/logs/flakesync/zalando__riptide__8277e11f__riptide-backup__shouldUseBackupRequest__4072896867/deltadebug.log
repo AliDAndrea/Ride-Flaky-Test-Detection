@@ -1,0 +1,106 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.zalando:riptide-backup >---------------------
+[INFO] Building Riptide: Backup 2.11.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ riptide-backup >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ riptide-backup ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- duplicate-finder:1.3.0:check (default) @ riptide-backup ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (prepare-agent) @ riptide-backup ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ riptide-backup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__8277e11f__riptide-backup/riptide-backup/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ riptide-backup ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ riptide-backup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__8277e11f__riptide-backup/riptide-backup/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ riptide-backup ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ riptide-backup <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ riptide-backup ---
+INFO: Running DeltaDebugMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.backup.BackupRequestPluginTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @1473ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@23e028a9{HTTP/1.1,[http/1.1]}{0.0.0.0:57841}
+[main] INFO org.eclipse.jetty.server.Server - Started @1846ms
+[main] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/bar"
+[main] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/bar"
+[qtp644460953-20] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /bar
+[main] INFO com.github.restdriver.clientdriver.ClientDriver - Beginning verification
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@23e028a9{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.82 s <<< FAILURE! - in org.zalando.riptide.backup.BackupRequestPluginTest
+[ERROR] shouldUseBackupRequest(org.zalando.riptide.backup.BackupRequestPluginTest)  Time elapsed: 25.87 s  <<< ERROR!
+com.github.restdriver.clientdriver.exception.ClientDriverFailedExpectationException: 
+1 unmatched expectation(s):
+  expected: 1, actual: 0 -> ClientDriverRequest: GET "/bar"; ANY PARAMS: false; PARAMS: []; HEADERS: []; NOT HEADERS: []; CONTENT TYPE null; BODY null;
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BackupRequestPluginTest.shouldUseBackupRequest » ClientDriverFailedExpectation
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_2G9sZLBTDuHIq6+1ht4TcMXbG+QHUpGUWI0VW2Lu8= with delay: 12800
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.backup.BackupRequestPluginTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @1373ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@23e028a9{HTTP/1.1,[http/1.1]}{0.0.0.0:57871}
+[main] INFO org.eclipse.jetty.server.Server - Started @1623ms
+[main] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/bar"
+[main] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/bar"
+[qtp644460953-20] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /bar
+[main] INFO com.github.restdriver.clientdriver.ClientDriver - Beginning verification
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@23e028a9{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.749 s <<< FAILURE! - in org.zalando.riptide.backup.BackupRequestPluginTest
+[ERROR] shouldUseBackupRequest(org.zalando.riptide.backup.BackupRequestPluginTest)  Time elapsed: 13.018 s  <<< ERROR!
+com.github.restdriver.clientdriver.exception.ClientDriverFailedExpectationException: 
+1 unmatched expectation(s):
+  expected: 1, actual: 0 -> ClientDriverRequest: GET "/bar"; ANY PARAMS: false; PARAMS: []; HEADERS: []; NOT HEADERS: []; CONTENT TYPE null; BODY null;
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BackupRequestPluginTest.shouldUseBackupRequest » ClientDriverFailedExpectation
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_4smt1v2YcfPkVTjO3gD5Fzfl6HrSNoawuqys9l9x94= with delay: 12800
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:00 min
+[INFO] Finished at: 2026-10-11T18:35:51-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,130 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.platformlambda:rest-automation >-----------------
+[INFO] Building REST automation library 2.2.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ rest-automation >>>
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ rest-automation ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ rest-automation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ rest-automation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ rest-automation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ rest-automation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ rest-automation <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ rest-automation ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.platformlambda.automation.tests.WebSocketTests
+2026-10-11 17:34:40.322 INFO  org.platformlambda.core.system.AppStarter:108 - Starting org.platformlambda.automation.init.ParseArguments
+2026-10-11 17:34:40.562 INFO  org.platformlambda.core.system.AppStarter:108 - Starting org.platformlambda.automation.MainModule
+2026-10-11 17:34:40.564 INFO  org.platformlambda.core.system.ServerPersonality:54 - Setting personality as REST
+2026-10-11 17:34:40.588 INFO  org.platformlambda.core.util.ManagedCache:86 - Created cache (system.log.cache), expiry 30000 ms, maxItems=2000
+2026-10-11 17:34:40.592 INFO  org.platformlambda.core.util.ManagedCache:178 - Started
+2026-10-11 17:34:41.965 INFO  org.platformlambda.automation.MainModule:135 - Loading config from classpath:/rest.yaml
+2026-10-11 17:34:48.425 INFO  org.platformlambda.automation.config.RoutingEntry:727 - Loaded header_1 request headers {drop=[Upgrade-Insecure-Requests, cache-control, accept-encoding, host, connection]}
+2026-10-11 17:34:54.266 INFO  org.platformlambda.automation.config.RoutingEntry:727 - Loaded header_1 response headers {add=[Strict-Transport-Security: max-age=31536000, Cache-Control: no-cache, no-store, Pragma: no-cache, Expires: Thu, 01 Jan 1970 00:00:00 GMT]}
+2026-10-11 17:35:17.131 INFO  org.platformlambda.automation.config.RoutingEntry:640 - Loaded cors_1 CORS headers (*)
+2026-10-11 17:35:33.678 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/ws/token/{application} -> [ws.token.issuer], timeout=30s, tracing=true
+2026-10-11 17:35:34.924 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/ws/token/{application} -> [ws.token.issuer], timeout=30s
+2026-10-11 17:35:45.837 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/notification -> [ws.notification], timeout=30s, tracing=true
+2026-10-11 17:35:47.086 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/notification -> [ws.notification], timeout=30s
+2026-10-11 17:35:59.827 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/notification/{topic} -> [ws.notification], timeout=30s, tracing=true
+2026-10-11 17:36:01.064 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/notification/{topic} -> [ws.notification], timeout=30s
+2026-10-11 17:36:22.019 INFO  org.platformlambda.automation.config.RoutingEntry:525 - GET /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:23.371 INFO  org.platformlambda.automation.config.RoutingEntry:525 - PUT /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:24.733 INFO  org.platformlambda.automation.config.RoutingEntry:525 - POST /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:26.092 INFO  org.platformlambda.automation.config.RoutingEntry:525 - HEAD /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:27.453 INFO  org.platformlambda.automation.config.RoutingEntry:525 - PATCH /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:28.807 INFO  org.platformlambda.automation.config.RoutingEntry:525 - DELETE /api/hello/world -> v1.api.auth -> [hello.world], timeout=10s, tracing=true
+2026-10-11 17:36:30.046 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/hello/world -> [hello.world], timeout=10s
+2026-10-11 17:36:43.567 INFO  org.platformlambda.automation.config.RoutingEntry:528 - POST /api/upload/demo -> [hello.world], timeout=15s, tracing=false
+2026-10-11 17:36:44.825 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/upload/demo -> [hello.world], timeout=15s
+2026-10-11 17:37:00.820 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/nice/{task}/* -> [hello.world], timeout=12s, tracing=false
+2026-10-11 17:37:02.175 INFO  org.platformlambda.automation.config.RoutingEntry:528 - PUT /api/nice/{task}/* -> [hello.world], timeout=12s, tracing=false
+2026-10-11 17:37:03.529 INFO  org.platformlambda.automation.config.RoutingEntry:528 - POST /api/nice/{task}/* -> [hello.world], timeout=12s, tracing=false
+2026-10-11 17:37:04.783 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/nice/{task}/* -> [hello.world], timeout=12s
+2026-10-11 17:37:13.208 WARN  org.platformlambda.automation.config.RoutingEntry:483 - trust_all_cert=true for http://127.0.0.1:8100 is not relevant - Do you meant https?
+2026-10-11 17:37:19.872 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/v1/* -> [http://127.0.0.1:8100], timeout=20s, tracing=true
+2026-10-11 17:37:21.227 INFO  org.platformlambda.automation.config.RoutingEntry:528 - PUT /api/v1/* -> [http://127.0.0.1:8100], timeout=20s, tracing=true
+2026-10-11 17:37:22.579 INFO  org.platformlambda.automation.config.RoutingEntry:528 - POST /api/v1/* -> [http://127.0.0.1:8100], timeout=20s, tracing=true
+2026-10-11 17:37:23.819 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/v1/* -> [http://127.0.0.1:8100], timeout=20s
+2026-10-11 17:37:36.826 INFO  org.platformlambda.automation.config.RoutingEntry:528 - GET /api/hello/download -> [hello.download], timeout=20s, tracing=false
+2026-10-11 17:37:38.079 INFO  org.platformlambda.automation.config.RoutingEntry:523 - OPTIONS /api/hello/download -> [hello.download], timeout=20s
+2026-10-11 17:37:40.992 INFO  org.platformlambda.automation.config.RoutingEntry:247 - Number of exact URLs = 4
+2026-10-11 17:37:56.642 INFO  org.platformlambda.automation.config.RoutingEntry:265 - Number of wildcard URLs = 4
+2026-10-11 17:37:59.894 INFO  org.platformlambda.automation.config.WsEntry:85 - WebSocket /ws/api/notification:{token}, recipient: my.ws.handler, publish: true, subscribe: true
+2026-10-11 17:38:00.234 INFO  org.platformlambda.automation.services.ServiceGateway:93 - HTTP trace headers [X-Correlation-Id, X-Trace-Id]
+2026-10-11 17:38:00.560 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE elastic.queue.cleanup with 1 instance started
+2026-10-11 17:38:00.613 INFO  org.platformlambda.automation.util.Housekeeper:43 - Started
+2026-10-11 17:38:00.643 INFO  org.platformlambda.core.system.ServiceQueue:71 - PUBLIC async.http.request with 300 instances started
+2026-10-11 17:38:00.651 INFO  org.platformlambda.core.services.DistributedTrace:46 - Reporting to 'distributed.trace.processor' if present
+2026-10-11 17:38:00.663 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE distributed.tracing with 1 instance started
+2026-10-11 17:38:00.670 INFO  org.platformlambda.core.util.ManagedCache:86 - Created cache (health.info), expiry 5000 ms, maxItems=2000
+2026-10-11 17:38:00.670 INFO  org.platformlambda.core.actuator.HealthService:66 - Mandatory service dependencies - []
+2026-10-11 17:38:00.672 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE actuator.services with 10 instances started
+2026-10-11 17:38:00.673 INFO  org.platformlambda.core.system.PostOffice:68 - Includes [distributed.tracing, actuator.services]
+2026-10-11 17:38:00.797 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE async.http.response with 300 instances started
+2026-10-11 17:38:00.958 INFO  org.platformlambda.automation.ws.WsRequestHandler:332 - Started
+2026-10-11 17:38:01.044 INFO  org.platformlambda.core.util.ElasticQueue:197 - Created holding area /tmp/reactive/rest-automation-20261011d3f7ca800ee549abbef70602d338252c in 432 ms
+2026-10-11 17:38:01.046 INFO  org.platformlambda.core.util.ElasticQueue:364 - Commit log started - com.sleepycat.je.Database@3806318d
+2026-10-11 17:38:01.358 INFO  org.platformlambda.automation.util.AsyncTimeoutHandler:42 - Async HTTP timeout handler started
+2026-10-11 17:38:01.363 INFO  org.platformlambda.core.util.ManagedCache:86 - Created cache (ws.tokens), expiry 30000 ms, maxItems=2000
+2026-10-11 17:38:01.363 INFO  org.platformlambda.core.util.ManagedCache:86 - Created cache (ws.conn.events), expiry 2000 ms, maxItems=2000
+2026-10-11 17:38:01.373 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE rest.automation.notification with 1 instance started
+2026-10-11 17:38:01.383 INFO  org.platformlambda.core.util.ManagedCache:86 - Created cache (java.class.cache), expiry 300000 ms, maxItems=2000
+2026-10-11 17:38:01.393 INFO  org.platformlambda.core.system.ServiceQueue:71 - PUBLIC notification.manager with 10 instances started
+2026-10-11 17:38:01.425 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE ws.token.issuer with 10 instances started
+2026-10-11 17:38:01.431 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE ws.notification with 10 instances started
+2026-10-11 17:38:01.434 INFO  org.platformlambda.core.system.ServiceQueue:71 - PRIVATE hello.world with 10 instances started
+2026-10-11 17:38:01.439 INFO  org.platformlambda.core.system.ServiceQueue:71 - PUBLIC my.ws.handler with 1 instance started
+2026-10-11 17:38:01.548 INFO  org.platformlambda.automation.MainModule:106 - REST automation running on port-8100
+2026-10-11 17:38:02.561 INFO  org.platformlambda.automation.services.NotificationManager:126 - Running in standalone mode
+2026-10-11 17:38:02.906 INFO  org.platformlambda.automation.http.HttpRelay:116 - Loaded HTTP factory regular.1
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 207.653 s <<< FAILURE! - in org.platformlambda.automation.tests.WebSocketTests
+[ERROR] userChannelTest(org.platformlambda.automation.tests.WebSocketTests)  Time elapsed: 5.052 s  <<< ERROR!
+java.util.concurrent.TimeoutException: async.http.request timeout for 5000 ms
+	at org.platformlambda.automation.tests.WebSocketTests.userChannelTest(WebSocketTests.java:78)
+
+2026-10-11 17:38:06.763 INFO  org.platformlambda.automation.ws.WsRequestHandler:371 - Stopped
+2026-10-11 17:38:07.076 INFO  org.platformlambda.core.util.ElasticQueue:401 - Commit log stopped - com.sleepycat.je.Database@3806318d
+2026-10-11 17:38:07.126 INFO  org.platformlambda.core.util.ElasticQueue:166 - Holding area /tmp/reactive/rest-automation-20261011d3f7ca800ee549abbef70602d338252c cleared
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   WebSocketTests.userChannelTest:78 » Timeout async.http.request timeout for 500...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_MP1Rq8CE3DVDtBaUuGEwvpRq3K3IwPWHBN9NRfWEcI= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:36 min
+[INFO] Finished at: 2026-10-11T17:38:07-05:00
+[INFO] ------------------------------------------------------------------------

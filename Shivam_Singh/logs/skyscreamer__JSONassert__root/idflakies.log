@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.skyscreamer:jsonassert:jar:1.5.1-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 80, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< org.skyscreamer:jsonassert >---------------------
+[INFO] Building JSONassert 1.5.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ jsonassert >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ jsonassert ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jsonassert ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/src/main/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:compile (default-compile) @ jsonassert ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jsonassert ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.1:testCompile (default-testCompile) @ jsonassert ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ jsonassert <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ jsonassert ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.skyscreamer:jsonassert:1.5.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 150 tests. Time taken: 0.4029998779296875 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/.dtfixingtools/original-order
+[INFO] Getting original results (150 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (1.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (1.3 seconds elapsed (2.9 total), 1.9 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (2.9 seconds elapsed (4.8 total), 2.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (4.8 seconds elapsed (6.9 total), 1.2 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (6.9 seconds elapsed (9.4 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/skyscreamer__JSONassert__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.040 s
+[INFO] Finished at: 2026-10-11T17:55:16-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.usthe.sureness:ktor-sureness:jar:1.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 64, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< com.usthe.sureness:sureness-core >------------------
+[INFO] Building sureness 0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ sureness-core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sureness-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ sureness-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sureness-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/tomsun28__sureness__core/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ sureness-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ sureness-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ sureness-core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.usthe.sureness:sureness-core:0.2 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 18 tests. Time taken: 0.23599982261657715 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/tomsun28__sureness__core/core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/tomsun28__sureness__core/core/.dtfixingtools/original-order
+[INFO] Getting original results (18 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (2.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (2.3 seconds elapsed (4.3 total), 3.4 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (4.3 seconds elapsed (6.4 total), 2.8 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (6.4 seconds elapsed (8.6 total), 1.6 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (8.6 seconds elapsed (10.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/tomsun28__sureness__core/core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/tomsun28__sureness__core/core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.464 s
+[INFO] Finished at: 2026-10-11T19:49:05-05:00
+[INFO] ------------------------------------------------------------------------

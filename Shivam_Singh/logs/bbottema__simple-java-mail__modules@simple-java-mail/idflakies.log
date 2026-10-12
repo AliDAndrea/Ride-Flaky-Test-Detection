@@ -1,0 +1,128 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------< org.simplejavamail:simple-java-mail >-----------------
+[INFO] Building Simple Java Mail 8.12.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ simple-java-mail >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-versions) @ simple-java-mail ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- ossindex:3.1.0:audit (audit-dependencies) @ simple-java-mail ---
+[INFO] Checking for vulnerabilities; 73 artifacts
+[INFO] Exclude coordinates: []
+[INFO] Exclude vulnerability identifiers: []
+[INFO] CVSS-score threshold: 0.0
+[WARNING] Failed to fetch component-reports
+org.sonatype.ossindex.service.client.transport.Transport$TransportException: Unexpected response; status: HTTP/1.1 401 Unauthorized
+    at org.sonatype.ossindex.service.client.transport.HttpClientTransport.post (HttpClientTransport.java:101)
+    at org.sonatype.ossindex.service.client.internal.OssindexClientImpl.doRequestComponentReports (OssindexClientImpl.java:204)
+    at org.sonatype.ossindex.service.client.internal.OssindexClientImpl.requestComponentReports (OssindexClientImpl.java:170)
+    at org.sonatype.ossindex.maven.common.ComponentReportAssistant.request (ComponentReportAssistant.java:86)
+    at org.sonatype.ossindex.maven.plugin.AuditMojoSupport.execute (AuditMojoSupport.java:242)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.executeForkedExecutions (MojoExecutor.java:448)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:311)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[INFO] 
+[INFO] --- jacoco:0.8.1:prepare-agent (default-prepare-agent) @ simple-java-mail ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:3.0:format (add-licence-boilerplate-on-compile) @ simple-java-mail ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ simple-java-mail ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ simple-java-mail ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco:0.8.1:instrument (instrument) @ simple-java-mail ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- notnull-instrumenter:0.6.8:instrument (instrument) @ simple-java-mail ---
+[INFO] 
+[INFO] --- bundle:3.5.1:manifest (bundle-manifest) @ simple-java-mail ---
+[WARNING] Manifest org.simplejavamail:simple-java-mail:jar:8.12.2 : Export org.simplejavamail.mailer,  has 1,  private references [org.simplejavamail.mailer.internal], 
+[INFO] 
+[INFO] --- assertj:2.1.0:generate-assertions (default) @ simple-java-mail ---
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ simple-java-mail ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 55 resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ simple-java-mail ---
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[342,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[365,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[388,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[564,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[740,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[763,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[786,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[962,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[985,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1008,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1031,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1126,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1302,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1937,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1960,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[1983,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[2006,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[2029,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[2052,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[2228,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/target/generated-test-sources/assertj-assertions/org/simplejavamail/api/email/AbstractEmailAssert.java:[2251,17] areEqual(java.lang.Object,java.lang.Object) in org.assertj.core.util.Objects has been deprecated
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ simple-java-mail <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ simple-java-mail ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.simplejavamail:simple-java-mail:8.12.2 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 293 tests. Time taken: 2.3990001678466797 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/bbottema__simple-java-mail__modules@simple-java-mail/modules/simple-java-mail/.dtfixingtools/original-order
+[INFO] Getting original results (293 tests).
+[watchdog] time cap of 600s reached - stopping; results so far are kept

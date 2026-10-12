@@ -1,0 +1,191 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.bookkeeper:bookkeeper-tools:jar:4.15.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-antrun-plugin @ line 65, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.bookkeeper.tests:scripts:jar:4.15.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 55, column 15
+[WARNING] 'build.plugins.plugin.version' for com.googlecode.maven-download-plugin:download-maven-plugin is missing. @ line 36, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.classifier: osx-x86_64
+[INFO] 
+[INFO] --------------< org.apache.bookkeeper:bookkeeper-server >---------------
+[INFO] Building Apache BookKeeper :: Server 4.15.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ bookkeeper-server >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ bookkeeper-server ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ bookkeeper-server ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ bookkeeper-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ bookkeeper-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ bookkeeper-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ bookkeeper-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ bookkeeper-server <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ bookkeeper-server ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__bookkeeper__bookkeeper-server/bookkeeper-server/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_CGMAU5AfE+BNUYdOjNrWiabTsPn21m3RY2dMoUtrws8=
+nondexLogging=CONFIG
+test=
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.jar (17 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.pom (2.9 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.0.0-M5/surefire-providers-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.0.0-M5/surefire-providers-3.0.0-M5.pom (2.5 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.pom (2.9 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.pom (2.6 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.pom (2.6 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.jar (25 kB at 307 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.jar (12 kB at 61 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar (16 kB at 76 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.bookkeeper.discover.BookieServiceInfoTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.046 s - in org.apache.bookkeeper.discover.BookieServiceInfoTest
+[INFO] Running org.apache.bookkeeper.discover.TestZkRegistrationClientWithBookieAddressTracking
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.013 s - in org.apache.bookkeeper.discover.TestZkRegistrationClientWithBookieAddressTracking
+[INFO] Running org.apache.bookkeeper.discover.TestZkRegistrationManager
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 s - in org.apache.bookkeeper.discover.TestZkRegistrationManager
+[INFO] Running org.apache.bookkeeper.discover.TestZkRegistrationClientWithoutBookieAddressTracking
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.916 s - in org.apache.bookkeeper.discover.TestZkRegistrationClientWithoutBookieAddressTracking
+[INFO] Running org.apache.bookkeeper.net.ResolvedBookieSocketAddressTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.apache.bookkeeper.net.ResolvedBookieSocketAddressTest
+[INFO] Running org.apache.bookkeeper.net.NetworkTopologyImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.626 s - in org.apache.bookkeeper.net.NetworkTopologyImplTest
+[INFO] Running org.apache.bookkeeper.net.BookieIdTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.apache.bookkeeper.net.BookieIdTest
+[INFO] Running org.apache.bookkeeper.proto.TestBackwardCompatCMS42
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.086 s - in org.apache.bookkeeper.proto.TestBackwardCompatCMS42
+[INFO] Running org.apache.bookkeeper.proto.TestBKStats
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.75 s - in org.apache.bookkeeper.proto.TestBKStats
+[INFO] Running org.apache.bookkeeper.proto.ReadEntryProcessorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.787 s - in org.apache.bookkeeper.proto.ReadEntryProcessorTest
+[INFO] Running org.apache.bookkeeper.proto.BookieBackpressureTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.639 s - in org.apache.bookkeeper.proto.BookieBackpressureTest
+[INFO] Running org.apache.bookkeeper.proto.NetworkLessBookieTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.451 s - in org.apache.bookkeeper.proto.NetworkLessBookieTest
+[INFO] Running org.apache.bookkeeper.proto.TestPerChannelBookieClient
+[WARNING] Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 9.518 s - in org.apache.bookkeeper.proto.TestPerChannelBookieClient
+[INFO] Running org.apache.bookkeeper.proto.TestBookieRequestProcessor
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.045 s - in org.apache.bookkeeper.proto.TestBookieRequestProcessor
+[INFO] Running org.apache.bookkeeper.proto.BookieProtoEncodingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.486 s - in org.apache.bookkeeper.proto.BookieProtoEncodingTest
+[INFO] Running org.apache.bookkeeper.proto.LongPollReadEntryProcessorV3Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.145 s - in org.apache.bookkeeper.proto.LongPollReadEntryProcessorV3Test
+[INFO] Running org.apache.bookkeeper.proto.WriteEntryProcessorV3Test
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.211 s - in org.apache.bookkeeper.proto.WriteEntryProcessorV3Test
+[INFO] Running org.apache.bookkeeper.proto.ForceLedgerProcessorV3Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.211 s - in org.apache.bookkeeper.proto.ForceLedgerProcessorV3Test
+[INFO] Running org.apache.bookkeeper.proto.WriteEntryProcessorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.489 s - in org.apache.bookkeeper.proto.WriteEntryProcessorTest
+[INFO] Running org.apache.bookkeeper.test.CloseTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.743 s - in org.apache.bookkeeper.test.CloseTest
+[INFO] Running org.apache.bookkeeper.test.OpStatTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.743 s - in org.apache.bookkeeper.test.OpStatTest
+[INFO] Running org.apache.bookkeeper.test.BookieFailureTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.482 s - in org.apache.bookkeeper.test.BookieFailureTest
+[INFO] Running org.apache.bookkeeper.test.BookieReadWriteTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.71 s - in org.apache.bookkeeper.test.BookieReadWriteTest
+[INFO] Running org.apache.bookkeeper.test.BookieJournalRollingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.976 s - in org.apache.bookkeeper.test.BookieJournalRollingTest
+[INFO] Running org.apache.bookkeeper.test.BookieZKExpireTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.438 s - in org.apache.bookkeeper.test.BookieZKExpireTest
+[INFO] Running org.apache.bookkeeper.test.LocalBookiesRegistryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.988 s - in org.apache.bookkeeper.test.LocalBookiesRegistryTest
+[INFO] Running org.apache.bookkeeper.test.ForceReadOnlyBookieTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.183 s - in org.apache.bookkeeper.test.ForceReadOnlyBookieTest
+[INFO] Running org.apache.bookkeeper.test.MultipleThreadReadTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.389 s - in org.apache.bookkeeper.test.MultipleThreadReadTest
+[INFO] Running org.apache.bookkeeper.test.AsyncLedgerOpsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.355 s - in org.apache.bookkeeper.test.AsyncLedgerOpsTest
+[INFO] Running org.apache.bookkeeper.test.ReadOnlyBookieTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.242 s - in org.apache.bookkeeper.test.ReadOnlyBookieTest
+[INFO] Running org.apache.bookkeeper.test.ConcurrentLedgerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.077 s - in org.apache.bookkeeper.test.ConcurrentLedgerTest
+[INFO] Running org.apache.bookkeeper.test.LedgerDeleteTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.111 s - in org.apache.bookkeeper.test.LedgerDeleteTest
+[INFO] Running org.apache.bookkeeper.test.LedgerCreateDeleteTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.945 s - in org.apache.bookkeeper.test.LedgerCreateDeleteTest
+[INFO] Running org.apache.bookkeeper.test.BookieClientTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.445 s - in org.apache.bookkeeper.test.BookieClientTest
+[INFO] Running org.apache.bookkeeper.test.ConditionalSetTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.305 s - in org.apache.bookkeeper.test.ConditionalSetTest
+[INFO] Running org.apache.bookkeeper.test.ConfigurationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.335 s - in org.apache.bookkeeper.test.ConfigurationTest
+[INFO] Running org.apache.bookkeeper.util.IteratorUtilityTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in org.apache.bookkeeper.util.IteratorUtilityTest
+[INFO] Running org.apache.bookkeeper.util.ByteBufListTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.218 s - in org.apache.bookkeeper.util.ByteBufListTest
+[INFO] Running org.apache.bookkeeper.util.SubTreeCacheTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.238 s - in org.apache.bookkeeper.util.SubTreeCacheTest
+[INFO] Running org.apache.bookkeeper.util.TestZeroBuffer
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in org.apache.bookkeeper.util.TestZeroBuffer
+[INFO] Running org.apache.bookkeeper.util.TestDiskChecker
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.35 s - in org.apache.bookkeeper.util.TestDiskChecker
+[INFO] Running org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedgerTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s - in org.apache.bookkeeper.util.AvailabilityOfEntriesOfLedgerTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentOpenHashSetTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.468 s - in org.apache.bookkeeper.util.collections.ConcurrentOpenHashSetTest
+[INFO] Running org.apache.bookkeeper.util.collections.GrowableArrayBlockingQueueTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.531 s - in org.apache.bookkeeper.util.collections.GrowableArrayBlockingQueueTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentLongLongPairHashMapTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.511 s - in org.apache.bookkeeper.util.collections.ConcurrentLongLongPairHashMapTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentLongHashSetTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.184 s - in org.apache.bookkeeper.util.collections.ConcurrentLongHashSetTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentOpenHashMapTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.575 s - in org.apache.bookkeeper.util.collections.ConcurrentOpenHashMapTest
+[INFO] Running org.apache.bookkeeper.util.collections.SynchronizedHashMultiMapTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.418 s - in org.apache.bookkeeper.util.collections.SynchronizedHashMultiMapTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentLongHashMapTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.623 s - in org.apache.bookkeeper.util.collections.ConcurrentLongHashMapTest
+[INFO] Running org.apache.bookkeeper.util.collections.ConcurrentLongLongHashMapTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.126 s - in org.apache.bookkeeper.util.collections.ConcurrentLongLongHashMapTest
+[INFO] Running org.apache.bookkeeper.util.TestZkUtils
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.551 s - in org.apache.bookkeeper.util.TestZkUtils
+[INFO] Running org.apache.bookkeeper.auth.TestAuth
+[watchdog] time cap of 480s reached - stopping; results so far are kept

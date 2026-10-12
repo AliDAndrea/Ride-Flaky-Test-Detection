@@ -1,0 +1,459 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.pholser:junit-quickcheck-guava >-----------------
+[INFO] Building junit-quickcheck-guava 0.9-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck-guava ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (default-prepare-agent) @ junit-quickcheck-guava ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ junit-quickcheck-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:2.17:check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] >>> pmd:3.6:cpd-check (default) > :cpd @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- pmd:3.6:cpd (cpd) @ junit-quickcheck-guava ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:3.6:cpd-check (default) < :cpd @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.6:cpd-check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] 
+[INFO] --- serviceloader:1.0.7:generate (default) @ junit-quickcheck-guava ---
+[INFO] Scanning generated classes for implementations...
+[INFO] Generating service file /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.FunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.PredicateGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.OptionalGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.SupplierGenerator
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ junit-quickcheck-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ junit-quickcheck-guava ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_uG1BPYaF0e4dpbbuCJm023r9AMAja8qpFbt4xzJo4=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.725 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.378 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.701 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=0HJhc4JEeorriWYVd07N+XV2KqA4rQyU64lptWqke2A=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.867 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.686 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=r3sXzTNgwsbQ7hGbfuRuzG62GHrl9K5Ct0Sv1f8PIA=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.862 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.627 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=eUagx5vk+y8vWCUlsyBGZJtsFxMCNKoLm16iYUP4cxA=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.875 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.657 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=y3wXOKeNdR41JrJi8402WuSDMVUGy7l7uvjHM4f9uyI=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.346 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.734 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=INb1mVINBjivf9Uxd1DilMmkzOFNqIBQtWcCKcmWTbg=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.849 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.363 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.74 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=1IBQqVi1y9f2xSSDGS6wq7UQshYBmu5o7DeVb8gaDw=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.924 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.361 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.694 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=WITdGAZ+dX54OftDTWTHa2ca0KOpQCly8zwBiDxVJo=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.871 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.69 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=HZc+NCaNf7m8XZpqzFl7Peda34r4jlXCSQMxNpUWr50=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.889 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.365 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.819 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=DDar3Bl4j8IA8EOYYPuHtOoHdJkSgwZapT5zppjLNpI=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.869 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.359 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.813 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to existing ones
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex
+nondexExecid=hNDKzMXNFcn3Wk8HAVzieKwa67Mt5ipv3pHlt2C1lcU=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest
+Running com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in com.pholser.junit.quickcheck.guava.generator.PredicatePropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.355 sec - in com.pholser.junit.quickcheck.guava.generator.SupplierPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec - in com.pholser.junit.quickcheck.guava.generator.FunctionOfStringToIntPropertyParameterTest
+Running com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.647 sec - in com.pholser.junit.quickcheck.guava.generator.OptionalPropertyParameterTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=0HJhc4JEeorriWYVd07N+XV2KqA4rQyU64lptWqke2A= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=r3sXzTNgwsbQ7hGbfuRuzG62GHrl9K5Ct0Sv1f8PIA= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=eUagx5vk+y8vWCUlsyBGZJtsFxMCNKoLm16iYUP4cxA= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=y3wXOKeNdR41JrJi8402WuSDMVUGy7l7uvjHM4f9uyI= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=INb1mVINBjivf9Uxd1DilMmkzOFNqIBQtWcCKcmWTbg= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=1IBQqVi1y9f2xSSDGS6wq7UQshYBmu5o7DeVb8gaDw= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=WITdGAZ+dX54OftDTWTHa2ca0KOpQCly8zwBiDxVJo= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=HZc+NCaNf7m8XZpqzFl7Peda34r4jlXCSQMxNpUWr50= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=DDar3Bl4j8IA8EOYYPuHtOoHdJkSgwZapT5zppjLNpI= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex" -DnondexExecid=hNDKzMXNFcn3Wk8HAVzieKwa67Mt5ipv3pHlt2C1lcU= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.nondex/0HJhc4JEeorriWYVd07N+XV2KqA4rQyU64lptWqke2A=/test_results.html
+[INFO] [NonDex] The id of this run is: 0HJhc4JEeorriWYVd07N+XV2KqA4rQyU64lptWqke2A=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  59.489 s
+[INFO] Finished at: 2026-10-09T21:13:12-05:00
+[INFO] ------------------------------------------------------------------------

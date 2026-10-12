@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.gora:gora-orientdb >--------------------
+[INFO] Building Apache Gora :: OrientDB 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ gora-orientdb >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (default) @ gora-orientdb ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/examples/java added.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora-orientdb ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ gora-orientdb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[254,39] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[280,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[313,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[347,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[349,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[368,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[404,61] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora-orientdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ gora-orientdb <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ gora-orientdb ---
+INFO: Running DeltaDebugMojo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.346 s
+[INFO] Finished at: 2026-10-11T19:38:22-05:00
+[INFO] ------------------------------------------------------------------------

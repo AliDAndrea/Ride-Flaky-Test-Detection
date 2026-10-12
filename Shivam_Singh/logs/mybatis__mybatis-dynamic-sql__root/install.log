@@ -1,0 +1,351 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.mybatis.dynamic-sql:mybatis-dynamic-sql >-------------
+[INFO] Building MyBatis Dynamic SQL 2.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java) @ mybatis-dynamic-sql ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- git-commit-id:9.0.1:revision (git-commit-id) @ mybatis-dynamic-sql ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ mybatis-dynamic-sql ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- build-helper:3.6.0:add-source (default) @ mybatis-dynamic-sql ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/main/kotlin added.
+[INFO] 
+[INFO] --- whitespace:1.3.2:trim (default) @ mybatis-dynamic-sql ---
+[INFO] Processing the following extensions: css,groovy,html,java,js,json,jsp,jspx,kt,kts,md,properties,scala,sh,toml,wsdl,xhtml,xml,xsd,yaml,yml
+[INFO] 
+[INFO] --- license:4.5:format (default) @ mybatis-dynamic-sql ---
+[INFO] License Plugin is Skipped
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mybatis-dynamic-sql ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from  to target/classes/META-INF
+[INFO] 
+[INFO] --- kotlin:2.0.21:compile (compile) @ mybatis-dynamic-sql ---
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (java-compile) @ mybatis-dynamic-sql ---
+[INFO] Compiling 263 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- bnd:7.0.0:bnd-process (bnd-process) @ mybatis-dynamic-sql ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/biz.aQute.bndlib-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/biz.aQute.bndlib-7.0.0.pom (5.2 kB at 7.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/biz.aQute.bnd.util-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/biz.aQute.bnd.util-7.0.0.pom (2.7 kB at 6.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/7.0.0/biz.aQute.bnd.maven-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/7.0.0/biz.aQute.bnd.maven-7.0.0.pom (6.2 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0/biz.aQute.resolve-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0/biz.aQute.resolve-7.0.0.pom (5.4 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0/biz.aQute.repository-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0/biz.aQute.repository-7.0.0.pom (4.9 kB at 9.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/biz.aQute.bndlib-7.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/7.0.0/biz.aQute.bndlib-7.0.0.jar (3.2 MB at 4.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/biz.aQute.bnd.util-7.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/7.0.0/biz.aQute.bnd.maven-7.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0/biz.aQute.resolve-7.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0/biz.aQute.repository-7.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.util/7.0.0/biz.aQute.bnd.util-7.0.0.jar (442 kB at 891 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/7.0.0/biz.aQute.bnd.maven-7.0.0.jar (198 kB at 389 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/7.0.0/biz.aQute.resolve-7.0.0.jar (652 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/7.0.0/biz.aQute.repository-7.0.0.jar (1.1 MB at 1.7 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mybatis-dynamic-sql ---
+[INFO] Copying 25 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- kotlin:2.0.21:test-compile (test-compile) @ mybatis-dynamic-sql ---
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (59, 17) 'fun join(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (92, 13) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (112, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (115, 17) 'fun fullJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (180, 17) 'fun join(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (192, 17) 'fun fullJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (259, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (262, 17) 'fun fullJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (307, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (310, 17) 'fun leftJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (351, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (354, 17) 'fun leftJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (401, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (404, 17) 'fun leftJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (444, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (447, 17) 'fun rightJoin(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (488, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (491, 17) 'fun rightJoin(subQuery: KotlinQualifiedSubQueryBuilder.() -> Unit, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (538, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (541, 17) 'fun rightJoin(table: SqlTable, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (580, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/kotlin/examples/kotlin/mybatis3/joins/DeprecatedJoinMapperTest.kt: (596, 17) 'fun join(table: SqlTable, alias: String, joinCriteria: JoinCollector.() -> Unit): Unit' is deprecated. Please use the new form with the "on" keyword outside the lambda.
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (java-test-compile) @ mybatis-dynamic-sql ---
+[INFO] Compiling 178 source files with javac [debug parameters release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/java/issues/gh100/Issue100Test.java:[163,42] <T>equalTo(org.mybatis.dynamic.sql.BindableColumn<T>) in org.mybatis.dynamic.sql.SqlBuilder has been deprecated and marked for removal
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/src/test/java/issues/gh100/Issue100Test.java:[186,49] <T>equalTo(T) in org.mybatis.dynamic.sql.SqlBuilder has been deprecated and marked for removal
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ mybatis-dynamic-sql ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.1/surefire-api-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.1/surefire-api-3.3.1.pom (3.5 kB at 8.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.1/surefire-logger-api-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.1/surefire-logger-api-3.3.1.pom (3.3 kB at 7.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.1/surefire-shared-utils-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.1/surefire-shared-utils-3.3.1.pom (4.1 kB at 9.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.1/surefire-extensions-api-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.1/surefire-extensions-api-3.3.1.pom (3.5 kB at 8.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.1/maven-surefire-common-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.1/maven-surefire-common-3.3.1.pom (7.8 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.1/surefire-booter-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.1/surefire-booter-3.3.1.pom (4.8 kB at 9.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.1/surefire-extensions-spi-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.1/surefire-extensions-spi-3.3.1.pom (1.8 kB at 3.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.1/surefire-api-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.3.1/surefire-api-3.3.1.jar (171 kB at 435 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.1/surefire-logger-api-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.1/surefire-shared-utils-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.1/surefire-extensions-api-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.1/maven-surefire-common-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.1/surefire-booter-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.3.1/surefire-logger-api-3.3.1.jar (14 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.1/surefire-extensions-spi-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.3.1/maven-surefire-common-3.3.1.jar (309 kB at 676 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.3.1/surefire-extensions-api-3.3.1.jar (26 kB at 56 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.3.1/surefire-booter-3.3.1.jar (118 kB at 209 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.3.1/surefire-shared-utils-3.3.1.jar (2.8 MB at 5.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.3.1/surefire-extensions-spi-3.3.1.jar (8.2 kB at 9.8 kB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ mybatis-dynamic-sql ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/target/mybatis-dynamic-sql-2.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:4.0.0-M16:attach-descriptor (attach-descriptor) @ mybatis-dynamic-sql ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.pom (32 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-skins/42/maven-skins-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-skins/42/maven-skins-42.pom (3.7 kB at 8.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0-M12/maven-reporting-api-4.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0-M12/maven-reporting-api-4.0.0-M12.pom (2.8 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0-M12/doxia-sink-api-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0-M12/doxia-sink-api-2.0.0-M12.pom (1.4 kB at 3.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.0.0-M12/doxia-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.0.0-M12/doxia-2.0.0-M12.pom (17 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0-M14/maven-reporting-exec-2.0.0-M14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0-M14/maven-reporting-exec-2.0.0-M14.pom (9.7 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0-M12/doxia-core-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0-M12/doxia-core-2.0.0-M12.pom (3.8 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0-M12/doxia-module-xhtml5-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0-M12/doxia-module-xhtml5-2.0.0-M12.pom (2.9 kB at 5.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/2.0.0-M12/doxia-modules-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/2.0.0-M12/doxia-modules-2.0.0-M12.pom (2.5 kB at 5.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0-M12/doxia-module-apt-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0-M12/doxia-module-apt-2.0.0-M12.pom (2.9 kB at 6.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0-M12/doxia-module-xdoc-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0-M12/doxia-module-xdoc-2.0.0-M12.pom (5.4 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0-M12/doxia-module-fml-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0-M12/doxia-module-fml-2.0.0-M12.pom (5.3 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0-M12/doxia-module-markdown-2.0.0-M12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0-M12/doxia-module-markdown-2.0.0-M12.pom (8.9 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.pom (4.1 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.62.2/flexmark-java-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.62.2/flexmark-java-0.62.2.pom (24 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.pom (2.0 kB at 9.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.pom (1.1 kB at 5.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.pom (979 B at 5.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom (5.5 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.pom (1.2 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.pom (1.4 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.pom (988 B at 5.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.pom (1.3 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.pom (1.5 kB at 7.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.pom (2.2 kB at 9.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.pom (1.3 kB at 6.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.pom (2.6 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.pom (3.9 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.pom (1.3 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.pom (1.8 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.pom (1.3 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.pom (1.3 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.pom (1.4 kB at 7.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.pom (1.6 kB at 9.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.pom (1.3 kB at 6.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.pom (1.5 kB at 8.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.pom (1.3 kB at 6.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom (1.3 kB at 3.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0-M19/doxia-site-model-2.0.0-M19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0-M19/doxia-site-model-2.0.0-M19.pom (5.8 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/2.0.0-M19/doxia-sitetools-2.0.0-M19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/2.0.0-M19/doxia-sitetools-2.0.0-M19.pom (13 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0-M19/doxia-site-renderer-2.0.0-M19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0-M19/doxia-site-renderer-2.0.0-M19.pom (7.4 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0-M19/doxia-skin-model-2.0.0-M19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0-M19/doxia-skin-model-2.0.0-M19.pom (3.2 kB at 6.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.1.0/plexus-velocity-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.1.0/plexus-velocity-2.1.0.pom (4.1 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0-M19/doxia-integration-tools-2.0.0-M19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0-M19/doxia-integration-tools-2.0.0-M19.pom (8.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.54.v20240208/jetty-server-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.54.v20240208/jetty-server-9.4.54.v20240208.pom (3.4 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.54.v20240208/jetty-project-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.54.v20240208/jetty-project-9.4.54.v20240208.pom (73 kB at 201 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.18.Final/infinispan-bom-11.0.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.18.Final/infinispan-bom-11.0.18.Final.pom (18 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.18.Final/infinispan-build-configuration-parent-11.0.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.18.Final/infinispan-build-configuration-parent-11.0.18.Final.pom (16 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.54.v20240208/jetty-http-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.54.v20240208/jetty-http-9.4.54.v20240208.pom (4.0 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.54.v20240208/jetty-util-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.54.v20240208/jetty-util-9.4.54.v20240208.pom (4.0 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.54.v20240208/jetty-io-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.54.v20240208/jetty-io-9.4.54.v20240208.pom (1.2 kB at 2.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.54.v20240208/jetty-servlet-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.54.v20240208/jetty-servlet-9.4.54.v20240208.pom (2.3 kB at 4.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.54.v20240208/jetty-security-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.54.v20240208/jetty-security-9.4.54.v20240208.pom (2.1 kB at 4.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.54.v20240208/jetty-util-ajax-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.54.v20240208/jetty-util-ajax-9.4.54.v20240208.pom (1.3 kB at 2.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.54.v20240208/jetty-webapp-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.54.v20240208/jetty-webapp-9.4.54.v20240208.pom (3.2 kB at 4.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.54.v20240208/jetty-xml-9.4.54.v20240208.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.54.v20240208/jetty-xml-9.4.54.v20240208.pom (1.7 kB at 2.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin/2.0.0-M9/maven-fluido-skin-2.0.0-M9.jar (355 kB at 537 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0-M12/maven-reporting-api-4.0.0-M12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0-M12/doxia-sink-api-2.0.0-M12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0-M14/maven-reporting-exec-2.0.0-M14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0-M12/doxia-core-2.0.0-M12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0-M12/doxia-module-xhtml5-2.0.0-M12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0-M12/doxia-sink-api-2.0.0-M12.jar (11 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0-M12/doxia-module-apt-2.0.0-M12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/2.0.0-M14/maven-reporting-exec-2.0.0-M14.jar (28 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0-M12/doxia-module-xdoc-2.0.0-M12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0-M12/doxia-core-2.0.0-M12.jar (168 kB at 317 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0-M12/doxia-module-fml-2.0.0-M12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0-M12/maven-reporting-api-4.0.0-M12.jar (9.8 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0-M12/doxia-module-markdown-2.0.0-M12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0-M12/doxia-module-xhtml5-2.0.0-M12.jar (17 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar (444 kB at 453 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0-M12/doxia-module-apt-2.0.0-M12.jar (54 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0-M12/doxia-module-xdoc-2.0.0-M12.jar (35 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/2.0.0-M12/doxia-module-fml-2.0.0-M12.jar (38 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar (5.3 kB at 4.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/2.0.0-M12/doxia-module-markdown-2.0.0-M12.jar (35 kB at 27 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar (67 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar (16 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar (109 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar (55 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar (6.8 kB at 4.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar (25 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar (59 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar (223 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar (1.9 kB at 1.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.62.2/flexmark-ext-abbreviation-0.62.2.jar (27 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar (65 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar (12 kB at 6.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar (9.7 kB at 4.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.62.2/flexmark-ext-definition-0.62.2.jar (32 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar (23 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.62.2/flexmark-ext-escaped-character-0.62.2.jar (12 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar (47 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0-M19/doxia-site-model-2.0.0-M19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.62.2/flexmark-ext-typographic-0.62.2.jar (20 kB at 9.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0-M19/doxia-site-renderer-2.0.0-M19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar (30 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0-M19/doxia-skin-model-2.0.0-M19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar (17 kB at 7.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.1.0/plexus-velocity-2.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar (31 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0-M19/doxia-site-model-2.0.0-M19.jar (86 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0-M19/doxia-integration-tools-2.0.0-M19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0-M19/doxia-site-renderer-2.0.0-M19.jar (44 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.54.v20240208/jetty-server-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0-M19/doxia-skin-model-2.0.0-M19.jar (16 kB at 5.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.54.v20240208/jetty-io-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.1.0/plexus-velocity-2.1.0.jar (5.6 kB at 1.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.54.v20240208/jetty-http-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar (531 kB at 171 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.54.v20240208/jetty-servlet-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0-M19/doxia-integration-tools-2.0.0-M19.jar (50 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.54.v20240208/jetty-security-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.54.v20240208/jetty-io-9.4.54.v20240208.jar (183 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.54.v20240208/jetty-util-ajax-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.54.v20240208/jetty-server-9.4.54.v20240208.jar (737 kB at 214 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.54.v20240208/jetty-webapp-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.54.v20240208/jetty-http-9.4.54.v20240208.jar (249 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.54.v20240208/jetty-xml-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.54.v20240208/jetty-servlet-9.4.54.v20240208.jar (146 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.54.v20240208/jetty-util-9.4.54.v20240208.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.54.v20240208/jetty-security-9.4.54.v20240208.jar (118 kB at 33 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.54.v20240208/jetty-util-ajax-9.4.54.v20240208.jar (67 kB at 17 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.54.v20240208/jetty-xml-9.4.54.v20240208.jar (69 kB at 17 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.54.v20240208/jetty-webapp-9.4.54.v20240208.jar (140 kB at 35 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.54.v20240208/jetty-util-9.4.54.v20240208.jar (589 kB at 141 kB/s)
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (report) @ mybatis-dynamic-sql ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- modernizer:2.9.0:modernizer (modernizer) @ mybatis-dynamic-sql ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gaul/modernizer-maven-annotations/2.9.0/modernizer-maven-annotations-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gaul/modernizer-maven-annotations/2.9.0/modernizer-maven-annotations-2.9.0.pom (2.0 kB at 4.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/gaul/modernizer-maven-annotations/2.9.0/modernizer-maven-annotations-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/gaul/modernizer-maven-annotations/2.9.0/modernizer-maven-annotations-2.9.0.jar (3.3 kB at 6.3 kB/s)
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ mybatis-dynamic-sql ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/pom.xml to /Users/shivamsingh/.m2/repository/org/mybatis/dynamic-sql/mybatis-dynamic-sql/2.0.0-SNAPSHOT/mybatis-dynamic-sql-2.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/mybatis__mybatis-dynamic-sql__root/target/mybatis-dynamic-sql-2.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/mybatis/dynamic-sql/mybatis-dynamic-sql/2.0.0-SNAPSHOT/mybatis-dynamic-sql-2.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:05 min
+[INFO] Finished at: 2026-10-11T17:56:17-05:00
+[INFO] ------------------------------------------------------------------------

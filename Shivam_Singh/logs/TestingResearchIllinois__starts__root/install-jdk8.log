@@ -1,0 +1,464 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plugins/nexus-staging-maven-plugin/1.6.7/nexus-staging-maven-plugin-1.6.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plugins/nexus-staging-maven-plugin/1.6.7/nexus-staging-maven-plugin-1.6.7.pom (12 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-staging/1.6.7/nexus-staging-1.6.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-staging/1.6.7/nexus-staging-1.6.7.pom (2.8 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-maven-plugins/1.6.7/nexus-maven-plugins-1.6.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-maven-plugins/1.6.7/nexus-maven-plugins-1.6.7.pom (18 kB at 325 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-common/1.6.7/nexus-common-1.6.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-common/1.6.7/nexus-common-1.6.7.pom (2.2 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plugins/nexus-staging-maven-plugin/1.6.7/nexus-staging-maven-plugin-1.6.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plugins/nexus-staging-maven-plugin/1.6.7/nexus-staging-maven-plugin-1.6.7.jar (250 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-common/1.6.7/nexus-common-1.6.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/nexus/maven/nexus-common/1.6.7/nexus-common-1.6.7.jar (16 kB at 249 kB/s)
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 40, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 33, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 42, column 14
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 200, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] STARTS                                                             [pom]
+[INFO] starts-core                                                        [jar]
+[INFO] STARTS Maven Plugin                                       [maven-plugin]
+[INFO] 
+[INFO] ------------------------< edu.illinois:starts >-------------------------
+[INFO] Building STARTS 1.4-SNAPSHOT                                       [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-5: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-5 requires Maven version 4.0.0-rc-6
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 requires Maven version 4.0.0-rc-4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.16.0
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.18/checkstyle-8.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.18/checkstyle-8.18.pom (126 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-1/Saxon-HE-9.9.1-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-1/Saxon-HE-9.9.1-1.pom (3.5 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.18/checkstyle-8.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/8.18/checkstyle-8.18.jar (1.3 MB at 9.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-1/Saxon-HE-9.9.1-1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-1/Saxon-HE-9.9.1-1.jar (5.5 MB at 13 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (post-unit-test) @ starts ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ starts ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/pom.xml to /Users/shivamsingh/.m2/repository/edu/illinois/starts/1.4-SNAPSHOT/starts-1.4-SNAPSHOT.pom
+[INFO] 
+[INFO] --- source:3.0.0:jar-no-fork (attach-sources) @ starts ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (attach-javadocs) @ starts ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] ----------------------< edu.illinois:starts-core >----------------------
+[INFO] Building starts-core 1.4-SNAPSHOT                                  [2/3]
+[INFO]   from starts-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts-core ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- jacoco:0.8.6:merge (merge-id) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ starts-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ starts-core ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 44 source files with javac [debug target 8] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/main/java/edu/illinois/starts/helpers/PomUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ starts-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ starts-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 8] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/test/java/edu/illinois/starts/helpers/WriterTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ starts-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (post-unit-test) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:2.5:jar (default-jar) @ starts-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/target/starts-core-1.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report-id) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ starts-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/pom.xml to /Users/shivamsingh/.m2/repository/edu/illinois/starts-core/1.4-SNAPSHOT/starts-core-1.4-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/target/starts-core-1.4-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/edu/illinois/starts-core/1.4-SNAPSHOT/starts-core-1.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.0.0:jar-no-fork (attach-sources) @ starts-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (attach-javadocs) @ starts-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] ------------------< edu.illinois:starts-maven-plugin >------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT                          [3/3]
+[INFO]   from starts-plugin/pom.xml
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.3/maven-plugin-plugin-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.3/maven-plugin-plugin-3.3.pom (12 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.3/maven-plugin-plugin-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.3/maven-plugin-plugin-3.3.jar (49 kB at 758 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/2.0.0/maven-invoker-plugin-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/2.0.0/maven-invoker-plugin-2.0.0.pom (11 kB at 269 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/2.0.0/maven-invoker-plugin-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/2.0.0/maven-invoker-plugin-2.0.0.jar (108 kB at 2.4 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts-maven-plugin ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts-maven-plugin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- plugin:3.3:helpmojo (help-goal) @ starts-maven-plugin ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.3/maven-plugin-tools-annotations-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.3/maven-plugin-tools-annotations-3.3.pom (4.3 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.3/maven-plugin-tools-api-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.3/maven-plugin-tools-api-3.3.pom (3.0 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.pom (2.8 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.pom (1.7 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.3/maven-plugin-tools-generators-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.3/maven-plugin-tools-generators-3.3.pom (4.3 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.3/maven-plugin-tools-java-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.3/maven-plugin-tools-java-3.3.pom (3.6 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.3/maven-plugin-tools-beanshell-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.3/maven-plugin-tools-beanshell-3.3.pom (2.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/1.3.0/bsh-1.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/1.3.0/bsh-1.3.0.pom (1.1 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.3/maven-plugin-tools-model-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.3/maven-plugin-tools-model-3.3.pom (3.1 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.3/maven-plugin-tools-annotations-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.3/maven-plugin-tools-annotations-3.3.jar (40 kB at 652 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.3/maven-plugin-tools-api-3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.3/maven-plugin-tools-generators-3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.3/maven-plugin-tools-java-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.jar (185 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.3/maven-plugin-tools-beanshell-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.3/maven-plugin-tools-beanshell-3.3.jar (14 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/1.3.0/bsh-1.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/1.3.0/bsh-1.3.0.jar (242 kB at 675 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.3/maven-plugin-tools-model-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.3/maven-plugin-tools-java-3.3.jar (18 kB at 43 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.3/maven-plugin-tools-api-3.3.jar (23 kB at 55 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.3/maven-plugin-tools-model-3.3.jar (27 kB at 65 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.jar (58 kB at 137 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.3/maven-plugin-tools-generators-3.3.jar (47 kB at 109 kB/s)
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20.1/maven-surefire-plugin-2.20.1-sources.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.20.1/maven-surefire-plugin-2.20.1-sources.jar (19 kB at 216 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20.1/maven-surefire-common-2.20.1-sources.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20.1/maven-surefire-common-2.20.1-sources.jar (151 kB at 1.4 MB/s)
+[INFO] Mojo extractor for language: java-annotations found 0 mojo descriptors.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ starts-maven-plugin ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ starts-maven-plugin ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [debug target 8] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[137,100] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Class<?> for a varargs call
+  cast to java.lang.Class<?>[] for a non-varargs call and to suppress this warning
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[139,77] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- plugin:3.3:descriptor (default-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO] 
+[INFO] --- plugin:3.3:descriptor (mojo-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ starts-maven-plugin ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ starts-maven-plugin ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 8] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ starts-maven-plugin ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (post-unit-test) @ starts-maven-plugin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ starts-maven-plugin ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/starts-maven-plugin-1.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- plugin:3.3:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ starts-maven-plugin ---
+[INFO] 
+[INFO] --- invoker:2.0.0:install (integration-test) @ starts-maven-plugin ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.1/maven-script-interpreter-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.1/maven-script-interpreter-1.1.pom (3.7 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.pom (16 kB at 356 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom (2.1 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom (5.5 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom (1.9 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.pom (2.1 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.pom (2.1 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom (2.1 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.4/doxia-site-renderer-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.4/doxia-site-renderer-1.1.4.pom (6.1 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.4/doxia-sitetools-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.4/doxia-sitetools-1.1.4.pom (16 kB at 356 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.4/doxia-core-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.4/doxia-core-1.1.4.pom (3.7 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.4/doxia-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.4/doxia-1.1.4.pom (19 kB at 429 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.4/doxia-sink-api-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.4/doxia-sink-api-1.1.4.pom (1.6 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.4/doxia-logging-api-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.4/doxia-logging-api-1.1.4.pom (1.6 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.4/doxia-decoration-model-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.4/doxia-decoration-model-1.1.4.pom (3.0 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.4/doxia-module-xhtml-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.4/doxia-module-xhtml-1.1.4.pom (1.6 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.4/doxia-modules-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.4/doxia-modules-1.1.4.pom (2.4 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.4/doxia-module-fml-1.1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.4/doxia-module-fml-1.1.4.pom (5.5 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.0.1/groovy-all-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.0.1/groovy-all-2.0.1.pom (18 kB at 265 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.1/maven-script-interpreter-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.1/maven-script-interpreter-1.1.jar (21 kB at 405 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar (22 kB at 289 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar (46 kB at 583 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.4/doxia-site-renderer-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar (37 kB at 468 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.4/doxia-decoration-model-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar (38 kB at 478 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.4/doxia-module-xhtml-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar (20 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.4/doxia-module-fml-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.4/doxia-module-xhtml-1.1.4.jar (15 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.0.1/groovy-all-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.4/doxia-site-renderer-1.1.4.jar (51 kB at 313 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.4/doxia-module-fml-1.1.4.jar (37 kB at 131 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.0.1/groovy-2.0.1.jar (3.3 MB at 11 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.4/doxia-decoration-model-1.1.4.jar (52 kB at 141 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.0.1/groovy-all-2.0.1.jar (6.2 MB at 11 MB/s)
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/pom.xml to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/local-repo/edu/illinois/starts/1.4-SNAPSHOT/starts-1.4-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/pom.xml to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/local-repo/edu/illinois/starts-core/1.4-SNAPSHOT/starts-core-1.4-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/target/starts-core-1.4-SNAPSHOT.jar to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/local-repo/edu/illinois/starts-core/1.4-SNAPSHOT/starts-core-1.4-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/pom.xml to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/local-repo/edu/illinois/starts-maven-plugin/1.4-SNAPSHOT/starts-maven-plugin-1.4-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/starts-maven-plugin-1.4-SNAPSHOT.jar to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/local-repo/edu/illinois/starts-maven-plugin/1.4-SNAPSHOT/starts-maven-plugin-1.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-integration-test-execution) @ starts-maven-plugin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] invoker.mavenOpts set to empty
+[INFO] 
+[INFO] --- invoker:2.0.0:integration-test (integration-test) @ starts-maven-plugin ---
+[INFO] Building: multilevel-no-parents-or-siblings-clz-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (18.7 s)
+[INFO] Building: missing-reflection-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (12.1 s)
+[INFO] Building: one-class-two-tests-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.7 s)
+[INFO] Building: multilevel-no-parents-or-siblings-indexedZLC-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.9 s)
+[INFO] Building: no-parents-or-siblings-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (11.0 s)
+[INFO] Building: first-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.1 s)
+[INFO] Building: multilevel-no-parents-or-siblings-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (15.6 s)
+[INFO] Building: multilevel-no-parents-or-siblings-thirdparty-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (16.6 s)
+[INFO] Building: transitive-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (14.6 s)
+[INFO] Building: multilevel-interfaces-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (15.0 s)
+[INFO] Building: base-it/pom.xml
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (12.5 s)
+[INFO] 
+[INFO] --- invoker:2.0.0:integration-test (integration-test) @ starts-maven-plugin ---
+[INFO] Building: multilevel-no-parents-or-siblings-clz-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (12.5 s)
+[INFO] Building: missing-reflection-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (10.3 s)
+[INFO] Building: one-class-two-tests-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.4 s)
+[INFO] Building: multilevel-no-parents-or-siblings-indexedZLC-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (15.7 s)
+[INFO] Building: no-parents-or-siblings-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.0 s)
+[INFO] Building: first-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.2 s)
+[INFO] Building: multilevel-no-parents-or-siblings-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (12.5 s)
+[INFO] Building: multilevel-no-parents-or-siblings-thirdparty-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (13.7 s)
+[INFO] Building: transitive-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (14.5 s)
+[INFO] Building: multilevel-interfaces-it/pom.xml
+[INFO] run script setup.groovy
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (14.3 s)
+[INFO] Building: base-it/pom.xml
+[INFO] run script verify.groovy
+[INFO] ..SUCCESS (10.0 s)
+[INFO] 
+[INFO] --- invoker:2.0.0:verify (integration-test) @ starts-maven-plugin ---
+[INFO] -------------------------------------------------
+[INFO] Build Summary:
+[INFO]   Passed: 11, Failed: 0, Errors: 0, Skipped: 0
+[INFO] -------------------------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ starts-maven-plugin ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/pom.xml to /Users/shivamsingh/.m2/repository/edu/illinois/starts-maven-plugin/1.4-SNAPSHOT/starts-maven-plugin-1.4-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/target/starts-maven-plugin-1.4-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/edu/illinois/starts-maven-plugin/1.4-SNAPSHOT/starts-maven-plugin-1.4-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.0.0:jar-no-fork (attach-sources) @ starts-maven-plugin ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (attach-javadocs) @ starts-maven-plugin ---
+[INFO] Skipping javadoc generation
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for STARTS 1.4-SNAPSHOT:
+[INFO] 
+[INFO] STARTS ............................................. SUCCESS [  7.127 s]
+[INFO] starts-core ........................................ SUCCESS [  9.610 s]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [05:28 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:49 min
+[INFO] Finished at: 2026-10-11T18:44:00-05:00
+[INFO] ------------------------------------------------------------------------

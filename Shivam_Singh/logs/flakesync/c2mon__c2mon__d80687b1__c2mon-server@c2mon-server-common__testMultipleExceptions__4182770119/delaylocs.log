@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< cern.c2mon.server:c2mon-server-common >----------------
+[INFO] Building c2mon-server-common 1.8.40-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ c2mon-server-common >>>
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ c2mon-server-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ c2mon-server-common ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_w0y7e0+0L5p+p1pqdctpCT+1MFTa3vZLMum6xdB8WE=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:31:40.989 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:46.165 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:51.351 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:56.520 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:01.695 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:06.868 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:12.064 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:17.266 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:22.449 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:32:27.619 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.375 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_w0y7e0+0L5p+p1pqdctpCT+1MFTa3vZLMum6xdB8WE= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:02 min
+[INFO] Finished at: 2026-10-11T17:32:32-05:00
+[INFO] ------------------------------------------------------------------------

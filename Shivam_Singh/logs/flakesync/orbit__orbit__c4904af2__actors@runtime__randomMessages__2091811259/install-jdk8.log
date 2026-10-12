@@ -1,0 +1,392 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Orbit Internal Parent                                              [pom]
+[INFO] Orbit Commons                                                      [jar]
+[INFO] Orbit Actors                                                       [pom]
+[INFO] Orbit Core                                                         [jar]
+[INFO] Orbit Default Cluster                                              [jar]
+[INFO] Orbit Runtime                                                      [jar]
+[INFO] 
+[INFO] -----------------< cloud.orbit:orbit-internal-parent >------------------
+[INFO] Building Orbit Internal Parent 1.10.2-SNAPSHOT                     [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-internal-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-internal-parent/1.10.2-SNAPSHOT/orbit-internal-parent-1.10.2-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< cloud.orbit:orbit-commons >----------------------
+[INFO] Building Orbit Commons 1.10.2-SNAPSHOT                             [2/6]
+[INFO]   from commons/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-commons ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-commons ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-commons ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-commons ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ orbit-commons ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ orbit-commons ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/target/orbit-commons-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-commons ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-commons/1.10.2-SNAPSHOT/orbit-commons-1.10.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/commons/target/orbit-commons-1.10.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-commons/1.10.2-SNAPSHOT/orbit-commons-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< cloud.orbit:orbit-actors-parent >-------------------
+[INFO] Building Orbit Actors 1.10.2-SNAPSHOT                              [3/6]
+[INFO]   from actors/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-actors-parent >>>
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-actors-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-actors-parent ---
+[INFO] Skipping instrumentation of the main-classes
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument-test (default) > process-test-classes @ orbit-actors-parent >>>
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-actors-parent >>>
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-actors-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-actors-parent ---
+[INFO] Skipping instrumentation of the main-classes
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument-test (default) < process-test-classes @ orbit-actors-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument-test (default) @ orbit-actors-parent ---
+[INFO] Skipping instrumentation of the test-classes
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-actors-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-actors-parent/1.10.2-SNAPSHOT/orbit-actors-parent-1.10.2-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------------< cloud.orbit:orbit-core >-----------------------
+[INFO] Building Orbit Core 1.10.2-SNAPSHOT                                [4/6]
+[INFO]   from actors/core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 84 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/src/main/java/cloud/orbit/actors/runtime/ClassPathSearch.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/src/main/java/cloud/orbit/actors/runtime/ClassPathSearch.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-core ---
+[INFO] instrumented: cloud/orbit/actors/Actor.class
+[INFO] Orbit Async main-classes instrumented: 1
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/test-classes
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument-test (default) > process-test-classes @ orbit-core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-core ---
+[INFO] Orbit Async main-classes instrumented: 0
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument-test (default) < process-test-classes @ orbit-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument-test (default) @ orbit-core ---
+[INFO] Orbit Async test-classes instrumented: 0
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ orbit-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ orbit-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/orbit-core-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.1.1:shade (default) @ orbit-core ---
+[INFO] Excluding cloud.orbit:orbit-commons:jar:1.10.2-SNAPSHOT from the shaded jar.
+[INFO] Excluding org.slf4j:slf4j-api:jar:1.7.25 from the shaded jar.
+[INFO] Including com.googlecode.gentyref:gentyref:jar:1.2.0 in the shaded jar.
+[INFO] Including org.javassist:javassist:jar:3.23.1-GA in the shaded jar.
+[INFO] Including io.github.lukehutch:fast-classpath-scanner:jar:3.1.9 in the shaded jar.
+[INFO] Including org.ow2.asm:asm:jar:6.2.1 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.21 in the shaded jar.
+[INFO] Excluding com.ea.async:ea-async:jar:1.2.1 from the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/orbit-core-1.10.2-SNAPSHOT.jar with /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/orbit-core-1.10.2-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/dependency-reduced-pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-core/1.10.2-SNAPSHOT/orbit-core-1.10.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/core/target/orbit-core-1.10.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-core/1.10.2-SNAPSHOT/orbit-core-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< cloud.orbit:orbit-infinispan-cluster >----------------
+[INFO] Building Orbit Default Cluster 1.10.2-SNAPSHOT                     [5/6]
+[INFO]   from actors/infinispan-cluster/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-infinispan-cluster ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-infinispan-cluster ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/target/classes
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-infinispan-cluster >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-infinispan-cluster ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-infinispan-cluster ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-infinispan-cluster <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-infinispan-cluster ---
+[INFO] Orbit Async main-classes instrumented: 0
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-infinispan-cluster ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-infinispan-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument-test (default) > process-test-classes @ orbit-infinispan-cluster >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-infinispan-cluster ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-infinispan-cluster ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-infinispan-cluster >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-infinispan-cluster ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-infinispan-cluster ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-infinispan-cluster <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-infinispan-cluster ---
+[INFO] Orbit Async main-classes instrumented: 0
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-infinispan-cluster ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-infinispan-cluster ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument-test (default) < process-test-classes @ orbit-infinispan-cluster <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument-test (default) @ orbit-infinispan-cluster ---
+[INFO] Skipping instrumentation of the test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ orbit-infinispan-cluster ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ orbit-infinispan-cluster ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/target/orbit-infinispan-cluster-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-infinispan-cluster ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-infinispan-cluster/1.10.2-SNAPSHOT/orbit-infinispan-cluster-1.10.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/infinispan-cluster/target/orbit-infinispan-cluster-1.10.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-infinispan-cluster/1.10.2-SNAPSHOT/orbit-infinispan-cluster-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------------< cloud.orbit:orbit-runtime >----------------------
+[INFO] Building Orbit Runtime 1.10.2-SNAPSHOT                             [6/6]
+[INFO]   from actors/runtime/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 76 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/java/cloud/orbit/actors/peer/Peer.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/java/cloud/orbit/actors/peer/Peer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-runtime >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-runtime ---
+[INFO] instrumented: cloud/orbit/actors/Stage$4$1.class
+[INFO] instrumented: cloud/orbit/actors/streams/ClientStreamProxy.class
+[INFO] instrumented: cloud/orbit/actors/streams/simple/SimpleStreamActor.class
+[INFO] instrumented: cloud/orbit/actors/streams/simple/SimpleStreamProxyObject.class
+[INFO] instrumented: cloud/orbit/actors/runtime/DefaultLocalObjectsCleaner.class
+[INFO] instrumented: cloud/orbit/actors/runtime/StatelessActorEntry.class
+[INFO] instrumented: cloud/orbit/actors/runtime/DefaultInvocationHandler.class
+[INFO] instrumented: cloud/orbit/actors/runtime/Hosting.class
+[INFO] instrumented: cloud/orbit/actors/runtime/ActorEntry.class
+[INFO] instrumented: cloud/orbit/actors/server/streams/ServerSideStreamProxyImpl.class
+[INFO] instrumented: cloud/orbit/actors/peer/PeerExecutor.class
+[INFO] instrumented: cloud/orbit/actors/Stage.class
+[INFO] instrumented: cloud/orbit/actors/client/streams/ClientSideStreamProxyImpl.class
+[INFO] instrumented: cloud/orbit/actors/client/ClientPeer.class
+[INFO] Orbit Async main-classes instrumented: 14
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/test/java/cloud/orbit/actors/extensions/test/ConstructionTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/test/java/cloud/orbit/actors/extensions/test/ConstructionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument-test (default) > process-test-classes @ orbit-runtime >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-runtime >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-runtime ---
+[INFO] Orbit Async main-classes instrumented: 0
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument-test (default) < process-test-classes @ orbit-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument-test (default) @ orbit-runtime ---
+[INFO] Orbit Async test-classes instrumented: 0
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ orbit-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ orbit-runtime ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/orbit-runtime-1.10.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.1.1:shade (default) @ orbit-runtime ---
+[INFO] Excluding cloud.orbit:orbit-core:jar:1.10.2-SNAPSHOT from the shaded jar.
+[INFO] Excluding org.slf4j:slf4j-api:jar:1.7.25 from the shaded jar.
+[INFO] Excluding com.googlecode.gentyref:gentyref:jar:1.2.0 from the shaded jar.
+[INFO] Excluding org.javassist:javassist:jar:3.23.1-GA from the shaded jar.
+[INFO] Excluding org.yaml:snakeyaml:jar:1.21 from the shaded jar.
+[INFO] Excluding cloud.orbit:orbit-infinispan-cluster:jar:1.10.2-SNAPSHOT from the shaded jar.
+[INFO] Excluding org.infinispan:infinispan-core:jar:9.3.0.Final from the shaded jar.
+[INFO] Excluding org.infinispan:infinispan-commons:jar:9.3.0.Final from the shaded jar.
+[INFO] Excluding org.jgroups:jgroups:jar:4.0.12.Final from the shaded jar.
+[INFO] Excluding org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final from the shaded jar.
+[INFO] Excluding org.jboss.marshalling:jboss-marshalling-osgi:jar:2.0.5.Final from the shaded jar.
+[INFO] Excluding org.jboss.logging:jboss-logging:jar:3.3.1.Final from the shaded jar.
+[INFO] Excluding io.reactivex.rxjava2:rxjava:jar:2.1.3 from the shaded jar.
+[INFO] Excluding org.reactivestreams:reactive-streams:jar:1.0.1 from the shaded jar.
+[INFO] Including io.github.lukehutch:fast-classpath-scanner:jar:3.1.9 in the shaded jar.
+[INFO] Including com.github.ben-manes.caffeine:caffeine:jar:2.6.2 in the shaded jar.
+[INFO] Including org.ow2.asm:asm:jar:6.2.1 in the shaded jar.
+[INFO] Including com.esotericsoftware:kryo:jar:4.0.2 in the shaded jar.
+[INFO] Including com.esotericsoftware:reflectasm:jar:1.11.3 in the shaded jar.
+[INFO] Including com.esotericsoftware:minlog:jar:1.3.0 in the shaded jar.
+[INFO] Including org.objenesis:objenesis:jar:2.5.1 in the shaded jar.
+[INFO] Including de.javakaffee:kryo-serializers:jar:0.42 in the shaded jar.
+[INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+[INFO] Excluding cloud.orbit:orbit-commons:jar:1.10.2-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.ea.async:ea-async:jar:1.2.1 from the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/orbit-runtime-1.10.2-SNAPSHOT.jar with /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/orbit-runtime-1.10.2-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ orbit-runtime ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/dependency-reduced-pom.xml to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-runtime/1.10.2-SNAPSHOT/orbit-runtime-1.10.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/orbit__orbit__c4904af2__actors@runtime/actors/runtime/target/orbit-runtime-1.10.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cloud/orbit/orbit-runtime/1.10.2-SNAPSHOT/orbit-runtime-1.10.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Orbit Internal Parent 1.10.2-SNAPSHOT:
+[INFO] 
+[INFO] Orbit Internal Parent .............................. SUCCESS [  1.221 s]
+[INFO] Orbit Commons ...................................... SUCCESS [ 14.291 s]
+[INFO] Orbit Actors ....................................... SUCCESS [  1.434 s]
+[INFO] Orbit Core ......................................... SUCCESS [  8.607 s]
+[INFO] Orbit Default Cluster .............................. SUCCESS [  1.616 s]
+[INFO] Orbit Runtime ...................................... SUCCESS [  9.515 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.623 s
+[INFO] Finished at: 2026-10-11T18:33:31-05:00
+[INFO] ------------------------------------------------------------------------

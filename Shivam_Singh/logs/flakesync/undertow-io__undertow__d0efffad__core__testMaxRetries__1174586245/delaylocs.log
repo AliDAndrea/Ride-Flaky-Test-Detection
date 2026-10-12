@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< io.undertow:undertow-core >----------------------
+[INFO] Building Undertow Core 2.0.14.Final-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ undertow-core >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ undertow-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ undertow-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ undertow-core ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core
+[INFO] Storing buildNumber: d0efffad5d2034bb07525cac9b299dac72c3045d at timestamp: 1791760516357
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- dependencypath:1.1.1:set (set-all) @ undertow-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ undertow-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ undertow-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:3.0.0:checkstyle (check-style) @ undertow-core ---
+[INFO] 
+[INFO] --- bundle:3.2.0:manifest (generate-manifest) @ undertow-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ undertow-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ undertow-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ undertow-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ undertow-core ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.undertow.server.handlers.proxy.LoadBalancingProxyHttpsTestCase
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[watchdog] time cap of 445s reached - stopping; results so far are kept

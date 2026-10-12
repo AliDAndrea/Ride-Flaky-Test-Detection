@@ -1,0 +1,89 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.kevinsawicki:http-request:jar:6.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM com.github.kevinsawicki:http-request:6.1-SNAPSHOT (/Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/pom.xml) points at com.github.kevinsawicki:http-request-parent instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 5, column 11
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 139, column 24
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< com.github.kevinsawicki:http-request >----------------
+[INFO] Building http-request 6.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.pom (5.8 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/21/maven-plugins-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/21/maven-plugins-21.pom (12 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.jar (33 kB at 682 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ http-request ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ http-request ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/src/main/resources
+[INFO] 
+[INFO] --- compiler:2.3.2:compile (default-compile) @ http-request ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/classes
+[INFO] 
+[INFO] --- bundle:2.3.7:manifest (bundle-manifest) @ http-request ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ http-request ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.2:testCompile (default-testCompile) @ http-request ---
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ http-request ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.3.2:jar (default-jar) @ http-request ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.pom (4.0 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom (9.2 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.pom (2.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom (1.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.4.2/maven-archiver-2.4.2.jar (20 kB at 404 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.jar (58 kB at 922 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0.1/plexus-archiver-2.0.1.jar (180 kB at 891 kB/s)
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/http-request-6.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ http-request ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.9.2/qdox-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.9.2/qdox-1.9.2.pom (17 kB at 268 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.9.2/qdox-1.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.9.2/qdox-1.9.2.jar (170 kB at 1.8 MB/s)
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.1.2:jar (default) > generate-sources @ http-request >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ http-request ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.1.2:jar (default) < generate-sources @ http-request <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.1.2:jar (default) @ http-request ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/http-request-6.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ http-request ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/pom.xml to /Users/shivamsingh/.m2/repository/com/github/kevinsawicki/http-request/6.1-SNAPSHOT/http-request-6.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/http-request-6.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/github/kevinsawicki/http-request/6.1-SNAPSHOT/http-request-6.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/target/http-request-6.1-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/com/github/kevinsawicki/http-request/6.1-SNAPSHOT/http-request-6.1-SNAPSHOT-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.104 s
+[INFO] Finished at: 2026-10-09T20:41:31-05:00
+[INFO] ------------------------------------------------------------------------

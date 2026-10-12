@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< uk.gov.gchq.koryphe:core >----------------------
+[INFO] Building core 2.5.3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (default-compile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (compile-jdk8) @ core ---
+[WARNING]  Parameter 'outputDirectory' is read-only, must not be used in configuration
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ core ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.9.0:testCompile (default-testCompile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- compiler:3.9.0:testCompile (testCompile-jdk8) @ core ---
+[WARNING]  Parameter 'outputDirectory' is read-only, must not be used in configuration
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving uk.gov.gchq.koryphe:core:2.5.3-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 2342 tests. Time taken: 1.444000005722046 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.dtfixingtools/original-order
+[INFO] Getting original results (2342 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (48.0 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (48.0 seconds elapsed (102.4 total), 72.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (102.4 seconds elapsed (158.8 total), 68.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (158.8 seconds elapsed (216.7 total), 39.7 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (216.7 seconds elapsed (274.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:25 min
+[INFO] Finished at: 2026-10-11T19:06:43-05:00
+[INFO] ------------------------------------------------------------------------

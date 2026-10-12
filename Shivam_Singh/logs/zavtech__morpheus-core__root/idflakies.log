@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.zavtech:morpheus-core >----------------------
+[INFO] Building Morpheus-Core 0.9.23
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ morpheus-core >>>
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ morpheus-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ morpheus-core ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 293 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/src/main/java/com/zavtech/morpheus/array/ArrayType.java:[88,42] sun.util.calendar.ZoneInfo is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/src/main/java/com/zavtech/morpheus/reference/XDataFramePrinter.java:[68,69] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/src/main/java/com/zavtech/morpheus/reference/XDataFramePrinter.java:[74,69] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/src/main/java/com/zavtech/morpheus/frame/DataFrameAxis.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/zavtech__morpheus-core__root/src/main/java/com/zavtech/morpheus/frame/DataFrameAxis.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ morpheus-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 151 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ morpheus-core ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ morpheus-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ morpheus-core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.zavtech:morpheus-core:0.9.23 5 rounds to run for random-class-method
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.685 s
+[INFO] Finished at: 2026-10-11T18:10:27-05:00
+[INFO] ------------------------------------------------------------------------

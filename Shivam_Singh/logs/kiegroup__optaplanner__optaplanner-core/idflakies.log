@@ -1,0 +1,171 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.optaplanner:optaplanner-core >------------------
+[INFO] Building OptaPlanner core 7.30.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ optaplanner-core >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-plugin-versions) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (ban-blacklisted-dependencies) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (no-duplicate-declared-dependencies) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-java-version) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-maven-version) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ optaplanner-core ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (no-managed-deps) @ optaplanner-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ optaplanner-core ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core
+[INFO] Storing buildNumber: dff7457cb5ba1557727deddef5b675dd00fbf8a8 at timestamp: 1791761353237
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- build-helper:3.0.0:add-source (default) @ optaplanner-core ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:3.0.0:parse-version (default) @ optaplanner-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ optaplanner-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ optaplanner-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 747 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[49,48] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[80,49] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/config/domain/ScanAnnotatedClassesConfig.java:[32,49] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/common/accessor/MemberAccessorFactory.java:[50,17] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[229,13] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[250,68] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[258,68] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[270,68] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[275,68] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[285,68] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[599,18] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[608,38] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[611,31] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[614,53] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[619,61] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[626,51] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[634,51] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptor.java:[639,66] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/stream/drools/bi/DroolsBiCondition.java:[100,37] completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,java.util.function.ToIntBiFunction<A,B>) in org.optaplanner.core.impl.score.stream.drools.bi.DroolsBiCondition is potentially ambiguous with completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,java.util.function.ToLongBiFunction<A,B>) in org.optaplanner.core.impl.score.stream.drools.bi.DroolsBiCondition
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/stream/drools/uni/DroolsUniCondition.java:[241,37] completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,java.util.function.ToIntFunction<A>) in org.optaplanner.core.impl.score.stream.drools.uni.DroolsUniCondition is potentially ambiguous with completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,java.util.function.ToLongFunction<A>) in org.optaplanner.core.impl.score.stream.drools.uni.DroolsUniCondition
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/stream/drools/tri/DroolsTriCondition.java:[83,37] completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,org.optaplanner.core.api.function.ToIntTriFunction<A,B,C>) in org.optaplanner.core.impl.score.stream.drools.tri.DroolsTriCondition is potentially ambiguous with completeWithScoring(org.drools.model.Global<? extends org.optaplanner.core.api.score.holder.AbstractScoreHolder<?>>,org.optaplanner.core.api.function.ToLongTriFunction<A,B,C>) in org.optaplanner.core.impl.score.stream.drools.tri.DroolsTriCondition
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/partitionedsearch/PartitionSolver.java:[49,49] getScoreDirectorFactory() in org.optaplanner.core.api.solver.Solver has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/solver/DefaultSolver.java:[81,49] getScoreDirectorFactory() in org.optaplanner.core.api.solver.Solver has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/config/solver/SolverConfig.java:[270,47] PRODUCTION in org.optaplanner.core.config.solver.EnvironmentMode has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/config/solver/SolverConfig.java:[479,47] PRODUCTION in org.optaplanner.core.config.solver.EnvironmentMode has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/config/domain/ScanAnnotatedClassesConfig.java:[89,39] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/config/domain/ScanAnnotatedClassesConfig.java:[92,37] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/heuristic/move/CompositeMove.java:[47,40] Varargs method could cause heap pollution from non-reifiable varargs parameter moves
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/heuristic/move/CompositeMove.java:[81,22] Varargs method could cause heap pollution from non-reifiable varargs parameter moves
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/ScoreUtils.java:[124,44] redundant cast to double
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/ScoreUtils.java:[124,70] redundant cast to double
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/stream/bavet/tri/BavetScoringTriConstraintStream.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/main/java/org/optaplanner/core/impl/score/stream/bavet/tri/BavetScoringTriConstraintStream.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ optaplanner-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ optaplanner-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 369 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/chained/TailChainSwapMoveTest.java:[21,23] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/extended/abstractsolution/TestdataScoreGetterOverrideExtendedAbstractSolution.java:[26,49] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/extended/abstractsolution/TestdataExtendedAbstractSolution.java:[25,49] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/extended/legacysolution/TestdataLegacySolution.java:[24,48] org.optaplanner.core.api.domain.solution.Solution in org.optaplanner.core.api.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptorTest.java:[30,75] org.optaplanner.core.impl.testdata.domain.extended.abstractsolution.TestdataExtendedAbstractSolution in org.optaplanner.core.impl.testdata.domain.extended.abstractsolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptorTest.java:[31,75] org.optaplanner.core.impl.testdata.domain.extended.abstractsolution.TestdataScoreGetterOverrideExtendedAbstractSolution in org.optaplanner.core.impl.testdata.domain.extended.abstractsolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/descriptor/SolutionDescriptorTest.java:[32,73] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[24,49] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/util/PlannerAssert.java:[113,57] Varargs method could cause heap pollution from non-reifiable varargs parameter objects
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/util/PlannerAssert.java:[130,58] Varargs method could cause heap pollution from non-reifiable varargs parameter comparables
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/util/PlannerAssert.java:[147,46] Varargs method could cause heap pollution from non-reifiable varargs parameter elements
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/util/PlannerAssert.java:[177,36] Varargs method could cause heap pollution from non-reifiable varargs parameter keys
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/util/PlannerAssert.java:[236,44] Varargs method could cause heap pollution from non-reifiable varargs parameter elements
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/chained/TailChainSwapMoveTest.java:[306,9] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/chained/TailChainSwapMoveTest.java:[309,9] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/chained/TailChainSwapMoveTest.java:[312,9] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[65,17] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[67,17] setScoreDefinitionType(org.optaplanner.core.config.score.definition.ScoreDefinitionType) in org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[68,23] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[69,16] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[71,9] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/DefaultSolverTest.java:[71,47] org.optaplanner.core.impl.testdata.domain.extended.legacysolution.TestdataLegacySolution in org.optaplanner.core.impl.testdata.domain.extended.legacysolution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/cloner/AbstractSolutionClonerTest.java:[232,53] redundant cast to org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/cloner/AbstractSolutionClonerTest.java:[283,52] redundant cast to org.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataExtendedThirdPartySolution
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/domain/solution/AbstractSolutionTest.java:[82,71] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/api/solver/KieContainerSolverFactoryTest.java:[113,50] getSolverConfig() in org.optaplanner.core.api.solver.SolverFactory has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/clone/lookup/TestdataObjectEqualsNoHashCode.java:[21,8] Class org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectEqualsNoHashCode overrides equals, but neither it nor any superclass overrides hashCode method
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/PillarChangeMoveTest.java:[164,47] redundant cast to java.util.List<java.lang.Object>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/PillarSwapMoveTest.java:[264,51] redundant cast to java.util.List<java.lang.Object>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/heuristic/selector/move/generic/PillarSwapMoveTest.java:[265,52] redundant cast to java.util.List<java.lang.Object>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/config/score/director/ScoreDirectorFactoryConfigTest.java:[43,15] setScoreDefinitionType(org.optaplanner.core.config.score.definition.ScoreDefinitionType) in org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/config/score/director/ScoreDirectorFactoryConfigTest.java:[51,15] setScoreDefinitionType(org.optaplanner.core.config.score.definition.ScoreDefinitionType) in org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/config/score/director/ScoreDirectorFactoryConfigTest.java:[52,15] setBendableHardLevelsSize(java.lang.Integer) in org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/config/score/director/ScoreDirectorFactoryConfigTest.java:[53,15] setBendableSoftLevelsSize(java.lang.Integer) in org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[89,28] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[90,9] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[90,54] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[95,40] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[96,9] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[96,46] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[101,30] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[143,28] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[144,9] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[144,54] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[149,40] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[151,9] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[151,46] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/solver/recaller/BestSolutionRecallerTest.java:[156,30] org.optaplanner.core.impl.domain.solution.AbstractSolution in org.optaplanner.core.impl.domain.solution has been deprecated
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/shadow/manytomany/TestdataManyToManyShadowedEntity.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/src/test/java/org/optaplanner/core/impl/testdata/domain/shadow/manytomany/TestdataManyToManyShadowedEntity.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ optaplanner-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ optaplanner-core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.optaplanner:optaplanner-core:7.30.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 1213 tests. Time taken: 3.1539998054504395 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/.dtfixingtools/original-order
+[INFO] Getting original results (1213 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (22.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (22.6 seconds elapsed (43.5 total), 33.9 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (43.5 seconds elapsed (64.3 total), 29.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (64.3 seconds elapsed (91.0 total), 16.1 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (91.1 seconds elapsed (119.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kiegroup__optaplanner__optaplanner-core/optaplanner-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:03 min
+[INFO] Finished at: 2026-10-11T18:32:06-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,918 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/querydsl/querydsl-parent/0.1.0/querydsl-parent-0.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/querydsl/querydsl-parent/0.1.0/querydsl-parent-0.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/querydsl/querydsl-parent/0.1.0/querydsl-parent-0.1.0.pom (3.4 kB at 11 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Querydsl                                                           [pom]
+[INFO] Querydsl - Core module                                             [jar]
+[INFO] Querydsl - Codegen module                                          [jar]
+[INFO] Querydsl - APT support                                             [jar]
+[INFO] Querydsl - Lucene 3 support                                        [jar]
+[INFO] Querydsl - Hibernate Search support                                [jar]
+[INFO] 
+[INFO] ---------------------< com.querydsl:querydsl-root >---------------------
+[INFO] Building Querydsl 4.2.1                                            [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.pom (3.9 kB at 92 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.build/0.7.5.201505241946/org.jacoco.build-0.7.5.201505241946.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.build/0.7.5.201505241946/org.jacoco.build-0.7.5.201505241946.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.5.201505241946/org.jacoco.build-0.7.5.201505241946.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.5.201505241946/org.jacoco.build-0.7.5.201505241946.pom (36 kB at 651 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.5.201505241946/jacoco-maven-plugin-0.7.5.201505241946.jar (51 kB at 740 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.pom (14 kB at 290 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.15/maven-checkstyle-plugin-2.15.jar (111 kB at 1.2 MB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.pom (5.8 kB at 116 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.14/animal-sniffer-maven-plugin-1.14.jar (32 kB at 725 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/easymock/easymock/3.0/easymock-3.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.0/easymock-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.0/easymock-3.0.pom (5.6 kB at 107 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/easymock/easymock-parent/3.0/easymock-parent-3.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.0/easymock-parent-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.0/easymock-parent-3.0.pom (10 kB at 217 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/reflections/reflections/0.9.9/reflections-0.9.9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.9/reflections-0.9.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.9/reflections-0.9.9.pom (9.1 kB at 217 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.pom (764 B at 11 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/easymock/easymock/3.0/easymock-3.0.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/reflections/reflections/0.9.9/reflections-0.9.9.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.0/easymock-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.0/easymock-3.0.jar (114 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.9/reflections-0.9.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.9/reflections-0.9.9.jar (142 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar (75 kB at 378 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-root ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.pom (1.9 kB at 17 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/semver/parent/0.9.27/parent-0.9.27.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/semver/parent/0.9.27/parent-0.9.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/semver/parent/0.9.27/parent-0.9.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/semver/parent/0.9.27/parent-0.9.27.pom (1.3 kB at 19 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/github/jeluard/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/github/jeluard/oss-parent/9/oss-parent-9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jeluard/oss-parent/9/oss-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jeluard/oss-parent/9/oss-parent-9.pom (12 kB at 297 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/semver/api/0.9.27/api-0.9.27.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/semver/api/0.9.27/api-0.9.27.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/semver/api/0.9.27/api-0.9.27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/semver/api/0.9.27/api-0.9.27.pom (2.8 kB at 21 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.pom (965 B at 22 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.pom (956 B at 21 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/semver/api/0.9.27/api-0.9.27.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/asm/asm/3.2/asm-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/asm/asm-tree/3.2/asm-tree-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/asm/asm-commons/3.2/asm-commons-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/semver/api/0.9.27/api-0.9.27.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/asm/asm/3.2/asm-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/asm/asm-commons/3.2/asm-commons-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/asm/asm-tree/3.2/asm-tree-3.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/semver/enforcer-rule/0.9.27/enforcer-rule-0.9.27.jar (13 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/semver/api/0.9.27/api-0.9.27.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.jar (32 kB at 350 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/semver/api/0.9.27/api-0.9.27.jar (63 kB at 507 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/tototec/de.tototec.cmdoption/0.2.0/de.tototec.cmdoption-0.2.0.jar (42 kB at 249 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.jar (22 kB at 110 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.jar (33 kB at 145 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.jar (43 kB at 189 kB/s)
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-root ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.pom (62 kB at 645 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.pom (2.7 kB at 54 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom (3.1 kB at 60 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.pom (3.0 kB at 42 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/6.6/checkstyle-6.6.jar (1.0 MB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-resources/2/maven-shared-resources-2.jar (13 kB at 187 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar (26 kB at 336 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.jar (374 kB at 4.3 MB/s)
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-root ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-root ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom (2.9 kB at 39 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom (1.2 kB at 19 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom (2.0 kB at 16 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom (1.4 kB at 30 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar (288 kB at 3.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar (133 kB at 850 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar (140 kB at 905 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar (380 kB at 2.4 MB/s)
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- animal-sniffer:1.14:check (ensure-java-1.6-class-library) @ querydsl-root ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.pom (2.3 kB at 49 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.pom (2.0 kB at 42 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.pom (2.4 kB at 55 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.pom (5.2 kB at 100 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.pom (2.5 kB at 52 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom (918 B at 22 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.pom (1.6 kB at 40 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.pom (902 B at 18 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/reporting/maven-reporting/2.0.1/maven-reporting-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/reporting/maven-reporting/2.0.1/maven-reporting-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.1/maven-reporting-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.1/maven-reporting-2.0.1.pom (546 B at 13 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom (386 B at 9.2 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom (3.8 kB at 71 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.pom (1.5 kB at 35 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.pom (765 B at 19 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.pom (1.3 kB at 34 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.pom (854 B at 22 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.pom (1.7 kB at 41 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.pom (1.4 kB at 30 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.pom (1.5 kB at 38 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.pom (442 B at 11 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.14/animal-sniffer-1.14.jar (34 kB at 489 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.1/maven-settings-2.0.1.jar (44 kB at 683 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.1/maven-plugin-api-2.0.1.jar (8.2 kB at 127 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.14/java-boot-classpath-detector-1.14.jar (5.0 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.1/maven-core-2.0.1.jar (134 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar (242 kB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.1/maven-profile-2.0.1.jar (30 kB at 260 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.1/maven-plugin-parameter-documenter-2.0.1.jar (16 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.1/maven-reporting-api-2.0.1.jar (5.5 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar (4.0 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.1/maven-model-2.0.1.jar (80 kB at 623 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.1/maven-error-diagnostics-2.0.1.jar (8.5 kB at 52 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.jar (24 kB at 146 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.1/maven-repository-metadata-2.0.1.jar (20 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.1/maven-plugin-descriptor-2.0.1.jar (32 kB at 177 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.1/maven-artifact-manager-2.0.1.jar (49 kB at 267 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.1/maven-monitor-2.0.1.jar (5.6 kB at 27 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.1/maven-project-2.0.1.jar (105 kB at 483 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.1/maven-artifact-2.0.1.jar (78 kB at 360 kB/s)
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] >>> source:2.4:jar (default) > generate-sources @ querydsl-root >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-root ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-root ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-root ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:jar (default) < generate-sources @ querydsl-root <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:jar (default) @ querydsl-root ---
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ querydsl-root ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (check) @ querydsl-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ querydsl-root ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ querydsl-root ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/pom.xml to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-root/4.2.1/querydsl-root-4.2.1.pom
+[INFO] 
+[INFO] ---------------------< com.querydsl:querydsl-core >---------------------
+[INFO] Building Querydsl - Core module 4.2.1                              [2/6]
+[INFO]   from querydsl-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.pom (6.9 kB at 55 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/infradna/tool/bridge-method-injector-parent/1.13/bridge-method-injector-parent-1.13.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/infradna/tool/bridge-method-injector-parent/1.13/bridge-method-injector-parent-1.13.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector-parent/1.13/bridge-method-injector-parent-1.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector-parent/1.13/bridge-method-injector-parent-1.13.pom (3.8 kB at 58 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-injector/1.13/bridge-method-injector-1.13.jar (17 kB at 133 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.pom (4.0 kB at 82 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.4.0/maven-bundle-plugin-2.4.0.jar (126 kB at 2.3 MB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom (5.6 kB at 133 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom (17 kB at 380 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar (36 kB at 867 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.pom (2.3 kB at 47 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/home/mysema-source/0.3.0/mysema-source-0.3.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/home/mysema-source/0.3.0/mysema-source-0.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/home/mysema-source/0.3.0/mysema-source-0.3.0.pom (2.9 kB at 73 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/cglib/cglib/2.2.2/cglib-2.2.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.pom (1.5 kB at 32 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.pom (741 B at 18 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.pom (1.4 kB at 33 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jvnet/hudson/lib/1.7/lib-1.7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/lib/1.7/lib-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/lib/1.7/lib-1.7.pom (470 B at 11 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jvnet/hudson/hudson/1.7/hudson-1.7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/hudson/1.7/hudson-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/hudson/1.7/hudson-1.7.pom (3.5 kB at 81 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom (148 B at 3.8 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/cglib/cglib/2.2.2/cglib-2.2.2.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/jdepend/jdepend/2.9.1/jdepend-2.9.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar (12 kB at 294 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jdepend/jdepend/2.9.1/jdepend-2.9.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar (3.2 kB at 69 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/hudson/annotation-indexer/1.2/annotation-indexer-1.2.jar (16 kB at 334 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jdepend/jdepend/2.9.1/jdepend-2.9.1.jar (58 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib/2.2.2/cglib-2.2.2.jar (287 kB at 4.2 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ querydsl-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ querydsl-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 234 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/dsl/DslTemplate.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/dsl/DslTemplate.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/Template.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/Template.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:2.4.0:manifest (bundle-manifest) @ querydsl-core ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.pom (1.2 kB at 16 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/biz/aQute/bnd/parent/2.1.0/parent-2.1.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/biz/aQute/bnd/parent/2.1.0/parent-2.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/parent/2.1.0/parent-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/parent/2.1.0/parent-2.1.0.pom (2.7 kB at 67 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.pom (457 B at 12 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bndlib/2.1.0/bndlib-2.1.0.jar (1.4 MB at 9.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar (247 kB at 4.8 MB/s)
+[INFO] 
+[INFO] --- bridge-method-injector:1.13:process (default) @ querydsl-core ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.pom (2.0 kB at 38 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom (5.5 kB at 104 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.2/asm-debug-all-4.2.jar (343 kB at 4.9 MB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ querydsl-core ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ querydsl-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 235 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/test/java/com/querydsl/core/QueryExecution.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/test/java/com/querydsl/core/QueryExecution.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/test/java/com/querydsl/core/QueryExecution.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.18:test (default-test) @ querydsl-core ---
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.pom (4.3 kB at 43 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-providers/2.18/surefire-providers-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-providers/2.18/surefire-providers-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.18/surefire-providers-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.18/surefire-providers-2.18.pom (2.4 kB at 52 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.pom (3.4 kB at 50 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.pom (2.0 kB at 13 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.pom (1.6 kB at 25 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom (2.3 kB at 53 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.pom (1.7 kB at 42 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.pom (2.5 kB at 44 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom (6.3 kB at 157 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom (2.8 kB at 63 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.18/surefire-junit47-2.18.jar (132 kB at 936 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.18/common-java5-2.18.jar (37 kB at 423 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.18/surefire-grouper-2.18.jar (38 kB at 436 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.18/common-junit3-2.18.jar (11 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.18/common-junit48-2.18.jar (19 kB at 124 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar (274 kB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar (148 kB at 930 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.18/common-junit4-2.18.jar (19 kB at 121 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar (40 kB at 250 kB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.14:check (ensure-java-1.6-class-library) @ querydsl-core ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ querydsl-core ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes/META-INF/MANIFEST.MF
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1.jar
+[INFO] 
+[INFO] >>> source:2.4:test-jar (default) > generate-sources @ querydsl-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:test-jar (default) < generate-sources @ querydsl-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:test-jar (default) @ querydsl-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-test-sources.jar
+[INFO] 
+[INFO] >>> source:2.4:jar (default) > generate-sources @ querydsl-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:jar (default) < generate-sources @ querydsl-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:jar (default) @ querydsl-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-sources.jar
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ querydsl-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- jar:2.6:test-jar (test-jar) @ querydsl-core ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes/META-INF/MANIFEST.MF
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-tests.jar
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (check) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ querydsl-core ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ querydsl-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/pom.xml to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-test-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-test-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-tests.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-tests.jar
+[INFO] 
+[INFO] -------------------< com.querydsl:querydsl-codegen >--------------------
+[INFO] Building Querydsl - Codegen module 4.2.1                           [3/6]
+[INFO]   from querydsl-codegen/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.pom (3.6 kB at 43 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/home/mysema-source/0.3.1/mysema-source-0.3.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/home/mysema-source/0.3.1/mysema-source-0.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/home/mysema-source/0.3.1/mysema-source-0.3.1.pom (3.0 kB at 56 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.pom (1.5 kB at 37 kB/s)
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar (73 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar (1.8 MB at 11 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-codegen ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-codegen ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ querydsl-codegen ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ querydsl-codegen ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/classes
+[INFO] 
+[INFO] --- bundle:2.4.0:manifest (bundle-manifest) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ querydsl-codegen ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ querydsl-codegen ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 46 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/test/java/com/querydsl/codegen/GenericExporterTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/test/java/com/querydsl/codegen/GenericExporterTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/test/java/com/querydsl/codegen/GenericExporterTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.18:test (default-test) @ querydsl-codegen ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.14:check (ensure-java-1.6-class-library) @ querydsl-codegen ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ querydsl-codegen ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/classes/META-INF/MANIFEST.MF
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1.jar
+[INFO] 
+[INFO] >>> source:2.4:test-jar (default) > generate-sources @ querydsl-codegen >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-codegen ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-codegen ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:test-jar (default) < generate-sources @ querydsl-codegen <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:test-jar (default) @ querydsl-codegen ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-test-sources.jar
+[INFO] 
+[INFO] >>> source:2.4:jar (default) > generate-sources @ querydsl-codegen >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-codegen ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-codegen ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:jar (default) < generate-sources @ querydsl-codegen <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:jar (default) @ querydsl-codegen ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-sources.jar
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ querydsl-codegen ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- jar:2.6:test-jar (test-jar) @ querydsl-codegen ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/classes/META-INF/MANIFEST.MF
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-tests.jar
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (check) @ querydsl-codegen ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ querydsl-codegen ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/pom.xml to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-test-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1-test-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/querydsl-codegen-4.2.1-tests.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1-tests.jar
+[INFO] 
+[INFO] ---------------------< com.querydsl:querydsl-apt >----------------------
+[INFO] Building Querydsl - APT support 4.2.1                              [4/6]
+[INFO]   from querydsl-apt/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.pom (3.5 kB at 53 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/mysema/maven/apt-maven-plugin/1.1.3/apt-maven-plugin-1.1.3.jar (15 kB at 353 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.pom
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.pom (17 kB at 407 kB/s)
+[INFO] Downloading from com.springsource.repository.bundles.release: https://repository.springsource.com/maven/bundles/release/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.jar
+[INFO] Downloading from com.springsource.repository.bundles.external: https://repository.springsource.com/maven/bundles/external/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.5.4/maven-assembly-plugin-2.5.4.jar (238 kB at 5.0 MB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom (7.9 kB at 168 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/javax/transaction/jta/1.1/jta-1.1.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/javax/transaction/jta/1.1/jta-1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom (598 B at 15 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom (6.0 kB at 140 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/springframework/roo/org.springframework.roo.annotations/1.2.3.RELEASE/org.springframework.roo.annotations-1.2.3.RELEASE.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/springframework/roo/org.springframework.roo.annotations/1.2.3.RELEASE/org.springframework.roo.annotations-1.2.3.RELEASE.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/roo/org.springframework.roo.annotations/1.2.3.RELEASE/org.springframework.roo.annotations-1.2.3.RELEASE.pom
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.pom (2.8 kB at 45 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.pom (2.1 kB at 39 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom (1.2 kB at 21 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom (7.0 kB at 159 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom (12 kB at 280 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.pom (3.3 kB at 84 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom (1.9 kB at 47 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging-tools-parent/1.2.0.Beta1/jboss-logging-tools-parent-1.2.0.Beta1.pom (3.7 kB at 93 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom (4.6 kB at 106 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom (2.1 kB at 53 kB/s)
+[INFO] Artifact org.hibernate.javax.persistence:hibernate-jpa-2.1-api:pom:1.0.0.Final is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [spring roo repository (https://spring-roo-repository.springsource.org/release, default, releases+snapshots), querydsl (https://www.querydsl.com/maven, default, releases+snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.hibernate.javax.persistence:hibernate-jpa-2.1-api:pom:1.0.0.Final is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [spring roo repository (https://spring-roo-repository.springsource.org/release, default, releases+snapshots), querydsl (https://www.querydsl.com/maven, default, releases+snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom (0 B at 0 B/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom (2.3 kB at 46 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/hibernate-envers/4.3.11.Final/hibernate-envers-4.3.11.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/hibernate-envers/4.3.11.Final/hibernate-envers-4.3.11.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-envers/4.3.11.Final/hibernate-envers-4.3.11.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-envers/4.3.11.Final/hibernate-envers-4.3.11.Final.pom (2.4 kB at 44 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.pom (3.2 kB at 64 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/joda/joda-money/0.9/joda-money-0.9.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/joda/joda-money/0.9/joda-money-0.9.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/joda/joda-money/0.9/joda-money-0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/joda/joda-money/0.9/joda-money-0.9.pom (19 kB at 323 kB/s)
+[INFO] Downloading from spring roo repository: https://spring-roo-repository.springsource.org/release/org/eclipse/jdt/core/compiler/ecj/3.7.1/ecj-3.7.1.pom
+[INFO] Downloading from querydsl: https://www.querydsl.com/maven/org/eclipse/jdt/core/compiler/ecj/3.7.1/ecj-3.7.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/3.7.1/ecj-3.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/core/compiler/ecj/3.7.1/ecj-3.7.1.pom (1.6 kB at 25 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Querydsl 4.2.1:
+[INFO] 
+[INFO] Querydsl ........................................... SUCCESS [ 13.416 s]
+[INFO] Querydsl - Core module ............................. SUCCESS [ 25.672 s]
+[INFO] Querydsl - Codegen module .......................... SUCCESS [  2.988 s]
+[INFO] Querydsl - APT support ............................. FAILURE [  2.969 s]
+[INFO] Querydsl - Lucene 3 support ........................ SKIPPED
+[INFO] Querydsl - Hibernate Search support ................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.643 s
+[INFO] Finished at: 2026-10-11T18:12:15-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project querydsl-apt: Could not collect dependencies for project com.querydsl:querydsl-apt:jar:4.2.1
+[ERROR] Failed to read artifact descriptor for org.springframework.roo:org.springframework.roo.annotations:jar:1.2.3.RELEASE
+[ERROR] 	Caused by: The following artifacts could not be resolved: org.springframework.roo:org.springframework.roo.annotations:pom:1.2.3.RELEASE (absent): Could not transfer artifact org.springframework.roo:org.springframework.roo.annotations:pom:1.2.3.RELEASE from/to spring roo repository (https://spring-roo-repository.springsource.org/release): spring-roo-repository.springsource.org
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :querydsl-apt

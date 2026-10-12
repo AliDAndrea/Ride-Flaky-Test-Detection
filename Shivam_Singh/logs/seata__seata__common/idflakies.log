@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.version: 26.5
+[INFO] os.detected.version.major: 26
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-x86_64
+[INFO] 
+[INFO] -----------------------< io.seata:seata-common >------------------------
+[INFO] Building seata-common 0.8.1-SNAPSHOT 0.8.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ seata-common >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ seata-common ---
+[INFO] 
+[INFO] --- jacoco:0.8.3:prepare-agent (default) @ seata-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:3.0:remove (default) @ seata-common ---
+[INFO] 
+[INFO] --- license:3.0:format (default) @ seata-common ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ seata-common ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/seata__seata__common/common/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.1.0:flatten (flatten) @ seata-common ---
+[INFO] Generating flattened POM of project io.seata:seata-common:jar:0.8.1-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ seata-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ seata-common ---
+[INFO] Copying 3 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ seata-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ seata-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ seata-common ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving io.seata:seata-common:0.8.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 59 tests. Time taken: 0.21700000762939453 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/seata__seata__common/common/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/seata__seata__common/common/.dtfixingtools/original-order
+[INFO] Getting original results (59 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (1.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (1.7 seconds elapsed (3.4 total), 2.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (3.4 seconds elapsed (4.8 total), 2.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (4.8 seconds elapsed (6.5 total), 1.2 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (6.5 seconds elapsed (8.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/seata__seata__common/common/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/seata__seata__common/common/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.852 s
+[INFO] Finished at: 2026-10-11T17:48:10-05:00
+[INFO] ------------------------------------------------------------------------

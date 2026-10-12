@@ -1,0 +1,494 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.apache.maven.doxia:doxia-module-markdown >------------
+[INFO] Building Doxia :: Markdown Module 2.1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ doxia-module-markdown >>>
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-module-markdown ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-module-markdown ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-module-markdown ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-module-markdown ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-module-markdown ---
+[INFO] Copying 24 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-module-markdown ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ doxia-module-markdown <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ doxia-module-markdown ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_PIpyaMucnh1vMSZzg+WkcKO7qCYZnBLKWmUtaOWBXR0=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.pom (3.2 kB at 4.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.pom (3.2 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.1/junit-jupiter-engine-5.11.1.jar (260 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.1/junit-platform-engine-1.11.1.jar (247 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.1/junit-platform-launcher-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.1/junit-platform-launcher-1.11.1.pom (3.0 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.1/junit-platform-launcher-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.1/junit-platform-launcher-1.11.1.jar (189 kB at 3.4 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.938 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Running org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s -- in org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Running org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 3, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 2, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment 'Simple comment with ----' to 'Simple comment with - - - - '
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment '-' to '- '
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 9: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 94: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 101: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 303: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.693 s -- in org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[WARNING] Tests run: 29, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.464 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 101, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexExecid=TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.837 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Running org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s -- in org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Running org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 3, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 2, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment 'Simple comment with ----' to 'Simple comment with - - - - '
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment '-' to '- '
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 9: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 94: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 101: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 303: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.821 s -- in org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[ERROR] Tests run: 29, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 2.235 s <<< FAILURE! -- in org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[ERROR] org.apache.maven.doxia.module.markdown.MarkdownParserTest.testHtmlContent -- Time elapsed: 0.071 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <head
+head_
+body
+division
+text
+paragraph
+inline
+text
+inline_
+text
+inline
+text
+inline_
+text
+paragraph_
+text
+division_
+text
+horizontalRule
+section1
+sectionTitle1
+text
+sectionTitle1_
+paragraph
+text
+paragraph_
+text
+table
+tableRows
+text
+tableRow
+tableHeaderCell
+text
+tableHeaderCell_
+tableRow_
+text
+tableRow
+tableCell
+text
+tableCell_
+tableRow_
+text
+tableRows_
+table_
+text
+section1_
+body_
+> but was: <head
+head_
+body
+division
+text
+paragraph
+inline
+text
+inline_
+text
+inline
+text
+inline_
+text
+paragraph_
+text
+division_
+text
+horizontalRule
+section1
+sectionTitle1
+text
+sectionTitle1_
+paragraph
+text
+paragraph_
+text
+table
+tableRows
+tableRow
+tableHeaderCell
+text
+tableHeaderCell_
+tableRow_
+tableRow
+tableCell
+text
+tableCell_
+tableRow_
+tableRows_
+table_
+section1_
+body_
+>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.maven.doxia.parser.AbstractParserTest.assertSinkEquals(AbstractParserTest.java:305)
+	at org.apache.maven.doxia.module.markdown.MarkdownParserTest.testHtmlContent(MarkdownParserTest.java:599)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   MarkdownParserTest.testHtmlContent:599->AbstractParserTest.assertSinkEquals:305 expected: <head
+head_
+body
+division
+text
+paragraph
+inline
+text
+inline_
+text
+inline
+text
+inline_
+text
+paragraph_
+text
+division_
+text
+horizontalRule
+section1
+sectionTitle1
+text
+sectionTitle1_
+paragraph
+text
+paragraph_
+text
+table
+tableRows
+text
+tableRow
+tableHeaderCell
+text
+tableHeaderCell_
+tableRow_
+text
+tableRow
+tableCell
+text
+tableCell_
+tableRow_
+text
+tableRows_
+table_
+text
+section1_
+body_
+> but was: <head
+head_
+body
+division
+text
+paragraph
+inline
+text
+inline_
+text
+inline
+text
+inline_
+text
+paragraph_
+text
+division_
+text
+horizontalRule
+section1
+sectionTitle1
+text
+sectionTitle1_
+paragraph
+text
+paragraph_
+text
+table
+tableRows
+tableRow
+tableHeaderCell
+text
+tableHeaderCell_
+tableRow_
+tableRow
+tableCell
+text
+tableCell_
+tableRow_
+tableRows_
+table_
+section1_
+body_
+>
+[INFO] 
+[ERROR] Tests run: 101, Failures: 1, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Surefire failed when running tests for TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexExecid=FAGJJHa+YKl4zflWClF4LU3xbfAwTnDjsxVkz6D8uI0=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.942 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Running org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.288 s -- in org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Running org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 3, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 2, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment 'Simple comment with ----' to 'Simple comment with - - - - '
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment '-' to '- '
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 9: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 94: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 101: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 303: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.384 s -- in org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[WARNING] Tests run: 29, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 2.409 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 101, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex
+nondexExecid=Ehp5zlIM3CVxNMEsKmcnEf20y57s8Q0+wz4LaYAbo1s=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.832 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserModuleTest
+[INFO] Running org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 s -- in org.apache.maven.doxia.module.markdown.LastTwoLinesBufferingWriterTest
+[INFO] Running org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in org.apache.maven.doxia.module.markdown.FlexmarkDoxiaLinkResolverTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 3, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Markdown only supports numbered item with decimal style (0) but requested was style 2, falling back to decimal style
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Ignoring unsupported table caption in Markdown
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment 'Simple comment with ----' to 'Simple comment with - - - - '
+[main] WARN org.apache.maven.doxia.sink.impl.Xhtml5BaseSink - Unknown source: Modified invalid comment '-' to '- '
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Ignoring unsupported page break in Markdown
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 9: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 94: Unknown Sink event 'thead', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 101: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Intermediate HTML from null, line 8, column 303: Unknown Sink event 'tbody', ignoring!
+[main] WARN org.apache.maven.doxia.module.markdown.MarkdownSink - Unknown source: Definition list not natively supported in Markdown, rendering HTML instead
+[INFO] Tests run: 62, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.015 s -- in org.apache.maven.doxia.module.markdown.MarkdownSinkTest
+[INFO] Running org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[WARNING] Tests run: 29, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 2.139 s -- in org.apache.maven.doxia.module.markdown.MarkdownParserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 101, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexExecid=TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8= -DnondexLogging=CONFIG
+[WARNING] org.apache.maven.doxia.module.markdown.MarkdownParserTest#testHtmlContent
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexExecid=FAGJJHa+YKl4zflWClF4LU3xbfAwTnDjsxVkz6D8uI0= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex" -DnondexExecid=Ehp5zlIM3CVxNMEsKmcnEf20y57s8Q0+wz4LaYAbo1s= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] org.apache.maven.doxia.module.markdown.MarkdownParserTest#testHtmlContent
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex/TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8=/test_results.html
+[INFO] [NonDex] The id of this run is: TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  59.737 s
+[INFO] Finished at: 2026-10-11T18:39:59-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project doxia-module-markdown: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.nondex/TnBuWC7tVQSMicCiLrQyqXgBYP2i6M97l5o61+Hz7Z8= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

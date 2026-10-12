@@ -1,0 +1,88 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.elasticjob:elastic-job-lite-core >-----------------
+[INFO] Building elastic-job-lite-core 3.0.0.M1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ elastic-job-lite-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-banned-dependencies) @ elastic-job-lite-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ elastic-job-lite-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/elasticjob__elastic-job-lite__elastic-job-lite-core/elastic-job-lite-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ elastic-job-lite-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ elastic-job-lite-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ elastic-job-lite-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ elastic-job-lite-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ elastic-job-lite-core ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving io.elasticjob:elastic-job-lite-core:3.0.0.M1-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 511 tests. Time taken: 0.9800000190734863 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/elasticjob__elastic-job-lite__elastic-job-lite-core/elastic-job-lite-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/elasticjob__elastic-job-lite__elastic-job-lite-core/elastic-job-lite-core/.dtfixingtools/original-order
+[INFO] Getting original results (511 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 1 of 20 (0.0 seconds elapsed (73.7 total), 0.0 seconds remaining).
+Verified io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull, status: expected PASS, got PASS
+Verified io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 20 (0.0 seconds elapsed (173.5 total), 0.0 seconds remaining).
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 3 of 20 (0.0 seconds elapsed (238.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (64.6 seconds elapsed (278.3 total), 258.3 seconds remaining).
+Verified io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull, status: expected PASS, got PASS
+Verified io.elasticjob.lite.internal.schedule.JobRegistryTest.assertGetCurrentShardingTotalCountIfNull, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 5 of 20 (104.7 seconds elapsed (382.6 total), 314.1 seconds remaining).
+Verified io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready, status: expected PASS, got PASS
+Verified io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 6 of 20 (209.1 seconds elapsed (496.6 total), 487.9 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (0.0 seconds elapsed (537.7 total), 0.0 seconds remaining).
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 8 of 20 (41.1 seconds elapsed (624.2 total), 61.6 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (127.6 seconds elapsed (665.2 total), 155.9 seconds remaining).
+Verified io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready, status: expected PASS, got PASS
+Verified io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready, status: expected ERROR, got ERROR
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 10 of 20 (168.6 seconds elapsed (789.5 total), 168.6 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (292.9 seconds elapsed (830.0 total), 239.6 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (333.4 seconds elapsed (869.7 total), 222.2 seconds remaining).
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 13 of 20 (373.1 seconds elapsed (941.5 total), 200.9 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (444.9 seconds elapsed (981.1 total), 190.7 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (484.5 seconds elapsed (1023.4 total), 161.5 seconds remaining).
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected PASS, got PASS
+Verified io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenterModifyTest.assertPersistEphemeralSequential, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 16 of 20 (526.8 seconds elapsed (1102.8 total), 131.7 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (606.2 seconds elapsed (1143.4 total), 107.0 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (646.8 seconds elapsed (1185.5 total), 71.9 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (688.8 seconds elapsed (1228.5 total), 36.3 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (731.9 seconds elapsed (1269.5 total), 0.0 seconds remaining).
+
+[INFO] Found 3 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/elasticjob__elastic-job-lite__elastic-job-lite-core/elastic-job-lite-core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/elasticjob__elastic-job-lite__elastic-job-lite-core/elastic-job-lite-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21:53 min
+[INFO] Finished at: 2026-10-09T18:53:32-05:00
+[INFO] ------------------------------------------------------------------------

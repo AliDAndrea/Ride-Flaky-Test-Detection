@@ -1,0 +1,1951 @@
+[INFO] Scanning for projects...
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-6
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[INFO] 
+[INFO] ---------------------< net.sf.marineapi:marineapi >---------------------
+[INFO] Building Java Marine API 0.11.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ marineapi >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ marineapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ marineapi ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ marineapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ marineapi ---
+[INFO] Copying 10 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ marineapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ marineapi <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ marineapi ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_pbG6WULIXvS+s2XW8vx7xl8wAYt+hbrZ6TjI6PIKZY=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.6.0/surefire-junit-platform-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.6.0/surefire-junit-platform-3.6.0.pom (4.6 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.6.0/surefire-providers-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.6.0/surefire-providers-3.6.0.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.6.0/common-java5-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.6.0/common-java5-3.6.0.pom (2.4 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.pom (3.2 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.pom (2.0 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.pom (2.9 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.pom (1.5 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.14.4/junit-platform-launcher-1.14.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.14.4/junit-platform-launcher-1.14.4.pom (3.0 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.6.0/surefire-junit-platform-3.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.6.0/surefire-junit-platform-3.6.0.jar (57 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.6.0/common-java5-3.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar (6.8 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.14.4/junit-platform-launcher-1.14.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.14.4/junit-platform-launcher-1.14.4.jar (223 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.6.0/common-java5-3.6.0.jar (16 kB at 93 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar (14 kB at 78 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.14.4/junit-platform-commons-1.14.4.jar (164 kB at 790 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.14.4/junit-platform-engine-1.14.4.jar (272 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4/junit-vintage-engine-5.14.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4/junit-vintage-engine-5.14.4.pom (3.2 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4/junit-vintage-engine-5.14.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.14.4/junit-vintage-engine-5.14.4.jar (76 kB at 1.6 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.070 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.688 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=tsW+y8E2xplb4orlWSPsP6OqQdCWxPwbcYmO0SzO+Ms=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.691 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=wDSQIwn7VJM5dog3NZUiEXjwHoE1t5Mur71N3VNDq8=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.681 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=5yKpUo5nmI1Apf4l7BMgJfEMJUQQdvj16hUCeBFHCQ=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.080 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.682 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=zJWWM00wMd8gIDENoAnmWLw2FZ990cGbMSYaWtMa8Eo=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.694 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=BhwH+i54e0SqYHWteNYw25VKX6s8wZUzbNUvNvzxZWk=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.692 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=34hQ4rxWszCcG7uPtCXi2+HIQ0gs+EFF3BOpx+tSrH0=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.693 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=SAibk3cejHkHO6I72it29RXO5u4uxyk8a2jhu+k4vI8=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.694 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=igdLm4UIvA1L0oK5zYFP8g3F10ZBQ6hvErMbxHon10=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.692 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=HhEWgtSskS70KUXEwJUiOQGJifuXFM9+yUgDlNUtQ4=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.690 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex
+nondexExecid=gk4I5rMeJeB0yBLBZDb6sn7zrdX0FJd1rpmYd6sqUs=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: instead use disable within statelessTestsetReporter since of 3.0.0-M6
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running net.sf.marineapi.nmea.util.PositionTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s -- in net.sf.marineapi.nmea.util.PositionTest
+[INFO] Running net.sf.marineapi.nmea.util.DateTest
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in net.sf.marineapi.nmea.util.DateTest
+[INFO] Running net.sf.marineapi.nmea.util.TimeTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in net.sf.marineapi.nmea.util.TimeTest
+[INFO] Running net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in net.sf.marineapi.nmea.util.WaypointTest
+[INFO] Running net.sf.marineapi.nmea.io.SentenceReaderTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.690 s -- in net.sf.marineapi.nmea.io.SentenceReaderTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTATest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.MTATest
+[INFO] Running net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VHWTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.MWDTest
+[INFO] Running net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.MHUTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSATest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSATest
+[INFO] Running net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in net.sf.marineapi.nmea.parser.TTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in net.sf.marineapi.nmea.parser.GSTTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.GBSTest
+[INFO] Running net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.DBTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ROTTest
+[INFO] Running net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.ChecksumTest
+[INFO] Running net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.DTMTest
+[INFO] Running net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.VDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.PositionParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.ZDATest
+[INFO] Running net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.STALKTest
+[INFO] Running net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s -- in net.sf.marineapi.nmea.parser.MWVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VBWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GGATest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.GGATest
+[INFO] Running net.sf.marineapi.nmea.parser.RSATest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.RSATest
+[INFO] Running net.sf.marineapi.nmea.parser.APBTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.APBTest
+[INFO] Running net.sf.marineapi.nmea.parser.BODTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in net.sf.marineapi.nmea.parser.BODTest
+[INFO] Running net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.DPTTest
+[INFO] Running net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.GSVTest
+[INFO] Running net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.VLWTest
+[INFO] Running net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.GNSTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in net.sf.marineapi.nmea.parser.SentenceFactoryTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.HDMTest
+[INFO] Running net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.GLLTest
+[INFO] Running net.sf.marineapi.nmea.parser.RTETest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.RTETest
+[INFO] Running net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.VDOTest
+[INFO] Running net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.nmea.parser.VTGTest
+[INFO] Running net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in net.sf.marineapi.nmea.parser.XDRTest
+[INFO] Running net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in net.sf.marineapi.nmea.parser.SentenceParserTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.nmea.parser.RMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.parser.WPLTest
+[INFO] Running net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in net.sf.marineapi.nmea.parser.MMBTest
+[INFO] Running net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.parser.MTWTest
+[INFO] Running net.sf.marineapi.nmea.parser.XTETest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.parser.XTETest
+[INFO] Running net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.nmea.parser.HDTTest
+[INFO] Running net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.nmea.parser.RPMTest
+[INFO] Running net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in net.sf.marineapi.nmea.parser.HTDTest
+[INFO] Running net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.HDGTest
+[INFO] Running net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in net.sf.marineapi.nmea.parser.RMCTest
+[INFO] Running net.sf.marineapi.nmea.parser.MDATest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in net.sf.marineapi.nmea.parser.MDATest
+[INFO] Running net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.parser.TXTTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.nmea.sentence.SentenceIdTest
+[INFO] Running net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.nmea.sentence.SentenceValidatorTest
+[INFO] Running net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in net.sf.marineapi.nmea.sentence.TalkerIdTest
+[INFO] Running net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+[INFO] Running net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.util.Longitude28Test
+[INFO] Running net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in net.sf.marineapi.ais.util.Latitude27Test
+[INFO] Running net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.util.SpeedOverGroundTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessageParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessage21ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in net.sf.marineapi.ais.parser.AISPositionReportParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s -- in net.sf.marineapi.ais.parser.AISPositionReportBParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage04Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage24ParserTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in net.sf.marineapi.ais.parser.AISMessageFactoryTest
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in net.sf.marineapi.ais.parser.AISMessage05Test
+[INFO] Running net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in net.sf.marineapi.ais.parser.AISMessage09ParserTest
+[INFO] Running net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+[INFO] Running net.sf.marineapi.provider.PositionProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in net.sf.marineapi.provider.PositionProviderTest
+[INFO] Running net.sf.marineapi.provider.HeadingProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in net.sf.marineapi.provider.HeadingProviderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 926, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=tsW+y8E2xplb4orlWSPsP6OqQdCWxPwbcYmO0SzO+Ms= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=wDSQIwn7VJM5dog3NZUiEXjwHoE1t5Mur71N3VNDq8= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=5yKpUo5nmI1Apf4l7BMgJfEMJUQQdvj16hUCeBFHCQ= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=zJWWM00wMd8gIDENoAnmWLw2FZ990cGbMSYaWtMa8Eo= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=BhwH+i54e0SqYHWteNYw25VKX6s8wZUzbNUvNvzxZWk= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=34hQ4rxWszCcG7uPtCXi2+HIQ0gs+EFF3BOpx+tSrH0= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=SAibk3cejHkHO6I72it29RXO5u4uxyk8a2jhu+k4vI8= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=igdLm4UIvA1L0oK5zYFP8g3F10ZBQ6hvErMbxHon10= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=HhEWgtSskS70KUXEwJUiOQGJifuXFM9+yUgDlNUtQ4= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex" -DnondexExecid=gk4I5rMeJeB0yBLBZDb6sn7zrdX0FJd1rpmYd6sqUs= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.nondex/tsW+y8E2xplb4orlWSPsP6OqQdCWxPwbcYmO0SzO+Ms=/test_results.html
+[INFO] [NonDex] The id of this run is: tsW+y8E2xplb4orlWSPsP6OqQdCWxPwbcYmO0SzO+Ms=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35.067 s
+[INFO] Finished at: 2026-10-09T20:48:32-05:00
+[INFO] ------------------------------------------------------------------------

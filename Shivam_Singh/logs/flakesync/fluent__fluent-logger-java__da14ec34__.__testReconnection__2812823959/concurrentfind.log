@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.fluentd:fluent-logger >----------------------
+[INFO] Building Fluent Logger for Java 0.3.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ fluent-logger >>>
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.16.1-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ fluent-logger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fluent-logger ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fluent-logger ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 12 source files with javac [debug target 6] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fluent-logger ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ fluent-logger ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug target 6] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./src/test/java/org/fluentd/logger/sender/TestRawSocketSender.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./src/test/java/org/fluentd/logger/sender/TestRawSocketSender.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./src/test/java/org/fluentd/logger/sender/TestRawSocketSender.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ fluent-logger <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ fluent-logger ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_GaaZBVoyE8QBGy8hhPIiEGUXZfWGN949ol2cuwIRf8=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:20:13,443 DEBUG [pool-1-thread-1] Started MockFluentd port:51484
+2026-10-11 18:20:14,530 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:20:14,550 DEBUG [pool-1-thread-1] Terminated MockFluentd port:51484
+2026-10-11 18:20:15,075 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Broken pipe (Write failed)
+2026-10-11 18:20:15,835 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:20:16,595 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:20:16,610 DEBUG [pool-1-thread-2] Started MockFluentd port:51484
+2026-10-11 18:20:19,793 DEBUG [pool-1-thread-2] Terminated MockFluentd port:51484
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.259 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.489 s
+[INFO] Finished at: 2026-10-11T18:20:21-05:00
+[INFO] ------------------------------------------------------------------------

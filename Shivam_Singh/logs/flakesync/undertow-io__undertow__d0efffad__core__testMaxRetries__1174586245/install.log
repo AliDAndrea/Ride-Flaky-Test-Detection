@@ -1,0 +1,469 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Undertow                                                           [pom]
+[INFO] Undertow Parser Generator                                          [jar]
+[INFO] Undertow Core                                                      [jar]
+[INFO] 
+[INFO] --------------------< io.undertow:undertow-parent >---------------------
+[INFO] Building Undertow 2.0.14.Final-SNAPSHOT                            [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ undertow-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ undertow-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ undertow-parent ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core
+[INFO] Storing buildNumber: d0efffad5d2034bb07525cac9b299dac72c3045d at timestamp: 1791760432152
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- checkstyle:3.0.0:checkstyle (check-style) @ undertow-parent ---
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ undertow-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ undertow-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/pom.xml to /Users/shivamsingh/.m2/repository/io/undertow/undertow-parent/2.0.14.Final-SNAPSHOT/undertow-parent-2.0.14.Final-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< io.undertow:undertow-parser-generator >----------------
+[INFO] Building Undertow Parser Generator 2.0.14.Final-SNAPSHOT           [2/3]
+[INFO]   from parser-generator/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ undertow-parser-generator ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ undertow-parser-generator ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ undertow-parser-generator ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ undertow-parser-generator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ undertow-parser-generator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/parser-generator/target/classes
+[INFO] 
+[INFO] --- checkstyle:3.0.0:checkstyle (check-style) @ undertow-parser-generator ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ undertow-parser-generator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/parser-generator/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ undertow-parser-generator ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ undertow-parser-generator ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ undertow-parser-generator ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/parser-generator/target/undertow-parser-generator-2.0.14.Final-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ undertow-parser-generator ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ undertow-parser-generator ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/parser-generator/target/undertow-parser-generator-2.0.14.Final-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/io/undertow/undertow-parser-generator/2.0.14.Final-SNAPSHOT/undertow-parser-generator-2.0.14.Final-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/parser-generator/pom.xml to /Users/shivamsingh/.m2/repository/io/undertow/undertow-parser-generator/2.0.14.Final-SNAPSHOT/undertow-parser-generator-2.0.14.Final-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< io.undertow:undertow-core >----------------------
+[INFO] Building Undertow Core 2.0.14.Final-SNAPSHOT                       [3/3]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ undertow-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ undertow-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ undertow-core ---
+[INFO] 
+[INFO] --- dependencypath:1.1.1:set (set-all) @ undertow-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ undertow-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ undertow-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 638 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/DirectByteBufferDeallocator.java:[10,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/handlers/SecurityInitialHandler.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/FastConcurrentDirectDeque.java:[41,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/impl/SecurityContextFactoryImpl.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/Handlers.java:[30,35] io.undertow.server.handlers.DateHandler in io.undertow.server.handlers has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[162,28] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[358,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[361,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[364,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[434,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[482,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/UndertowMessages.java:[554,20] The message cannot be set via the throwable constructor and will be ignored.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/DirectByteBufferDeallocator.java:[10,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/handlers/SecurityInitialHandler.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/FastConcurrentDirectDeque.java:[41,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/impl/SecurityContextFactoryImpl.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/Handlers.java:[30,35] io.undertow.server.handlers.DateHandler in io.undertow.server.handlers has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/DirectByteBufferDeallocator.java:[10,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/handlers/SecurityInitialHandler.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/FastConcurrentDirectDeque.java:[41,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/impl/SecurityContextFactoryImpl.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/Handlers.java:[30,35] io.undertow.server.handlers.DateHandler in io.undertow.server.handlers has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/DirectByteBufferDeallocator.java:[10,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/handlers/SecurityInitialHandler.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/FastConcurrentDirectDeque.java:[41,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/security/impl/SecurityContextFactoryImpl.java:[22,32] io.undertow.security.api.SecurityContextFactory in io.undertow.security.api has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/Handlers.java:[30,35] io.undertow.server.handlers.DateHandler in io.undertow.server.handlers has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[414,25] getReadThread() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[246,17] wakeupReads() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[55,74] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<? extends R>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[56,75] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<? extends R>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[282,113] unchecked cast
+  required: R
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSourceChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[300,59] unchecked cast
+  required: org.xnio.ChannelListener<? super R>
+  found:    org.xnio.ChannelListener<capture#1 of ? super capture#2 of ? extends R>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[624,143] unchecked cast
+  required: org.xnio.ChannelListener<? super io.undertow.server.protocol.framed.AbstractFramedStreamSourceChannel<C,R,S>>
+  found:    org.xnio.ChannelListener<capture#3 of ? super capture#4 of ? extends R>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java:[627,50] unchecked call to handleEvent(T) as a member of the raw type org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[180,47] unchecked call to set(org.xnio.ChannelListener<? super T>) as a member of the raw type org.xnio.ChannelListener.Setter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[448,40] unchecked cast
+  required: R
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSourceChannel<capture#5 of ?,capture#6 of ?,capture#7 of ?>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1012,67] unchecked method invocation: method invokeChannelListener in class org.xnio.ChannelListeners is applied to given types
+  required: T,org.xnio.ChannelListener<? super T>
+  found: io.undertow.server.protocol.framed.AbstractFramedChannel<C,R,S>,org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1012,96] unchecked conversion
+  required: org.xnio.ChannelListener<? super T>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1029,59] unchecked method invocation: method invokeChannelListener in class org.xnio.ChannelListeners is applied to given types
+  required: T,org.xnio.ChannelListener<? super T>
+  found: R,org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1029,115] unchecked conversion
+  required: org.xnio.ChannelListener<? super T>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1061,89] unchecked cast
+  required: C
+  found:    io.undertow.server.protocol.framed.AbstractFramedChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedChannel.java:[1071,85] unchecked cast
+  required: C
+  found:    io.undertow.server.protocol.framed.AbstractFramedChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[317,25] getWriteThread() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[176,17] wakeupWrites() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[214,99] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[257,40] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[477,40] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[542,55] unchecked method invocation: method invokeChannelListener in class org.xnio.ChannelListeners is applied to given types
+  required: java.util.concurrent.Executor,T,org.xnio.ChannelListener<? super T>
+  found: org.xnio.XnioIoThread,io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>,org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[542,77] unchecked conversion
+  required: org.xnio.ChannelListener<? super T>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[654,79] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[659,110] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[684,79] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSinkChannel.java:[689,75] unchecked cast
+  required: S
+  found:    io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel<C,R,S>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AttachmentKey.java:[51,16] unchecked call to SimpleAttachmentKey(java.lang.Class<T>) as a member of the raw type io.undertow.util.SimpleAttachmentKey
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AttachmentKey.java:[51,16] unchecked conversion
+  required: io.undertow.util.AttachmentKey<T>
+  found:    io.undertow.util.SimpleAttachmentKey
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AbstractAttachable.java:[45,35] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AbstractAttachable.java:[56,49] unchecked cast
+  required: java.util.List<T>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AbstractAttachable.java:[74,35] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AbstractAttachable.java:[89,38] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/AbstractAttachable.java:[102,79] unchecked cast
+  required: io.undertow.util.AttachmentList<T>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[1450,42] unchecked conversion
+  required: io.undertow.server.ConduitWrapper<org.xnio.conduits.StreamSourceConduit>[]
+  found:    io.undertow.server.ConduitWrapper[]
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[1452,31] unchecked conversion
+  required: io.undertow.server.ConduitWrapper<org.xnio.conduits.StreamSourceConduit>[]
+  found:    io.undertow.server.ConduitWrapper[]
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[1471,48] unchecked conversion
+  required: io.undertow.server.ConduitWrapper<org.xnio.conduits.StreamSinkConduit>[]
+  found:    io.undertow.server.ConduitWrapper[]
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[1473,32] unchecked conversion
+  required: io.undertow.server.ConduitWrapper<org.xnio.conduits.StreamSinkConduit>[]
+  found:    io.undertow.server.ConduitWrapper[]
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[99,25] getWriteThread() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[252,17] wakeupWrites() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[100,24] getWriteThread() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[144,76] unchecked method invocation: constructor <init> in class io.undertow.channels.DetachableStreamSinkChannel.SetterDelegatingListener is applied to given types
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSinkChannel>,org.xnio.channels.StreamSinkChannel
+  found: org.xnio.ChannelListener.SimpleSetter,io.undertow.channels.DetachableStreamSinkChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[144,105] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSinkChannel>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[146,51] unchecked method invocation: constructor <init> in class io.undertow.channels.DetachableStreamSinkChannel.SetterDelegatingListener is applied to given types
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSinkChannel>,org.xnio.channels.StreamSinkChannel
+  found: org.xnio.ChannelListener.SimpleSetter,io.undertow.channels.DetachableStreamSinkChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[146,80] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSinkChannel>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSinkChannel.java:[256,17] wakeupWrites() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[1992,25] wakeupWrites() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[2009,33] wakeupWrites() in org.xnio.channels.SuspendableWriteChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[166,25] getReadThread() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[159,17] wakeupReads() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[129,76] unchecked method invocation: constructor <init> in class io.undertow.channels.DetachableStreamSourceChannel.SetterDelegatingListener is applied to given types
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSourceChannel>,org.xnio.channels.StreamSourceChannel
+  found: org.xnio.ChannelListener.SimpleSetter,io.undertow.channels.DetachableStreamSourceChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[129,105] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSourceChannel>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[131,50] unchecked method invocation: constructor <init> in class io.undertow.channels.DetachableStreamSourceChannel.SetterDelegatingListener is applied to given types
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSourceChannel>,org.xnio.channels.StreamSourceChannel
+  found: org.xnio.ChannelListener.SimpleSetter,io.undertow.channels.DetachableStreamSourceChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[131,79] unchecked conversion
+  required: org.xnio.ChannelListener.SimpleSetter<org.xnio.channels.StreamSourceChannel>
+  found:    org.xnio.ChannelListener.SimpleSetter
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[163,17] wakeupReads() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/channels/DetachableStreamSourceChannel.java:[167,24] getReadThread() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[2159,29] wakeupReads() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/HttpServerExchange.java:[2379,33] wakeupReads() in org.xnio.channels.SuspendableReadChannel has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/handlers/cache/LRUCache.java:[84,25] unchecked conversion
+  required: io.undertow.server.handlers.cache.LRUCache.CacheEntry<K,V>
+  found:    io.undertow.server.handlers.cache.LRUCache.CacheEntry
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/HeaderValues.java:[461,22] unchecked cast
+  required: T[]
+  found:    java.lang.Object[]
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/ConcurrentDirectDeque.java:[51,43] unchecked conversion
+  required: io.undertow.util.ConcurrentDirectDeque<K>
+  found:    capture#8 of ? extends io.undertow.util.ConcurrentDirectDeque
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/SubstringMap.java:[63,53] unchecked cast
+  required: io.undertow.util.SubstringMap.SubstringMatch<V>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/SubstringMap.java:[67,53] unchecked cast
+  required: io.undertow.util.SubstringMap.SubstringMatch<V>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/SubstringMap.java:[131,34] unchecked cast
+  required: V
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/SubstringMap.java:[139,36] unchecked cast
+  required: io.undertow.util.SubstringMap.SubstringMatch<V>
+  found:    V
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/util/SubstringMap.java:[160,60] unchecked cast
+  required: io.undertow.util.SubstringMap.SubstringMatch<V>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/ajp/AjpOpenListener.java:[96,64] ENABLE_CONNECTOR_STATISTICS in io.undertow.UndertowOptions has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/ajp/AjpOpenListener.java:[163,64] ENABLE_CONNECTOR_STATISTICS in io.undertow.UndertowOptions has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java:[222,57] HTTP2_SETTINGS_MAX_HEADER_LIST_SIZE in io.undertow.UndertowOptions has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java:[643,59] unchecked method invocation: method invokeChannelListener in class org.xnio.ChannelListeners is applied to given types
+  required: java.util.concurrent.Executor,T,org.xnio.ChannelListener<? super T>
+  found: org.xnio.XnioIoThread,io.undertow.protocols.http2.Http2StreamSinkChannel,org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java:[643,144] unchecked conversion
+  required: org.xnio.ChannelListener<? super T>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java:[1003,35] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java:[1015,16] unchecked conversion
+  required: java.util.List<T>
+  found:    java.util.List
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/server/protocol/http2/Http2ServerConnection.java: Some input files additionally use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/main/java/io/undertow/protocols/http2/Http2Channel.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:checkstyle (check-style) @ undertow-core ---
+[INFO] 
+[INFO] --- bundle:3.2.0:manifest (generate-manifest) @ undertow-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ undertow-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ undertow-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 180 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[22,28] org.apache.http.conn.ClientConnectionManager in org.apache.http.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[23,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[24,35] org.apache.http.conn.scheme.SchemeRegistry in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[25,32] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[26,32] org.apache.http.conn.ssl.X509HostnameVerifier in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[27,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[29,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[30,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/mod_cluster/AbstractModClusterTestBase.java:[50,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/form/MultipartFormDataParserTestCase.java:[41,35] org.apache.http.entity.mime.MultipartEntity in org.apache.http.entity.mime has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/sse/ServerSentEventTestCase.java:[31,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/AbstractLoadBalancingProxyTestCase.java:[29,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[38,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[39,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[40,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[41,30] org.apache.http.params.SyncBasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/SimpleNonBlockingServerTestCase.java:[32,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/LoadBalancerConnectionPoolingTestCase.java:[14,33] org.apache.http.impl.conn.PoolingClientConnectionManager in org.apache.http.impl.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/ResumeWritesTestCase.java:[37,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[22,28] org.apache.http.conn.ClientConnectionManager in org.apache.http.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[23,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[24,35] org.apache.http.conn.scheme.SchemeRegistry in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[25,32] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[26,32] org.apache.http.conn.ssl.X509HostnameVerifier in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[27,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[29,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[30,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/mod_cluster/AbstractModClusterTestBase.java:[50,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/form/MultipartFormDataParserTestCase.java:[41,35] org.apache.http.entity.mime.MultipartEntity in org.apache.http.entity.mime has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/sse/ServerSentEventTestCase.java:[31,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/AbstractLoadBalancingProxyTestCase.java:[29,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[38,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[39,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[40,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[41,30] org.apache.http.params.SyncBasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/SimpleNonBlockingServerTestCase.java:[32,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/LoadBalancerConnectionPoolingTestCase.java:[14,33] org.apache.http.impl.conn.PoolingClientConnectionManager in org.apache.http.impl.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/ResumeWritesTestCase.java:[37,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[22,28] org.apache.http.conn.ClientConnectionManager in org.apache.http.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[23,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[24,35] org.apache.http.conn.scheme.SchemeRegistry in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[25,32] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[26,32] org.apache.http.conn.ssl.X509HostnameVerifier in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[27,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[29,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[30,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/mod_cluster/AbstractModClusterTestBase.java:[50,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueConduitWrappingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/form/MultipartFormDataParserTestCase.java:[41,35] org.apache.http.entity.mime.MultipartEntity in org.apache.http.entity.mime has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/sse/ServerSentEventTestCase.java:[31,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/AbstractLoadBalancingProxyTestCase.java:[29,35] org.apache.http.impl.client.DecompressingHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[38,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[39,30] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[40,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/file/FileHandlerSymlinksTestCase.java:[41,30] org.apache.http.params.SyncBasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/SimpleNonBlockingServerTestCase.java:[32,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[36,30] org.apache.http.params.BasicHttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/HttpContinueAcceptingHandlerTestCase.java:[37,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/proxy/LoadBalancerConnectionPoolingTestCase.java:[14,33] org.apache.http.impl.conn.PoolingClientConnectionManager in org.apache.http.impl.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/server/handlers/ResumeWritesTestCase.java:[37,30] org.apache.http.params.CoreProtocolPNames in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[44,37] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[46,26] org.apache.http.conn.ssl.X509HostnameVerifier in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[46,68] org.apache.http.conn.ssl.X509HostnameVerifier in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[71,27] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[76,27] org.apache.http.conn.ClientConnectionManager in org.apache.http.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[81,27] org.apache.http.conn.ClientConnectionManager in org.apache.http.conn has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[81,59] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[92,15] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[93,9] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[94,9] org.apache.http.params.HttpConnectionParams in org.apache.http.params has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[99,9] org.apache.http.conn.scheme.SchemeRegistry in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[102,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[102,60] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[103,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[103,96] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[105,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[105,60] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[106,35] org.apache.http.conn.scheme.Scheme in org.apache.http.conn.scheme has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/TestHttpClient.java:[106,96] org.apache.http.conn.ssl.SSLSocketFactory in org.apache.http.conn.ssl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/util/HeaderTokenParserTestCase.java:[37,57] unchecked call to HeaderTokenParser(java.util.Map<java.lang.String,E>) as a member of the raw type io.undertow.util.HeaderTokenParser
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/util/HeaderTokenParserTestCase.java:[37,57] unchecked conversion
+  required: io.undertow.util.HeaderTokenParser<io.undertow.security.impl.DigestAuthorizationToken>
+  found:    io.undertow.util.HeaderTokenParser
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[241,21] addRequestHeader(io.undertow.util.HttpString,java.lang.String,java.lang.ClassLoader) in io.undertow.server.handlers.proxy.ProxyHandler has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[242,21] addRequestHeader(io.undertow.util.HttpString,java.lang.String,java.lang.ClassLoader) in io.undertow.server.handlers.proxy.ProxyHandler has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[243,21] addRequestHeader(io.undertow.util.HttpString,java.lang.String,java.lang.ClassLoader) in io.undertow.server.handlers.proxy.ProxyHandler has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[322,69] unchecked method invocation: method createStreamConnectionServer in class org.xnio.XnioWorker is applied to given types
+  required: java.net.SocketAddress,org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>,org.xnio.OptionMap
+  found: java.net.InetSocketAddress,org.xnio.ChannelListener,org.xnio.OptionMap
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[322,148] unchecked conversion
+  required: org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[322,69] unchecked conversion
+  required: org.xnio.channels.AcceptingChannel<? extends org.xnio.StreamConnection>
+  found:    org.xnio.channels.AcceptingChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[324,69] unchecked method invocation: method createStreamConnectionServer in class org.xnio.XnioWorker is applied to given types
+  required: java.net.SocketAddress,org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>,org.xnio.OptionMap
+  found: java.net.InetSocketAddress,org.xnio.ChannelListener,org.xnio.OptionMap
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[324,163] unchecked conversion
+  required: org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>
+  found:    org.xnio.ChannelListener
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[324,69] unchecked conversion
+  required: org.xnio.channels.AcceptingChannel<? extends org.xnio.StreamConnection>
+  found:    org.xnio.channels.AcceptingChannel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java:[328,74] unchecked method invocation: method createStreamConnectionServer in class org.xnio.XnioWorker is applied to given types
+  required: java.net.SocketAddress,org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>,org.xnio.OptionMap
+  found: java.net.InetSocketAddress,org.xnio.ChannelListener,org.xnio.OptionMap
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java: Some input files additionally use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/src/test/java/io/undertow/testutils/DefaultServer.java: Some input files additionally use unchecked or unsafe operations.
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ undertow-core ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ undertow-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/undertow-core-2.0.14.Final-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ undertow-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jar:3.1.0:test-jar (test-jar) @ undertow-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/undertow-core-2.0.14.Final-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ undertow-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/undertow-core-2.0.14.Final-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/io/undertow/undertow-core/2.0.14.Final-SNAPSHOT/undertow-core-2.0.14.Final-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/pom.xml to /Users/shivamsingh/.m2/repository/io/undertow/undertow-core/2.0.14.Final-SNAPSHOT/undertow-core-2.0.14.Final-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/undertow-io__undertow__d0efffad__core/core/target/undertow-core-2.0.14.Final-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/io/undertow/undertow-core/2.0.14.Final-SNAPSHOT/undertow-core-2.0.14.Final-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Undertow 2.0.14.Final-SNAPSHOT:
+[INFO] 
+[INFO] Undertow ........................................... SUCCESS [  5.679 s]
+[INFO] Undertow Parser Generator .......................... SUCCESS [  5.216 s]
+[INFO] Undertow Core ...................................... SUCCESS [ 33.950 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  45.639 s
+[INFO] Finished at: 2026-10-11T18:14:33-05:00
+[INFO] ------------------------------------------------------------------------

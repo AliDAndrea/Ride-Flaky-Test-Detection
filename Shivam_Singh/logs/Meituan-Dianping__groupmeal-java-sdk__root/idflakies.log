@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------< io.github.meituan-dianping:groupmeal-java-sdk >------------
+[INFO] Building groupmeal-java-sdk 0.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ groupmeal-java-sdk >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ groupmeal-java-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:2.3:compile (default-compile) @ groupmeal-java-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ groupmeal-java-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3:testCompile (default-testCompile) @ groupmeal-java-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ groupmeal-java-sdk <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ groupmeal-java-sdk ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving io.github.meituan-dianping:groupmeal-java-sdk:0.0.1 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 2 tests. Time taken: 0.12999987602233887 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.dtfixingtools/original-order
+[INFO] Getting original results (2 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (3.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (3.1 seconds elapsed (7.4 total), 4.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (7.4 seconds elapsed (11.2 total), 4.9 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (11.2 seconds elapsed (15.0 total), 2.8 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (15.0 seconds elapsed (18.7 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.292 s
+[INFO] Finished at: 2026-10-11T19:00:07-05:00
+[INFO] ------------------------------------------------------------------------

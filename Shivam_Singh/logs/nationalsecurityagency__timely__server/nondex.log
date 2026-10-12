@@ -1,0 +1,549 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-common:jar:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-client:jar:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-server:jar:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-app:pom:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-analytics:jar:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely-balancer:jar:1.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: timely:timely-common:jar -> duplicate declaration of version (?) @ line 188, column 17
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ timely:timely:1.0.1-SNAPSHOT, /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/pom.xml, line 306, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for timely:timely:pom:1.0.1-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.systemPath' for collectd:collectd-api:jar refers to a non-existing file /usr/share/collectd/java/collectd-api.jar @ line 306, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 26.5
+[INFO] os.detected.version.major: 26
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-x86_64
+[INFO] 
+[INFO] ------------------------< timely:timely-server >------------------------
+[INFO] Building timely-server 1.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'overrideConfigCompilerVersion' is unknown for plugin 'formatter-maven-plugin:2.8.0:format (format-java-source)'
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ timely-server >>>
+[WARNING] 1 problem was encountered while building the effective model for timely:timely-client:jar:1.0.1-SNAPSHOT during dependency collection step for project (use -X to see details)
+[WARNING] 1 problem was encountered while building the effective model for timely:timely-common:jar:1.0.1-SNAPSHOT during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ timely-server ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (create-buildnumber) @ timely-server ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server
+[INFO] Storing buildNumber: 3a8cbd3378cffdc96aad1c52e9b0b2e1481ca45f at timestamp: 1791768180822
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ timely-server ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/src/main/generated-java added.
+[INFO] 
+[INFO] --- sortpom:2.8.0:sort (sort-pom) @ timely-server ---
+[INFO] Sorting file /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/pom.xml
+[INFO] Pom file is already sorted, exiting
+[INFO] 
+[INFO] --- formatter:2.8.0:format (format-java-source) @ timely-server ---
+[INFO] Formatting is skipped
+[INFO] 
+[INFO] --- impsort:1.2.0:sort (sort-imports) @ timely-server ---
+[INFO] Skipping execution of impsort-maven-plugin
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ timely-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ timely-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ timely-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ timely-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ timely-server <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ timely-server ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_15xeETWOQKPFFVQCqidneQtgl75z3aytUHJItAcfpy0=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running timely.util.MessageFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in timely.util.MessageFormatTest
+Running timely.util.MetaKeySetTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.675 sec - in timely.util.MetaKeySetTest
+Running timely.auth.AuthCacheTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.227 sec - in timely.auth.AuthCacheTest
+Running timely.auth.AuthenticationServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 sec - in timely.auth.AuthenticationServiceTest
+Running timely.netty.websocket.WebSocketRequestDecoderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.061 sec - in timely.netty.websocket.WebSocketRequestDecoderTest
+Running timely.netty.udp.UdpDecoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in timely.netty.udp.UdpDecoderTest
+Running timely.netty.tcp.TcpDecoderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in timely.netty.tcp.TcpDecoderTest
+Running timely.netty.tcp.MetricsBufferDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in timely.netty.tcp.MetricsBufferDecoderTest
+Running timely.netty.http.HttpRequestDecoderTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 sec - in timely.netty.http.HttpRequestDecoderTest
+Running timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Running timely.sample.AggregationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in timely.sample.AggregationTest
+Running timely.sample.DownsampleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in timely.sample.DownsampleTest
+Running timely.sample.iterators.AggregationIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in timely.sample.iterators.AggregationIteratorTest
+Running timely.sample.iterators.DownsampleIteratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec - in timely.sample.iterators.DownsampleIteratorTest
+Running timely.api.response.timeseries.MetricsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in timely.api.response.timeseries.MetricsResponseTest
+Running timely.api.response.timeseries.AggregatorsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in timely.api.response.timeseries.AggregatorsResponseTest
+Running timely.api.response.timeseries.QueryResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec - in timely.api.response.timeseries.QueryResponseTest
+Running timely.api.response.timeseries.SuggestResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.response.timeseries.SuggestResponseTest
+Running timely.api.response.timeseries.SearchLookupResponseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in timely.api.response.timeseries.SearchLookupResponseTest
+Running timely.api.model.MetaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.model.MetaTest
+Running timely.api.model.MetricAdapterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec - in timely.api.model.MetricAdapterTest
+Running timely.api.request.subscription.WebSocketRequestDeserializationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.request.subscription.WebSocketRequestDeserializationTest
+Running timely.store.MetricAgeOffFilterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in timely.store.MetricAgeOffFilterTest
+Running timely.store.TagMatchingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in timely.store.TagMatchingTest
+Running timely.store.cache.TestMemoryDataStore
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.078 sec - in timely.store.cache.TestMemoryDataStore
+Running timely.store.cache.TestGorillaStore
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in timely.store.cache.TestGorillaStore
+Running timely.store.cache.TestDataStoreCacheIterator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.171 sec - in timely.store.cache.TestDataStoreCacheIterator
+Running timely.store.cache.TestWrappedGorillaCompressor
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.033 sec - in timely.store.cache.TestWrappedGorillaCompressor
+Running timely.store.MetricAgeOffIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec - in timely.store.MetricAgeOffIteratorTest
+Running timely.store.iterators.TimeSeriesGroupingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.084 sec - in timely.store.iterators.TimeSeriesGroupingIteratorTest
+Running timely.store.iterators.RateIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 sec - in timely.store.iterators.RateIteratorTest
+Running timely.ConfigurationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.724 sec - in timely.ConfigurationTest
+
+Results :
+
+Tests run: 144, Failures: 0, Errors: 0, Skipped: 1
+
+INFO: Adding excluded groups to existing ones
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexExecid=06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running timely.util.MessageFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec - in timely.util.MessageFormatTest
+Running timely.util.MetaKeySetTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.604 sec - in timely.util.MetaKeySetTest
+Running timely.auth.AuthCacheTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.46 sec - in timely.auth.AuthCacheTest
+Running timely.auth.AuthenticationServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 sec - in timely.auth.AuthenticationServiceTest
+Running timely.netty.websocket.WebSocketRequestDecoderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.352 sec - in timely.netty.websocket.WebSocketRequestDecoderTest
+Running timely.netty.udp.UdpDecoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in timely.netty.udp.UdpDecoderTest
+Running timely.netty.tcp.TcpDecoderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in timely.netty.tcp.TcpDecoderTest
+Running timely.netty.tcp.MetricsBufferDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in timely.netty.tcp.MetricsBufferDecoderTest
+Running timely.netty.http.HttpRequestDecoderTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 sec - in timely.netty.http.HttpRequestDecoderTest
+Running timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Running timely.sample.AggregationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in timely.sample.AggregationTest
+Running timely.sample.DownsampleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in timely.sample.DownsampleTest
+Running timely.sample.iterators.AggregationIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec - in timely.sample.iterators.AggregationIteratorTest
+Running timely.sample.iterators.DownsampleIteratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 sec - in timely.sample.iterators.DownsampleIteratorTest
+Running timely.api.response.timeseries.MetricsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in timely.api.response.timeseries.MetricsResponseTest
+Running timely.api.response.timeseries.AggregatorsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in timely.api.response.timeseries.AggregatorsResponseTest
+Running timely.api.response.timeseries.QueryResponseTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec <<< FAILURE! - in timely.api.response.timeseries.QueryResponseTest
+testOneResponse(timely.api.response.timeseries.QueryResponseTest)  Time elapsed: 0.061 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[]],"dps":{"1234567890"...> but was:<[{"[tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"metric":"sys.cpu.user"],"dps":{"1234567890"...>
+	at timely.api.response.timeseries.QueryResponseTest.testOneResponse(QueryResponseTest.java:28)
+
+Running timely.api.response.timeseries.SuggestResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.response.timeseries.SuggestResponseTest
+Running timely.api.response.timeseries.SearchLookupResponseTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in timely.api.response.timeseries.SearchLookupResponseTest
+testResponse1(timely.api.response.timeseries.SearchLookupResponseTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"t[ype":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.user","tsuid":"000011000008203D01"}]]}> but was:<{"t[otalResults":2,"results":[{"tsuid":"000011000008203D00","metric":"sys.cpu.idle","tags":{"host":"localhost","rack":"r1"}},{"tsuid":"000011000008203D01","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}}],"limit":0,"time":1500,"type":"LOOKUP","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}]}>
+	at timely.api.response.timeseries.SearchLookupResponseTest.testResponse1(SearchLookupResponseTest.java:38)
+
+Running timely.api.model.MetaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.model.MetaTest
+Running timely.api.model.MetricAdapterTest
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE! - in timely.api.model.MetricAdapterTest
+testToMetricResponse(timely.api.model.MetricAdapterTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[timestamp":1000,"complete":false,"subscriptionId":"12345","value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user"]}>
+	at timely.api.model.MetricAdapterTest.testToMetricResponse(MetricAdapterTest.java:110)
+
+Running timely.api.request.subscription.WebSocketRequestDeserializationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.request.subscription.WebSocketRequestDeserializationTest
+Running timely.store.MetricAgeOffFilterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in timely.store.MetricAgeOffFilterTest
+Running timely.store.TagMatchingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in timely.store.TagMatchingTest
+Running timely.store.cache.TestMemoryDataStore
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.11 sec - in timely.store.cache.TestMemoryDataStore
+Running timely.store.cache.TestGorillaStore
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in timely.store.cache.TestGorillaStore
+Running timely.store.cache.TestDataStoreCacheIterator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.239 sec - in timely.store.cache.TestDataStoreCacheIterator
+Running timely.store.cache.TestWrappedGorillaCompressor
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.031 sec - in timely.store.cache.TestWrappedGorillaCompressor
+Running timely.store.MetricAgeOffIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec - in timely.store.MetricAgeOffIteratorTest
+Running timely.store.iterators.TimeSeriesGroupingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.432 sec - in timely.store.iterators.TimeSeriesGroupingIteratorTest
+Running timely.store.iterators.RateIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 sec - in timely.store.iterators.RateIteratorTest
+Running timely.ConfigurationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.814 sec - in timely.ConfigurationTest
+
+Results :
+
+Failed tests: 
+  MetricAdapterTest.testToMetricResponse:110 expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[timestamp":1000,"complete":false,"subscriptionId":"12345","value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user"]}>
+  QueryResponseTest.testOneResponse:28 expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[]],"dps":{"1234567890"...> but was:<[{"[tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"metric":"sys.cpu.user"],"dps":{"1234567890"...>
+  SearchLookupResponseTest.testResponse1:38 expected:<{"t[ype":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.user","tsuid":"000011000008203D01"}]]}> but was:<{"t[otalResults":2,"results":[{"tsuid":"000011000008203D00","metric":"sys.cpu.idle","tags":{"host":"localhost","rack":"r1"}},{"tsuid":"000011000008203D01","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}}],"limit":0,"time":1500,"type":"LOOKUP","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}]}>
+
+Tests run: 144, Failures: 3, Errors: 0, Skipped: 1
+
+INFO: Surefire failed when running tests for 06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM=
+INFO: Adding excluded groups to existing ones
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexExecid=GUCVuY1ctJ2O+cyzpcjUv2mIoFim47rdJCGgG5qs9oU=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running timely.util.MessageFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in timely.util.MessageFormatTest
+Running timely.util.MetaKeySetTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.418 sec - in timely.util.MetaKeySetTest
+Running timely.auth.AuthCacheTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.258 sec <<< FAILURE! - in timely.auth.AuthCacheTest
+testGetAuths(timely.auth.AuthCacheTest)  Time elapsed: 3.241 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A,B,C]> but was:<[B,C,A]>
+	at timely.auth.AuthCacheTest.testGetAuths(AuthCacheTest.java:51)
+
+Running timely.auth.AuthenticationServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in timely.auth.AuthenticationServiceTest
+Running timely.netty.websocket.WebSocketRequestDecoderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.555 sec - in timely.netty.websocket.WebSocketRequestDecoderTest
+Running timely.netty.udp.UdpDecoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec - in timely.netty.udp.UdpDecoderTest
+Running timely.netty.tcp.TcpDecoderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in timely.netty.tcp.TcpDecoderTest
+Running timely.netty.tcp.MetricsBufferDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in timely.netty.tcp.MetricsBufferDecoderTest
+Running timely.netty.http.HttpRequestDecoderTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.555 sec - in timely.netty.http.HttpRequestDecoderTest
+Running timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 sec - in timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Running timely.sample.AggregationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in timely.sample.AggregationTest
+Running timely.sample.DownsampleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in timely.sample.DownsampleTest
+Running timely.sample.iterators.AggregationIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.269 sec - in timely.sample.iterators.AggregationIteratorTest
+Running timely.sample.iterators.DownsampleIteratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.446 sec - in timely.sample.iterators.DownsampleIteratorTest
+Running timely.api.response.timeseries.MetricsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec - in timely.api.response.timeseries.MetricsResponseTest
+Running timely.api.response.timeseries.AggregatorsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec - in timely.api.response.timeseries.AggregatorsResponseTest
+Running timely.api.response.timeseries.QueryResponseTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE! - in timely.api.response.timeseries.QueryResponseTest
+testOneResponse(timely.api.response.timeseries.QueryResponseTest)  Time elapsed: 0.028 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5}]}]> but was:<[{"[dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5},"tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"metric":"sys.cpu.user"]}]>
+	at timely.api.response.timeseries.QueryResponseTest.testOneResponse(QueryResponseTest.java:28)
+
+Running timely.api.response.timeseries.SuggestResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in timely.api.response.timeseries.SuggestResponseTest
+Running timely.api.response.timeseries.SearchLookupResponseTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE! - in timely.api.response.timeseries.SearchLookupResponseTest
+testResponse1(timely.api.response.timeseries.SearchLookupResponseTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[type":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost]"},"metric":"sys.cpu...> but was:<{"[limit":0,"tags":{"host":"localhost","rack":"r1"},"totalResults":2,"time":1500,"type":"LOOKUP","metric":"sys.cpu.user","results":[{"tags":{"host":"localhost","rack":"r1"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"host":"localhost","rack":"r1]"},"metric":"sys.cpu...>
+	at timely.api.response.timeseries.SearchLookupResponseTest.testResponse1(SearchLookupResponseTest.java:38)
+
+Running timely.api.model.MetaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.model.MetaTest
+Running timely.api.model.MetricAdapterTest
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec <<< FAILURE! - in timely.api.model.MetricAdapterTest
+testToMetricResponse(timely.api.model.MetricAdapterTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[complete":false,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user","timestamp":1000,"value":2.0,"subscriptionId":"12345"]}>
+	at timely.api.model.MetricAdapterTest.testToMetricResponse(MetricAdapterTest.java:110)
+
+Running timely.api.request.subscription.WebSocketRequestDeserializationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.request.subscription.WebSocketRequestDeserializationTest
+Running timely.store.MetricAgeOffFilterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in timely.store.MetricAgeOffFilterTest
+Running timely.store.TagMatchingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in timely.store.TagMatchingTest
+Running timely.store.cache.TestMemoryDataStore
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.805 sec - in timely.store.cache.TestMemoryDataStore
+Running timely.store.cache.TestGorillaStore
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec - in timely.store.cache.TestGorillaStore
+Running timely.store.cache.TestDataStoreCacheIterator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.289 sec - in timely.store.cache.TestDataStoreCacheIterator
+Running timely.store.cache.TestWrappedGorillaCompressor
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.029 sec - in timely.store.cache.TestWrappedGorillaCompressor
+Running timely.store.MetricAgeOffIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec - in timely.store.MetricAgeOffIteratorTest
+Running timely.store.iterators.TimeSeriesGroupingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.17 sec - in timely.store.iterators.TimeSeriesGroupingIteratorTest
+Running timely.store.iterators.RateIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.256 sec - in timely.store.iterators.RateIteratorTest
+Running timely.ConfigurationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.125 sec - in timely.ConfigurationTest
+
+Results :
+
+Failed tests: 
+  MetricAdapterTest.testToMetricResponse:110 expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[complete":false,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user","timestamp":1000,"value":2.0,"subscriptionId":"12345"]}>
+  QueryResponseTest.testOneResponse:28 expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5}]}]> but was:<[{"[dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5},"tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"metric":"sys.cpu.user"]}]>
+  SearchLookupResponseTest.testResponse1:38 expected:<{"[type":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost]"},"metric":"sys.cpu...> but was:<{"[limit":0,"tags":{"host":"localhost","rack":"r1"},"totalResults":2,"time":1500,"type":"LOOKUP","metric":"sys.cpu.user","results":[{"tags":{"host":"localhost","rack":"r1"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"host":"localhost","rack":"r1]"},"metric":"sys.cpu...>
+  AuthCacheTest.testGetAuths:51 expected:<[A,B,C]> but was:<[B,C,A]>
+
+Tests run: 144, Failures: 4, Errors: 0, Skipped: 1
+
+INFO: Surefire failed when running tests for GUCVuY1ctJ2O+cyzpcjUv2mIoFim47rdJCGgG5qs9oU=
+INFO: Adding excluded groups to existing ones
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex
+nondexExecid=4ZwR8QdtdW2XUSnGPTqtZcWOdaHJCXh3e9A0CMeAP0=
+nondexLogging=CONFIG
+test=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running timely.util.MessageFormatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec - in timely.util.MessageFormatTest
+Running timely.util.MetaKeySetTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.297 sec - in timely.util.MetaKeySetTest
+Running timely.auth.AuthCacheTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.725 sec <<< FAILURE! - in timely.auth.AuthCacheTest
+testGetAuths(timely.auth.AuthCacheTest)  Time elapsed: 1.718 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[A,B],C> but was:<[B,A],C>
+	at timely.auth.AuthCacheTest.testGetAuths(AuthCacheTest.java:51)
+
+Running timely.auth.AuthenticationServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in timely.auth.AuthenticationServiceTest
+Running timely.netty.websocket.WebSocketRequestDecoderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.01 sec - in timely.netty.websocket.WebSocketRequestDecoderTest
+Running timely.netty.udp.UdpDecoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in timely.netty.udp.UdpDecoderTest
+Running timely.netty.tcp.TcpDecoderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in timely.netty.tcp.TcpDecoderTest
+Running timely.netty.tcp.MetricsBufferDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec - in timely.netty.tcp.MetricsBufferDecoderTest
+Running timely.netty.http.HttpRequestDecoderTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 sec - in timely.netty.http.HttpRequestDecoderTest
+Running timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in timely.netty.http.login.BasicAuthLoginRequestHandlerTest
+Running timely.sample.AggregationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in timely.sample.AggregationTest
+Running timely.sample.DownsampleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in timely.sample.DownsampleTest
+Running timely.sample.iterators.AggregationIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in timely.sample.iterators.AggregationIteratorTest
+Running timely.sample.iterators.DownsampleIteratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 sec - in timely.sample.iterators.DownsampleIteratorTest
+Running timely.api.response.timeseries.MetricsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in timely.api.response.timeseries.MetricsResponseTest
+Running timely.api.response.timeseries.AggregatorsResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in timely.api.response.timeseries.AggregatorsResponseTest
+Running timely.api.response.timeseries.QueryResponseTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE! - in timely.api.response.timeseries.QueryResponseTest
+testOneResponse(timely.api.response.timeseries.QueryResponseTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5]}}]> but was:<[{"[aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5},"metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"]}}]>
+	at timely.api.response.timeseries.QueryResponseTest.testOneResponse(QueryResponseTest.java:28)
+
+Running timely.api.response.timeseries.SuggestResponseTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.response.timeseries.SuggestResponseTest
+Running timely.api.response.timeseries.SearchLookupResponseTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in timely.api.response.timeseries.SearchLookupResponseTest
+testResponse1(timely.api.response.timeseries.SearchLookupResponseTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[type":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.user","tsuid":"000011000008203D01"}]]}> but was:<{"[metric":"sys.cpu.user","type":"LOOKUP","time":1500,"results":[{"tsuid":"000011000008203D00","metric":"sys.cpu.idle","tags":{"host":"localhost","rack":"r1"}},{"tsuid":"000011000008203D01","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}}],"totalResults":2,"tags":{"host":"localhost","rack":"r1"},"limit":0]}>
+	at timely.api.response.timeseries.SearchLookupResponseTest.testResponse1(SearchLookupResponseTest.java:38)
+
+Running timely.api.model.MetaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in timely.api.model.MetaTest
+Running timely.api.model.MetricAdapterTest
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE! - in timely.api.model.MetricAdapterTest
+testToMetricResponse(timely.api.model.MetricAdapterTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[complete":false,"subscriptionId":"12345","timestamp":1000,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user","value":2.0]}>
+	at timely.api.model.MetricAdapterTest.testToMetricResponse(MetricAdapterTest.java:110)
+
+Running timely.api.request.subscription.WebSocketRequestDeserializationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in timely.api.request.subscription.WebSocketRequestDeserializationTest
+Running timely.store.MetricAgeOffFilterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in timely.store.MetricAgeOffFilterTest
+Running timely.store.TagMatchingTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in timely.store.TagMatchingTest
+Running timely.store.cache.TestMemoryDataStore
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.07 sec - in timely.store.cache.TestMemoryDataStore
+Running timely.store.cache.TestGorillaStore
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec - in timely.store.cache.TestGorillaStore
+Running timely.store.cache.TestDataStoreCacheIterator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.149 sec - in timely.store.cache.TestDataStoreCacheIterator
+Running timely.store.cache.TestWrappedGorillaCompressor
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.051 sec - in timely.store.cache.TestWrappedGorillaCompressor
+Running timely.store.MetricAgeOffIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.29 sec - in timely.store.MetricAgeOffIteratorTest
+Running timely.store.iterators.TimeSeriesGroupingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.613 sec - in timely.store.iterators.TimeSeriesGroupingIteratorTest
+Running timely.store.iterators.RateIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 sec - in timely.store.iterators.RateIteratorTest
+Running timely.ConfigurationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.328 sec - in timely.ConfigurationTest
+
+Results :
+
+Failed tests: 
+  MetricAdapterTest.testToMetricResponse:110 expected:<{"[metric":"sys.cpu.user","timestamp":1000,"value":2.0,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"subscriptionId":"12345","complete":false]}> but was:<{"[complete":false,"subscriptionId":"12345","timestamp":1000,"tags":[{"tag1":"value1"},{"viz":"(a&b)|(c&d)"}],"metric":"sys.cpu.user","value":2.0]}>
+  QueryResponseTest.testOneResponse:28 expected:<[{"[metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5]}}]> but was:<[{"[aggregatedTags":[],"dps":{"1234567890":4.5,"1234567900":3.5,"1234567910":2.5},"metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"]}}]>
+  SearchLookupResponseTest.testResponse1:38 expected:<{"[type":"LOOKUP","metric":"sys.cpu.user","tags":{"rack":"r1","host":"localhost"},"limit":0,"time":1500,"totalResults":2,"results":[{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.idle","tsuid":"000011000008203D00"},{"tags":{"rack":"r1","host":"localhost"},"metric":"sys.cpu.user","tsuid":"000011000008203D01"}]]}> but was:<{"[metric":"sys.cpu.user","type":"LOOKUP","time":1500,"results":[{"tsuid":"000011000008203D00","metric":"sys.cpu.idle","tags":{"host":"localhost","rack":"r1"}},{"tsuid":"000011000008203D01","metric":"sys.cpu.user","tags":{"host":"localhost","rack":"r1"}}],"totalResults":2,"tags":{"host":"localhost","rack":"r1"},"limit":0]}>
+  AuthCacheTest.testGetAuths:51 expected:<[A,B],C> but was:<[B,A],C>
+
+Tests run: 144, Failures: 4, Errors: 0, Skipped: 1
+
+INFO: Surefire failed when running tests for 4ZwR8QdtdW2XUSnGPTqtZcWOdaHJCXh3e9A0CMeAP0=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexExecid=06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM= -DnondexLogging=CONFIG
+[WARNING] timely.api.model.MetricAdapterTest#testToMetricResponse
+[WARNING] timely.api.response.timeseries.SearchLookupResponseTest#testResponse1
+[WARNING] timely.api.response.timeseries.QueryResponseTest#testOneResponse
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexExecid=GUCVuY1ctJ2O+cyzpcjUv2mIoFim47rdJCGgG5qs9oU= -DnondexLogging=CONFIG
+[WARNING] timely.auth.AuthCacheTest#testGetAuths
+[WARNING] timely.api.model.MetricAdapterTest#testToMetricResponse
+[WARNING] timely.api.response.timeseries.SearchLookupResponseTest#testResponse1
+[WARNING] timely.api.response.timeseries.QueryResponseTest#testOneResponse
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex" -DnondexExecid=4ZwR8QdtdW2XUSnGPTqtZcWOdaHJCXh3e9A0CMeAP0= -DnondexLogging=CONFIG
+[WARNING] timely.auth.AuthCacheTest#testGetAuths
+[WARNING] timely.api.model.MetricAdapterTest#testToMetricResponse
+[WARNING] timely.api.response.timeseries.SearchLookupResponseTest#testResponse1
+[WARNING] timely.api.response.timeseries.QueryResponseTest#testOneResponse
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] timely.api.model.MetricAdapterTest#testToMetricResponse
+[INFO] timely.api.response.timeseries.SearchLookupResponseTest#testResponse1
+[INFO] timely.api.response.timeseries.QueryResponseTest#testOneResponse
+[INFO] timely.auth.AuthCacheTest#testGetAuths
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex/06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM=/test_results.html
+[INFO] [NonDex] The id of this run is: 06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:30 min
+[INFO] Finished at: 2026-10-11T20:25:24-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project timely-server: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/nationalsecurityagency__timely__server/server/.nondex/06ueIvvYrlocf2a+HPIFCyei3jB9TSpjWtwkwC5GjGM= for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

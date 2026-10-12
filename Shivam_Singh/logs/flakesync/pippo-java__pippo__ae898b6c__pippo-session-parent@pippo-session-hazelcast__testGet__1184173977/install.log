@@ -1,0 +1,219 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Pippo Parent                                                       [pom]
+[INFO] Pippo Core                                                         [jar]
+[INFO] Pippo Session Parent                                               [pom]
+[INFO] Pippo Session                                                      [jar]
+[INFO] Pippo Session Hazelcast                                            [jar]
+[INFO] 
+[INFO] -----------------------< ro.pippo:pippo-parent >------------------------
+[INFO] Building Pippo Parent 1.12.0-SNAPSHOT                              [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ pippo-parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.2:jar (default) > generate-sources @ pippo-parent >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.2:jar (default) < generate-sources @ pippo-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.2:jar (default) @ pippo-parent ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ pippo-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pom.xml to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-parent/1.12.0-SNAPSHOT/pippo-parent-1.12.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------< ro.pippo:pippo-core >-------------------------
+[INFO] Building Pippo Core 1.12.0-SNAPSHOT                                [2/5]
+[INFO]   from pippo-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-core ---
+[INFO] Copying 11 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-core ---
+[INFO] Compiling 103 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-core ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-core ---
+[INFO] Compiling 12 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ pippo-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ pippo-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/pippo-core-1.12.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ pippo-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.2:jar (default) > generate-sources @ pippo-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.2:jar (default) < generate-sources @ pippo-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.2:jar (default) @ pippo-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/pippo-core-1.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ pippo-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/pom.xml to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-core/1.12.0-SNAPSHOT/pippo-core-1.12.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/pippo-core-1.12.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-core/1.12.0-SNAPSHOT/pippo-core-1.12.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-core/target/pippo-core-1.12.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-core/1.12.0-SNAPSHOT/pippo-core-1.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] -------------------< ro.pippo:pippo-session-parent >--------------------
+[INFO] Building Pippo Session Parent 1.12.0-SNAPSHOT                      [3/5]
+[INFO]   from pippo-session-parent/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ pippo-session-parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.2:jar (default) > generate-sources @ pippo-session-parent >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.2:jar (default) < generate-sources @ pippo-session-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.2:jar (default) @ pippo-session-parent ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ pippo-session-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pom.xml to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session-parent/1.12.0-SNAPSHOT/pippo-session-parent-1.12.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------------< ro.pippo:pippo-session >-----------------------
+[INFO] Building Pippo Session 1.12.0-SNAPSHOT                             [4/5]
+[INFO]   from pippo-session-parent/pippo-session/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-session ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/src/main/resources
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-session ---
+[INFO] Compiling 16 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/src/main/java/ro/pippo/session/PippoHttpSession.java:[20,25] [deprecation] HttpSessionContext in javax.servlet.http has been deprecated
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-session ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/src/test/resources
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-session ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ pippo-session ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ pippo-session ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/pippo-session-1.12.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ pippo-session ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.2:jar (default) > generate-sources @ pippo-session >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.2:jar (default) < generate-sources @ pippo-session <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.2:jar (default) @ pippo-session ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/pippo-session-1.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ pippo-session ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/pom.xml to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session/1.12.0-SNAPSHOT/pippo-session-1.12.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/pippo-session-1.12.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session/1.12.0-SNAPSHOT/pippo-session-1.12.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session/target/pippo-session-1.12.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session/1.12.0-SNAPSHOT/pippo-session-1.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ------------------< ro.pippo:pippo-session-hazelcast >------------------
+[INFO] Building Pippo Session Hazelcast 1.12.0-SNAPSHOT                   [5/5]
+[INFO]   from pippo-session-parent/pippo-session-hazelcast/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast/3.7.4/hazelcast-3.7.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast/3.7.4/hazelcast-3.7.4.pom (19 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast-root/3.7.4/hazelcast-root-3.7.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast-root/3.7.4/hazelcast-root-3.7.4.pom (48 kB at 497 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast/3.7.4/hazelcast-3.7.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/hazelcast/hazelcast/3.7.4/hazelcast-3.7.4.jar (7.2 MB at 11 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-hazelcast ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-session-hazelcast ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/src/main/resources
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-session-hazelcast ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-session-hazelcast ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-session-hazelcast ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ pippo-session-hazelcast ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ pippo-session-hazelcast ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/pippo-session-hazelcast-1.12.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:2.8:jar (default) @ pippo-session-hazelcast ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] >>> source:2.2:jar (default) > generate-sources @ pippo-session-hazelcast >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-hazelcast ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] <<< source:2.2:jar (default) < generate-sources @ pippo-session-hazelcast <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.2:jar (default) @ pippo-session-hazelcast ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/pippo-session-hazelcast-1.12.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ pippo-session-hazelcast ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/pom.xml to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session-hazelcast/1.12.0-SNAPSHOT/pippo-session-hazelcast-1.12.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/pippo-session-hazelcast-1.12.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session-hazelcast/1.12.0-SNAPSHOT/pippo-session-hazelcast-1.12.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/pippo-session-hazelcast-1.12.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/ro/pippo/pippo-session-hazelcast/1.12.0-SNAPSHOT/pippo-session-hazelcast-1.12.0-SNAPSHOT-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Pippo Parent 1.12.0-SNAPSHOT:
+[INFO] 
+[INFO] Pippo Parent ....................................... SUCCESS [  4.991 s]
+[INFO] Pippo Core ......................................... SUCCESS [ 19.507 s]
+[INFO] Pippo Session Parent ............................... SUCCESS [  0.060 s]
+[INFO] Pippo Session ...................................... SUCCESS [  1.574 s]
+[INFO] Pippo Session Hazelcast ............................ SUCCESS [  3.403 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.437 s
+[INFO] Finished at: 2026-10-11T19:31:15-05:00
+[INFO] ------------------------------------------------------------------------

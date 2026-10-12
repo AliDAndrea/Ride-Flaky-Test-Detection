@@ -1,0 +1,1626 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache StreamPipes                                                 [pom]
+[INFO] StreamPipes Commons                                                [jar]
+[INFO] streampipes-model-shared                                           [jar]
+[INFO] streampipes-vocabulary                                             [jar]
+[INFO] streampipes-model                                                  [jar]
+[INFO] streampipes-dataformat                                             [jar]
+[INFO] streampipes-messaging                                              [jar]
+[INFO] streampipes-client-api                                             [jar]
+[INFO] streampipes-security-jwt                                           [jar]
+[INFO] streampipes-model-client                                           [jar]
+[INFO] streampipes-extensions-api                                         [jar]
+[INFO] streampipes-test-utils                                             [jar]
+[INFO] streampipes-serializers-json                                       [jar]
+[INFO] streampipes-client                                                 [jar]
+[INFO] streampipes-measurement-units                                      [jar]
+[INFO] streampipes-sdk                                                    [jar]
+[INFO] streampipes-connect-shared                                         [jar]
+[INFO] streampipes-extensions-management                                  [jar]
+[INFO] 
+[INFO] -------------< org.apache.streampipes:streampipes-parent >--------------
+[INFO] Building Apache StreamPipes 0.99.0-SNAPSHOT                       [1/18]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-parent ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-parent ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-parent ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- assembly:3.7.1:single (installer-files) @ streampipes-parent ---
+[INFO] Reading assembly descriptor: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/tools/maven/installer.xml
+[INFO] Building zip: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/target/apache-streampipes-0.99.0-SNAPSHOT-installer-zip.zip
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-parent ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (license-check) @ streampipes-parent ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-parent/0.99.0-SNAPSHOT/streampipes-parent-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/target/apache-streampipes-0.99.0-SNAPSHOT-installer-zip.zip to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-parent/0.99.0-SNAPSHOT/streampipes-parent-0.99.0-SNAPSHOT-zip.zip
+[INFO] 
+[INFO] -------------< org.apache.streampipes:streampipes-commons >-------------
+[INFO] Building StreamPipes Commons 0.99.0-SNAPSHOT                      [2/18]
+[INFO]   from streampipes-commons/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-commons ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-commons ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-commons ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-commons ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-commons ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-commons ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-commons ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-commons/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-commons ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 60 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-commons ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-commons ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-commons ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-commons ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-commons/target/streampipes-commons-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-commons ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-commons ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-commons/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-commons/0.99.0-SNAPSHOT/streampipes-commons-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-commons/target/streampipes-commons-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-commons/0.99.0-SNAPSHOT/streampipes-commons-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------< org.apache.streampipes:streampipes-model-shared >-----------
+[INFO] Building streampipes-model-shared 0.99.0-SNAPSHOT                 [3/18]
+[INFO]   from streampipes-model-shared/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-model-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-model-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-model-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-model-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-model-shared ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-model-shared ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-model-shared ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-model-shared ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-shared/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-model-shared ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-model-shared ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-shared/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-model-shared ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-model-shared ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-model-shared ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-shared/target/streampipes-model-shared-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-model-shared ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-model-shared ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-shared/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model-shared/0.99.0-SNAPSHOT/streampipes-model-shared-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-shared/target/streampipes-model-shared-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model-shared/0.99.0-SNAPSHOT/streampipes-model-shared-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------< org.apache.streampipes:streampipes-vocabulary >------------
+[INFO] Building streampipes-vocabulary 0.99.0-SNAPSHOT                   [4/18]
+[INFO]   from streampipes-vocabulary/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-vocabulary ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-vocabulary ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-vocabulary ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-vocabulary ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-vocabulary ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-vocabulary ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-vocabulary ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-vocabulary ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-vocabulary/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-vocabulary ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 12 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-vocabulary ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-vocabulary/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-vocabulary ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-vocabulary ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-vocabulary ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-vocabulary/target/streampipes-vocabulary-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-vocabulary ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-vocabulary ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-vocabulary/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-vocabulary/0.99.0-SNAPSHOT/streampipes-vocabulary-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-vocabulary/target/streampipes-vocabulary-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-vocabulary/0.99.0-SNAPSHOT/streampipes-vocabulary-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------< org.apache.streampipes:streampipes-model >--------------
+[INFO] Building streampipes-model 0.99.0-SNAPSHOT                        [5/18]
+[INFO]   from streampipes-model/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-maven-plugin/3.2.1263/typescript-generator-maven-plugin-3.2.1263.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-maven-plugin/3.2.1263/typescript-generator-maven-plugin-3.2.1263.pom (2.8 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator/3.2.1263/typescript-generator-3.2.1263.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator/3.2.1263/typescript-generator-3.2.1263.pom (16 kB at 401 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/4.0.1/jaxb-bom-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/4.0.1/jaxb-bom-4.0.1.pom (11 kB at 258 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.1/jersey-bom-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/3.1.1/jersey-bom-3.1.1.pom (19 kB at 438 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.8.10/kotlin-bom-1.8.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.8.10/kotlin-bom-1.8.10.pom (9.3 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.3/spring-boot-dependencies-2.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.3/spring-boot-dependencies-2.7.3.pom (108 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.14.1/java-driver-bom-4.14.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.14.1/java-driver-bom-4.14.1.pom (4.1 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.11/metrics-bom-4.2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.11/metrics-bom-4.2.11.pom (6.9 kB at 164 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.11/metrics-parent-4.2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.11/metrics-parent-4.2.11.pom (20 kB at 483 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.12/groovy-bom-3.0.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/3.0.12/groovy-bom-3.0.12.pom (26 kB at 629 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/13.0.10.Final/infinispan-bom-13.0.10.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/13.0.10.Final/infinispan-bom-13.0.10.Final.pom (19 kB at 435 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/13.0.10.Final/infinispan-build-configuration-parent-13.0.10.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/13.0.10.Final/infinispan-build-configuration-parent-13.0.10.Final.pom (13 kB at 309 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.48.v20220622/jetty-bom-9.4.48.v20220622.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.48.v20220622/jetty-bom-9.4.48.v20220622.pom (18 kB at 401 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.9.3/micrometer-bom-1.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.9.3/micrometer-bom-1.9.3.pom (7.1 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.79.Final/netty-bom-4.1.79.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.79.Final/netty-bom-4.1.79.Final.pom (13 kB at 313 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-bom/4.9.3/okhttp-bom-4.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-bom/4.9.3/okhttp-bom-4.9.3.pom (3.0 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/21.5.0.0/ojdbc-bom-21.5.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/21.5.0.0/ojdbc-bom-21.5.0.0.pom (13 kB at 253 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_bom/0.15.0/simpleclient_bom-0.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_bom/0.15.0/simpleclient_bom-0.15.0.pom (5.8 kB at 135 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.15.0/parent-0.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.15.0/parent-0.15.0.pom (12 kB at 319 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Borca-SR1/r2dbc-bom-Borca-SR1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/r2dbc/r2dbc-bom/Borca-SR1/r2dbc-bom-Borca-SR1.pom (3.8 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.22/reactor-bom-2020.0.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.22/reactor-bom-2020.0.22.pom (4.6 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/4.5.1/rest-assured-bom-4.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-bom/4.5.1/rest-assured-bom-4.5.1.pom (5.8 kB at 153 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.2.2/spring-data-bom-2021.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.2.2/spring-data-bom-2021.2.2.pom (5.7 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.22/spring-framework-bom-5.3.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.22/spring-framework-bom-5.3.22.pom (5.7 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.14/spring-integration-bom-5.5.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.14/spring-integration-bom-5.5.14.pom (9.2 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.7.3/spring-security-bom-5.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.7.3/spring-security-bom-5.7.3.pom (5.7 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.2.0/spring-session-bom-2021.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.2.0/spring-session-bom-2021.2.0.pom (3.1 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-maven-plugin/3.2.1263/typescript-generator-maven-plugin-3.2.1263.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-maven-plugin/3.2.1263/typescript-generator-maven-plugin-3.2.1263.jar (32 kB at 738 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.pom (7.1 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18.1/jackson-parent-2.18.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18.1/jackson-parent-2.18.1.pom (6.7 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/61/oss-parent-61.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/61/oss-parent-61.pom (23 kB at 461 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.pom (21 kB at 512 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.18.3/jackson-base-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.18.3/jackson-base-2.18.3.pom (12 kB at 315 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.3/jackson-bom-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.3/jackson-bom-2.18.3.pom (19 kB at 479 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.pom (10 kB at 257 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.pom (13 kB at 307 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.12.1/gson-parent-2.12.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.12.1/gson-parent-2.12.1.pom (27 kB at 567 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/drapostolos/type-parser/0.8.1/type-parser-0.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/drapostolos/type-parser/0.8.1/type-parser-0.8.1.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.pom (2.5 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.pom (16 kB at 388 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.15/byte-buddy-parent-1.14.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.15/byte-buddy-parent-1.14.15.pom (62 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.pom (10 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar (79 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/drapostolos/type-parser/0.8.1/type-parser-0.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/drapostolos/type-parser/0.8.1/type-parser-0.8.1.jar (43 kB at 347 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar (1.7 MB at 11 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar (286 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar (598 kB at 3.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.15/byte-buddy-agent-1.14.15.jar (258 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.12.0/mockito-core-5.12.0.jar (704 kB at 3.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar (4.2 MB at 11 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-model ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-model ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-model ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-model ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-model ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-model ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-model ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-model ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-model ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 291 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/main/java/org/apache/streampipes/model/SpDataStream.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/main/java/org/apache/streampipes/model/SpDataStream.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/main/java/org/apache/streampipes/model/loadbalancer/LoadBalanceResourceUnit.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/main/java/org/apache/streampipes/model/loadbalancer/LoadBalanceResourceUnit.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- typescript-generator:3.2.1263:generate (generate) @ streampipes-model ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-core/3.2.1263/typescript-generator-core-3.2.1263.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-core/3.2.1263/typescript-generator-core-3.2.1263.pom (20 kB at 278 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.14.2/jackson-module-jakarta-xmlbind-annotations-2.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.14.2/jackson-module-jakarta-xmlbind-annotations-2.14.2.pom (3.6 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.pom (12 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.0/jakarta.xml.bind-api-parent-4.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/4.0.0/jakarta.xml.bind-api-parent-4.0.0.pom (9.2 kB at 173 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.pom (18 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.pom (4.8 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.1/jaxb-runtime-parent-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.1/jaxb-runtime-parent-4.0.1.pom (1.2 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.1/jaxb-parent-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.1/jaxb-parent-4.0.1.pom (33 kB at 549 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.1/jaxb-bom-ext-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.1/jaxb-bom-ext-4.0.1.pom (3.5 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.pom (3.7 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.pom (1.8 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.1/jaxb-txw-parent-4.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.1/jaxb-txw-parent-4.0.1.pom (1.2 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.pom (2.3 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.1/istack-commons-4.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.1.1/istack-commons-4.1.1.pom (24 kB at 475 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.pom (29 kB at 465 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.pom (18 kB at 299 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/all/3.1.0/all-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/all/3.1.0/all-3.1.0.pom (2.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.pom (30 kB at 459 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.pom (1.6 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.pom (1.2 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom (1.3 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.8.10/kotlin-reflect-1.8.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.8.10/kotlin-reflect-1.8.10.pom (1.4 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.0.1/jakarta.json-api-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.0.1/jakarta.json-api-2.0.1.pom (18 kB at 336 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.pom (28 kB at 430 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.pom (22 kB at 386 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js/22.3.1/js-22.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js/22.3.1/js-22.3.1.pom (1.9 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/regex/regex/22.3.1/regex-22.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/regex/regex/22.3.1/regex-22.3.1.pom (1.5 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/22.3.1/truffle-api-22.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/22.3.1/truffle-api-22.3.1.pom (1.5 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.1/graal-sdk-22.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.1/graal-sdk-22.3.1.pom (1.4 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.pom (4.9 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js-scriptengine/22.3.1/js-scriptengine-22.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js-scriptengine/22.3.1/js-scriptengine-22.3.1.pom (1.4 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-core/3.2.1263/typescript-generator-core-3.2.1263.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/cz/habarta/typescript-generator/typescript-generator-core/3.2.1263/typescript-generator-core-3.2.1263.jar (455 kB at 6.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.14.2/jackson-module-jakarta-xmlbind-annotations-2.14.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.1/jakarta.activation-api-2.1.1.jar (67 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.jar (141 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jakarta-xmlbind-annotations/2.14.2/jackson-module-jakarta-xmlbind-annotations-2.14.2.jar (32 kB at 457 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar (127 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.jar (74 kB at 844 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.jar (918 kB at 9.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar (26 kB at 236 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar (127 kB at 961 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar (155 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.8.10/kotlin-reflect-1.8.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.jar (564 kB at 3.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.0.1/jakarta.json-api-2.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.jar (217 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar (31 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/jakarta.json-api/2.0.1/jakarta.json-api-2.0.1.jar (45 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js/22.3.1/js-22.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.jar (1.6 MB at 7.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/regex/regex/22.3.1/regex-22.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar (24 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/22.3.1/truffle-api-22.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/json/bind/jakarta.json.bind-api/3.0.0/jakarta.json.bind-api-3.0.0.jar (37 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.1/graal-sdk-22.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/22.3.1/graal-sdk-22.3.1.jar (719 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/regex/regex/22.3.1/regex-22.3.1.jar (3.1 MB at 4.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js-scriptengine/22.3.1/js-scriptengine-22.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js-scriptengine/22.3.1/js-scriptengine-22.3.1.jar (74 kB at 85 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.8.10/kotlin-reflect-1.8.10.jar (3.2 MB at 3.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/js/js/22.3.1/js-22.3.1.jar (24 MB at 11 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar (14 MB at 6.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/22.3.1/truffle-api-22.3.1.jar (15 MB at 6.9 MB/s)
+Running TypeScriptGenerator version 3.2.1263
+Loading class cz.habarta.typescript.generator.ext.JsonDeserializationExtension
+Loading class org.apache.streampipes.model.shared.annotation.TsIgnore
+Loading class java.net.URI
+Warning: Annotation 'org.apache.streampipes.model.shared.annotation.TsIgnore' has no effect because it doesn't have 'RUNTIME' retention.
+Scanning classpath
+Scanning finished in 0.21 seconds. Total number of classes: 3248.
+Parsing 'org.apache.streampipes.model.DataProcessorType'
+Parsing 'org.apache.streampipes.model.DataSinkType'
+Parsing 'org.apache.streampipes.model.ShortUserInfo'
+Parsing 'org.apache.streampipes.model.UserInfo'
+Parsing 'org.apache.streampipes.model.assets.SpAssetModel'
+Parsing 'org.apache.streampipes.model.base.NamedStreamPipesEntity'
+Parsing 'org.apache.streampipes.model.canvas.PipelineCanvasMetadata'
+Parsing 'org.apache.streampipes.model.configuration.ExportProviderSettings'
+Parsing 'org.apache.streampipes.model.configuration.LinkSettings'
+Parsing 'org.apache.streampipes.model.configuration.LocationConfig'
+Parsing 'org.apache.streampipes.model.configuration.MessagingSettings'
+Parsing 'org.apache.streampipes.model.connect.adapter.AdapterDescription'
+Parsing 'org.apache.streampipes.model.connect.adapter.PipelineUpdateInfo'
+Parsing 'org.apache.streampipes.model.connect.adapter.compact.CompactAdapter'
+Parsing 'org.apache.streampipes.model.connect.guess.AdapterEventPreview'
+Parsing 'org.apache.streampipes.model.connect.guess.GuessSchema'
+Parsing 'org.apache.streampipes.model.connect.rules.TransformationRuleDescription'
+Parsing 'org.apache.streampipes.model.dashboard.DashboardModel'
+Parsing 'org.apache.streampipes.model.datalake.DataExplorerWidgetModel'
+Parsing 'org.apache.streampipes.model.datalake.DataLakeMeasure'
+Parsing 'org.apache.streampipes.model.datalake.DataSeries'
+Parsing 'org.apache.streampipes.model.datalake.SpQueryResult'
+Parsing 'org.apache.streampipes.model.export.ExportConfiguration'
+Parsing 'org.apache.streampipes.model.export.StreamPipesApplicationPackage'
+Parsing 'org.apache.streampipes.model.extensions.ExtensionItemDescription'
+Parsing 'org.apache.streampipes.model.extensions.ExtensionItemInstallationRequest'
+Parsing 'org.apache.streampipes.model.extensions.configuration.SpServiceConfiguration'
+Parsing 'org.apache.streampipes.model.extensions.svcdiscovery.SpServiceRegistration'
+Parsing 'org.apache.streampipes.model.extensions.svcdiscovery.SpServiceTag'
+Parsing 'org.apache.streampipes.model.file.FileMetadata'
+Parsing 'org.apache.streampipes.model.function.FunctionDefinition'
+Parsing 'org.apache.streampipes.model.function.FunctionId'
+Parsing 'org.apache.streampipes.model.message.ErrorMessage'
+Parsing 'org.apache.streampipes.model.message.Message'
+Parsing 'org.apache.streampipes.model.message.PipelineModificationMessage'
+Parsing 'org.apache.streampipes.model.message.PipelineStatusMessage'
+Parsing 'org.apache.streampipes.model.message.SuccessMessage'
+Parsing 'org.apache.streampipes.model.monitoring.ConsumedMessagesInfo'
+Parsing 'org.apache.streampipes.model.monitoring.PipelineMonitoringInfo'
+Parsing 'org.apache.streampipes.model.monitoring.ProducedMessagesInfo'
+Parsing 'org.apache.streampipes.model.monitoring.SpLogEntry'
+Parsing 'org.apache.streampipes.model.monitoring.SpLogMessage'
+Parsing 'org.apache.streampipes.model.monitoring.SpMetricsEntry'
+Parsing 'org.apache.streampipes.model.opcua.Certificate'
+Parsing 'org.apache.streampipes.model.pipeline.Pipeline'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineElementRecommendationMessage'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineOperationStatus'
+Parsing 'org.apache.streampipes.model.pipeline.compact.CompactPipeline'
+Parsing 'org.apache.streampipes.model.preview.PipelinePreviewModel'
+Parsing 'org.apache.streampipes.model.runtime.RuntimeOptionsRequest'
+Parsing 'org.apache.streampipes.model.runtime.RuntimeOptionsResponse'
+Parsing 'org.apache.streampipes.model.staticproperty.StaticProperty'
+Parsing 'org.apache.streampipes.model.template.CompactPipelineTemplate'
+Parsing 'org.apache.streampipes.model.template.PipelineElementTemplate'
+Parsing 'org.apache.streampipes.model.template.PipelineTemplateGenerationRequest'
+Parsing 'org.apache.streampipes.model.assets.AssetType' used in 'SpAssetModel.assetType'
+Parsing 'org.apache.streampipes.model.assets.AssetLink' used in 'SpAssetModel.assetLinks'
+Parsing 'org.apache.streampipes.model.assets.AssetSite' used in 'SpAssetModel.assetSite'
+Parsing 'org.apache.streampipes.model.assets.SpAsset' used in 'SpAssetModel.assets'
+Parsing 'org.apache.streampipes.model.shared.api.Storable' used in 'SpAssetModel.<interface>'
+Parsing 'org.apache.streampipes.model.canvas.PipelineElementMetadata' used in 'PipelineCanvasMetadata.pipelineElementMetadata'
+Parsing 'org.apache.streampipes.model.canvas.PipelineCanvasComment' used in 'PipelineCanvasMetadata.comments'
+Parsing 'org.apache.streampipes.model.configuration.ProviderType' used in 'ExportProviderSettings.providerType'
+Parsing 'org.apache.streampipes.model.configuration.SpProtocol' used in 'MessagingSettings.prioritizedProtocols'
+Parsing 'org.apache.streampipes.model.SpDataStream' used in 'AdapterDescription.dataStream'
+Parsing 'org.apache.streampipes.model.grounding.EventGrounding' used in 'AdapterDescription.eventGrounding'
+Parsing 'org.apache.streampipes.model.deployment.ExtensionDeploymentConfiguration' used in 'AdapterDescription.deploymentConfiguration'
+Parsing 'org.apache.streampipes.model.schema.EventSchema' used in 'AdapterDescription.eventSchema'
+Parsing 'org.apache.streampipes.model.base.VersionedNamedStreamPipesEntity' used in 'AdapterDescription.<superClass>'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineElementValidationInfo' used in 'PipelineUpdateInfo.validationInfos'
+Parsing 'org.apache.streampipes.model.connect.adapter.compact.CompactEventProperty' used in 'CompactAdapter.schema'
+Parsing 'org.apache.streampipes.model.connect.adapter.compact.EnrichmentConfig' used in 'CompactAdapter.enrich'
+Parsing 'org.apache.streampipes.model.connect.adapter.compact.TransformationConfig' used in 'CompactAdapter.transform'
+Parsing 'org.apache.streampipes.model.connect.adapter.compact.CreateOptions' used in 'CompactAdapter.createOptions'
+Parsing 'org.apache.streampipes.model.connect.guess.FieldStatusInfo' used in 'GuessSchema.fieldStatusInfo'
+Parsing 'org.apache.streampipes.model.schema.EventProperty' used in 'GuessSchema.removedProperties'
+Parsing 'org.apache.streampipes.model.message.Notification' used in 'GuessSchema.updateNotifications'
+Parsing 'org.apache.streampipes.model.connect.rules.value.AddTimestampRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.AddValueTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.TimestampTranfsformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.UnitTransformRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.stream.EventRateTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.stream.RemoveDuplicatesTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.schema.DeleteRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.schema.RenameRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.RegexTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.schema.MoveRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.ChangeDatatypeTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.value.CorrectionValueTransformationRuleDescription' used in 'TransformationRuleDescription.<subClass>'
+Parsing 'org.apache.streampipes.model.dashboard.DashboardItem' used in 'DashboardModel.widgets'
+Parsing 'org.apache.streampipes.model.ResourceMetadata' used in 'DashboardModel.metadata'
+Parsing 'org.apache.streampipes.model.api.SpResource' used in 'DashboardModel.<interface>'
+Parsing 'org.apache.streampipes.model.dashboard.DashboardEntity' used in 'DataExplorerWidgetModel.<superClass>'
+Parsing 'org.apache.streampipes.model.datalake.DataLakeMeasureSchemaUpdateStrategy' used in 'DataLakeMeasure.schemaUpdateStrategy'
+Parsing 'org.apache.streampipes.model.datalake.RetentionTimeConfig' used in 'DataLakeMeasure.retentionTime'
+Parsing 'org.apache.streampipes.model.datalake.SpQueryStatus' used in 'SpQueryResult.spQueryStatus'
+Parsing 'org.apache.streampipes.model.export.AssetExportConfiguration' used in 'ExportConfiguration.assetExportConfiguration'
+Parsing 'org.apache.streampipes.model.extensions.svcdiscovery.SpServiceTagPrefix' used in 'ExtensionItemDescription.serviceTagPrefix'
+Parsing 'org.apache.streampipes.model.extensions.configuration.ConfigItem' used in 'SpServiceConfiguration.configs'
+Parsing 'org.apache.streampipes.model.extensions.svcdiscovery.SpServiceStatus' used in 'SpServiceRegistration.status'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineModification' used in 'PipelineModificationMessage.pipelineModifications'
+Parsing 'org.apache.streampipes.model.message.PipelineEdgeValidation' used in 'PipelineModificationMessage.edgeValidations'
+Parsing 'org.apache.streampipes.model.monitoring.MessagesInfo' used in 'ConsumedMessagesInfo.<superClass>'
+Parsing 'org.apache.streampipes.model.monitoring.PipelineElementMonitoringInfo' used in 'PipelineMonitoringInfo.pipelineElementMonitoringInfo'
+Parsing 'org.apache.streampipes.model.monitoring.SpLogLevel' used in 'SpLogMessage.level'
+Parsing 'org.apache.streampipes.model.monitoring.MessageCounter' used in 'SpMetricsEntry.messagesIn'
+Parsing 'org.apache.streampipes.model.opcua.CertificateState' used in 'Certificate.state'
+Parsing 'org.apache.streampipes.model.graph.DataSinkInvocation' used in 'Pipeline.actions'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineHealthStatus' used in 'Pipeline.healthStatus'
+Parsing 'org.apache.streampipes.model.graph.DataProcessorInvocation' used in 'Pipeline.sepas'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineElementRecommendation' used in 'PipelineElementRecommendationMessage.possibleElements'
+Parsing 'org.apache.streampipes.model.pipeline.PipelineElementStatus' used in 'PipelineOperationStatus.elementStatus'
+Parsing 'org.apache.streampipes.model.pipeline.compact.CompactPipelineElement' used in 'CompactPipeline.pipelineElements'
+Parsing 'org.apache.streampipes.model.staticproperty.StaticPropertyType' used in 'StaticProperty.staticPropertyType'
+Parsing 'org.apache.streampipes.model.staticproperty.AnyStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.CodeInputStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.CollectionStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.ColorPickerStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.FileStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.FreeTextStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.MappingPropertyUnary' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.MappingPropertyNary' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.MatchingStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.OneOfStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.RuntimeResolvableAnyStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.RuntimeResolvableOneOfStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.RuntimeResolvableTreeInputStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.SecretStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.StaticPropertyAlternative' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.StaticPropertyAlternatives' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.StaticPropertyGroup' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.SlideToggleStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.RuntimeResolvableGroupStaticProperty' used in 'StaticProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.template.PipelinePlaceholders' used in 'CompactPipelineTemplate.placeholders'
+Parsing 'org.apache.streampipes.model.assets.Isa95Type' used in 'AssetType.isa95AssetType'
+Parsing 'org.apache.streampipes.model.assets.AssetLocation' used in 'AssetSite.location'
+Parsing 'org.apache.streampipes.model.canvas.CanvasPosition' used in 'PipelineElementMetadata.position'
+Parsing 'org.apache.streampipes.model.grounding.TransportProtocol' used in 'EventGrounding.transportProtocols'
+Parsing 'org.apache.streampipes.model.pipeline.ValidationInfoLevel' used in 'PipelineElementValidationInfo.level'
+Parsing 'org.apache.streampipes.model.connect.guess.FieldStatus' used in 'FieldStatusInfo.fieldStatus'
+Parsing 'org.apache.streampipes.model.schema.EventPropertyList' used in 'EventProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.EventPropertyNested' used in 'EventProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.EventPropertyPrimitive' used in 'EventProperty.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.PropertyScope' used in 'AddTimestampRuleDescription.propertyScope'
+Parsing 'org.apache.streampipes.model.connect.rules.value.ValueTransformationRuleDescription' used in 'AddTimestampRuleDescription.<superClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.stream.StreamTransformationRuleDescription' used in 'EventRateTransformationRuleDescription.<superClass>'
+Parsing 'org.apache.streampipes.model.connect.rules.schema.SchemaTransformationRuleDescription' used in 'DeleteRuleDescription.<superClass>'
+Parsing 'org.apache.streampipes.model.datalake.DataRetentionConfig' used in 'RetentionTimeConfig.dataRetentionConfig'
+Parsing 'org.apache.streampipes.model.datalake.RetentionExportConfig' used in 'RetentionTimeConfig.retentionExportConfig'
+Parsing 'org.apache.streampipes.model.export.ExportItem' used in 'AssetExportConfiguration.assets'
+Parsing 'org.apache.streampipes.model.extensions.configuration.ConfigurationScope' used in 'ConfigItem.configurationScope'
+Parsing 'org.apache.streampipes.model.output.OutputStrategy' used in 'PipelineModification.outputStrategies'
+Parsing 'org.apache.streampipes.model.message.EdgeValidationStatus' used in 'PipelineEdgeValidation.status'
+Parsing 'org.apache.streampipes.model.base.InvocableStreamPipesEntity' used in 'DataSinkInvocation.<superClass>'
+Parsing 'org.apache.streampipes.model.pipeline.compact.OutputConfiguration' used in 'CompactPipelineElement.output'
+Parsing 'org.apache.streampipes.model.staticproperty.Option' used in 'AnyStaticProperty.options'
+Parsing 'org.apache.streampipes.model.staticproperty.SelectionStaticProperty' used in 'AnyStaticProperty.<superClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.PropertyValueSpecification' used in 'FreeTextStaticProperty.valueSpecification'
+Parsing 'org.apache.streampipes.model.staticproperty.MappingProperty' used in 'MappingPropertyUnary.<superClass>'
+Parsing 'org.apache.streampipes.model.staticproperty.TreeInputNode' used in 'RuntimeResolvableTreeInputStaticProperty.nodes'
+Parsing 'org.apache.streampipes.model.template.PipelinePlaceholderConfig' used in 'PipelinePlaceholders.requiredConfigs'
+Parsing 'org.apache.streampipes.model.assets.LatLng' used in 'AssetLocation.coordinates'
+Parsing 'org.apache.streampipes.model.grounding.TopicDefinition' used in 'TransportProtocol.topicDefinition'
+Parsing 'org.apache.streampipes.model.grounding.JmsTransportProtocol' used in 'TransportProtocol.<subClass>'
+Parsing 'org.apache.streampipes.model.grounding.KafkaTransportProtocol' used in 'TransportProtocol.<subClass>'
+Parsing 'org.apache.streampipes.model.grounding.MqttTransportProtocol' used in 'TransportProtocol.<subClass>'
+Parsing 'org.apache.streampipes.model.grounding.NatsTransportProtocol' used in 'TransportProtocol.<subClass>'
+Parsing 'org.apache.streampipes.model.grounding.PulsarTransportProtocol' used in 'TransportProtocol.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.ValueSpecification' used in 'EventPropertyPrimitive.valueSpecification'
+Parsing 'org.apache.streampipes.model.datalake.RetentionInterval' used in 'DataRetentionConfig.interval'
+Parsing 'org.apache.streampipes.model.datalake.RetentionAction' used in 'DataRetentionConfig.action'
+Parsing 'org.apache.streampipes.model.datalake.ExportConfig' used in 'RetentionExportConfig.exportConfig'
+Parsing 'org.apache.streampipes.model.datalake.RetentionLog' used in 'RetentionExportConfig.retentionLog'
+Parsing 'org.apache.streampipes.model.output.PropertyRenameRule' used in 'OutputStrategy.renameRules'
+Parsing 'org.apache.streampipes.model.output.AppendOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.CustomOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.CustomTransformOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.FixedOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.KeepOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.ListOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.TransformOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.output.UserDefinedOutputStrategy' used in 'OutputStrategy.<subClass>'
+Parsing 'org.apache.streampipes.model.message.EdgeValidationStatusType' used in 'EdgeValidationStatus.validationStatusType'
+Parsing 'org.apache.streampipes.model.api.EndpointSelectable' used in 'InvocableStreamPipesEntity.<interface>'
+Parsing 'org.apache.streampipes.model.pipeline.compact.UserDefinedOutput' used in 'OutputConfiguration.userDefined'
+Parsing 'org.apache.streampipes.model.grounding.SimpleTopicDefinition' used in 'TopicDefinition.<subClass>'
+Parsing 'org.apache.streampipes.model.grounding.WildcardTopicDefinition' used in 'TopicDefinition.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.QuantitativeValue' used in 'ValueSpecification.<subClass>'
+Parsing 'org.apache.streampipes.model.schema.Enumeration' used in 'ValueSpecification.<subClass>'
+Parsing 'org.apache.streampipes.model.output.TransformOperation' used in 'TransformOutputStrategy.transformOperations'
+Parsing 'org.apache.streampipes.model.grounding.WildcardTopicMapping' used in 'WildcardTopicDefinition.wildcardTopicMappings'
+Writing declarations to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/target/typescript-generator/streampipes-model.ts
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-model ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-model ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/test/java/org/apache/streampipes/model/runtime/TestEventConverter.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/src/test/java/org/apache/streampipes/model/runtime/TestEventConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-model ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-model ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/target/streampipes-model-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-model ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-model ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model/0.99.0-SNAPSHOT/streampipes-model-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model/target/streampipes-model-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model/0.99.0-SNAPSHOT/streampipes-model-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------< org.apache.streampipes:streampipes-dataformat >------------
+[INFO] Building streampipes-dataformat 0.99.0-SNAPSHOT                   [6/18]
+[INFO]   from streampipes-dataformat/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-dataformat ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-dataformat ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-dataformat ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-dataformat ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-dataformat ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-dataformat ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-dataformat ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-dataformat ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-dataformat ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/src/main/java/org/apache/streampipes/dataformat/JsonDataFormatDefinition.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/src/main/java/org/apache/streampipes/dataformat/JsonDataFormatDefinition.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/src/main/java/org/apache/streampipes/dataformat/JsonDataFormatDefinition.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-dataformat ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-dataformat ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-dataformat ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-dataformat ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/target/streampipes-dataformat-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-dataformat ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-dataformat ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-dataformat/0.99.0-SNAPSHOT/streampipes-dataformat-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-dataformat/target/streampipes-dataformat-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-dataformat/0.99.0-SNAPSHOT/streampipes-dataformat-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------< org.apache.streampipes:streampipes-messaging >------------
+[INFO] Building streampipes-messaging 0.99.0-SNAPSHOT                    [7/18]
+[INFO]   from streampipes-messaging/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-messaging ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-messaging ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-messaging ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-messaging ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-messaging ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-messaging ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-messaging ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-messaging ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-messaging ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/src/main/java/org/apache/streampipes/messaging/SpProtocolManager.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/src/main/java/org/apache/streampipes/messaging/SpProtocolManager.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/src/main/java/org/apache/streampipes/messaging/SpProtocolManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-messaging ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-messaging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-messaging ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-messaging ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/target/streampipes-messaging-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-messaging ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-messaging ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-messaging/0.99.0-SNAPSHOT/streampipes-messaging-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-messaging/target/streampipes-messaging-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-messaging/0.99.0-SNAPSHOT/streampipes-messaging-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------< org.apache.streampipes:streampipes-client-api >------------
+[INFO] Building streampipes-client-api 0.99.0-SNAPSHOT                   [8/18]
+[INFO]   from streampipes-client-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-client-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-client-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-client-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-client-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-client-api ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-client-api ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-client-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client-api/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-client-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 23 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-client-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client-api/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-client-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-client-api ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-client-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client-api/target/streampipes-client-api-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-client-api ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-client-api ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client-api/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-client-api/0.99.0-SNAPSHOT/streampipes-client-api-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client-api/target/streampipes-client-api-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-client-api/0.99.0-SNAPSHOT/streampipes-client-api-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------< org.apache.streampipes:streampipes-security-jwt >-----------
+[INFO] Building streampipes-security-jwt 0.99.0-SNAPSHOT                 [9/18]
+[INFO]   from streampipes-security-jwt/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2.pom (1.8 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.11.2/jjwt-root-0.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.11.2/jjwt-root-0.11.2.pom (28 kB at 644 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.pom (2.3 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2.pom (3.3 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.11.2/jjwt-api-0.11.2.jar (79 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.11.2/jjwt-jackson-0.11.2.jar (8.4 kB at 191 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.11.2/jjwt-impl-0.11.2.jar (79 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-security-jwt ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-security-jwt ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-security-jwt ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-security-jwt ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-security-jwt ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-security-jwt ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-security-jwt ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-security-jwt ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-security-jwt/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-security-jwt ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-security-jwt ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-security-jwt/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-security-jwt ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-security-jwt ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-security-jwt ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-security-jwt/target/streampipes-security-jwt-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-security-jwt ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-security-jwt ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-security-jwt/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-security-jwt/0.99.0-SNAPSHOT/streampipes-security-jwt-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-security-jwt/target/streampipes-security-jwt-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-security-jwt/0.99.0-SNAPSHOT/streampipes-security-jwt-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------< org.apache.streampipes:streampipes-model-client >-----------
+[INFO] Building streampipes-model-client 0.99.0-SNAPSHOT                [10/18]
+[INFO]   from streampipes-model-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-model-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-model-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-model-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-model-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-model-client ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-model-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-model-client ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-model-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-model-client ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 32 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- typescript-generator:3.2.1263:generate (generate) @ streampipes-model-client ---
+Running TypeScriptGenerator version 3.2.1263
+Loading class cz.habarta.typescript.generator.ext.JsonDeserializationExtension
+Loading class org.apache.streampipes.model.shared.annotation.TsIgnore
+Warning: Annotation 'org.apache.streampipes.model.shared.annotation.TsIgnore' has no effect because it doesn't have 'RUNTIME' retention.
+Scanning classpath
+Scanning finished in 0.09 seconds. Total number of classes: 1974.
+Parsing 'org.apache.streampipes.model.client.matching.MatchingResultMessage'
+Parsing 'org.apache.streampipes.model.client.user.DefaultPrivilege'
+Parsing 'org.apache.streampipes.model.client.user.DefaultRole'
+Parsing 'org.apache.streampipes.model.client.user.Group'
+Parsing 'org.apache.streampipes.model.client.user.Permission'
+Parsing 'org.apache.streampipes.model.client.user.Privilege'
+Parsing 'org.apache.streampipes.model.client.user.RawUserApiToken'
+Parsing 'org.apache.streampipes.model.client.user.Role'
+Parsing 'org.apache.streampipes.model.client.user.ServiceAccount'
+Parsing 'org.apache.streampipes.model.client.user.UserAccount'
+Parsing 'org.apache.streampipes.model.shared.api.Storable' used in 'Group.<interface>'
+Parsing 'org.apache.streampipes.model.client.user.PermissionEntry' used in 'Permission.grantedAuthorities'
+Parsing 'org.apache.streampipes.model.client.user.PrincipalType' used in 'ServiceAccount.principalType'
+Parsing 'org.apache.streampipes.model.client.user.Principal' used in 'ServiceAccount.<superClass>'
+Parsing 'org.apache.streampipes.model.client.user.UserApiToken' used in 'UserAccount.userApiTokens'
+Writing declarations to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/target/typescript-generator/streampipes-model-client.ts
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-model-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-model-client ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-model-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-model-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/target/streampipes-model-client-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-model-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-model-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model-client/0.99.0-SNAPSHOT/streampipes-model-client-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-model-client/target/streampipes-model-client-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-model-client/0.99.0-SNAPSHOT/streampipes-model-client-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------< org.apache.streampipes:streampipes-extensions-api >----------
+[INFO] Building streampipes-extensions-api 0.99.0-SNAPSHOT              [11/18]
+[INFO]   from streampipes-extensions-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom (8.8 kB at 191 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom (21 kB at 406 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar (3.1 MB at 12 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-extensions-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-extensions-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-extensions-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-extensions-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-extensions-api ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-extensions-api ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-extensions-api ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-extensions-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-api/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-extensions-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 67 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-extensions-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-api/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-extensions-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-extensions-api ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-extensions-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-api/target/streampipes-extensions-api-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-extensions-api ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-extensions-api ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-api/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-extensions-api/0.99.0-SNAPSHOT/streampipes-extensions-api-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-api/target/streampipes-extensions-api-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-extensions-api/0.99.0-SNAPSHOT/streampipes-extensions-api-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------< org.apache.streampipes:streampipes-test-utils >------------
+[INFO] Building streampipes-test-utils 0.99.0-SNAPSHOT                  [12/18]
+[INFO]   from streampipes-test-utils/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-test-utils ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-test-utils ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-test-utils ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-test-utils ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-test-utils ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-test-utils ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-test-utils ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-test-utils ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-test-utils/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-test-utils ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-test-utils ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-test-utils/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-test-utils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-test-utils ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-test-utils ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-test-utils/target/streampipes-test-utils-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-test-utils ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-test-utils ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-test-utils/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-test-utils/0.99.0-SNAPSHOT/streampipes-test-utils-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-test-utils/target/streampipes-test-utils-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-test-utils/0.99.0-SNAPSHOT/streampipes-test-utils-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------< org.apache.streampipes:streampipes-serializers-json >---------
+[INFO] Building streampipes-serializers-json 0.99.0-SNAPSHOT            [13/18]
+[INFO]   from streampipes-serializers-json/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-serializers-json ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-serializers-json ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-serializers-json ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-serializers-json ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-serializers-json ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-serializers-json ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-serializers-json ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-serializers-json ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-serializers-json/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-serializers-json ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-serializers-json ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-serializers-json/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-serializers-json ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-serializers-json ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-serializers-json ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-serializers-json/target/streampipes-serializers-json-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-serializers-json ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-serializers-json ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-serializers-json/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-serializers-json/0.99.0-SNAPSHOT/streampipes-serializers-json-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-serializers-json/target/streampipes-serializers-json-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-serializers-json/0.99.0-SNAPSHOT/streampipes-serializers-json-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------< org.apache.streampipes:streampipes-client >--------------
+[INFO] Building streampipes-client 0.99.0-SNAPSHOT                      [14/18]
+[INFO]   from streampipes-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.13/fluent-hc-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.13/fluent-hc-4.5.13.pom (5.3 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.13/fluent-hc-4.5.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.13/fluent-hc-4.5.13.jar (32 kB at 809 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-client ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-client ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-client ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-client ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 38 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-client ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/src/test/java/org/apache/streampipes/client/util/StreamPipesApiPathTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/src/test/java/org/apache/streampipes/client/util/StreamPipesApiPathTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/src/test/java/org/apache/streampipes/client/util/StreamPipesApiPathTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/target/streampipes-client-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-client ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-client/0.99.0-SNAPSHOT/streampipes-client-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-client/target/streampipes-client-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-client/0.99.0-SNAPSHOT/streampipes-client-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------< org.apache.streampipes:streampipes-measurement-units >--------
+[INFO] Building streampipes-measurement-units 0.99.0-SNAPSHOT           [15/18]
+[INFO]   from streampipes-measurement-units/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/fogsy/qudt/1.0/qudt-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/fogsy/qudt/1.0/qudt-1.0.pom (4.1 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/3.7.7/rdf4j-rio-rdfxml-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/3.7.7/rdf4j-rio-rdfxml-3.7.7.pom (2.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio/3.7.7/rdf4j-rio-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio/3.7.7/rdf4j-rio-3.7.7.pom (989 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-core/3.7.7/rdf4j-core-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-core/3.7.7/rdf4j-core-3.7.7.pom (4.1 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j/3.7.7/rdf4j-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j/3.7.7/rdf4j-3.7.7.pom (33 kB at 772 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom (15 kB at 364 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model/3.7.7/rdf4j-model-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model/3.7.7/rdf4j-model-3.7.7.pom (2.9 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-api/3.7.7/rdf4j-model-api-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-api/3.7.7/rdf4j-model-api-3.7.7.pom (951 B at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-vocabulary/3.7.7/rdf4j-model-vocabulary-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-vocabulary/3.7.7/rdf4j-model-vocabulary-3.7.7.pom (915 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-util/3.7.7/rdf4j-util-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-util/3.7.7/rdf4j-util-3.7.7.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/3.7.7/rdf4j-rio-api-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/3.7.7/rdf4j-rio-api-3.7.7.pom (2.1 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180725.0427/jaxb-api-2.4.0-b180725.0427.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180725.0427/jaxb-api-2.4.0-b180725.0427.pom (20 kB at 458 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.4.0-b180725.0427/jaxb-api-parent-2.4.0-b180725.0427.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api-parent/2.4.0-b180725.0427/jaxb-api-parent-2.4.0-b180725.0427.pom (8.1 kB at 203 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/3.7.7/rdf4j-rio-datatypes-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/3.7.7/rdf4j-rio-datatypes-3.7.7.pom (1.1 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/3.7.7/rdf4j-rio-languages-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/3.7.7/rdf4j-rio-languages-3.7.7.pom (1.1 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/3.7.7/rdf4j-rio-turtle-3.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/3.7.7/rdf4j-rio-turtle-3.7.7.pom (2.3 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jsonld-java/jsonld-java/0.13.3/jsonld-java-0.13.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jsonld-java/jsonld-java/0.13.3/jsonld-java-0.13.3.pom (6.1 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jsonld-java/jsonld-java-parent/0.13.3/jsonld-java-parent-0.13.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jsonld-java/jsonld-java-parent/0.13.3/jsonld-java-parent-0.13.3.pom (15 kB at 375 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.13/httpclient-osgi-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.13/httpclient-osgi-4.5.13.pom (8.4 kB at 195 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.pom (5.2 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.13/httpclient-cache-4.5.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.13/httpclient-cache-4.5.13.pom (6.6 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.14/httpcore-osgi-4.4.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.14/httpcore-osgi-4.4.14.pom (5.3 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.14/httpcore-nio-4.4.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.14/httpcore-nio-4.4.14.pom (5.5 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/fogsy/qudt/1.0/qudt-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/fogsy/qudt/1.0/qudt-1.0.jar (125 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/3.7.7/rdf4j-rio-rdfxml-3.7.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model/3.7.7/rdf4j-model-3.7.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-api/3.7.7/rdf4j-model-api-3.7.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-vocabulary/3.7.7/rdf4j-model-vocabulary-3.7.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/3.7.7/rdf4j-rio-api-3.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/3.7.7/rdf4j-rio-rdfxml-3.7.7.jar (40 kB at 807 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180725.0427/jaxb-api-2.4.0-b180725.0427.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-api/3.7.7/rdf4j-model-api-3.7.7.jar (46 kB at 893 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/3.7.7/rdf4j-rio-datatypes-3.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/3.7.7/rdf4j-rio-api-3.7.7.jar (96 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/3.7.7/rdf4j-rio-languages-3.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model/3.7.7/rdf4j-model-3.7.7.jar (170 kB at 2.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-util/3.7.7/rdf4j-util-3.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-model-vocabulary/3.7.7/rdf4j-model-vocabulary-3.7.7.jar (92 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/3.7.7/rdf4j-rio-turtle-3.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/3.7.7/rdf4j-rio-datatypes-3.7.7.jar (9.0 kB at 94 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.4.0-b180725.0427/jaxb-api-2.4.0-b180725.0427.jar (128 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/3.7.7/rdf4j-rio-languages-3.7.7.jar (5.0 kB at 42 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-util/3.7.7/rdf4j-util-3.7.7.jar (117 kB at 970 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/3.7.7/rdf4j-rio-turtle-3.7.7.jar (44 kB at 328 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-measurement-units ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-measurement-units ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-measurement-units ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-measurement-units ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-measurement-units ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-measurement-units ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-measurement-units ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-measurement-units ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-measurement-units ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/src/main/java/com/github/jqudt/onto/QUDT.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/src/main/java/com/github/jqudt/onto/QUDT.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-measurement-units ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-measurement-units ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-measurement-units ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-measurement-units ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/target/streampipes-measurement-units-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-measurement-units ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-measurement-units ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-measurement-units/0.99.0-SNAPSHOT/streampipes-measurement-units-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-measurement-units/target/streampipes-measurement-units-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-measurement-units/0.99.0-SNAPSHOT/streampipes-measurement-units-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------< org.apache.streampipes:streampipes-sdk >---------------
+[INFO] Building streampipes-sdk 0.99.0-SNAPSHOT                         [16/18]
+[INFO]   from streampipes-sdk/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-sdk ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-sdk ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-sdk ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-sdk ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-sdk ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-sdk ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-sdk ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-sdk ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-sdk ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 42 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/src/main/java/org/apache/streampipes/sdk/helpers/EpRequirements.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/src/main/java/org/apache/streampipes/sdk/helpers/EpRequirements.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/src/main/java/org/apache/streampipes/sdk/helpers/EpRequirements.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-sdk ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-sdk ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-sdk ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-sdk ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/target/streampipes-sdk-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-sdk ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-sdk ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-sdk/0.99.0-SNAPSHOT/streampipes-sdk-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-sdk/target/streampipes-sdk-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-sdk/0.99.0-SNAPSHOT/streampipes-sdk-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------< org.apache.streampipes:streampipes-connect-shared >----------
+[INFO] Building streampipes-connect-shared 0.99.0-SNAPSHOT              [17/18]
+[INFO]   from streampipes-connect-shared/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-connect-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-connect-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-connect-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-connect-shared ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-connect-shared ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-connect-shared ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-connect-shared ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-connect-shared ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 26 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/main/java/org/apache/streampipes/connect/shared/preprocessing/SupportsNestedTransformationRule.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/main/java/org/apache/streampipes/connect/shared/preprocessing/SupportsNestedTransformationRule.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-connect-shared ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-connect-shared ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 14 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/test/java/org/apache/streampipes/connect/shared/preprocessing/transform/schema/DeleteTransformationRuleTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/src/test/java/org/apache/streampipes/connect/shared/preprocessing/transform/schema/DeleteTransformationRuleTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-connect-shared ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-connect-shared ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/target/streampipes-connect-shared-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-connect-shared ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-connect-shared ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-connect-shared/0.99.0-SNAPSHOT/streampipes-connect-shared-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-connect-shared/target/streampipes-connect-shared-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-connect-shared/0.99.0-SNAPSHOT/streampipes-connect-shared-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------< org.apache.streampipes:streampipes-extensions-management >------
+[INFO] Building streampipes-extensions-management 0.99.0-SNAPSHOT       [18/18]
+[INFO]   from streampipes-extensions-management/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/grundid/opendatalab/geojson-jackson/1.14/geojson-jackson-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/grundid/opendatalab/geojson-jackson/1.14/geojson-jackson-1.14.pom (3.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.18.3/jackson-dataformat-xml-2.18.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.18.3/jackson-dataformat-xml-2.18.3.pom (9.5 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.pom (6.3 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/55/oss-parent-55.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/55/oss-parent-55.pom (24 kB at 462 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/woodstox-core-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/woodstox-core-7.0.0.pom (9.5 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/59/oss-parent-59.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/59/oss-parent-59.pom (24 kB at 453 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.pom (36 kB at 591 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.11.4/avro-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.11.4/avro-1.11.4.pom (9.6 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-parent/1.11.4/avro-parent-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-parent/1.11.4/avro-parent-1.11.4.pom (25 kB at 441 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-toplevel/1.11.4/avro-toplevel-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro-toplevel/1.11.4/avro-toplevel-1.11.4.pom (25 kB at 428 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/grundid/opendatalab/geojson-jackson/1.14/geojson-jackson-1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/grundid/opendatalab/geojson-jackson/1.14/geojson-jackson-1.14.jar (24 kB at 471 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.18.3/jackson-dataformat-xml-2.18.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/woodstox-core-7.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.11.4/avro-1.11.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.2/stax2-api-4.2.2.jar (196 kB at 3.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.9/opencsv-5.9.jar (240 kB at 3.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/avro/avro/1.11.4/avro-1.11.4.jar (651 kB at 8.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.18.3/jackson-dataformat-xml-2.18.3.jar (130 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/7.0.0/woodstox-core-7.0.0.jar (1.6 MB at 12 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-extensions-management ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-extensions-management ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-extensions-management ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-extensions-management ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 52 source files with javac [debug parameters release 17] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/java/org/apache/streampipes/extensions/management/api/RuntimeResolvableRequestHandler.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/java/org/apache/streampipes/extensions/management/api/RuntimeResolvableRequestHandler.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/java/org/apache/streampipes/extensions/management/api/RuntimeResolvableRequestHandler.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/java/org/apache/streampipes/extensions/management/connect/adapter/parser/AvroParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/java/org/apache/streampipes/extensions/management/connect/adapter/parser/AvroParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-extensions-management ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/java/org/apache/streampipes/extensions/management/locales/LabelGeneratorTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/java/org/apache/streampipes/extensions/management/locales/LabelGeneratorTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/java/org/apache/streampipes/extensions/management/locales/LabelGeneratorTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ streampipes-extensions-management ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- jar:3.4.0:jar (default-jar) @ streampipes-extensions-management ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/target/streampipes-extensions-management-0.99.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- javadoc:3.6.3:jar (attach-javadocs) @ streampipes-extensions-management ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ streampipes-extensions-management ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-extensions-management/0.99.0-SNAPSHOT/streampipes-extensions-management-0.99.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/target/streampipes-extensions-management-0.99.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/streampipes/streampipes-extensions-management/0.99.0-SNAPSHOT/streampipes-extensions-management-0.99.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache StreamPipes 0.99.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache StreamPipes ................................. SUCCESS [  3.569 s]
+[INFO] StreamPipes Commons ................................ SUCCESS [  2.936 s]
+[INFO] streampipes-model-shared ........................... SUCCESS [  0.752 s]
+[INFO] streampipes-vocabulary ............................. SUCCESS [  0.679 s]
+[INFO] streampipes-model .................................. SUCCESS [ 12.012 s]
+[INFO] streampipes-dataformat ............................. SUCCESS [  0.896 s]
+[INFO] streampipes-messaging .............................. SUCCESS [  0.693 s]
+[INFO] streampipes-client-api ............................. SUCCESS [  0.822 s]
+[INFO] streampipes-security-jwt ........................... SUCCESS [  1.018 s]
+[INFO] streampipes-model-client ........................... SUCCESS [  1.067 s]
+[INFO] streampipes-extensions-api ......................... SUCCESS [  1.437 s]
+[INFO] streampipes-test-utils ............................. SUCCESS [  0.691 s]
+[INFO] streampipes-serializers-json ....................... SUCCESS [  0.687 s]
+[INFO] streampipes-client ................................. SUCCESS [  1.120 s]
+[INFO] streampipes-measurement-units ...................... SUCCESS [  1.993 s]
+[INFO] streampipes-sdk .................................... SUCCESS [  1.028 s]
+[INFO] streampipes-connect-shared ......................... SUCCESS [  1.049 s]
+[INFO] streampipes-extensions-management .................. SUCCESS [  2.276 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35.720 s
+[INFO] Finished at: 2026-10-11T19:08:31-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 265 goals, 265 executed

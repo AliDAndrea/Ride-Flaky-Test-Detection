@@ -1,0 +1,126 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] hutool                                                             [pom]
+[INFO] hutool-core                                                        [jar]
+[INFO] 
+[INFO] ----------------------< cn.hutool:hutool-parent >-----------------------
+[INFO] Building hutool 5.8.9                                              [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.pom (22 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.jar (521 kB at 4.1 MB/s)
+[INFO] 
+[INFO] --- javadoc:3.4.0:jar (default) @ hutool-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.0/maven-reporting-api-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.0/maven-reporting-api-3.1.0.jar (11 kB at 173 kB/s)
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-parent/5.8.9/hutool-parent-5.8.9.pom
+[INFO] 
+[INFO] -----------------------< cn.hutool:hutool-core >------------------------
+[INFO] Building hutool-core 5.8.9                                         [2/2]
+[INFO]   from hutool-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hutool-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ hutool-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 679 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/bean/copier/BeanCopier.java:[72,54] unchecked cast
+  required: cn.hutool.core.lang.copier.Copier<T>
+  found:    cn.hutool.core.bean.copier.MapToMapCopier
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/bean/copier/BeanCopier.java:[78,90] unchecked cast
+  required: cn.hutool.core.bean.copier.ValueProvider<java.lang.String>
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/bean/copier/BeanCopier.java:[82,54] unchecked cast
+  required: cn.hutool.core.lang.copier.Copier<T>
+  found:    cn.hutool.core.bean.copier.BeanToMapCopier
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/collection/UniqueKeySet.java:[121,71] unchecked cast
+  required: V
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/collection/UniqueKeySet.java:[157,74] unchecked cast
+  required: V
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/ReferenceConcurrentMap.java:[83,47] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/ReferenceConcurrentMap.java:[90,55] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/ReferenceConcurrentMap.java:[161,50] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/ReferenceConcurrentMap.java:[168,50] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/annotation/AnnotationUtil.java:[138,52] unchecked cast
+  required: T
+  found:    java.lang.annotation.Annotation
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/CustomKeyMap.java:[30,27] unchecked cast
+  required: V
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/FuncKeyMap.java:[46,27] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/CamelCaseMap.java:[83,36] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/CaseInsensitiveMap.java:[83,36] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/multi/AbsTable.java:[75,50] unchecked cast
+  required: V
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/bean/copier/BeanToMapCopier.java:[77,43] unchecked call to put(K,V) as a member of the raw type java.util.Map
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/annotation/AnnotationProxy.java:[35,65] unchecked cast
+  required: java.lang.Class<T>
+  found:    java.lang.Class<capture#1 of ? extends java.lang.annotation.Annotation>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/io/IoUtil.java:[620,49] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/FuncMap.java:[62,28] unchecked cast
+  required: K
+  found:    java.lang.Object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/main/java/cn/hutool/core/map/FuncMap.java:[71,28] unchecked cast
+  required: V
+  found:    java.lang.Object
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hutool-core ---
+[INFO] Copying 17 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ hutool-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 239 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/src/test/java/cn/hutool/core/date/DateUtilTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hutool-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ hutool-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/target/hutool-core-5.8.9.jar
+[INFO] 
+[INFO] --- javadoc:3.4.0:jar (default) @ hutool-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hutool-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/pom.xml to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-core/5.8.9/hutool-core-5.8.9.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/dromara__hutool__hutool-core/hutool-core/target/hutool-core-5.8.9.jar to /Users/shivamsingh/.m2/repository/cn/hutool/hutool-core/5.8.9/hutool-core-5.8.9.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for hutool 5.8.9:
+[INFO] 
+[INFO] hutool ............................................. SUCCESS [  5.225 s]
+[INFO] hutool-core ........................................ SUCCESS [ 25.697 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.511 s
+[INFO] Finished at: 2026-10-11T18:49:41-05:00
+[INFO] ------------------------------------------------------------------------

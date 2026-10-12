@@ -1,0 +1,108 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------< org.sonatype.repository:nexus-repository-helm >------------
+[INFO] Building org.sonatype.repository:nexus-repository-helm 0.0.6
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ nexus-repository-helm >>>
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-environment) @ nexus-repository-helm ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-dependencies) @ nexus-repository-helm ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.3:create (build-identity) @ nexus-repository-helm ---
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root
+[INFO] Storing buildNumber: 60a9e8de0d97bfa4e3f7ee6bb87d518e398f03f2 at timestamp: 2026-10-09-2114-18959
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ nexus-repository-helm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/filtered-resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/resources-filtered
+[INFO] 
+[INFO] --- extjs:3.13.0-01:aggregate-js (default) @ nexus-repository-helm ---
+[WARNING] Expected class 'NX.coreui.view.repository.recipe.HelmHosted' to be defined in filename 'NX/coreui/view/repository/recipe/HelmHosted.js', but was defined in: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/main/resources/static/rapture/NX/helm/view/repository/recipe/HelmHosted.js
+[INFO] Writing: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/classes/static/rapture/nexus-repository-helm-debug.js
+[INFO] 
+[INFO] --- yuicompressor:1.1.0:aggregate-js (plugin-js) @ nexus-repository-helm ---
+[INFO] Writing: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/classes/static/rapture/nexus-repository-helm-prod.js
+[INFO] 
+[INFO] --- yuicompressor:1.1.0:aggregate-css (plugin-css) @ nexus-repository-helm ---
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ nexus-repository-helm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Using Groovy-Eclipse compiler to compile both Java and Groovy files
+[INFO] 
+[INFO] --- karaf:4.0.9:features-generate-descriptor (plugin-feature) @ nexus-repository-helm ---
+[INFO] Generating feature descriptor file /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/target/feature/feature.xml
+[INFO] ...done!
+[INFO] 
+[INFO] --- sisu:1.4:main-index (default) @ nexus-repository-helm ---
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ nexus-repository-helm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/test/filtered-resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/src/test/resources-filtered
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ nexus-repository-helm ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Using Groovy-Eclipse compiler to compile both Java and Groovy files
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ nexus-repository-helm <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ nexus-repository-helm ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.sonatype.repository:nexus-repository-helm:0.0.6 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 18 tests. Time taken: 0.40400004386901855 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.dtfixingtools/original-order
+[INFO] Getting original results (18 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.3 seconds elapsed (4.6 total), 20.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (4.6 seconds elapsed (6.9 total), 25.9 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (6.9 seconds elapsed (9.1 total), 27.6 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (9.1 seconds elapsed (11.3 total), 27.3 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (11.3 seconds elapsed (13.5 total), 26.3 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (13.5 seconds elapsed (15.7 total), 25.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (15.7 seconds elapsed (17.9 total), 23.5 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (17.9 seconds elapsed (20.1 total), 21.9 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (20.1 seconds elapsed (22.4 total), 20.1 seconds remaining).
+Verified org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest.testChartIndexPassedCorrectly, status: expected PASS, got PASS
+Verified org.sonatype.repository.helm.internal.metadata.IndexYamlBuilderTest.testChartIndexPassedCorrectly, status: expected ERROR, got PASS
+[INFO] Found 0 tests in round 11 of 20 (22.4 seconds elapsed (28.7 total), 18.3 seconds remaining).
+[INFO] Found 1 tests in round 12 of 20 (28.7 seconds elapsed (30.9 total), 19.1 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (0.0 seconds elapsed (33.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (2.3 seconds elapsed (35.3 total), 1.0 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (4.4 seconds elapsed (37.6 total), 1.5 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (6.8 seconds elapsed (39.8 total), 1.7 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (9.0 seconds elapsed (42.1 total), 1.6 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (11.3 seconds elapsed (44.3 total), 1.3 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (13.4 seconds elapsed (46.5 total), 0.7 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (15.6 seconds elapsed (48.7 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/sonatype-nexus-community__nexus-repository-helm__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  59.088 s
+[INFO] Finished at: 2026-10-09T21:15:14-05:00
+[INFO] ------------------------------------------------------------------------

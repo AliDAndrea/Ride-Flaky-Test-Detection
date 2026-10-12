@@ -1,0 +1,725 @@
+[INFO] Scanning for projects...
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[INFO] 
+[INFO] --------------------------< com.alibaba:wasp >--------------------------
+[INFO] Building wasp 0.11
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:critsearch (default-cli) > test-compile @ wasp >>>
+[INFO] 
+[INFO] --- antrun:1.6:run (generate) @ wasp ---
+[INFO] Executing tasks
+
+main:
+[INFO] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper:1.5:add-source (add-source) @ wasp ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/generated-sources/java added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wasp ---
+[INFO] Copying 2 resources from target to target/classes
+[INFO] Copying 18 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ wasp ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wasp ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./src/test/resources
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ wasp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:critsearch (default-cli) < test-compile @ wasp <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:critsearch (default-cli) @ wasp ---
+INFO: Running CritSearchMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./.flakesync/clean_YWijvjH+cZw9HbjzkFaVQuDYd6Fg8OxrdHraggjf4K4=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.alibaba.wasp.client.TestFromClientSide
+26/10/11 20:57:10 INFO wasp.WaspTestingUtility: Starting up minicluster with 1 master(s) and 3 fserver(s) 
+Starting DataNode 0 with dfs.data.dir: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data1,/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data2
+Starting DataNode 1 with dfs.data.dir: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data3,/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data4
+Starting DataNode 2 with dfs.data.dir: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data5,/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/dfs/data/data6
+26/10/11 20:57:11 INFO server.NIOServerCnxnFactory: binding to port 0.0.0.0/0.0.0.0:56084
+26/10/11 20:57:11 INFO persistence.FileTxnSnapLog: Snapshotting: 0x0 to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/alibaba__wasp__b2593d8e__./target/test-data/638a657e-1393-4c6f-af46-e047404e7bc5/dfscluster_68ff9480-6a2d-49e9-9226-5bf8fbcedd09/zookeeper_0/version-2/snapshot.0
+26/10/11 20:57:11 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63175
+26/10/11 20:57:11 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63180
+26/10/11 20:57:11 INFO persistence.FileTxnLog: Creating new log file: log.1
+26/10/11 20:57:12 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63193
+26/10/11 20:57:12 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63194
+26/10/11 20:57:12 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63192
+26/10/11 20:57:12 ERROR metrics.SchemaMetrics: Inconsistent configuration. Previous configuration for using table name in metrics: true, new configuration: false
+26/10/11 20:57:14 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63221
+26/10/11 20:57:16 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63228
+26/10/11 20:57:16 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63233
+26/10/11 20:57:16 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63236
+26/10/11 20:57:16 INFO wasp.WaspTestingUtility: Connectting Zookeeper by address<localhost>:port<56084>
+26/10/11 20:57:16 DEBUG master.FMaster: Set serverside FConnection retries=30
+26/10/11 20:57:16 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.master.FMaster
+26/10/11 20:57:16 DEBUG zookeeper.ZKUtil: master:63238 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:16 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:16 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63239
+26/10/11 20:57:16 DEBUG zookeeper.ZooKeeperWatcher: master:63238 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:16 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 connected
+26/10/11 20:57:19 DEBUG fserver.FServer: Set serverside FConnection retries=30
+26/10/11 20:57:19 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.fserver.FServer
+26/10/11 20:57:19 DEBUG fserver.FServer: Set serverside FConnection retries=30
+26/10/11 20:57:19 DEBUG fserver.FServer: Set serverside FConnection retries=30
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:19 WARN wasp.ZNodeClearer: No filename given to save the znode used, it won't be saved (Environment variable WASP_ZNODE_FILE is not set).
+26/10/11 20:57:19 INFO master.ActiveMasterManager: Master=localhost,63238,1791770236566
+26/10/11 20:57:19 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63243
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63241 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63240 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63242 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:19 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:19 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:19 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:19 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63246
+26/10/11 20:57:19 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63247
+26/10/11 20:57:19 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63248
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63240 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63240-0xffa12dd4034c000a connected
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63242 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63241 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63242-0xffa12dd4034c000b connected
+26/10/11 20:57:19 DEBUG zookeeper.ZooKeeperWatcher: fserver:63241-0xffa12dd4034c000c connected
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Set watcher on existing znode /wasp/master
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b Set watcher on existing znode /wasp/master
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Set watcher on existing znode /wasp/master
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 22 byte(s) of data from znode /wasp/master and set watcher; \x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 22 byte(s) of data from znode /wasp/master and set watcher; \x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b Retrieved 22 byte(s) of data from znode /wasp/master and set watcher; \x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:19 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:20 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 /wasp/balancer does not exist. Watcher is set.
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeCreated, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: fserver:63242-0xffa12dd4034c000b Received ZooKeeper Event, type=NodeCreated, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: fserver:63240-0xffa12dd4034c000a Received ZooKeeper Event, type=NodeCreated, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: fserver:63241-0xffa12dd4034c000c Received ZooKeeper Event, type=NodeCreated, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:21 INFO master.FMaster: Server active/primary master; localhost,63238,1791770236566, sessionid=0xffa12dd4034c0008, cluster-up flag was=false
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b Retrieved 30 byte(s) of data from znode /wasp/shutdown and set watcher; \x0A\x1CSun Oct 11 20:57:21 C...
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 30 byte(s) of data from znode /wasp/shutdown and set watcher; \x0A\x1CSun Oct 11 20:57:21 C...
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 30 byte(s) of data from znode /wasp/shutdown and set watcher; \x0A\x1CSun Oct 11 20:57:21 C...
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 30 byte(s) of data from znode /wasp/shutdown and set watcher; \x0A\x1CSun Oct 11 20:57:21 C...
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 38 byte(s) of data from znode /wasp/waspid; data=\x0A$e1a84003-0b7f-4807-a0e5-...
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=MASTER_OPEN_ENTITYGROUP-localhost,63238,1791770236566, corePoolSize=5, maxPoolSize=5
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 38 byte(s) of data from znode /wasp/waspid; data=\x0A$e1a84003-0b7f-4807-a0e5-...
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b Retrieved 38 byte(s) of data from znode /wasp/waspid; data=\x0A$e1a84003-0b7f-4807-a0e5-...
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=MASTER_CLOSE_ENTITYGROUP-localhost,63238,1791770236566, corePoolSize=5, maxPoolSize=5
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=MASTER_SERVER_OPERATIONS-localhost,63238,1791770236566, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=MASTER_TABLE_OPERATIONS-localhost,63238,1791770236566, corePoolSize=1, maxPoolSize=1
+26/10/11 20:57:21 INFO fserver.FServer: ClusterId : e1a84003-0b7f-4807-a0e5-b50c3b984ee9
+26/10/11 20:57:21 INFO fserver.FServer: ClusterId : e1a84003-0b7f-4807-a0e5-b50c3b984ee9
+26/10/11 20:57:21 INFO fserver.FServer: ClusterId : e1a84003-0b7f-4807-a0e5-b50c3b984ee9
+26/10/11 20:57:21 INFO fserver.FServer: Attempting connect to Master server at localhost,63238,1791770236566
+26/10/11 20:57:21 INFO fserver.FServer: Attempting connect to Master server at localhost,63238,1791770236566
+26/10/11 20:57:21 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.master.FServerStatusProtocol
+26/10/11 20:57:21 INFO fserver.FServer: Attempting connect to Master server at localhost,63238,1791770236566
+26/10/11 20:57:21 INFO fserver.FServer: Connected to master at localhost/127.0.0.1:63238
+26/10/11 20:57:21 INFO fserver.FServer: Connected to master at localhost/127.0.0.1:63238
+26/10/11 20:57:21 INFO fserver.FServer: Connected to master at localhost/127.0.0.1:63238
+26/10/11 20:57:21 INFO fserver.FServer: Telling master at localhost,63238,1791770236566 that we are up with port=63242, startcode=1791770239785
+26/10/11 20:57:21 INFO fserver.FServer: Telling master at localhost,63238,1791770236566 that we are up with port=63241, startcode=1791770239736
+26/10/11 20:57:21 INFO fserver.FServer: Telling master at localhost,63238,1791770236566 that we are up with port=63240, startcode=1791770239685
+26/10/11 20:57:21 DEBUG ipc.NettyTransceiver: Using Netty bootstrap options: {connectTimeoutMillis=3000, tcpNoDelay=true}
+26/10/11 20:57:21 DEBUG ipc.NettyTransceiver: Connecting to localhost/127.0.0.1:63238
+26/10/11 20:57:21 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd] OPEN
+26/10/11 20:57:21 DEBUG master.FMaster: Started service threads
+26/10/11 20:57:21 INFO master.FServerManager: Waiting for fservers count to settle; currently checked in 0, slept for 0 ms, expecting minimum of 3, maximum of 3, timeout of 4500 ms, interval of 1500 ms.
+26/10/11 20:57:21 INFO ipc.NettyTransceiver: Successfully connected to bookie: localhost/127.0.0.1:63238
+26/10/11 20:57:21 DEBUG ipc.NettyServer: [id: 0x7125a165, /127.0.0.1:63260 => /127.0.0.1:63238] OPEN
+26/10/11 20:57:21 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd, /127.0.0.1:63260 => localhost/127.0.0.1:63238] BOUND: /127.0.0.1:63260
+26/10/11 20:57:21 DEBUG ipc.NettyServer: [id: 0x7125a165, /127.0.0.1:63260 => /127.0.0.1:63238] BOUND: /127.0.0.1:63238
+26/10/11 20:57:21 DEBUG ipc.NettyServer: [id: 0x7125a165, /127.0.0.1:63260 => /127.0.0.1:63238] CONNECTED: /127.0.0.1:63260
+26/10/11 20:57:21 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd, /127.0.0.1:63260 => localhost/127.0.0.1:63238] CONNECTED: localhost/127.0.0.1:63238
+26/10/11 20:57:21 INFO master.FServerManager: Registering server=localhost,63241,1791770239736
+26/10/11 20:57:21 INFO master.FServerManager: Registering server=localhost,63240,1791770239685
+26/10/11 20:57:21 INFO master.FServerManager: Registering server=localhost,63242,1791770239785
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: wasp.zookeeper.quorum=localhost
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: wasp.zookeeper.quorum=localhost
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: wasp.zookeeper.quorum=localhost
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: zookeeper.wasp.znode.parent=/wasp
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: zookeeper.wasp.znode.parent=/wasp
+26/10/11 20:57:21 DEBUG fserver.FServer: Config from master: zookeeper.wasp.znode.parent=/wasp
+26/10/11 20:57:21 INFO fserver.FServer: Master passed us hostname to use. Was=localhost, Now=localhost
+26/10/11 20:57:21 INFO fserver.FServer: Master passed us hostname to use. Was=localhost, Now=localhost
+26/10/11 20:57:21 INFO fserver.FServer: Master passed us hostname to use. Was=localhost, Now=localhost
+26/10/11 20:57:21 INFO master.FServerManager: Finished waiting for fservers count to settle; checked in 3, slept for 51 ms, expecting minimum of 3, maximum of 3, master is running.
+26/10/11 20:57:21 WARN wasp.ZNodeClearer: No filename given to save the znode used, it won't be saved (Environment variable WASP_ZNODE_FILE is not set).
+26/10/11 20:57:21 WARN wasp.ZNodeClearer: No filename given to save the znode used, it won't be saved (Environment variable WASP_ZNODE_FILE is not set).
+26/10/11 20:57:21 WARN wasp.ZNodeClearer: No filename given to save the znode used, it won't be saved (Environment variable WASP_ZNODE_FILE is not set).
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63240,1791770239685
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_OPEN_ENTITYGROUP-localhost,63241,1791770239736, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 INFO master.AssignmentManager: Clean cluster startup. Assigning user entityGroups
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_OPEN_ENTITYGROUP-localhost,63240,1791770239685, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_OPEN_ENTITYGROUP-localhost,63242,1791770239785, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_CLOSE_ENTITYGROUP-localhost,63240,1791770239685, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_CLOSE_ENTITYGROUP-localhost,63241,1791770239736, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG executor.ExecutorService: Starting executor service name=FSERVER_CLOSE_ENTITYGROUP-localhost,63242,1791770239785, corePoolSize=3, maxPoolSize=3
+26/10/11 20:57:21 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Deleting any existing unassigned nodes
+26/10/11 20:57:21 INFO fserver.FServer: Serving as localhost,63242,1791770239785, RPC listening on localhost/127.0.0.1:63242, sessionid=0xffa12dd4034c000b
+26/10/11 20:57:21 INFO fserver.FServer: Serving as localhost,63240,1791770239685, RPC listening on localhost/127.0.0.1:63240, sessionid=0xffa12dd4034c000a
+26/10/11 20:57:21 INFO fserver.FServer: Serving as localhost,63241,1791770239736, RPC listening on localhost/127.0.0.1:63241, sessionid=0xffa12dd4034c000c
+26/10/11 20:57:21 INFO master.FMaster: Master has completed initialization
+26/10/11 20:57:21 INFO wasp.WaspTestingUtility: Wasp Minicluster is up
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@4a891c97 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:21 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:21 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63261
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@4a891c97 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:21 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@4a891c97-0xffa12dd4034c000d connected
+26/10/11 20:57:21 DEBUG zookeeper.ZKUtil: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@4a891c97-0xffa12dd4034c000d Retrieved 22 byte(s) of data from znode /wasp/master; data=\x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:21 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.master.FMasterAdminProtocol
+26/10/11 20:57:21 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]} exists =false
+26/10/11 20:57:21 INFO handler.CreateTableHandler: lock table 'TEST_TABLE' by CreateIndexHandler
+26/10/11 20:57:21 INFO handler.CreateTableHandler: Attempting to create the table TEST_TABLE
+26/10/11 20:57:21 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta checkAndPut {"totalColumns":1,"row":"#schema#TEST_TABLE","families":{"info":[{"qualifier":"tableinfo","vlen":419,"timestamp":9223372036854775807}]}}
+26/10/11 20:57:21 DEBUG meta.FMetaScanner: Scanning _FMETA_ starting at row=TEST_TABLE for max=2147483647 rows 
+26/10/11 20:57:22 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63269
+26/10/11 20:57:22 DEBUG meta.FMetaScanner: Scanning _FMETA_ starting at row=TEST_TABLE for max=2147483647 rows 
+26/10/11 20:57:22 DEBUG meta.FMetaServicesImplWithoutRetry:  Put rowKey : TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:22 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Put [{"totalColumns":1,"row":"TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.","families":{"info":[{"qualifier":"eginfo","vlen":27,"timestamp":9223372036854775807}]}}]
+26/10/11 20:57:22 INFO master.AssignmentManager: Bulk assigning 1 entityGroup(s) round-robin across 3 server(s)
+26/10/11 20:57:22 DEBUG master.AssignmentManager: Bulk assigning 1 entityGroup(s) to localhost,63240,1791770239685
+26/10/11 20:57:22 DEBUG master.GeneralBulkAssigner: Timeout-on-RIT=151000
+26/10/11 20:57:22 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770242619, server=null} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770242630, server=null}
+26/10/11 20:57:22 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Async create of unassigned node for d980b4cb326701a867c10f73e78f9ae8 with OFFLINE state
+26/10/11 20:57:22 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:22 DEBUG master.OfflineCallback: rs={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770242619, server=null}, server=localhost,63240,1791770239685
+26/10/11 20:57:22 DEBUG master.OfflineCallback$ExistCallback: rs={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770242619, server=null}, server=localhost,63240,1791770239685
+26/10/11 20:57:22 INFO master.AssignmentManager: localhost,63240,1791770239685 unassigned znodes=1 of total=1
+26/10/11 20:57:22 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770242630, server=null} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770242646, server=localhost,63240,1791770239685}
+26/10/11 20:57:22 DEBUG master.FServerManager: New connection to localhost,63240,1791770239685
+26/10/11 20:57:22 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.fserver.AdminProtocol
+26/10/11 20:57:22 DEBUG ipc.NettyTransceiver: Using Netty bootstrap options: {connectTimeoutMillis=3000, tcpNoDelay=true}
+26/10/11 20:57:22 DEBUG ipc.NettyTransceiver: Connecting to localhost/127.0.0.1:63240
+26/10/11 20:57:22 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab] OPEN
+26/10/11 20:57:22 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 => /127.0.0.1:63240] OPEN
+26/10/11 20:57:22 INFO ipc.NettyTransceiver: Successfully connected to bookie: localhost/127.0.0.1:63240
+26/10/11 20:57:22 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 => /127.0.0.1:63240] BOUND: /127.0.0.1:63240
+26/10/11 20:57:22 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab, /127.0.0.1:63272 => localhost/127.0.0.1:63240] BOUND: /127.0.0.1:63272
+26/10/11 20:57:22 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab, /127.0.0.1:63272 => localhost/127.0.0.1:63240] CONNECTED: localhost/127.0.0.1:63240
+26/10/11 20:57:22 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 => /127.0.0.1:63240] CONNECTED: /127.0.0.1:63272
+26/10/11 20:57:22 INFO fserver.FServer: Received request to open entityGroup: TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.from /127.0.0.1:63272
+26/10/11 20:57:22 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:22 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_OFFLINE to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:22 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=M_ZK_ENTITYGROUP_OFFLINE, servername=localhost,63240,1791770239685, createTime=1791770242633, payload.length=0
+26/10/11 20:57:22 DEBUG master.AssignmentManager: Bulk assigning done for localhost,63240,1791770239685
+26/10/11 20:57:22 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_OFFLINE to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:22 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:22 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63240,1791770239685, createTime=1791770242683, payload.length=0
+26/10/11 20:57:22 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENING, server=localhost,63240,1791770239685, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770242646, server=localhost,63240,1791770239685}
+26/10/11 20:57:22 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770242646, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770242691, server=localhost,63240,1791770239685}
+26/10/11 20:57:22 INFO fserver.EntityGroup: EntityGroup.openEntityGroup EntityGroup name ==TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:22 DEBUG fserver.EntityGroup: Opening EntityGroup: {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}
+26/10/11 20:57:22 DEBUG fserver.MetricsEntityGroupSourceImpl: Creating new MetricsEntityGroupSourceImpl for table TEST_TABLE d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:22 DEBUG fserver.EntityGroup: Instantiated TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:22 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63273
+26/10/11 20:57:22 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63285
+26/10/11 20:57:23 DEBUG meta.FMetaScanner: Scanning _FMETA_ starting at row=TEST_TABLE for max=2147483647 rows 
+26/10/11 20:57:23 DEBUG wasp.EntityGroupInfo: Current INFO from scan results = {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}
+26/10/11 20:57:23 INFO redo.RedoLog: Init {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} redolog, maxTransactionID = -9223372036854775808
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:23 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63240,1791770239685, createTime=1791770242683, payload.length=0
+26/10/11 20:57:23 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:23 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63240,1791770239685, createTime=1791770243823, payload.length=0
+26/10/11 20:57:23 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENING, server=localhost,63240,1791770239685, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770242691, server=localhost,63240,1791770239685}
+26/10/11 20:57:23 INFO fserver.FServer: Post open deploy tasks for entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., daughter=false
+26/10/11 20:57:23 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770242691, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770243829, server=localhost,63240,1791770239685}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Put {"totalColumns":1,"row":"TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.","families":{"info":[{"qualifier":"eglocation","vlen":22,"timestamp":9223372036854775807}]}}
+26/10/11 20:57:23 INFO fserver.FServer: Done with post open deploy task for entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., daughter=false
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:23 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63240,1791770239685, createTime=1791770243823, payload.length=0
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:23 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:23 DEBUG handler.OpenEntityGroupHandler: entityGroup transitioned to opened in zookeeper: {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}, server: localhost,63240,1791770239685
+26/10/11 20:57:23 DEBUG handler.OpenEntityGroupHandler: Opened TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. on server:localhost,63240,1791770239685
+26/10/11 20:57:23 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENED, servername=localhost,63240,1791770239685, createTime=1791770243851, payload.length=0
+26/10/11 20:57:23 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENED, server=localhost,63240,1791770239685, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770243829, server=localhost,63240,1791770239685}
+26/10/11 20:57:23 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770243829, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770243852, server=localhost,63240,1791770239685}
+26/10/11 20:57:23 DEBUG handler.OpenedEntityGroupHandler: Handling OPENED event for TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. from localhost,63240,1791770239685; deleting unassigned node
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Deleting existing unassigned node for d980b4cb326701a867c10f73e78f9ae8 that is in expected state FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:23 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENED, servername=localhost,63240,1791770239685, createTime=1791770243851, payload.length=0
+26/10/11 20:57:23 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:23 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Successfully deleted unassigned node for entityGroup d980b4cb326701a867c10f73e78f9ae8 in expected state FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:23 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:23 DEBUG master.AssignmentManager: The znode of entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. has been deleted.
+26/10/11 20:57:23 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770243852, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770243860, server=localhost,63240,1791770239685}
+26/10/11 20:57:23 INFO master.EntityGroupStates: Onlined entityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} on localhost,63240,1791770239685
+26/10/11 20:57:23 DEBUG master.GeneralBulkAssigner: bulk assigning total 1 entityGroups to 3 servers, took 1235ms, successfully
+26/10/11 20:57:23 INFO master.AssignmentManager: Bulk assigning done
+26/10/11 20:57:23 DEBUG master.FServerManager: New connection to localhost,63241,1791770239736
+26/10/11 20:57:23 INFO master.AssignmentManager: The master has opened the entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. that was online on localhost,63240,1791770239685
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: Using Netty bootstrap options: {connectTimeoutMillis=3000, tcpNoDelay=true}
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: Connecting to localhost/127.0.0.1:63241
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20] OPEN
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 => /127.0.0.1:63241] OPEN
+26/10/11 20:57:23 INFO ipc.NettyTransceiver: Successfully connected to bookie: localhost/127.0.0.1:63241
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 => /127.0.0.1:63241] BOUND: /127.0.0.1:63241
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20, /127.0.0.1:63289 => localhost/127.0.0.1:63241] BOUND: /127.0.0.1:63289
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 => /127.0.0.1:63241] CONNECTED: /127.0.0.1:63289
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20, /127.0.0.1:63289 => localhost/127.0.0.1:63241] CONNECTED: localhost/127.0.0.1:63241
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG client.FConnectionManager$FConnectionImplementation: Cached location for TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. is localhost:63240
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG master.FServerManager: New connection to localhost,63242,1791770239785
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: Using Netty bootstrap options: {connectTimeoutMillis=3000, tcpNoDelay=true}
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: Connecting to localhost/127.0.0.1:63242
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x7f340428] OPEN
+26/10/11 20:57:23 INFO ipc.NettyTransceiver: Successfully connected to bookie: localhost/127.0.0.1:63242
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 => /127.0.0.1:63242] CONNECTED: /127.0.0.1:63290
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 => /127.0.0.1:63242] BOUND: /127.0.0.1:63242
+26/10/11 20:57:23 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 => /127.0.0.1:63242] OPEN
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x7f340428, /127.0.0.1:63290 => localhost/127.0.0.1:63242] BOUND: /127.0.0.1:63290
+26/10/11 20:57:23 DEBUG ipc.NettyTransceiver: [id: 0x7f340428, /127.0.0.1:63290 => localhost/127.0.0.1:63242] CONNECTED: localhost/127.0.0.1:63242
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:23 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:24 DEBUG meta.FMetaScanner: Scanning _FMETA_ starting at row=TEST_TABLE for max=2147483647 rows 
+26/10/11 20:57:24 DEBUG wasp.EntityGroupInfo: Current INFO from scan results = {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: fconnection opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:24 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:24 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63291
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: fconnection Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: fconnection Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x00
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0011 connected
+26/10/11 20:57:24 INFO client.WaspAdmin: Started disable of TEST_TABLE
+26/10/11 20:57:24 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:24 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]} exists =true
+26/10/11 20:57:24 INFO handler.DisableTableHandler: lock table 'TEST_TABLE' by DisableTableHandler
+26/10/11 20:57:24 INFO handler.DisableTableHandler: Attempting to disable table TEST_TABLE
+26/10/11 20:57:24 INFO handler.DisableTableHandler: Offlining TEST_TABLE's 1 entityGroups.
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x02
+26/10/11 20:57:24 DEBUG client.WaspAdmin: Sleeping= 1000ms, waiting for all entityGroups to be disabled in TEST_TABLE
+26/10/11 20:57:24 DEBUG master.AssignmentManager: Starting unassignment of entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. (offlining)
+26/10/11 20:57:24 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Creating unassigned node for d980b4cb326701a867c10f73e78f9ae8 in a CLOSING state
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:24 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770243860, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_CLOSE, ts=1791770244719, server=localhost,63240,1791770239685}
+26/10/11 20:57:24 INFO fserver.FServer: Received close entityGroup: d980b4cb326701a867c10f73e78f9ae8. Use ZK:true from /127.0.0.1:63272
+26/10/11 20:57:24 INFO fserver.FServer: Received close entityGroup: TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.. Version of ZK closing node:0 from /127.0.0.1:63272
+26/10/11 20:57:24 DEBUG handler.CloseEntityGroupHandler: Processing close of TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG fserver.EntityGroup: Closing TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG fserver.EntityGroup: Updates disabled for entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG master.AssignmentManager: Sent CLOSE to localhost,63240,1791770239685 for entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 ERROR fserver.EntityGroup: Getting last uncommited transaction of redo log failed
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.alibaba.wasp.fserver.redo.RedoLog.lastUnCommitedTransaction(RedoLog.java:190)
+	at com.alibaba.wasp.fserver.EntityGroup.run(EntityGroup.java:1263)
+	at java.lang.Thread.run(Thread.java:750)
+26/10/11 20:57:24 INFO fserver.EntityGroup: Running commit transaction of TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. before close
+26/10/11 20:57:24 INFO fserver.EntityGroup: Closed TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_CLOSING to FSERVER_ZK_ENTITYGROUP_CLOSED
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a Retrieved 96 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=M_ZK_ENTITYGROUP_CLOSING, servername=localhost,63240,1791770239685, createTime=1791770244718, payload.length=0
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:24 DEBUG zookeeper.ZKAssign: fserver:63240-0xffa12dd4034c000a Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_CLOSING to FSERVER_ZK_ENTITYGROUP_CLOSED
+26/10/11 20:57:24 DEBUG handler.CloseEntityGroupHandler: set entityGroup closed state in zk successfully for entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. sn name: localhost,63240,1791770239685
+26/10/11 20:57:24 DEBUG handler.CloseEntityGroupHandler: Closed entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_CLOSED, servername=localhost,63240,1791770239685, createTime=1791770244733, payload.length=0
+26/10/11 20:57:24 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_CLOSED, server=localhost,63240,1791770239685, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_CLOSE, ts=1791770244719, server=localhost,63240,1791770239685}
+26/10/11 20:57:24 WARN master.EntityGroupStates: Closed entityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} still on localhost,63240,1791770239685? Ignored, reset it to null
+26/10/11 20:57:24 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_CLOSE, ts=1791770244719, server=localhost,63240,1791770239685} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=CLOSED, ts=1791770244736, server=null}
+26/10/11 20:57:24 DEBUG handler.ClosedEntityGroupHandler: Handling CLOSED event for d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:24 DEBUG master.AssignmentManager: Table being disabled so deleting ZK node and removing from entityGroups in transition, skipping assignment of entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:24 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Deleting existing unassigned node for d980b4cb326701a867c10f73e78f9ae8 that is in expected state FSERVER_ZK_ENTITYGROUP_CLOSED
+26/10/11 20:57:24 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_CLOSED, servername=localhost,63240,1791770239685, createTime=1791770244733, payload.length=0
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:24 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Successfully deleted unassigned node for entityGroup d980b4cb326701a867c10f73e78f9ae8 in expected state FSERVER_ZK_ENTITYGROUP_CLOSED
+26/10/11 20:57:24 DEBUG master.EntityGroupStates: Offline a entityGroup with current state=CLOSED, expected state=OFFLINE, assigned to server: null, expected null
+26/10/11 20:57:24 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:24 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=CLOSED, ts=1791770244736, server=null} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770244740, server=null}
+26/10/11 20:57:24 INFO master.EntityGroupStates: Offlined entityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} from localhost,63240,1791770239685
+26/10/11 20:57:25 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x02
+26/10/11 20:57:25 DEBUG client.WaspAdmin: Sleeping= 1000ms, waiting for all entityGroups to be disabled in TEST_TABLE
+26/10/11 20:57:25 INFO handler.DisableTableHandler: Disabled table 'TEST_TABLE' is done=true
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x01
+26/10/11 20:57:26 INFO client.WaspAdmin: Disabled TEST_TABLE
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: fclient: opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:26 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:26 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63292
+26/10/11 20:57:26 DEBUG zookeeper.ZooKeeperWatcher: fclient: Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: fclient: Set watcher on existing znode /wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: fclient: Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: fclient: Set watcher on existing znode /wasp/fs/localhost,63240,1791770239685
+26/10/11 20:57:26 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 connected
+26/10/11 20:57:26 DEBUG ipc.WaspRPC: Using com.alibaba.wasp.ipc.ProtobufRpcEngine for com.alibaba.wasp.client.ClientProtocol
+26/10/11 20:57:26 DEBUG druid.DruidParser: Parsing SQL create index test_index on TEST_TABLE(column3);
+26/10/11 20:57:26 DEBUG druid.DruidDDLParser: Create Index SQL IndexName test_index
+26/10/11 20:57:26 DEBUG druid.DruidDDLParser: Create Index SQL TableName TEST_TABLE
+26/10/11 20:57:26 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:26 DEBUG druid.DruidDDLParser: CreateIndexPlan CreateIndexPlan [index=com.alibaba.wasp.meta.Index@760d2b72]
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81 opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:26 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:26 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63293
+26/10/11 20:57:26 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81 Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:26 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81-0xffa12dd4034c0013 connected
+26/10/11 20:57:26 DEBUG zookeeper.ZKUtil: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81-0xffa12dd4034c0013 Retrieved 22 byte(s) of data from znode /wasp/master; data=\x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:27 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]} exists =true
+26/10/11 20:57:27 INFO handler.CreateIndexHandler: lock table 'TEST_TABLE' by CreateIndexHandler
+26/10/11 20:57:27 INFO handler.TableEventHandler: Handling table operation C_M_CREATE_INDEX on table TEST_TABLE
+26/10/11 20:57:27 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:27 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]} exists =true
+26/10/11 20:57:27 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Put {"totalColumns":1,"row":"#schema#TEST_TABLE","families":{"info":[{"qualifier":"index.test_index","vlen":59,"timestamp":9223372036854775807}]}}
+26/10/11 20:57:27 INFO client.WaspAdmin: Wait 0 s, for TEST_TABLE to be not locked.
+26/10/11 20:57:28 INFO client.WaspAdmin: Wait 1 s, for TEST_TABLE to be not locked.
+26/10/11 20:57:29 INFO client.WaspAdmin: Started enable of TEST_TABLE
+26/10/11 20:57:29 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]} exists =true
+26/10/11 20:57:29 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:29 INFO handler.EnableTableHandler: lock table 'TEST_TABLE' by EnableTableHandler
+26/10/11 20:57:29 INFO handler.EnableTableHandler: Attempting to enable the table TEST_TABLE
+26/10/11 20:57:29 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x03
+26/10/11 20:57:29 DEBUG client.WaspAdmin: Sleeping= 1000ms, waiting for all entityGroups to be enabled in TEST_TABLE
+26/10/11 20:57:29 INFO handler.EnableTableHandler: Table 'TEST_TABLE' has 1 entityGroups, of which 1 are offline.
+26/10/11 20:57:29 DEBUG master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. so generated a random one; egi=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., src=, dest=localhost,63241,1791770239736; 3 (online=3, available=3) available servers
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770244740, server=null} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770249099, server=null}
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Creating (or updating) unassigned node for d980b4cb326701a867c10f73e78f9ae8 with OFFLINE state
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:29 INFO master.AssignmentManager: Assigning entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. to localhost,63241,1791770239736
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OFFLINE, ts=1791770249099, server=null} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770249101, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 INFO fserver.FServer: Received request to open entityGroup: TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.from /127.0.0.1:63289
+26/10/11 20:57:29 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_OFFLINE to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 96 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=M_ZK_ENTITYGROUP_OFFLINE, servername=localhost,63241,1791770239736, createTime=1791770249099, payload.length=0
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from M_ZK_ENTITYGROUP_OFFLINE to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:29 INFO fserver.EntityGroup: EntityGroup.openEntityGroup EntityGroup name ==TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:29 DEBUG fserver.EntityGroup: Opening EntityGroup: {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63241,1791770239736, createTime=1791770249108, payload.length=0
+26/10/11 20:57:29 DEBUG fserver.MetricsEntityGroupSourceImpl: Creating new MetricsEntityGroupSourceImpl for table TEST_TABLE d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:29 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENING, server=localhost,63241,1791770239736, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770249101, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=PENDING_OPEN, ts=1791770249101, server=localhost,63241,1791770239736} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249111, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 DEBUG fserver.EntityGroup: Instantiated TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:29 INFO server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:63301
+26/10/11 20:57:29 INFO redo.RedoLog: Init {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} redolog, maxTransactionID = -9223372036854775808
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63241,1791770239736, createTime=1791770249108, payload.length=0
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENING
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:29 INFO fserver.FServer: Post open deploy tasks for entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., daughter=false
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63241,1791770239736, createTime=1791770249163, payload.length=0
+26/10/11 20:57:29 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENING, server=localhost,63241,1791770239736, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249111, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249111, server=localhost,63241,1791770239736} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249169, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Put {"totalColumns":1,"row":"TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.","families":{"info":[{"qualifier":"eglocation","vlen":22,"timestamp":9223372036854775807}]}}
+26/10/11 20:57:29 INFO fserver.FServer: Done with post open deploy task for entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., daughter=false
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Attempting to transition node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENING, servername=localhost,63241,1791770239736, createTime=1791770249163, payload.length=0
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: fserver:63241-0xffa12dd4034c000c Successfully transitioned node d980b4cb326701a867c10f73e78f9ae8 from FSERVER_ZK_ENTITYGROUP_OPENING to FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:29 DEBUG handler.OpenEntityGroupHandler: entityGroup transitioned to opened in zookeeper: {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,}, server: localhost,63241,1791770239736
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDataChanged, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:29 DEBUG handler.OpenEntityGroupHandler: Opened TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. on server:localhost,63241,1791770239736
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8 and set watcher; entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENED, servername=localhost,63241,1791770239736, createTime=1791770249180, payload.length=0
+26/10/11 20:57:29 DEBUG master.AssignmentManager: Handling transition=FSERVER_ZK_ENTITYGROUP_OPENED, server=localhost,63241,1791770239736, entityGroup=d980b4cb326701a867c10f73e78f9ae8, current state from entityGroup state map ={TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249169, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPENING, ts=1791770249169, server=localhost,63241,1791770239736} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770249181, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 DEBUG handler.OpenedEntityGroupHandler: Handling OPENED event for TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. from localhost,63241,1791770239736; deleting unassigned node
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Deleting existing unassigned node for d980b4cb326701a867c10f73e78f9ae8 that is in expected state FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:29 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 94 byte(s) of data from znode /wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8; data=entityGroup=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8., state=FSERVER_ZK_ENTITYGROUP_OPENED, servername=localhost,63241,1791770239736, createTime=1791770249180, payload.length=0
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/unassigned/d980b4cb326701a867c10f73e78f9ae8
+26/10/11 20:57:29 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/unassigned
+26/10/11 20:57:29 DEBUG zookeeper.ZKAssign: master:63238-0xffa12dd4034c0008 Successfully deleted unassigned node for entityGroup d980b4cb326701a867c10f73e78f9ae8 in expected state FSERVER_ZK_ENTITYGROUP_OPENED
+26/10/11 20:57:29 DEBUG master.AssignmentManager: The znode of entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. has been deleted.
+26/10/11 20:57:29 INFO master.EntityGroupStates: EntityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} transitioned from {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770249181, server=localhost,63241,1791770239736} to {TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. state=OPEN, ts=1791770249184, server=localhost,63241,1791770239736}
+26/10/11 20:57:29 INFO master.EntityGroupStates: Onlined entityGroup {NAME => 'TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.', STARTKEY => '', ENDKEY => '', ENCODED => d980b4cb326701a867c10f73e78f9ae8,} on localhost,63241,1791770239736
+26/10/11 20:57:29 INFO master.AssignmentManager: The master has opened the entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. that was online on localhost,63241,1791770239736
+26/10/11 20:57:30 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x03
+26/10/11 20:57:30 DEBUG client.WaspAdmin: Sleeping= 1000ms, waiting for all entityGroups to be enabled in TEST_TABLE
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG client.FConnectionManager$FConnectionImplementation: Cached location for TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. is localhost:63241
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 DEBUG meta.FMetaServicesImplWithoutRetry: FMeta Get {"cacheBlocks":true,"totalColumns":0,"row":"#schema#TEST_TABLE","families":{},"maxVersions":1,"timeRange":[0,9223372036854775807]}
+26/10/11 20:57:30 INFO handler.EnableTableHandler: Table 'TEST_TABLE' was successfully enabled. Status: done=true
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0011 Retrieved 2 byte(s) of data from znode /wasp/table/TEST_TABLE; data=\x08\x00
+26/10/11 20:57:31 INFO client.WaspAdmin: Enabled table TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidParser: Parsing SQL Insert into TEST_TABLE (column1,column2,column3) values (7,234,'abc');
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL TableSource TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: From table TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column1
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column2
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column3
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL Insert columns [column1, column2, column3]
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL Insert Values List [ VALUES (7, 234, 'abc')]
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fconnection opening connection to ZooKeeper with ensemble (localhost:56084)
+26/10/11 20:57:31 INFO zookeeper.RecoverableZooKeeper: The identifier of this process is 63527@Shivams-MacBook-Air.local
+26/10/11 20:57:31 INFO server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:63302
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fconnection Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fconnection Set watcher on existing znode /wasp/master
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fconnection Retrieved 22 byte(s) of data from znode /wasp/master and set watcher; \x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: InsertPlan InsertPlan [actions=[InsertAction [tableName=TEST_TABLE, primayKey=[0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, -22], columns=[ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column1, value=[0, 0, 0, 7], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column2, value=[0, 0, 0, 0, 0, 0, 0, -22], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column3, value=[97, 98, 99], isIndex=false]]]]]
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0015 connected
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: prepareInsertEntity indexs:[com.alibaba.wasp.meta.Index@1f9fbf13]
+26/10/11 20:57:31 DEBUG redo.RedoLog: RedoLog Append Transaction:1791770251185
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: EntityGroup commitTransaction:1791770251185
+26/10/11 20:57:31 DEBUG execute.ExecutionEngine: ExecInsertPlan:InsertPlan [actions=[InsertAction [tableName=TEST_TABLE, primayKey=[0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, -22], columns=[ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column1, value=[0, 0, 0, 7], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column2, value=[0, 0, 0, 0, 0, 0, 0, -22], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column3, value=[97, 98, 99], isIndex=false]]]]],SUCCESS:1
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: InsurePut tableName:WASP_INDEX_TEST_TABLE_test_index Put {"totalColumns":1,"row":"abc\\x00TEST_TABLE_\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xEA","families":{"s":[{"qualifier":"rowkey","vlen":24,"timestamp":1791770251185}]}}
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: InsurePut tableName:WASP_ENTITY_TEST_TABLE Put {"totalColumns":3,"row":"TEST_TABLE_\\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xEA","families":{"d":[{"qualifier":"column1","vlen":4,"timestamp":1791770251185},{"qualifier":"column2","vlen":8,"timestamp":1791770251185},{"qualifier":"column3","vlen":3,"timestamp":1791770251185}]}}
+26/10/11 20:57:31 INFO client.TestFromClientSide: rs begin after insert
+26/10/11 20:57:31 INFO client.TestFromClientSide: rs table after insert
+26/10/11 20:57:31 DEBUG redo.RedoLog: RedoLog Commit Transaction:1791770251185
+26/10/11 20:57:31 INFO client.TestFromClientSide: row:TEST_TABLE_           �
+26/10/11 20:57:31 INFO client.TestFromClientSide: row length:24
+26/10/11 20:57:31 INFO client.TestFromClientSide: family:d
+26/10/11 20:57:31 INFO client.TestFromClientSide: qualifier:column1
+26/10/11 20:57:31 INFO client.TestFromClientSide: value:   
+26/10/11 20:57:31 INFO client.TestFromClientSide: value length:4
+26/10/11 20:57:31 INFO client.TestFromClientSide: timestamp:1791770251185
+26/10/11 20:57:31 INFO client.TestFromClientSide: row:TEST_TABLE_           �
+26/10/11 20:57:31 INFO client.TestFromClientSide: row length:24
+26/10/11 20:57:31 INFO client.TestFromClientSide: family:d
+26/10/11 20:57:31 INFO client.TestFromClientSide: qualifier:column2
+26/10/11 20:57:31 INFO client.TestFromClientSide: value:       �
+26/10/11 20:57:31 INFO client.TestFromClientSide: value length:8
+26/10/11 20:57:31 INFO client.TestFromClientSide: timestamp:1791770251185
+26/10/11 20:57:31 INFO client.TestFromClientSide: row:TEST_TABLE_           �
+26/10/11 20:57:31 INFO client.TestFromClientSide: row length:24
+26/10/11 20:57:31 INFO client.TestFromClientSide: family:d
+26/10/11 20:57:31 INFO client.TestFromClientSide: qualifier:column3
+26/10/11 20:57:31 INFO client.TestFromClientSide: value:abc
+26/10/11 20:57:31 INFO client.TestFromClientSide: value length:3
+26/10/11 20:57:31 INFO client.TestFromClientSide: timestamp:1791770251185
+26/10/11 20:57:31 INFO client.TestFromClientSide: rs index, table name = WASP_INDEX_TEST_TABLE_test_index
+26/10/11 20:57:31 INFO client.TestFromClientSide: rs end
+26/10/11 20:57:31 DEBUG druid.DruidParser: Parsing SQL select column1,column2,column3,column4,column5 from TEST_TABLE where column1=7 and column3='abc';
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: SELECT SQL TableSource TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser:  SQLSelectItem column1
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser:  SQLSelectItem column2
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser:  SQLSelectItem column3
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser:  SQLSelectItem column4
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser:  SQLSelectItem column5
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: SELECT SQL:Select columns [column1, column2, column3, column4, column5]
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: SELECT SQL:where column1 = 7 AND column3 = 'abc'
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: ActionInfo TYPE: null
+2 Filter Field:
+	Field column1  Type EQUAL Value 7
+	Field column3  Type EQUAL Value abc
+	
+
+
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: SCAN startKey abc\x00 endKey abc\x01
+26/10/11 20:57:31 DEBUG druid.DruidDQLParser: QueryPlan LocalQueryPlan [scanAction=ScanAction [readerMode=CURRENT, indexTableName=WASP_INDEX_TEST_TABLE_test_index, entityTableName=TEST_TABLE, startKey=[97, 98, 99, 0], endKey=[97, 98, 99, 1], limit=-1, batch=-1, storingColumns=[], columns=[ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column1, value=null, isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column2, value=null, isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column3, value=null, isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column4, value=null, isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column5, value=null, isIndex=false]]], getAction=null, fetchRows=0]
+26/10/11 20:57:31 DEBUG druid.DruidParser: Parsing SQL Insert into TEST_TABLE (column1,column2,column3) values (7,234,'def');
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL TableSource TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: From table TEST_TABLE
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column1
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column2
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser:  SQLInsertItem column3
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL Insert columns [column1, column2, column3]
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: INSERT SQL Insert Values List [ VALUES (7, 234, 'def')]
+26/10/11 20:57:31 DEBUG druid.DruidDMLParser: InsertPlan InsertPlan [actions=[InsertAction [tableName=TEST_TABLE, primayKey=[0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, -22], columns=[ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column1, value=[0, 0, 0, 7], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column2, value=[0, 0, 0, 0, 0, 0, 0, -22], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column3, value=[100, 101, 102], isIndex=false]]]]]
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: prepareInsertEntity indexs:[com.alibaba.wasp.meta.Index@1f9fbf13]
+26/10/11 20:57:31 ERROR fserver.EntityGroup: PrepareInsertEntity failed.
+com.alibaba.wasp.PrimaryKeyAlreadyExistsException:            �
+	at com.alibaba.wasp.storage.StorageServicesImpl.checkRowExistsBeforeInsert(StorageServicesImpl.java:67)
+	at com.alibaba.wasp.fserver.EntityGroup.prepareInsertEntity(EntityGroup.java:548)
+	at com.alibaba.wasp.fserver.EntityGroup.insert(EntityGroup.java:412)
+	at com.alibaba.wasp.fserver.FServer.insert(FServer.java:2207)
+	at com.alibaba.wasp.fserver.FServer.insert(FServer.java:1497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.alibaba.wasp.ipc.ProtobufRpcEngine$Server.call(ProtobufRpcEngine.java:270)
+	at com.alibaba.wasp.ipc.NettyServer$NettyServerWaspHandler.messageReceived(NettyServer.java:234)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:75)
+	at com.alibaba.wasp.ipc.NettyServer$NettyServerWaspHandler.handleUpstream(NettyServer.java:171)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:563)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable.doRun(ChannelUpstreamEventRunnable.java:45)
+	at org.jboss.netty.handler.execution.ChannelEventRunnable.run(ChannelEventRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+26/10/11 20:57:31 DEBUG execute.ExecutionEngine: ExecInsertPlan:InsertPlan [actions=[InsertAction [tableName=TEST_TABLE, primayKey=[0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, -22], columns=[ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column1, value=[0, 0, 0, 7], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column2, value=[0, 0, 0, 0, 0, 0, 0, -22], isIndex=false], ColumnAction [tableName=TEST_TABLE, familyName=d, columnName=column3, value=[100, 101, 102], isIndex=false]]]]],SUCCESS:1
+26/10/11 20:57:31 INFO wasp.WaspTestingUtility: Shutting down mini wasp cluster
+26/10/11 20:57:31 DEBUG util.JVMClusterUtil: Shutting down HBase Cluster
+26/10/11 20:57:31 INFO master.FMaster: Cluster shutdown requested
+26/10/11 20:57:31 INFO master.FServerManager: Waiting on fserver(s) to go down localhost,63241,1791770239736, localhost,63242,1791770239785, localhost,63240,1791770239685
+26/10/11 20:57:31 INFO balancer.BalancerChore: localhost,63238,1791770236566-BalancerChore exiting
+26/10/11 20:57:31 INFO balancer.ClusterStatusChore: localhost,63238,1791770236566-ClusterStatusChore exiting
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fserver:63240-0xffa12dd4034c000a Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:31 INFO fserver.FServer: STOPPED: Shutdown requested
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fserver:63242-0xffa12dd4034c000b Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fserver:63241-0xffa12dd4034c000c Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/shutdown
+26/10/11 20:57:31 INFO ipc.NettyServer: Stopping server on 0
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fserver:63240-0xffa12dd4034c000a /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fserver:63242-0xffa12dd4034c000b /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fserver:63241-0xffa12dd4034c000c /wasp/shutdown does not exist. Watcher is set.
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab, /127.0.0.1:63272 :> localhost/127.0.0.1:63240] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab, /127.0.0.1:63272 :> localhost/127.0.0.1:63240] UNBOUND
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 :> /127.0.0.1:63240] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x6d2585ab, /127.0.0.1:63272 :> localhost/127.0.0.1:63240] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 :> /127.0.0.1:63240] UNBOUND
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Remote peer localhost/127.0.0.1:63240 closed connection.
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x42f90b13, /127.0.0.1:63272 :> /127.0.0.1:63240] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Disconnecting from localhost/127.0.0.1:63240
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63240,1791770239685
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63240,1791770239685; all entityGroups closed.
+26/10/11 20:57:31 INFO fserver.Leases: FServer:0;localhost,63240,1791770239685 closing leases
+26/10/11 20:57:31 INFO fserver.Leases: FServer:0;localhost,63240,1791770239685 closed leases
+26/10/11 20:57:31 DEBUG fserver.SplitThread: Waiting for Split Thread to finish...
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63240,1791770239685
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63240,1791770239685
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63240,1791770239685; zookeeper connection closed.
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63240,1791770239685]
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63240,1791770239685]
+26/10/11 20:57:31 INFO fserver.FServer: FServer:0;localhost,63240,1791770239685 exiting
+26/10/11 20:57:31 INFO fserver.FServer: STOPPED: Shutdown requested
+26/10/11 20:57:31 INFO master.FServerManager: Cluster shutdown set; localhost,63240,1791770239685 expired; onlineServers=2
+26/10/11 20:57:31 INFO ipc.NettyServer: Stopping server on 0
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20, /127.0.0.1:63289 :> localhost/127.0.0.1:63241] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 :> /127.0.0.1:63241] UNBOUND
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fclient:-0xffa12dd4034c0012 Set watcher on existing znode /wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 :> /127.0.0.1:63241] DISCONNECTED
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63241,1791770239736
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x6f9cb5a9, /127.0.0.1:63289 :> /127.0.0.1:63241] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20, /127.0.0.1:63289 :> localhost/127.0.0.1:63241] UNBOUND
+26/10/11 20:57:31 INFO fserver.FServer: Waiting on 1 entityGroups to close
+26/10/11 20:57:31 DEBUG handler.CloseEntityGroupHandler: Processing close of TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:31 DEBUG fserver.FServer: {d980b4cb326701a867c10f73e78f9ae8=TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.}
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x3a789e20, /127.0.0.1:63289 :> localhost/127.0.0.1:63241] CLOSED
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fclient:-0xffa12dd4034c0012 Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Remote peer localhost/127.0.0.1:63241 closed connection.
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Disconnecting from localhost/127.0.0.1:63241
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: Closing TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:31 DEBUG fserver.EntityGroup: Updates disabled for entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:31 ERROR fserver.EntityGroup: Getting last uncommited transaction of redo log failed
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at com.alibaba.wasp.fserver.redo.RedoLog.lastUnCommitedTransaction(RedoLog.java:190)
+	at com.alibaba.wasp.fserver.EntityGroup.run(EntityGroup.java:1263)
+	at java.lang.Thread.run(Thread.java:750)
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 INFO fserver.EntityGroup: Running commit transaction of TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8. before close
+26/10/11 20:57:31 INFO fserver.EntityGroup: Closed TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:31 DEBUG handler.CloseEntityGroupHandler: Closed entityGroup TEST_TABLE,,1791770241463.d980b4cb326701a867c10f73e78f9ae8.
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63241,1791770239736; all entityGroups closed.
+26/10/11 20:57:31 INFO fserver.Leases: FServer:1;localhost,63241,1791770239736 closing leases
+26/10/11 20:57:31 INFO fserver.Leases: FServer:1;localhost,63241,1791770239736 closed leases
+26/10/11 20:57:31 DEBUG fserver.SplitThread: Waiting for Split Thread to finish...
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63241,1791770239736]
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63241,1791770239736
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63241,1791770239736]
+26/10/11 20:57:31 INFO master.FServerManager: Cluster shutdown set; localhost,63241,1791770239736 expired; onlineServers=1
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63241,1791770239736; zookeeper connection closed.
+26/10/11 20:57:31 INFO fserver.FServer: FServer:1;localhost,63241,1791770239736 exiting
+26/10/11 20:57:31 INFO fserver.FServer: STOPPED: Shutdown requested
+26/10/11 20:57:31 INFO ipc.NettyServer: Stopping server on 0
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fclient:-0xffa12dd4034c0012 Set watcher on existing znode /wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x7f340428, /127.0.0.1:63290 :> localhost/127.0.0.1:63242] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x7f340428, /127.0.0.1:63290 :> localhost/127.0.0.1:63242] UNBOUND
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x7f340428, /127.0.0.1:63290 :> localhost/127.0.0.1:63242] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Remote peer localhost/127.0.0.1:63242 closed connection.
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Disconnecting from localhost/127.0.0.1:63242
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 :> /127.0.0.1:63242] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 :> /127.0.0.1:63242] UNBOUND
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x66e0a83d, /127.0.0.1:63290 :> /127.0.0.1:63242] CLOSED
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63242,1791770239785
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63242,1791770239785; all entityGroups closed.
+26/10/11 20:57:31 INFO fserver.Leases: FServer:2;localhost,63242,1791770239785 closing leases
+26/10/11 20:57:31 INFO fserver.Leases: FServer:2;localhost,63242,1791770239785 closed leases
+26/10/11 20:57:31 DEBUG fserver.SplitThread: Waiting for Split Thread to finish...
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/fs/localhost,63242,1791770239785
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63242,1791770239785]
+26/10/11 20:57:31 INFO zookeeper.FServerTracker: FServer ephemeral node deleted, processing expiration [localhost,63242,1791770239785]
+26/10/11 20:57:31 INFO master.FServerManager: Cluster shutdown set; localhost,63242,1791770239785 expired; onlineServers=0
+26/10/11 20:57:31 INFO master.FMaster: Cluster shutdown set; onlineServer=0
+26/10/11 20:57:31 DEBUG master.FMaster: Stopping service threads
+26/10/11 20:57:31 INFO ipc.NettyServer: Stopping server on 0
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: master:63238-0xffa12dd4034c0008 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=NodeChildrenChanged, state=SyncConnected, path=/wasp/fs
+26/10/11 20:57:31 INFO fserver.FServer: stopping server localhost,63242,1791770239785; zookeeper connection closed.
+26/10/11 20:57:31 INFO fserver.FServer: FServer:2;localhost,63242,1791770239785 exiting
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd, /127.0.0.1:63260 :> localhost/127.0.0.1:63238] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd, /127.0.0.1:63260 :> localhost/127.0.0.1:63238] UNBOUND
+26/10/11 20:57:31 INFO util.JVMClusterUtil: Shutdown of 1 master(s) and 3 fserver(s) complete
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x7125a165, localhost/127.0.0.1:63260 :> /127.0.0.1:63238] DISCONNECTED
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x7125a165, localhost/127.0.0.1:63260 :> /127.0.0.1:63238] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: [id: 0x2524b4cd, /127.0.0.1:63260 :> localhost/127.0.0.1:63238] CLOSED
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Remote peer localhost/127.0.0.1:63238 closed connection.
+26/10/11 20:57:31 INFO meta.StorageCleanChore: Master:0;localhost,63238,1791770236566.storageCleaner exiting
+26/10/11 20:57:31 DEBUG ipc.NettyServer: [id: 0x7125a165, localhost/127.0.0.1:63260 :> /127.0.0.1:63238] UNBOUND
+26/10/11 20:57:31 DEBUG ipc.NettyTransceiver: Disconnecting from localhost/127.0.0.1:63238
+26/10/11 20:57:31 INFO client.FConnectionManager$FConnectionImplementation: Closing zookeeper sessionid=0xffa12dd4034c000d
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: master:63238-0xffa12dd4034c0008 Retrieved 22 byte(s) of data from znode /wasp/master; data=\x0A\x09localhost\x10\x86\xEE...
+26/10/11 20:57:31 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0015 Received ZooKeeper Event, type=NodeDeleted, state=SyncConnected, path=/wasp/master
+26/10/11 20:57:31 INFO master.AssignmentManager$TimerUpdater: localhost,63238,1791770236566.timerUpdater exiting
+26/10/11 20:57:31 INFO master.AssignmentManager$TimeoutMonitor: localhost,63238,1791770236566.timeoutMonitor exiting
+26/10/11 20:57:31 DEBUG zookeeper.ZKUtil: fconnection-0xffa12dd4034c0015 /wasp/master does not exist. Watcher is set.
+26/10/11 20:57:31 INFO master.FMaster: FMaster main thread exiting
+26/10/11 20:57:33 INFO server.NIOServerCnxnFactory: NIOServerCnxn factory exited run method
+26/10/11 20:57:33 INFO server.SessionTrackerImpl: Shutting down
+26/10/11 20:57:33 INFO server.SyncRequestProcessor: Shutting down
+26/10/11 20:57:33 INFO server.SyncRequestProcessor: SyncRequestProcessor exited!
+26/10/11 20:57:33 INFO server.FinalRequestProcessor: shutdown of request processor complete
+Shutting down the Mini HDFS Cluster
+Shutting down DataNode 2
+26/10/11 20:57:34 INFO server.SessionTrackerImpl: SessionTrackerImpl exited loop!
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0011 Received ZooKeeper Event, type=None, state=Disconnected, path=null
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81-0xffa12dd4034c0013 Received ZooKeeper Event, type=None, state=Disconnected, path=null
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: com.alibaba.wasp.client.FConnectionManager$FConnectionImplementation@5644dc81-0xffa12dd4034c0013 Received Disconnected from ZooKeeper, ignoring
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received ZooKeeper Event, type=None, state=Disconnected, path=null
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fclient:-0xffa12dd4034c0012 Received Disconnected from ZooKeeper, ignoring
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0015 Received ZooKeeper Event, type=None, state=Disconnected, path=null
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0015 Received Disconnected from ZooKeeper, ignoring
+26/10/11 20:57:34 DEBUG zookeeper.ZooKeeperWatcher: fconnection-0xffa12dd4034c0011 Received Disconnected from ZooKeeper, ignoring
+Shutting down DataNode 1
+Shutting down DataNode 0
+26/10/11 20:57:35 INFO wasp.WaspTestingUtility: Minicluster is down
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.455 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+This location is not a good one. Go back and run minimizer again.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.830 s
+[INFO] Finished at: 2026-10-11T20:57:35-05:00
+[INFO] ------------------------------------------------------------------------

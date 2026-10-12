@@ -1,0 +1,228 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Vertexium                                                          [pom]
+[INFO] Vertexium: Core                                                    [jar]
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-root >--------------------
+[INFO] Building Vertexium 4.10.1-SNAPSHOT                                 [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.2/buildnumber-maven-plugin-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.2/buildnumber-maven-plugin-1.2.pom (13 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom (27 kB at 555 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.2/buildnumber-maven-plugin-1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/buildnumber-maven-plugin/1.2/buildnumber-maven-plugin-1.2.jar (26 kB at 537 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (checkstyle) @ vertexium-root ---
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.pom (2.2 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-managers/1.8/maven-scm-managers-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-managers/1.8/maven-scm-managers-1.8.pom (1.5 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.8/maven-scm-provider-bazaar-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.8/maven-scm-provider-bazaar-1.8.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.8/maven-scm-provider-svnexe-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.8/maven-scm-provider-svnexe-1.8.pom (2.5 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.8/maven-scm-provider-gitexe-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.8/maven-scm-provider-gitexe-1.8.pom (2.4 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-git/1.8/maven-scm-providers-git-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-git/1.8/maven-scm-providers-git-1.8.pom (2.2 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.8/maven-scm-provider-git-commons-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.8/maven-scm-provider-git-commons-1.8.pom (2.3 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.8/maven-scm-provider-cvsexe-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.8/maven-scm-provider-cvsexe-1.8.pom (2.7 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-cvs/1.8/maven-scm-providers-cvs-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-providers-cvs/1.8/maven-scm-providers-cvs-1.8.pom (1.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.8/maven-scm-provider-cvs-commons-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.8/maven-scm-provider-cvs-commons-1.8.pom (2.4 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.8/maven-scm-provider-starteam-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.8/maven-scm-provider-starteam-1.8.pom (2.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.8/maven-scm-provider-clearcase-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.8/maven-scm-provider-clearcase-1.8.pom (2.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.8/maven-scm-provider-perforce-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.8/maven-scm-provider-perforce-1.8.pom (2.6 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.8/maven-scm-provider-hg-1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.8/maven-scm-provider-hg-1.8.pom (2.4 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-api/1.8/maven-scm-api-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-api/1.8/maven-scm-api-1.8.jar (105 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.8/maven-scm-provider-bazaar-1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.8/maven-scm-provider-svnexe-1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.8/maven-scm-provider-gitexe-1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.8/maven-scm-provider-git-commons-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.jar (11 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svn-commons/1.8/maven-scm-provider-svn-commons-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svn-commons/1.8/maven-scm-provider-svn-commons-1.8.jar (40 kB at 273 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.8/maven-scm-provider-cvsexe-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvsexe/1.8/maven-scm-provider-cvsexe-1.8.jar (30 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.8/maven-scm-provider-cvs-commons-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.8/maven-scm-provider-cvs-commons-1.8.jar (80 kB at 240 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.8/maven-scm-provider-starteam-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-bazaar/1.8/maven-scm-provider-bazaar-1.8.jar (55 kB at 154 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.8/maven-scm-provider-clearcase-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-svnexe/1.8/maven-scm-provider-svnexe-1.8.jar (77 kB at 214 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.8/maven-scm-provider-perforce-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-gitexe/1.8/maven-scm-provider-gitexe-1.8.jar (63 kB at 171 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.8/maven-scm-provider-hg-1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-git-commons/1.8/maven-scm-provider-git-commons-1.8.jar (38 kB at 102 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-starteam/1.8/maven-scm-provider-starteam-1.8.jar (74 kB at 187 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-perforce/1.8/maven-scm-provider-perforce-1.8.jar (82 kB at 199 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-clearcase/1.8/maven-scm-provider-clearcase-1.8.jar (71 kB at 173 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/scm/maven-scm-provider-hg/1.8/maven-scm-provider-hg-1.8.jar (66 kB at 156 kB/s)
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core
+[INFO] Storing buildNumber: bc52f7cd33f6e559b3f144db77e160bddac0e003 at timestamp: 1791762314916
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] >>> source:3.1.0:jar (source-jar) > generate-sources @ vertexium-root >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (checkstyle) @ vertexium-root ---
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core
+[INFO] Storing buildNumber: bc52f7cd33f6e559b3f144db77e160bddac0e003 at timestamp: 1791762315300
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] <<< source:3.1.0:jar (source-jar) < generate-sources @ vertexium-root <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.1.0:jar (source-jar) @ vertexium-root ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.1.1:jar (javadocs-jar) @ vertexium-root ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-root ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-root/4.10.1-SNAPSHOT/vertexium-root-4.10.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-core >--------------------
+[INFO] Building Vertexium: Core 4.10.1-SNAPSHOT                           [2/2]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/1.2.4.Final/cache2k-api-1.2.4.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/1.2.4.Final/cache2k-api-1.2.4.Final.pom (4.5 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-parent/1.2.4.Final/cache2k-parent-1.2.4.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-parent/1.2.4.Final/cache2k-parent-1.2.4.Final.pom (22 kB at 405 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/1.2.4.Final/cache2k-core-1.2.4.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/1.2.4.Final/cache2k-core-1.2.4.Final.pom (6.2 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.0/metrics-core-4.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.0/metrics-core-4.1.0.pom (944 B at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.0/metrics-parent-4.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.0/metrics-parent-4.1.0.pom (15 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.15.0/jts-core-1.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.15.0/jts-core-1.15.0.pom (2.2 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-modules/1.15.0/jts-modules-1.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-modules/1.15.0/jts-modules-1.15.0.pom (1.2 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts/1.15.0/jts-1.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts/1.15.0/jts-1.15.0.pom (11 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/1.2.4.Final/cache2k-api-1.2.4.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/1.2.4.Final/cache2k-api-1.2.4.Final.jar (64 kB at 918 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/1.2.4.Final/cache2k-core-1.2.4.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.0/metrics-core-4.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.15.0/jts-core-1.15.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-core/4.1.0/metrics-core-4.1.0.jar (104 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/locationtech/jts/jts-core/1.15.0/jts-core-1.15.0.jar (798 kB at 5.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/1.2.4.Final/cache2k-core-1.2.4.Final.jar (347 kB at 2.6 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (checkstyle) @ vertexium-core ---
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core
+[INFO] Storing buildNumber: bc52f7cd33f6e559b3f144db77e160bddac0e003 at timestamp: 1791762318254
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 292 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ vertexium-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.1.2:jar (default-jar) @ vertexium-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/target/vertexium-core-4.10.1-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.1.0:jar (source-jar) > generate-sources @ vertexium-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (checkstyle) @ vertexium-core ---
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core
+[INFO] Storing buildNumber: bc52f7cd33f6e559b3f144db77e160bddac0e003 at timestamp: 1791762334198
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] <<< source:3.1.0:jar (source-jar) < generate-sources @ vertexium-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.1.0:jar (source-jar) @ vertexium-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.1.1:jar (javadocs-jar) @ vertexium-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.10.1-SNAPSHOT/vertexium-core-4.10.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__bc52f7cd__core/core/target/vertexium-core-4.10.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.10.1-SNAPSHOT/vertexium-core-4.10.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Vertexium 4.10.1-SNAPSHOT:
+[INFO] 
+[INFO] Vertexium .......................................... SUCCESS [  7.482 s]
+[INFO] Vertexium: Core .................................... SUCCESS [ 17.235 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.267 s
+[INFO] Finished at: 2026-10-11T18:45:34-05:00
+[INFO] ------------------------------------------------------------------------

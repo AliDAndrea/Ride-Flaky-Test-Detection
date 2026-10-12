@@ -1,0 +1,656 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Oracle Cloud Infrastructure SDK                                    [pom]
+[INFO] Oracle Cloud Infrastructure SDK - Circuit Breaker                  [jar]
+[INFO] Oracle Cloud Infrastructure SDK - Common HTTP client               [jar]
+[INFO] Oracle Cloud Infrastructure SDK - Choices for HTTP clients         [pom]
+[INFO] Oracle Cloud Infrastructure SDK - Common HTTP client - Jersey implementation [jar]
+[INFO] Oracle Cloud Infrastructure SDK - Common                           [jar]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage Parent            [pom]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage - Generated       [jar]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage - Extensions      [jar]
+[INFO] 
+[INFO] ------------------< com.oracle.oci.sdk:oci-java-sdk >-------------------
+[INFO] Building Oracle Cloud Infrastructure SDK 3.77.0                    [1/9]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/plugins/directory-maven-plugin/0.1/directory-maven-plugin-0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/plugins/directory-maven-plugin/0.1/directory-maven-plugin-0.1.pom (3.3 kB at 3.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/plugins/directory-maven-plugin/0.1/directory-maven-plugin-0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/plugins/directory-maven-plugin/0.1/directory-maven-plugin-0.1.jar (12 kB at 173 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.7.0/maven-javadoc-plugin-3.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.7.0/maven-javadoc-plugin-3.7.0.pom (21 kB at 320 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.7.0/maven-javadoc-plugin-3.7.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.7.0/maven-javadoc-plugin-3.7.0.jar (510 kB at 4.0 MB/s)
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom (1.7 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom (1.9 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar (10 kB at 176 kB/s)
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk/3.77.0/oci-java-sdk-3.77.0.pom
+[INFO] 
+[INFO] -----------< com.oracle.oci.sdk:oci-java-sdk-circuitbreaker >-----------
+[INFO] Building Oracle Cloud Infrastructure SDK - Circuit Breaker 3.77.0  [2/9]
+[INFO]   from bmc-circuitbreaker/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.pom (5.5 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.3/surefire-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.3/surefire-3.5.3.pom (20 kB at 397 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.3/maven-surefire-plugin-3.5.3.jar (46 kB at 941 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.pom (16 kB at 317 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar (172 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.pom (2.5 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.4/vavr-0.10.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.4/vavr-0.10.4.pom (3.4 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.4/vavr-parent-0.10.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.4/vavr-parent-0.10.4.pom (24 kB at 358 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.4/vavr-match-0.10.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.4/vavr-match-0.10.4.pom (1.9 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.pom (2.3 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.pom (3.8 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.33/slf4j-parent-1.7.33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.33/slf4j-parent-1.7.33.pom (14 kB at 271 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-circuitbreaker/1.7.1/resilience4j-circuitbreaker-1.7.1.jar (76 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.4/vavr-0.10.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.4/vavr-match-0.10.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.1/resilience4j-core-1.7.1.jar (66 kB at 707 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.4/vavr-match-0.10.4.jar (3.1 kB at 8.2 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar (41 kB at 109 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.4/vavr-0.10.4.jar (901 kB at 2.2 MB/s)
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-circuitbreaker ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-circuitbreaker ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-circuitbreaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/main/java/com/oracle/bmc/circuitbreaker/internal/resilience4j/OciCircuitBreakerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-circuitbreaker ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-circuitbreaker ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-circuitbreaker ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.pom (3.7 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.pom (3.5 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.pom (4.0 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.pom (3.6 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.pom (7.8 kB at 182 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.pom (5.0 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.pom (1.7 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.3/surefire-api-3.5.3.jar (172 kB at 3.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.3/surefire-extensions-api-3.5.3.jar (26 kB at 329 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.3/maven-surefire-common-3.5.3.jar (312 kB at 4.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.3/surefire-booter-3.5.3.jar (118 kB at 1.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.3/surefire-extensions-spi-3.5.3.jar (8.2 kB at 65 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.3/surefire-logger-api-3.5.3.jar (14 kB at 92 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.3/surefire-shared-utils-3.5.3.jar (2.9 MB at 11 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-circuitbreaker ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-circuitbreaker ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/target/oci-java-sdk-circuitbreaker-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-circuitbreaker ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-circuitbreaker ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- dependency:3.1.2:analyze-only (check-dependencies) @ oci-java-sdk-circuitbreaker ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.pom (6.7 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.9/doxia-sitetools-1.9.pom (16 kB at 269 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.9/doxia-decoration-model-1.9.pom (3.4 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.pom (3.0 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.pom (6.7 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.9/doxia-site-renderer-1.9.jar (66 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/1.9/doxia-skin-model-1.9.jar (17 kB at 339 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.11.1/maven-dependency-analyzer-1.11.1.jar (35 kB at 707 kB/s)
+[INFO] Skipping plugin execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-circuitbreaker ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-circuitbreaker/3.77.0/oci-java-sdk-circuitbreaker-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-circuitbreaker/target/oci-java-sdk-circuitbreaker-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-circuitbreaker/3.77.0/oci-java-sdk-circuitbreaker-3.77.0.jar
+[INFO] 
+[INFO] ---------< com.oracle.oci.sdk:oci-java-sdk-common-httpclient >----------
+[INFO] Building Oracle Cloud Infrastructure SDK - Common HTTP client 3.77.0 [3/9]
+[INFO]   from bmc-common-httpclient/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.pom (6.9 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.19.3/jackson-parent-2.19.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.19.3/jackson-parent-2.19.3.pom (7.2 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/69/oss-parent-69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/69/oss-parent-69.pom (24 kB at 415 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar (79 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-common-httpclient ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-common-httpclient ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-common-httpclient ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-common-httpclient ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-common-httpclient ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-common-httpclient ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-common-httpclient ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-common-httpclient ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/target/oci-java-sdk-common-httpclient-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-common-httpclient ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-common-httpclient ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- dependency:3.1.2:analyze-only (check-dependencies) @ oci-java-sdk-common-httpclient ---
+[INFO] Skipping plugin execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-common-httpclient ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient/3.77.0/oci-java-sdk-common-httpclient-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient/target/oci-java-sdk-common-httpclient-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient/3.77.0/oci-java-sdk-common-httpclient-3.77.0.jar
+[INFO] 
+[INFO] -----< com.oracle.oci.sdk:oci-java-sdk-common-httpclient-choices >------
+[INFO] Building Oracle Cloud Infrastructure SDK - Choices for HTTP clients 3.77.0 [4/9]
+[INFO]   from bmc-common-httpclient-choices/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-common-httpclient-choices ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-common-httpclient-choices ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-common-httpclient-choices ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-common-httpclient-choices ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-common-httpclient-choices ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient-choices/3.77.0/oci-java-sdk-common-httpclient-choices-3.77.0.pom
+[INFO] 
+[INFO] ------< com.oracle.oci.sdk:oci-java-sdk-common-httpclient-jersey >------
+[INFO] Building Oracle Cloud Infrastructure SDK - Common HTTP client - Jersey implementation 3.77.0 [5/9]
+[INFO]   from bmc-common-httpclient-choices/bmc-common-httpclient-jersey/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.47/jersey-common-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.47/jersey-common-2.47.pom (44 kB at 570 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.47/project-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.47/project-2.47.pom (108 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.pom (9.4 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.2/jackson-base-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.19.2/jackson-base-2.19.2.pom (12 kB at 244 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.19.2/jackson-bom-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.19.2/jackson-bom-2.19.2.pom (20 kB at 375 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.pom (23 kB at 390 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.47/jersey-client-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.47/jersey-client-2.47.pom (7.3 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47/jersey-media-json-jackson-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47/jersey-media-json-jackson-2.47.pom (6.4 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.47/project-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.47/project-2.47.pom (2.1 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.47/jersey-entity-filtering-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.47/jersey-entity-filtering-2.47.pom (3.5 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/project/2.47/project-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/project/2.47/project-2.47.pom (2.9 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.0/jackson-module-jaxb-annotations-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.0/jackson-module-jaxb-annotations-2.18.0.pom (4.0 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.18.0/jackson-modules-base-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.18.0/jackson-modules-base-2.18.0.pom (4.3 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.18.0/jackson-base-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.18.0/jackson-base-2.18.0.pom (12 kB at 246 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.0/jackson-bom-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.0/jackson-bom-2.18.0.pom (19 kB at 328 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18/jackson-parent-2.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18/jackson-parent-2.18.pom (6.5 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.47/jersey-hk2-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.47/jersey-hk2-2.47.pom (4.8 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/project/2.47/project-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/project/2.47/project-2.47.pom (1.5 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.pom (11 kB at 189 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/svm/21.3.1/svm-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/svm/21.3.1/svm-21.3.1.pom (1.9 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/21.3.1/graal-sdk-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/21.3.1/graal-sdk-21.3.1.pom (1.4 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/objectfile/21.3.1/objectfile-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/objectfile/21.3.1/objectfile-21.3.1.pom (1.5 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/21.3.1/compiler-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/21.3.1/compiler-21.3.1.pom (1.6 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/21.3.1/truffle-api-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/21.3.1/truffle-api-21.3.1.pom (1.5 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/pointsto/21.3.1/pointsto-21.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/pointsto/21.3.1/pointsto-21.3.1.pom (1.5 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.47/jersey-apache-connector-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.47/jersey-apache-connector-2.47.pom (3.0 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/project/2.47/project-2.47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/project/2.47/project-2.47.pom (3.2 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.2/jackson-datatype-jsr310-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.2/jackson-datatype-jsr310-2.19.2.pom (5.4 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.2/jackson-modules-java8-2.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.19.2/jackson-modules-java8-2.19.2.pom (3.1 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.pom (16 kB at 264 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.pom (4.9 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.47/jersey-common-2.47.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.47/jersey-common-2.47.jar (1.3 MB at 14 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.47/jersey-client-2.47.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47/jersey-media-json-jackson-2.47.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.47/jersey-entity-filtering-2.47.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-json-jackson/2.47/jersey-media-json-jackson-2.47.jar (88 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.0/jackson-module-jaxb-annotations-2.18.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/ext/jersey-entity-filtering/2.47/jersey-entity-filtering-2.47.jar (85 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.47/jersey-hk2-2.47.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.47/jersey-client-2.47.jar (313 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.18.0/jackson-module-jaxb-annotations-2.18.0.jar (37 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/svm/21.3.1/svm-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.47/jersey-hk2-2.47.jar (80 kB at 525 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/21.3.1/graal-sdk-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar (1.7 MB at 10 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/objectfile/21.3.1/objectfile-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar (795 kB at 4.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/pointsto/21.3.1/pointsto-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar (591 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/21.3.1/compiler-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/objectfile/21.3.1/objectfile-21.3.1.jar (1.2 MB at 3.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/21.3.1/truffle-api-21.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/pointsto/21.3.1/pointsto-21.3.1.jar (1.4 MB at 3.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/sdk/graal-sdk/21.3.1/graal-sdk-21.3.1.jar (616 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.47/jersey-apache-connector-2.47.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.2/jackson-datatype-jsr310-2.19.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.47/jersey-apache-connector-2.47.jar (50 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.2/jackson-datatype-jsr310-2.19.2.jar (137 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar (556 kB at 877 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.jar (40 kB at 53 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/nativeimage/svm/21.3.1/svm-21.3.1.jar (13 MB at 12 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/truffle/truffle-api/21.3.1/truffle-api-21.3.1.jar (9.2 MB at 7.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar (3.0 MB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/compiler/compiler/21.3.1/compiler-21.3.1.jar (20 MB at 7.7 MB/s)
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Copying 12 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/serialization/jackson/internal/Rfc3339DateFormat.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/serialization/jackson/internal/Rfc3339DateFormat.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/serialization/jackson/internal/Rfc3339DateFormat.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/http/client/jersey/internal/IdleConnectionMonitor.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/http/client/jersey/internal/IdleConnectionMonitor.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/main/java/com/oracle/bmc/http/client/jersey/internal/IdleConnectionMonitor.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/test/java/com/oracle/bmc/http/client/jersey/WrappedResponseInputStreamTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/test/java/com/oracle/bmc/http/client/jersey/WrappedResponseInputStreamTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/src/test/java/com/oracle/bmc/http/client/jersey/WrappedResponseInputStreamTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/target/oci-java-sdk-common-httpclient-jersey-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-common-httpclient-jersey ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient-jersey/3.77.0/oci-java-sdk-common-httpclient-jersey-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common-httpclient-choices/bmc-common-httpclient-jersey/target/oci-java-sdk-common-httpclient-jersey-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common-httpclient-jersey/3.77.0/oci-java-sdk-common-httpclient-jersey-3.77.0.jar
+[INFO] 
+[INFO] ---------------< com.oracle.oci.sdk:oci-java-sdk-common >---------------
+[INFO] Building Oracle Cloud Infrastructure SDK - Common 3.77.0           [6/9]
+[INFO]   from bmc-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.23.2/wiremock-2.23.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.23.2/wiremock-2.23.2.pom (5.6 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.26.v20180806/jetty-server-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.26.v20180806/jetty-server-9.2.26.v20180806.pom (4.1 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.26.v20180806/jetty-project-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.26.v20180806/jetty-project-9.2.26.v20180806.pom (46 kB at 802 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.26.v20180806/jetty-http-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.26.v20180806/jetty-http-9.2.26.v20180806.pom (2.5 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.26.v20180806/jetty-util-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.26.v20180806/jetty-util-9.2.26.v20180806.pom (3.6 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.26.v20180806/jetty-io-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.26.v20180806/jetty-io-9.2.26.v20180806.pom (2.3 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.26.v20180806/jetty-servlet-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.26.v20180806/jetty-servlet-9.2.26.v20180806.pom (3.3 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.26.v20180806/jetty-security-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.26.v20180806/jetty-security-9.2.26.v20180806.pom (2.8 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.26.v20180806/jetty-servlets-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.26.v20180806/jetty-servlets-9.2.26.v20180806.pom (3.8 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.26.v20180806/jetty-continuation-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.26.v20180806/jetty-continuation-9.2.26.v20180806.pom (2.0 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.26.v20180806/jetty-webapp-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.26.v20180806/jetty-webapp-9.2.26.v20180806.pom (3.5 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.26.v20180806/jetty-xml-9.2.26.v20180806.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.26.v20180806/jetty-xml-9.2.26.v20180806.pom (2.0 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.5.2/json-smart-2.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.5.2/json-smart-2.5.2.pom (10 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.pom (12 kB at 191 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.58.v20250814/jetty-server-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.58.v20250814/jetty-server-9.4.58.v20250814.pom (3.6 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.58.v20250814/jetty-project-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.58.v20250814/jetty-project-9.4.58.v20250814.pom (72 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.5/junit-bom-5.10.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.5/junit-bom-5.10.5.pom (5.6 kB at 138 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.20.4/testcontainers-bom-1.20.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.20.4/testcontainers-bom-1.20.4.pom (11 kB at 257 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.58.v20250814/jetty-http-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.58.v20250814/jetty-http-9.4.58.v20250814.pom (4.0 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.58.v20250814/jetty-util-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.58.v20250814/jetty-util-9.4.58.v20250814.pom (4.0 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.58.v20250814/jetty-io-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.58.v20250814/jetty-io-9.4.58.v20250814.pom (1.2 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.58.v20250814/jetty-servlet-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.58.v20250814/jetty-servlet-9.4.58.v20250814.pom (2.3 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.58.v20250814/jetty-security-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.58.v20250814/jetty-security-9.4.58.v20250814.pom (2.1 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.58.v20250814/jetty-util-ajax-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.58.v20250814/jetty-util-ajax-9.4.58.v20250814.pom (1.3 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.58.v20250814/jetty-servlets-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.58.v20250814/jetty-servlets-9.4.58.v20250814.pom (2.6 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.58.v20250814/jetty-continuation-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.58.v20250814/jetty-continuation-9.4.58.v20250814.pom (952 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.58.v20250814/jetty-webapp-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.58.v20250814/jetty-webapp-9.4.58.v20250814.pom (3.2 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.58.v20250814/jetty-xml-9.4.58.v20250814.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.58.v20250814/jetty-xml-9.4.58.v20250814.pom (1.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.23.2/wiremock-2.23.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.23.2/wiremock-2.23.2.jar (3.0 MB at 9.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.58.v20250814/jetty-server-9.4.58.v20250814.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.58.v20250814/jetty-http-9.4.58.v20250814.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.58.v20250814/jetty-io-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar (30 kB at 632 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.58.v20250814/jetty-servlet-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.58.v20250814/jetty-io-9.4.58.v20250814.jar (185 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.58.v20250814/jetty-security-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar (122 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.58.v20250814/jetty-util-ajax-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.58.v20250814/jetty-http-9.4.58.v20250814.jar (253 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.58.v20250814/jetty-servlets-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.58.v20250814/jetty-servlet-9.4.58.v20250814.jar (148 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.58.v20250814/jetty-continuation-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.58.v20250814/jetty-server-9.4.58.v20250814.jar (749 kB at 6.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.58.v20250814/jetty-util-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.58.v20250814/jetty-security-9.4.58.v20250814.jar (120 kB at 958 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.58.v20250814/jetty-webapp-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.58.v20250814/jetty-continuation-9.4.58.v20250814.jar (25 kB at 183 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.58.v20250814/jetty-xml-9.4.58.v20250814.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.58.v20250814/jetty-util-ajax-9.4.58.v20250814.jar (67 kB at 477 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.58.v20250814/jetty-servlets-9.4.58.v20250814.jar (108 kB at 752 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.58.v20250814/jetty-webapp-9.4.58.v20250814.jar (142 kB at 845 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.58.v20250814/jetty-xml-9.4.58.v20250814.jar (70 kB at 382 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.58.v20250814/jetty-util-9.4.58.v20250814.jar (595 kB at 3.2 MB/s)
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-common ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-common ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/main/java/com/oracle/bmc/auth/ConfigFileAuthenticationDetailsProvider.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/main/java/com/oracle/bmc/auth/ConfigFileAuthenticationDetailsProvider.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/main/java/com/oracle/bmc/auth/ConfigFileAuthenticationDetailsProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/main/java/com/oracle/bmc/auth/AbstractRequestingAuthenticationDetailsProvider.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/main/java/com/oracle/bmc/auth/AbstractRequestingAuthenticationDetailsProvider.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-common ---
+[INFO] Copying 28 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 54 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/test/java/com/oracle/bmc/http/internal/ClientCallTransientRequestLeakTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/test/java/com/oracle/bmc/http/internal/ClientCallTransientRequestLeakTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/test/java/com/oracle/bmc/http/signing/internal/RequestSignerImplTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/src/test/java/com/oracle/bmc/http/signing/internal/RequestSignerImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-common ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/target/oci-java-sdk-common-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-common ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-common ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- dependency:3.1.2:analyze-only (check-dependencies) @ oci-java-sdk-common ---
+[INFO] Skipping plugin execution
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common/3.77.0/oci-java-sdk-common-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-common/target/oci-java-sdk-common-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-common/3.77.0/oci-java-sdk-common-3.77.0.jar
+[INFO] 
+[INFO] --------< com.oracle.oci.sdk:oci-java-sdk-objectstorage-parent >--------
+[INFO] Building Oracle Cloud Infrastructure SDK - Object Storage Parent 3.77.0 [7/9]
+[INFO]   from bmc-objectstorage/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-objectstorage-parent ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-objectstorage-parent ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-objectstorage-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-objectstorage-parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-objectstorage-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-objectstorage-parent/3.77.0/oci-java-sdk-objectstorage-parent-3.77.0.pom
+[INFO] 
+[INFO] ------< com.oracle.oci.sdk:oci-java-sdk-objectstorage-generated >-------
+[INFO] Building Oracle Cloud Infrastructure SDK - Object Storage - Generated 3.77.0 [8/9]
+[INFO]   from bmc-objectstorage/bmc-objectstorage-generated/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 180 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-generated/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-objectstorage-generated ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-generated/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-objectstorage-generated ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-generated/target/oci-java-sdk-objectstorage-generated-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-objectstorage-generated ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-generated/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-objectstorage-generated/3.77.0/oci-java-sdk-objectstorage-generated-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-generated/target/oci-java-sdk-objectstorage-generated-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-objectstorage-generated/3.77.0/oci-java-sdk-objectstorage-generated-3.77.0.jar
+[INFO] 
+[INFO] ------< com.oracle.oci.sdk:oci-java-sdk-objectstorage-extensions >------
+[INFO] Building Oracle Cloud Infrastructure SDK - Object Storage - Extensions 3.77.0 [9/9]
+[INFO]   from bmc-objectstorage/bmc-objectstorage-extensions/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- directory:0.1:directory-of (directories) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Directory of com.oracle.oci.sdk:oci-java-sdk set to: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartUtils.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartUtils.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/java/com/oracle/bmc/objectstorage/transfer/internal/download/RetryingStreamTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/java/com/oracle/bmc/objectstorage/transfer/internal/download/RetryingStreamTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/java/com/oracle/bmc/objectstorage/transfer/UploadManagerTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/java/com/oracle/bmc/objectstorage/transfer/UploadManagerTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/java/com/oracle/bmc/objectstorage/transfer/UploadManagerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.16:check (animal-sniffer-check) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/target/oci-java-sdk-objectstorage-extensions-3.77.0.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.7.0:jar (aggregate) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/pom.xml to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-objectstorage-extensions/3.77.0/oci-java-sdk-objectstorage-extensions-3.77.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__oci-java-sdk__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/target/oci-java-sdk-objectstorage-extensions-3.77.0.jar to /Users/shivamsingh/.m2/repository/com/oracle/oci/sdk/oci-java-sdk-objectstorage-extensions/3.77.0/oci-java-sdk-objectstorage-extensions-3.77.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Oracle Cloud Infrastructure SDK 3.77.0:
+[INFO] 
+[INFO] Oracle Cloud Infrastructure SDK .................... SUCCESS [  8.237 s]
+[INFO] Oracle Cloud Infrastructure SDK - Circuit Breaker .. SUCCESS [  7.716 s]
+[INFO] Oracle Cloud Infrastructure SDK - Common HTTP client SUCCESS [  2.249 s]
+[INFO] Oracle Cloud Infrastructure SDK - Choices for HTTP clients SUCCESS [  0.048 s]
+[INFO] Oracle Cloud Infrastructure SDK - Common HTTP client - Jersey implementation SUCCESS [  8.287 s]
+[INFO] Oracle Cloud Infrastructure SDK - Common ........... SUCCESS [ 12.157 s]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage Parent SUCCESS [  0.077 s]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage - Generated SUCCESS [  4.167 s]
+[INFO] Oracle Cloud Infrastructure SDK - Object Storage - Extensions SUCCESS [  1.685 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.298 s
+[INFO] Finished at: 2026-10-11T19:34:42-05:00
+[INFO] ------------------------------------------------------------------------

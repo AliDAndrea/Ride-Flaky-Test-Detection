@@ -1,0 +1,87 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.dubbo:dubbo-serialization-fst >--------------
+[INFO] Building dubbo-serialization-fst 2.7.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ dubbo-serialization-fst >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-fst ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-fst ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-serialization-fst ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-serialization-fst ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ dubbo-serialization-fst <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ dubbo-serialization-fst ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.dubbo:dubbo-serialization-fst:2.7.0-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 21 tests. Time taken: 0.10199999809265137 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.dtfixingtools/original-order
+[INFO] Getting original results (21 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected PASS, got PASS
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 1 of 20 (0.0 seconds elapsed (3.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (0.0 seconds elapsed (4.4 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (1.1 seconds elapsed (5.4 total), 6.1 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (2.1 seconds elapsed (6.5 total), 8.5 seconds remaining).
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected PASS, got PASS
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 5 of 20 (3.2 seconds elapsed (9.7 total), 9.6 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (6.4 seconds elapsed (10.7 total), 14.8 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (7.4 seconds elapsed (11.8 total), 13.8 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (8.5 seconds elapsed (12.8 total), 12.7 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (9.5 seconds elapsed (13.9 total), 11.6 seconds remaining).
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected PASS, got PASS
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 10 of 20 (10.6 seconds elapsed (17.0 total), 10.6 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (13.7 seconds elapsed (18.1 total), 11.2 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (14.8 seconds elapsed (19.1 total), 9.8 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (15.8 seconds elapsed (20.2 total), 8.5 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (16.9 seconds elapsed (21.3 total), 7.2 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (18.0 seconds elapsed (22.4 total), 6.0 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (19.1 seconds elapsed (23.5 total), 4.8 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (20.2 seconds elapsed (24.5 total), 3.6 seconds remaining).
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected PASS, got PASS
+Verified org.apache.dubbo.common.serialize.fst.FstObjectInputTest.testEmptyByteArrayForEmptyInput, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 18 of 20 (21.2 seconds elapsed (27.7 total), 2.4 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (24.4 seconds elapsed (28.8 total), 1.3 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (25.5 seconds elapsed (29.9 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  35.185 s
+[INFO] Finished at: 2026-10-09T18:23:15-05:00
+[INFO] ------------------------------------------------------------------------

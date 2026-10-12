@@ -1,0 +1,36 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.dianping.cat:cat-client >---------------------
+[INFO] Building cat-client 4.0-RC1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ cat-client >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ cat-client ---
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ cat-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ cat-client ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ cat-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ cat-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ cat-client ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/dianping__cat__c4715a6a__cat-client/cat-client/.flakesync/clean_x9v5XRIf5nXy3JYYSDAyGBtBK9YipOeOKo0WmA3lSo=
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Concurrency config is parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+[watchdog] time cap of 455s reached - stopping; results so far are kept

@@ -1,0 +1,885 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tribuo                                                             [pom]
+[INFO] tribuo-util                                                        [pom]
+[INFO] ONNXExport                                                         [jar]
+[INFO] Core                                                               [jar]
+[INFO] Tokenization                                                       [jar]
+[INFO] Data                                                               [jar]
+[INFO] Json                                                               [jar]
+[INFO] Math                                                               [jar]
+[INFO] tribuo-interop                                                     [pom]
+[INFO] Interop-Core                                                       [jar]
+[INFO] tribuo-regression                                                  [pom]
+[INFO] Regression-Core                                                    [jar]
+[INFO] tribuo-common                                                      [pom]
+[INFO] Common-Tree                                                        [jar]
+[INFO] tribuo-classification                                              [pom]
+[INFO] Classification-Core                                                [jar]
+[INFO] tribuo-multilabel                                                  [pom]
+[INFO] MultiLabel-Core                                                    [jar]
+[INFO] Interop-ONNX                                                       [jar]
+[INFO] Common-SGD                                                         [jar]
+[INFO] Classification-SGD                                                 [jar]
+[INFO] Regression-SGD                                                     [jar]
+[INFO] Classification-Tree                                                [jar]
+[INFO] Regression-Tree                                                    [jar]
+[INFO] Reproducibility                                                    [jar]
+[INFO] 
+[INFO] -------------------------< org.tribuo:tribuo >--------------------------
+[INFO] Building Tribuo 5.0.0-SNAPSHOT                                    [1/25]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo/5.0.0-SNAPSHOT/tribuo-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-util >-----------------------
+[INFO] Building tribuo-util 5.0.0-SNAPSHOT                               [2/25]
+[INFO]   from Util/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-util ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-util ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-util/5.0.0-SNAPSHOT/tribuo-util-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.tribuo:tribuo-util-onnx >---------------------
+[INFO] Building ONNXExport 5.0.0-SNAPSHOT                                [3/25]
+[INFO]   from Util/ONNXExport/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-util-onnx ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-util-onnx ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-util-onnx ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 12 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-util-onnx ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/ONNXExport/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-util-onnx ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-util-onnx ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-util-onnx ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/ONNXExport/target/tribuo-util-onnx-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-util-onnx ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/ONNXExport/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-util-onnx/5.0.0-SNAPSHOT/tribuo-util-onnx-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/ONNXExport/target/tribuo-util-onnx-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-util-onnx/5.0.0-SNAPSHOT/tribuo-util-onnx-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-core >-----------------------
+[INFO] Building Core 5.0.0-SNAPSHOT                                      [4/25]
+[INFO]   from Core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-core/5.3.1/olcut-core-5.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-core/5.3.1/olcut-core-5.3.1.pom (4.6 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut/5.3.1/olcut-5.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut/5.3.1/olcut-5.3.1.pom (10 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.pom (2.0 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.27.1/jline-parent-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-parent/3.27.1/jline-parent-3.27.1.pom (33 kB at 689 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.pom (4.2 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-reader/3.27.1/jline-reader-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-reader/3.27.1/jline-reader-3.27.1.pom (1.3 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-builtins/3.27.1/jline-builtins-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-builtins/3.27.1/jline-builtins-3.27.1.pom (2.4 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1.pom (1.4 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jansi/3.27.1/jline-terminal-jansi-3.27.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jansi/3.27.1/jline-terminal-jansi-3.27.1.pom (2.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.pom (17 kB at 403 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-protobuf/5.3.1/olcut-config-protobuf-5.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-protobuf/5.3.1/olcut-config-protobuf-5.3.1.pom (4.3 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-core/5.3.1/olcut-core-5.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-core/5.3.1/olcut-core-5.3.1.jar (312 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-reader/3.27.1/jline-reader-3.27.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-builtins/3.27.1/jline-builtins-3.27.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-reader/3.27.1/jline-reader-3.27.1.jar (184 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jansi/3.27.1/jline-terminal-jansi-3.27.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1.jar (28 kB at 273 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal-jansi/3.27.1/jline-terminal-jansi-3.27.1.jar (50 kB at 441 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-protobuf/5.3.1/olcut-config-protobuf-5.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar (190 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-protobuf/5.3.1/olcut-config-protobuf-5.3.1.jar (196 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-builtins/3.27.1/jline-builtins-3.27.1.jar (272 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar (264 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar (257 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- templating:1.0.0:filter-sources (filtering-java-templates) @ tribuo-core ---
+[INFO] Coping files with filtering to temporary directory.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copied 1 files to output directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/generated-sources/java-templates
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/generated-sources/java-templates added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-core ---
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 256 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[121,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[124,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[305,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[306,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[307,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[308,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[309,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[310,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[312,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[313,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[314,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[315,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[316,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[317,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[318,13] possible fall-through into case
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/main/java/org/tribuo/util/MurmurHash3.java:[319,13] possible fall-through into case
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-core ---
+[INFO] Copying 43 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 53 source files with javac [debug release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/test/java/org/tribuo/transform/TransformationMapTest.java:[248,19] serializable class org.tribuo.transform.TransformationMapTest.CountTransformationProvenance has no definition of serialVersionUID
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/src/test/java/org/tribuo/transform/TransformationMapTest.java:[248,19] Class org.tribuo.transform.TransformationMapTest.CountTransformationProvenance overrides equals, but neither it nor any superclass overrides hashCode method
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/tribuo-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.2.0:test-jar (default) @ tribuo-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/tribuo-core-5.0.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-core/5.0.0-SNAPSHOT/tribuo-core-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/tribuo-core-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-core/5.0.0-SNAPSHOT/tribuo-core-5.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Core/target/tribuo-core-5.0.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-core/5.0.0-SNAPSHOT/tribuo-core-5.0.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ----------------< org.tribuo:tribuo-util-tokenization >-----------------
+[INFO] Building Tokenization 5.0.0-SNAPSHOT                              [5/25]
+[INFO]   from Util/Tokenization/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-util-tokenization ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-util-tokenization ---
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-util-tokenization ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 25 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-util-tokenization ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-util-tokenization ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 13 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-util-tokenization ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-util-tokenization ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/Tokenization/target/tribuo-util-tokenization-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-util-tokenization ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/Tokenization/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-util-tokenization/5.0.0-SNAPSHOT/tribuo-util-tokenization-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Util/Tokenization/target/tribuo-util-tokenization-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-util-tokenization/5.0.0-SNAPSHOT/tribuo-util-tokenization-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-data >-----------------------
+[INFO] Building Data 5.0.0-SNAPSHOT                                      [6/25]
+[INFO]   from Data/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.12.0/opencsv-5.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.12.0/opencsv-5.12.0.pom (37 kB at 539 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.pom (26 kB at 420 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.12.0/opencsv-5.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/opencsv/opencsv/5.12.0/opencsv-5.12.0.jar (242 kB at 4.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar (899 kB at 9.2 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-data ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-data ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-data ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 73 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/main/java/org/tribuo/data/columnar/ColumnarDataSource.java:[109,39] copy() in org.tribuo.data.columnar.RowProcessor has been deprecated
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-data ---
+[INFO] Copying 10 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-data ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 17 source files with javac [debug release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorBuilderTest.java:[191,53] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[79,53] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[92,53] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[106,53] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[144,46] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[182,53] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[208,46] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>,boolean) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/columnar/RowProcessorTest.java:[230,21] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>,boolean) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/src/test/java/org/tribuo/data/csv/CSVDataSourceTest.java:[75,29] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-data ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ tribuo-data ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/target/tribuo-data-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-data ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-data/5.0.0-SNAPSHOT/tribuo-data-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Data/target/tribuo-data-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-data/5.0.0-SNAPSHOT/tribuo-data-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-json >-----------------------
+[INFO] Building Json 5.0.0-SNAPSHOT                                      [7/25]
+[INFO]   from Json/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-json/5.3.1/olcut-config-json-5.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-json/5.3.1/olcut-config-json-5.3.1.pom (3.7 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.pom (10 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.pom (7.1 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.pom (22 kB at 431 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-json/5.3.1/olcut-config-json-5.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/labs/olcut/olcut-config-json/5.3.1/olcut-config-json-5.3.1.jar (36 kB at 624 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.0/jackson-annotations-2.18.0.jar (79 kB at 1.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.0/jackson-core-2.18.0.jar (597 kB at 6.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.0/jackson-databind-2.18.0.jar (1.7 MB at 9.1 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-json ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-json ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-json ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/src/main/java/org/tribuo/json/StripProvenance.java:[219,29] found raw type: org.tribuo.Model
+  missing type arguments for generic class org.tribuo.Model<T>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/src/main/java/org/tribuo/json/StripProvenance.java:[229,29] found raw type: org.tribuo.Model
+  missing type arguments for generic class org.tribuo.Model<T>
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-json ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-json ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/src/test/java/org/tribuo/json/JsonDataSourceTest.java:[71,16] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-json ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-json ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/target/tribuo-json-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-json ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-json/5.0.0-SNAPSHOT/tribuo-json-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Json/target/tribuo-json-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-json/5.0.0-SNAPSHOT/tribuo-json-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-math >-----------------------
+[INFO] Building Math 5.0.0-SNAPSHOT                                      [8/25]
+[INFO]   from Math/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-math ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-math ---
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-math ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 105 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/src/main/java/org/tribuo/math/neighbour/bruteforce/NeighboursBruteForce.java:[80,82] found raw type: com.oracle.labs.mlrg.olcut.util.Pair
+  missing type arguments for generic class com.oracle.labs.mlrg.olcut.util.Pair<T1,T2>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/src/main/java/org/tribuo/math/neighbour/bruteforce/NeighboursBruteForce.java:[96,104] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/src/main/java/org/tribuo/math/neighbour/kdtree/KDTree.java:[93,82] found raw type: com.oracle.labs.mlrg.olcut.util.Pair
+  missing type arguments for generic class com.oracle.labs.mlrg.olcut.util.Pair<T1,T2>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/src/main/java/org/tribuo/math/neighbour/kdtree/KDTree.java:[109,104] found raw type: java.util.List
+  missing type arguments for generic class java.util.List<E>
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-math ---
+[INFO] Copying 26 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-math ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-math ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-math ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/target/tribuo-math-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-math ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-math/5.0.0-SNAPSHOT/tribuo-math-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Math/target/tribuo-math-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-math/5.0.0-SNAPSHOT/tribuo-math-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------------< org.tribuo:tribuo-interop >----------------------
+[INFO] Building tribuo-interop 5.0.0-SNAPSHOT                            [9/25]
+[INFO]   from Interop/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-interop ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-interop ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-interop/5.0.0-SNAPSHOT/tribuo-interop-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.tribuo:tribuo-interop-core >-------------------
+[INFO] Building Interop-Core 5.0.0-SNAPSHOT                             [10/25]
+[INFO]   from Interop/Core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-interop-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-interop-core ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-interop-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-interop-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/Core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-interop-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-interop-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-interop-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/Core/target/tribuo-interop-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-interop-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/Core/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-interop-core/5.0.0-SNAPSHOT/tribuo-interop-core-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/Core/target/tribuo-interop-core-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-interop-core/5.0.0-SNAPSHOT/tribuo-interop-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.tribuo:tribuo-regression >--------------------
+[INFO] Building tribuo-regression 5.0.0-SNAPSHOT                        [11/25]
+[INFO]   from Regression/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-regression ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-regression ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression/5.0.0-SNAPSHOT/tribuo-regression-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< org.tribuo:tribuo-regression-core >------------------
+[INFO] Building Regression-Core 5.0.0-SNAPSHOT                          [12/25]
+[INFO]   from Regression/Core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-regression-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-regression-core ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-regression-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 40 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-regression-core ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-regression-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-regression-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-regression-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/Core/target/tribuo-regression-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-regression-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/Core/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-core/5.0.0-SNAPSHOT/tribuo-regression-core-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/Core/target/tribuo-regression-core-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-core/5.0.0-SNAPSHOT/tribuo-regression-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< org.tribuo:tribuo-common >----------------------
+[INFO] Building tribuo-common 5.0.0-SNAPSHOT                            [13/25]
+[INFO]   from Common/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-common/5.0.0-SNAPSHOT/tribuo-common-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.tribuo:tribuo-common-tree >--------------------
+[INFO] Building Common-Tree 5.0.0-SNAPSHOT                              [14/25]
+[INFO]   from Common/Trees/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-common-tree ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-common-tree ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-common-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 21 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-common-tree ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/Trees/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-common-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-common-tree ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-common-tree ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/Trees/target/tribuo-common-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-common-tree ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/Trees/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-common-tree/5.0.0-SNAPSHOT/tribuo-common-tree-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/Trees/target/tribuo-common-tree-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-common-tree/5.0.0-SNAPSHOT/tribuo-common-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.tribuo:tribuo-classification >------------------
+[INFO] Building tribuo-classification 5.0.0-SNAPSHOT                    [15/25]
+[INFO]   from Classification/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-classification ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-classification ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification/5.0.0-SNAPSHOT/tribuo-classification-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< org.tribuo:tribuo-classification-core >----------------
+[INFO] Building Classification-Core 5.0.0-SNAPSHOT                      [16/25]
+[INFO]   from Classification/Core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-classification-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-classification-core ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-classification-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 66 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-classification-core ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-classification-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 13 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-classification-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-classification-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/Core/target/tribuo-classification-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-classification-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/Core/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-core/5.0.0-SNAPSHOT/tribuo-classification-core-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/Core/target/tribuo-classification-core-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-core/5.0.0-SNAPSHOT/tribuo-classification-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.tribuo:tribuo-multilabel >--------------------
+[INFO] Building tribuo-multilabel 5.0.0-SNAPSHOT                        [17/25]
+[INFO]   from MultiLabel/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-multilabel ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-multilabel ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/MultiLabel/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-multilabel/5.0.0-SNAPSHOT/tribuo-multilabel-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< org.tribuo:tribuo-multilabel-core >------------------
+[INFO] Building MultiLabel-Core 5.0.0-SNAPSHOT                          [18/25]
+[INFO]   from MultiLabel/Core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-multilabel-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-multilabel-core ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-multilabel-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 38 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-multilabel-core ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-multilabel-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-multilabel-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-multilabel-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/MultiLabel/Core/target/tribuo-multilabel-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-multilabel-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/MultiLabel/Core/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-multilabel-core/5.0.0-SNAPSHOT/tribuo-multilabel-core-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/MultiLabel/Core/target/tribuo-multilabel-core-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-multilabel-core/5.0.0-SNAPSHOT/tribuo-multilabel-core-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< org.tribuo:tribuo-onnx >-----------------------
+[INFO] Building Interop-ONNX 5.0.0-SNAPSHOT                             [19/25]
+[INFO]   from Interop/ONNX/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/onnxruntime/onnxruntime/1.20.0/onnxruntime-1.20.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/onnxruntime/onnxruntime/1.20.0/onnxruntime-1.20.0.pom (1.7 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/onnxruntime/onnxruntime/1.20.0/onnxruntime-1.20.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/onnxruntime/onnxruntime/1.20.0/onnxruntime-1.20.0.jar (93 MB at 21 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-onnx ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-onnx ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-onnx ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 25 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-onnx ---
+[INFO] Copying 16 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-onnx ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/src/test/java/org/tribuo/interop/onnx/TestOnnxRuntime.java:[62,29] auto-closeable resource env is never referenced in body of corresponding try statement
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/src/test/java/org/tribuo/interop/onnx/TestOnnxRuntime.java:[103,29] auto-closeable resource env is never referenced in body of corresponding try statement
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/src/test/java/org/tribuo/interop/onnx/TestOnnxRuntime.java:[150,29] auto-closeable resource env is never referenced in body of corresponding try statement
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-onnx ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.tribuo.interop.onnx.MultiLabelTransformerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.346 s -- in org.tribuo.interop.onnx.MultiLabelTransformerTest
+[INFO] Running org.tribuo.interop.onnx.TestOnnxRuntime
+2026-10-11 20:18:15.275 java[51427:35052318] 2026-10-11 20:18:15.275949 [W:onnxruntime:, execution_frame.cc:870 VerifyOutputSizes] Expected shape from model of {1} does not match actual shape of {16} for output output_label
+2026-10-11 20:18:15.278 java[51427:35052318] 2026-10-11 20:18:15.278715 [W:onnxruntime:, execution_frame.cc:870 VerifyOutputSizes] Expected shape from model of {1} does not match actual shape of {16} for output output_label
+2026-10-11 20:18:15.281 java[51427:35052318] 2026-10-11 20:18:15.281216 [W:onnxruntime:, execution_frame.cc:870 VerifyOutputSizes] Expected shape from model of {1} does not match actual shape of {16} for output output_label
+2026-10-11 20:18:15.283 java[51427:35052318] 2026-10-11 20:18:15.283539 [W:onnxruntime:, execution_frame.cc:870 VerifyOutputSizes] Expected shape from model of {1} does not match actual shape of {14} for output output_label
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.684 s -- in org.tribuo.interop.onnx.TestOnnxRuntime
+[INFO] Running org.tribuo.interop.onnx.extractors.BERTFeatureExtractorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.330 s -- in org.tribuo.interop.onnx.extractors.BERTFeatureExtractorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-onnx ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/target/tribuo-onnx-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.2.0:test-jar (default) @ tribuo-onnx ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/target/tribuo-onnx-5.0.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-onnx ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-onnx/5.0.0-SNAPSHOT/tribuo-onnx-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/target/tribuo-onnx-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-onnx/5.0.0-SNAPSHOT/tribuo-onnx-5.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Interop/ONNX/target/tribuo-onnx-5.0.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-onnx/5.0.0-SNAPSHOT/tribuo-onnx-5.0.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --------------------< org.tribuo:tribuo-common-sgd >--------------------
+[INFO] Building Common-SGD 5.0.0-SNAPSHOT                               [20/25]
+[INFO]   from Common/SGD/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-common-sgd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-common-sgd ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-common-sgd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 13 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-common-sgd ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/SGD/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-common-sgd ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-common-sgd ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-common-sgd ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/SGD/target/tribuo-common-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-common-sgd ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/SGD/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-common-sgd/5.0.0-SNAPSHOT/tribuo-common-sgd-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Common/SGD/target/tribuo-common-sgd-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-common-sgd/5.0.0-SNAPSHOT/tribuo-common-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------< org.tribuo:tribuo-classification-sgd >----------------
+[INFO] Building Classification-SGD 5.0.0-SNAPSHOT                       [21/25]
+[INFO]   from Classification/SGD/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-classification-sgd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-classification-sgd ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-classification-sgd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 41 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-classification-sgd ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-classification-sgd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-classification-sgd ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-classification-sgd ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/SGD/target/tribuo-classification-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-classification-sgd ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/SGD/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-sgd/5.0.0-SNAPSHOT/tribuo-classification-sgd-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/SGD/target/tribuo-classification-sgd-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-sgd/5.0.0-SNAPSHOT/tribuo-classification-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.tribuo:tribuo-regression-sgd >------------------
+[INFO] Building Regression-SGD 5.0.0-SNAPSHOT                           [22/25]
+[INFO]   from Regression/SGD/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-regression-sgd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-regression-sgd ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-regression-sgd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 20 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-regression-sgd ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-regression-sgd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-regression-sgd ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-regression-sgd ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/SGD/target/tribuo-regression-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-regression-sgd ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/SGD/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-sgd/5.0.0-SNAPSHOT/tribuo-regression-sgd-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/SGD/target/tribuo-regression-sgd-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-sgd/5.0.0-SNAPSHOT/tribuo-regression-sgd-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ---------------< org.tribuo:tribuo-classification-tree >----------------
+[INFO] Building Classification-Tree 5.0.0-SNAPSHOT                      [23/25]
+[INFO]   from Classification/DecisionTree/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-classification-tree ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-classification-tree ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-classification-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 12 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-classification-tree ---
+[INFO] Copying 3 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-classification-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-classification-tree ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-classification-tree ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/DecisionTree/target/tribuo-classification-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-classification-tree ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/DecisionTree/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-tree/5.0.0-SNAPSHOT/tribuo-classification-tree-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Classification/DecisionTree/target/tribuo-classification-tree-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-classification-tree/5.0.0-SNAPSHOT/tribuo-classification-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< org.tribuo:tribuo-regression-tree >------------------
+[INFO] Building Regression-Tree 5.0.0-SNAPSHOT                          [24/25]
+[INFO]   from Regression/RegressionTree/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-regression-tree ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-regression-tree ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-regression-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 19 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-regression-tree ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-regression-tree ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-regression-tree ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-regression-tree ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/RegressionTree/target/tribuo-regression-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-regression-tree ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/RegressionTree/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-tree/5.0.0-SNAPSHOT/tribuo-regression-tree-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Regression/RegressionTree/target/tribuo-regression-tree-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-regression-tree/5.0.0-SNAPSHOT/tribuo-regression-tree-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< org.tribuo:tribuo-reproducibility >------------------
+[INFO] Building Reproducibility 5.0.0-SNAPSHOT                          [25/25]
+[INFO]   from Reproducibility/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce) @ tribuo-reproducibility ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribuo-reproducibility ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tribuo-reproducibility ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug release 17] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/java/org/tribuo/reproducibility/ReproUtil.java:[590,44] found raw type: com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance
+  missing type arguments for generic class com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance<T>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/java/org/tribuo/reproducibility/ReproUtil.java:[666,39] found raw type: com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance
+  missing type arguments for generic class com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance<T>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/java/org/tribuo/reproducibility/ReproUtil.java:[666,95] found raw type: com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance
+  missing type arguments for generic class com.oracle.labs.mlrg.olcut.provenance.PrimitiveProvenance<T>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/java/org/tribuo/reproducibility/ReproUtil.java:[778,51] found raw type: java.lang.Iterable
+  missing type arguments for generic class java.lang.Iterable<T>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/main/java/org/tribuo/reproducibility/ReproUtil.java:[779,49] found raw type: java.lang.Iterable
+  missing type arguments for generic class java.lang.Iterable<T>
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tribuo-reproducibility ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tribuo-reproducibility ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[134,44] <T>RowProcessor(java.util.List<org.tribuo.data.columnar.FieldExtractor<?>>,org.tribuo.data.columnar.FieldExtractor<java.lang.Float>,org.tribuo.data.columnar.ResponseProcessor<T>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Map<java.lang.String,org.tribuo.data.columnar.FieldProcessor>,java.util.Set<org.tribuo.data.columnar.FeatureProcessor>) in org.tribuo.data.columnar.RowProcessor has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[188,32] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[189,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[190,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[205,32] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[206,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[207,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[221,32] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[222,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[223,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[244,32] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[245,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[246,17] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[273,33] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[274,33] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/src/test/java/org/tribuo/reproducibility/ReproUtilTest.java:[313,32] redundant cast to org.tribuo.classification.sgd.linear.LinearSGDModel
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ tribuo-reproducibility ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ tribuo-reproducibility ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/target/tribuo-reproducibility-5.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tribuo-reproducibility ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/pom.xml to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-reproducibility/5.0.0-SNAPSHOT/tribuo-reproducibility-5.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/oracle__tribuo__Reproducibility/Reproducibility/target/tribuo-reproducibility-5.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/tribuo/tribuo-reproducibility/5.0.0-SNAPSHOT/tribuo-reproducibility-5.0.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Tribuo 5.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Tribuo ............................................. SUCCESS [  0.303 s]
+[INFO] tribuo-util ........................................ SUCCESS [  0.008 s]
+[INFO] ONNXExport ......................................... SUCCESS [  3.942 s]
+[INFO] Core ............................................... SUCCESS [  6.025 s]
+[INFO] Tokenization ....................................... SUCCESS [  0.456 s]
+[INFO] Data ............................................... SUCCESS [  2.088 s]
+[INFO] Json ............................................... SUCCESS [  0.936 s]
+[INFO] Math ............................................... SUCCESS [  2.344 s]
+[INFO] tribuo-interop ..................................... SUCCESS [  0.004 s]
+[INFO] Interop-Core ....................................... SUCCESS [  0.179 s]
+[INFO] tribuo-regression .................................. SUCCESS [  0.004 s]
+[INFO] Regression-Core .................................... SUCCESS [  1.150 s]
+[INFO] tribuo-common ...................................... SUCCESS [  0.005 s]
+[INFO] Common-Tree ........................................ SUCCESS [  1.158 s]
+[INFO] tribuo-classification .............................. SUCCESS [  0.005 s]
+[INFO] Classification-Core ................................ SUCCESS [  1.982 s]
+[INFO] tribuo-multilabel .................................. SUCCESS [  0.007 s]
+[INFO] MultiLabel-Core .................................... SUCCESS [  1.252 s]
+[INFO] Interop-ONNX ....................................... SUCCESS [  8.217 s]
+[INFO] Common-SGD ......................................... SUCCESS [  0.202 s]
+[INFO] Classification-SGD ................................. SUCCESS [  0.487 s]
+[INFO] Regression-SGD ..................................... SUCCESS [  0.277 s]
+[INFO] Classification-Tree ................................ SUCCESS [  0.205 s]
+[INFO] Regression-Tree .................................... SUCCESS [  0.293 s]
+[INFO] Reproducibility .................................... SUCCESS [  0.214 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.004 s
+[INFO] Finished at: 2026-10-11T20:18:17-05:00
+[INFO] ------------------------------------------------------------------------

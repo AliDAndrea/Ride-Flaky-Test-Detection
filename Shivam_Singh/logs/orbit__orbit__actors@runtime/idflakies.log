@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< cloud.orbit:orbit-runtime >----------------------
+[INFO] Building Orbit Runtime 1.10.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ orbit-runtime >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> ea-async:1.2.1:instrument (default) > process-classes @ orbit-runtime >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< ea-async:1.2.1:instrument (default) < process-classes @ orbit-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- ea-async:1.2.1:instrument (default) @ orbit-runtime ---
+[INFO] Orbit Async main-classes instrumented: 0
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orbit-runtime ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ orbit-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ orbit-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ orbit-runtime ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving cloud.orbit:orbit-runtime:1.10.2-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 20 tests. Time taken: 0.4500000476837158 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/.dtfixingtools/original-order
+[INFO] Getting original results (20 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (9.0 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (9.0 seconds elapsed (18.4 total), 13.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (18.4 seconds elapsed (28.1 total), 12.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (28.1 seconds elapsed (39.5 total), 7.0 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (39.5 seconds elapsed (48.5 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/orbit__orbit__actors@runtime/actors/runtime/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:03 min
+[INFO] Finished at: 2026-10-11T17:46:42-05:00
+[INFO] ------------------------------------------------------------------------

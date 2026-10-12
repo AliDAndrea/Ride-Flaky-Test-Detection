@@ -1,0 +1,252 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Querydsl                                                           [pom]
+[INFO] Querydsl - Core module                                             [jar]
+[INFO] Querydsl - Codegen module                                          [jar]
+[INFO] Querydsl - APT support                                             [jar]
+[INFO] Querydsl - Lucene 3 support                                        [jar]
+[INFO] Querydsl - Hibernate Search support                                [jar]
+[INFO] 
+[INFO] ---------------------< com.querydsl:querydsl-root >---------------------
+[INFO] Building Querydsl 4.2.1                                            [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.18.2-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-root ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-root ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-root ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- animal-sniffer:1.14:check (ensure-java-1.6-class-library) @ querydsl-root ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] >>> source:2.4:jar (default) > generate-sources @ querydsl-root >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-root ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-root ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-root ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:jar (default) < generate-sources @ querydsl-root <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:jar (default) @ querydsl-root ---
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ querydsl-root ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (check) @ querydsl-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ querydsl-root ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ querydsl-root ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/pom.xml to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-root/4.2.1/querydsl-root-4.2.1.pom
+[INFO] 
+[INFO] ---------------------< com.querydsl:querydsl-core >---------------------
+[INFO] Building Querydsl - Core module 4.2.1                              [2/6]
+[INFO]   from querydsl-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ querydsl-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ querydsl-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 234 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/dsl/DslTemplate.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/dsl/DslTemplate.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/Template.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/src/main/java/com/querydsl/core/types/Template.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:2.4.0:manifest (bundle-manifest) @ querydsl-core ---
+[INFO] 
+[INFO] --- bridge-method-injector:1.13:process (default) @ querydsl-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ querydsl-core ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ querydsl-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.18:test (default-test) @ querydsl-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.14:check (ensure-java-1.6-class-library) @ querydsl-core ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:2.6:jar (default-jar) @ querydsl-core ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes/META-INF/MANIFEST.MF
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1.jar
+[INFO] 
+[INFO] >>> source:2.4:test-jar (default) > generate-sources @ querydsl-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:test-jar (default) < generate-sources @ querydsl-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:test-jar (default) @ querydsl-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-test-sources.jar
+[INFO] 
+[INFO] >>> source:2.4:jar (default) > generate-sources @ querydsl-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-core ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-core ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< source:2.4:jar (default) < generate-sources @ querydsl-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.4:jar (default) @ querydsl-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-sources.jar
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ querydsl-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- jar:2.6:test-jar (test-jar) @ querydsl-core ---
+[INFO] Adding existing MANIFEST to archive. Found under: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/classes/META-INF/MANIFEST.MF
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (check) @ querydsl-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ querydsl-core ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ querydsl-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/pom.xml to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-test-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-test-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-sources.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-core/target/querydsl-core-4.2.1-tests.jar to /Users/shivamsingh/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-tests.jar
+[INFO] 
+[INFO] -------------------< com.querydsl:querydsl-codegen >--------------------
+[INFO] Building Querydsl - Codegen module 4.2.1                           [3/6]
+[INFO]   from querydsl-codegen/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-maven) @ querydsl-codegen ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- checkstyle:2.15:check (checkstyle-main) @ querydsl-codegen ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ querydsl-codegen ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ querydsl-codegen ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ querydsl-codegen ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/EntitySerializer.java:[22,24] cannot find symbol
+  symbol:   class Generated
+  location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/BeanSerializer.java:[20,24] cannot find symbol
+  symbol:   class Generated
+  location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/ProjectionSerializer.java:[19,24] cannot find symbol
+  symbol:   class Generated
+  location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/EntitySerializer.java:[423,83] cannot find symbol
+  symbol:   class Generated
+  location: class com.querydsl.codegen.EntitySerializer
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/BeanSerializer.java:[105,29] cannot find symbol
+  symbol:   class Generated
+  location: class com.querydsl.codegen.BeanSerializer
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/ProjectionSerializer.java:[61,53] cannot find symbol
+  symbol:   class Generated
+  location: class com.querydsl.codegen.ProjectionSerializer
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Querydsl 4.2.1:
+[INFO] 
+[INFO] Querydsl ........................................... SUCCESS [  1.714 s]
+[INFO] Querydsl - Core module ............................. SUCCESS [  4.560 s]
+[INFO] Querydsl - Codegen module .......................... FAILURE [  0.152 s]
+[INFO] Querydsl - APT support ............................. SKIPPED
+[INFO] Querydsl - Lucene 3 support ........................ SKIPPED
+[INFO] Querydsl - Hibernate Search support ................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.650 s
+[INFO] Finished at: 2026-10-11T18:12:27-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project querydsl-codegen: Compilation failure: Compilation failure: 
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/EntitySerializer.java:[22,24] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/BeanSerializer.java:[20,24] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/ProjectionSerializer.java:[19,24] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: package javax.annotation
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/EntitySerializer.java:[423,83] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: class com.querydsl.codegen.EntitySerializer
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/BeanSerializer.java:[105,29] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: class com.querydsl.codegen.BeanSerializer
+[ERROR] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/querydsl__querydsl__2bf234ca__querydsl-hibernate-search/querydsl-codegen/src/main/java/com/querydsl/codegen/ProjectionSerializer.java:[61,53] cannot find symbol
+[ERROR]   symbol:   class Generated
+[ERROR]   location: class com.querydsl.codegen.ProjectionSerializer
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :querydsl-codegen

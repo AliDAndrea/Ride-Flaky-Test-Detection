@@ -1,0 +1,1196 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.1/maven-bundle-plugin-5.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.1/maven-bundle-plugin-5.1.1.pom (11 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.1/maven-bundle-plugin-5.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/5.1.1/maven-bundle-plugin-5.1.1.jar (213 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.1/biz.aQute.bndlib-5.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.1.1/biz.aQute.bndlib-5.1.1.jar (3.7 MB at 13 MB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] PDFBox parent                                                      [pom]
+[INFO] Apache FontBox                                                  [bundle]
+[INFO] Apache XmpBox                                                   [bundle]
+[INFO] Apache PDFBox                                                   [bundle]
+[INFO] Apache Preflight                                                [bundle]
+[INFO] Apache Preflight application                                    [bundle]
+[INFO] Apache PDFBox Debugger                                             [jar]
+[INFO] Apache PDFBox tools                                                [jar]
+[INFO] Apache PDFBox application                                       [bundle]
+[INFO] Apache PDFBox Debugger application                              [bundle]
+[INFO] Apache PDFBox examples                                             [jar]
+[INFO] Apache PDFBox                                                      [pom]
+[INFO] 
+[INFO] ------------------< org.apache.pdfbox:pdfbox-parent >-------------------
+[INFO] Building PDFBox parent 3.0.0-SNAPSHOT                             [1/12]
+[INFO]   from parent/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.0.0/maven-enforcer-plugin-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.0.0/maven-enforcer-plugin-3.0.0.pom (7.7 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.0.0/enforcer-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.0.0/enforcer-3.0.0.pom (8.7 kB at 217 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.0.0/maven-enforcer-plugin-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.0.0/maven-enforcer-plugin-3.0.0.jar (27 kB at 678 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.20/animal-sniffer-maven-plugin-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.20/animal-sniffer-maven-plugin-1.20.pom (5.6 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.20/animal-sniffer-parent-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.20/animal-sniffer-parent-1.20.pom (7.4 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/61/mojo-parent-61.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/61/mojo-parent-61.pom (30 kB at 709 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.20/animal-sniffer-maven-plugin-1.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.20/animal-sniffer-maven-plugin-1.20.jar (34 kB at 857 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0/enforcer-api-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0/enforcer-api-3.0.0.pom (3.0 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0/enforcer-rules-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0/enforcer-rules-3.0.0.pom (4.7 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.1.0/maven-dependency-tree-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.1.0/maven-dependency-tree-3.1.0.pom (6.9 kB at 147 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.1/maven-resolver-util-1.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.1/maven-resolver-util-1.6.1.pom (2.8 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.6.1/maven-resolver-1.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.6.1/maven-resolver-1.6.1.pom (19 kB at 453 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.1/maven-resolver-api-1.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.1/maven-resolver-api-1.6.1.pom (2.6 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.1.1/maven-compat-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.1.1/maven-compat-3.1.1.pom (4.0 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0/enforcer-api-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0/enforcer-api-3.0.0.jar (12 kB at 290 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0/enforcer-rules-3.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.1/maven-resolver-util-1.6.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.1.0/maven-dependency-tree-3.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.1/maven-resolver-api-1.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.6.1/maven-resolver-util-1.6.1.jar (168 kB at 2.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.1.0/maven-dependency-tree-3.1.0.jar (103 kB at 437 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.6.1/maven-resolver-api-1.6.1.jar (149 kB at 632 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0/enforcer-rules-3.0.0.jar (116 kB at 486 kB/s)
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-parent ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.20/animal-sniffer-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.20/animal-sniffer-1.20.pom (2.3 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.20/java-boot-classpath-detector-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.20/java-boot-classpath-detector-1.20.pom (2.5 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.20/animal-sniffer-1.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.20/animal-sniffer-1.20.jar (37 kB at 865 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.20/java-boot-classpath-detector-1.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.20/java-boot-classpath-detector-1.20.jar (4.9 kB at 117 kB/s)
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-parent ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-parent >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/parent/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-parent/3.0.0-SNAPSHOT/pdfbox-parent-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------------< org.apache.pdfbox:fontbox >----------------------
+[INFO] Building Apache FontBox 3.0.0-SNAPSHOT                            [2/12]
+[INFO]   from fontbox/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/maven-download-plugin/download-maven-plugin/1.6.0/download-maven-plugin-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/maven-download-plugin/download-maven-plugin/1.6.0/download-maven-plugin-1.6.0.pom (11 kB at 187 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/maven-download-plugin/download-maven-plugin/1.6.0/download-maven-plugin-1.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/maven-download-plugin/download-maven-plugin/1.6.0/download-maven-plugin-1.6.0.jar (49 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.pom (3.2 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.1/junit-bom-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.1/junit-bom-5.8.1.pom (5.6 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.pom (3.2 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.pom (2.8 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.pom (3.0 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.pom (3.2 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.pom (3.2 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar (6.4 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar (100 kB at 2.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar (194 kB at 2.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar (186 kB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar (576 kB at 5.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar (230 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ fontbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ fontbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ fontbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ fontbox ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ fontbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 93 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ fontbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 135 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/src/main/java/org/apache/fontbox/cff/CFFFont.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/src/main/java/org/apache/fontbox/cff/CFFFont.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4038) @ fontbox ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom (4.4 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom (24 kB at 540 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar (194 kB at 3.8 MB/s)
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3997) @ fontbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3379) @ fontbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ fontbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 23 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ fontbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ fontbox ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ fontbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ fontbox ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ fontbox ---
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ fontbox ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ fontbox >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ fontbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ fontbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ fontbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ fontbox <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ fontbox ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ fontbox ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/target/fontbox-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/fontbox/3.0.0-SNAPSHOT/fontbox-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/fontbox/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/fontbox/3.0.0-SNAPSHOT/fontbox-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ fontbox ---
+[INFO] Installing org/apache/pdfbox/fontbox/3.0.0-SNAPSHOT/fontbox-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ----------------------< org.apache.pdfbox:xmpbox >----------------------
+[INFO] Building Apache XmpBox 3.0.0-SNAPSHOT                             [3/12]
+[INFO]   from xmpbox/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ xmpbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ xmpbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ xmpbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ xmpbox ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ xmpbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ xmpbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 72 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ xmpbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 27 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ xmpbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/src/test/java/org/apache/xmpbox/schema/XMPSchemaTester.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/src/test/java/org/apache/xmpbox/schema/XMPSchemaTester.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/src/test/java/org/apache/xmpbox/schema/XMPSchemaTester.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ xmpbox ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ xmpbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ xmpbox ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ xmpbox ---
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ xmpbox ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ xmpbox >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ xmpbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ xmpbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ xmpbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ xmpbox <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ xmpbox ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ xmpbox ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/target/xmpbox-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/xmpbox/3.0.0-SNAPSHOT/xmpbox-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/xmpbox/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/xmpbox/3.0.0-SNAPSHOT/xmpbox-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ xmpbox ---
+[INFO] Installing org/apache/pdfbox/xmpbox/3.0.0-SNAPSHOT/xmpbox-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ----------------------< org.apache.pdfbox:pdfbox >----------------------
+[INFO] Building Apache PDFBox 3.0.0-SNAPSHOT                             [4/12]
+[INFO]   from pdfbox/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcmail-jdk15on/1.69/bcmail-jdk15on-1.69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcmail-jdk15on/1.69/bcmail-jdk15on-1.69.pom (1.8 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.pom (1.1 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.pom (1.3 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.pom (1.6 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.pom (16 kB at 391 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.pom (12 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.11.19/byte-buddy-parent-1.11.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.11.19/byte-buddy-parent-1.11.19.pom (43 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.pom (11 kB at 272 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pdfbox/jbig2-imageio/3.0.3/jbig2-imageio-3.0.3.jar (153 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.19/byte-buddy-agent-1.11.19.jar (252 kB at 4.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar (3.7 MB at 20 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ pdfbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 21 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ pdfbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 628 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java:[435,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType0Font.java:[437,30] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType3Font.java:[196,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1CFont.java:[358,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType2.java:[314,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDType1Font.java:[375,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDTrueTypeFont.java:[340,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/font/PDCIDFontType0.java:[446,18] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1031-1) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1031-2) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1065-1) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1065-2) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1100-1) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-1100-2) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3208) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3656) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3682) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3940) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3783) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3785) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3947) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3948) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3949) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3950) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3951) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3964) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3977) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (Genko) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-3999) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4106) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4106b) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4115) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4197) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4184) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4184-2) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4308) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4338) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4339) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4408) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4418-1) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4418-2) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4423) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4517) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4750) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4153) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4490) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-5196) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (PDFBOX-4831) @ pdfbox ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ pdfbox ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 256 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ pdfbox ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 127 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/PDFontTest.java:[264,33] getHeight(int) in org.apache.pdfbox.pdmodel.font.PDFontLike has been deprecated
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ pdfbox ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ pdfbox ---
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/target/pdfbox-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox/3.0.0-SNAPSHOT/pdfbox-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pdfbox/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox/3.0.0-SNAPSHOT/pdfbox-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ pdfbox ---
+[INFO] Installing org/apache/pdfbox/pdfbox/3.0.0-SNAPSHOT/pdfbox-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] --------------------< org.apache.pdfbox:preflight >---------------------
+[INFO] Building Apache Preflight 3.0.0-SNAPSHOT                          [5/12]
+[INFO]   from preflight/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ preflight ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ preflight ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ preflight ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ preflight ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ preflight ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ preflight ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 116 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/FontDescriptorHelper.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/FontDescriptorHelper.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/src/main/java/org/apache/pdfbox/preflight/font/descriptor/FontDescriptorHelper.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- download:1.6.0:wget (get-isartor) @ preflight ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (get-bavaria) @ preflight ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ preflight ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ preflight ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ preflight ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ preflight ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- surefire:2.22.0:test (surefire-test) @ preflight ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ preflight ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ preflight ---
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ preflight ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ preflight >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ preflight ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ preflight ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ preflight ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ preflight <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ preflight ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- surefire:2.22.0:test (surefire-itest) @ preflight ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ preflight ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/target/preflight-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/preflight/3.0.0-SNAPSHOT/preflight-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/preflight/3.0.0-SNAPSHOT/preflight-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ preflight ---
+[INFO] Installing org/apache/pdfbox/preflight/3.0.0-SNAPSHOT/preflight-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ------------------< org.apache.pdfbox:preflight-app >-------------------
+[INFO] Building Apache Preflight application 3.0.0-SNAPSHOT              [6/12]
+[INFO]   from preflight-app/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ preflight-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ preflight-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ preflight-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ preflight-app ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ preflight-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight-app/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ preflight-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ preflight-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight-app/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ preflight-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ preflight-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ preflight-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ preflight-app ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ preflight-app ---
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.io,  has 1,  private references [org.apache.commons.logging]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel,  has 1,  private references [org.apache.fontbox.ttf]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.common,  has 1,  private references [org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font,  has 8,  private references [org.apache.fontbox, org.apache.fontbox.afm, org.apache.fontbox.cff, org.apache.fontbox.cmap, org.apache.fontbox.ttf, org.apache.fontbox.ttf.model, org.apache.fontbox.type1, org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font.encoding,  has 2,  private references [org.apache.fontbox.afm, org.apache.fontbox.encoding]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.preflight,  has 1,  private references [org.apache.xmpbox]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.preflight.font.util,  has 1,  private references [org.apache.xmpbox]
+[WARNING] Bundle org.apache.pdfbox:preflight-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.preflight.metadata,  has 2,  private references [org.apache.xmpbox, org.apache.xmpbox.schema]
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ preflight-app ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ preflight-app >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ preflight-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ preflight-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ preflight-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ preflight-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ preflight-app ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ preflight-app ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight-app/target/preflight-app-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/preflight-app/3.0.0-SNAPSHOT/preflight-app-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/preflight-app/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/preflight-app/3.0.0-SNAPSHOT/preflight-app-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ preflight-app ---
+[INFO] Installing org/apache/pdfbox/preflight-app/3.0.0-SNAPSHOT/preflight-app-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -----------------< org.apache.pdfbox:pdfbox-debugger >------------------
+[INFO] Building Apache PDFBox Debugger 3.0.0-SNAPSHOT                    [7/12]
+[INFO]   from debugger/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.1/picocli-4.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.1/picocli-4.6.1.pom (1.4 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.1/picocli-4.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.1/picocli-4.6.1.jar (402 kB at 8.0 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-debugger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-debugger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-debugger ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-debugger ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ pdfbox-debugger ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 13 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ pdfbox-debugger ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 85 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/src/main/java/org/apache/pdfbox/debugger/fontencodingpane/Type3Font.java:[184,19] appendRawCommands(byte[]) in org.apache.pdfbox.pdmodel.PDPageContentStream has been deprecated
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ pdfbox-debugger ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ pdfbox-debugger ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ pdfbox-debugger ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-debugger ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-debugger ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ pdfbox-debugger ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/target/pdfbox-debugger-3.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-debugger ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-debugger >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-debugger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-debugger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-debugger ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-debugger <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-debugger ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-debugger ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/target/pdfbox-debugger-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-debugger/3.0.0-SNAPSHOT/pdfbox-debugger-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-debugger/3.0.0-SNAPSHOT/pdfbox-debugger-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.apache.pdfbox:pdfbox-tools >-------------------
+[INFO] Building Apache PDFBox tools 3.0.0-SNAPSHOT                       [8/12]
+[INFO]   from tools/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-tools ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-tools ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-tools ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-tools ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ pdfbox-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ pdfbox-tools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ pdfbox-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ pdfbox-tools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ pdfbox-tools ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-tools ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-tools ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ pdfbox-tools ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/target/pdfbox-tools-3.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-tools ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-tools >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-tools ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-tools ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-tools ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-tools <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-tools ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-tools ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/target/pdfbox-tools-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-tools/3.0.0-SNAPSHOT/pdfbox-tools-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/tools/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-tools/3.0.0-SNAPSHOT/pdfbox-tools-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.apache.pdfbox:pdfbox-app >--------------------
+[INFO] Building Apache PDFBox application 3.0.0-SNAPSHOT                 [9/12]
+[INFO]   from app/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-app ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ pdfbox-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/app/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ pdfbox-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ pdfbox-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/app/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ pdfbox-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ pdfbox-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-app ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ pdfbox-app ---
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.debugger,  has 1,  private references [picocli]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.debugger.ui,  has 1,  private references [org.apache.commons.logging]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.io,  has 1,  private references [org.apache.commons.logging]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel,  has 1,  private references [org.apache.fontbox.ttf]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.common,  has 1,  private references [org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font,  has 8,  private references [org.apache.fontbox, org.apache.fontbox.afm, org.apache.fontbox.cff, org.apache.fontbox.cmap, org.apache.fontbox.ttf, org.apache.fontbox.ttf.model, org.apache.fontbox.type1, org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font.encoding,  has 2,  private references [org.apache.fontbox.afm, org.apache.fontbox.encoding]
+[WARNING] Bundle org.apache.pdfbox:pdfbox-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.tools,  has 1,  private references [picocli]
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-app ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-app >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-app ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-app ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/app/target/pdfbox-app-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-app/3.0.0-SNAPSHOT/pdfbox-app-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/app/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-app/3.0.0-SNAPSHOT/pdfbox-app-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ pdfbox-app ---
+[INFO] Installing org/apache/pdfbox/pdfbox-app/3.0.0-SNAPSHOT/pdfbox-app-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -------------------< org.apache.pdfbox:debugger-app >-------------------
+[INFO] Building Apache PDFBox Debugger application 3.0.0-SNAPSHOT       [10/12]
+[INFO]   from debugger-app/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ debugger-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ debugger-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ debugger-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ debugger-app ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ debugger-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger-app/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ debugger-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ debugger-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger-app/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ debugger-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ debugger-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ debugger-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ debugger-app ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- bundle:5.1.1:bundle (default-bundle) @ debugger-app ---
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.debugger,  has 1,  private references [picocli]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.debugger.ui,  has 1,  private references [org.apache.commons.logging]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.io,  has 1,  private references [org.apache.commons.logging]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel,  has 1,  private references [org.apache.fontbox.ttf]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.common,  has 1,  private references [org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font,  has 8,  private references [org.apache.fontbox, org.apache.fontbox.afm, org.apache.fontbox.cff, org.apache.fontbox.cmap, org.apache.fontbox.ttf, org.apache.fontbox.ttf.model, org.apache.fontbox.type1, org.apache.fontbox.util]
+[WARNING] Bundle org.apache.pdfbox:debugger-app:bundle:3.0.0-SNAPSHOT : Export org.apache.pdfbox.pdmodel.font.encoding,  has 2,  private references [org.apache.fontbox.afm, org.apache.fontbox.encoding]
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ debugger-app ---
+[INFO] Skipping because packaging 'bundle' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ debugger-app >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ debugger-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ debugger-app ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ debugger-app ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ debugger-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ debugger-app ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ debugger-app ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger-app/target/debugger-app-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/debugger-app/3.0.0-SNAPSHOT/debugger-app-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/debugger-app/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/debugger-app/3.0.0-SNAPSHOT/debugger-app-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- bundle:5.1.1:install (default-install) @ debugger-app ---
+[INFO] Installing org/apache/pdfbox/debugger-app/3.0.0-SNAPSHOT/debugger-app-3.0.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -----------------< org.apache.pdfbox:pdfbox-examples >------------------
+[INFO] Building Apache PDFBox examples 3.0.0-SNAPSHOT                   [11/12]
+[INFO]   from examples/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/7.7.2/lucene-core-7.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/7.7.2/lucene-core-7.7.2.pom (3.0 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-parent/7.7.2/lucene-parent-7.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-parent/7.7.2/lucene-parent-7.7.2.pom (5.0 kB at 124 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-solr-grandparent/7.7.2/lucene-solr-grandparent-7.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-solr-grandparent/7.7.2/lucene-solr-grandparent-7.7.2.pom (373 kB at 7.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analyzers-common/7.7.2/lucene-analyzers-common-7.7.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analyzers-common/7.7.2/lucene-analyzers-common-7.7.2.pom (3.3 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_1.1_spec/1.0/geronimo-jaxrs_1.1_spec-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_1.1_spec/1.0/geronimo-jaxrs_1.1_spec-1.0.pom (3.8 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/7.7.2/lucene-core-7.7.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/7.7.2/lucene-core-7.7.2.jar (3.1 MB at 23 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analyzers-common/7.7.2/lucene-analyzers-common-7.7.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_1.1_spec/1.0/geronimo-jaxrs_1.1_spec-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_1.1_spec/1.0/geronimo-jaxrs_1.1_spec-1.0.jar (55 kB at 931 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-analyzers-common/7.7.2/lucene-analyzers-common-7.7.2.jar (1.7 MB at 14 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-examples ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-examples ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-examples ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-examples ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] Copying appended resource: META-INF/NOTICE
+[INFO] Copying appended resource: META-INF/LICENSE
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ pdfbox-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ pdfbox-examples ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 90 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/examples/target/classes
+[INFO] 
+[INFO] --- download:1.6.0:wget (testAddValidationInformation) @ pdfbox-examples ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- download:1.6.0:wget (testDoubleVisibleSignatureOnEncryptedFile) @ pdfbox-examples ---
+[INFO] maven-download-plugin:wget skipped
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ pdfbox-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ pdfbox-examples ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/examples/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ pdfbox-examples ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-examples ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-examples ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ pdfbox-examples ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/examples/target/pdfbox-examples-3.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-examples ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-examples >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-examples ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-examples ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-examples ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-examples <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-examples ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-examples ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/examples/target/pdfbox-examples-3.0.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-examples/3.0.0-SNAPSHOT/pdfbox-examples-3.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/examples/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-examples/3.0.0-SNAPSHOT/pdfbox-examples-3.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< org.apache.pdfbox:pdfbox-reactor >------------------
+[INFO] Building Apache PDFBox 3.0.0-SNAPSHOT                            [12/12]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-reactor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-reactor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-reactor ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ pdfbox-reactor ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- jacoco:0.8.6:report (report) @ pdfbox-reactor ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- animal-sniffer:1.20:check (check-java-version) @ pdfbox-reactor ---
+[INFO] Signature checking is skipped.
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ pdfbox-reactor ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] >>> source:3.2.1:jar (attach-sources) > generate-sources @ pdfbox-reactor >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default) @ pdfbox-reactor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven-version) @ pdfbox-reactor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (default) @ pdfbox-reactor ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.2.1:jar (attach-sources) < generate-sources @ pdfbox-reactor <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.2.1:jar (attach-sources) @ pdfbox-reactor ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ pdfbox-reactor ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__pdfbox__root/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/pdfbox/pdfbox-reactor/3.0.0-SNAPSHOT/pdfbox-reactor-3.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache PDFBox 3.0.0-SNAPSHOT:
+[INFO] 
+[INFO] PDFBox parent ...................................... SUCCESS [  4.304 s]
+[INFO] Apache FontBox ..................................... SUCCESS [ 11.649 s]
+[INFO] Apache XmpBox ...................................... SUCCESS [  2.106 s]
+[INFO] Apache PDFBox ...................................... SUCCESS [  9.210 s]
+[INFO] Apache Preflight ................................... SUCCESS [  1.770 s]
+[INFO] Apache Preflight application ....................... SUCCESS [  3.222 s]
+[INFO] Apache PDFBox Debugger ............................. SUCCESS [  1.150 s]
+[INFO] Apache PDFBox tools ................................ SUCCESS [  0.493 s]
+[INFO] Apache PDFBox application .......................... SUCCESS [  3.617 s]
+[INFO] Apache PDFBox Debugger application ................. SUCCESS [  3.199 s]
+[INFO] Apache PDFBox examples ............................. SUCCESS [  2.873 s]
+[INFO] Apache PDFBox ...................................... SUCCESS [  0.041 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.163 s
+[INFO] Finished at: 2026-10-11T18:21:17-05:00
+[INFO] ------------------------------------------------------------------------

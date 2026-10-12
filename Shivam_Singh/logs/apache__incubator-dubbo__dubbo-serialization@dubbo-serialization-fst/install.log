@@ -1,0 +1,345 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] dubbo-parent                                                       [pom]
+[INFO] dubbo-common                                                       [jar]
+[INFO] dubbo-serialization                                                [pom]
+[INFO] dubbo-serialization-api                                            [jar]
+[INFO] dubbo-serialization-fst                                            [jar]
+[INFO] dubbo-dependencies-bom                                             [pom]
+[INFO] 
+[INFO] -------------------< org.apache.dubbo:dubbo-parent >--------------------
+[INFO] Building dubbo-parent 2.7.0-SNAPSHOT                               [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-parent ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-parent ---
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-parent ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ dubbo-parent >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-parent ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ dubbo-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ dubbo-parent ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:report (jacoco-site) @ dubbo-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- apache-rat:0.12:check (verify.rat) @ dubbo-parent ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-parent/2.7.0-SNAPSHOT/dubbo-parent-2.7.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.apache.dubbo:dubbo-common >--------------------
+[INFO] Building dubbo-common 2.7.0-SNAPSHOT                               [2/6]
+[INFO]   from dubbo-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-common ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-common ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 113 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 24 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 159 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ dubbo-common ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ dubbo-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/dubbo-common-2.7.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-common ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ dubbo-common >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-common ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ dubbo-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ dubbo-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/dubbo-common-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- jacoco:0.8.2:report (jacoco-site) @ dubbo-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- apache-rat:0.12:check (verify.rat) @ dubbo-common ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/dubbo-common-2.7.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-common/target/dubbo-common-2.7.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-common/2.7.0-SNAPSHOT/dubbo-common-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ----------------< org.apache.dubbo:dubbo-serialization >----------------
+[INFO] Building dubbo-serialization 2.7.0-SNAPSHOT                        [3/6]
+[INFO]   from dubbo-serialization/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-serialization ---
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-serialization ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ dubbo-serialization >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ dubbo-serialization <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ dubbo-serialization ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:report (jacoco-site) @ dubbo-serialization ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- apache-rat:0.12:check (verify.rat) @ dubbo-serialization ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-serialization ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization/2.7.0-SNAPSHOT/dubbo-serialization-2.7.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------< org.apache.dubbo:dubbo-serialization-api >--------------
+[INFO] Building dubbo-serialization-api 2.7.0-SNAPSHOT                    [4/6]
+[INFO]   from dubbo-serialization/dubbo-serialization-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-api ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-serialization-api ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-serialization-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/src/main/resources
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-serialization-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-serialization-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-serialization-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ dubbo-serialization-api ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ dubbo-serialization-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/dubbo-serialization-api-2.7.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-serialization-api ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ dubbo-serialization-api >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-api ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ dubbo-serialization-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ dubbo-serialization-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/dubbo-serialization-api-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- jacoco:0.8.2:report (jacoco-site) @ dubbo-serialization-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- apache-rat:0.12:check (verify.rat) @ dubbo-serialization-api ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-serialization-api ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/dubbo-serialization-api-2.7.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-api/target/dubbo-serialization-api-2.7.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-api/2.7.0-SNAPSHOT/dubbo-serialization-api-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --------------< org.apache.dubbo:dubbo-serialization-fst >--------------
+[INFO] Building dubbo-serialization-fst 2.7.0-SNAPSHOT                    [5/6]
+[INFO]   from dubbo-serialization/dubbo-serialization-fst/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.4/objenesis-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.4/objenesis-2.4.jar (51 kB at 160 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-fst ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-fst ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-serialization-fst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-serialization-fst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ dubbo-serialization-fst ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ dubbo-serialization-fst ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/dubbo-serialization-fst-2.7.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-serialization-fst ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ dubbo-serialization-fst >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-fst ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-fst ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ dubbo-serialization-fst <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ dubbo-serialization-fst ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/dubbo-serialization-fst-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- jacoco:0.8.2:report (jacoco-site) @ dubbo-serialization-fst ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- apache-rat:0.12:check (verify.rat) @ dubbo-serialization-fst ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-serialization-fst ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/dubbo-serialization-fst-2.7.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-fst/2.7.0-SNAPSHOT/dubbo-serialization-fst-2.7.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-fst/2.7.0-SNAPSHOT/dubbo-serialization-fst-2.7.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/target/dubbo-serialization-fst-2.7.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-serialization-fst/2.7.0-SNAPSHOT/dubbo-serialization-fst-2.7.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --------------< org.apache.dubbo:dubbo-dependencies-bom >---------------
+[INFO] Building dubbo-dependencies-bom 2.7.0-SNAPSHOT                     [6/6]
+[INFO]   from dubbo-dependencies-bom/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-dependencies-bom ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-dependencies-bom ---
+[INFO] 
+[INFO] --- site:3.7:attach-descriptor (attach-descriptor) @ dubbo-dependencies-bom ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ dubbo-dependencies-bom ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-dependencies-bom/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/dubbo/dubbo-dependencies-bom/2.7.0-SNAPSHOT/dubbo-dependencies-bom-2.7.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for dubbo-parent 2.7.0-SNAPSHOT:
+[INFO] 
+[INFO] dubbo-parent ....................................... SUCCESS [  3.304 s]
+[INFO] dubbo-common ....................................... SUCCESS [ 10.623 s]
+[INFO] dubbo-serialization ................................ SUCCESS [  0.077 s]
+[INFO] dubbo-serialization-api ............................ SUCCESS [  1.523 s]
+[INFO] dubbo-serialization-fst ............................ SUCCESS [  2.779 s]
+[INFO] dubbo-dependencies-bom ............................. SUCCESS [  0.027 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.059 s
+[INFO] Finished at: 2026-10-09T18:22:38-05:00
+[INFO] ------------------------------------------------------------------------
