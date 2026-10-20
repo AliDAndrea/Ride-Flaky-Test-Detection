@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.thinkaurelius.titan:titan-test >-----------------
+[INFO] Building Titan-Test: Test Suite for Titan 1.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ titan-test >>>
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-maven) @ titan-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-dependency-convergence) @ titan-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gplus:1.2:addSources (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:addTestSources (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:generateStubs (default) @ titan-test ---
+[INFO] Using Groovy 2.4.1-indy to perform generateStubs.
+[INFO] Generated 5 stubs.
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ titan-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ titan-test ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.2:compile (default) @ titan-test ---
+[INFO] Using Groovy 2.4.1-indy to perform compile.
+[INFO] Compiled 18 files.
+[INFO] 
+[INFO] --- gplus:1.2:removeStubs (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:testGenerateStubs (default) @ titan-test ---
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ titan-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ titan-test ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.2:testCompile (default) @ titan-test ---
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- gplus:1.2:removeTestStubs (default) @ titan-test ---
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ titan-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ titan-test ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.thinkaurelius.titan:titan-test:1.0.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 268 tests. Time taken: 1.5369999408721924 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/.dtfixingtools/original-order
+[INFO] Getting original results (268 tests).
+[watchdog] time cap of 600s reached - stopping; results so far are kept

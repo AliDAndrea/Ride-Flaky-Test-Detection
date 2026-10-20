@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< io.helidon.build-tools.archetype:helidon-archetype-engine-v2 >----
+[INFO] Building Helidon Archetype Engine 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:critsearch (default-cli) > test-compile @ helidon-archetype-engine-v2 >>>
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ helidon-archetype-engine-v2 ---
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2
+[INFO] Storing buildNumber: c60640f0 at timestamp: 2026-10-11 18:46:46 CDT
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:2.7:copy-resources (copy-license) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ helidon-archetype-engine-v2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2/target/classes
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 119 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ helidon-archetype-engine-v2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2/target/test-classes
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:critsearch (default-cli) < test-compile @ helidon-archetype-engine-v2 <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:critsearch (default-cli) @ helidon-archetype-engine-v2 ---
+INFO: Running CritSearchMojo
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.helidon.build.archetype.engine.v2.util.InputPermutationsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in io.helidon.build.archetype.engine.v2.util.InputPermutationsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+This location is not a good one. Go back and run minimizer again.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.548 s
+[INFO] Finished at: 2026-10-11T18:46:51-05:00
+[INFO] ------------------------------------------------------------------------

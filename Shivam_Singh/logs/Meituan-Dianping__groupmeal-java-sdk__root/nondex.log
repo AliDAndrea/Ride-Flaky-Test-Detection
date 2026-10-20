@@ -1,0 +1,421 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------< io.github.meituan-dianping:groupmeal-java-sdk >------------
+[INFO] Building groupmeal-java-sdk 0.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ groupmeal-java-sdk >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ groupmeal-java-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:2.3:compile (default-compile) @ groupmeal-java-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ groupmeal-java-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3:testCompile (default-testCompile) @ groupmeal-java-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ groupmeal-java-sdk <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ groupmeal-java-sdk ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_MDHZJ0gclgwTFhCqEQ7gVEIpZ0OCx2eDXydtbdXr1JI=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running PayClientTest
+[2026-10-11 19:00:21.525]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1791763221520.48404 body: {"status":0,"trade_no":"604557080286524400","payment_id":"1","notify_time":"1791763221","total_amount":"1300"} 
+[2026-10-11 19:00:21.641]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1791763221520.48404 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1791763221520.48404
+App-Id: tcqd_demo03
+Sign: c8692fbbaf171e5529e0fe16de2c35bd
+Sign-Type: MD5
+Timestamp: 1791763221
+ 
+[2026-10-11 19:00:22.785]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1791763221520.48404 cost:1143
+Server: openresty
+Date: Mon, 12 Oct 2026 00:00:22 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27adc9dcfd1791763222696
+ 
+[2026-10-11 19:00:22.788]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1791763221520.48404 body: {"code":40001,"message":"App-Id not support "} 
+result: {"code":40001,"message":"App-Id not support "}
+签名不匹配,需要排查
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.987 s -- in PayClientTest
+[INFO] Running JsonTest
+{"status":1,"message":"fail","trade_no":"2340343433","payment_id":"20210343","notify_time":"1791763222","total_amount":"2590"}
+{"status":1,"message":"fail","trade_no":"2340343433","payment_id":"20210343","notify_time":"1791763222","total_amount":"2590"}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in JsonTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexExecid=XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running PayClientTest
+[2026-10-11 19:00:24.932]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1791763224923.92974 body: {"trade_no":"604557080286524400","total_amount":"1300","status":0,"notify_time":"1791763224","payment_id":"1"} 
+[2026-10-11 19:00:25.075]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1791763224923.92974 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1791763224923.92974
+App-Id: tcqd_demo03
+Sign: ff62643d18eb99cf4463610fb4f82f84
+Sign-Type: MD5
+Timestamp: 1791763224
+ 
+[2026-10-11 19:00:26.185]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1791763224923.92974 cost:1109
+Server: openresty
+Date: Mon, 12 Oct 2026 00:00:26 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27adc9dd5d1791763226091
+ 
+[2026-10-11 19:00:26.187]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1791763224923.92974 body: {"code":40001,"message":"App-Id not support "} 
+result: {"message":"App-Id not support ","code":40001}
+签名不匹配,需要排查
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.331 s -- in PayClientTest
+[INFO] Running JsonTest
+{"status":1,"total_amount":"2590","trade_no":"2340343433","message":"fail","payment_id":"20210343","notify_time":"1791763226"}
+{"total_amount":"2590","notify_time":"1791763226","trade_no":"2340343433","message":"fail","status":1,"payment_id":"20210343"}
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! -- in JsonTest
+[ERROR] JsonTest.payCallBackParam -- Time elapsed: 0.017 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   JsonTest.payCallBackParam:29
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexExecid=n3afVBUNEG2TArRq8HgKdg7LKbVylYY9SPeJTTnghFw=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running PayClientTest
+[2026-10-11 19:00:28.214]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1791763228203.94103 body: {"total_amount":"1300","status":0,"notify_time":"1791763228","trade_no":"604557080286524400","payment_id":"1"} 
+[2026-10-11 19:00:28.353]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1791763228203.94103 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1791763228203.94103
+App-Id: tcqd_demo03
+Sign: b8c22367fd902e5dab474094eefab4c8
+Sign-Type: MD5
+Timestamp: 1791763228
+ 
+[2026-10-11 19:00:29.697]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1791763228203.94103 cost:1342
+Server: openresty
+Date: Mon, 12 Oct 2026 00:00:29 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27adc9dd8d1791763229596
+ 
+[2026-10-11 19:00:29.704]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1791763228203.94103 body: {"code":40001,"message":"App-Id not support "} 
+result: {"message":"App-Id not support ","code":40001}
+签名不匹配,需要排查
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.511 s -- in PayClientTest
+[INFO] Running JsonTest
+{"status":1,"message":"fail","payment_id":"20210343","trade_no":"2340343433","total_amount":"2590","notify_time":"1791763229"}
+{"status":1,"total_amount":"2590","trade_no":"2340343433","payment_id":"20210343","message":"fail","notify_time":"1791763229"}
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in JsonTest
+[ERROR] JsonTest.payCallBackParam -- Time elapsed: 0.007 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   JsonTest.payCallBackParam:29
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for n3afVBUNEG2TArRq8HgKdg7LKbVylYY9SPeJTTnghFw=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex
+nondexExecid=g5LmN4htaLfE45s4WctkU3cjKtr4cjk2Bxdo7nd3ng=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running PayClientTest
+[2026-10-11 19:00:31.423]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy req requestId:1791763231414.9188 body: {"status":0,"trade_no":"604557080286524400","total_amount":"1300","notify_time":"1791763231","payment_id":"1"} 
+[2026-10-11 19:00:31.538]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor send request, request_id: 1791763231414.9188 
+M-SpanName: /oapi/channel/pay/notify
+Content-Type: application/json; charset=utf-8
+MT-SDK-Version: SDK_JAVA_1.0.0
+MT-SDK-RequestId: 1791763231414.9188
+App-Id: tcqd_demo03
+Sign: 73e22304a0c6a560ef0fb74db88f065a
+Sign-Type: MD5
+Timestamp: 1791763231
+ 
+[2026-10-11 19:00:32.842]--[INFO] main#com.sankuai.groupmeal.base.http.interceptor.LogInterceptor recieve response, request_id: 1791763231414.9188 cost:1303
+Server: openresty
+Date: Mon, 12 Oct 2026 00:00:32 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 46
+Connection: keep-alive
+MT-Gateway-Error: true
+M-SpanName: /oapi/channel/pay/notify
+M-TraceId: 0a27c2f0e97e1791763232746
+ 
+[2026-10-11 19:00:32.843]--[INFO] main#com.sankuai.groupmeal.base.http.ClientProxy res requestId:1791763231414.9188 body: {"code":40001,"message":"App-Id not support "} 
+result: {"message":"App-Id not support ","code":40001}
+签名不匹配,需要排查
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.118 s -- in PayClientTest
+[INFO] Running JsonTest
+{"notify_time":"1791763232","status":1,"payment_id":"20210343","trade_no":"2340343433","total_amount":"2590","message":"fail"}
+{"message":"fail","total_amount":"2590","payment_id":"20210343","status":1,"trade_no":"2340343433","notify_time":"1791763232"}
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in JsonTest
+[ERROR] JsonTest.payCallBackParam -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at JsonTest.payCallBackParam(JsonTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:49)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:120)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:95)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:69)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   JsonTest.payCallBackParam:29
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for g5LmN4htaLfE45s4WctkU3cjKtr4cjk2Bxdo7nd3ng=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexExecid=XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw= -DnondexLogging=CONFIG
+[WARNING] JsonTest#payCallBackParam
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexExecid=n3afVBUNEG2TArRq8HgKdg7LKbVylYY9SPeJTTnghFw= -DnondexLogging=CONFIG
+[WARNING] JsonTest#payCallBackParam
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex" -DnondexExecid=g5LmN4htaLfE45s4WctkU3cjKtr4cjk2Bxdo7nd3ng= -DnondexLogging=CONFIG
+[WARNING] JsonTest#payCallBackParam
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] JsonTest#payCallBackParam
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex/XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw=/test_results.html
+[INFO] [NonDex] The id of this run is: XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.972 s
+[INFO] Finished at: 2026-10-11T19:00:32-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project groupmeal-java-sdk: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Meituan-Dianping__groupmeal-java-sdk__root/.nondex/XD6+hHuXZ8E2Fx0M1pYj6c6tf3dXfmOdImZOLnPzdw= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,612 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Vertexium                                                          [pom]
+[INFO] Vertexium: Core                                                    [jar]
+[INFO] Vertexium: Test                                                    [jar]
+[INFO] Vertexium: Accumulo: Iterators                                     [jar]
+[INFO] Vertexium: Accumulo                                                [jar]
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-root >--------------------
+[INFO] Building Vertexium 4.4.2-SNAPSHOT                                  [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768188377
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-root >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768188850
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-root <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-root ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-root ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-root ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-root/4.4.2-SNAPSHOT/vertexium-root-4.4.2-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-core >--------------------
+[INFO] Building Vertexium: Core 4.4.2-SNAPSHOT                            [2/5]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768193776
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 219 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/src/main/java/org/vertexium/query/QueryBase.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/src/main/java/org/vertexium/query/QueryBase.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/target/vertexium-core-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768214208
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.4.2-SNAPSHOT/vertexium-core-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/core/target/vertexium-core-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.4.2-SNAPSHOT/vertexium-core-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-test >--------------------
+[INFO] Building Vertexium: Test 4.4.2-SNAPSHOT                            [3/5]
+[INFO]   from test/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-test ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768214740
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-test ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-test ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-test ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-test ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/target/vertexium-test-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-test >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-test ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768218515
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-test ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-test ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-test ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-test ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-test/4.4.2-SNAPSHOT/vertexium-test-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/test/target/vertexium-test-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-test/4.4.2-SNAPSHOT/vertexium-test-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------< org.vertexium:vertexium-accumulo-iterators >-------------
+[INFO] Building Vertexium: Accumulo: Iterators 4.4.2-SNAPSHOT             [4/5]
+[INFO]   from accumulo-iterators/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-core/1.9.2/accumulo-core-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-core/1.9.2/accumulo-core-1.9.2.pom (13 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-project/1.9.2/accumulo-project-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-project/1.9.2/accumulo-project-1.9.2.pom (59 kB at 873 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-fate/1.9.2/accumulo-fate-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-fate/1.9.2/accumulo-fate-1.9.2.pom (2.3 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-start/1.9.2/accumulo-start-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-start/1.9.2/accumulo-start-1.9.2.pom (6.2 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.6.4/hadoop-client-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.6.4/hadoop-client-2.6.4.pom (11 kB at 184 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.4/hadoop-project-dist-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.4/hadoop-project-dist-2.6.4.pom (18 kB at 279 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.4/hadoop-project-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.4/hadoop-project-2.6.4.pom (43 kB at 571 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.4/hadoop-main-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.4/hadoop-main-2.6.4.pom (18 kB at 335 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4.pom (31 kB at 577 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom (2.4 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom (7.7 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom (2.5 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom (32 kB at 521 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom (4.5 kB at 89 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom (2.9 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom (2.8 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom (6.5 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.4/hadoop-hdfs-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.4/hadoop-hdfs-2.6.4.pom (29 kB at 595 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.4/hadoop-mapreduce-client-app-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.4/hadoop-mapreduce-client-app-2.6.4.pom (4.7 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.6.4/hadoop-mapreduce-client-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.6.4/hadoop-mapreduce-client-2.6.4.pom (6.7 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.4/hadoop-mapreduce-client-common-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.4/hadoop-mapreduce-client-common-2.6.4.pom (3.3 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.4/hadoop-yarn-common-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.4/hadoop-yarn-common-2.6.4.pom (10 kB at 223 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.6.4/hadoop-yarn-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.6.4/hadoop-yarn-2.6.4.pom (3.6 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.4/hadoop-yarn-api-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.4/hadoop-yarn-api-2.6.4.pom (4.6 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.4/hadoop-yarn-client-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.4/hadoop-yarn-client-2.6.4.pom (6.3 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4.pom (3.5 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.4/hadoop-yarn-server-common-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.4/hadoop-yarn-server-common-2.6.4.pom (5.7 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.6.4/hadoop-yarn-server-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.6.4/hadoop-yarn-server-2.6.4.pom (1.8 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.4/hadoop-mapreduce-client-shuffle-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.4/hadoop-mapreduce-client-shuffle-2.6.4.pom (3.1 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.4/hadoop-mapreduce-client-jobclient-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.4/hadoop-mapreduce-client-jobclient-2.6.4.pom (5.7 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.4/hadoop-yarn-server-nodemanager-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.4/hadoop-yarn-server-nodemanager-2.6.4.pom (12 kB at 223 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.pom (3.3 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.9.0/hadoop-client-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.9.0/hadoop-client-2.9.0.pom (10 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.9.0/hadoop-project-dist-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.9.0/hadoop-project-dist-2.9.0.pom (17 kB at 229 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.9.0/hadoop-project-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.9.0/hadoop-project-2.9.0.pom (58 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.9.0/hadoop-main-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.9.0/hadoop-main-2.9.0.pom (21 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.9.0/hadoop-common-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.9.0/hadoop-common-2.9.0.pom (36 kB at 480 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.9.0/hadoop-annotations-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.9.0/hadoop-annotations-2.9.0.pom (2.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.9.0/hadoop-auth-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.9.0/hadoop-auth-2.9.0.pom (8.9 kB at 208 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.9/nimbus-jose-jwt-3.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.9/nimbus-jose-jwt-3.9.pom (12 kB at 285 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.9.0/hadoop-hdfs-client-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.9.0/hadoop-hdfs-client-2.9.0.pom (5.7 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.4.0/okhttp-2.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.4.0/okhttp-2.4.0.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/parent/2.4.0/parent-2.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/parent/2.4.0/parent-2.4.0.pom (9.2 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.4.0/okio-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.4.0/okio-1.4.0.pom (1.5 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.4.0/okio-parent-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.4.0/okio-parent-1.4.0.pom (3.2 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.9.0/hadoop-mapreduce-client-app-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.9.0/hadoop-mapreduce-client-app-2.9.0.pom (4.7 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.9.0/hadoop-mapreduce-client-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client/2.9.0/hadoop-mapreduce-client-2.9.0.pom (12 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.9.0/hadoop-mapreduce-client-common-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.9.0/hadoop-mapreduce-client-common-2.9.0.pom (3.2 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.9.0/hadoop-yarn-common-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.9.0/hadoop-yarn-common-2.9.0.pom (11 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.9.0/hadoop-yarn-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn/2.9.0/hadoop-yarn-2.9.0.pom (10.0 kB at 169 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.9.0/hadoop-yarn-api-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.9.0/hadoop-yarn-api-2.9.0.pom (5.2 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.9.0/hadoop-yarn-client-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.9.0/hadoop-yarn-client-2.9.0.pom (6.4 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.0/hadoop-mapreduce-client-core-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.0/hadoop-mapreduce-client-core-2.9.0.pom (4.6 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.9.0/hadoop-mapreduce-client-shuffle-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.9.0/hadoop-mapreduce-client-shuffle-2.9.0.pom (2.9 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.9.0/hadoop-yarn-server-common-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.9.0/hadoop-yarn-server-common-2.9.0.pom (8.0 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.9.0/hadoop-yarn-server-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.9.0/hadoop-yarn-server-2.9.0.pom (2.1 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP-java7/2.4.12/HikariCP-java7-2.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP-java7/2.4.12/HikariCP-java7-2.4.12.pom (18 kB at 308 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/6.2.1.jre7/mssql-jdbc-6.2.1.jre7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/6.2.1.jre7/mssql-jdbc-6.2.1.jre7.pom (8.8 kB at 166 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.9.0/hadoop-mapreduce-client-jobclient-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.9.0/hadoop-mapreduce-client-jobclient-2.9.0.pom (6.2 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.9.0/hadoop-yarn-server-nodemanager-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.9.0/hadoop-yarn-server-nodemanager-2.9.0.pom (13 kB at 288 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-registry/2.9.0/hadoop-yarn-registry-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-registry/2.9.0/hadoop-yarn-registry-2.9.0.pom (7.2 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-core/1.9.2/accumulo-core-1.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-core/1.9.2/accumulo-core-1.9.2.jar (5.2 MB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-fate/1.9.2/accumulo-fate-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-start/1.9.2/accumulo-start-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.9.0/hadoop-client-2.9.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-start/1.9.2/accumulo-start-1.9.2.jar (53 kB at 307 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.9.0/hadoop-common-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-fate/1.9.2/accumulo-fate-1.9.2.jar (125 kB at 293 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-client/2.9.0/hadoop-client-2.9.0.jar (31 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.9.0/hadoop-auth-2.9.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.9/nimbus-jose-jwt-3.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar (234 kB at 536 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar (264 kB at 544 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar (202 kB at 385 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/3.9/nimbus-jose-jwt-3.9.jar (179 kB at 340 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.9.0/hadoop-hdfs-client-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.9.0/hadoop-auth-2.9.0.jar (125 kB at 228 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.4.0/okhttp-2.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar (284 kB at 503 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.4.0/okio-1.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.9.0/hadoop-common-2.9.0.jar (3.9 MB at 6.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.9.0/hadoop-mapreduce-client-app-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp/okhttp/2.4.0/okhttp-2.4.0.jar (319 kB at 502 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.9.0/hadoop-mapreduce-client-common-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.4.0/okio-1.4.0.jar (65 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.9.0/hadoop-mapreduce-client-shuffle-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.9.0/hadoop-mapreduce-client-app-2.9.0.jar (572 kB at 828 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.9.0/hadoop-yarn-server-common-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar (1.5 MB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.9.0/hadoop-mapreduce-client-shuffle-2.9.0.jar (85 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP-java7/2.4.12/HikariCP-java7-2.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.9.0/hadoop-mapreduce-client-common-2.9.0.jar (791 kB at 955 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/6.2.1.jre7/mssql-jdbc-6.2.1.jre7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP-java7/2.4.12/HikariCP-java7-2.4.12.jar (134 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.9.0/hadoop-yarn-api-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.9.0/hadoop-yarn-server-common-2.9.0.jar (1.3 MB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.0/hadoop-mapreduce-client-core-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-hdfs-client/2.9.0/hadoop-hdfs-client-2.9.0.jar (4.2 MB at 4.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.9.0/hadoop-yarn-client-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.jar (1.7 MB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.9.0/hadoop-yarn-common-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/6.2.1.jre7/mssql-jdbc-6.2.1.jre7.jar (792 kB at 873 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.9.0/hadoop-mapreduce-client-jobclient-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.9.0/hadoop-yarn-client-2.9.0.jar (276 kB at 281 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.9.0/hadoop-annotations-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.9.0/hadoop-mapreduce-client-jobclient-2.9.0.jar (71 kB at 72 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.9.0/hadoop-yarn-common-2.9.0.jar (2.0 MB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.9.0/hadoop-mapreduce-client-core-2.9.0.jar (1.6 MB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.9.0/hadoop-annotations-2.9.0.jar (47 kB at 44 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.9.0/hadoop-yarn-api-2.9.0.jar (2.8 MB at 2.5 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-accumulo-iterators ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-accumulo-iterators ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768228238
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-accumulo-iterators ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-accumulo-iterators ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-accumulo-iterators ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-accumulo-iterators ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-accumulo-iterators ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-accumulo-iterators ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-accumulo-iterators ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/target/vertexium-accumulo-iterators-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-accumulo-iterators >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-accumulo-iterators ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-accumulo-iterators ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768230455
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-accumulo-iterators ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-accumulo-iterators <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-accumulo-iterators ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-accumulo-iterators ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-accumulo-iterators ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-accumulo-iterators/4.4.2-SNAPSHOT/vertexium-accumulo-iterators-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo-iterators/target/vertexium-accumulo-iterators-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-accumulo-iterators/4.4.2-SNAPSHOT/vertexium-accumulo-iterators-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.vertexium:vertexium-accumulo >------------------
+[INFO] Building Vertexium: Accumulo 4.4.2-SNAPSHOT                        [5/5]
+[INFO]   from accumulo/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-minicluster/1.9.2/accumulo-minicluster-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-minicluster/1.9.2/accumulo-minicluster-1.9.2.pom (7.0 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-gc/1.9.2/accumulo-gc-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-gc/1.9.2/accumulo-gc-1.9.2.pom (4.5 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-server-base/1.9.2/accumulo-server-base-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-server-base/1.9.2/accumulo-server-base-1.9.2.pom (6.4 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-master/1.9.2/accumulo-master-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-master/1.9.2/accumulo-master-1.9.2.pom (4.8 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-monitor/1.9.2/accumulo-monitor-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-monitor/1.9.2/accumulo-monitor-1.9.2.pom (7.6 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-shell/1.9.2/accumulo-shell-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-shell/1.9.2/accumulo-shell-1.9.2.pom (5.8 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tracer/1.9.2/accumulo-tracer-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tracer/1.9.2/accumulo-tracer-1.9.2.pom (5.3 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.pom (2.8 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.17.v20160517/jetty-project-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.17.v20160517/jetty-project-9.2.17.v20160517.pom (40 kB at 630 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.pom (4.1 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.pom (2.5 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.pom (3.6 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.pom (2.3 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.pom (3.3 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tserver/1.9.2/accumulo-tserver-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tserver/1.9.2/accumulo-tserver-1.9.2.pom (6.1 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.pom (12 kB at 282 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.pom (4.1 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.pom (4.0 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-minicluster/1.9.2/accumulo-minicluster-1.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-minicluster/1.9.2/accumulo-minicluster-1.9.2.jar (84 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-gc/1.9.2/accumulo-gc-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-master/1.9.2/accumulo-master-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-monitor/1.9.2/accumulo-monitor-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-shell/1.9.2/accumulo-shell-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-gc/1.9.2/accumulo-gc-1.9.2.jar (57 kB at 762 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.jar (96 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-shell/1.9.2/accumulo-shell-1.9.2.jar (278 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-master/1.9.2/accumulo-master-1.9.2.jar (300 kB at 3.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-monitor/1.9.2/accumulo-monitor-1.9.2.jar (333 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.jar (116 kB at 646 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-server-base/1.9.2/accumulo-server-base-1.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar (368 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tracer/1.9.2/accumulo-tracer-1.9.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar (419 kB at 2.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar (126 kB at 642 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tserver/1.9.2/accumulo-tserver-1.9.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tracer/1.9.2/accumulo-tracer-1.9.2.jar (143 kB at 495 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.jar (892 kB at 3.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-server-base/1.9.2/accumulo-server-base-1.9.2.jar (703 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/accumulo/accumulo-tserver/1.9.2/accumulo-tserver-1.9.2.jar (522 kB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar (108 kB at 317 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar (2.4 MB at 5.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar (2.4 MB at 4.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-accumulo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-accumulo ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768233188
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-accumulo ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-accumulo ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-accumulo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 46 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/main/java/org/vertexium/accumulo/ElementMutationBuilder.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/main/java/org/vertexium/accumulo/ElementMutationBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-accumulo ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-accumulo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/test/java/org/vertexium/accumulo/AccumuloResource.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/test/java/org/vertexium/accumulo/AccumuloResource.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- jar:3.0.1:test-jar (default) @ vertexium-accumulo ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/vertexium-accumulo-4.4.2-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-accumulo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-accumulo ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/vertexium-accumulo-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-accumulo >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-accumulo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-accumulo ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768237742
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-accumulo ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-accumulo <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-accumulo ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-accumulo ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-accumulo ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-accumulo/4.4.2-SNAPSHOT/vertexium-accumulo-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/vertexium-accumulo-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-accumulo/4.4.2-SNAPSHOT/vertexium-accumulo-4.4.2-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/target/vertexium-accumulo-4.4.2-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-accumulo/4.4.2-SNAPSHOT/vertexium-accumulo-4.4.2-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Vertexium 4.4.2-SNAPSHOT:
+[INFO] 
+[INFO] Vertexium .......................................... SUCCESS [  9.219 s]
+[INFO] Vertexium: Core .................................... SUCCESS [ 21.072 s]
+[INFO] Vertexium: Test .................................... SUCCESS [  4.337 s]
+[INFO] Vertexium: Accumulo: Iterators ..................... SUCCESS [ 11.945 s]
+[INFO] Vertexium: Accumulo ................................ SUCCESS [  7.303 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  54.819 s
+[INFO] Finished at: 2026-10-11T20:23:58-05:00
+[INFO] ------------------------------------------------------------------------

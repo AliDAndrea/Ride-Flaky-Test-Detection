@@ -1,0 +1,1619 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/cloud/spring-cloud-alibaba-dependencies/2021.0.1.0/spring-cloud-alibaba-dependencies-2021.0.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/cloud/spring-cloud-alibaba-dependencies/2021.0.1.0/spring-cloud-alibaba-dependencies-2021.0.1.0.pom (12 kB at 15 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] shenyu                                                             [pom]
+[INFO] shenyu-common                                                      [jar]
+[INFO] shenyu-disruptor                                                   [jar]
+[INFO] shenyu-spi                                                         [jar]
+[INFO] shenyu-register-center                                             [pom]
+[INFO] shenyu-register-common                                             [jar]
+[INFO] shenyu-register-client-server                                      [pom]
+[INFO] shenyu-register-client-server-api                                  [jar]
+[INFO] shenyu-register-client-server-zookeeper                            [jar]
+[INFO] shenyu-register-client-server-etcd                                 [jar]
+[INFO] shenyu-register-client-server-consul                               [jar]
+[INFO] shenyu-register-client-server-nacos                                [jar]
+[INFO] shenyu-admin                                                       [jar]
+[INFO] 
+[INFO] ----------------------< org.apache.shenyu:shenyu >----------------------
+[INFO] Building shenyu 2.5.1-SNAPSHOT                                    [1/13]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-plugin/0.13/apache-rat-plugin-0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-plugin/0.13/apache-rat-plugin-0.13.pom (10 kB at 165 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-project/0.13/apache-rat-project-0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-project/0.13/apache-rat-project-0.13.pom (26 kB at 476 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-plugin/0.13/apache-rat-plugin-0.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-plugin/0.13/apache-rat-plugin-0.13.jar (53 kB at 752 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.pom (3.2 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.pom (25 kB at 495 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.pom (12 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.6/byte-buddy-parent-1.12.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.6/byte-buddy-parent-1.12.6.pom (44 kB at 796 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.pom (25 kB at 508 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.pom (25 kB at 322 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-core/0.13/apache-rat-core-0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-core/0.13/apache-rat-core-0.13.pom (4.2 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-api/0.13/apache-rat-api-0.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-api/0.13/apache-rat-api-0.13.pom (1.9 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-core/0.13/apache-rat-core-0.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-core/0.13/apache-rat-core-0.13.jar (128 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-api/0.13/apache-rat-api-0.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/rat/apache-rat-api/0.13/apache-rat-api-0.13.jar (11 kB at 178 kB/s)
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu/2.5.1-SNAPSHOT/shenyu-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< org.apache.shenyu:shenyu-common >-------------------
+[INFO] Building shenyu-common 2.5.1-SNAPSHOT                             [2/13]
+[INFO]   from shenyu-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.pom (8.1 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M4/maven-surefire-plugin-3.0.0-M4.jar (42 kB at 683 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.6.8/spring-boot-starter-json-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.6.8/spring-boot-starter-json-2.6.8.pom (3.1 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.6.8/spring-boot-starter-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.6.8/spring-boot-starter-2.6.8.pom (3.1 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.6.8/spring-boot-starter-logging-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.6.8/spring-boot-starter-logging-2.6.8.pom (2.5 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.20/spring-web-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.20/spring-web-5.3.20.pom (2.2 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.pom (2.6 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.pom (4.4 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.6.8/spring-boot-starter-json-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.6.8/spring-boot-starter-json-2.6.8.jar (4.7 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.6.8/spring-boot-starter-2.6.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.6.8/spring-boot-starter-logging-2.6.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.20/spring-web-5.3.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.6.8/spring-boot-starter-2.6.8.jar (4.8 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.jar (67 kB at 453 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/3.5.15/mockito-junit-jupiter-3.5.15.jar (4.9 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar (675 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar (9.5 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.6.8/spring-boot-starter-logging-2.6.8.jar (4.8 kB at 7.4 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar (35 kB at 54 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-inline/3.5.15/mockito-inline-3.5.15.jar (1.5 kB at 2.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.3.20/spring-web-5.3.20.jar (1.6 MB at 1.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.6/byte-buddy-1.12.6.jar (3.8 MB at 3.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-common ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-common ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 134 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 111 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/src/test/java/org/apache/shenyu/common/utils/JsonUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/src/test/java/org/apache/shenyu/common/utils/JsonUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/src/test/java/org/apache/shenyu/common/utils/LogUtilsTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/src/test/java/org/apache/shenyu/common/utils/LogUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-common ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M4/maven-surefire-common-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M4/maven-surefire-common-3.0.0-M4.pom (13 kB at 154 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.pom (5.1 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.pom (3.6 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M4/surefire-extensions-api-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M4/surefire-extensions-api-3.0.0-M4.pom (3.8 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.pom (8.0 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M4/maven-surefire-common-3.0.0-M4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.0.0-M4/maven-surefire-common-3.0.0-M4.jar (804 kB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M4/surefire-extensions-api-3.0.0-M4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.0.0-M4/surefire-logger-api-3.0.0-M4.jar (14 kB at 228 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M4/surefire-extensions-api-3.0.0-M4.jar (14 kB at 233 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.0.0-M4/surefire-api-3.0.0-M4.jar (343 kB at 5.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.0.0-M4/surefire-booter-3.0.0-M4.jar (317 kB at 2.8 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/target/shenyu-common-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-common ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-common ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-common ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-common ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/target/shenyu-common-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-common/2.5.1-SNAPSHOT/shenyu-common-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-common/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-common/2.5.1-SNAPSHOT/shenyu-common-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< org.apache.shenyu:shenyu-disruptor >-----------------
+[INFO] Building shenyu-disruptor 2.5.1-SNAPSHOT                          [3/13]
+[INFO]   from shenyu-disruptor/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.0/disruptor-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.0/disruptor-3.4.0.pom (1.3 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.0/disruptor-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/lmax/disruptor/3.4.0/disruptor-3.4.0.jar (83 kB at 1.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-disruptor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-disruptor ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-disruptor ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-disruptor ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-disruptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-disruptor ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/src/main/java/org/apache/shenyu/disruptor/DisruptorProviderManage.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/src/main/java/org/apache/shenyu/disruptor/DisruptorProviderManage.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/src/main/java/org/apache/shenyu/disruptor/DisruptorProviderManage.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-disruptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-disruptor ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-disruptor ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-disruptor ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-disruptor ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/target/shenyu-disruptor-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-disruptor ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-disruptor ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-disruptor ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-disruptor ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-disruptor ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/target/shenyu-disruptor-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-disruptor/2.5.1-SNAPSHOT/shenyu-disruptor-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-disruptor/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-disruptor/2.5.1-SNAPSHOT/shenyu-disruptor-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.apache.shenyu:shenyu-spi >--------------------
+[INFO] Building shenyu-spi 2.5.1-SNAPSHOT                                [4/13]
+[INFO]   from shenyu-spi/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-spi ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-spi ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-spi ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-spi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/src/main/java/org/apache/shenyu/spi/ExtensionLoader.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/src/main/java/org/apache/shenyu/spi/ExtensionLoader.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/src/main/java/org/apache/shenyu/spi/ExtensionLoader.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-spi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-spi ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-spi ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-spi ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/target/shenyu-spi-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-spi ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-spi ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-spi ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-spi ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-spi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/target/shenyu-spi-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-spi/2.5.1-SNAPSHOT/shenyu-spi-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-spi/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-spi/2.5.1-SNAPSHOT/shenyu-spi-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------< org.apache.shenyu:shenyu-register-center >--------------
+[INFO] Building shenyu-register-center 2.5.1-SNAPSHOT                    [5/13]
+[INFO]   from shenyu-register-center/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-center ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-center ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-center ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-center ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-center ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-center ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-center ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-center ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-center ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-center ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-center/2.5.1-SNAPSHOT/shenyu-register-center-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------< org.apache.shenyu:shenyu-register-common >--------------
+[INFO] Building shenyu-register-common 2.5.1-SNAPSHOT                    [6/13]
+[INFO]   from shenyu-register-center/shenyu-register-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-common ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-common ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/target/shenyu-register-common-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-common ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-common ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-common ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-common ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/target/shenyu-register-common-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-common/2.5.1-SNAPSHOT/shenyu-register-common-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-common/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-common/2.5.1-SNAPSHOT/shenyu-register-common-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------< org.apache.shenyu:shenyu-register-client-server >-----------
+[INFO] Building shenyu-register-client-server 2.5.1-SNAPSHOT             [7/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server/2.5.1-SNAPSHOT/shenyu-register-client-server-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------< org.apache.shenyu:shenyu-register-client-server-api >---------
+[INFO] Building shenyu-register-client-server-api 2.5.1-SNAPSHOT         [8/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server-api ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server-api ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-client-server-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-client-server-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-client-server-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-client-server-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-client-server-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server-api ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-client-server-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/target/shenyu-register-client-server-api-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server-api ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server-api ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server-api ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server-api ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server-api ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/target/shenyu-register-client-server-api-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-api/2.5.1-SNAPSHOT/shenyu-register-client-server-api-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-api/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-api/2.5.1-SNAPSHOT/shenyu-register-client-server-api-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] -----< org.apache.shenyu:shenyu-register-client-server-zookeeper >------
+[INFO] Building shenyu-register-client-server-zookeeper 2.5.1-SNAPSHOT   [9/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.pom (3.6 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/4.3.0/apache-curator-4.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/4.3.0/apache-curator-4.3.0.pom (37 kB at 714 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.pom (4.7 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.pom (9.5 kB at 194 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.7/parent-3.5.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/parent/3.5.7/parent-3.5.7.pom (28 kB at 535 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.pom (5.7 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.pom (3.6 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.pom (4.2 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar (326 kB at 5.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar (296 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar (5.6 kB at 21 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.5.7/zookeeper-3.5.7.jar (990 kB at 3.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/3.5.7/zookeeper-jute-3.5.7.jar (251 kB at 864 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar (3.0 MB at 8.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar (3.0 MB at 4.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server-zookeeper ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server-zookeeper ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-client-server-zookeeper ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-client-server-zookeeper ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-client-server-zookeeper ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-client-server-zookeeper ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-client-server-zookeeper ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-client-server-zookeeper ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/target/shenyu-register-client-server-zookeeper-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server-zookeeper ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server-zookeeper ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server-zookeeper ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/target/shenyu-register-client-server-zookeeper-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-zookeeper/2.5.1-SNAPSHOT/shenyu-register-client-server-zookeeper-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-zookeeper/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-zookeeper/2.5.1-SNAPSHOT/shenyu-register-client-server-zookeeper-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------< org.apache.shenyu:shenyu-register-client-server-etcd >--------
+[INFO] Building shenyu-register-client-server-etcd 2.5.1-SNAPSHOT       [10/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-core/0.7.3/jetcd-core-0.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-core/0.7.3/jetcd-core-0.7.3.pom (8.1 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-grpc/0.7.3/jetcd-grpc-0.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-grpc/0.7.3/jetcd-grpc-0.7.3.pom (13 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc/4.3.2/vertx-grpc-4.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc/4.3.2/vertx-grpc-4.3.2.pom (7.3 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc-parent/4.3.2/vertx-grpc-parent-4.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc-parent/4.3.2/vertx-grpc-parent-4.3.2.pom (1.8 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.3.2/vertx-dependencies-4.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-dependencies/4.3.2/vertx-dependencies-4.3.2.pom (32 kB at 711 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.78.Final/netty-bom-4.1.78.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.78.Final/netty-bom-4.1.78.Final.pom (13 kB at 286 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.20220324/jackson-bom-2.13.2.20220324.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.20220324/jackson-bom-2.13.2.20220324.pom (17 kB at 356 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.2/vertx-core-4.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.2/vertx-core-4.3.2.pom (32 kB at 477 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.48.0/grpc-core-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.48.0/grpc-core-1.48.0.pom (2.5 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.48.0/grpc-api-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.48.0/grpc-api-1.48.0.pom (2.0 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.48.0/grpc-context-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.48.0/grpc-context-1.48.0.pom (1.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.48.0/grpc-grpclb-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.48.0/grpc-grpclb-1.48.0.pom (2.5 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.1/protobuf-java-util-3.21.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.1/protobuf-java-util-3.21.1.pom (5.6 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-api/0.7.3/jetcd-api-0.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-api/0.7.3/jetcd-api-0.7.3.pom (3.3 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-common/0.7.3/jetcd-common-0.7.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-common/0.7.3/jetcd-common-0.7.3.pom (5.7 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.pom (7.4 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.33.1/grpc-core-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.33.1/grpc-core-1.33.1.pom (3.4 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.33.1/grpc-api-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.33.1/grpc-api-1.33.1.pom (2.6 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.33.1/grpc-context-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.33.1/grpc-context-1.33.1.pom (1.2 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.pom (1.5 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.33.1/grpc-protobuf-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.33.1/grpc-protobuf-1.33.1.pom (3.7 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.12.0/protobuf-java-3.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.12.0/protobuf-java-3.12.0.pom (5.6 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.12.0/protobuf-parent-3.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.12.0/protobuf-parent-3.12.0.pom (7.7 kB at 183 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.12.0/protobuf-bom-3.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.12.0/protobuf-bom-3.12.0.pom (3.5 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.33.1/grpc-protobuf-lite-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.33.1/grpc-protobuf-lite-1.33.1.pom (2.9 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.33.1/grpc-stub-1.33.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.33.1/grpc-stub-1.33.1.pom (2.6 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-core/0.7.3/jetcd-core-0.7.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-core/0.7.3/jetcd-core-0.7.3.jar (178 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-grpc/0.7.3/jetcd-grpc-0.7.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc/4.3.2/vertx-grpc-4.3.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.2/vertx-core-4.3.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.48.0/grpc-core-1.48.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.48.0/grpc-api-1.48.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.48.0/grpc-api-1.48.0.jar (259 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.48.0/grpc-context-1.48.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-grpc/4.3.2/vertx-grpc-4.3.2.jar (34 kB at 365 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.48.0/grpc-grpclb-1.48.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vertx/vertx-core/4.3.2/vertx-core-4.3.2.jar (1.5 MB at 9.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.1/protobuf-java-util-3.21.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-grpc/0.7.3/jetcd-grpc-0.7.3.jar (1.3 MB at 6.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-api/0.7.3/jetcd-api-0.7.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.48.0/grpc-context-1.48.0.jar (31 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-common/0.7.3/jetcd-common-0.7.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-grpclb/1.48.0/grpc-grpclb-1.48.0.jar (180 kB at 914 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.21.1/protobuf-java-util-3.21.1.jar (74 kB at 379 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.33.1/grpc-protobuf-1.33.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.48.0/grpc-core-1.48.0.jar (689 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.12.0/protobuf-java-3.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.33.1/grpc-protobuf-1.33.1.jar (5.2 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar (100 kB at 409 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.33.1/grpc-protobuf-lite-1.33.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-common/0.7.3/jetcd-common-0.7.3.jar (8.3 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.33.1/grpc-stub-1.33.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/etcd/jetcd-api/0.7.3/jetcd-api-0.7.3.jar (261 B at 1.0 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.33.1/grpc-protobuf-lite-1.33.1.jar (7.6 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.12.0/protobuf-java-3.12.0.jar (1.7 MB at 4.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.33.1/grpc-stub-1.33.1.jar (50 kB at 130 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar (1.3 MB at 3.2 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server-etcd ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server-etcd ---
+[INFO] artifact io.grpc:grpc-api: checking for updates from central
+[INFO] artifact io.grpc:grpc-core: checking for updates from central
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.pom (2.2 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.14.0/error_prone_parent-2.14.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.14.0/error_prone_parent-2.14.0.pom (11 kB at 263 kB/s)
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-client-server-etcd ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-client-server-etcd ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/src/main/java/org/apache/shenyu/register/client/server/etcd/client/EtcdClient.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/src/main/java/org/apache/shenyu/register/client/server/etcd/client/EtcdClient.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/src/main/java/org/apache/shenyu/register/client/server/etcd/client/EtcdClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-client-server-etcd ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-client-server-etcd ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-client-server-etcd ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-client-server-etcd ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/target/shenyu-register-client-server-etcd-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server-etcd ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server-etcd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server-etcd ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/target/shenyu-register-client-server-etcd-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-etcd/2.5.1-SNAPSHOT/shenyu-register-client-server-etcd-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-etcd/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-etcd/2.5.1-SNAPSHOT/shenyu-register-client-server-etcd-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] -------< org.apache.shenyu:shenyu-register-client-server-consul >-------
+[INFO] Building shenyu-register-client-server-consul 2.5.1-SNAPSHOT     [11/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.6.RELEASE/spring-cloud-starter-consul-discovery-2.2.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.6.RELEASE/spring-cloud-starter-consul-discovery-2.2.6.RELEASE.pom (5.3 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul/2.2.6.RELEASE/spring-cloud-consul-2.2.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul/2.2.6.RELEASE/spring-cloud-consul-2.2.6.RELEASE.pom (4.9 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.2.RELEASE/spring-cloud-build-2.3.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.2.RELEASE/spring-cloud-build-2.3.2.RELEASE.pom (52 kB at 955 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.2.RELEASE/spring-cloud-build-dependencies-2.3.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.2.RELEASE/spring-cloud-build-dependencies-2.3.2.RELEASE.pom (3.3 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.8.RELEASE/spring-boot-dependencies-2.3.8.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.8.RELEASE/spring-boot-dependencies-2.3.8.RELEASE.pom (122 kB at 366 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.17/metrics-bom-4.1.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.17/metrics-bom-4.1.17.pom (5.3 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.17/metrics-parent-4.1.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.17/metrics-parent-4.1.17.pom (17 kB at 371 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.10/micrometer-bom-1.5.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.10/micrometer-bom-1.5.10.pom (6.6 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.58.Final/netty-bom-4.1.58.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.58.Final/netty-bom-4.1.58.Final.pom (8.8 kB at 199 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR16/reactor-bom-Dysprosium-SR16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR16/reactor-bom-Dysprosium-SR16.pom (4.1 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.3/rsocket-bom-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.3/rsocket-bom-1.0.3.pom (2.8 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR6/spring-data-releasetrain-Neumann-SR6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR6/spring-data-releasetrain-Neumann-SR6.pom (5.0 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.6.RELEASE/spring-data-build-2.3.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.6.RELEASE/spring-data-build-2.3.6.RELEASE.pom (7.1 kB at 168 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.12.RELEASE/spring-framework-bom-5.2.12.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.12.RELEASE/spring-framework-bom-5.2.12.RELEASE.pom (5.3 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.5.RELEASE/spring-integration-bom-5.3.5.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.5.RELEASE/spring-integration-bom-5.3.5.RELEASE.pom (9.2 kB at 214 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.6.RELEASE/spring-security-bom-5.3.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.6.RELEASE/spring-security-bom-5.3.6.RELEASE.pom (5.4 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR1/spring-session-bom-Dragonfruit-SR1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR1/spring-session-bom-Dragonfruit-SR1.pom (2.8 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul/2.2.6.RELEASE/spring-cloud-starter-consul-2.2.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul/2.2.6.RELEASE/spring-cloud-starter-consul-2.2.6.RELEASE.pom (5.5 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/3.1.2/spring-cloud-starter-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/3.1.2/spring-cloud-starter-3.1.2.pom (5.0 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/3.1.2/spring-cloud-commons-parent-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/3.1.2/spring-cloud-commons-parent-3.1.2.pom (4.5 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/3.1.2/spring-cloud-build-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/3.1.2/spring-cloud-build-3.1.2.pom (58 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/3.1.2/spring-cloud-build-dependencies-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/3.1.2/spring-cloud-build-dependencies-3.1.2.pom (3.2 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.6.7/spring-boot-dependencies-2.6.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.6.7/spring-boot-dependencies-2.6.7.pom (110 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.1/jackson-bom-2.13.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.2.1/jackson-bom-2.13.2.1.pom (17 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.8.5/micrometer-bom-1.8.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.8.5/micrometer-bom-1.8.5.pom (7.1 kB at 150 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.76.Final/netty-bom-4.1.76.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.76.Final/netty-bom-4.1.76.Final.pom (13 kB at 337 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.18/reactor-bom-2020.0.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.18/reactor-bom-2020.0.18.pom (4.6 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.19/spring-framework-bom-5.3.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.19/spring-framework-bom-5.3.19.pom (5.7 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.11/spring-integration-bom-5.5.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.11/spring-integration-bom-5.5.11.pom (9.2 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.3/spring-security-bom-5.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.3/spring-security-bom-5.6.3.pom (5.7 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/3.1.2/spring-cloud-context-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/3.1.2/spring-cloud-context-3.1.2.pom (6.3 kB at 146 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/5.6.5/spring-security-crypto-5.6.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/5.6.5/spring-security-crypto-5.6.5.pom (1.9 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/3.1.2/spring-cloud-commons-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/3.1.2/spring-cloud-commons-3.1.2.pom (8.7 kB at 185 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.pom (5.1 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.pom (1.5 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.pom (1.1 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-core/2.2.6.RELEASE/spring-cloud-consul-core-2.2.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-core/2.2.6.RELEASE/spring-cloud-consul-core-2.2.6.RELEASE.pom (7.0 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.6.8/spring-boot-starter-validation-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.6.8/spring-boot-starter-validation-2.6.8.pom (2.5 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.63/tomcat-embed-el-9.0.63.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.63/tomcat-embed-el-9.0.63.pom (1.5 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.pom (14 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.2.3.Final/hibernate-validator-parent-6.2.3.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.2.3.Final/hibernate-validator-parent-6.2.3.Final.pom (78 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ecwid/consul/consul-api/1.4.5/consul-api-1.4.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ecwid/consul/consul-api/1.4.5/consul-api-1.4.5.pom (2.6 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-discovery/2.2.6.RELEASE/spring-cloud-consul-discovery-2.2.6.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-discovery/2.2.6.RELEASE/spring-cloud-consul-discovery-2.2.6.RELEASE.pom (10 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.7.RELEASE/spring-cloud-netflix-hystrix-2.2.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.7.RELEASE/spring-cloud-netflix-hystrix-2.2.7.RELEASE.pom (11 kB at 239 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.7.RELEASE/spring-cloud-netflix-2.2.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.7.RELEASE/spring-cloud-netflix-2.2.7.RELEASE.pom (4.6 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.6.8/spring-boot-starter-aop-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.6.8/spring-boot-starter-aop-2.6.8.pom (2.5 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.10.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.10.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.10.RELEASE.pom (6.2 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/2.2.10.RELEASE/spring-cloud-starter-netflix-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix/2.2.10.RELEASE/spring-cloud-starter-netflix-2.2.10.RELEASE.pom (3.8 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.10.RELEASE/spring-cloud-netflix-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/2.2.10.RELEASE/spring-cloud-netflix-2.2.10.RELEASE.pom (4.6 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.5.RELEASE/spring-cloud-build-2.3.5.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/2.3.5.RELEASE/spring-cloud-build-2.3.5.RELEASE.pom (52 kB at 818 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.5.RELEASE/spring-cloud-build-dependencies-2.3.5.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/2.3.5.RELEASE/spring-cloud-build-dependencies-2.3.5.RELEASE.pom (3.3 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.12.RELEASE/spring-boot-dependencies-2.3.12.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.3.12.RELEASE/spring-boot-dependencies-2.3.12.RELEASE.pom (122 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.22/metrics-bom-4.1.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.22/metrics-bom-4.1.22.pom (5.3 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.22/metrics-parent-4.1.22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.22/metrics-parent-4.1.22.pom (17 kB at 438 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.14/micrometer-bom-1.5.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.5.14/micrometer-bom-1.5.14.pom (6.6 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR20/reactor-bom-Dysprosium-SR20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Dysprosium-SR20/reactor-bom-Dysprosium-SR20.pom (4.1 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.5/rsocket-bom-1.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-bom/1.0.5/rsocket-bom-1.0.5.pom (2.8 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR9/spring-data-releasetrain-Neumann-SR9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Neumann-SR9/spring-data-releasetrain-Neumann-SR9.pom (5.0 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.9.RELEASE/spring-data-build-2.3.9.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.3.9.RELEASE/spring-data-build-2.3.9.RELEASE.pom (7.1 kB at 173 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.15.RELEASE/spring-framework-bom-5.2.15.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.2.15.RELEASE/spring-framework-bom-5.2.15.RELEASE.pom (5.3 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.8.RELEASE/spring-integration-bom-5.3.8.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.3.8.RELEASE/spring-integration-bom-5.3.8.RELEASE.pom (8.8 kB at 201 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.9.RELEASE/spring-security-bom-5.3.9.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.3.9.RELEASE/spring-security-bom-5.3.9.RELEASE.pom (5.4 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR3/spring-session-bom-Dragonfruit-SR3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Dragonfruit-SR3/spring-session-bom-Dragonfruit-SR3.pom (2.8 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.10.RELEASE/spring-cloud-netflix-ribbon-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.10.RELEASE/spring-cloud-netflix-ribbon-2.2.10.RELEASE.pom (9.3 kB at 233 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.10.RELEASE/spring-cloud-netflix-archaius-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.10.RELEASE/spring-cloud-netflix-archaius-2.2.10.RELEASE.pom (5.2 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.10.RELEASE/spring-cloud-starter-netflix-archaius-2.2.10.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.10.RELEASE/spring-cloud-starter-netflix-archaius-2.2.10.RELEASE.pom (5.4 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.pom (3.9 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.pom (5.4 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.pom (3.6 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.pom (4.4 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.pom (4.1 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.pom (3.2 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.pom (3.0 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.pom (1.9 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.7.5/servo-core-0.7.5.pom (2.5 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.pom (3.0 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.pom (4.8 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.7.RELEASE/spring-cloud-starter-loadbalancer-2.2.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.7.RELEASE/spring-cloud-starter-loadbalancer-2.2.7.RELEASE.pom (4.6 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/2.2.7.RELEASE/spring-cloud-commons-parent-2.2.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons-parent/2.2.7.RELEASE/spring-cloud-commons-parent-2.2.7.RELEASE.pom (4.5 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/2.2.7.RELEASE/spring-cloud-loadbalancer-2.2.7.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/2.2.7.RELEASE/spring-cloud-loadbalancer-2.2.7.RELEASE.pom (6.8 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.18/reactor-core-3.4.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.18/reactor-core-3.4.18.pom (2.1 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.8/reactor-extra-3.4.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.8/reactor-extra-3.4.8.pom (2.0 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.6.8/spring-boot-starter-cache-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.6.8/spring-boot-starter-cache-2.6.8.pom (2.3 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.20/spring-context-support-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.20/spring-context-support-5.3.20.pom (2.4 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.6.RELEASE/spring-cloud-starter-consul-discovery-2.2.6.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul-discovery/2.2.6.RELEASE/spring-cloud-starter-consul-discovery-2.2.6.RELEASE.jar (2.9 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul/2.2.6.RELEASE/spring-cloud-starter-consul-2.2.6.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/3.1.2/spring-cloud-starter-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/3.1.2/spring-cloud-context-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/5.6.5/spring-security-crypto-5.6.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/3.1.2/spring-cloud-commons-3.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/5.6.5/spring-security-crypto-5.6.5.jar (82 kB at 1.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-consul/2.2.6.RELEASE/spring-cloud-starter-consul-2.2.6.RELEASE.jar (2.9 kB at 34 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/3.1.2/spring-cloud-starter-3.1.2.jar (2.6 kB at 32 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-context/3.1.2/spring-cloud-context-3.1.2.jar (158 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-core/2.2.6.RELEASE/spring-cloud-consul-core-2.2.6.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-commons/3.1.2/spring-cloud-commons-3.1.2.jar (259 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.6.8/spring-boot-starter-validation-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-rsa/1.0.10.RELEASE/spring-security-rsa-1.0.10.RELEASE.jar (20 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.63/tomcat-embed-el-9.0.63.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-core/2.2.6.RELEASE/spring-cloud-consul-core-2.2.6.RELEASE.jar (21 kB at 132 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.6.8/spring-boot-starter-validation-2.6.8.jar (4.8 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ecwid/consul/consul-api/1.4.5/consul-api-1.4.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar (888 kB at 5.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-discovery/2.2.6.RELEASE/spring-cloud-consul-discovery-2.2.6.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.63/tomcat-embed-el-9.0.63.jar (256 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.7.RELEASE/spring-cloud-netflix-hystrix-2.2.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ecwid/consul/consul-api/1.4.5/consul-api-1.4.5.jar (169 kB at 716 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.6.8/spring-boot-starter-aop-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-consul-discovery/2.2.6.RELEASE/spring-cloud-consul-discovery-2.2.6.RELEASE.jar (80 kB at 316 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.7.RELEASE/spring-cloud-netflix-hystrix-2.2.7.RELEASE.jar (44 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.10.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.10.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.6.8/spring-boot-starter-aop-2.6.8.jar (4.8 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.10.RELEASE/spring-cloud-netflix-ribbon-2.2.10.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.10.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.10.RELEASE.jar (2.9 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.10.RELEASE/spring-cloud-netflix-archaius-2.2.10.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.10.RELEASE/spring-cloud-netflix-ribbon-2.2.10.RELEASE.jar (110 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.10.RELEASE/spring-cloud-starter-netflix-archaius-2.2.10.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar (2.1 MB at 4.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.10.RELEASE/spring-cloud-netflix-archaius-2.2.10.RELEASE.jar (15 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.10.RELEASE/spring-cloud-starter-netflix-archaius-2.2.10.RELEASE.jar (2.9 kB at 5.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.jar (1.3 MB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/archaius/archaius-core/0.7.7/archaius-core-0.7.7.jar (142 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.jar (87 kB at 152 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar (6.0 MB at 10 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar (84 kB at 136 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar (41 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.jar (55 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/hystrix/hystrix-core/1.4.3/hystrix-core-1.4.3.jar (287 kB at 451 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.7.RELEASE/spring-cloud-starter-loadbalancer-2.2.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar (225 kB at 350 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/2.2.7.RELEASE/spring-cloud-loadbalancer-2.2.7.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar (6.7 kB at 10.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.18/reactor-core-3.4.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar (174 kB at 257 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.8/reactor-extra-3.4.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar (162 kB at 239 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.6.8/spring-boot-starter-cache-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/2.2.7.RELEASE/spring-cloud-starter-loadbalancer-2.2.7.RELEASE.jar (2.8 kB at 4.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.20/spring-context-support-5.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/2.2.7.RELEASE/spring-cloud-loadbalancer-2.2.7.RELEASE.jar (85 kB at 124 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.6.8/spring-boot-starter-cache-2.6.8.jar (4.8 kB at 6.6 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.8/reactor-extra-3.4.8.jar (181 kB at 248 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.20/spring-context-support-5.3.20.jar (187 kB at 252 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.18/reactor-core-3.4.18.jar (1.7 MB at 1.8 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server-consul ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server-consul ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server-consul ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server-consul ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-client-server-consul ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-client-server-consul ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-client-server-consul ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-client-server-consul ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-client-server-consul ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server-consul ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-client-server-consul ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/target/shenyu-register-client-server-consul-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server-consul ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server-consul ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server-consul ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server-consul ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server-consul ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/target/shenyu-register-client-server-consul-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-consul/2.5.1-SNAPSHOT/shenyu-register-client-server-consul-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-consul/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-consul/2.5.1-SNAPSHOT/shenyu-register-client-server-consul-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] -------< org.apache.shenyu:shenyu-register-client-server-nacos >--------
+[INFO] Building shenyu-register-client-server-nacos 2.5.1-SNAPSHOT      [12/13]
+[INFO]   from shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.pom (15 kB at 268 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-all/2.0.4/nacos-all-2.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-all/2.0.4/nacos-all-2.0.4.pom (35 kB at 747 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.17.RELEASE/spring-boot-dependencies-2.1.17.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.17.RELEASE/spring-boot-dependencies-2.1.17.RELEASE.pom (118 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20200824/jackson-bom-2.9.10.20200824.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.10.20200824/jackson-bom-2.9.10.20200824.pom (13 kB at 293 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.52.Final/netty-bom-4.1.52.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.52.Final/netty-bom-4.1.52.Final.pom (8.8 kB at 187 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR21/reactor-bom-Californium-SR21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR21/reactor-bom-Californium-SR21.pom (3.7 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.11.2/log4j-bom-2.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.11.2/log4j-bom-2.11.2.pom (6.5 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.3.2/junit-bom-5.3.2.pom (4.1 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.18.RELEASE/spring-framework-bom-5.1.18.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.18.RELEASE/spring-framework-bom-5.1.18.RELEASE.pom (5.3 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR20/spring-data-releasetrain-Lovelace-SR20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR20/spring-data-releasetrain-Lovelace-SR20.pom (4.7 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.20.RELEASE/spring-data-build-2.1.20.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.20.RELEASE/spring-data-build-2.1.20.RELEASE.pom (6.8 kB at 154 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.12.RELEASE/spring-integration-bom-5.1.12.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.12.RELEASE/spring-integration-bom-5.1.12.RELEASE.pom (8.7 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.1.12.RELEASE/spring-security-bom-5.1.12.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.1.12.RELEASE/spring-security-bom-5.1.12.RELEASE.pom (5.0 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR12/spring-session-bom-Bean-SR12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR12/spring-session-bom-Bean-SR12.pom (3.0 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.12.0/simpleclient_tracer_otel-0.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.12.0/simpleclient_tracer_otel-0.12.0.pom (1.5 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer/0.12.0/simpleclient_tracer-0.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer/0.12.0/simpleclient_tracer-0.12.0.pom (1.2 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.12.0/simpleclient_tracer_common-0.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.12.0/simpleclient_tracer_common-0.12.0.pom (839 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.12.0/simpleclient_tracer_otel_agent-0.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.12.0/simpleclient_tracer_otel_agent-0.12.0.pom (2.3 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.jar (15 MB at 9.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.12.0/simpleclient_tracer_otel-0.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.12.0/simpleclient_tracer_common-0.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.12.0/simpleclient_tracer_otel_agent-0.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.12.0/simpleclient_tracer_otel-0.12.0.jar (4.3 kB at 95 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.12.0/simpleclient_tracer_otel_agent-0.12.0.jar (4.5 kB at 94 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.12.0/simpleclient_tracer_common-0.12.0.jar (3.4 kB at 64 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-register-client-server-nacos ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-register-client-server-nacos ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ shenyu-register-client-server-nacos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-register-client-server-nacos ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ shenyu-register-client-server-nacos ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-register-client-server-nacos ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-register-client-server-nacos ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-register-client-server-nacos ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/target/shenyu-register-client-server-nacos-2.5.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-register-client-server-nacos ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-register-client-server-nacos ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-register-client-server-nacos ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/target/shenyu-register-client-server-nacos-2.5.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-nacos/2.5.1-SNAPSHOT/shenyu-register-client-server-nacos-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-register-center/shenyu-register-client-server/shenyu-register-client-server-nacos/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-register-client-server-nacos/2.5.1-SNAPSHOT/shenyu-register-client-server-nacos-2.5.1-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.apache.shenyu:shenyu-admin >-------------------
+[INFO] Building shenyu-admin 2.5.1-SNAPSHOT                             [13/13]
+[INFO]   from shenyu-admin/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.6.8/spring-boot-starter-web-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.6.8/spring-boot-starter-web-2.6.8.pom (3.0 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.6.8/spring-boot-starter-tomcat-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.6.8/spring-boot-starter-tomcat-2.6.8.pom (3.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.63/tomcat-embed-core-9.0.63.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.63/tomcat-embed-core-9.0.63.pom (1.7 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.63/tomcat-embed-websocket-9.0.63.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.63/tomcat-embed-websocket-9.0.63.pom (1.7 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.20/spring-webmvc-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.20/spring-webmvc-5.3.20.pom (3.0 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-websocket/2.6.8/spring-boot-starter-websocket-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-websocket/2.6.8/spring-boot-starter-websocket-2.6.8.pom (2.5 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.20/spring-messaging-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.20/spring-messaging-5.3.20.pom (2.2 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-websocket/5.3.20/spring-websocket-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-websocket/5.3.20/spring-websocket-5.3.20.pom (2.4 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.6.8/spring-boot-starter-actuator-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.6.8/spring-boot-starter-actuator-2.6.8.pom (2.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.6.8/spring-boot-actuator-autoconfigure-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.6.8/spring-boot-actuator-autoconfigure-2.6.8.pom (2.9 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.6.8/spring-boot-actuator-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.6.8/spring-boot-actuator-2.6.8.pom (2.1 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.8.6/micrometer-core-1.8.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.8.6/micrometer-core-1.8.6.pom (9.0 kB at 153 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.8/spring-boot-starter-thymeleaf-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.8/spring-boot-starter-thymeleaf-2.6.8.pom (2.5 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.pom (14 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom (13 kB at 200 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.pom (14 kB at 263 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ognl/ognl/3.1.26/ognl-3.1.26.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ognl/ognl/3.1.26/ognl-3.1.26.pom (6.2 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.8/spring-boot-configuration-processor-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.8/spring-boot-configuration-processor-2.6.8.pom (1.9 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-web-starter/1.8.0/shiro-spring-boot-web-starter-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-web-starter/1.8.0/shiro-spring-boot-web-starter-1.8.0.pom (2.9 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot/1.8.0/shiro-spring-boot-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot/1.8.0/shiro-spring-boot-1.8.0.pom (2.1 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-support/1.8.0/shiro-support-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-support/1.8.0/shiro-support-1.8.0.pom (1.8 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.8.0/shiro-root-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-root/1.8.0/shiro-root-1.8.0.pom (69 kB at 855 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-starter/1.8.0/shiro-spring-boot-starter-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-starter/1.8.0/shiro-spring-boot-starter-1.8.0.pom (4.4 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring/1.8.0/shiro-spring-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring/1.8.0/shiro-spring-1.8.0.pom (4.3 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.8.0/shiro-core-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.8.0/shiro-core-1.8.0.pom (4.7 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-lang/1.8.0/shiro-lang-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-lang/1.8.0/shiro-lang-1.8.0.pom (3.2 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-cache/1.8.0/shiro-cache-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-cache/1.8.0/shiro-cache-1.8.0.pom (2.4 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-hash/1.8.0/shiro-crypto-hash-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-hash/1.8.0/shiro-crypto-hash-1.8.0.pom (2.6 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto/1.8.0/shiro-crypto-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto/1.8.0/shiro-crypto-1.8.0.pom (1.6 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-core/1.8.0/shiro-crypto-core-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-core/1.8.0/shiro-crypto-core-1.8.0.pom (2.4 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-cipher/1.8.0/shiro-crypto-cipher-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-cipher/1.8.0/shiro-crypto-cipher-1.8.0.pom (2.8 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-core/1.8.0/shiro-config-core-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-core/1.8.0/shiro-config-core-1.8.0.pom (2.4 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config/1.8.0/shiro-config-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config/1.8.0/shiro-config-1.8.0.pom (1.5 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-ogdl/1.8.0/shiro-config-ogdl-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-ogdl/1.8.0/shiro-config-ogdl-1.8.0.pom (4.2 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-event/1.8.0/shiro-event-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-event/1.8.0/shiro-event-1.8.0.pom (2.4 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-web/1.8.0/shiro-web-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-web/1.8.0/shiro-web-1.8.0.pom (4.2 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.pom (4.1 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder-parent/1.2.2/encoder-parent-1.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder-parent/1.2.2/encoder-parent-1.2.2.pom (18 kB at 303 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.12.0/java-jwt-3.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.12.0/java-jwt-3.12.0.pom (1.8 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-spring/1.0.1.RELEASE/reactor-spring-1.0.1.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-spring/1.0.1.RELEASE/reactor-spring-1.0.1.RELEASE.pom (3.6 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-core/1.0.1.RELEASE/reactor-core-1.0.1.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-core/1.0.1.RELEASE/reactor-core-1.0.1.RELEASE.pom (3.3 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.20/spring-tx-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.20/spring-tx-5.3.20.pom (2.2 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.2.2/mybatis-spring-boot-starter-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.2.2/mybatis-spring-boot-starter-2.2.2.pom (2.0 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot/2.2.2/mybatis-spring-boot-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot/2.2.2/mybatis-spring-boot-2.2.2.pom (7.3 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.6.3/spring-boot-dependencies-2.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.6.3/spring-boot-dependencies-2.6.3.pom (105 kB at 1.9 MB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.2.7/metrics-bom-4.2.7.pom (6.9 kB at 127 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.2.7/metrics-parent-4.2.7.pom (20 kB at 371 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/micrometer/micrometer-bom/1.8.2/micrometer-bom-1.8.2.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/io/micrometer/micrometer-bom/1.8.2/micrometer-bom-1.8.2.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/io/micrometer/micrometer-bom/1.8.2/micrometer-bom-1.8.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.8.2/micrometer-bom-1.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.8.2/micrometer-bom-1.8.2.pom (6.9 kB at 150 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/netty/netty-bom/4.1.73.Final/netty-bom-4.1.73.Final.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/io/netty/netty-bom/4.1.73.Final/netty-bom-4.1.73.Final.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/io/netty/netty-bom/4.1.73.Final/netty-bom-4.1.73.Final.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.73.Final/netty-bom-4.1.73.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.73.Final/netty-bom-4.1.73.Final.pom (13 kB at 286 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/io/projectreactor/reactor-bom/2020.0.15/reactor-bom-2020.0.15.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/io/projectreactor/reactor-bom/2020.0.15/reactor-bom-2020.0.15.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/io/projectreactor/reactor-bom/2020.0.15/reactor-bom-2020.0.15.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.15/reactor-bom-2020.0.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.15/reactor-bom-2020.0.15.pom (4.2 kB at 54 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/data/spring-data-bom/2021.1.1/spring-data-bom-2021.1.1.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/org/springframework/data/spring-data-bom/2021.1.1/spring-data-bom-2021.1.1.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/org/springframework/data/spring-data-bom/2021.1.1/spring-data-bom-2021.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.1.1/spring-data-bom-2021.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2021.1.1/spring-data-bom-2021.1.1.pom (5.7 kB at 109 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/integration/spring-integration-bom/5.5.8/spring-integration-bom-5.5.8.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/org/springframework/integration/spring-integration-bom/5.5.8/spring-integration-bom-5.5.8.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/org/springframework/integration/spring-integration-bom/5.5.8/spring-integration-bom-5.5.8.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.8/spring-integration-bom-5.5.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.5.8/spring-integration-bom-5.5.8.pom (9.1 kB at 166 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/security/spring-security-bom/5.6.1/spring-security-bom-5.6.1.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/org/springframework/security/spring-security-bom/5.6.1/spring-security-bom-5.6.1.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/org/springframework/security/spring-security-bom/5.6.1/spring-security-bom-5.6.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.1/spring-security-bom-5.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.6.1/spring-security-bom-5.6.1.pom (5.7 kB at 116 kB/s)
+[INFO] Downloading from sonatype-oss-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/springframework/session/spring-session-bom/2021.1.1/spring-session-bom-2021.1.1.pom
+[INFO] Downloading from spring-milestone: https://repo.spring.io/milestone/org/springframework/session/spring-session-bom/2021.1.1/spring-session-bom-2021.1.1.pom
+[INFO] Downloading from spring-snapshot: https://repo.spring.io/snapshot/org/springframework/session/spring-session-bom/2021.1.1/spring-session-bom-2021.1.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.1.1/spring-session-bom-2021.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2021.1.1/spring-session-bom-2021.1.1.pom (2.7 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.6.8/spring-boot-starter-jdbc-2.6.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.6.8/spring-boot-starter-jdbc-2.6.8.pom (2.5 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.20/spring-jdbc-5.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.20/spring-jdbc-5.3.20.pom (2.4 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.2.2/mybatis-spring-boot-autoconfigure-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.2.2/mybatis-spring-boot-autoconfigure-2.2.2.pom (3.7 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.pom (13 kB at 293 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.pom (2.7 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.pom (5.4 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.4/protobuf-parent-3.19.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.4/protobuf-parent-3.19.4.pom (8.7 kB at 167 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.4/protobuf-bom-3.19.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.4/protobuf-bom-3.19.4.pom (3.5 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/5.3.0/pagehelper-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/5.3.0/pagehelper-5.3.0.pom (12 kB at 153 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/4.2/jsqlparser-4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/4.2/jsqlparser-4.2.pom (27 kB at 473 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.47.0/grpc-netty-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.47.0/grpc-netty-1.47.0.pom (2.5 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.47.0/grpc-core-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-core/1.47.0/grpc-core-1.47.0.pom (2.5 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.47.0/grpc-api-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.47.0/grpc-api-1.47.0.pom (2.0 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.47.0/grpc-context-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.47.0/grpc-context-1.47.0.pom (1.2 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.47.0/grpc-protobuf-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.47.0/grpc-protobuf-1.47.0.pom (2.7 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.pom (5.4 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.2/protobuf-parent-3.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.19.2/protobuf-parent-3.19.2.pom (8.7 kB at 193 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.2/protobuf-bom-3.19.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.19.2/protobuf-bom-3.19.2.pom (3.5 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.pom (2.2 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.47.0/grpc-protobuf-lite-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.47.0/grpc-protobuf-lite-1.47.0.pom (2.0 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.47.0/grpc-stub-1.47.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.47.0/grpc-stub-1.47.0.pom (1.8 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.48.0/grpc-netty-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.48.0/grpc-netty-1.48.0.pom (2.5 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.48.0/grpc-protobuf-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf/1.48.0/grpc-protobuf-1.48.0.pom (2.7 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.48.0/grpc-protobuf-lite-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-protobuf-lite/1.48.0/grpc-protobuf-lite-1.48.0.pom (2.0 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.48.0/grpc-stub-1.48.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-stub/1.48.0/grpc-stub-1.48.0.pom (1.8 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-ldap/2.6.4/spring-data-ldap-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-ldap/2.6.4/spring-data-ldap-2.6.4.pom (4.9 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.6.4/spring-data-parent-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.6.4/spring-data-parent-2.6.4.pom (39 kB at 692 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.6.4/spring-data-build-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.6.4/spring-data-build-2.6.4.pom (7.3 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.5.32/kotlin-bom-1.5.32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.5.32/kotlin-bom-1.5.32.pom (9.3 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.8.RELEASE/spring-ldap-core-2.3.8.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.8.RELEASE/spring-ldap-core-2.3.8.RELEASE.pom (7.7 kB at 147 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.pom (10 kB at 175 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.4.RELEASE/spring-ldap-core-2.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.4.RELEASE/spring-ldap-core-2.3.4.RELEASE.pom (7.4 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0.pom (3.5 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.pom (1.5 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff/1.0.8/protostuff-1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff/1.0.8/protostuff-1.0.8.pom (9.4 kB at 185 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.pom (1.3 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom (2.1 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.pom (1.9 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom (958 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.3.5/postgresql-42.3.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.3.5/postgresql-42.3.5.pom (2.7 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.pom (9.1 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.pom (7.1 kB at 140 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.pom (7.1 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.pom (7.1 kB at 152 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.pom (7.1 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.pom (7.4 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.pom (7.1 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/database/nls/orai18n/19.7.0.0/orai18n-19.7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/database/nls/orai18n/19.7.0.0/orai18n-19.7.0.0.pom (1.3 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.6.8/spring-boot-starter-web-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.6.8/spring-boot-starter-web-2.6.8.jar (4.8 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.6.8/spring-boot-starter-tomcat-2.6.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.63/tomcat-embed-core-9.0.63.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.63/tomcat-embed-websocket-9.0.63.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.20/spring-webmvc-5.3.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-websocket/2.6.8/spring-boot-starter-websocket-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.6.8/spring-boot-starter-tomcat-2.6.8.jar (4.8 kB at 58 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.20/spring-messaging-5.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.63/tomcat-embed-websocket-9.0.63.jar (277 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-websocket/5.3.20/spring-websocket-5.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.3.20/spring-webmvc-5.3.20.jar (1.0 MB at 7.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.6.8/spring-boot-starter-actuator-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/5.3.20/spring-messaging-5.3.20.jar (568 kB at 3.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.6.8/spring-boot-actuator-autoconfigure-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-websocket/5.3.20/spring-websocket-5.3.20.jar (448 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.6.8/spring-boot-actuator-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-websocket/2.6.8/spring-boot-starter-websocket-2.6.8.jar (4.8 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.8.6/micrometer-core-1.8.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.6.8/spring-boot-starter-actuator-2.6.8.jar (4.8 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.8/spring-boot-starter-thymeleaf-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.6.8/spring-boot-actuator-autoconfigure-2.6.8.jar (562 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.63/tomcat-embed-core-9.0.63.jar (3.4 MB at 11 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.6.8/spring-boot-actuator-2.6.8.jar (673 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.8/spring-boot-starter-thymeleaf-2.6.8.jar (4.8 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.8/spring-boot-configuration-processor-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.8.6/micrometer-core-1.8.6.jar (658 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-web-starter/1.8.0/shiro-spring-boot-web-starter-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar (40 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-starter/1.8.0/shiro-spring-boot-starter-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.8/spring-boot-configuration-processor-2.6.8.jar (119 kB at 315 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring/1.8.0/shiro-spring-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar (182 kB at 444 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.8.0/shiro-core-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-web-starter/1.8.0/shiro-spring-boot-web-starter-1.8.0.jar (8.7 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-lang/1.8.0/shiro-lang-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar (871 kB at 2.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-cache/1.8.0/shiro-cache-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring/1.8.0/shiro-spring-1.8.0.jar (43 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-hash/1.8.0/shiro-crypto-hash-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-spring-boot-starter/1.8.0/shiro-spring-boot-starter-1.8.0.jar (20 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-core/1.8.0/shiro-crypto-core-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-lang/1.8.0/shiro-lang-1.8.0.jar (52 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-cipher/1.8.0/shiro-crypto-cipher-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-hash/1.8.0/shiro-crypto-hash-1.8.0.jar (34 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-core/1.8.0/shiro-config-core-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-cache/1.8.0/shiro-cache-1.8.0.jar (14 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-ogdl/1.8.0/shiro-config-ogdl-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-core/1.8.0/shiro-core-1.8.0.jar (414 kB at 830 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-event/1.8.0/shiro-event-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-core/1.8.0/shiro-crypto-core-1.8.0.jar (11 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-web/1.8.0/shiro-web-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-core/1.8.0/shiro-config-core-1.8.0.jar (18 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-crypto-cipher/1.8.0/shiro-crypto-cipher-1.8.0.jar (25 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.12.0/java-jwt-3.12.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-config-ogdl/1.8.0/shiro-config-ogdl-1.8.0.jar (44 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-spring/1.0.1.RELEASE/reactor-spring-1.0.1.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-event/1.8.0/shiro-event-1.8.0.jar (19 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-core/1.0.1.RELEASE/reactor-core-1.0.1.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/shiro/shiro-web/1.8.0/shiro-web-1.8.0.jar (161 kB at 283 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.20/spring-tx-5.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.12.0/java-jwt-3.12.0.jar (56 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.2.2/mybatis-spring-boot-starter-2.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar (38 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.6.8/spring-boot-starter-jdbc-2.6.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-spring/1.0.1.RELEASE/reactor-spring-1.0.1.RELEASE.jar (32 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.20/spring-jdbc-5.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectreactor/reactor-core/1.0.1.RELEASE/reactor-core-1.0.1.RELEASE.jar (287 kB at 477 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.2.2/mybatis-spring-boot-autoconfigure-2.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.2.2/mybatis-spring-boot-starter-2.2.2.jar (2.5 kB at 4.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.6.8/spring-boot-starter-jdbc-2.6.8.jar (4.8 kB at 7.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.3.20/spring-tx-5.3.20.jar (333 kB at 534 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.2.2/mybatis-spring-boot-autoconfigure-2.2.2.jar (28 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/5.3.0/pagehelper-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.3.20/spring-jdbc-5.3.20.jar (428 kB at 659 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/4.2/jsqlparser-4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/4.2/jsqlparser-4.2.jar (858 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.48.0/grpc-netty-1.48.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.jar (1.8 MB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-ldap/2.6.4/spring-data-ldap-2.6.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-netty/1.48.0/grpc-netty-1.48.0.jar (287 kB at 339 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar (1.7 MB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.4.RELEASE/spring-ldap-core-2.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/5.3.0/pagehelper-5.3.0.jar (111 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.6.4/spring-data-commons-2.6.4.jar (1.3 MB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar (2.5 MB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/ldap/spring-ldap-core/2.3.4.RELEASE/spring-ldap-core-2.3.4.RELEASE.jar (378 kB at 358 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar (49 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar (49 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/caucho/hessian/4.0.38/hessian-4.0.38.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar (341 kB at 294 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar (52 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.3.5/postgresql-42.3.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-ldap/2.6.4/spring-data-ldap-2.6.4.jar (76 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/caucho/hessian/4.0.38/hessian-4.0.38.jar (395 kB at 334 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.3.5/postgresql-42.3.5.jar (1.0 MB at 811 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar (306 kB at 213 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar (1.7 MB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar (205 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar (4.2 MB at 2.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar (2.3 MB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/database/nls/orai18n/19.7.0.0/orai18n-19.7.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar (307 kB at 194 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.jar (145 kB at 90 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.jar (29 kB at 18 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar (430 kB at 255 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/database/nls/orai18n/19.7.0.0/orai18n-19.7.0.0.jar (1.7 MB at 930 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/esotericsoftware/kryo-shaded/4.0.0/kryo-shaded-4.0.0.jar (397 kB at 201 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-admin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-admin ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-admin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-admin ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.33.1/grpc-context-1.33.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.33.1/grpc-api-1.33.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar (4.7 kB at 34 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-context/1.33.1/grpc-context-1.33.1.jar (31 kB at 219 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/grpc/grpc-api/1.33.1/grpc-api-1.33.1.jar (231 kB at 696 kB/s)
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ shenyu-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 35 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-admin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 357 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/main/java/org/apache/shenyu/admin/controller/SandboxController.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/main/java/org/apache/shenyu/admin/controller/SandboxController.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/main/java/org/apache/shenyu/admin/model/page/CommonPager.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/main/java/org/apache/shenyu/admin/model/page/CommonPager.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ shenyu-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-admin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 134 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/test/java/org/apache/shenyu/admin/listener/zookeeper/HttpServiceDiscoveryTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/test/java/org/apache/shenyu/admin/listener/zookeeper/HttpServiceDiscoveryTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/test/java/org/apache/shenyu/admin/listener/consul/ConsulDataChangedListenerTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/src/test/java/org/apache/shenyu/admin/listener/consul/ConsulDataChangedListenerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.0.0-M4:test (default-test) @ shenyu-admin ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (report) @ shenyu-admin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ shenyu-admin ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/target/shenyu-admin.jar
+[INFO] 
+[INFO] --- site:3.7.1:attach-descriptor (attach-descriptor) @ shenyu-admin ---
+[INFO] Skipping because packaging 'jar' is not pom.
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ shenyu-admin ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (default) @ shenyu-admin ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ shenyu-admin ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ shenyu-admin ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/target/shenyu-admin.jar to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-admin/2.5.1-SNAPSHOT/shenyu-admin-2.5.1-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/shenyu/shenyu-admin/2.5.1-SNAPSHOT/shenyu-admin-2.5.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for shenyu 2.5.1-SNAPSHOT:
+[INFO] 
+[INFO] shenyu ............................................. SUCCESS [ 10.416 s]
+[INFO] shenyu-common ...................................... SUCCESS [ 22.435 s]
+[INFO] shenyu-disruptor ................................... SUCCESS [  0.665 s]
+[INFO] shenyu-spi ......................................... SUCCESS [  0.837 s]
+[INFO] shenyu-register-center ............................. SUCCESS [  0.232 s]
+[INFO] shenyu-register-common ............................. SUCCESS [  0.990 s]
+[INFO] shenyu-register-client-server ...................... SUCCESS [  0.278 s]
+[INFO] shenyu-register-client-server-api .................. SUCCESS [  0.820 s]
+[INFO] shenyu-register-client-server-zookeeper ............ SUCCESS [  3.697 s]
+[INFO] shenyu-register-client-server-etcd ................. SUCCESS [  4.317 s]
+[INFO] shenyu-register-client-server-consul ............... SUCCESS [  8.309 s]
+[INFO] shenyu-register-client-server-nacos ................ SUCCESS [  3.060 s]
+[INFO] shenyu-admin ....................................... SUCCESS [ 24.591 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:25 min
+[INFO] Finished at: 2026-10-11T19:40:23-05:00
+[INFO] ------------------------------------------------------------------------

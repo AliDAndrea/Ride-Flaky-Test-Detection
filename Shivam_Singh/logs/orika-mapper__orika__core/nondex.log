@@ -1,0 +1,1891 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< ma.glasnost.orika:orika-core >--------------------
+[INFO] Building Orika - core 1.6.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ orika-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ orika-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ orika-core ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ orika-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ orika-core ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ orika-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 334 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/src/test/java/ma/glasnost/orika/test/community/Issue176TestCase.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/src/test/java/ma/glasnost/orika/test/community/Issue176TestCase.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/src/test/java/ma/glasnost/orika/test/community/Issue176TestCase.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/src/test/java/ma/glasnost/orika/test/community/Issue176TestCase.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ orika-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ orika-core ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_dN4cPbEqsbNDmqAQ3gwZb1Wo7GLBO2XVVCFJ8nG0=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.801 s - in ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Running ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Running ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Running ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.4 s - in ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Running ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Running ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Running ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Running ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Running ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Running ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Running ma.glasnost.orika.test.BrokenTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.BrokenTest
+[INFO] Running ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Running ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.982 s - in ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.012 s - in ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.383 s - in ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.438 s - in ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Running ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Running ma.glasnost.orika.test.generator.ExpanderTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in ma.glasnost.orika.test.generator.ExpanderTestCase
+[INFO] Running ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Running ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[INFO] Running ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Running ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Running ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Running ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Running ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Running ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.383 s - in ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Running ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Running ma.glasnost.orika.test.community.issue137.LevelTest
+ma.glasnost.orika.test.community.issue137.LevelOne@7d7d8911
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.issue137.LevelTest
+[INFO] Running ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.387 s - in ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Running ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in ma.glasnost.orika.test.community.Issue64Test
+[INFO] Running ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Running ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue232Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.Issue232Test
+[INFO] Running ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Running ma.glasnost.orika.test.community.Issue114TestCase
+Class1Binding{class2=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue114TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue85TestCase
+{123456=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue85TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue77Test
+[INFO] Running ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue99Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue99Test
+[INFO] Running ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Running ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue91Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue91Test
+[INFO] Running ma.glasnost.orika.test.community.PersonMappingTestCase
+result= firstName=George lastName=Goober suffix=II
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.PersonMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Running ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Running ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Running ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Running ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue175Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.community.Issue175Test
+[INFO] Running ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Running ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Running ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Running ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue67Test
+[INFO] Running ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Running ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.959 s - in ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Running ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Running ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Running ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Running ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Running ma.glasnost.orika.examples.Example1TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in ma.glasnost.orika.examples.Example1TestCase
+[INFO] Running ma.glasnost.orika.examples.Example2TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in ma.glasnost.orika.examples.Example2TestCase
+[INFO] Running DefaultPackageTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in DefaultPackageTestCase
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 533, Failures: 0, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexExecid=0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.599 s - in ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Running ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Running ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Running ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.487 s - in ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Running ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.23 s - in ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Running ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s - in ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s - in ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Running ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Running ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Running ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Running ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.327 s - in ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Running ma.glasnost.orika.test.BrokenTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.BrokenTest
+[INFO] Running ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Running ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.891 s - in ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.361 s - in ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.434 s - in ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.311 s - in ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s - in ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Running ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Running ma.glasnost.orika.test.generator.ExpanderTestCase
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.103 s <<< FAILURE! - in ma.glasnost.orika.test.generator.ExpanderTestCase
+[ERROR] testExpand(ma.glasnost.orika.test.generator.ExpanderTestCase)  Time elapsed: 0.103 s  <<< ERROR!
+ma.glasnost.orika.MappingException: java.lang.NumberFormatException: For input string: "Monday"
+	at ma.glasnost.orika.test.generator.ExpanderTestCase.testExpand(ExpanderTestCase.java:191)
+Caused by: java.lang.NumberFormatException: For input string: "Monday"
+	at ma.glasnost.orika.test.generator.ExpanderTestCase.testExpand(ExpanderTestCase.java:191)
+
+[INFO] Running ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s - in ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.051 s <<< FAILURE! - in ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[ERROR] testBeanToStringArrayGeneration(ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase)  Time elapsed: 0.02 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[test@test.com]>
+	at ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase.testBeanToStringArrayGeneration(BeanToArrayGenerationTestCase.java:120)
+
+[ERROR] testBeanToArrayGeneration(ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase)  Time elapsed: 0.031 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[test@test.com]>
+	at ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase.testBeanToArrayGeneration(BeanToArrayGenerationTestCase.java:68)
+
+[INFO] Running ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Running ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[INFO] Running ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[ERROR] testBeanToListGeneration(ma.glasnost.orika.test.generator.BeanToListGenerationTestCase)  Time elapsed: 0.024 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[test@test.com]>
+	at ma.glasnost.orika.test.generator.BeanToListGenerationTestCase.testBeanToListGeneration(BeanToListGenerationTestCase.java:72)
+
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Running ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 s - in ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Running ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.247 s - in ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Running ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Running ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Running ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.381 s - in ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Running ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Running ma.glasnost.orika.test.community.issue137.LevelTest
+ma.glasnost.orika.test.community.issue137.LevelOne@6906be0f
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.issue137.LevelTest
+[INFO] Running ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 s - in ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Running ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in ma.glasnost.orika.test.community.Issue64Test
+[INFO] Running ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Running ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 s - in ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue232Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue232Test
+[INFO] Running ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Running ma.glasnost.orika.test.community.Issue114TestCase
+Class1Binding{class2=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.community.Issue114TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue85TestCase
+{123456=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.community.Issue85TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.community.Issue77Test
+[INFO] Running ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue99Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue99Test
+[INFO] Running ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Running ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue91Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue91Test
+[INFO] Running ma.glasnost.orika.test.community.PersonMappingTestCase
+result= firstName=George lastName=Goober suffix=II
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.PersonMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Running ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Running ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Running ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 s - in ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Running ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue175Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.community.Issue175Test
+[INFO] Running ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Running ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Running ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Running ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue67Test
+[INFO] Running ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Running ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.558 s - in ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.355 s - in ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Running ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Running ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] testClassMapBuilderExtension(ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest)  Time elapsed: 0.051 s  <<< FAILURE!
+java.lang.AssertionError: expected:<countryCode> but was:<null>
+	at ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest.testClassMapBuilderExtension(ScoringClassMapBuilderTest.java:98)
+
+[INFO] Running ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Running ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Running ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Running ma.glasnost.orika.examples.Example1TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in ma.glasnost.orika.examples.Example1TestCase
+[INFO] Running ma.glasnost.orika.examples.Example2TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.examples.Example2TestCase
+[INFO] Running DefaultPackageTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in DefaultPackageTestCase
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BeanToArrayGenerationTestCase.testBeanToArrayGeneration:68 expected:<[1]> but was:<[test@test.com]>
+[ERROR]   BeanToArrayGenerationTestCase.testBeanToStringArrayGeneration:120 expected:<[1]> but was:<[test@test.com]>
+[ERROR]   BeanToListGenerationTestCase.testBeanToListGeneration:72 expected:<[1]> but was:<[test@test.com]>
+[ERROR]   ScoringClassMapBuilderTest.testClassMapBuilderExtension:98 expected:<countryCode> but was:<null>
+[ERROR] Errors: 
+[ERROR]   ExpanderTestCase.testExpand:191 » Mapping java.lang.NumberFormatException: For...
+[INFO] 
+[ERROR] Tests run: 533, Failures: 4, Errors: 1, Skipped: 3
+[INFO] 
+INFO: Surefire failed when running tests for 0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexExecid=Bg3S39JGu9CKs+u5ogy3e+v+IRQQ6sai0hSkhVvhvvk=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 s - in ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Running ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Running ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Running ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 s - in ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Running ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Running ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.183 s - in ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Running ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Running ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Running ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Running ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Running ma.glasnost.orika.test.BrokenTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.BrokenTest
+[INFO] Running ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Running ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.682 s - in ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.355 s - in ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.336 s - in ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Running ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Running ma.glasnost.orika.test.generator.ExpanderTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in ma.glasnost.orika.test.generator.ExpanderTestCase
+[INFO] Running ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.142 s <<< FAILURE! - in ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[ERROR] testBeanToStringArrayGeneration(ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase)  Time elapsed: 0.058 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[test@test.com]>
+	at ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase.testBeanToStringArrayGeneration(BeanToArrayGenerationTestCase.java:120)
+
+[INFO] Running ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Running ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[INFO] Running ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Running ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 s - in ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Running ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Running ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Running ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Running ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.486 s - in ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Running ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Running ma.glasnost.orika.test.community.issue137.LevelTest
+ma.glasnost.orika.test.community.issue137.LevelOne@25e6c22a
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.issue137.LevelTest
+[INFO] Running ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Running ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s - in ma.glasnost.orika.test.community.Issue64Test
+[INFO] Running ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Running ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 s - in ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue232Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue232Test
+[INFO] Running ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Running ma.glasnost.orika.test.community.Issue114TestCase
+Class1Binding{class2=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in ma.glasnost.orika.test.community.Issue114TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue85TestCase
+{123456=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in ma.glasnost.orika.test.community.Issue85TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.community.Issue77Test
+[INFO] Running ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue99Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue99Test
+[INFO] Running ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Running ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue91Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue91Test
+[INFO] Running ma.glasnost.orika.test.community.PersonMappingTestCase
+result= firstName=George lastName=Goober suffix=II
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.PersonMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Running ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Running ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Running ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 s - in ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Running ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 s - in ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue175Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue175Test
+[INFO] Running ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Running ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Running ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Running ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue67Test
+[INFO] Running ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Running ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.994 s - in ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.25 s - in ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Running ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Running ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] testClassMapBuilderExtension(ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: expected:<countryCode> but was:<null>
+	at ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest.testClassMapBuilderExtension(ScoringClassMapBuilderTest.java:98)
+
+[INFO] Running ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Running ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s - in ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Running ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Running ma.glasnost.orika.examples.Example1TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in ma.glasnost.orika.examples.Example1TestCase
+[INFO] Running ma.glasnost.orika.examples.Example2TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.examples.Example2TestCase
+[INFO] Running DefaultPackageTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in DefaultPackageTestCase
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BeanToArrayGenerationTestCase.testBeanToStringArrayGeneration:120 expected:<[1]> but was:<[test@test.com]>
+[ERROR]   ScoringClassMapBuilderTest.testClassMapBuilderExtension:98 expected:<countryCode> but was:<null>
+[INFO] 
+[ERROR] Tests run: 533, Failures: 2, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Surefire failed when running tests for Bg3S39JGu9CKs+u5ogy3e+v+IRQQ6sai0hSkhVvhvvk=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex
+nondexExecid=0l+GemNqxrgAk9zy4DvdVFgJQamkhGB05szxVunlwY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.482 s - in ma.glasnost.orika.test.generics.GenericsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in ma.glasnost.orika.test.generics.Issue289TestCase
+[INFO] Running ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ma.glasnost.orika.test.generics.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.generics.IntrospectorBugTestCase
+[INFO] Running ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.generics.SpecifiedGenericsTestCase
+[INFO] Running ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in ma.glasnost.orika.test.filters.NestedPropertyFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in ma.glasnost.orika.test.filters.SourceNestedFilterTest
+[INFO] Running ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.433 s - in ma.glasnost.orika.test.filters.FilterTestCase
+[INFO] Running ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in ma.glasnost.orika.test.hint.DefaultMappingHintTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ma.glasnost.orika.test.collection.ExplicitCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in ma.glasnost.orika.test.collection.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.collection.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in ma.glasnost.orika.test.crossfeatures.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in ma.glasnost.orika.test.converter.NumericConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.converter.ToStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.converter.ConstructorConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in ma.glasnost.orika.test.converter.ConverterWithNestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.converter.PrimitiveConversionTestCase
+[INFO] Running ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 s - in ma.glasnost.orika.test.converter.DateAndTimeConvertersTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.converter.FromStringConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in ma.glasnost.orika.test.converter.ConverterInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.converter.FieldLevelConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.converter.ConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in ma.glasnost.orika.test.converter.PassThroughConverterTestCase
+[INFO] Running ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.converter.ConverterResolutionTestCase
+[INFO] Running ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.util.ConfigurableMapperTestCase
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s - in ma.glasnost.orika.test.util.SortedCollectionConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.util.ClassHelperTest
+[INFO] Running ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.util.StringUtilTest
+[INFO] Running ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.util.SortedCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.util.PropertiesTestCase
+[INFO] Running ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in ma.glasnost.orika.test.array.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in ma.glasnost.orika.test.packageprivate.PackagePrivateTestCase
+[INFO] Running ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.495 s - in ma.glasnost.orika.test.property.PropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in ma.glasnost.orika.test.property.IntrospectorResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in ma.glasnost.orika.test.property.RegexPropertyResolverTestCase
+[INFO] Running ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.property.PublicFieldMappingTestCase
+[INFO] Running ma.glasnost.orika.test.BrokenTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.glasnost.orika.test.BrokenTest
+[INFO] Running ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in ma.glasnost.orika.test.enums.EnumsTestCase
+[INFO] Running ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.357 s - in ma.glasnost.orika.test.custommapper.CustomMappingTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.434 s - in ma.glasnost.orika.test.unenhance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.586 s - in ma.glasnost.orika.test.unenhance.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 s - in ma.glasnost.orika.test.unenhance.inheritance2.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.395 s - in ma.glasnost.orika.test.unenhance.InaccessibleTypeTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.189 s - in ma.glasnost.orika.test.unenhance.inheritance.HibernateProxyTestCase
+[INFO] Running ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in ma.glasnost.orika.test.unenhance.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.primitives.BooleanTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.primitives.BigDecimalPrimitiveTestCase
+[INFO] Running ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in ma.glasnost.orika.test.primitives.PrimitivesTestCase
+[INFO] Running ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in ma.glasnost.orika.test.optional.GuavaOptionalTestCase
+[INFO] Running ma.glasnost.orika.test.generator.ExpanderTestCase
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.157 s <<< FAILURE! - in ma.glasnost.orika.test.generator.ExpanderTestCase
+[ERROR] testExpand(ma.glasnost.orika.test.generator.ExpanderTestCase)  Time elapsed: 0.156 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[FlatData [dayNumber=1, dayOfWeek=Monday, yearNumber=2011, yearAnimal=monkey, monthNumber=10, monthName=October], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2011, yearAnimal=monkey, monthNumber=12, monthName=December], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2012, yearAnimal=dragon, monthNumber=12, monthName=December]]> but was:<[FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2011, yearAnimal=monkey, monthNumber=12, monthName=December], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2012, yearAnimal=dragon, monthNumber=12, monthName=December]]>
+	at ma.glasnost.orika.test.generator.ExpanderTestCase.testExpand(ExpanderTestCase.java:232)
+
+[INFO] Running ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.generator.PropertiesWithNoSetterTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 s - in ma.glasnost.orika.test.generator.BeanToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 s - in ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in ma.glasnost.orika.test.generator.MapNullsTestCase
+[INFO] Running ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in ma.glasnost.orika.test.generator.TestCompilerStrategyWritingFiles
+[INFO] Running ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in ma.glasnost.orika.test.generator.MultiOccurrenceToMultiOccurrenceTestCase
+[INFO] Running ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 s - in ma.glasnost.orika.test.generator.RetrieveDestinationValueOnMappingTestCase
+[INFO] Running ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! - in ma.glasnost.orika.test.generator.BeanToListGenerationTestCase
+[ERROR] testBeanToListGeneration(ma.glasnost.orika.test.generator.BeanToListGenerationTestCase)  Time elapsed: 0.038 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[test@test.com]>
+	at ma.glasnost.orika.test.generator.BeanToListGenerationTestCase.testBeanToListGeneration(BeanToListGenerationTestCase.java:72)
+
+[INFO] Running ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s - in ma.glasnost.orika.test.generator.BeanToMapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.objectfactory.MultipleObjectFactoryTest
+[INFO] Running ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 s - in ma.glasnost.orika.test.concurrency.DefaultBoundMapperFacadeConcurrentInitTestCase
+[INFO] Running ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.34 s - in ma.glasnost.orika.test.map.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in ma.glasnost.orika.test.map.CoreMappingFunctionsTestCase
+[INFO] Running ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.map.MultipleMapperWrapperTest
+[INFO] Running ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.customconverter.CustomConverterTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.inheritance.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.inheritance.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.inheritance.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s - in ma.glasnost.orika.test.inheritance.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.inheritance.InitializeUsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.inheritance.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.object.ObjectTestCase
+[INFO] Running ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.object.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 s - in ma.glasnost.orika.test.object.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 s - in ma.glasnost.orika.test.boundmapperfacade.MapGenerationTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.boundmapperfacade.InheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.boundmapperfacade.NestedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.boundmapperfacade.BidirectionalMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.boundmapperfacade.InverseMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeForGeneratedTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in ma.glasnost.orika.test.boundmapperfacade.ArrayTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.boundmapperfacade.UserProvidedInheritanceTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ma.glasnost.orika.test.boundmapperfacade.PolicyElementsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.boundmapperfacade.UsedMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.boundmapperfacade.ReuseMappersTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.541 s - in ma.glasnost.orika.test.boundmapperfacade.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.boundmapperfacade.CollectionTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.boundmapperfacade.SortedMapSetTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in ma.glasnost.orika.test.boundmapperfacade.SuperTypeMappingTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.boundmapperfacade.GenericCollectionsTestCase
+[INFO] Running ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.boundmapperfacade.ObjectCollectionTestCase
+[INFO] Running ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in ma.glasnost.orika.test.capturefieldcontext.FieldContextWithFiltersTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.extensibility.PooledInstancesTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.extensibility.DefaultMapperFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.extensibility.PropertyResolverExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in ma.glasnost.orika.test.extensibility.MappingContextFactoryExtensibilityTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue322TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue41TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in ma.glasnost.orika.test.community.Issue45TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue119TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue26TestCase
+[INFO] Running ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.collection.MapperTest
+[INFO] Running ma.glasnost.orika.test.community.issue137.LevelTest
+ma.glasnost.orika.test.community.issue137.LevelOne@62ab5e63
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.issue137.LevelTest
+[INFO] Running ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in ma.glasnost.orika.test.community.Issue25TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue98TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue18TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.387 s - in ma.glasnost.orika.test.community.Issue109TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in ma.glasnost.orika.test.community.Issue21TestCase
+[INFO] Running ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.community.MixConversionMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64Test
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in ma.glasnost.orika.test.community.Issue64Test
+[INFO] Running ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in ma.glasnost.orika.test.community.issue131.Issue131Test
+[INFO] Running ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.community.Issue68TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue140TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in ma.glasnost.orika.test.community.Issue46TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue71TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.Issue160TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.PullRequest10TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue232Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue232Test
+[INFO] Running ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.issue91.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.community.issue148.Issue148Test
+[INFO] Running ma.glasnost.orika.test.community.Issue114TestCase
+Class1Binding{class2=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in ma.glasnost.orika.test.community.Issue114TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.issue96.Issue96TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in ma.glasnost.orika.test.community.Issue129TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue38TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue85TestCase
+{123456=null}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ma.glasnost.orika.test.community.Issue85TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ma.glasnost.orika.test.community.Issue77Test
+[INFO] Running ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.community.Issue92TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ma.glasnost.orika.test.community.Issue82TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.community.Issue28TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.PullRequest8TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.community.Issue113TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue61TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue167TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue65TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue99Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue99Test
+[INFO] Running ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in ma.glasnost.orika.test.community.Issue112TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in ma.glasnost.orika.test.community.Issue87TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue90TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue105TestCase
+[INFO] Running ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in ma.glasnost.orika.test.community.AutomaticStringConversionTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue14TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ma.glasnost.orika.test.community.Issue138TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue91Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue91Test
+[INFO] Running ma.glasnost.orika.test.community.PersonMappingTestCase
+result= firstName=George lastName=Goober suffix=II
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ma.glasnost.orika.test.community.PersonMappingTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ma.glasnost.orika.test.community.Issue64TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue166TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in ma.glasnost.orika.test.community.Issue176WithInterfacesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue77TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ma.glasnost.orika.test.community.Issue148TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue314TestCase
+[INFO] Running ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.NestedListToArrayTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ma.glasnost.orika.test.community.Issue161TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue49TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.Issue176TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue67TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.Issue17TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ma.glasnost.orika.test.community.Issue128TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.community.Issue80TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue102TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.issue135.Issue135Test
+[INFO] Running ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in ma.glasnost.orika.test.community.CustomMergerTest
+[INFO] Running ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ma.glasnost.orika.test.community.LongPathPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in ma.glasnost.orika.test.community.CheckedExceptionTest
+[INFO] Running ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in ma.glasnost.orika.test.community.Issue20TestCase
+[INFO] Running ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in ma.glasnost.orika.test.community.issue121.Issue121TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue19TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ma.glasnost.orika.test.community.Issue126TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue24TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.community.Issue188TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.community.Issue52aTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.community.Issue50TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue175Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.community.Issue175Test
+[INFO] Running ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in ma.glasnost.orika.test.community.Issue69TestCase
+[INFO] Running ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.community.JaxbElementTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in ma.glasnost.orika.test.community.Issue141TestCase
+[INFO] Running ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in ma.glasnost.orika.test.community.PullRequest88TestCase
+[INFO] Running ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in ma.glasnost.orika.test.community.IssueArrayToListTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.Issue53TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in ma.glasnost.orika.test.community.Issue44TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue52bTestCase
+[INFO] Running ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in ma.glasnost.orika.test.community.vector.VectorTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ma.glasnost.orika.test.community.Issue176WithSuperClassesTestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in ma.glasnost.orika.test.community.Issue34TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in ma.glasnost.orika.test.community.Issue132TestCase
+[INFO] Running ma.glasnost.orika.test.community.Issue67Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ma.glasnost.orika.test.community.Issue67Test
+[INFO] Running ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in ma.glasnost.orika.test.community.Issue30TestCase
+[INFO] Running ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.326 s - in ma.glasnost.orika.test.perf.DefaultMapperFactoryGenerationConcurrencyTestCase
+[INFO] Running ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.379 s - in ma.glasnost.orika.test.perf.MultiThreadedTestCase
+[INFO] Running ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in ma.glasnost.orika.test.favorsextension.FavorsExtensionTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.metadata.TypeFactoryTestCase
+[INFO] Running ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in ma.glasnost.orika.test.metadata.ClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ma.glasnost.orika.test.metadata.Issues296Test
+[INFO] Running ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ma.glasnost.orika.test.metadata.CaseInsensitiveClassMapBuilderTest
+[INFO] Running ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.057 s <<< FAILURE! - in ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest
+[ERROR] testClassMapBuilderExtension(ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest)  Time elapsed: 0.054 s  <<< FAILURE!
+java.lang.AssertionError: expected:<countryCode> but was:<null>
+	at ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest.testClassMapBuilderExtension(ScoringClassMapBuilderTest.java:98)
+
+[INFO] Running ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ma.glasnost.orika.test.metadata.VariableRefTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ma.glasnost.orika.test.fieldmap.NestedPropertyTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ma.glasnost.orika.test.fieldmap.OverrideFieldNameTestCase
+[INFO] Running ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.fieldmap.NestedExpressionTestCase
+[INFO] Running ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 s - in ma.glasnost.orika.test.constructor.ConstructorMappingTestCase
+[INFO] Running ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ma.glasnost.orika.test.InterfaceDefaultMethodTest
+[INFO] Running ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in ma.glasnost.orika.test.JavaDateApiTest
+[INFO] Running ma.glasnost.orika.examples.Example1TestCase
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in ma.glasnost.orika.examples.Example1TestCase
+[INFO] Running ma.glasnost.orika.examples.Example2TestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in ma.glasnost.orika.examples.Example2TestCase
+[INFO] Running DefaultPackageTestCase
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in DefaultPackageTestCase
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BeanToListGenerationTestCase.testBeanToListGeneration:72 expected:<[1]> but was:<[test@test.com]>
+[ERROR]   ExpanderTestCase.testExpand:232 expected:<[FlatData [dayNumber=1, dayOfWeek=Monday, yearNumber=2011, yearAnimal=monkey, monthNumber=10, monthName=October], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2011, yearAnimal=monkey, monthNumber=12, monthName=December], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2012, yearAnimal=dragon, monthNumber=12, monthName=December]]> but was:<[FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2011, yearAnimal=monkey, monthNumber=12, monthName=December], FlatData [dayNumber=2, dayOfWeek=Tuesday, yearNumber=2012, yearAnimal=dragon, monthNumber=12, monthName=December]]>
+[ERROR]   ScoringClassMapBuilderTest.testClassMapBuilderExtension:98 expected:<countryCode> but was:<null>
+[INFO] 
+[ERROR] Tests run: 533, Failures: 3, Errors: 0, Skipped: 3
+[INFO] 
+INFO: Surefire failed when running tests for 0l+GemNqxrgAk9zy4DvdVFgJQamkhGB05szxVunlwY=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexExecid=0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY= -DnondexLogging=CONFIG
+[WARNING] ma.glasnost.orika.test.generator.BeanToListGenerationTestCase#testBeanToListGeneration
+[WARNING] ma.glasnost.orika.test.generator.ExpanderTestCase#testExpand
+[WARNING] ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest#testClassMapBuilderExtension
+[WARNING] ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase#testBeanToStringArrayGeneration
+[WARNING] ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase#testBeanToArrayGeneration
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexExecid=Bg3S39JGu9CKs+u5ogy3e+v+IRQQ6sai0hSkhVvhvvk= -DnondexLogging=CONFIG
+[WARNING] ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest#testClassMapBuilderExtension
+[WARNING] ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase#testBeanToStringArrayGeneration
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex" -DnondexExecid=0l+GemNqxrgAk9zy4DvdVFgJQamkhGB05szxVunlwY= -DnondexLogging=CONFIG
+[WARNING] ma.glasnost.orika.test.generator.BeanToListGenerationTestCase#testBeanToListGeneration
+[WARNING] ma.glasnost.orika.test.generator.ExpanderTestCase#testExpand
+[WARNING] ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest#testClassMapBuilderExtension
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] ma.glasnost.orika.test.generator.BeanToListGenerationTestCase#testBeanToListGeneration
+[INFO] ma.glasnost.orika.test.generator.ExpanderTestCase#testExpand
+[INFO] ma.glasnost.orika.test.metadata.ScoringClassMapBuilderTest#testClassMapBuilderExtension
+[INFO] ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase#testBeanToStringArrayGeneration
+[INFO] ma.glasnost.orika.test.generator.BeanToArrayGenerationTestCase#testBeanToArrayGeneration
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex/0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY=/test_results.html
+[INFO] [NonDex] The id of this run is: 0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:38 min
+[INFO] Finished at: 2026-10-11T17:36:09-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project orika-core: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/orika-mapper__orika__core/core/.nondex/0gjFWxKr9XK9abFyuylGHdXXfxsEv7AOS1GDVvkv4KY= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

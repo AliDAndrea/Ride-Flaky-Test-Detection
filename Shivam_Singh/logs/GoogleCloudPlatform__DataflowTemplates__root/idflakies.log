@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.version: 26.5
+[INFO] os.detected.version.major: 26
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-x86_64
+[INFO] 
+[INFO] --------< com.google.cloud.teleport:google-cloud-teleport-java >--------
+[INFO] Building Google Cloud Teleport 0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ google-cloud-teleport-java >>>
+[WARNING] Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [repository.jboss.org (http://repository.jboss.org/nexus/content/groups/public/, default, releases)]
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce) @ google-cloud-teleport-java ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce-banned-dependencies) @ google-cloud-teleport-java ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- protobuf:0.5.1:compile (default) @ google-cloud-teleport-java ---
+[INFO] Compiling 3 proto file(s) to /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/target/generated-sources/protobuf/java
+[INFO] 
+[INFO] --- protobuf:0.5.1:compile-custom (default) @ google-cloud-teleport-java ---
+[INFO] Compiling 3 proto file(s) to /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/target/generated-sources/protobuf/grpc-java
+[INFO] 
+[INFO] --- avro:1.8.2:schema (default) @ google-cloud-teleport-java ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ google-cloud-teleport-java ---
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] Copying 3 resources from src/main/proto to target/classes
+[INFO] Copying 3 resources from src/main/proto to target/classes
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ google-cloud-teleport-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 155 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/src/main/java/com/google/cloud/teleport/templates/common/BigQueryConverters.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/src/main/java/com/google/cloud/teleport/templates/common/BigQueryConverters.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/src/main/java/com/google/cloud/teleport/kafka/connector/KafkaRecordCoder.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/src/main/java/com/google/cloud/teleport/kafka/connector/KafkaRecordCoder.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ google-cloud-teleport-java ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ google-cloud-teleport-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (default) @ google-cloud-teleport-java ---
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ google-cloud-teleport-java <<<
+[INFO] 
+[WARNING] net.minidev:json-smart/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata net.minidev:json-smart/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [repository.jboss.org (http://repository.jboss.org/nexus/content/groups/public/, default, releases)]
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ google-cloud-teleport-java ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.google.cloud.teleport:google-cloud-teleport-java:0.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 329 tests. Time taken: 7.036999940872192 seconds
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 4.8420000076293945 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/GoogleCloudPlatform__DataflowTemplates__root/.dtfixingtools/original-order
+[INFO] Getting original results (329 tests).
+[watchdog] time cap of 600s reached - stopping; results so far are kept

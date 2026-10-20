@@ -1,0 +1,153 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.dubbo:dubbo-rpc-dubbo >------------------
+[INFO] Building dubbo-rpc-dubbo 2.7.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ dubbo-rpc-dubbo >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-rpc-dubbo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-rpc-dubbo ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-rpc-dubbo ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-rpc-dubbo ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-rpc-dubbo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-rpc-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-rpc-dubbo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-rpc-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ dubbo-rpc-dubbo <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ dubbo-rpc-dubbo ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.dubbo:dubbo-rpc-dubbo:2.7.0-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 74 tests. Time taken: 0.4240000247955322 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-rpc@dubbo-rpc-dubbo/dubbo-rpc/dubbo-rpc-dubbo/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-rpc@dubbo-rpc-dubbo/dubbo-rpc/dubbo-rpc-dubbo/.dtfixingtools/original-order
+[INFO] Getting original results (74 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (186.0 total), 0.0 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected ERROR, got ERROR
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected FAILURE, got FAILURE
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected FAILURE, got FAILURE
+[INFO] Found 3 tests in round 2 of 20 (186.0 seconds elapsed (1680.8 total), 1673.9 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected FAILURE, got FAILURE
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 3 of 20 (0.0 seconds elapsed (2477.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (796.8 seconds elapsed (2654.1 total), 3187.3 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 5 of 20 (973.2 seconds elapsed (3237.8 total), 2919.7 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Normal_ChannelReadOnly, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Normal_ChannelReadOnly, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Sync_NoFuture, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Sync_NoFuture, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Lazy_ChannelReadOnly, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Lazy_ChannelReadOnly, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocol, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocol, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected FAILURE, got FAILURE
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolMultiService, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolMultiService, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testGenericEnum, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testGenericEnum, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Normal_available, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_Normal_available, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_OnReturn, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_OnReturn, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_NoInvokers, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboInvokerAvilableTest.test_NoInvokers, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_OnInvoke, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_OnInvoke, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Async_Future_Multi, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Async_Future_Multi, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testNormal, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testNormal, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testNormalEnum, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.support.EnumBak.testNormalEnum, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboLazyConnectTest.testSticky4, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboLazyConnectTest.testSticky4, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testReturnNonSerialized, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testReturnNonSerialized, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_Onthrow, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Ex_Onthrow, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testNonSerializedParameter, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testNonSerializedParameter, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_CloseCallback, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_CloseCallback, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testPerm, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testPerm, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDemoProtocol, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDemoProtocol, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Async_Future, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Async_Future, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListClient, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListClient, status: expected ERROR, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Sync_Onreturn, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.ImplicitCallBackTest.test_Sync_Onreturn, status: expected ERROR, got PASS
+[INFO] Found 0 tests in round 6 of 20 (1556.9 seconds elapsed (10402.8 total), 3632.8 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected FAILURE, got FAILURE
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListAllPort, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 7 of 20 (8722.0 seconds elapsed (11150.9 total), 16197.9 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandlerTest.testChangeServiceNotExport, status: expected FAILURE, got FAILURE
+[INFO] Found 1 tests in round 8 of 20 (9470.0 seconds elapsed (11825.1 total), 14205.0 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 9 of 20 (0.0 seconds elapsed (12296.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (471.8 seconds elapsed (12523.3 total), 471.8 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (698.2 seconds elapsed (12760.0 total), 571.3 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (934.9 seconds elapsed (12906.0 total), 623.3 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (1080.9 seconds elapsed (13142.1 total), 582.0 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (1317.0 seconds elapsed (13378.7 total), 564.4 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolTest.testDubboProtocolWithMina, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 15 of 20 (1553.6 seconds elapsed (13833.4 total), 517.9 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (2008.3 seconds elapsed (14059.8 total), 502.1 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (2234.7 seconds elapsed (14296.4 total), 394.4 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (2471.3 seconds elapsed (14442.0 total), 274.6 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (2616.9 seconds elapsed (14668.6 total), 137.7 seconds remaining).
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected PASS, got PASS
+Verified org.apache.dubbo.rpc.protocol.dubbo.telnet.PortTelnetHandlerTest.testListDetail, status: expected FAILURE, got FAILURE
+[INFO] Found 0 tests in round 20 of 20 (2843.5 seconds elapsed (15164.3 total), 0.0 seconds remaining).
+
+[INFO] Found 4 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-rpc@dubbo-rpc-dubbo/dubbo-rpc/dubbo-rpc-dubbo/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-rpc@dubbo-rpc-dubbo/dubbo-rpc/dubbo-rpc-dubbo/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:16 h
+[INFO] Finished at: 2026-10-09T17:38:42-05:00
+[INFO] ------------------------------------------------------------------------

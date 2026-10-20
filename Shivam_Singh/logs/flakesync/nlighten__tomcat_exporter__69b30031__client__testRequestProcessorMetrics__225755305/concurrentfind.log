@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------< nl.nlighten:tomcat_exporter_client >-----------------
+[INFO] Building Prometheus client for Apache Tomcat 0.0.15-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ tomcat_exporter_client >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tomcat_exporter_client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/nlighten__tomcat_exporter__69b30031__client/client/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tomcat_exporter_client ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tomcat_exporter_client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/nlighten__tomcat_exporter__69b30031__client/client/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tomcat_exporter_client ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ tomcat_exporter_client <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ tomcat_exporter_client ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest
+Oct 11, 2026 2:14:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Oct 11, 2026 2:14:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Oct 11, 2026 2:14:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Oct 11, 2026 2:14:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-53248"]
+Oct 11, 2026 2:14:14 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-53248"]
+Oct 11, 2026 2:14:14 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Oct 11, 2026 2:14:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-53248"]
+Oct 11, 2026 2:14:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-53248"]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.061 s - in nl.nlighten.prometheus.tomcat.TomcatGenericExportsTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.092 s
+[INFO] Finished at: 2026-10-11T14:14:15-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,369 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 5 modules
+[INFO] Installing Central Publishing features
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Wikidata Toolkit                                                   [pom]
+[INFO] Wikidata Toolkit Utilities                                         [jar]
+[INFO] Wikidata Toolkit Testing Utilities                                 [jar]
+[INFO] Wikidata Toolkit Data Model                                        [jar]
+[INFO] Wikidata Toolkit Wikibase API                                      [jar]
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-parent >--------------------
+[INFO] Building Wikidata Toolkit 0.17.1-SNAPSHOT                          [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ wdtk-parent ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:2.7.0:update-file-header (first) @ wdtk-parent ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[WARNING] No file to scan.
+[INFO] 
+[INFO] 
+[INFO] --- license:2.7.0:update-project-license (first) @ wdtk-parent ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] 
+[INFO] --- source:3.3.1:jar-no-fork (attach-sources) @ wdtk-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ wdtk-parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:3.2.8:sign (sign-artifacts) @ wdtk-parent ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-parent/0.17.1-SNAPSHOT/wdtk-parent-0.17.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.wikidata.wdtk:wdtk-util >---------------------
+[INFO] Building Wikidata Toolkit Utilities 0.17.1-SNAPSHOT                [2/5]
+[INFO]   from wdtk-util/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ wdtk-util ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:2.7.0:update-file-header (first) @ wdtk-util ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/src/test/java
+[INFO] Scan 14 files header done in 21.407ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:2.7.0:update-project-license (first) @ wdtk-util ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ wdtk-util ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug target 11] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ wdtk-util ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug target 11] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-util ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-util ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/target/wdtk-util-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.3.1:jar-no-fork (attach-sources) @ wdtk-util ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ wdtk-util ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:3.2.8:sign (sign-artifacts) @ wdtk-util ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-util ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.17.1-SNAPSHOT/wdtk-util-0.17.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-util/target/wdtk-util-0.17.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.17.1-SNAPSHOT/wdtk-util-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-testing >-------------------
+[INFO] Building Wikidata Toolkit Testing Utilities 0.17.1-SNAPSHOT        [3/5]
+[INFO]   from wdtk-testing/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ wdtk-testing ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:2.7.0:update-file-header (first) @ wdtk-testing ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/src/test/java
+[INFO] Scan 7 files header done in 2.618ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:2.7.0:update-project-license (first) @ wdtk-testing ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-testing ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ wdtk-testing ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug target 11] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-testing ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ wdtk-testing ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 11] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-testing ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-testing ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/target/wdtk-testing-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.3.1:jar-no-fork (attach-sources) @ wdtk-testing ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ wdtk-testing ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:3.2.8:sign (sign-artifacts) @ wdtk-testing ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-testing ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-testing/0.17.1-SNAPSHOT/wdtk-testing-0.17.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-testing/target/wdtk-testing-0.17.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-testing/0.17.1-SNAPSHOT/wdtk-testing-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.wikidata.wdtk:wdtk-datamodel >------------------
+[INFO] Building Wikidata Toolkit Data Model 0.17.1-SNAPSHOT               [4/5]
+[INFO]   from wdtk-datamodel/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.pom (9.7 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.20.1/jackson-base-2.20.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.20.1/jackson-base-2.20.1.pom (13 kB at 277 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.pom (23 kB at 533 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.1/jackson-datatype-jdk8-2.20.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.1/jackson-datatype-jdk8-2.20.1.pom (2.8 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.20.1/jackson-modules-java8-2.20.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.20.1/jackson-modules-java8-2.20.1.pom (3.1 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/threeten/threeten-extra/1.8.0/threeten-extra-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/threeten/threeten-extra/1.8.0/threeten-extra-1.8.0.pom (37 kB at 796 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar (593 kB at 4.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.1/jackson-datatype-jdk8-2.20.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/threeten/threeten-extra/1.8.0/threeten-extra-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.1/jackson-datatype-jdk8-2.20.1.jar (36 kB at 200 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/threeten/threeten-extra/1.8.0/threeten-extra-1.8.0.jar (281 kB at 885 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar (1.7 MB at 4.0 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ wdtk-datamodel ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:2.7.0:update-file-header (first) @ wdtk-datamodel ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/test/java
+[INFO] Scan 227 files header done in 48.943ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:2.7.0:update-project-license (first) @ wdtk-datamodel ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-datamodel ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ wdtk-datamodel ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 152 source files with javac [debug target 11] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DataObjectFactory.java:[143,25] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[36,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[41,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[46,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[51,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[56,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[61,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[66,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[71,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[76,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[81,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[86,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[91,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[96,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[101,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[106,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[111,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[116,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[121,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/DatatypeIdValue.java:[182,16] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/helpers/Datamodel.java:[272,39] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/helpers/PropertyDocumentBuilder.java:[104,47] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/implementation/DatatypeIdImpl.java:[177,30] deprecated item is not annotated with @Deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/implementation/DatatypeIdImpl.java:[241,16] deprecated item is not annotated with @Deprecated
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/helpers/Equality.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/helpers/Equality.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-datamodel ---
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ wdtk-datamodel ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 75 source files with javac [debug target 11] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/test/java/org/wikidata/wdtk/datamodel/helpers/DatamodelFilterTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/src/test/java/org/wikidata/wdtk/datamodel/helpers/DatamodelFilterTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-datamodel ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-datamodel ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/target/wdtk-datamodel-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.3.1:jar-no-fork (attach-sources) @ wdtk-datamodel ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ wdtk-datamodel ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:3.2.8:sign (sign-artifacts) @ wdtk-datamodel ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-datamodel ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-datamodel/0.17.1-SNAPSHOT/wdtk-datamodel-0.17.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-datamodel/target/wdtk-datamodel-0.17.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-datamodel/0.17.1-SNAPSHOT/wdtk-datamodel-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< org.wikidata.wdtk:wdtk-wikibaseapi >-----------------
+[INFO] Building Wikidata Toolkit Wikibase API 0.17.1-SNAPSHOT             [5/5]
+[INFO]   from wdtk-wikibaseapi/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/5.3.0/okhttp-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/5.3.0/okhttp-5.3.0.pom (1.9 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.pom (2.3 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom (4.9 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.16.2/okio-3.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.16.2/okio-3.16.2.pom (1.7 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.16.2/okio-jvm-3.16.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.16.2/okio-jvm-3.16.2.pom (1.7 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom (2.3 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/5.3.0/okhttp-urlconnection-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/5.3.0/okhttp-urlconnection-5.3.0.pom (2.1 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-java-net-cookiejar/5.3.0/okhttp-java-net-cookiejar-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-java-net-cookiejar/5.3.0/okhttp-java-net-cookiejar-5.3.0.pom (1.9 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-jvm/5.3.0/okhttp-jvm-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-jvm/5.3.0/okhttp-jvm-5.3.0.pom (1.9 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/5.3.0/mockwebserver-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/5.3.0/mockwebserver-5.3.0.pom (2.2 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver3/5.3.0/mockwebserver3-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver3/5.3.0/mockwebserver3-5.3.0.pom (1.9 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/se/akerfeldt/okhttp-signpost/1.1.0/okhttp-signpost-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/se/akerfeldt/okhttp-signpost/1.1.0/okhttp-signpost-1.1.0.pom (6.1 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.pom (834 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/oauth/signpost/oauth-signpost/1.2.1.2/oauth-signpost-1.2.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oauth/signpost/oauth-signpost/1.2.1.2/oauth-signpost-1.2.1.2.pom (5.8 kB at 149 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/5.3.0/okhttp-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/5.3.0/okhttp-5.3.0.jar (767 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.16.2/okio-3.16.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.16.2/okio-jvm-3.16.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/5.3.0/okhttp-urlconnection-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar (18 kB at 266 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-java-net-cookiejar/5.3.0/okhttp-java-net-cookiejar-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.16.2/okio-3.16.2.jar (78 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-jvm/5.3.0/okhttp-jvm-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.jar (1.8 MB at 16 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/5.3.0/mockwebserver-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver/5.3.0/mockwebserver-5.3.0.jar (30 kB at 202 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver3/5.3.0/mockwebserver3-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/5.3.0/okhttp-urlconnection-5.3.0.jar (4.1 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/se/akerfeldt/okhttp-signpost/1.1.0/okhttp-signpost-1.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-java-net-cookiejar/5.3.0/okhttp-java-net-cookiejar-5.3.0.jar (5.8 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-jvm/5.3.0/okhttp-jvm-5.3.0.jar (868 kB at 4.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/mockwebserver3/5.3.0/mockwebserver3-5.3.0.jar (73 kB at 384 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/se/akerfeldt/okhttp-signpost/1.1.0/okhttp-signpost-1.1.0.jar (8.5 kB at 44 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar (45 kB at 224 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.16.2/okio-jvm-3.16.2.jar (383 kB at 1.9 MB/s)
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ wdtk-wikibaseapi ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- license:2.7.0:update-file-header (first) @ wdtk-wikibaseapi ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/test/java
+[INFO] Scan 48 files header done in 18.663ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:2.7.0:update-project-license (first) @ wdtk-wikibaseapi ---
+[INFO] Adding a license repository jar:file:/Users/shivamsingh/.m2/repository/org/codehaus/mojo/license-maven-plugin/2.7.0/license-maven-plugin-2.7.0.jar!/META-INF/licenses
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-wikibaseapi ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ wdtk-wikibaseapi ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 33 source files with javac [debug target 11] to target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/main/java/org/wikidata/wdtk/wikibaseapi/ApiConnection.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/main/java/org/wikidata/wdtk/wikibaseapi/ApiConnection.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-wikibaseapi ---
+[INFO] Copying 39 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ wdtk-wikibaseapi ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 15 source files with javac [debug target 11] to target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/test/java/org/wikidata/wdtk/wikibaseapi/WikibaseDataEditorTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/test/java/org/wikidata/wdtk/wikibaseapi/WikibaseDataEditorTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/src/test/java/org/wikidata/wdtk/wikibaseapi/WikibaseDataEditorTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-wikibaseapi ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-wikibaseapi ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/target/wdtk-wikibaseapi-0.17.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.3.1:jar-no-fork (attach-sources) @ wdtk-wikibaseapi ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.12.0:jar (attach-javadocs) @ wdtk-wikibaseapi ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:3.2.8:sign (sign-artifacts) @ wdtk-wikibaseapi ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-wikibaseapi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-wikibaseapi/0.17.1-SNAPSHOT/wdtk-wikibaseapi-0.17.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/Wikidata-Toolkit__Wikidata-Toolkit__wdtk-wikibaseapi/wdtk-wikibaseapi/target/wdtk-wikibaseapi-0.17.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-wikibaseapi/0.17.1-SNAPSHOT/wdtk-wikibaseapi-0.17.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Wikidata Toolkit 0.17.1-SNAPSHOT:
+[INFO] 
+[INFO] Wikidata Toolkit ................................... SUCCESS [  0.715 s]
+[INFO] Wikidata Toolkit Utilities ......................... SUCCESS [  0.667 s]
+[INFO] Wikidata Toolkit Testing Utilities ................. SUCCESS [  0.124 s]
+[INFO] Wikidata Toolkit Data Model ........................ SUCCESS [  2.194 s]
+[INFO] Wikidata Toolkit Wikibase API ...................... SUCCESS [  1.107 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.958 s
+[INFO] Finished at: 2026-10-11T17:36:43-05:00
+[INFO] ------------------------------------------------------------------------

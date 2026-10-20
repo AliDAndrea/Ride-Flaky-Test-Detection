@@ -1,0 +1,437 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.bom/1.0.1/org.osgi.test.bom-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.bom/1.0.1/org.osgi.test.bom-1.0.1.pom (5.4 kB at 8.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.bom/1.0.6/org.apache.felix.gogo.bom-1.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.bom/1.0.6/org.apache.felix.gogo.bom-1.0.6.pom (2.9 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/gogo-parent/5/gogo-parent-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/gogo-parent/5/gogo-parent-5.pom (5.5 kB at 84 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Aries CDI - OSGi CDI Integration Project                    [pom]
+[INFO] Apache Aries CDI - Extra Annotations                               [jar]
+[INFO] Apache Aries CDI - SPI                                             [jar]
+[INFO] Apache Aries CDI - SPI classes for Portable Extensions             [jar]
+[INFO] Apache Aries CDI - CDI Component Runtime (CCR)                     [jar]
+[INFO] 
+[INFO] -------------< org.apache.aries.cdi:org.apache.aries.cdi >--------------
+[INFO] Building Apache Aries CDI - OSGi CDI Integration Project 1.1.5-SNAPSHOT [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-baseline-maven-plugin/5.3.0/bnd-baseline-maven-plugin-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-baseline-maven-plugin/5.3.0/bnd-baseline-maven-plugin-5.3.0.pom (3.6 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-baseline-maven-plugin/5.3.0/bnd-baseline-maven-plugin-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-baseline-maven-plugin/5.3.0/bnd-baseline-maven-plugin-5.3.0.jar (13 kB at 171 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ org.apache.aries.cdi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ org.apache.aries.cdi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ org.apache.aries.cdi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ org.apache.aries.cdi ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- bnd-baseline:5.3.0:baseline (baseline) @ org.apache.aries.cdi ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.3.0/biz.aQute.bndlib-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.3.0/biz.aQute.bndlib-5.3.0.pom (4.5 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.3.0/biz.aQute.bndlib-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bndlib/5.3.0/biz.aQute.bndlib-5.3.0.jar (3.7 MB at 6.4 MB/s)
+[INFO] skip project with packaging=pom
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ org.apache.aries.cdi ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ org.apache.aries.cdi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi/1.1.5-SNAPSHOT/org.apache.aries.cdi-1.1.5-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------< org.apache.aries.cdi:org.apache.aries.cdi.extra >-----------
+[INFO] Building Apache Aries CDI - Extra Annotations 1.1.5-SNAPSHOT       [2/5]
+[INFO]   from cdi-extra/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/5.3.0/bnd-maven-plugin-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/5.3.0/bnd-maven-plugin-5.3.0.pom (4.2 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/5.3.0/bnd-maven-plugin-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/5.3.0/bnd-maven-plugin-5.3.0.jar (24 kB at 284 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.pom (3.8 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.parent/7/org.apache.felix.http.parent-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.parent/7/org.apache.felix.http.parent-7.pom (5.2 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.pom (7.5 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java8-flava/2.4/genesis-java8-flava-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java8-flava/2.4/genesis-java8-flava-2.4.pom (6.1 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.4/genesis-default-flava-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-default-flava/2.4/genesis-default-flava-2.4.pom (15 kB at 269 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/2.4/genesis-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/2.4/genesis-2.4.pom (16 kB at 304 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_2.1_spec/1.1/geronimo-jaxrs_2.1_spec-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_2.1_spec/1.1/geronimo-jaxrs_2.1_spec-1.1.pom (3.7 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cdi/1.0.0/org.osgi.service.cdi-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cdi/1.0.0/org.osgi.service.cdi-1.0.0.pom (1.4 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0/org.osgi.namespace.service-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0/org.osgi.namespace.service-1.0.0.pom (1.3 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.0/org.osgi.service.event-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.0/org.osgi.service.event-1.4.0.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.0/org.osgi.service.http.whiteboard-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.0/org.osgi.service.http.whiteboard-1.1.0.pom (1.5 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.jaxrs/1.0.0/org.osgi.service.jaxrs-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.jaxrs/1.0.0/org.osgi.service.jaxrs-1.0.0.pom (1.4 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/7.0.0/osgi.annotation-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/7.0.0/osgi.annotation-7.0.0.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.pom (1.4 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.jar (243 kB at 3.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_2.1_spec/1.1/geronimo-jaxrs_2.1_spec-1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cdi/1.0.0/org.osgi.service.cdi-1.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0/org.osgi.namespace.service-1.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.0/org.osgi.service.event-1.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.jar (105 kB at 652 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.0/org.osgi.service.http.whiteboard-1.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.http.whiteboard/1.1.0/org.osgi.service.http.whiteboard-1.1.0.jar (98 kB at 440 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.jaxrs/1.0.0/org.osgi.service.jaxrs-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.service/1.0.0/org.osgi.namespace.service-1.0.0.jar (12 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/7.0.0/osgi.annotation-7.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.jaxrs/1.0.0/org.osgi.service.jaxrs-1.0.0.jar (68 kB at 191 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.annotation/7.0.0/osgi.annotation-7.0.0.jar (35 kB at 87 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.event/1.4.0/org.osgi.service.event-1.4.0.jar (47 kB at 113 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jaxrs_2.1_spec/1.1/geronimo-jaxrs_2.1_spec-1.1.jar (125 kB at 270 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/osgi.core/7.0.0/osgi.core-7.0.0.jar (493 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cdi/1.0.0/org.osgi.service.cdi-1.0.0.jar (113 kB at 243 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ org.apache.aries.cdi.extra ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ org.apache.aries.cdi.extra ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ org.apache.aries.cdi.extra ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ org.apache.aries.cdi.extra ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ org.apache.aries.cdi.extra ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extra/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ org.apache.aries.cdi.extra ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extra/target/classes
+[INFO] 
+[INFO] --- bnd:5.3.0:bnd-process (bnd-process) @ org.apache.aries.cdi.extra ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/5.3.0/biz.aQute.bnd.maven-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/5.3.0/biz.aQute.bnd.maven-5.3.0.pom (4.7 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/5.3.0/biz.aQute.resolve-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/5.3.0/biz.aQute.resolve-5.3.0.pom (4.9 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/5.3.0/biz.aQute.repository-5.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/5.3.0/biz.aQute.repository-5.3.0.pom (4.5 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/5.3.0/biz.aQute.bnd.maven-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.bnd.maven/5.3.0/biz.aQute.bnd.maven-5.3.0.jar (172 kB at 805 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/5.3.0/biz.aQute.resolve-5.3.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/5.3.0/biz.aQute.repository-5.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.resolve/5.3.0/biz.aQute.resolve-5.3.0.jar (663 kB at 6.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/biz/aQute/bnd/biz.aQute.repository/5.3.0/biz.aQute.repository-5.3.0.jar (1.1 MB at 6.6 MB/s)
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ org.apache.aries.cdi.extra ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extra/target/org.apache.aries.cdi.extra-1.1.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- bnd-baseline:5.3.0:baseline (baseline) @ org.apache.aries.cdi.extra ---
+[INFO] Determining the baseline version for org.apache.aries.cdi:org.apache.aries.cdi.extra:jar:(,1.1.5-SNAPSHOT) using repositories [Sonatype OSSR (https://oss.sonatype.org/content/repositories/snapshots/, default, snapshots), apache Snapshots (https://repository.apache.org/content/repositories/snapshots, default, snapshots), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml
+[INFO] Downloading from Sonatype OSSR: https://oss.sonatype.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml
+[INFO] Downloading from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml (632 B at 2.2 kB/s)
+[INFO] Downloaded from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml (427 B at 766 B/s)
+[INFO] Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extra/maven-metadata.xml (403 B at 550 B/s)
+[INFO] The baseline version was found to be 1.1.4
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extra/1.1.4/org.apache.aries.cdi.extra-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extra/1.1.4/org.apache.aries.cdi.extra-1.1.4.jar (61 kB at 891 kB/s)
+[INFO] Baselining check succeeded checking org.apache.aries.cdi:org.apache.aries.cdi.extra:jar:1.1.5-SNAPSHOT against org.apache.aries.cdi:org.apache.aries.cdi.extra:jar:1.1.4
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ org.apache.aries.cdi.extra ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ org.apache.aries.cdi.extra ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extra/target/org.apache.aries.cdi.extra-1.1.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extra/1.1.5-SNAPSHOT/org.apache.aries.cdi.extra-1.1.5-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extra/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extra/1.1.5-SNAPSHOT/org.apache.aries.cdi.extra-1.1.5-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------< org.apache.aries.cdi:org.apache.aries.cdi.spi >------------
+[INFO] Building Apache Aries CDI - SPI 1.1.5-SNAPSHOT                     [3/5]
+[INFO]   from cdi-spi/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ org.apache.aries.cdi.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ org.apache.aries.cdi.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ org.apache.aries.cdi.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ org.apache.aries.cdi.spi ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ org.apache.aries.cdi.spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-spi/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ org.apache.aries.cdi.spi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-spi/target/classes
+[INFO] 
+[INFO] --- bnd:5.3.0:bnd-process (bnd-process) @ org.apache.aries.cdi.spi ---
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ org.apache.aries.cdi.spi ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-spi/target/org.apache.aries.cdi.spi-1.1.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- bnd-baseline:5.3.0:baseline (baseline) @ org.apache.aries.cdi.spi ---
+[INFO] Determining the baseline version for org.apache.aries.cdi:org.apache.aries.cdi.spi:jar:(,1.1.5-SNAPSHOT) using repositories [Sonatype OSSR (https://oss.sonatype.org/content/repositories/snapshots/, default, snapshots), apache Snapshots (https://repository.apache.org/content/repositories/snapshots, default, snapshots), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.spi/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.spi/maven-metadata.xml
+[INFO] Downloading from Sonatype OSSR: https://oss.sonatype.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.spi/maven-metadata.xml
+[INFO] Downloading from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.spi/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.spi/maven-metadata.xml (506 B at 2.3 kB/s)
+[INFO] The baseline version was found to be 1.1.4
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.spi/1.1.4/org.apache.aries.cdi.spi-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.spi/1.1.4/org.apache.aries.cdi.spi-1.1.4.jar (11 kB at 142 kB/s)
+[INFO] Baselining check succeeded checking org.apache.aries.cdi:org.apache.aries.cdi.spi:jar:1.1.5-SNAPSHOT against org.apache.aries.cdi:org.apache.aries.cdi.spi:jar:1.1.4
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ org.apache.aries.cdi.spi ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ org.apache.aries.cdi.spi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-spi/target/org.apache.aries.cdi.spi-1.1.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.spi/1.1.5-SNAPSHOT/org.apache.aries.cdi.spi-1.1.5-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-spi/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.spi/1.1.5-SNAPSHOT/org.apache.aries.cdi.spi-1.1.5-SNAPSHOT.pom
+[INFO] 
+[INFO] ------< org.apache.aries.cdi:org.apache.aries.cdi.extension.spi >-------
+[INFO] Building Apache Aries CDI - SPI classes for Portable Extensions 1.1.5-SNAPSHOT [4/5]
+[INFO]   from cdi-extension-spi/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.2/geronimo-atinject_1.0_spec-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.2/geronimo-atinject_1.0_spec-1.2.pom (4.4 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.2/geronimo-atinject_1.0_spec-1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-atinject_1.0_spec/1.2/geronimo-atinject_1.0_spec-1.2.jar (10 kB at 194 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/src/main/java/org/apache/aries/cdi/extension/spi/adapt/RegisterExtension.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/src/main/java/org/apache/aries/cdi/extension/spi/adapt/RegisterExtension.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/src/main/java/org/apache/aries/cdi/extension/spi/adapt/RegisterExtension.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bnd:5.3.0:bnd-process (bnd-process) @ org.apache.aries.cdi.extension.spi ---
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- bnd-baseline:5.3.0:baseline (baseline) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Determining the baseline version for org.apache.aries.cdi:org.apache.aries.cdi.extension.spi:jar:(,1.1.5-SNAPSHOT) using repositories [Sonatype OSSR (https://oss.sonatype.org/content/repositories/snapshots/, default, snapshots), apache Snapshots (https://repository.apache.org/content/repositories/snapshots, default, snapshots), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/maven-metadata.xml
+[INFO] Downloading from Sonatype OSSR: https://oss.sonatype.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/maven-metadata.xml (516 B at 2.4 kB/s)
+[INFO] The baseline version was found to be 1.1.4
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/1.1.4/org.apache.aries.cdi.extension.spi-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/1.1.4/org.apache.aries.cdi.extension.spi-1.1.4.jar (18 kB at 221 kB/s)
+[INFO] Baselining check succeeded checking org.apache.aries.cdi:org.apache.aries.cdi.extension.spi:jar:1.1.5-SNAPSHOT against org.apache.aries.cdi:org.apache.aries.cdi.extension.spi:jar:1.1.4
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ org.apache.aries.cdi.extension.spi ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ org.apache.aries.cdi.extension.spi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/1.1.5-SNAPSHOT/org.apache.aries.cdi.extension.spi-1.1.5-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extension-spi/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extension.spi/1.1.5-SNAPSHOT/org.apache.aries.cdi.extension.spi-1.1.5-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------< org.apache.aries.cdi:org.apache.aries.cdi.extender >---------
+[INFO] Building Apache Aries CDI - CDI Component Runtime (CCR) 1.1.5-SNAPSHOT [5/5]
+[INFO]   from cdi-extender/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.pom (10 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12/surefire-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12/surefire-2.12.pom (11 kB at 244 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar (31 kB at 617 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.converter/1.0.18/org.apache.felix.converter-1.0.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.converter/1.0.18/org.apache.felix.converter-1.0.18.pom (6.8 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.3/geronimo-annotation_1.3_spec-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.3/geronimo-annotation_1.3_spec-1.3.pom (4.9 kB at 105 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java6-flava/2.2/genesis-java6-flava-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis-java6-flava/2.2/genesis-java6-flava-2.2.pom (5.5 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.2/geronimo-interceptor_1.2_spec-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.2/geronimo-interceptor_1.2_spec-1.2.pom (4.6 kB at 99 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.pom (1.3 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0/org.osgi.namespace.implementation-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0/org.osgi.namespace.implementation-1.0.0.pom (1.3 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.0/org.osgi.service.cm-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.0/org.osgi.service.cm-1.6.0.pom (1.4 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.log/1.4.0/org.osgi.service.log-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.log/1.4.0/org.osgi.service.log-1.4.0.pom (1.4 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.1.1/org.osgi.util.promise-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.1.1/org.osgi.util.promise-1.1.1.pom (1.4 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ejb/javax.ejb-api/3.2.2/javax.ejb-api-3.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ejb/javax.ejb-api/3.2.2/javax.ejb-api-3.2.2.pom (15 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-el_2.2_spec/1.1/geronimo-el_2.2_spec-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-el_2.2_spec/1.1/geronimo-el_2.2_spec-1.1.pom (3.8 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.pom (2.5 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.pom (12 kB at 115 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.11.3/byte-buddy-parent-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.11.3/byte-buddy-parent-1.11.3.pom (42 kB at 750 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.pom (9.5 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.converter/1.0.18/org.apache.felix.converter-1.0.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.converter/1.0.18/org.apache.felix.converter-1.0.18.jar (117 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.3/geronimo-annotation_1.3_spec-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.2/geronimo-interceptor_1.2_spec-1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0/org.osgi.namespace.implementation-1.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.0/org.osgi.service.cm-1.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-interceptor_1.2_spec/1.2/geronimo-interceptor_1.2_spec-1.2.jar (13 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.log/1.4.0/org.osgi.service.log-1.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.implementation/1.0.0/org.osgi.namespace.implementation-1.0.0.jar (12 kB at 147 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.function/1.1.0/org.osgi.util.function-1.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.cm/1.6.0/org.osgi.service.cm-1.6.0.jar (55 kB at 642 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.1.1/org.osgi.util.promise-1.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.3_spec/1.3/geronimo-annotation_1.3_spec-1.3.jar (16 kB at 182 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/ejb/javax.ejb-api/3.2.2/javax.ejb-api-3.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.jar (12 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-el_2.2_spec/1.1/geronimo-el_2.2_spec-1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.service.log/1.4.0/org.osgi.service.log-1.4.0.jar (38 kB at 319 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.function/1.1.0/org.osgi.util.function-1.1.0.jar (14 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/ejb/javax.ejb-api/3.2.2/javax.ejb-api-3.2.2.jar (64 kB at 445 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-el_2.2_spec/1.1/geronimo-el_2.2_spec-1.1.jar (42 kB at 286 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/osgi/org.osgi.util.promise/1.1.1/org.osgi.util.promise-1.1.1.jar (76 kB at 478 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/3.11.2/mockito-core-3.11.2.jar (671 kB at 3.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.3/byte-buddy-agent-1.11.3.jar (251 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.3/byte-buddy-1.11.3.jar (3.6 MB at 8.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ org.apache.aries.cdi.extender ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ org.apache.aries.cdi.extender ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ org.apache.aries.cdi.extender ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ org.apache.aries.cdi.extender ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ org.apache.aries.cdi.extender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ org.apache.aries.cdi.extender ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 80 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/src/main/java/org/apache/aries/cdi/container/internal/bean/ComponentPropertiesBean.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/src/main/java/org/apache/aries/cdi/container/internal/bean/ComponentPropertiesBean.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- bnd:5.3.0:bnd-process (bnd-process) @ org.apache.aries.cdi.extender ---
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ org.apache.aries.cdi.extender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ org.apache.aries.cdi.extender ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 94 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.12:test (default-test) @ org.apache.aries.cdi.extender ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.pom (3.0 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.pom (2.5 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.pom (5.1 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.12/surefire-booter-2.12.jar (33 kB at 651 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.12/surefire-api-2.12.jar (124 kB at 2.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12/maven-surefire-common-2.12.jar (224 kB at 3.7 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ org.apache.aries.cdi.extender ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/target/org.apache.aries.cdi.extender-1.1.5-SNAPSHOT.jar
+[INFO] 
+[INFO] --- bnd-baseline:5.3.0:baseline (baseline) @ org.apache.aries.cdi.extender ---
+[INFO] Determining the baseline version for org.apache.aries.cdi:org.apache.aries.cdi.extender:jar:(,1.1.5-SNAPSHOT) using repositories [Sonatype OSSR (https://oss.sonatype.org/content/repositories/snapshots/, default, snapshots), apache Snapshots (https://repository.apache.org/content/repositories/snapshots, default, snapshots), apache.snapshots (https://repository.apache.org/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml
+[INFO] Downloading from Sonatype OSSR: https://oss.sonatype.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml
+[INFO] Downloading from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml (635 B at 2.5 kB/s)
+[INFO] Downloaded from apache Snapshots: https://repository.apache.org/content/repositories/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml (430 B at 720 B/s)
+[INFO] Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/aries/cdi/org.apache.aries.cdi.extender/maven-metadata.xml (406 B at 540 B/s)
+[INFO] The baseline version was found to be 1.1.4
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extender/1.1.4/org.apache.aries.cdi.extender-1.1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/aries/cdi/org.apache.aries.cdi.extender/1.1.4/org.apache.aries.cdi.extender-1.1.4.jar (306 kB at 3.5 MB/s)
+[INFO] Baselining check succeeded checking org.apache.aries.cdi:org.apache.aries.cdi.extender:jar:1.1.5-SNAPSHOT against org.apache.aries.cdi:org.apache.aries.cdi.extender:jar:1.1.4
+[INFO] 
+[INFO] --- apache-rat:0.13:check (default) @ org.apache.aries.cdi.extender ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ org.apache.aries.cdi.extender ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/target/org.apache.aries.cdi.extender-1.1.5-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extender/1.1.5-SNAPSHOT/org.apache.aries.cdi.extender-1.1.5-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__aries-cdi__cdi-extender/cdi-extender/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/aries/cdi/org.apache.aries.cdi.extender/1.1.5-SNAPSHOT/org.apache.aries.cdi.extender-1.1.5-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache Aries CDI - OSGi CDI Integration Project 1.1.5-SNAPSHOT:
+[INFO] 
+[INFO] Apache Aries CDI - OSGi CDI Integration Project .... SUCCESS [  6.234 s]
+[INFO] Apache Aries CDI - Extra Annotations ............... SUCCESS [ 10.631 s]
+[INFO] Apache Aries CDI - SPI ............................. SUCCESS [  1.526 s]
+[INFO] Apache Aries CDI - SPI classes for Portable Extensions SUCCESS [  2.694 s]
+[INFO] Apache Aries CDI - CDI Component Runtime (CCR) ..... SUCCESS [ 21.008 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.516 s
+[INFO] Finished at: 2026-10-11T19:50:56-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,156 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Burst (Parent)                                                     [pom]
+[INFO] Burst                                                              [jar]
+[INFO] Burst JUnit 4 Integration                                          [jar]
+[INFO] 
+[INFO] ------------------< com.squareup.burst:burst-parent >-------------------
+[INFO] Building Burst (Parent) 1.2.1-SNAPSHOT                             [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.10/maven-checkstyle-plugin-2.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.10/maven-checkstyle-plugin-2.10.pom (11 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.10/maven-checkstyle-plugin-2.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.10/maven-checkstyle-plugin-2.10.jar (93 kB at 1.1 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ burst-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:2.10:checkstyle (default) @ burst-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.3/doxia-sink-api-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.3/doxia-sink-api-1.1.3.pom (1.6 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.3/doxia-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.3/doxia-1.1.3.pom (19 kB at 380 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.3/doxia-logging-api-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.3/doxia-logging-api-1.1.3.pom (1.6 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.3/doxia-decoration-model-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.3/doxia-decoration-model-1.1.3.pom (3.0 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.3/doxia-sitetools-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.3/doxia-sitetools-1.1.3.pom (16 kB at 303 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.3/doxia-site-renderer-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.3/doxia-site-renderer-1.1.3.pom (6.1 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.3/doxia-core-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.3/doxia-core-1.1.3.pom (3.7 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.3/doxia-module-xhtml-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.3/doxia-module-xhtml-1.1.3.pom (1.6 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.3/doxia-modules-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.3/doxia-modules-1.1.3.pom (2.4 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.3/doxia-module-fml-1.1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.3/doxia-module-fml-1.1.3.pom (5.5 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.2.1/maven-doxia-tools-1.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.2.1/maven-doxia-tools-1.2.1.pom (6.3 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/5.6/checkstyle-5.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/5.6/checkstyle-5.6.pom (19 kB at 280 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.3/doxia-sink-api-1.1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.3/doxia-sink-api-1.1.3.jar (13 kB at 239 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.3/doxia-logging-api-1.1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.3/doxia-decoration-model-1.1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.3/doxia-site-renderer-1.1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.3/doxia-module-xhtml-1.1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.3/doxia-module-fml-1.1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.3/doxia-decoration-model-1.1.3.jar (52 kB at 455 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.2.1/maven-doxia-tools-1.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.2.1/maven-doxia-tools-1.2.1.jar (43 kB at 184 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/5.6/checkstyle-5.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.3/doxia-logging-api-1.1.3.jar (11 kB at 34 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.3/doxia-module-xhtml-1.1.3.jar (15 kB at 38 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.3/doxia-module-fml-1.1.3.jar (37 kB at 95 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.3/doxia-site-renderer-1.1.3.jar (51 kB at 127 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/5.6/checkstyle-5.6.jar (651 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ burst-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/pom.xml to /Users/shivamsingh/.m2/repository/com/squareup/burst/burst-parent/1.2.1-SNAPSHOT/burst-parent-1.2.1-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------------------< com.squareup.burst:burst >----------------------
+[INFO] Building Burst 1.2.1-SNAPSHOT                                      [2/3]
+[INFO]   from burst/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.pom (4.6 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/1.2.4/assertj-parent-pom-1.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/1.2.4/assertj-parent-pom-1.2.4.pom (12 kB at 204 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.6.1/assertj-core-1.6.1.jar (605 kB at 7.1 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ burst ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ burst ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ burst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/main/java/com/squareup/burst/Burst.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/main/java/com/squareup/burst/Burst.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/main/java/com/squareup/burst/Burst.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ burst ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ burst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/test/java/com/squareup/burst/BurstTest.java: Some input files use or override a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/src/test/java/com/squareup/burst/BurstTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ burst ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ burst ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/target/burst-1.2.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- checkstyle:2.10:checkstyle (default) @ burst ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ burst ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/pom.xml to /Users/shivamsingh/.m2/repository/com/squareup/burst/burst/1.2.1-SNAPSHOT/burst-1.2.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst/target/burst-1.2.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/squareup/burst/burst/1.2.1-SNAPSHOT/burst-1.2.1-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< com.squareup.burst:burst-junit4 >-------------------
+[INFO] Building Burst JUnit 4 Integration 1.2.1-SNAPSHOT                  [3/3]
+[INFO]   from burst-junit4/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ burst-junit4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ burst-junit4 ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ burst-junit4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ burst-junit4 ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ burst-junit4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ burst-junit4 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ burst-junit4 ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/burst-junit4-1.2.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- checkstyle:2.10:checkstyle (default) @ burst-junit4 ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ burst-junit4 ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/pom.xml to /Users/shivamsingh/.m2/repository/com/squareup/burst/burst-junit4/1.2.1-SNAPSHOT/burst-junit4-1.2.1-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/burst-junit4-1.2.1-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/squareup/burst/burst-junit4/1.2.1-SNAPSHOT/burst-junit4-1.2.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Burst (Parent) 1.2.1-SNAPSHOT:
+[INFO] 
+[INFO] Burst (Parent) ..................................... SUCCESS [  5.400 s]
+[INFO] Burst .............................................. SUCCESS [  4.569 s]
+[INFO] Burst JUnit 4 Integration .......................... SUCCESS [  1.343 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.801 s
+[INFO] Finished at: 2026-10-11T19:44:28-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,213 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.thinkaurelius.titan:titan-test >-----------------
+[INFO] Building Titan-Test: Test Suite for Titan 1.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ titan-test >>>
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-maven) @ titan-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.3.1:enforce (enforce-dependency-convergence) @ titan-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- gplus:1.2:addSources (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:addTestSources (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:generateStubs (default) @ titan-test ---
+[INFO] Using Groovy 2.4.1-indy to perform generateStubs.
+[INFO] Generated 5 stubs.
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ titan-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ titan-test ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.2:compile (default) @ titan-test ---
+[INFO] Using Groovy 2.4.1-indy to perform compile.
+[INFO] Compiled 18 files.
+[INFO] 
+[INFO] --- gplus:1.2:removeStubs (default) @ titan-test ---
+[INFO] 
+[INFO] --- gplus:1.2:testGenerateStubs (default) @ titan-test ---
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ titan-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ titan-test ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.2:testCompile (default) @ titan-test ---
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- gplus:1.2:removeTestStubs (default) @ titan-test ---
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ titan-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ titan-test ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_VfkGXr8zIb3aBEcm6gJY6vGQMSnY1AE8DP8d+5bOvFk=
+nondexLogging=CONFIG
+test=
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/thinkaurelius__titan__titan-test/titan-test/.nondex/clean_VfkGXr8zIb3aBEcm6gJY6vGQMSnY1AE8DP8d+5bOvFk=
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=2, useUnlimitedThreads=false
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.15/surefire-junit47-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.15/surefire-junit47-2.15.pom (4.2 kB at 8.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.15/surefire-providers-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.15/surefire-providers-2.15.pom (2.4 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.15/common-junit48-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.15/common-junit48-2.15.pom (3.4 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.15/common-junit4-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.15/common-junit4-2.15.pom (2.0 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.15/common-junit3-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.15/common-junit3-2.15.pom (1.6 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.15/common-java5-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.15/common-java5-2.15.pom (1.7 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.15/surefire-grouper-2.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.15/surefire-grouper-2.15.pom (2.5 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.15/common-junit48-2.15.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.15/common-junit4-2.15.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.15/common-junit3-2.15.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.15/surefire-junit47-2.15.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.15/common-java5-2.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.15/common-junit4-2.15.jar (16 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.15/surefire-grouper-2.15.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.15/surefire-grouper-2.15.jar (38 kB at 504 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.15/common-java5-2.15.jar (37 kB at 195 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.15/common-junit48-2.15.jar (18 kB at 71 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.15/common-junit3-2.15.jar (11 kB at 45 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.15/surefire-junit47-2.15.jar (83 kB at 318 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.thinkaurelius.titan.diskstorage.cache.ExpirationCacheTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.095 sec - in com.thinkaurelius.titan.diskstorage.cache.ExpirationCacheTest
+Running com.thinkaurelius.titan.diskstorage.configuration.CommonConfigTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec - in com.thinkaurelius.titan.diskstorage.configuration.CommonConfigTest
+Running com.thinkaurelius.titan.diskstorage.configuration.ConfigurationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.302 sec - in com.thinkaurelius.titan.diskstorage.configuration.ConfigurationTest
+Running com.thinkaurelius.titan.diskstorage.configuration.KCVSConfigTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.284 sec - in com.thinkaurelius.titan.diskstorage.configuration.KCVSConfigTest
+Running com.thinkaurelius.titan.diskstorage.inmemory.InMemoryIDAuthorityTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 258.304 sec - in com.thinkaurelius.titan.diskstorage.inmemory.InMemoryIDAuthorityTest
+Running com.thinkaurelius.titan.diskstorage.inmemory.InMemoryKeyColumnValueStoreTest
+Loading time (ms): 10
+Reading time (ms): 2
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.507 sec - in com.thinkaurelius.titan.diskstorage.inmemory.InMemoryKeyColumnValueStoreTest
+Running com.thinkaurelius.titan.diskstorage.inmemory.InMemoryLockKeyColumnValueStoreTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.203 sec - in com.thinkaurelius.titan.diskstorage.inmemory.InMemoryLockKeyColumnValueStoreTest
+Running com.thinkaurelius.titan.diskstorage.keycolumnvalue.StaticArrayEntryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec - in com.thinkaurelius.titan.diskstorage.keycolumnvalue.StaticArrayEntryTest
+Running com.thinkaurelius.titan.diskstorage.locking.ConsistentKeyLockerTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.531 sec - in com.thinkaurelius.titan.diskstorage.locking.ConsistentKeyLockerTest
+Running com.thinkaurelius.titan.diskstorage.locking.LocalLockMediatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.thinkaurelius.titan.diskstorage.locking.LocalLockMediatorTest
+Running com.thinkaurelius.titan.diskstorage.locking.LockCleanerRunnableTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in com.thinkaurelius.titan.diskstorage.locking.LockCleanerRunnableTest
+Running com.thinkaurelius.titan.diskstorage.locking.LockCleanerServiceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.812 sec - in com.thinkaurelius.titan.diskstorage.locking.LockCleanerServiceTest
+Running com.thinkaurelius.titan.diskstorage.util.BufferUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.216 sec - in com.thinkaurelius.titan.diskstorage.util.BufferUtilTest
+Running com.thinkaurelius.titan.diskstorage.util.StorageFeaturesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.thinkaurelius.titan.diskstorage.util.StorageFeaturesTest
+Running com.thinkaurelius.titan.graphdb.TestCoreElements
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.thinkaurelius.titan.graphdb.TestCoreElements
+Running com.thinkaurelius.titan.graphdb.TitanFactoryShorthandTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.551 sec - in com.thinkaurelius.titan.graphdb.TitanFactoryShorthandTest
+Running com.thinkaurelius.titan.graphdb.VertexListTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.238 sec - in com.thinkaurelius.titan.graphdb.VertexListTest
+Running com.thinkaurelius.titan.graphdb.attribute.GeoshapeTest
+circle[10.0,12.5]:100.0
+box[[20.0,22.5],[40.5,60.5]]
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.577 sec <<< FAILURE! - in com.thinkaurelius.titan.graphdb.attribute.GeoshapeTest
+testGeoJsonSerialization(com.thinkaurelius.titan.graphdb.attribute.GeoshapeTest)  Time elapsed: 0.045 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<{"type":"[Polygon]","coordinates":[[20...> but was:<{"type":"[Box]","coordinates":[[20...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.thinkaurelius.titan.graphdb.attribute.GeoshapeTest.testGeoJsonSerialization(GeoshapeTest.java:225)
+
+Running com.thinkaurelius.titan.graphdb.attribute.TextTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec - in com.thinkaurelius.titan.graphdb.attribute.TextTest
+Running com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfigurationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.216 sec - in com.thinkaurelius.titan.graphdb.configuration.GraphDatabaseConfigurationTest
+Running com.thinkaurelius.titan.graphdb.configuration.TinkerpopFeaturesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 sec - in com.thinkaurelius.titan.graphdb.configuration.TinkerpopFeaturesTest
+Running com.thinkaurelius.titan.graphdb.database.serialize.attribute.UUIDSerializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec - in com.thinkaurelius.titan.graphdb.database.serialize.attribute.UUIDSerializerTest
+Running com.thinkaurelius.titan.graphdb.idmanagement.IDManagementTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.813 sec - in com.thinkaurelius.titan.graphdb.idmanagement.IDManagementTest
+Running com.thinkaurelius.titan.graphdb.idmanagement.IDPoolTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.773 sec - in com.thinkaurelius.titan.graphdb.idmanagement.IDPoolTest
+Running com.thinkaurelius.titan.graphdb.idmanagement.PartitionIDRangeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.445 sec - in com.thinkaurelius.titan.graphdb.idmanagement.PartitionIDRangeTest
+Running com.thinkaurelius.titan.graphdb.idmanagement.RidGenerationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.thinkaurelius.titan.graphdb.idmanagement.RidGenerationTest
+Running com.thinkaurelius.titan.graphdb.idmanagement.VariableLongTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.396 sec - in com.thinkaurelius.titan.graphdb.idmanagement.VariableLongTest
+Configuration [2|2147483647|null]
+Running com.thinkaurelius.titan.graphdb.idmanagement.VertexIDAssignerTest
+Configuration [2|2147483647|[0, 2, 2]]
+Configuration [2|2147483647|[235, 234, 8]]
+Configuration [2|2147483647|[1, 1, 2]]
+Configuration [2|2147483647|[0, 2, 2]]
+Configuration [4|2147483647|null]
+Configuration [4|2147483647|[0, 2, 4]]
+Configuration [4|2147483647|[235, 234, 8]]
+Configuration [4|2147483647|[1, 1, 2]]
+Configuration [4|2147483647|[0, 8, 4]]
+Configuration [10|2147483647|null]
+Configuration [10|2147483647|[0, 2, 10]]
+Configuration [10|2147483647|[235, 234, 8]]
+Configuration [10|2147483647|[1, 1, 2]]
+Configuration [10|2147483647|[0, 512, 10]]
+Configuration [2|100|null]
+Configuration [2|100|[0, 2, 2]]
+Configuration [2|100|[235, 234, 8]]
+Configuration [2|100|[1, 1, 2]]
+Configuration [2|100|[0, 2, 2]]
+Configuration [4|100|null]
+Configuration [4|100|[0, 2, 4]]
+Configuration [4|100|[235, 234, 8]]
+Configuration [4|100|[1, 1, 2]]
+Configuration [4|100|[0, 8, 4]]
+Configuration [10|100|null]
+Configuration [10|100|[0, 2, 10]]
+Configuration [10|100|[235, 234, 8]]
+Configuration [10|100|[1, 1, 2]]
+Configuration [10|100|[0, 512, 10]]
+Configuration [2|300|null]
+Configuration [2|300|[0, 2, 2]]
+Configuration [2|300|[235, 234, 8]]
+Configuration [2|300|[1, 1, 2]]
+
+Results :
+
+Failed tests: 
+  GeoshapeTest.testGeoJsonSerialization:225 expected:<{"type":"[Polygon]","coordinates":[[20...> but was:<{"type":"[Box]","coordinates":[[20...>
+
+Tests run: 166, Failures: 1, Errors: 0, Skipped: 0
+

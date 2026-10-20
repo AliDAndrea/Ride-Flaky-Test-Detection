@@ -1,0 +1,79 @@
+[INFO] Scanning for projects...
+[INFO] --- tiles-maven-plugin: Injecting 2 tiles as intermediary parent artifact's...
+[INFO] Mixed 'io.github.hexagonframework.data:spring-data-ebean:2.0.0.RELEASE' with tile 'org.avaje.tile:java-compile:1.1' as it's new parent.
+[INFO] Mixed 'org.avaje.tile:java-compile:1.1' with tile 'io.ebean.tile:enhancement:5.5' as it's new parent.
+[INFO] Mixed 'io.ebean.tile:enhancement:5.5' with original parent '(no parent)' as it's  new top level parent.
+[INFO] 
+[INFO] 
+[INFO] ---------< io.github.hexagonframework.data:spring-data-ebean >----------
+[INFO] Building Spring Data Ebean 2.0.0.RELEASE
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ spring-data-ebean >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-data-ebean ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ spring-data-ebean ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/src/main/java/org/springframework/data/ebean/repository/support/EbeanEntityInformation.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/src/main/java/org/springframework/data/ebean/repository/support/EbeanEntityInformation.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/src/main/java/org/springframework/data/ebean/repository/support/EbeanEntityInformation.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- enhance:11.11.1:enhance (io.ebean.tile:enhancement:5.5::main) @ spring-data-ebean ---
+[INFO] classLoaderClass=class java.net.FactoryURLClassLoader  packages=java.net.FactoryURLClassLoader@6d6ddeb5
+[INFO] classSource=/Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/target/classes  transformArgs=debug=0  packages=
+[INFO] Enhanced /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/target/classes/org/springframework/data/ebean/domain/AbstractEntity.class
+[INFO] Enhanced /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/target/classes/org/springframework/data/ebean/domain/AbstractAggregateRoot.class
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-data-ebean ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ spring-data-ebean ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ spring-data-ebean <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ spring-data-ebean ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving io.github.hexagonframework.data:spring-data-ebean:2.0.0.RELEASE 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 48 tests. Time taken: 0.18899989128112793 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/.dtfixingtools/original-order
+[INFO] Getting original results (48 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.6 seconds elapsed (5.2 total), 23.7 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (5.2 seconds elapsed (7.8 total), 29.7 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (7.8 seconds elapsed (10.5 total), 31.4 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (10.5 seconds elapsed (13.1 total), 31.4 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (13.1 seconds elapsed (15.7 total), 30.5 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (15.7 seconds elapsed (18.3 total), 29.2 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (18.3 seconds elapsed (20.9 total), 27.5 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (20.9 seconds elapsed (23.6 total), 25.6 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (23.6 seconds elapsed (26.2 total), 23.6 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (26.2 seconds elapsed (28.9 total), 21.5 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (28.9 seconds elapsed (31.5 total), 19.3 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (31.5 seconds elapsed (34.1 total), 17.0 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (34.1 seconds elapsed (36.7 total), 14.6 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (36.7 seconds elapsed (39.2 total), 12.2 seconds remaining).
+Verified org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById, status: expected PASS, got PASS
+Verified org.springframework.data.ebean.repository.UserRepositoryIntegrationTest.deleteById, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 16 of 20 (39.2 seconds elapsed (46.5 total), 9.8 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (0.0 seconds elapsed (49.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (2.6 seconds elapsed (51.7 total), 0.3 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (5.2 seconds elapsed (54.3 total), 0.3 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (7.8 seconds elapsed (56.9 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/hexagonframework__spring-data-ebean__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:05 min
+[INFO] Finished at: 2026-10-09T20:20:27-05:00
+[INFO] ------------------------------------------------------------------------

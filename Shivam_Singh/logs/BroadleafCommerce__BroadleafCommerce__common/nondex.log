@@ -1,0 +1,919 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.broadleafcommerce:broadleaf-common >---------------
+[INFO] Building BroadleafCommerce Common Libraries 6.2.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ broadleaf-common >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (default-cli) @ broadleaf-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.8.1:prepare-agent (default) @ broadleaf-common ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] surefire.argLine set to empty
+[INFO] 
+[INFO] --- gplus:1.5:addSources (default) @ broadleaf-common ---
+[INFO] 
+[INFO] --- gplus:1.5:addTestSources (default) @ broadleaf-common ---
+[INFO] 
+[INFO] --- gplus:1.5:generateStubs (default) @ broadleaf-common ---
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- license:1.20:update-file-header (first) @ broadleaf-common ---
+[INFO] adding extra resolver file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common//..//licenses
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/src/main
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/src/test
+[INFO] Scan 1112 files header done in 6.396s.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ broadleaf-common ---
+[INFO] Copying 7 resources from src/main/resources/common_style/js to target/classes/common_style/js
+[INFO] Copying 77 resources from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ broadleaf-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.5:compile (default) @ broadleaf-common ---
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- gplus:1.5:removeStubs (default) @ broadleaf-common ---
+[INFO] 
+[INFO] --- gplus:1.5:testGenerateStubs (default) @ broadleaf-common ---
+[INFO] Using Groovy 2.4.15 to perform testGenerateStubs.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ broadleaf-common ---
+[INFO] Copying 37 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ broadleaf-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.5:testCompile (default) @ broadleaf-common ---
+[INFO] Using Groovy 2.4.15 to perform testCompile.
+[INFO] Compiled 1 file.
+[INFO] 
+[INFO] --- gplus:1.5:removeTestStubs (default) @ broadleaf-common ---
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ broadleaf-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ broadleaf-common ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_GDRpnSgj2OaEJq5YvstyHgsZkondJD4aFNuAJ6gZzE=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.681 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[ INFO] 18:45:48 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/admin/bl-admin-test-applicationContext.xml]
+[ INFO] 18:45:48 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/admin/framework/bl-common-admin-applicationContext-servlet.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[DEBUG] 18:45:51 logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:45:51 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:45:51 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:45:51 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:45:51 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:45:51 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:45:54 cache - HHH90001006: Missing cache[blCMSElements] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.486 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[ INFO] 18:45:59 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/site/bl-site-test-applicationContext.xml]
+[ INFO] 18:45:59 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/site/framework/bl-common-applicationContext-servlet.xml]
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:46:00 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:46:00 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:00 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:00 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:00 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.797 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[ INFO] 18:46:02 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-framework-test-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-early-test-applicationContext.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 s - in org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[ INFO] 18:46:03 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext-servlet.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 s - in org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+[ INFO] 18:46:04 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml]
+[ INFO] 18:46:04 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans3.xml]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+[INFO] Running org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:46:05 PostAutoConfigurationTest - Starting PostAutoConfigurationTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 9304 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:46:05 PostAutoConfigurationTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[DEBUG] 18:46:07 Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+[DEBUG] 18:46:07 Mappings - 'beanNameHandlerMapping' {}
+[DEBUG] 18:46:07 Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[ INFO] 18:46:08 PostAutoConfigurationTest - Started PostAutoConfigurationTest in 4.0 seconds (JVM running for 24.874)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.197 s - in org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[ WARN] 18:46:08 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:46:08 SpringBootPropertiesTest - Starting SpringBootPropertiesTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 9304 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:46:08 SpringBootPropertiesTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[ INFO] 18:46:08 SpringBootPropertiesTest - Started SpringBootPropertiesTest in 0.18 seconds (JVM running for 25.107)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 s - in org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+SELECT test FROM java.lang.String test WHERE (test.attr = :p0) AND ((test.startDate &lt; :p1_0) AND ((test.endDate is null) OR (test.endDate &gt; :p1_1_1))) AND ((test.res1 = :p2_0) OR ((test.res2 is null) AND (test.res3 &gt; :p2_1_1)))
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 s - in org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Running org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Running org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.179 s - in org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Running org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 s - in org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Running org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[ WARN] 18:46:24 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[ WARN] 18:46:24 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[ WARN] 18:46:24 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[ WARN] 18:46:24 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[INFO] Running org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[ WARN] 18:46:24 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s - in org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Running org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Running org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Running org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Running org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Running org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s - in org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[INFO] Running org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 93, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexExecid=vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[ INFO] 18:46:30 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/admin/bl-admin-test-applicationContext.xml]
+[ INFO] 18:46:31 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/admin/framework/bl-common-admin-applicationContext-servlet.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[DEBUG] 18:46:36 logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:46:36 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:46:37 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:37 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:37 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:37 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:39 cache - HHH90001006: Missing cache[blCMSElements] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.3 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[ INFO] 18:46:45 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/site/bl-site-test-applicationContext.xml]
+[ INFO] 18:46:45 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/site/framework/bl-common-applicationContext-servlet.xml]
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:46:46 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:46:46 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:46 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:46 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:46:46 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.438 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[ INFO] 18:46:51 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-framework-test-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-early-test-applicationContext.xml]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.665 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[ INFO] 18:46:52 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext-servlet.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[ INFO] 18:46:52 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml]
+[ INFO] 18:46:52 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans3.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:46:53 PostAutoConfigurationTest - Starting PostAutoConfigurationTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 9769 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:46:53 PostAutoConfigurationTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[DEBUG] 18:46:56 Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[DEBUG] 18:46:56 Mappings - 'beanNameHandlerMapping' {}
+[DEBUG] 18:46:56 Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[ INFO] 18:46:57 PostAutoConfigurationTest - Started PostAutoConfigurationTest in 4.552 seconds (JVM running for 30.959)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.643 s - in org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+[INFO] Running org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[ WARN] 18:46:57 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:46:57 SpringBootPropertiesTest - Starting SpringBootPropertiesTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 9769 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:46:57 SpringBootPropertiesTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[ INFO] 18:46:57 SpringBootPropertiesTest - Started SpringBootPropertiesTest in 0.183 seconds (JVM running for 31.2)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s - in org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+SELECT test FROM java.lang.String test WHERE (test.attr = :p0) AND ((test.startDate &lt; :p1_0) AND ((test.endDate is null) OR (test.endDate &gt; :p1_1_1))) AND ((test.res1 = :p2_0) OR ((test.res2 is null) AND (test.res3 &gt; :p2_1_1)))
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 s - in org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 s - in org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Running org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Running org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.242 s - in org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Running org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Running org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[ WARN] 18:47:10 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[ WARN] 18:47:10 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[ WARN] 18:47:10 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[ WARN] 18:47:10 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[ WARN] 18:47:10 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[INFO] Running org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 s - in org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Running org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Running org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Running org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Running org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Running org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] testCustomUrlSiteMapGenerator(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.101 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator(CustomUrlSiteMapGeneratorTest.java:60)
+
+[ERROR] testSiteMapsWithSiteContext(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext(CustomUrlSiteMapGeneratorTest.java:86)
+
+[INFO] Running org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator:60->SiteMapGeneratorTest.compareFiles:138
+[ERROR]   CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext:86->SiteMapGeneratorTest.compareFiles:138
+[INFO] 
+[ERROR] Tests run: 93, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexExecid=qH013uHh81xgFysSQ3hnDaYnb+q08AMFZYC3ufg+HN0=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[ INFO] 18:47:15 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/admin/bl-admin-test-applicationContext.xml]
+[ INFO] 18:47:15 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/admin/framework/bl-common-admin-applicationContext-servlet.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[DEBUG] 18:47:21 logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:47:21 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:47:21 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:21 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:21 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:21 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:25 cache - HHH90001006: Missing cache[blCMSElements] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.948 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[ INFO] 18:47:31 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/site/bl-site-test-applicationContext.xml]
+[ INFO] 18:47:31 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/site/framework/bl-common-applicationContext-servlet.xml]
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:47:31 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:47:32 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:32 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:32 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:47:32 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.927 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[ INFO] 18:47:34 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-framework-test-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-early-test-applicationContext.xml]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.31 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[ INFO] 18:47:34 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext-servlet.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[ INFO] 18:47:35 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml]
+[ INFO] 18:47:35 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans3.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 s - in org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:47:36 PostAutoConfigurationTest - Starting PostAutoConfigurationTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 10231 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:47:36 PostAutoConfigurationTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[DEBUG] 18:47:39 Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[DEBUG] 18:47:39 Mappings - 'beanNameHandlerMapping' {}
+[DEBUG] 18:47:39 Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[ INFO] 18:47:40 PostAutoConfigurationTest - Started PostAutoConfigurationTest in 4.654 seconds (JVM running for 28.76)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.736 s - in org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+[INFO] Running org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[ WARN] 18:47:40 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:47:40 SpringBootPropertiesTest - Starting SpringBootPropertiesTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 10231 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:47:40 SpringBootPropertiesTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[ INFO] 18:47:40 SpringBootPropertiesTest - Started SpringBootPropertiesTest in 0.104 seconds (JVM running for 28.9)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+SELECT test FROM java.lang.String test WHERE (test.attr = :p0) AND ((test.startDate &lt; :p1_0) AND ((test.endDate is null) OR (test.endDate &gt; :p1_1_1))) AND ((test.res1 = :p2_0) OR ((test.res2 is null) AND (test.res3 &gt; :p2_1_1)))
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 s - in org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s - in org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Running org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Running org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.449 s - in org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Running org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Running org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[ WARN] 18:47:53 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[ WARN] 18:47:54 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[ WARN] 18:47:54 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[ WARN] 18:47:54 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[ WARN] 18:47:54 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[INFO] Running org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Running org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Running org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 s - in org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Running org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Running org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Running org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.207 s <<< FAILURE! - in org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] testCustomUrlSiteMapGenerator(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.121 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator(CustomUrlSiteMapGeneratorTest.java:60)
+
+[ERROR] testSiteMapsWithSiteContext(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.083 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext(CustomUrlSiteMapGeneratorTest.java:88)
+
+[INFO] Running org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator:60->SiteMapGeneratorTest.compareFiles:138
+[ERROR]   CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext:88->SiteMapGeneratorTest.compareFiles:138
+[INFO] 
+[ERROR] Tests run: 93, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for qH013uHh81xgFysSQ3hnDaYnb+q08AMFZYC3ufg+HN0=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex
+nondexExecid=3GybXKkBh0OTzxofsc+9ROSD9pLUN4ImIxVZ4hHQ=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[ INFO] 18:48:00 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/admin/bl-admin-test-applicationContext.xml]
+[ INFO] 18:48:01 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/admin/framework/bl-common-admin-applicationContext-servlet.xml]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[DEBUG] 18:48:05 logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:48:05 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:48:05 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:05 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:05 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:05 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:07 cache - HHH90001006: Missing cache[blCMSElements] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.javax.cache.missing_cache_strategy' to 'create'.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.881 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafRootAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[ INFO] 18:48:12 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of override defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/bl-test-applicationContext.xml] with a new definition defined as Generic bean: class [java.lang.String]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/blc-config/site/bl-site-test-applicationContext.xml]
+[ INFO] 18:48:12 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPropertyPlaceholderConfigurer defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [bl-common-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.context.support.PropertySourcesPlaceholderConfigurer]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/classes/blc-config/site/framework/bl-common-applicationContext-servlet.xml]
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - Auto-importing the following SQL files in order:
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_EARLY
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_FRAMEWORK_SECURITY
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_MODULE_SECURITY
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_MODULE_SECURITY
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_MODULE_SECURITY
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_PRE_BASIC_DATA
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - [order:5000] config/bc/sql/demo/load_i18n_countries.sql
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_BASIC_DATA
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - [order:6000] config/bc/sql/demo/load_admin_users.sql,config/bc/sql/demo/load_sitemap_data.sql
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_POST_BASIC_DATA
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.ALL_TABLE_SEQUENCE
+[ INFO] 18:48:12 JPAPropertiesPersistenceUnitPostProcessor - AutoImportStage.PRIMARY_LATE
+[ WARN] 18:48:12 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:12 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.EntityMarkerClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:12 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.copy.ConditionalFieldAnnotationsClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[ WARN] 18:48:12 MergePersistenceUnitManager - A BroadleafClassTransformer is configured for this persistence unit, but Spring reported a problem (likely that a LoadTimeWeaver is not registered). As a result, the Broadleaf Commerce ClassTransformer (org.broadleafcommerce.common.extensibility.jpa.convert.MaterializedClobTypeClassTransformer) is not being registered with the persistence unit. To resove this add a -javaagent:/path/to/spring-instrument.jar to the JVM args of the server
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.694 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafAdminAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[ INFO] 18:48:15 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-framework-test-applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/reader/bean-override-early-test-applicationContext.xml]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.445 s - in org.broadleafcommerce.test.common.context.enable.EnableBroadleafSiteAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[ INFO] 18:48:15 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of blPasswordEncoder defined as Generic bean: class [org.springframework.security.crypto.password.NoOpPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext.xml] with a new definition defined as Generic bean: class [org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [context/importer/merge/applicationContext-servlet.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 s - in org.broadleafcommerce.test.common.context.override.reader.FrameworkXmlBeanDefinitionReaderTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.broadleafcommerce.test.common.context.override.importer.merge.MergeEnableConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.broadleafcommerce.test.common.context.override.importer.ImportBeanOverrideConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.broadleafcommerce.test.common.context.override.importer.DuplicateImportConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationXMLOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in org.broadleafcommerce.test.common.context.override.crossmodule.CrossModuleConfigurationOnlyOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticImportTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.broadleafcommerce.test.common.context.override.config.InnerStaticOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.broadleafcommerce.test.common.context.override.config.XMLImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 s - in org.broadleafcommerce.test.common.context.override.config.ImportOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s - in org.broadleafcommerce.test.common.context.override.config.client.ClientOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[ INFO] 18:48:16 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml]
+[ INFO] 18:48:16 MergeXmlBeanDefinitionReader$MergeBeanDefinitionDocumentReader - Merged the original definition of exampleBean defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans2.xml] with a new definition defined as Generic bean: class [org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest.ExampleBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/target/test-classes/context/reader/merge/testbeans3.xml]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in org.broadleafcommerce.test.common.context.override.entityconfig.EntityConfigurationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:48:17 PostAutoConfigurationTest - Starting PostAutoConfigurationTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 10561 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:48:17 PostAutoConfigurationTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[DEBUG] 18:48:20 Mappings - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[DEBUG] 18:48:20 Mappings - 'beanNameHandlerMapping' {}
+[DEBUG] 18:48:20 Mappings - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}
+[ INFO] 18:48:21 PostAutoConfigurationTest - Started PostAutoConfigurationTest in 4.229 seconds (JVM running for 25.04)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.313 s - in org.broadleafcommerce.test.common.context.merge.reader.MergeBeanDefinitionTest
+[INFO] Running org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[ WARN] 18:48:21 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+[ INFO] 18:48:21 SpringBootPropertiesTest - Starting SpringBootPropertiesTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 10561 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common)
+[ INFO] 18:48:21 SpringBootPropertiesTest - No active profile set, falling back to 2 default profiles: "default", "development"
+[ INFO] 18:48:21 SpringBootPropertiesTest - Started SpringBootPropertiesTest in 0.123 seconds (JVM running for 25.21)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.broadleafcommerce.test.common.context.autoconfig.PostAutoConfigurationTest
+[INFO] Running org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.broadleafcommerce.test.common.boot.properties.SpringBootPropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationTest
+[INFO] Running org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.broadleafcommerce.test.common.test.merge.MergeAnnotationOverrideTest
+[INFO] Running org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+SELECT test FROM java.lang.String test WHERE (test.attr = :p0) AND ((test.startDate &lt; :p1_0) AND ((test.endDate is null) OR (test.endDate &gt; :p1_1_1))) AND ((test.res1 = :p2_0) OR ((test.res2 is null) AND (test.res3 &gt; :p2_1_1)))
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.387 s - in org.broadleafcommerce.test.common.util.dao.TypedQueryBuilderTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s - in org.broadleafcommerce.test.common.web.controller.annotation.AllFrameworkControllersTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkRestControllerTest
+[INFO] Running org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.test.common.web.controller.annotation.FrameworkControllerTest
+[INFO] Running org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.broadleafcommerce.test.common.time.SystemTimeTest
+[INFO] Running org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.591 s - in org.broadleafcommerce.test.common.rule.MvelHelperTest
+[INFO] Running org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in org.broadleafcommerce.test.common.generator.BeanNameGeneratorTest
+[INFO] Running org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[ WARN] 18:48:35 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in org.broadleafcommerce.test.common.condition.ConditionalOnModuleTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.broadleafcommerce.test.common.properties.ConditionalOnPropertyTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in org.broadleafcommerce.test.common.properties.FilesystemSharedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[ WARN] 18:48:35 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.broadleafcommerce.test.common.properties.FilesystemPropertyOverridesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.broadleafcommerce.test.common.properties.DeprecatedRuntimeEnvironmentTest
+[INFO] Running org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[ WARN] 18:48:35 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.broadleafcommerce.test.common.properties.OtherEnvironmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[ WARN] 18:48:35 BroadleafEnvironmentConfiguringApplicationListener - The usage of development.properties is deprecated and will be removed in a future release. Use Spring's default profile properties of 'default.properties'. Alternatively, set the 'spring.profiles.default' system property with -Dspring.profiles.default=development to change the default profile name that Spring runs in.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.broadleafcommerce.test.common.properties.DefaultDevelopmentOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[ WARN] 18:48:35 BroadleafEnvironmentConfiguringApplicationListener - The use of -Druntime.environment is deprecated in favor of Spring Profiles and will be removed in a future release. To specify a profile as a -D argument use -Dspring.profiles.active as a drop-in replacement for -Druntime.environment. Adding production to the list of active Spring profiles.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.broadleafcommerce.test.common.properties.PropertySourceOverrideDefaultTest
+[INFO] Running org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.broadleafcommerce.test.common.properties.RuntimeEnvironmentProfilesTest
+[INFO] Running org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.broadleafcommerce.test.common.properties.ProductionOverridePropertiesTest
+[INFO] Running org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in org.broadleafcommerce.common.test.util.StringUtilSpec
+[INFO] Running org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.util.EfficientLRUMapTest
+[INFO] Running org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.broadleafcommerce.common.file.service.BroadleafFileServiceImplTest
+[INFO] Running org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.file.service.FileSystemFileServiceProviderTest
+[INFO] Running org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in org.broadleafcommerce.common.security.service.ExpolitProtectionServiceTest
+[INFO] Running org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.254 s <<< FAILURE! - in org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest
+[ERROR] testCustomUrlSiteMapGenerator(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.181 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator(CustomUrlSiteMapGeneratorTest.java:60)
+
+[ERROR] testSiteMapsWithSiteContext(org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest)  Time elapsed: 0.07 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext(CustomUrlSiteMapGeneratorTest.java:86)
+
+[INFO] Running org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.broadleafcommerce.common.extensibility.context.merge.handlers.SchemaLocationMergeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CustomUrlSiteMapGeneratorTest.testCustomUrlSiteMapGenerator:60->SiteMapGeneratorTest.compareFiles:138
+[ERROR]   CustomUrlSiteMapGeneratorTest.testSiteMapsWithSiteContext:86->SiteMapGeneratorTest.compareFiles:138
+[INFO] 
+[ERROR] Tests run: 93, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for 3GybXKkBh0OTzxofsc+9ROSD9pLUN4ImIxVZ4hHQ=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexExecid=vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY= -DnondexLogging=CONFIG
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testCustomUrlSiteMapGenerator
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testSiteMapsWithSiteContext
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexExecid=qH013uHh81xgFysSQ3hnDaYnb+q08AMFZYC3ufg+HN0= -DnondexLogging=CONFIG
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testCustomUrlSiteMapGenerator
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testSiteMapsWithSiteContext
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex" -DnondexExecid=3GybXKkBh0OTzxofsc+9ROSD9pLUN4ImIxVZ4hHQ= -DnondexLogging=CONFIG
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testCustomUrlSiteMapGenerator
+[WARNING] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testSiteMapsWithSiteContext
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testCustomUrlSiteMapGenerator
+[INFO] org.broadleafcommerce.common.sitemap.service.CustomUrlSiteMapGeneratorTest#testSiteMapsWithSiteContext
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex/vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY=/test_results.html
+[INFO] [NonDex] The id of this run is: vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:12 min
+[INFO] Finished at: 2026-10-11T18:48:37-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project broadleaf-common: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/BroadleafCommerce__BroadleafCommerce__common/common/.nondex/vob2Do6U3X8hvHE6Q5hagqFP8Izbio0mvWXqCPKJnY= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

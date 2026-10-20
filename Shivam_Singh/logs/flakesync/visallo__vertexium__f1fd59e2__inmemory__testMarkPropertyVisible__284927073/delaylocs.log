@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.vertexium:vertexium-inmemory >------------------
+[INFO] Building Vertexium: In-memory 4.4.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ vertexium-inmemory >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-inmemory ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-inmemory ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766502412
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-inmemory ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-inmemory ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-inmemory ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-inmemory ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-inmemory ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ vertexium-inmemory <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ vertexium-inmemory ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.inmemory.InMemoryGraphTest
+Starting test: testMarkPropertyVisible
+2026-10-11 19:55:08.393/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 19:55:08.400/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 19:55:08.676/CDT WARN  [org.vertexium.GraphBase] creating default property definition because a previous definition could not be found for property "firstName" of type class java.lang.String
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.248 sec <<< FAILURE! - in org.vertexium.inmemory.InMemoryGraphTest
+testMarkPropertyVisible(org.vertexium.inmemory.InMemoryGraphTest)  Time elapsed: 0.67 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+
+
+Results :
+
+Failed tests: 
+  InMemoryGraphTest>GraphTestBase.testMarkPropertyVisible:1229 expected:<1> but was:<0>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_+ht5PbGQW4aBZriozoq5BvwCX4WFCOQl6FebF6h9gL8= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.718 s
+[INFO] Finished at: 2026-10-11T19:55:09-05:00
+[INFO] ------------------------------------------------------------------------

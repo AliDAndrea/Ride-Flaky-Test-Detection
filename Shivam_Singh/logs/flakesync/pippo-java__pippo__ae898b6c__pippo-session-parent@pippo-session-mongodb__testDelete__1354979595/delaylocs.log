@@ -1,0 +1,685 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ro.pippo:pippo-session-mongodb >-------------------
+[INFO] Building Pippo Session MongoDB 1.12.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ pippo-session-mongodb >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-mongodb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-session-mongodb ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-mongodb/pippo-session-parent/pippo-session-mongodb/src/main/resources
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-session-mongodb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-session-mongodb ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-session-mongodb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ pippo-session-mongodb <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ pippo-session-mongodb ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:40:11 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 76781
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:40:13.625-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] MongoDB starting : pid=76781 port=61154 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-aa74ba43-a130-483d-a6d0-0e281192bc2c 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:40:13.628-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:40:13.629-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61154 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-aa74ba43-a130-483d-a6d0-0e281192bc2c", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:40:13.630-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:40:13.706-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:40:13.707-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-aa74ba43-a130-483d-a6d0-0e281192bc2c/diagnostic.data'
+[mongod output] 2026-10-11T17:40:13.707-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:40:13.737-0500 I NETWORK  [initandlisten] waiting for connections on port 61154
+[mongod output] 17:40:13 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:40:13 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61154], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:40:13 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61154, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:40:13.891-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61169 #1 (1 connection now open)
+[mongod output] 17:40:13 [cluster-ClusterId{value='6acc104dfed0002bea7f43b9', description='null'}-localhost:61154] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61154
+17:40:13 [cluster-ClusterId{value='6acc104dfed0002bea7f43b9', description='null'}-localhost:61154] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61154
+17:40:13 [cluster-ClusterId{value='6acc104dfed0002bea7f43b9', description='null'}-localhost:61154] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61154, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=764042}
+17:40:13 [cluster-ClusterId{value='6acc104dfed0002bea7f43b9', description='null'}-localhost:61154] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61154, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+2026-10-11T17:40:14.704-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61180 #2 (2 connections now open)
+[mongod output] 17:40:14 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61154
+17:40:14 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61154
+2026-10-11T17:40:14.756-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:40:14.756-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:40:14.760-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:40:14 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61154
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61154
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61154
+17:40:16 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:16 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61154 because the pool has been closed.
+17:40:16 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:40:16 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+17:40:16 [cluster-ClusterId{value='6acc104dfed0002bea7f43b9', description='null'}-localhost:61154] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:40:16.810-0500 I NETWORK  [conn2] end connection 127.0.0.1:61180 (1 connection now open)
+[mongod output] 2026-10-11T17:40:16.811-0500 I NETWORK  [conn1] end connection 127.0.0.1:61169 (0 connections now open)
+[mongod output] 2026-10-11T17:40:16.817-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61195 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:40:16.817-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:40:16.817-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:40:16.818-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61154.sock
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:40:16.818-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:40:16.818-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:40:16.861-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:40:16.861-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:40:16 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-aa74ba43-a130-483d-a6d0-0e281192bc2c
+17:40:16 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-77fac56a-3513-40bc-a410-362ab65d48ffextractmongod.pid
+17:40:16 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-77fac56a-3513-40bc-a410-362ab65d48ffextractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.507 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:40:17 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 76822
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:40:19.181-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] MongoDB starting : pid=76822 port=61201 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-056f3260-e03c-4433-a270-0c146d86f66f 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:40:19.186-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61201 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-056f3260-e03c-4433-a270-0c146d86f66f", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:40:19.187-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:40:19.260-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:40:19.261-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:40:19.261-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-056f3260-e03c-4433-a270-0c146d86f66f/diagnostic.data'
+[mongod output] 2026-10-11T17:40:19.290-0500 I NETWORK  [initandlisten] waiting for connections on port 61201
+[mongod output] 17:40:19 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:40:19 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61201], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:40:19 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61201, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:40:19.468-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61213 #1 (1 connection now open)
+[mongod output] 17:40:19 [cluster-ClusterId{value='6acc1053fed0002c11ffebd9', description='null'}-localhost:61201] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61201
+17:40:19 [cluster-ClusterId{value='6acc1053fed0002c11ffebd9', description='null'}-localhost:61201] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61201
+17:40:19 [cluster-ClusterId{value='6acc1053fed0002c11ffebd9', description='null'}-localhost:61201] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61201, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=1034125}
+17:40:19 [cluster-ClusterId{value='6acc1053fed0002c11ffebd9', description='null'}-localhost:61201] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61201, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+2026-10-11T17:40:20.982-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61236 #2 (2 connections now open)
+[mongod output] 17:40:20 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61201
+17:40:20 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61201
+2026-10-11T17:40:21.041-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:40:21.041-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:40:21.044-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:40:21 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:23 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61201
+17:40:23 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:40:23 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61201
+17:40:23 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:40:24 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61201
+17:40:24 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:24 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61201 because the pool has been closed.
+17:40:24 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:40:24 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+2026-10-11T17:40:24.968-0500 I NETWORK  [conn2] end connection 127.0.0.1:61236 (1 connection now open)
+[mongod output] 17:40:24 [cluster-ClusterId{value='6acc1053fed0002c11ffebd9', description='null'}-localhost:61201] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:40:24.973-0500 I NETWORK  [conn1] end connection 127.0.0.1:61213 (0 connections now open)
+[mongod output] 2026-10-11T17:40:24.973-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61253 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:40:24.974-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:40:24.974-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:40:24.976-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:40:24.976-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:40:24.976-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:40:24.976-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:40:24.977-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61201.sock
+[mongod output] 2026-10-11T17:40:24.977-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:40:24.977-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:40:24.977-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:40:25.024-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:40:25.024-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:40:25 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-056f3260-e03c-4433-a270-0c146d86f66f
+17:40:25 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-0871510a-9871-4409-aebe-97fc3c7d3048extractmongod.pid
+17:40:25 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-0871510a-9871-4409-aebe-97fc3c7d3048extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.611 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:40:26 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 76905
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:40:27.970-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] MongoDB starting : pid=76905 port=61258 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-4a73f467-0bdd-40f8-89d8-f9cbf8232f73 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:40:27.973-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61258 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-4a73f467-0bdd-40f8-89d8-f9cbf8232f73", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:40:27.974-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:40:28.046-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:40:28.047-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-4a73f467-0bdd-40f8-89d8-f9cbf8232f73/diagnostic.data'
+[mongod output] 2026-10-11T17:40:28.047-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:40:28.078-0500 I NETWORK  [initandlisten] waiting for connections on port 61258
+[mongod output] 17:40:28 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:40:28 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61258], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:40:28 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61258, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:40:28.181-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61268 #1 (1 connection now open)
+[mongod output] 17:40:28 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61258
+17:40:28 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61258
+17:40:28 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61258, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=580292}
+17:40:28 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61258, type=STANDALONE, roundTripTime=0.6 ms, state=CONNECTED}]
+2026-10-11T17:40:31.076-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61307 #2 (2 connections now open)
+[mongod output] 17:40:31 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61258
+17:40:31 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61258
+2026-10-11T17:40:31.138-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:40:31.138-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:40:31.143-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:40:31 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:36 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61258
+17:40:36 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:40:36 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61258
+17:40:36 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:40:38 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61258
+17:40:38 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61258, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+17:40:38 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61258
+17:40:38 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:38 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61258 because the pool has been closed.
+17:40:38 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+2026-10-11T17:40:38.891-0500 I NETWORK  [conn2] end connection 127.0.0.1:61307 (1 connection now open)
+[mongod output] 17:40:38 [cluster-ClusterId{value='6acc105cfed0002c67d4afe0', description='null'}-localhost:61258] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+17:40:38 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+2026-10-11T17:40:38.895-0500 I NETWORK  [conn1] end connection 127.0.0.1:61268 (0 connections now open)
+[mongod output] 2026-10-11T17:40:38.899-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61335 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:40:38.899-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:40:38.899-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:40:38.900-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61258.sock
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:40:38.900-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:40:38.900-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:40:38.941-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:40:38.941-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:40:39 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-4a73f467-0bdd-40f8-89d8-f9cbf8232f73
+17:40:39 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-1707e061-8e5a-40e2-b8a8-82eec93ac476extractmongod.pid
+17:40:39 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-1707e061-8e5a-40e2-b8a8-82eec93ac476extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.11 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:40:40 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 76990
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:40:41.563-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] MongoDB starting : pid=76990 port=61338 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-194f19a9-9bae-496b-bce6-4eb6cd4b6e35 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:40:41.566-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61338 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-194f19a9-9bae-496b-bce6-4eb6cd4b6e35", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:40:41.567-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:40:41.643-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:40:41.644-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-194f19a9-9bae-496b-bce6-4eb6cd4b6e35/diagnostic.data'
+[mongod output] 2026-10-11T17:40:41.644-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:40:41.675-0500 I NETWORK  [initandlisten] waiting for connections on port 61338
+[mongod output] 17:40:41 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:40:41 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61338], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:40:41 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61338, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:40:41.787-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61359 #1 (1 connection now open)
+[mongod output] 17:40:41 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61338
+17:40:41 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61338
+17:40:41 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61338, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=191208}
+17:40:41 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61338, type=STANDALONE, roundTripTime=0.2 ms, state=CONNECTED}]
+2026-10-11T17:40:47.479-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61390 #2 (2 connections now open)
+[mongod output] 17:40:47 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61338
+17:40:47 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61338
+2026-10-11T17:40:47.546-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:40:47.546-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:40:47.550-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:40:47 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:40:51 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61338
+17:40:51 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61338, type=STANDALONE, roundTripTime=0.4 ms, state=CONNECTED}]
+17:40:57 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61338
+17:40:57 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:40:58 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61338
+17:40:58 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:41:01 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61338
+17:41:01 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61338, type=STANDALONE, roundTripTime=0.5 ms, state=CONNECTED}]
+17:41:02 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61338
+17:41:02 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:41:02 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61338 because the pool has been closed.
+17:41:02 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:41:02 [cluster-ClusterId{value='6acc1069fed0002cb80fd6a8', description='null'}-localhost:61338] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:41:02.922-0500 I NETWORK  [conn2] end connection 127.0.0.1:61390 (1 connection now open)
+[mongod output] 2026-10-11T17:41:02.923-0500 I NETWORK  [conn1] end connection 127.0.0.1:61359 (0 connections now open)
+[mongod output] 17:41:02 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+2026-10-11T17:41:02.931-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61439 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:41:02.931-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:41:02.931-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:41:02.933-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61338.sock
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:41:02.933-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:41:02.933-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:41:02.975-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:41:02.975-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:41:03 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-194f19a9-9bae-496b-bce6-4eb6cd4b6e35
+17:41:03 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-1167e459-90ce-47e7-ba19-9140f725e536extractmongod.pid
+17:41:03 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-1167e459-90ce-47e7-ba19-9140f725e536extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.21 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:41:04 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 77139
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:41:07.807-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] MongoDB starting : pid=77139 port=61441 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-ed73a277-d487-4e88-a594-67b8326439a1 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:41:07.812-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:41:07.813-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61441 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-ed73a277-d487-4e88-a594-67b8326439a1", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:41:07.814-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:41:07.890-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:41:07.891-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:41:07.891-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-ed73a277-d487-4e88-a594-67b8326439a1/diagnostic.data'
+[mongod output] 2026-10-11T17:41:07.926-0500 I NETWORK  [initandlisten] waiting for connections on port 61441
+[mongod output] 17:41:07 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:41:08 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61441], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:41:08 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61441, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:41:08.176-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61456 #1 (1 connection now open)
+[mongod output] 17:41:08 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61441
+17:41:08 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61441
+17:41:08 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61441, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=535000}
+17:41:08 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61441, type=STANDALONE, roundTripTime=0.5 ms, state=CONNECTED}]
+17:41:18 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61441
+17:41:18 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61441, type=STANDALONE, roundTripTime=0.7 ms, state=CONNECTED}]
+2026-10-11T17:41:19.560-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61507 #2 (2 connections now open)
+[mongod output] 17:41:19 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61441
+17:41:19 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61441
+2026-10-11T17:41:19.619-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:41:19.619-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:41:19.623-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:41:19 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:41:28 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61441
+17:41:28 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61441, type=STANDALONE, roundTripTime=0.7 ms, state=CONNECTED}]
+17:41:38 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61441
+17:41:38 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61441, type=STANDALONE, roundTripTime=0.7 ms, state=CONNECTED}]
+17:41:38 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61441
+17:41:38 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:41:42 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61441
+17:41:42 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:41:48 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61441
+17:41:48 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61441, type=STANDALONE, roundTripTime=0.7 ms, state=CONNECTED}]
+17:41:50 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61441
+17:41:50 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:41:50 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61441 because the pool has been closed.
+17:41:50 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:41:50 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+17:41:50 [cluster-ClusterId{value='6acc1084fed0002d4c173fa3', description='null'}-localhost:61441] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:41:50.147-0500 I NETWORK  [conn2] end connection 127.0.0.1:61507 (1 connection now open)
+[mongod output] 2026-10-11T17:41:50.148-0500 I NETWORK  [conn1] end connection 127.0.0.1:61456 (0 connections now open)
+[mongod output] 2026-10-11T17:41:50.151-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61639 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:41:50.151-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:41:50.152-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:41:50.153-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61441.sock
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:41:50.153-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:41:50.153-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:41:50.196-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:41:50.197-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:41:50 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-ed73a277-d487-4e88-a594-67b8326439a1
+17:41:50 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-bf6afb60-d00b-4010-8853-07a52dd6f315extractmongod.pid
+17:41:50 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-bf6afb60-d00b-4010-8853-07a52dd6f315extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.84 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:41:51 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 77522
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:41:53.340-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] MongoDB starting : pid=77522 port=61640 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-c0281040-84e6-43c1-9e0e-c0f782d3e048 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:41:53.343-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:41:53.344-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61640 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-c0281040-84e6-43c1-9e0e-c0f782d3e048", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:41:53.345-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:41:53.459-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:41:53.460-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-c0281040-84e6-43c1-9e0e-c0f782d3e048/diagnostic.data'
+[mongod output] 2026-10-11T17:41:53.460-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:41:53.489-0500 I NETWORK  [initandlisten] waiting for connections on port 61640
+[mongod output] 17:41:53 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:41:53 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61640], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:41:53 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61640, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:41:53.610-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61643 #1 (1 connection now open)
+[mongod output] 17:41:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61640
+17:41:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:41:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61640, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=1569041}
+17:41:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.6 ms, state=CONNECTED}]
+17:42:03 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:03 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.6 ms, state=CONNECTED}]
+17:42:13 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:13 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.4 ms, state=CONNECTED}]
+2026-10-11T17:42:16.120-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61662 #2 (2 connections now open)
+[mongod output] 17:42:16 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61640
+17:42:16 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61640
+2026-10-11T17:42:16.186-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:42:16.186-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:42:16.191-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:42:16 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:42:23 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:23 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.3 ms, state=CONNECTED}]
+17:42:33 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:33 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+17:42:43 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:43 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+17:42:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:42:53 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+17:42:54 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61640
+17:42:54 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:43:01 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61640
+17:43:01 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:43:03 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:43:03 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.3 ms, state=CONNECTED}]
+17:43:13 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61640
+17:43:13 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61640, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+17:43:17 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61640
+17:43:17 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:43:17 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61640 because the pool has been closed.
+17:43:17 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:43:17 [cluster-ClusterId{value='6acc10b1fed0002ed084d1e5', description='null'}-localhost:61640] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:43:17.185-0500 I NETWORK  [conn2] end connection 127.0.0.1:61662 (1 connection now open)
+[mongod output] 17:43:17 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+2026-10-11T17:43:17.188-0500 I NETWORK  [conn1] end connection 127.0.0.1:61643 (0 connections now open)
+[mongod output] 2026-10-11T17:43:17.195-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61823 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:43:17.195-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:43:17.195-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:43:17.196-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:43:17.196-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:43:17.196-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:43:17.196-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:43:17.196-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61640.sock
+[mongod output] 2026-10-11T17:43:17.197-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:43:17.197-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:43:17.197-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:43:17.240-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:43:17.240-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:43:17 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-c0281040-84e6-43c1-9e0e-c0f782d3e048
+17:43:17 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-ade174f9-4168-442e-b6e6-0c11144913a4extractmongod.pid
+17:43:17 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-ade174f9-4168-442e-b6e6-0c11144913a4extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.13 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:43:18 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 78185
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:43:21.947-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] MongoDB starting : pid=78185 port=61828 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-115a5301-a176-46c5-947f-bbb38d0695b3 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:43:21.953-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:43:21.954-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 61828 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-115a5301-a176-46c5-947f-bbb38d0695b3", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:43:21.955-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:43:22.035-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:43:22.036-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:43:22.036-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-115a5301-a176-46c5-947f-bbb38d0695b3/diagnostic.data'
+[mongod output] 2026-10-11T17:43:22.072-0500 I NETWORK  [initandlisten] waiting for connections on port 61828
+[mongod output] 17:43:22 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:43:22 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:61828], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:43:22 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:61828, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:43:22.298-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61868 #1 (1 connection now open)
+[mongod output] 17:43:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:61828
+17:43:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:43:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:61828, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=573291}
+17:43:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=0.6 ms, state=CONNECTED}]
+17:43:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:43:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+17:43:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:43:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+17:43:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:43:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+17:44:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+2026-10-11T17:44:07.290-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:61911 #2 (2 connections now open)
+[mongod output] 17:44:07 [main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:61828
+17:44:07 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {createIndexes : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61828
+2026-10-11T17:44:07.393-0500 I INDEX    [conn2] build index on: embedded.session properties: { v: 1, key: { creation_time: 1 }, name: "session_ttl_index", ns: "embedded.session", expireAfterSeconds: 1800 }
+[mongod output] 2026-10-11T17:44:07.393-0500 I INDEX    [conn2] 	 building index using bulk method
+[mongod output] 2026-10-11T17:44:07.398-0500 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+[mongod output] 17:44:07 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:44:12 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:12 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.4 ms, state=CONNECTED}]
+17:44:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.3 ms, state=CONNECTED}]
+17:44:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+17:44:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+17:44:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:44:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.3 ms, state=CONNECTED}]
+17:45:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+17:45:12 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:12 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+17:45:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:22 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+17:45:24 [main] DEBUG org.mongodb.driver.protocol.update - Updating documents in namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61828
+17:45:24 [main] DEBUG org.mongodb.driver.protocol.update - Update completed
+17:45:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:32 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.2 ms, state=CONNECTED}]
+17:45:37 [main] DEBUG org.mongodb.driver.protocol.delete - Deleting documents from namespace embedded.session on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61828
+17:45:37 [main] DEBUG org.mongodb.driver.protocol.delete - Delete completed
+17:45:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:42 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.7 ms, state=CONNECTED}]
+17:45:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:45:52 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.5 ms, state=CONNECTED}]
+17:46:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Checking status of localhost:61828
+17:46:02 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:61828, type=STANDALONE, roundTripTime=1.5 ms, state=CONNECTED}]
+17:46:09 [main] DEBUG org.mongodb.driver.protocol.command - Sending command {find : BsonString{value='session'}} to database embedded on connection [connectionId{localValue:2, serverValue:2}] to server localhost:61828
+17:46:09 [main] DEBUG org.mongodb.driver.protocol.command - Command execution completed
+17:46:09 [main] INFO org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:61828 because the pool has been closed.
+17:46:09 [main] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:2, serverValue:2}
+17:46:09 [main] DEBUG de.flapdoodle.embed.mongo.AbstractMongoProcess - try to stop mongod
+17:46:09 [cluster-ClusterId{value='6acc110a83e980312a1d0078', description='null'}-localhost:61828] DEBUG org.mongodb.driver.connection - Closing connection connectionId{localValue:1, serverValue:1}
+2026-10-11T17:46:09.226-0500 I NETWORK  [conn2] end connection 127.0.0.1:61911 (1 connection now open)
+[mongod output] 2026-10-11T17:46:09.228-0500 I NETWORK  [conn1] end connection 127.0.0.1:61868 (0 connections now open)
+[mongod output] 2026-10-11T17:46:09.233-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63847 #3 (1 connection now open)
+[mongod output] 2026-10-11T17:46:09.233-0500 I COMMAND  [conn3] terminating, shutdown command received
+[mongod output] 2026-10-11T17:46:09.233-0500 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+[mongod output] 2026-10-11T17:46:09.235-0500 I CONTROL  [conn3] now exiting
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] shutdown: going to close listening sockets...
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] closing listening socket: 5
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] closing listening socket: 6
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] removing socket file: /tmp/mongodb-61828.sock
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] shutdown: going to flush diaglog...
+[mongod output] 2026-10-11T17:46:09.235-0500 I NETWORK  [conn3] shutdown: going to close sockets...
+[mongod output] 2026-10-11T17:46:09.235-0500 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+[mongod output] 2026-10-11T17:46:09.269-0500 I STORAGE  [conn3] shutdown: removing fs lock...
+[mongod output] 2026-10-11T17:46:09.269-0500 I CONTROL  [conn3] dbexit:  rc: 0
+[mongod output] 
+17:46:09 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-115a5301-a176-46c5-947f-bbb38d0695b3
+17:46:09 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-0743097b-eecd-45e1-b475-0738dbc0bb34extractmongod.pid
+17:46:09 [main] DEBUG de.flapdoodle.embed.process.io.file.Files - could delete /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/extract-0743097b-eecd-45e1-b475-0738dbc0bb34extractmongod
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 170.9 s -- in ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.mongodb.MongoDBSessionDataStorageTest
+17:46:10 [main] DEBUG de.flapdoodle.embed.process.runtime.ProcessControl - Detected pid: 79337
+[mongod output]note: noprealloc may hurt performance in many applications
+[mongod output] 2026-10-11T17:46:11.713-0500 I CONTROL  [main] machdep.cpu.extfeatures unavailable
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] MongoDB starting : pid=79337 port=63850 dbpath=/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-8b16a236-197d-4091-96d7-2c216d42cedc 64-bit host=Shivams-MacBook-Air.local
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] db version v3.2.1
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] allocator: system
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] modules: none
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] build environment:
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten]     distarch: x86_64
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+[mongod output] 2026-10-11T17:46:11.716-0500 I CONTROL  [initandlisten] options: { net: { http: { enabled: false }, port: 63850 }, security: { authorization: "disabled" }, storage: { dbPath: "/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-8b16a236-197d-4091-96d7-2c216d42cedc", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+[mongod output] 2026-10-11T17:46:11.717-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=13G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+[mongod output] 2026-10-11T17:46:11.786-0500 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+[mongod output] 2026-10-11T17:46:11.787-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+[mongod output] 2026-10-11T17:46:11.787-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedmongo-db-8b16a236-197d-4091-96d7-2c216d42cedc/diagnostic.data'
+[mongod output] 2026-10-11T17:46:11.817-0500 I NETWORK  [initandlisten] waiting for connections on port 63850
+[mongod output] 17:46:11 [main] INFO de.flapdoodle.embed.process.runtime.Executable - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@551aa95a
+17:46:11 [main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:63850], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:46:11 [main] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:63850, type=UNKNOWN, state=CONNECTING}]
+delete
+2026-10-11T17:46:11.925-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:63867 #1 (1 connection now open)
+[mongod output] 17:46:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:63850
+17:46:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:46:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:63850, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 1]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=629500}
+17:46:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.6 ms, state=CONNECTED}]
+17:46:21 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:46:21 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+17:46:31 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:46:31 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+17:46:41 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:46:41 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=1.1 ms, state=CONNECTED}]
+17:46:51 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:46:51 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=1.0 ms, state=CONNECTED}]
+17:47:01 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:47:01 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.9 ms, state=CONNECTED}]
+17:47:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:47:11 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+17:47:21 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:47:21 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+17:47:31 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Checking status of localhost:63850
+17:47:31 [cluster-ClusterId{value='6acc11b383e98035e77bb40e', description='null'}-localhost:63850] DEBUG org.mongodb.driver.cluster - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:63850, type=STANDALONE, roundTripTime=0.8 ms, state=CONNECTED}]
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_QJ2A2Ubbd1aayVb0yMwMt9suARQNoSoyH5GGHwBpc0= with delay: 12800
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------

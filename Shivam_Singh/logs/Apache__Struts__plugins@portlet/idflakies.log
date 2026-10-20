@@ -1,0 +1,461 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.struts:struts2-bom:pom:2.6-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.apache.struts:struts2-bom:2.6-SNAPSHOT (/Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/bom/pom.xml) points at org.apache.struts:struts2-parent instead of org.apache.struts:struts-master, please verify your project structure @ line 25, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Struts 2                                                           [pom]
+[INFO] Struts 2 Core                                                      [jar]
+[INFO] Struts Plugins                                                     [pom]
+[INFO] Struts 2 Spring Plugin                                             [jar]
+[INFO] Struts 2 Convention Plugin                                         [jar]
+[INFO] Struts 2 JUnit Plugin                                              [jar]
+[INFO] Struts 2 Portlet Plugin                                            [jar]
+[INFO] 
+[INFO] ------------------< org.apache.struts:struts2-parent >------------------
+[INFO] Building Struts 2 2.6-SNAPSHOT                                     [1/7]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-parent >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-parent ---
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-parent ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-parent:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] -------------------< org.apache.struts:struts2-core >-------------------
+[INFO] Building Struts 2 Core 2.6-SNAPSHOT                                [2/7]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-core >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-core ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ struts2-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 198 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ struts2-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 752 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/components/Component.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/components/Component.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- jshint:1.6.0:lint (default) @ struts2-core ---
+[INFO] using jshint version 2.5.6
+[INFO] Using configuration file: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/jshint.conf.js
+[WARNING] Excluding /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/org/apache/struts2/static/domTT.js
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/jshint.conf.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/org/apache/struts2/static/optiontransferselect.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/org/apache/struts2/static/utils.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/org/apache/struts2/static/inputtransferselect.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/org/apache/struts2/interceptor/debugging/webconsole.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/template/xhtml/validation.js [no change]
+[INFO]   /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/resources/template/css_xhtml/validation.js [no change]
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default) @ struts2-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 752 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/dispatcher/HttpParameters.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/components/Component.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/src/main/java/org/apache/struts2/components/Component.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-core ---
+[WARNING] Warning in manifest for org.apache.struts:struts2-core:jar:2.6-SNAPSHOT : Superfluous export-package instructions: [com, org.apache.struts2.util.tomcat, org.apache, template, com.opensymphony, template.archive, org]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ struts2-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 343 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ struts2-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-core ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-core:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 1822 tests. Time taken: 2.8239998817443848 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/.dtfixingtools/original-order
+[INFO] Getting original results (1822 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (58.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (58.3 seconds elapsed (109.8 total), 524.3 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (109.8 seconds elapsed (161.8 total), 622.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (161.8 seconds elapsed (213.1 total), 647.2 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (213.1 seconds elapsed (281.7 total), 639.2 seconds remaining).
+Verified org.apache.struts2.interceptor.ExecuteAndWaitInterceptorTest.testWaitDelayAndJobAlreadyDone, status: expected PASS, got PASS
+Verified org.apache.struts2.interceptor.ExecuteAndWaitInterceptorTest.testWaitDelayAndJobAlreadyDone, status: expected FAILURE, got PASS
+[INFO] Found 0 tests in round 6 of 20 (281.7 seconds elapsed (7343.0 total), 657.3 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (7343.0 seconds elapsed (11184.4 total), 13637.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (11184.4 seconds elapsed (14379.7 total), 16776.6 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (14379.7 seconds elapsed (18492.9 total), 17575.2 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (18492.9 seconds elapsed (20611.7 total), 18492.9 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (20611.7 seconds elapsed (21414.6 total), 16864.1 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (21414.6 seconds elapsed (22207.0 total), 14276.4 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (22207.0 seconds elapsed (25054.7 total), 11957.6 seconds remaining).
+Verified org.apache.struts2.interceptor.ExecuteAndWaitInterceptorTest.testWaitDelayAndJobAlreadyDone2, status: expected PASS, got PASS
+Verified org.apache.struts2.interceptor.ExecuteAndWaitInterceptorTest.testWaitDelayAndJobAlreadyDone2, status: expected FAILURE, got PASS
+[INFO] Found 0 tests in round 14 of 20 (25054.7 seconds elapsed (29290.7 total), 10737.7 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (29290.7 seconds elapsed (29376.2 total), 9763.6 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (29376.2 seconds elapsed (29425.3 total), 7344.1 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (29425.3 seconds elapsed (29474.6 total), 5192.7 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (29474.6 seconds elapsed (29525.0 total), 3275.0 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (29525.0 seconds elapsed (29574.0 total), 1553.9 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (29574.0 seconds elapsed (29625.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] -----------------< org.apache.struts:struts2-plugins >------------------
+[INFO] Building Struts Plugins 2.6-SNAPSHOT                               [3/7]
+[INFO]   from plugins/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-plugins >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-plugins ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-plugins ---
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-plugins ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-plugins <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-plugins ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-plugins:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.0010001659393310547 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] --------------< org.apache.struts:struts2-spring-plugin >---------------
+[INFO] Building Struts 2 Spring Plugin 2.6-SNAPSHOT                       [4/7]
+[INFO]   from plugins/spring/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-spring-plugin >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-spring-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-spring-plugin ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ struts2-spring-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ struts2-spring-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-spring-plugin ---
+[WARNING] Warning in manifest for org.apache.struts:struts2-spring-plugin:jar:2.6-SNAPSHOT : Superfluous export-package instructions: [org.apache.struts2, org, org.apache.struts2.spring.config, org.apache]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ struts2-spring-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ struts2-spring-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-spring-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-spring-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-spring-plugin:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 2 tests. Time taken: 0.015000104904174805 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/spring/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/spring/.dtfixingtools/original-order
+[INFO] Getting original results (2 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (0.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (0.7 seconds elapsed (1.5 total), 6.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (1.5 seconds elapsed (2.2 total), 8.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (2.2 seconds elapsed (2.9 total), 8.8 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (2.9 seconds elapsed (3.7 total), 8.8 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (3.7 seconds elapsed (4.4 total), 8.6 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (4.4 seconds elapsed (5.1 total), 8.2 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (5.1 seconds elapsed (5.9 total), 7.7 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (5.9 seconds elapsed (6.6 total), 7.2 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (6.6 seconds elapsed (7.4 total), 6.6 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (7.4 seconds elapsed (8.1 total), 6.0 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (8.1 seconds elapsed (8.8 total), 5.4 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (8.8 seconds elapsed (9.5 total), 4.7 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (9.5 seconds elapsed (10.3 total), 4.1 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (10.3 seconds elapsed (11.0 total), 3.4 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (11.0 seconds elapsed (11.8 total), 2.8 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (11.8 seconds elapsed (12.6 total), 2.1 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (12.6 seconds elapsed (13.3 total), 1.4 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (13.3 seconds elapsed (14.0 total), 0.7 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (14.0 seconds elapsed (14.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/spring/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/spring/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] ------------< org.apache.struts:struts2-convention-plugin >-------------
+[INFO] Building Struts 2 Convention Plugin 2.6-SNAPSHOT                   [5/7]
+[INFO]   from plugins/convention/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-convention-plugin >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-convention-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-convention-plugin ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ struts2-convention-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ struts2-convention-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-convention-plugin ---
+[WARNING] Warning in manifest for org.apache.struts:struts2-convention-plugin:jar:2.6-SNAPSHOT : Superfluous export-package instructions: [org.apache.struts2, org, org.apache.struts2.convention.config, org.apache]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ struts2-convention-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ struts2-convention-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-convention-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-convention-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-convention-plugin:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 35 tests. Time taken: 0.19899988174438477 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/convention/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/convention/.dtfixingtools/original-order
+[INFO] Getting original results (35 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (1.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (1.2 seconds elapsed (2.5 total), 11.2 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (2.5 seconds elapsed (3.8 total), 14.3 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (3.8 seconds elapsed (5.0 total), 15.1 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (5.0 seconds elapsed (6.3 total), 15.0 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (6.3 seconds elapsed (7.5 total), 14.6 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (7.5 seconds elapsed (8.8 total), 13.9 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (8.8 seconds elapsed (10.0 total), 13.1 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (10.0 seconds elapsed (11.2 total), 12.2 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (11.2 seconds elapsed (12.5 total), 11.2 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (12.5 seconds elapsed (13.8 total), 10.2 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (13.8 seconds elapsed (15.1 total), 9.2 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (15.1 seconds elapsed (16.4 total), 8.1 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (16.4 seconds elapsed (17.7 total), 7.0 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (17.7 seconds elapsed (18.9 total), 5.9 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (18.9 seconds elapsed (20.2 total), 4.7 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (20.2 seconds elapsed (21.4 total), 3.6 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (21.4 seconds elapsed (22.7 total), 2.4 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (22.7 seconds elapsed (23.9 total), 1.2 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (23.9 seconds elapsed (25.2 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/convention/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/convention/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] ---------------< org.apache.struts:struts2-junit-plugin >---------------
+[INFO] Building Struts 2 JUnit Plugin 2.6-SNAPSHOT                        [6/7]
+[INFO]   from plugins/junit/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-junit-plugin >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-junit-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-junit-plugin ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ struts2-junit-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/junit/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ struts2-junit-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-junit-plugin ---
+[WARNING] Warning in manifest for org.apache.struts:struts2-junit-plugin:jar:2.6-SNAPSHOT : Superfluous export-package instructions: [org, org.apache]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ struts2-junit-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ struts2-junit-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-junit-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-junit-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-junit-plugin:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 11 tests. Time taken: 0.07899999618530273 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/junit/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/junit/.dtfixingtools/original-order
+[INFO] Getting original results (11 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.7 seconds elapsed (5.5 total), 24.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (5.5 seconds elapsed (8.3 total), 31.1 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (8.3 seconds elapsed (11.0 total), 33.4 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (11.1 seconds elapsed (14.0 total), 33.2 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (14.0 seconds elapsed (16.7 total), 32.6 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (16.7 seconds elapsed (19.5 total), 31.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (19.5 seconds elapsed (22.2 total), 29.2 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (22.2 seconds elapsed (25.0 total), 27.2 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (25.0 seconds elapsed (27.8 total), 25.0 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (27.8 seconds elapsed (30.6 total), 22.8 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (30.6 seconds elapsed (33.4 total), 20.4 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (33.4 seconds elapsed (36.2 total), 18.0 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (36.2 seconds elapsed (39.0 total), 15.5 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (39.0 seconds elapsed (41.8 total), 13.0 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (41.8 seconds elapsed (44.6 total), 10.4 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (44.6 seconds elapsed (47.4 total), 7.9 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (47.4 seconds elapsed (50.3 total), 5.3 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (50.3 seconds elapsed (53.0 total), 2.6 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (53.0 seconds elapsed (55.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/junit/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/junit/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] --------------< org.apache.struts:struts2-portlet-plugin >--------------
+[INFO] Building Struts 2 Portlet Plugin 2.6-SNAPSHOT                      [7/7]
+[INFO]   from plugins/portlet/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ struts2-portlet-plugin >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ struts2-portlet-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ struts2-portlet-plugin ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ struts2-portlet-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ struts2-portlet-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:2.1.0:manifest (bundle-manifest) @ struts2-portlet-plugin ---
+[WARNING] Warning in manifest for org.apache.struts:struts2-portlet-plugin:jar:2.6-SNAPSHOT : Superfluous export-package instructions: [org, org.apache.struts2.views, org.apache]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ struts2-portlet-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ struts2-portlet-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ struts2-portlet-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ struts2-portlet-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.apache.struts:struts2-portlet-plugin:2.6-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 61 tests. Time taken: 0.08700013160705566 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/portlet/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/portlet/.dtfixingtools/original-order
+[INFO] Getting original results (61 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.9 seconds elapsed (5.8 total), 25.7 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (5.8 seconds elapsed (8.8 total), 33.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (8.8 seconds elapsed (11.7 total), 35.0 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (11.7 seconds elapsed (14.6 total), 35.1 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (14.6 seconds elapsed (17.6 total), 34.1 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (17.6 seconds elapsed (20.5 total), 32.7 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (20.5 seconds elapsed (23.4 total), 30.8 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (23.4 seconds elapsed (26.4 total), 28.6 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (26.4 seconds elapsed (29.4 total), 26.4 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (29.4 seconds elapsed (32.2 total), 24.0 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (32.2 seconds elapsed (35.1 total), 21.5 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (35.1 seconds elapsed (38.1 total), 18.9 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (38.1 seconds elapsed (41.1 total), 16.3 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (41.1 seconds elapsed (44.1 total), 13.7 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (44.1 seconds elapsed (47.0 total), 11.0 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (47.0 seconds elapsed (50.0 total), 8.3 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (50.0 seconds elapsed (52.9 total), 5.6 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (52.9 seconds elapsed (55.9 total), 2.8 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (55.9 seconds elapsed (58.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/portlet/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/Apache__Struts__plugins@portlet/plugins/portlet/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Struts 2 2.6-SNAPSHOT:
+[INFO] 
+[INFO] Struts 2 ........................................... SUCCESS [  1.803 s]
+[INFO] Struts 2 Core ...................................... SUCCESS [  08:16 h]
+[INFO] Struts Plugins ..................................... SUCCESS [  0.312 s]
+[INFO] Struts 2 Spring Plugin ............................. SUCCESS [ 15.868 s]
+[INFO] Struts 2 Convention Plugin ......................... SUCCESS [ 27.796 s]
+[INFO] Struts 2 JUnit Plugin .............................. SUCCESS [ 59.315 s]
+[INFO] Struts 2 Portlet Plugin ............................ SUCCESS [01:02 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:19 h
+[INFO] Finished at: 2026-10-09T12:09:16-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.espertech:esper-runtime >---------------------
+[INFO] Building Esper Runtime 8.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ esper-runtime >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-runtime ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ esper-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ esper-runtime ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ esper-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ esper-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ esper-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ esper-runtime ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving com.espertech:esper-runtime:8.0.0 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 49 tests. Time taken: 0.3149998188018799 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/.dtfixingtools/original-order
+[INFO] Getting original results (49 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (12.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (12.3 seconds elapsed (24.5 total), 111.1 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (24.5 seconds elapsed (36.7 total), 138.6 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (36.7 seconds elapsed (49.0 total), 146.9 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (49.0 seconds elapsed (61.2 total), 146.9 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (61.2 seconds elapsed (73.4 total), 142.8 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (73.4 seconds elapsed (85.7 total), 136.4 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (85.7 seconds elapsed (98.3 total), 128.5 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (98.3 seconds elapsed (110.6 total), 120.1 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (110.6 seconds elapsed (122.8 total), 110.6 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (122.8 seconds elapsed (135.0 total), 100.5 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (135.0 seconds elapsed (147.3 total), 90.0 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (147.3 seconds elapsed (159.5 total), 79.3 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (159.5 seconds elapsed (171.7 total), 68.4 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (171.7 seconds elapsed (183.9 total), 57.2 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (183.9 seconds elapsed (196.2 total), 46.0 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (196.2 seconds elapsed (208.4 total), 34.6 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (208.4 seconds elapsed (220.6 total), 23.2 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (220.6 seconds elapsed (232.9 total), 11.6 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (232.9 seconds elapsed (245.1 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/espertechinc__esper__runtime/runtime/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:21 min
+[INFO] Finished at: 2026-10-09T19:04:57-05:00
+[INFO] ------------------------------------------------------------------------

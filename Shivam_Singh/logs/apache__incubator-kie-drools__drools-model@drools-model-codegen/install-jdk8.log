@@ -1,0 +1,591 @@
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-packaging/3.2.1/archetype-packaging-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-packaging/3.2.1/archetype-packaging-3.2.1.pom (1.4 kB at 1.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom (13 kB at 187 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-packaging/3.2.1/archetype-packaging-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-packaging/3.2.1/archetype-packaging-3.2.1.jar (7.3 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bom/2.16.12.Final/quarkus-bom-2.16.12.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/quarkus-bom/2.16.12.Final/quarkus-bom-2.16.12.Final.pom (372 kB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/recipe/rewrite-recipe-bom/1.19.4/rewrite-recipe-bom-1.19.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/recipe/rewrite-recipe-bom/1.19.4/rewrite-recipe-bom-1.19.4.pom (6.1 kB at 119 kB/s)
+[INFO] Downloading from apache-public-repository-group: https://repository.apache.org/content/groups/public/org/openrewrite/rewrite-bom/7.40.8/rewrite-bom-7.40.8.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-bom/7.40.8/rewrite-bom-7.40.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-bom/7.40.8/rewrite-bom-7.40.8.pom (5.6 kB at 112 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/14.0.13.Final/infinispan-bom-14.0.13.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/14.0.13.Final/infinispan-bom-14.0.13.Final.pom (24 kB at 330 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/14.0.13.Final/infinispan-build-configuration-parent-14.0.13.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/14.0.13.Final/infinispan-build-configuration-parent-14.0.13.Final.pom (24 kB at 296 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Drools :: Parent                                                   [pom]
+[INFO] Drools :: Build Parent                                             [pom]
+[INFO] KIE :: Public API                                                  [jar]
+[INFO] KIE :: Internal                                                    [jar]
+[INFO] KIE :: Util                                                        [pom]
+[INFO] KIE :: Util :: Maven Support                                       [jar]
+[INFO] KIE :: Util :: XML supposrt                                        [jar]
+[INFO] Drools :: Util                                                     [jar]
+[INFO] KIE :: Memory Compiler                                             [jar]
+[INFO] Drools :: Wiring :: Parent                                         [pom]
+[INFO] Drools :: Wiring :: API                                            [jar]
+[INFO] Drools :: base                                                     [jar]
+[INFO] Drools :: Wiring :: Static                                         [jar]
+[INFO] Drools :: IO                                                       [jar]
+[INFO] Drools :: Core                                                     [jar]
+[INFO] Drools :: DRL :: Parent                                            [pom]
+[INFO] Drools :: DRL AST                                                  [jar]
+[INFO] Drools :: DRL :: Parser                                            [jar]
+[INFO] Drools :: DRL :: Extensions                                        [jar]
+[INFO] Drools :: Wiring :: Dynamic                                        [jar]
+[INFO] Drools :: KieSession                                               [jar]
+[INFO] Drools :: ECJ                                                      [jar]
+[INFO] KIE :: Test Utility Classes                                        [jar]
+[INFO] Drools :: Compiler                                                 [jar]
+[INFO] Drools :: Model :: Parent                                          [pom]
+[INFO] Drools :: Codegen :: Common                                        [jar]
+[INFO] Drools :: Canonical Model                                          [jar]
+[INFO] Drools :: Model :: Compiler                                        [jar]
+[INFO] Drools :: MVEL Parser                                              [jar]
+[INFO] Drools :: MVEL Compiler                                            [jar]
+[INFO] Drools :: Commands                                                 [jar]
+[INFO] Drools :: XML Support                                              [jar]
+[INFO] Drools :: Truth Maintenance System                                 [jar]
+[INFO] Drools :: MVEL                                                     [jar]
+[INFO] Drools :: Templates                                                [jar]
+[INFO] Drools :: Decision Tables                                          [jar]
+[INFO] Drools :: Model :: Codegen                                         [jar]
+[INFO] 
+[INFO] -----------------------< org.kie:drools-parent >------------------------
+[INFO] Building Drools :: Parent 8.45.0-SNAPSHOT                         [1/37]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.pom (15 kB at 247 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-remote-resources-plugin/3.1.0/maven-remote-resources-plugin-3.1.0.jar (82 kB at 1.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.pom (7.0 kB at 127 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.3.0/enforcer-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.3.0/enforcer-3.3.0.pom (8.2 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.3.0/maven-enforcer-plugin-3.3.0.jar (39 kB at 764 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.pom (7.8 kB at 170 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/3.1.1/maven-install-plugin-3.1.1.jar (31 kB at 665 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (enforce-maven-version) @ drools-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.pom (3.6 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.pom (4.1 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-api/3.3.0/enforcer-api-3.3.0.jar (14 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.3.0/enforcer-rules-3.3.0.jar (145 kB at 1.9 MB/s)
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.3.0:enforce (enforce-java-version) @ drools-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ drools-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.pom (6.9 kB at 91 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.0/maven-filtering-3.3.0.jar (55 kB at 768 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar (578 kB at 5.6 MB/s)
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/resources/apache-jar-resource-bundle/1.5/apache-jar-resource-bundle-1.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/resources/apache-jar-resource-bundle/1.5/apache-jar-resource-bundle-1.5.jar (13 kB at 235 kB/s)
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- site:3.12.1:attach-descriptor (attach-descriptor) @ drools-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.6.0/maven-reporting-exec-1.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.6.0/maven-reporting-exec-1.6.0.pom (14 kB at 262 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.0/maven-reporting-api-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.1.0/maven-reporting-api-3.1.0.pom (3.8 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.11.1/doxia-module-apt-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.11.1/doxia-module-apt-1.11.1.pom (2.1 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.11.1/doxia-module-xdoc-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.11.1/doxia-module-xdoc-1.11.1.pom (4.5 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.11.1/doxia-module-fml-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.11.1/doxia-module-fml-1.11.1.pom (4.4 kB at 107 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.11.1/doxia-module-markdown-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.11.1/doxia-module-markdown-1.11.1.pom (5.4 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-all/0.42.14/flexmark-all-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-all/0.42.14/flexmark-all-0.42.14.pom (9.0 kB at 152 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.42.14/flexmark-java-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-java/0.42.14/flexmark-java-0.42.14.pom (20 kB at 434 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.42.14/flexmark-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.42.14/flexmark-0.42.14.pom (2.5 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.14/flexmark-util-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.14/flexmark-util-0.42.14.pom (792 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.42.14/flexmark-ext-abbreviation-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.42.14/flexmark-ext-abbreviation-0.42.14.pom (2.5 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.14/flexmark-ext-autolink-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.14/flexmark-ext-autolink-0.42.14.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.14/flexmark-formatter-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.14/flexmark-formatter-0.42.14.pom (1.1 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.42.14/flexmark-ext-admonition-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.42.14/flexmark-ext-admonition-0.42.14.pom (1.5 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.14/flexmark-ext-anchorlink-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.14/flexmark-ext-anchorlink-0.42.14.pom (1.6 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.42.14/flexmark-ext-aside-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.42.14/flexmark-ext-aside-0.42.14.pom (1.5 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.14/flexmark-jira-converter-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.14/flexmark-jira-converter-0.42.14.pom (2.1 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.14/flexmark-ext-gfm-strikethrough-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.14/flexmark-ext-gfm-strikethrough-0.42.14.pom (1.3 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.14/flexmark-ext-tables-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.14/flexmark-ext-tables-0.42.14.pom (1.5 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.14/flexmark-ext-wikilink-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.14/flexmark-ext-wikilink-0.42.14.pom (1.5 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.14/flexmark-ext-ins-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.14/flexmark-ext-ins-0.42.14.pom (1.3 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.14/flexmark-ext-superscript-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.14/flexmark-ext-superscript-0.42.14.pom (1.3 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.42.14/flexmark-ext-attributes-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.42.14/flexmark-ext-attributes-0.42.14.pom (2.6 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.42.14/flexmark-ext-definition-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.42.14/flexmark-ext-definition-0.42.14.pom (1.3 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.14/flexmark-ext-emoji-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.14/flexmark-ext-emoji-0.42.14.pom (1.5 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.42.14/flexmark-ext-enumerated-reference-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.42.14/flexmark-ext-enumerated-reference-0.42.14.pom (1.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.42.14/flexmark-ext-escaped-character-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.42.14/flexmark-ext-escaped-character-0.42.14.pom (1.3 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.42.14/flexmark-ext-footnotes-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.42.14/flexmark-ext-footnotes-0.42.14.pom (1.3 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.42.14/flexmark-ext-gfm-issues-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.42.14/flexmark-ext-gfm-issues-0.42.14.pom (1.3 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.14/flexmark-ext-gfm-tables-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.14/flexmark-ext-gfm-tables-0.42.14.pom (1.3 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.14/flexmark-ext-gfm-tasklist-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.14/flexmark-ext-gfm-tasklist-0.42.14.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.42.14/flexmark-ext-gfm-users-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.42.14/flexmark-ext-gfm-users-0.42.14.pom (1.3 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.42.14/flexmark-ext-gitlab-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.42.14/flexmark-ext-gitlab-0.42.14.pom (1.3 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.42.14/flexmark-ext-jekyll-front-matter-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.42.14/flexmark-ext-jekyll-front-matter-0.42.14.pom (1.5 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.14/flexmark-ext-yaml-front-matter-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.14/flexmark-ext-yaml-front-matter-0.42.14.pom (1.3 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.42.14/flexmark-ext-jekyll-tag-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.42.14/flexmark-ext-jekyll-tag-0.42.14.pom (1.3 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.42.14/flexmark-ext-media-tags-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.42.14/flexmark-ext-media-tags-0.42.14.pom (1.0 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.42.14/flexmark-ext-macros-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.42.14/flexmark-ext-macros-0.42.14.pom (1.6 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.42.14/flexmark-ext-xwiki-macros-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.42.14/flexmark-ext-xwiki-macros-0.42.14.pom (1.3 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.42.14/flexmark-ext-toc-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.42.14/flexmark-ext-toc-0.42.14.pom (1.5 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.42.14/flexmark-ext-typographic-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.42.14/flexmark-ext-typographic-0.42.14.pom (1.3 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.42.14/flexmark-ext-youtube-embedded-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.42.14/flexmark-ext-youtube-embedded-0.42.14.pom (883 B at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.14/flexmark-html-parser-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.14/flexmark-html-parser-0.42.14.pom (1.5 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.42.14/flexmark-profile-pegdown-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.42.14/flexmark-profile-pegdown-0.42.14.pom (4.0 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.42.14/flexmark-youtrack-converter-0.42.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.42.14/flexmark-youtrack-converter-0.42.14.pom (1.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-confluence/1.11.1/doxia-module-confluence-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-confluence/1.11.1/doxia-module-confluence-1.11.1.pom (2.2 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-docbook-simple/1.11.1/doxia-module-docbook-simple-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-docbook-simple/1.11.1/doxia-module-docbook-simple-1.11.1.pom (2.0 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-twiki/1.11.1/doxia-module-twiki-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-twiki/1.11.1/doxia-module-twiki-1.11.1.pom (2.1 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.46.v20220331/jetty-server-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.46.v20220331/jetty-server-9.4.46.v20220331.pom (3.4 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.46.v20220331/jetty-project-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.46.v20220331/jetty-project-9.4.46.v20220331.pom (71 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.15.Final/infinispan-bom-11.0.15.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.15.Final/infinispan-bom-11.0.15.Final.pom (19 kB at 304 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.15.Final/infinispan-build-configuration-parent-11.0.15.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.15.Final/infinispan-build-configuration-parent-11.0.15.Final.pom (13 kB at 283 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.46.v20220331/jetty-http-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.46.v20220331/jetty-http-9.4.46.v20220331.pom (4.0 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.46.v20220331/jetty-util-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.46.v20220331/jetty-util-9.4.46.v20220331.pom (4.0 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.46.v20220331/jetty-io-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.46.v20220331/jetty-io-9.4.46.v20220331.pom (1.2 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.46.v20220331/jetty-servlet-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.46.v20220331/jetty-servlet-9.4.46.v20220331.pom (2.3 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.46.v20220331/jetty-security-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.46.v20220331/jetty-security-9.4.46.v20220331.pom (2.1 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.46.v20220331/jetty-util-ajax-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.46.v20220331/jetty-util-ajax-9.4.46.v20220331.pom (1.3 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.46.v20220331/jetty-webapp-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.46.v20220331/jetty-webapp-9.4.46.v20220331.pom (3.2 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.46.v20220331/jetty-xml-9.4.46.v20220331.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.46.v20220331/jetty-xml-9.4.46.v20220331.pom (1.7 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.6.0/maven-reporting-exec-1.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-exec/1.6.0/maven-reporting-exec-1.6.0.jar (31 kB at 562 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.11.1/doxia-module-apt-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.11.1/doxia-module-xdoc-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.11.1/doxia-module-fml-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.11.1/doxia-module-markdown-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-all/0.42.14/flexmark-all-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.11.1/doxia-module-apt-1.11.1.jar (55 kB at 865 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.42.14/flexmark-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark/0.42.14/flexmark-0.42.14.jar (389 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.42.14/flexmark-ext-abbreviation-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-markdown/1.11.1/doxia-module-markdown-1.11.1.jar (18 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.42.14/flexmark-ext-admonition-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-all/0.42.14/flexmark-all-0.42.14.jar (2.2 kB at 6.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.14/flexmark-ext-anchorlink-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.11.1/doxia-module-fml-1.11.1.jar (38 kB at 113 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.11.1/doxia-module-xdoc-1.11.1.jar (37 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.42.14/flexmark-ext-attributes-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.42.14/flexmark-ext-abbreviation-0.42.14.jar (35 kB at 106 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.42.14/flexmark-ext-aside-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.14/flexmark-ext-autolink-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.42.14/flexmark-ext-aside-0.42.14.jar (16 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.42.14/flexmark-ext-definition-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.14/flexmark-ext-autolink-0.42.14.jar (9.4 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.14/flexmark-ext-emoji-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.14/flexmark-ext-anchorlink-0.42.14.jar (17 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.42.14/flexmark-ext-enumerated-reference-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.42.14/flexmark-ext-attributes-0.42.14.jar (36 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.42.14/flexmark-ext-escaped-character-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.42.14/flexmark-ext-admonition-0.42.14.jar (34 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.42.14/flexmark-ext-footnotes-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.42.14/flexmark-ext-escaped-character-0.42.14.jar (13 kB at 24 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.42.14/flexmark-ext-enumerated-reference-0.42.14.jar (66 kB at 125 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.42.14/flexmark-ext-definition-0.42.14.jar (40 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.42.14/flexmark-ext-gfm-issues-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.14/flexmark-ext-gfm-strikethrough-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.14/flexmark-ext-gfm-tables-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.14/flexmark-ext-emoji-0.42.14.jar (73 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.14/flexmark-ext-gfm-tasklist-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.42.14/flexmark-ext-footnotes-0.42.14.jar (41 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.42.14/flexmark-ext-gfm-users-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.14/flexmark-ext-gfm-tables-0.42.14.jar (33 kB at 52 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.14/flexmark-ext-gfm-strikethrough-0.42.14.jar (29 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.42.14/flexmark-ext-jekyll-front-matter-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.42.14/flexmark-ext-gfm-users-0.42.14.jar (16 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.42.14/flexmark-ext-gitlab-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.42.14/flexmark-ext-jekyll-tag-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.42.14/flexmark-ext-gfm-issues-0.42.14.jar (16 kB at 25 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.14/flexmark-ext-gfm-tasklist-0.42.14.jar (28 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.42.14/flexmark-ext-media-tags-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.42.14/flexmark-ext-macros-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.42.14/flexmark-ext-jekyll-tag-0.42.14.jar (21 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.14/flexmark-ext-ins-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.42.14/flexmark-ext-jekyll-front-matter-0.42.14.jar (18 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.42.14/flexmark-ext-xwiki-macros-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.42.14/flexmark-ext-media-tags-0.42.14.jar (25 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.14/flexmark-ext-superscript-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.42.14/flexmark-ext-macros-0.42.14.jar (35 kB at 51 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.42.14/flexmark-ext-gitlab-0.42.14.jar (42 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.14/flexmark-ext-tables-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.42.14/flexmark-ext-toc-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.14/flexmark-ext-ins-0.42.14.jar (13 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.42.14/flexmark-ext-typographic-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.14/flexmark-ext-tables-0.42.14.jar (76 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.14/flexmark-ext-wikilink-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.42.14/flexmark-ext-toc-0.42.14.jar (91 kB at 122 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.14/flexmark-ext-yaml-front-matter-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.42.14/flexmark-ext-xwiki-macros-0.42.14.jar (31 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.42.14/flexmark-ext-youtube-embedded-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.14/flexmark-ext-superscript-0.42.14.jar (13 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.14/flexmark-formatter-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.42.14/flexmark-ext-typographic-0.42.14.jar (22 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.14/flexmark-html-parser-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.14/flexmark-ext-wikilink-0.42.14.jar (26 kB at 32 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.14/flexmark-ext-yaml-front-matter-0.42.14.jar (18 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.14/flexmark-jira-converter-0.42.14.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.42.14/flexmark-profile-pegdown-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.42.14/flexmark-ext-youtube-embedded-0.42.14.jar (13 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.14/flexmark-util-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.14/flexmark-formatter-0.42.14.jar (97 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.42.14/flexmark-youtrack-converter-0.42.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.42.14/flexmark-profile-pegdown-0.42.14.jar (6.3 kB at 7.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-confluence/1.11.1/doxia-module-confluence-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.14/flexmark-jira-converter-0.42.14.jar (40 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-docbook-simple/1.11.1/doxia-module-docbook-simple-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.14/flexmark-html-parser-0.42.14.jar (45 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-twiki/1.11.1/doxia-module-twiki-1.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.42.14/flexmark-youtrack-converter-0.42.14.jar (41 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.46.v20220331/jetty-server-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.14/flexmark-util-0.42.14.jar (385 kB at 441 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.46.v20220331/jetty-http-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-confluence/1.11.1/doxia-module-confluence-1.11.1.jar (58 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.46.v20220331/jetty-io-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-docbook-simple/1.11.1/doxia-module-docbook-simple-1.11.1.jar (128 kB at 142 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.46.v20220331/jetty-servlet-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-twiki/1.11.1/doxia-module-twiki-1.11.1.jar (73 kB at 79 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.46.v20220331/jetty-security-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.46.v20220331/jetty-http-9.4.46.v20220331.jar (225 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.46.v20220331/jetty-util-ajax-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.46.v20220331/jetty-io-9.4.46.v20220331.jar (184 kB at 190 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.46.v20220331/jetty-webapp-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.4.46.v20220331/jetty-util-ajax-9.4.46.v20220331.jar (67 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.46.v20220331/jetty-xml-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.46.v20220331/jetty-security-9.4.46.v20220331.jar (119 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.46.v20220331/jetty-util-9.4.46.v20220331.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.46.v20220331/jetty-servlet-9.4.46.v20220331.jar (147 kB at 149 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.46.v20220331/jetty-server-9.4.46.v20220331.jar (733 kB at 721 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.46.v20220331/jetty-webapp-9.4.46.v20220331.jar (141 kB at 136 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.46.v20220331/jetty-xml-9.4.46.v20220331.jar (69 kB at 66 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.46.v20220331/jetty-util-9.4.46.v20220331.jar (586 kB at 564 kB/s)
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ drools-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-kie-drools__drools-model@drools-model-codegen/pom.xml to /Users/shivamsingh/.m2/repository/org/kie/drools-parent/8.45.0-SNAPSHOT/drools-parent-8.45.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.kie:drools-build-parent >---------------------
+[INFO] Building Drools :: Build Parent 8.45.0-SNAPSHOT                   [2/37]
+[INFO]   from build-parent/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.4.0/build-helper-maven-plugin-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.4.0/build-helper-maven-plugin-3.4.0.pom (7.6 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.4.0/build-helper-maven-plugin-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.4.0/build-helper-maven-plugin-3.4.0.jar (70 kB at 1.4 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-versions) @ drools-build-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/is24/maven/enforcer/rules/illegal-transitive-dependency-check/1.7.4/illegal-transitive-dependency-check-1.7.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/is24/maven/enforcer/rules/illegal-transitive-dependency-check/1.7.4/illegal-transitive-dependency-check-1.7.4.pom (7.4 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom (2.1 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom (2.1 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/redhat/victims/enforce-victims-rule/1.3.4/enforce-victims-rule-1.3.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/redhat/victims/enforce-victims-rule/1.3.4/enforce-victims-rule-1.3.4.pom (5.6 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/redhat/victims/victims-lib/1.3.2/victims-lib-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/redhat/victims/victims-lib/1.3.2/victims-lib-1.3.2.pom (4.7 kB at 93 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.3/gson-2.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.3/gson-2.2.3.pom (8.1 kB at 183 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/bcel/bcel/5.2/bcel-5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/bcel/bcel/5.2/bcel-5.2.pom (619 B at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.pom (160 B at 3.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.3.171/h2-1.3.171.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.3.171/h2-1.3.171.pom (973 B at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (11 kB at 216 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (4.2 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (5.9 kB at 117 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (3.4 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (2.2 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (5.2 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (1.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (1.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (1.7 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (1.8 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (1.5 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/enforcer/enforce-managed-deps-rule/1.3/enforce-managed-deps-rule-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/enforcer/enforce-managed-deps-rule/1.3/enforce-managed-deps-rule-1.3.pom (10 kB at 195 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/extra-enforcer-rules/1.0/extra-enforcer-rules-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/extra-enforcer-rules/1.0/extra-enforcer-rules-1.0.pom (7.1 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.pom (4.8 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/is24/maven/enforcer/rules/illegal-transitive-dependency-check/1.7.4/illegal-transitive-dependency-check-1.7.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/is24/maven/enforcer/rules/illegal-transitive-dependency-check/1.7.4/illegal-transitive-dependency-check-1.7.4.jar (26 kB at 594 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/redhat/victims/enforce-victims-rule/1.3.4/enforce-victims-rule-1.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/redhat/victims/victims-lib/1.3.2/victims-lib-1.3.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.3/gson-2.2.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/redhat/victims/enforce-victims-rule/1.3.4/enforce-victims-rule-1.3.4.jar (26 kB at 451 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/bcel/bcel/5.2/bcel-5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar (20 kB at 330 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/redhat/victims/victims-lib/1.3.2/victims-lib-1.3.2.jar (59 kB at 929 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar (29 kB at 433 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.3.171/h2-1.3.171.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.3/gson-2.2.3.jar (194 kB at 3.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar (29 kB at 265 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/bcel/bcel/5.2/bcel-5.2.jar (533 kB at 3.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 970 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (58 kB at 250 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.3.171/h2-1.3.171.jar (1.5 MB at 6.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/enforcer/enforce-managed-deps-rule/1.3/enforce-managed-deps-rule-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/extra-enforcer-rules/1.0/extra-enforcer-rules-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 kB at 122 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (186 kB at 777 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/commonjava/maven/enforcer/enforce-managed-deps-rule/1.3/enforce-managed-deps-rule-1.3.jar (7.0 kB at 25 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/extra-enforcer-rules/1.0/extra-enforcer-rules-1.0.jar (43 kB at 150 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar (11 MB at 14 MB/s)
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (no-duplicate-declared-dependencies) @ drools-build-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (ban-blacklisted-dependencies) @ drools-build-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ drools-build-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ drools-build-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ drools-build-parent ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (no-managed-deps) @ drools-build-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-source (default) @ drools-build-parent ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-kie-drools__drools-model@drools-model-codegen/build-parent/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:3.4.0:parse-version (default) @ drools-build-parent ---
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ drools-build-parent ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- site:3.12.1:attach-descriptor (attach-descriptor) @ drools-build-parent ---
+[INFO] No site descriptor found: nothing to attach.
+[INFO] 
+[INFO] --- source:3.3.0:jar-no-fork (attach-sources) @ drools-build-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- source:3.3.0:test-jar-no-fork (attach-test-sources) @ drools-build-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- jar:3.3.0:test-jar (test-jar) @ drools-build-parent ---
+[INFO] Skipping packaging of the test-jar
+[INFO] 
+[INFO] --- failsafe:3.1.2:integration-test (default) @ drools-build-parent ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- failsafe:3.1.2:verify (default) @ drools-build-parent ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ drools-build-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-kie-drools__drools-model@drools-model-codegen/build-parent/pom.xml to /Users/shivamsingh/.m2/repository/org/kie/drools-build-parent/8.45.0-SNAPSHOT/drools-build-parent-8.45.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------------< org.kie:kie-api >---------------------------
+[INFO] Building KIE :: Public API 8.45.0-SNAPSHOT                        [3/37]
+[INFO]   from kie-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'additionalparam' is unknown for plugin 'maven-javadoc-plugin:3.6.0:jar (default)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom (25 kB at 248 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom (44 kB at 765 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.pom (16 kB at 188 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.18/byte-buddy-parent-1.12.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.18/byte-buddy-parent-1.12.18.pom (58 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar (645 kB at 9.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar (4.0 MB at 21 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-versions) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (no-duplicate-declared-dependencies) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (ban-blacklisted-dependencies) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ kie-api ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (no-managed-deps) @ kie-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-source (default) @ kie-api ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-kie-drools__drools-model@drools-model-codegen/kie-api/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:3.4.0:parse-version (default) @ kie-api ---
+[INFO] 
+[INFO] --- remote-resources:3.1.0:process (process-resource-bundles) @ kie-api ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ kie-api ---
+[INFO] Copying 6 resources from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ kie-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 362 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-kie-drools__drools-model@drools-model-codegen/kie-api/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Drools :: Parent 8.45.0-SNAPSHOT:
+[INFO] 
+[INFO] Drools :: Parent ................................... SUCCESS [ 11.515 s]
+[INFO] Drools :: Build Parent ............................. SUCCESS [  6.946 s]
+[INFO] KIE :: Public API .................................. FAILURE [  2.404 s]
+[INFO] KIE :: Internal .................................... SKIPPED
+[INFO] KIE :: Util ........................................ SKIPPED
+[INFO] KIE :: Util :: Maven Support ....................... SKIPPED
+[INFO] KIE :: Util :: XML supposrt ........................ SKIPPED
+[INFO] Drools :: Util ..................................... SKIPPED
+[INFO] KIE :: Memory Compiler ............................. SKIPPED
+[INFO] Drools :: Wiring :: Parent ......................... SKIPPED
+[INFO] Drools :: Wiring :: API ............................ SKIPPED
+[INFO] Drools :: base ..................................... SKIPPED
+[INFO] Drools :: Wiring :: Static ......................... SKIPPED
+[INFO] Drools :: IO ....................................... SKIPPED
+[INFO] Drools :: Core ..................................... SKIPPED
+[INFO] Drools :: DRL :: Parent ............................ SKIPPED
+[INFO] Drools :: DRL AST .................................. SKIPPED
+[INFO] Drools :: DRL :: Parser ............................ SKIPPED
+[INFO] Drools :: DRL :: Extensions ........................ SKIPPED
+[INFO] Drools :: Wiring :: Dynamic ........................ SKIPPED
+[INFO] Drools :: KieSession ............................... SKIPPED
+[INFO] Drools :: ECJ ...................................... SKIPPED
+[INFO] KIE :: Test Utility Classes ........................ SKIPPED
+[INFO] Drools :: Compiler ................................. SKIPPED
+[INFO] Drools :: Model :: Parent .......................... SKIPPED
+[INFO] Drools :: Codegen :: Common ........................ SKIPPED
+[INFO] Drools :: Canonical Model .......................... SKIPPED
+[INFO] Drools :: Model :: Compiler ........................ SKIPPED
+[INFO] Drools :: MVEL Parser .............................. SKIPPED
+[INFO] Drools :: MVEL Compiler ............................ SKIPPED
+[INFO] Drools :: Commands ................................. SKIPPED
+[INFO] Drools :: XML Support .............................. SKIPPED
+[INFO] Drools :: Truth Maintenance System ................. SKIPPED
+[INFO] Drools :: MVEL ..................................... SKIPPED
+[INFO] Drools :: Templates ................................ SKIPPED
+[INFO] Drools :: Decision Tables .......................... SKIPPED
+[INFO] Drools :: Model :: Codegen ......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.078 s
+[INFO] Finished at: 2026-10-11T18:01:48-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project kie-api: Fatal error compiling: invalid flag: --release -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :kie-api

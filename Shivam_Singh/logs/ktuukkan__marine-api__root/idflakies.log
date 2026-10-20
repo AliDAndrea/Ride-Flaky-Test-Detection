@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-6
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[INFO] 
+[INFO] ---------------------< net.sf.marineapi:marineapi >---------------------
+[INFO] Building Java Marine API 0.11.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ marineapi >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ marineapi ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ marineapi ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ marineapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ marineapi ---
+[INFO] Copying 10 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ marineapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ marineapi <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ marineapi ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving net.sf.marineapi:marineapi:0.11.0-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 926 tests. Time taken: 0.5319998264312744 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.dtfixingtools/original-order
+[INFO] Getting original results (926 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.9 seconds elapsed (5.8 total), 26.3 seconds remaining).
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreateWithTwo, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreateWithTwo, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListenerWithIncorrectOrder, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListenerWithIncorrectOrder, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testGenericsListenerDefaultConstructorThrows, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testGenericsListenerDefaultConstructorThrows, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testGenericsListener, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testGenericsListener, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListenerWithMixedOrder, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListenerWithMixedOrder, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testConstructor, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testConstructor, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testOnMessageWithExpectedMessage, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testOnMessageWithExpectedMessage, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListener, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListener, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreate, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreate, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreateWithIncorrectOrder, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.parser.AISMessageFactoryTest.testCreateWithIncorrectOrder, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testParametrizedConstructor, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testParametrizedConstructor, status: expected ERROR, got ERROR
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testBasicListenerWithUnexpectedMessage, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testBasicListenerWithUnexpectedMessage, status: expected ERROR, got ERROR
+[INFO] Found 12 tests in round 3 of 20 (5.8 seconds elapsed (54.0 total), 32.8 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (0.0 seconds elapsed (56.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (2.9 seconds elapsed (59.8 total), 8.7 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (5.8 seconds elapsed (62.6 total), 13.5 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (8.6 seconds elapsed (65.4 total), 16.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (11.5 seconds elapsed (68.2 total), 17.2 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (14.3 seconds elapsed (71.1 total), 17.4 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (17.1 seconds elapsed (73.9 total), 17.1 seconds remaining).
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListener, status: expected PASS, got PASS
+Verified net.sf.marineapi.ais.event.AbstractAISMessageListenerTest.testSequenceListener, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 11 of 20 (19.9 seconds elapsed (81.3 total), 16.3 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (27.3 seconds elapsed (84.2 total), 18.2 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (30.2 seconds elapsed (87.0 total), 16.2 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (33.0 seconds elapsed (89.9 total), 14.2 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (35.9 seconds elapsed (92.7 total), 12.0 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (38.8 seconds elapsed (95.6 total), 9.7 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (41.6 seconds elapsed (98.4 total), 7.3 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (44.4 seconds elapsed (101.3 total), 4.9 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (47.3 seconds elapsed (104.1 total), 2.5 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (50.1 seconds elapsed (106.9 total), 0.0 seconds remaining).
+
+[INFO] Found 12 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/ktuukkan__marine-api__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 min
+[INFO] Finished at: 2026-10-09T20:47:50-05:00
+[INFO] ------------------------------------------------------------------------

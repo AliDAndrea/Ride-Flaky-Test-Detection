@@ -1,0 +1,405 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Esper (Parent)                                                     [pom]
+[INFO] Esper Common                                                       [jar]
+[INFO] Esper Compiler                                                     [jar]
+[INFO] Esper Runtime                                                      [jar]
+[INFO] Esper Examples                                                     [pom]
+[INFO] Esper Examples - RFIDAssetZone                                     [jar]
+[INFO] 
+[INFO] ---------------------< com.espertech:esper-parent >---------------------
+[INFO] Building Esper (Parent) 8.0.0                                      [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-parent ---
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-parent ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-parent/8.0.0/esper-parent-8.0.0.pom
+[INFO] 
+[INFO] ---------------------< com.espertech:esper-common >---------------------
+[INFO] Building Esper Common 8.0.0                                        [2/6]
+[INFO]   from common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-common ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ esper-common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ esper-common ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 4661 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[18,46] com.sun.org.apache.xerces.internal.dom.DOMXSImplementationSourceImpl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[19,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[20,53] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[15,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[56,9] com.sun.org.apache.xerces.internal.xs.XSModel is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[69,20] com.sun.org.apache.xerces.internal.xs.XSModel is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[87,32] com.sun.org.apache.xerces.internal.dom.DOMXSImplementationSourceImpl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[92,81] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[93,175] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[96,9] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[96,34] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[97,9] com.sun.org.apache.xerces.internal.xs.XSLoader is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[99,9] com.sun.org.apache.xerces.internal.xs.XSModel is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[128,36] com.sun.org.apache.xerces.internal.xs.XSModel is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[130,9] com.sun.org.apache.xerces.internal.xs.StringList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[137,9] com.sun.org.apache.xerces.internal.xs.XSNamedMap is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[137,53] com.sun.org.apache.xerces.internal.xs.XSConstants is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[141,13] com.sun.org.apache.xerces.internal.xs.XSObject is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[142,37] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[146,13] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[146,42] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[151,13] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[151,61] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[173,33] com.sun.org.apache.xerces.internal.xs.XSTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[177,33] com.sun.org.apache.xerces.internal.xs.XSTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[180,108] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[192,13] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[192,44] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[200,9] com.sun.org.apache.xerces.internal.xs.XSObjectList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[202,13] com.sun.org.apache.xerces.internal.xs.XSAttributeUse is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[202,36] com.sun.org.apache.xerces.internal.xs.XSAttributeUse is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[205,13] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[205,44] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[209,55] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[210,59] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[212,13] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[213,47] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[221,59] com.sun.org.apache.xerces.internal.xs.XSObject is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[221,186] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[222,9] com.sun.org.apache.xerces.internal.xs.XSTerm is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[223,33] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[224,22] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[226,21] com.sun.org.apache.xerces.internal.xs.XSTerm is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[229,29] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[230,13] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[230,35] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[231,13] com.sun.org.apache.xerces.internal.xs.XSObjectList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[233,17] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[233,45] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[235,56] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[236,21] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[236,50] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[240,25] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[240,56] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[254,49] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[271,51] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[272,46] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[273,13] com.sun.org.apache.xerces.internal.xs.XSObjectList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[276,17] com.sun.org.apache.xerces.internal.xs.XSObject is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[277,37] com.sun.org.apache.xerces.internal.xs.XSFacet is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[278,21] com.sun.org.apache.xerces.internal.xs.XSFacet is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[278,38] com.sun.org.apache.xerces.internal.xs.XSFacet is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[279,49] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/XSDSchemaMapper.java:[293,36] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[113,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[115,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[117,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[122,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[124,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[165,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[167,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[169,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[171,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[173,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[175,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[177,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/event/xml/SchemaUtil.java:[179,18] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/util/OnDemandSunReflectionFactory.java:[23,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/bytecodemodel/base/CodegenPackageScope.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/main/java/com/espertech/esper/common/internal/bytecodemodel/base/CodegenPackageScope.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ esper-common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ esper-common ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 300 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[15,46] com.sun.org.apache.xerces.internal.dom.DOMXSImplementationSourceImpl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[16,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[17,53] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[34,58] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[38,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[42,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[44,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[46,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[49,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[51,74] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[57,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[58,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[61,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[65,50] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[68,22] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[69,74] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[70,74] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[71,74] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[72,74] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[81,32] com.sun.org.apache.xerces.internal.dom.DOMXSImplementationSourceImpl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[82,9] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[82,34] com.sun.org.apache.xerces.internal.xs.XSImplementation is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[83,9] com.sun.org.apache.xerces.internal.xs.XSLoader is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[84,9] com.sun.org.apache.xerces.internal.xs.XSModel is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[86,9] com.sun.org.apache.xerces.internal.xs.XSNamedMap is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[86,53] com.sun.org.apache.xerces.internal.xs.XSConstants is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[88,13] com.sun.org.apache.xerces.internal.xs.XSObject is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[92,9] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[92,37] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[94,9] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[94,57] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[104,60] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[108,58] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[112,54] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[116,48] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[120,48] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[124,60] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[128,53] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[132,48] com.sun.org.apache.xerces.internal.impl.dv.XSSimpleType is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[136,33] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[137,9] com.sun.org.apache.xerces.internal.xs.XSObjectList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[139,13] com.sun.org.apache.xerces.internal.xs.XSAttributeUse is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[139,36] com.sun.org.apache.xerces.internal.xs.XSAttributeUse is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[141,58] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[145,55] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[146,59] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[148,13] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[149,47] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[150,17] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[150,39] com.sun.org.apache.xerces.internal.xs.XSModelGroup is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[151,17] com.sun.org.apache.xerces.internal.xs.XSObjectList is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[153,21] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[153,49] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[155,60] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[156,25] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[156,54] com.sun.org.apache.xerces.internal.xs.XSElementDeclaration is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[158,75] com.sun.org.apache.xerces.internal.xs.XSTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[159,29] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[159,64] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[164,75] com.sun.org.apache.xerces.internal.xs.XSTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[166,53] com.sun.org.apache.xerces.internal.xs.XSComplexTypeDefinition is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[169,33] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[169,68] com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/internal/event/xml/TestXSDSchemaMapper.java:[182,26] com.sun.org.apache.xerces.internal.xs.XSParticle is internal proprietary API and may be removed in a future release
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/client/configuration/TestConfigurationParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/src/test/java/com/espertech/esper/common/client/configuration/TestConfigurationParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.4.3:test (default-test) @ esper-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ esper-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0.jar
+[INFO] 
+[INFO] --- jar:2.2:jar (empty-javadoc-jar) @ esper-common ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0-javadoc.jar
+[INFO] 
+[INFO] >>> source:2.1:jar (default) > generate-sources @ esper-common >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-common ---
+[INFO] 
+[INFO] <<< source:2.1:jar (default) < generate-sources @ esper-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.1:jar (default) @ esper-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0-sources.jar
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-common ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-common/8.0.0/esper-common-8.0.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-common/8.0.0/esper-common-8.0.0.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0-javadoc.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-common/8.0.0/esper-common-8.0.0-javadoc.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/common/target/esper-common-8.0.0-sources.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-common/8.0.0/esper-common-8.0.0-sources.jar
+[INFO] 
+[INFO] --------------------< com.espertech:esper-compiler >--------------------
+[INFO] Building Esper Compiler 8.0.0                                      [3/6]
+[INFO]   from compiler/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.10/janino-3.0.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.10/janino-3.0.10.pom (2.0 kB at 2.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino-parent/3.0.10/janino-parent-3.0.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino-parent/3.0.10/janino-parent-3.0.10.pom (7.0 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.10/commons-compiler-3.0.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.10/commons-compiler-3.0.10.pom (1.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.10/janino-3.0.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/janino/3.0.10/janino-3.0.10.jar (801 kB at 3.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.10/commons-compiler-3.0.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/janino/commons-compiler/3.0.10/commons-compiler-3.0.10.jar (38 kB at 446 kB/s)
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-compiler ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ esper-compiler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ esper-compiler ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 99 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/main/java/com/espertech/esper/compiler/internal/parse/CaseInsensitiveInputStream.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/main/java/com/espertech/esper/compiler/internal/parse/CaseInsensitiveInputStream.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/main/java/com/espertech/esper/compiler/internal/util/CompilerHelperModuleProvider.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/main/java/com/espertech/esper/compiler/internal/util/CompilerHelperModuleProvider.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/main/java/com/espertech/esper/compiler/internal/util/CompilerHelperModuleProvider.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ esper-compiler ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ esper-compiler ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/test/java/com/espertech/esper/compiler/internal/parse/TestPropertyParserSideBySide.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/test/java/com/espertech/esper/compiler/internal/parse/TestPropertyParserSideBySide.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/src/test/java/com/espertech/esper/compiler/internal/parse/TestPropertyParserSideBySide.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.4.3:test (default-test) @ esper-compiler ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ esper-compiler ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0.jar
+[INFO] 
+[INFO] --- jar:2.2:jar (empty-javadoc-jar) @ esper-compiler ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0-javadoc.jar
+[INFO] 
+[INFO] >>> source:2.1:jar (default) > generate-sources @ esper-compiler >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-compiler ---
+[INFO] 
+[INFO] <<< source:2.1:jar (default) < generate-sources @ esper-compiler <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.1:jar (default) @ esper-compiler ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0-sources.jar
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-compiler ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-compiler ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-compiler/8.0.0/esper-compiler-8.0.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-compiler/8.0.0/esper-compiler-8.0.0.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0-javadoc.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-compiler/8.0.0/esper-compiler-8.0.0-javadoc.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/compiler/target/esper-compiler-8.0.0-sources.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-compiler/8.0.0/esper-compiler-8.0.0-sources.jar
+[INFO] 
+[INFO] --------------------< com.espertech:esper-runtime >---------------------
+[INFO] Building Esper Runtime 8.0.0                                       [4/6]
+[INFO]   from runtime/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-runtime ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ esper-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ esper-runtime ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 310 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/main/java/com/espertech/esper/runtime/internal/kernel/service/RuntimeEnvContext.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/main/java/com/espertech/esper/runtime/internal/kernel/service/RuntimeEnvContext.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ esper-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ esper-runtime ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 31 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/test/java/com/espertech/esper/runtime/internal/filtersvcimpl/TestFilterServiceMT.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/test/java/com/espertech/esper/runtime/internal/filtersvcimpl/TestFilterServiceMT.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/src/test/java/com/espertech/esper/runtime/internal/filtersvcimpl/TestFilterServiceMT.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.4.3:test (default-test) @ esper-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ esper-runtime ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0.jar
+[INFO] 
+[INFO] --- jar:2.2:jar (empty-javadoc-jar) @ esper-runtime ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0-javadoc.jar
+[INFO] 
+[INFO] >>> source:2.1:jar (default) > generate-sources @ esper-runtime >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-runtime ---
+[INFO] 
+[INFO] <<< source:2.1:jar (default) < generate-sources @ esper-runtime <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:2.1:jar (default) @ esper-runtime ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0-sources.jar
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-runtime ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-runtime ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-runtime/8.0.0/esper-runtime-8.0.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-runtime/8.0.0/esper-runtime-8.0.0.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0-javadoc.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-runtime/8.0.0/esper-runtime-8.0.0-javadoc.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/runtime/target/esper-runtime-8.0.0-sources.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-runtime/8.0.0/esper-runtime-8.0.0-sources.jar
+[INFO] 
+[INFO] ----------------< com.espertech:esper-examples-parent >-----------------
+[INFO] Building Esper Examples 8.0.0                                      [5/6]
+[INFO]   from examples/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-examples-parent ---
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-examples-parent ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-examples-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-examples-parent/8.0.0/esper-examples-parent-8.0.0.pom
+[INFO] 
+[INFO] -------------< com.espertech:esper-example-rfidassetzone >--------------
+[INFO] Building Esper Examples - RFIDAssetZone 8.0.0                      [6/6]
+[INFO]   from examples/rfidassetzone/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ esper-example-rfidassetzone ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ esper-example-rfidassetzone ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ esper-example-rfidassetzone ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ esper-example-rfidassetzone ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 11 resources from etc to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ esper-example-rfidassetzone ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.4.3:test (default-test) @ esper-example-rfidassetzone ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:2.2:jar (default-jar) @ esper-example-rfidassetzone ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/target/esper-example-rfidassetzone-8.0.0.jar
+[INFO] 
+[INFO] --- gpg:1.5:sign (sign-artifacts) @ esper-example-rfidassetzone ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ esper-example-rfidassetzone ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/pom.xml to /Users/shivamsingh/.m2/repository/com/espertech/esper-example-rfidassetzone/8.0.0/esper-example-rfidassetzone-8.0.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/espertechinc__esper__590fa9c9__examples@rfidassetzone/examples/rfidassetzone/target/esper-example-rfidassetzone-8.0.0.jar to /Users/shivamsingh/.m2/repository/com/espertech/esper-example-rfidassetzone/8.0.0/esper-example-rfidassetzone-8.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Esper (Parent) 8.0.0:
+[INFO] 
+[INFO] Esper (Parent) ..................................... SUCCESS [  2.409 s]
+[INFO] Esper Common ....................................... SUCCESS [ 44.320 s]
+[INFO] Esper Compiler ..................................... SUCCESS [  5.886 s]
+[INFO] Esper Runtime ...................................... SUCCESS [  2.681 s]
+[INFO] Esper Examples ..................................... SUCCESS [  0.049 s]
+[INFO] Esper Examples - RFIDAssetZone ..................... SUCCESS [  1.442 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:00 min
+[INFO] Finished at: 2026-10-11T18:29:16-05:00
+[INFO] ------------------------------------------------------------------------

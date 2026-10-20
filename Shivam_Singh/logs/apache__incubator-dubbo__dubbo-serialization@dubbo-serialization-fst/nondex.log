@@ -1,0 +1,435 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.dubbo:dubbo-serialization-fst >--------------
+[INFO] Building dubbo-serialization-fst 2.7.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ dubbo-serialization-fst >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-serialization-fst ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-serialization-fst ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-serialization-fst ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-serialization-fst ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-serialization-fst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-serialization-fst ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ dubbo-serialization-fst <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ dubbo-serialization-fst ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_CkdLNtz7YxTVqUz0LjWduJHUtTbkR6MdwFGQnFjBhg=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.533 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=vplmiuRFxvICej+80F0kncIBeHbQ76b7KGE9IjCmr8Y=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.492 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=WQxP0WKyhf2q+OteTF+joBdx6MPm4HUeVV0944fOhLo=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.497 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=wdBGrhQZnJgMN50joYLLTL4Iir5vZ5WLcXUdTHtRDG4=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.5 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=MC0UbbrD8ZVIbpUhTJDF5rFgKrEbZrAqZ8hSoCU8b9E=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=qlFwYidPcpJGLtDW6fbyUHpv4i4Mu9UxMFBd2RzskH4=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=HM3uhbC8q8hRumfiphiwysuawhjgpe0yhHbk8Pr7aU=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.499 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=EP79D6y3D1YaPSExa2KgSbFsSN2OIvhOFpiS+k0gPc=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=NnY74+E6CvfP4CRyg3jo0rNQa6aDPlpa6oEJmvDZI=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=v5rpqQKy2brgW4pvuAYxS948D9DevS6mBYdVqmkEIO0=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex
+nondexExecid=nrgJmYNMp6M5gCH5H0IPsCqdIpT4FZHILw3SgfSND5U=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 sec - in org.apache.dubbo.common.serialize.fst.FstSerializationTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.dubbo.common.serialize.fst.FstObjectInputTest
+Running org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstFactoryTest
+Running org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.dubbo.common.serialize.fst.FstObjectOutputTest
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=vplmiuRFxvICej+80F0kncIBeHbQ76b7KGE9IjCmr8Y= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=WQxP0WKyhf2q+OteTF+joBdx6MPm4HUeVV0944fOhLo= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=wdBGrhQZnJgMN50joYLLTL4Iir5vZ5WLcXUdTHtRDG4= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=MC0UbbrD8ZVIbpUhTJDF5rFgKrEbZrAqZ8hSoCU8b9E= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=qlFwYidPcpJGLtDW6fbyUHpv4i4Mu9UxMFBd2RzskH4= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=HM3uhbC8q8hRumfiphiwysuawhjgpe0yhHbk8Pr7aU= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=EP79D6y3D1YaPSExa2KgSbFsSN2OIvhOFpiS+k0gPc= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=NnY74+E6CvfP4CRyg3jo0rNQa6aDPlpa6oEJmvDZI= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=v5rpqQKy2brgW4pvuAYxS948D9DevS6mBYdVqmkEIO0= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex" -DnondexExecid=nrgJmYNMp6M5gCH5H0IPsCqdIpT4FZHILw3SgfSND5U= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__incubator-dubbo__dubbo-serialization@dubbo-serialization-fst/dubbo-serialization/dubbo-serialization-fst/.nondex/vplmiuRFxvICej+80F0kncIBeHbQ76b7KGE9IjCmr8Y=/test_results.html
+[INFO] [NonDex] The id of this run is: vplmiuRFxvICej+80F0kncIBeHbQ76b7KGE9IjCmr8Y=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.031 s
+[INFO] Finished at: 2026-10-09T18:23:51-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,287 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Wikidata Toolkit                                                   [pom]
+[INFO] Wikidata Toolkit Utilities                                         [jar]
+[INFO] Wikidata Toolkit Testing Utilities                                 [jar]
+[INFO] Wikidata Toolkit Data Model                                        [jar]
+[INFO] Wikidata Toolkit Storage                                           [jar]
+[INFO] Wikidata Toolkit Dump File Handling                                [jar]
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-parent >--------------------
+[INFO] Building Wikidata Toolkit 0.9.0                                    [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.6/license-maven-plugin-1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.6/license-maven-plugin-1.6.pom (19 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/32/mojo-parent-32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/32/mojo-parent-32.pom (26 kB at 653 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.6/license-maven-plugin-1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/license-maven-plugin/1.6/license-maven-plugin-1.6.jar (261 kB at 2.2 MB/s)
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom (4.7 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.5/doxia-core-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.5/doxia-core-1.5.pom (4.1 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom (18 kB at 480 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom (1.5 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.5/doxia-logging-api-1.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.5/doxia-logging-api-1.5.pom (1.5 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/nuiton-processor/1.3/nuiton-processor-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/nuiton-processor/1.3/nuiton-processor-1.3.pom (4.5 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/1.3/processor-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/1.3/processor-1.3.pom (7.0 kB at 183 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom4redmineAndCentral/3.4.4/mavenpom4redmineAndCentral-3.4.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom4redmineAndCentral/3.4.4/mavenpom4redmineAndCentral-3.4.4.pom (4.5 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom4redmine/3.4.4/mavenpom4redmine-3.4.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom4redmine/3.4.4/mavenpom4redmine-3.4.4.pom (21 kB at 516 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom/3.4.4/mavenpom-3.4.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/mavenpom/3.4.4/mavenpom-3.4.4.pom (67 kB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.pom (1.5 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar (17 kB at 444 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.5/doxia-logging-api-1.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.5/doxia-core-1.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/nuiton-processor/1.3/nuiton-processor-1.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.5/doxia-core-1.5.jar (163 kB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.5/doxia-logging-api-1.5.jar (11 kB at 72 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/nuiton/processor/nuiton-processor/1.3/nuiton-processor-1.3.jar (30 kB at 187 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar (11 kB at 68 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar (1.0 MB at 4.0 MB/s)
+[WARNING] No file to scan.
+[INFO] 
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-parent ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/LICENSE.txt
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-parent/0.9.0/wdtk-parent-0.9.0.pom
+[INFO] 
+[INFO] --------------------< org.wikidata.wdtk:wdtk-util >---------------------
+[INFO] Building Wikidata Toolkit Utilities 0.9.0                          [2/6]
+[INFO]   from wdtk-util/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-util ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/src/test/java
+[INFO] Scan 14 files header done in 51.117ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-util ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-util ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-util ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/target/wdtk-util-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-util ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.9.0/wdtk-util-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-util/target/wdtk-util-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.9.0/wdtk-util-0.9.0.jar
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-testing >-------------------
+[INFO] Building Wikidata Toolkit Testing Utilities 0.9.0                  [3/6]
+[INFO]   from wdtk-testing/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom (853 B at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar (29 kB at 697 kB/s)
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-testing ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/src/test/java
+[INFO] Scan 7 files header done in 11.384ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-testing ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-testing ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-testing ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-testing ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-testing ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-testing ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/target/wdtk-testing-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-testing ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-testing/0.9.0/wdtk-testing-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-testing/target/wdtk-testing-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-testing/0.9.0/wdtk-testing-0.9.0.jar
+[INFO] 
+[INFO] ------------------< org.wikidata.wdtk:wdtk-datamodel >------------------
+[INFO] Building Wikidata Toolkit Data Model 0.9.0                         [4/6]
+[INFO]   from wdtk-datamodel/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.pom (2.6 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.jar (67 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-datamodel ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/test/java
+[INFO] Scan 142 files header done in 1.028s.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-datamodel ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-datamodel ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-datamodel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 98 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/ValueSnak.java: Some input files use or override a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/main/java/org/wikidata/wdtk/datamodel/interfaces/ValueSnak.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-datamodel ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-datamodel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/test/java/org/wikidata/wdtk/datamodel/implementation/ItemDocumentImplTest.java: Some input files use or override a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/src/test/java/org/wikidata/wdtk/datamodel/implementation/ItemDocumentImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-datamodel ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-datamodel ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/target/wdtk-datamodel-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-datamodel ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-datamodel/0.9.0/wdtk-datamodel-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-datamodel/target/wdtk-datamodel-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-datamodel/0.9.0/wdtk-datamodel-0.9.0.jar
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-storage >-------------------
+[INFO] Building Wikidata Toolkit Storage 0.9.0                            [5/6]
+[INFO]   from wdtk-storage/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-storage ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/src/test/java
+[INFO] Scan 12 files header done in 89.826ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-storage ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-storage ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-storage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-storage ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-storage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-storage ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-storage ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/target/wdtk-storage-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-storage ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-storage/0.9.0/wdtk-storage-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-storage/target/wdtk-storage-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-storage/0.9.0/wdtk-storage-0.9.0.jar
+[INFO] 
+[INFO] ------------------< org.wikidata.wdtk:wdtk-dumpfiles >------------------
+[INFO] Building Wikidata Toolkit Dump File Handling 0.9.0                 [6/6]
+[INFO]   from wdtk-dumpfiles/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-dumpfiles ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/src/test/java
+[INFO] Scan 33 files header done in 343.157ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-dumpfiles ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-dumpfiles ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-dumpfiles ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-dumpfiles ---
+[INFO] Copying 17 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-dumpfiles ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-dumpfiles ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-dumpfiles ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/target/wdtk-dumpfiles-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-dumpfiles ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-dumpfiles/0.9.0/wdtk-dumpfiles-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-dumpfiles/wdtk-dumpfiles/target/wdtk-dumpfiles-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-dumpfiles/0.9.0/wdtk-dumpfiles-0.9.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Wikidata Toolkit 0.9.0:
+[INFO] 
+[INFO] Wikidata Toolkit ................................... SUCCESS [  2.684 s]
+[INFO] Wikidata Toolkit Utilities ......................... SUCCESS [  2.750 s]
+[INFO] Wikidata Toolkit Testing Utilities ................. SUCCESS [  0.589 s]
+[INFO] Wikidata Toolkit Data Model ........................ SUCCESS [  4.005 s]
+[INFO] Wikidata Toolkit Storage ........................... SUCCESS [  0.426 s]
+[INFO] Wikidata Toolkit Dump File Handling ................ SUCCESS [  0.996 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.660 s
+[INFO] Finished at: 2026-10-09T21:43:40-05:00
+[INFO] ------------------------------------------------------------------------

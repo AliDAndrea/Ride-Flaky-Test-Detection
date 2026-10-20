@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.amazon.hub.counter:amazon-hub-counter-sdk >------------
+[INFO] Building amazon-hub-counter-sdk 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ amazon-hub-counter-sdk >>>
+[INFO] 
+[INFO] --- jacoco:0.8.4:prepare-agent (default) @ amazon-hub-counter-sdk ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ amazon-hub-counter-sdk ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ amazon-hub-counter-sdk ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ amazon-hub-counter-sdk ---
+[INFO] Copying 15 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ amazon-hub-counter-sdk ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ amazon-hub-counter-sdk <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ amazon-hub-counter-sdk ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.amazon.hub.counter:amazon-hub-counter-sdk:1.0 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.1549999713897705 seconds
+INFO: Locating tests...
+INFO: Located 23 tests. Time taken: 0.12000012397766113 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/amzn__amazon-hub-counter-sdk-java__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/amzn__amazon-hub-counter-sdk-java__root/.dtfixingtools/original-order
+[INFO] Getting original results (23 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (7.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (7.6 seconds elapsed (16.1 total), 11.4 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (16.1 seconds elapsed (27.2 total), 10.7 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (27.2 seconds elapsed (37.9 total), 6.8 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (37.9 seconds elapsed (49.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/amzn__amazon-hub-counter-sdk-java__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/amzn__amazon-hub-counter-sdk-java__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:02 min
+[INFO] Finished at: 2026-10-11T17:52:16-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.github.kagkarlsson:db-scheduler >-----------------
+[INFO] Building Db-scheduler 4.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ db-scheduler >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ db-scheduler ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/kagkarlsson__db-scheduler__root/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ db-scheduler ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ db-scheduler <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ db-scheduler ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.github.kagkarlsson:db-scheduler:4.2-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 60 tests. Time taken: 0.8920001983642578 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kagkarlsson__db-scheduler__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kagkarlsson__db-scheduler__root/.dtfixingtools/original-order
+[INFO] Getting original results (60 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (15.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (15.3 seconds elapsed (33.9 total), 23.0 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (33.9 seconds elapsed (49.4 total), 22.6 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (49.4 seconds elapsed (65.1 total), 12.3 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (65.1 seconds elapsed (81.5 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kagkarlsson__db-scheduler__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kagkarlsson__db-scheduler__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:24 min
+[INFO] Finished at: 2026-10-11T19:04:59-05:00
+[INFO] ------------------------------------------------------------------------

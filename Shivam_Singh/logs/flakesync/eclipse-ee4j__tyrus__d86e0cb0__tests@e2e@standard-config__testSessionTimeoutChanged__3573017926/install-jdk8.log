@@ -1,0 +1,523 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] tyrus                                                              [pom]
+[INFO] Tyrus Container SPI                                             [bundle]
+[INFO] Tyrus Core                                                      [bundle]
+[INFO] Tyrus Client                                                    [bundle]
+[INFO] Tyrus Container Modules                                            [pom]
+[INFO] Tyrus Grizzly Client Container                                  [bundle]
+[INFO] Tyrus Server                                                    [bundle]
+[INFO] Tyrus Grizzly Server Container                                  [bundle]
+[INFO] Tyrus Servlet Bundle                                            [bundle]
+[INFO] Tyrus Tests                                                        [pom]
+[INFO] Tyrus Test Tools                                                [bundle]
+[INFO] Tyrus JDK Client Container                                      [bundle]
+[INFO] Tyrus End-to-End Tests                                             [pom]
+[INFO] Tyrus End-to-End Standard Config Tests                             [war]
+[INFO] 
+[INFO] -----------------< org.glassfish.tyrus:tyrus-project >------------------
+[INFO] Building tyrus 2.0-SNAPSHOT                                       [1/14]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-project ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-project ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tyrus-project ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-project/2.0-SNAPSHOT/tyrus-project-2.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< org.glassfish.tyrus:tyrus-spi >--------------------
+[INFO] Building Tyrus Container SPI 2.0-SNAPSHOT                         [2/14]
+[INFO]   from spi/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-6
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.2.0
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-spi ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-spi ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-spi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/target/classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-spi ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-spi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-spi ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-spi ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-spi ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/target/tyrus-spi-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-spi ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.0-SNAPSHOT/tyrus-spi-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/target/tyrus-spi-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.0-SNAPSHOT/tyrus-spi-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/spi/target/tyrus-spi-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-spi/2.0-SNAPSHOT/tyrus-spi-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-spi ---
+[INFO] Installing org/glassfish/tyrus/tyrus-spi/2.0-SNAPSHOT/tyrus-spi-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -------------------< org.glassfish.tyrus:tyrus-core >-------------------
+[INFO] Building Tyrus Core 2.0-SNAPSHOT                                  [3/14]
+[INFO]   from core/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-core ---
+[INFO] 
+[INFO] --- build-helper:1.8:parse-version (parse-version) @ tyrus-core ---
+[INFO] 
+[INFO] --- istack-commons:2.6.1:rs-gen (default) @ tyrus-core ---
+Resources:
+org/glassfish/tyrus/core/l10n/localization.properties
+Processing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/src/main/resources/org/glassfish/tyrus/core/l10n/localization.properties
+org/glassfish/tyrus/core/l10n/LocalizationMessages.java
+[INFO] 
+[INFO] --- build-helper:1.8:add-source (default) @ tyrus-core ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/generated-sources/rsrc-gen added.
+[INFO] 
+[INFO] --- jaxb:1.1.1:generate (default) @ tyrus-core ---
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/generated-sources/xjc/org/glassfish/tyrus/core/wsadl/model is not found and thus excluded from the dependency check
+[INFO] Compiling file:/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/etc/wsadl.xsd
+[INFO] Writing output to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-core ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files has not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 112 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/src/main/java/org/glassfish/tyrus/core/TyrusEndpointWrapper.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/src/main/java/org/glassfish/tyrus/core/TyrusEndpointWrapper.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-core ---
+[WARNING] Bundle org.glassfish.tyrus:tyrus-core:bundle:2.0-SNAPSHOT : Unused Export-Package instructions: [org.glassfish.tyrus.core.frame.*, org.glassfish.tyrus.core.wsadl.model.*, org.glassfish.tyrus.core.extension.*, org.glassfish.tyrus.core.cluster.*, org.glassfish.tyrus.core.coder.*] 
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/tyrus-core-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-core/2.0-SNAPSHOT/tyrus-core-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/tyrus-core-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-core/2.0-SNAPSHOT/tyrus-core-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/core/target/tyrus-core-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-core/2.0-SNAPSHOT/tyrus-core-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-core ---
+[INFO] Installing org/glassfish/tyrus/tyrus-core/2.0-SNAPSHOT/tyrus-core-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ------------------< org.glassfish.tyrus:tyrus-client >------------------
+[INFO] Building Tyrus Client 2.0-SNAPSHOT                                [4/14]
+[INFO]   from client/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-client ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/src/main/java/org/glassfish/tyrus/client/ClientManager.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/src/main/java/org/glassfish/tyrus/client/ClientManager.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/src/main/java/org/glassfish/tyrus/client/ClientManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-client ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/target/tyrus-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-client/2.0-SNAPSHOT/tyrus-client-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/target/tyrus-client-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-client/2.0-SNAPSHOT/tyrus-client-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/client/target/tyrus-client-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-client/2.0-SNAPSHOT/tyrus-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-client ---
+[INFO] Installing org/glassfish/tyrus/tyrus-client/2.0-SNAPSHOT/tyrus-client-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ------------< org.glassfish.tyrus:tyrus-containers-project >------------
+[INFO] Building Tyrus Container Modules 2.0-SNAPSHOT                     [5/14]
+[INFO]   from containers/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-containers-project ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-containers-project ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tyrus-containers-project ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-containers-project/2.0-SNAPSHOT/tyrus-containers-project-2.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------< org.glassfish.tyrus:tyrus-container-grizzly-client >---------
+[INFO] Building Tyrus Grizzly Client Container 2.0-SNAPSHOT              [6/14]
+[INFO]   from containers/grizzly-client/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-container-grizzly-client ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-container-grizzly-client ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-container-grizzly-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/src/main/java/org/glassfish/tyrus/container/grizzly/client/GrizzlyWriter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/src/main/java/org/glassfish/tyrus/container/grizzly/client/GrizzlyWriter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-container-grizzly-client ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-container-grizzly-client ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-container-grizzly-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-container-grizzly-client ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-container-grizzly-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/target/tyrus-container-grizzly-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-container-grizzly-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.0-SNAPSHOT/tyrus-container-grizzly-client-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/target/tyrus-container-grizzly-client-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.0-SNAPSHOT/tyrus-container-grizzly-client-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-client/target/tyrus-container-grizzly-client-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-client/2.0-SNAPSHOT/tyrus-container-grizzly-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-container-grizzly-client ---
+[INFO] Installing org/glassfish/tyrus/tyrus-container-grizzly-client/2.0-SNAPSHOT/tyrus-container-grizzly-client-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ------------------< org.glassfish.tyrus:tyrus-server >------------------
+[INFO] Building Tyrus Server 2.0-SNAPSHOT                                [7/14]
+[INFO]   from server/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-server ---
+[INFO] 
+[INFO] --- build-helper:1.8:parse-version (parse-version) @ tyrus-server ---
+[INFO] 
+[INFO] --- istack-commons:2.6.1:rs-gen (default) @ tyrus-server ---
+Resources:
+[INFO] 
+[INFO] --- build-helper:1.8:add-source (default) @ tyrus-server ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/generated-sources/rsrc-gen added.
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-server ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/src/main/java/org/glassfish/tyrus/server/TyrusServerConfiguration.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/src/main/java/org/glassfish/tyrus/server/TyrusServerConfiguration.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/src/main/java/org/glassfish/tyrus/server/TyrusServerConfiguration.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-server ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-server ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-server ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/tyrus-server-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-server ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-server/2.0-SNAPSHOT/tyrus-server-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/tyrus-server-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-server/2.0-SNAPSHOT/tyrus-server-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/server/target/tyrus-server-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-server/2.0-SNAPSHOT/tyrus-server-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-server ---
+[INFO] Installing org/glassfish/tyrus/tyrus-server/2.0-SNAPSHOT/tyrus-server-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ---------< org.glassfish.tyrus:tyrus-container-grizzly-server >---------
+[INFO] Building Tyrus Grizzly Server Container 2.0-SNAPSHOT              [8/14]
+[INFO]   from containers/grizzly-server/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-container-grizzly-server ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-container-grizzly-server ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-container-grizzly-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/src/main/java/org/glassfish/tyrus/container/grizzly/server/GrizzlyServerFilter.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/src/main/java/org/glassfish/tyrus/container/grizzly/server/GrizzlyServerFilter.java uses or overrides a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/src/main/java/org/glassfish/tyrus/container/grizzly/server/GrizzlyServerFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-container-grizzly-server ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-container-grizzly-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-container-grizzly-server ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-container-grizzly-server ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-container-grizzly-server ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/target/tyrus-container-grizzly-server-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-container-grizzly-server ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-server/2.0-SNAPSHOT/tyrus-container-grizzly-server-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/target/tyrus-container-grizzly-server-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-server/2.0-SNAPSHOT/tyrus-container-grizzly-server-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/grizzly-server/target/tyrus-container-grizzly-server-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-grizzly-server/2.0-SNAPSHOT/tyrus-container-grizzly-server-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-container-grizzly-server ---
+[INFO] Installing org/glassfish/tyrus/tyrus-container-grizzly-server/2.0-SNAPSHOT/tyrus-container-grizzly-server-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] ------------< org.glassfish.tyrus:tyrus-container-servlet >-------------
+[INFO] Building Tyrus Servlet Bundle 2.0-SNAPSHOT                        [9/14]
+[INFO]   from containers/servlet/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-container-servlet ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-container-servlet ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-container-servlet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/target/classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-container-servlet ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-container-servlet ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-container-servlet ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-container-servlet ---
+[INFO] 
+[INFO] --- javadoc:2.10.3:jar (attach-javadocs) @ tyrus-container-servlet ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-container-servlet ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/target/tyrus-container-servlet-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-container-servlet ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-servlet/2.0-SNAPSHOT/tyrus-container-servlet-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/target/tyrus-container-servlet-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-servlet/2.0-SNAPSHOT/tyrus-container-servlet-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/servlet/target/tyrus-container-servlet-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-servlet/2.0-SNAPSHOT/tyrus-container-servlet-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-container-servlet ---
+[INFO] Installing org/glassfish/tyrus/tyrus-container-servlet/2.0-SNAPSHOT/tyrus-container-servlet-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -----------< org.glassfish.tyrus.tests:tyrus-tests-project >------------
+[INFO] Building Tyrus Tests 2.0-SNAPSHOT                                [10/14]
+[INFO]   from tests/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-tests-project ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-tests-project ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tyrus-tests-project ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-tests-project/2.0-SNAPSHOT/tyrus-tests-project-2.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------< org.glassfish.tyrus.tests:tyrus-test-tools >-------------
+[INFO] Building Tyrus Test Tools 2.0-SNAPSHOT                           [11/14]
+[INFO]   from tests/tools/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-test-tools ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-test-tools ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-test-tools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/src/main/java/org/glassfish/tyrus/test/tools/GrizzlyModProxy.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/src/main/java/org/glassfish/tyrus/test/tools/GrizzlyModProxy.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/src/main/java/org/glassfish/tyrus/test/tools/GrizzlyModProxy.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-test-tools ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-test-tools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-test-tools ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-test-tools ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-test-tools ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/target/tyrus-test-tools-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-test-tools ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-test-tools/2.0-SNAPSHOT/tyrus-test-tools-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/target/tyrus-test-tools-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-test-tools/2.0-SNAPSHOT/tyrus-test-tools-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/tools/target/tyrus-test-tools-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-test-tools/2.0-SNAPSHOT/tyrus-test-tools-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-test-tools ---
+[INFO] Installing org/glassfish/tyrus/tests/tyrus-test-tools/2.0-SNAPSHOT/tyrus-test-tools-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -----------< org.glassfish.tyrus:tyrus-container-jdk-client >-----------
+[INFO] Building Tyrus JDK Client Container 2.0-SNAPSHOT                 [12/14]
+[INFO]   from containers/jdk-client/pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-container-jdk-client ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tyrus-container-jdk-client ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-container-jdk-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/src/main/java/org/glassfish/tyrus/container/jdk/client/JdkClientContainer.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/src/main/java/org/glassfish/tyrus/container/jdk/client/JdkClientContainer.java uses or overrides a deprecated API.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/src/main/java/org/glassfish/tyrus/container/jdk/client/JdkClientContainer.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/src/main/java/org/glassfish/tyrus/container/jdk/client/JdkClientContainer.java: Some input files use unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/src/main/java/org/glassfish/tyrus/container/jdk/client/JdkClientContainer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tyrus-container-jdk-client ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-container-jdk-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-container-jdk-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- bundle:2.4.0:bundle (default-bundle) @ tyrus-container-jdk-client ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-container-jdk-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/target/tyrus-container-jdk-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- install:3.2.0:install (default-install) @ tyrus-container-jdk-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-jdk-client/2.0-SNAPSHOT/tyrus-container-jdk-client-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/target/tyrus-container-jdk-client-2.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-jdk-client/2.0-SNAPSHOT/tyrus-container-jdk-client-2.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/containers/jdk-client/target/tyrus-container-jdk-client-2.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tyrus-container-jdk-client/2.0-SNAPSHOT/tyrus-container-jdk-client-2.0-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- bundle:2.4.0:install (default-install) @ tyrus-container-jdk-client ---
+[INFO] Installing org/glassfish/tyrus/tyrus-container-jdk-client/2.0-SNAPSHOT/tyrus-container-jdk-client-2.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] 
+[INFO] -------------< org.glassfish.tyrus.tests:tyrus-tests-e2e >--------------
+[INFO] Building Tyrus End-to-End Tests 2.0-SNAPSHOT                     [13/14]
+[INFO]   from tests/e2e/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-tests-e2e ---
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-tests-e2e ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tyrus-tests-e2e ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-tests-e2e/2.0-SNAPSHOT/tyrus-tests-e2e-2.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------< org.glassfish.tyrus.tests:tyrus-tests-e2e-stdconfig >---------
+[INFO] Building Tyrus End-to-End Standard Config Tests 2.0-SNAPSHOT     [14/14]
+[INFO]   from tests/e2e/standard-config/pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom (6.4 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar (20 kB at 341 kB/s)
+[INFO] 
+[INFO] --- checkstyle:2.15:check (default) @ tyrus-tests-e2e-stdconfig ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tyrus-tests-e2e-stdconfig ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ tyrus-tests-e2e-stdconfig ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tyrus-tests-e2e-stdconfig ---
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ tyrus-tests-e2e-stdconfig ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 79 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ tyrus-tests-e2e-stdconfig ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- war:2.4:war (default-war) @ tyrus-tests-e2e-stdconfig ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [tyrus-tests-e2e-stdconfig] in [/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/target/tyrus-tests-e2e-stdconfig-2.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/src/main/webapp]
+[INFO] Webapp assembled in [77 msecs]
+[INFO] Building war: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/target/tyrus-tests-e2e-stdconfig-2.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- source:2.2.1:jar-no-fork (attach-sources) @ tyrus-tests-e2e-stdconfig ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ tyrus-tests-e2e-stdconfig ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/pom.xml to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-tests-e2e-stdconfig/2.0-SNAPSHOT/tyrus-tests-e2e-stdconfig-2.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/eclipse-ee4j__tyrus__d86e0cb0__tests@e2e@standard-config/tests/e2e/standard-config/target/tyrus-tests-e2e-stdconfig-2.0-SNAPSHOT.war to /Users/shivamsingh/.m2/repository/org/glassfish/tyrus/tests/tyrus-tests-e2e-stdconfig/2.0-SNAPSHOT/tyrus-tests-e2e-stdconfig-2.0-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for tyrus 2.0-SNAPSHOT:
+[INFO] 
+[INFO] tyrus .............................................. SUCCESS [  1.802 s]
+[INFO] Tyrus Container SPI ................................ SUCCESS [  3.140 s]
+[INFO] Tyrus Core ......................................... SUCCESS [ 10.661 s]
+[INFO] Tyrus Client ....................................... SUCCESS [  1.148 s]
+[INFO] Tyrus Container Modules ............................ SUCCESS [  0.012 s]
+[INFO] Tyrus Grizzly Client Container ..................... SUCCESS [  0.684 s]
+[INFO] Tyrus Server ....................................... SUCCESS [  0.630 s]
+[INFO] Tyrus Grizzly Server Container ..................... SUCCESS [  0.504 s]
+[INFO] Tyrus Servlet Bundle ............................... SUCCESS [  1.159 s]
+[INFO] Tyrus Tests ........................................ SUCCESS [  0.021 s]
+[INFO] Tyrus Test Tools ................................... SUCCESS [  0.516 s]
+[INFO] Tyrus JDK Client Container ......................... SUCCESS [  1.282 s]
+[INFO] Tyrus End-to-End Tests ............................. SUCCESS [  0.036 s]
+[INFO] Tyrus End-to-End Standard Config Tests ............. SUCCESS [  5.174 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.560 s
+[INFO] Finished at: 2026-10-11T19:24:54-05:00
+[INFO] ------------------------------------------------------------------------

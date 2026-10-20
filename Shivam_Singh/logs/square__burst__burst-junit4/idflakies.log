@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.squareup.burst:burst-junit4 >-------------------
+[INFO] Building Burst JUnit 4 Integration 1.2.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ burst-junit4 >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ burst-junit4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ burst-junit4 ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ burst-junit4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java uses unchecked or unsafe operations.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/main/java/com/squareup/burst/ParentRunnerSpy.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ burst-junit4 ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ burst-junit4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/target/test-classes
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ burst-junit4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ burst-junit4 ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.squareup.burst:burst-junit4:1.2.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 35 tests. Time taken: 0.6640000343322754 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/.dtfixingtools/original-order
+[INFO] Getting original results (35 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (1.8 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (1.8 seconds elapsed (3.7 total), 2.7 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (3.7 seconds elapsed (5.8 total), 2.4 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (5.8 seconds elapsed (7.7 total), 1.5 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (7.7 seconds elapsed (9.8 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/square__burst__burst-junit4/burst-junit4/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.082 s
+[INFO] Finished at: 2026-10-11T19:44:53-05:00
+[INFO] ------------------------------------------------------------------------

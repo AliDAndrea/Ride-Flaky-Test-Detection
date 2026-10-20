@@ -1,0 +1,129 @@
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-cache-maven-extension/4.0.7/helidon-build-cache-maven-extension-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-cache-maven-extension/4.0.7/helidon-build-cache-maven-extension-4.0.7.pom (3.7 kB at 5.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-tools-project/4.0.7/helidon-build-tools-project-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-tools-project/4.0.7/helidon-build-tools-project-4.0.7.pom (57 kB at 242 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-xml/4.0.7/helidon-build-common-xml-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-xml/4.0.7/helidon-build-common-xml-4.0.7.pom (1.7 kB at 5.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-project/4.0.7/helidon-build-common-project-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-project/4.0.7/helidon-build-common-project-4.0.7.pom (1.6 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common/4.0.7/helidon-build-common-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common/4.0.7/helidon-build-common-4.0.7.pom (1.9 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-cache-maven-extension/4.0.7/helidon-build-cache-maven-extension-4.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/helidon-build-cache-maven-extension/4.0.7/helidon-build-cache-maven-extension-4.0.7.jar (80 kB at 955 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-xml/4.0.7/helidon-build-common-xml-4.0.7.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common/4.0.7/helidon-build-common-4.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common-xml/4.0.7/helidon-build-common-xml-4.0.7.jar (33 kB at 424 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/helidon/build-tools/common/helidon-build-common/4.0.7/helidon-build-common-4.0.7.jar (153 kB at 673 kB/s)
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helidon Build Tools Project                                        [pom]
+[INFO] Helidon Build Tools Common Project                                 [pom]
+[INFO] Helidon Build Tools Common Test Utils                              [jar]
+[INFO] Helidon Build Tools Common                                         [jar]
+[INFO] Helidon Build Tools Common Ansi                                    [jar]
+[INFO] Helidon Build Tools Common XML                                     [jar]
+[INFO] Helidon Archetype Project                                          [pom]
+[INFO] Helidon Archetype Engine                                           [jar]
+[INFO] 
+[INFO] ---------< io.helidon.build-tools:helidon-build-tools-project >---------
+[INFO] Building Helidon Build Tools Project 4.0.0-SNAPSHOT                [1/8]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ helidon-build-tools-project ---
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2
+[INFO] Storing buildNumber: c60640f0 at timestamp: 2026-10-11 18:46:03 CDT
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:2.7:copy-resources (copy-license) @ helidon-build-tools-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ helidon-build-tools-project ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/pom.xml to /Users/shivamsingh/.m2/repository/io/helidon/build-tools/helidon-build-tools-project/4.0.0-SNAPSHOT/helidon-build-tools-project-4.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----< io.helidon.build-tools.common:helidon-build-common-project >-----
+[INFO] Building Helidon Build Tools Common Project 4.0.0-SNAPSHOT         [2/8]
+[INFO]   from common/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ helidon-build-common-project ---
+[INFO] 
+[INFO] --- resources:2.7:copy-resources (copy-license) @ helidon-build-common-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ helidon-build-common-project ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/common/pom.xml to /Users/shivamsingh/.m2/repository/io/helidon/build-tools/common/helidon-build-common-project/4.0.0-SNAPSHOT/helidon-build-common-project-4.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---< io.helidon.build-tools.common:helidon-build-common-test-utils >----
+[INFO] Building Helidon Build Tools Common Test Utils 4.0.0-SNAPSHOT      [3/8]
+[INFO]   from common/test-utils/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.0-M1/junit-platform-launcher-1.8.0-M1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.0-M1/junit-platform-launcher-1.8.0-M1.pom (3.0 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.pom (1.5 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.pom (3.2 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.pom (2.8 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-reporting/1.8.0-M1/junit-platform-reporting-1.8.0-M1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-reporting/1.8.0-M1/junit-platform-reporting-1.8.0-M1.pom (3.0 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.0-M1/junit-platform-launcher-1.8.0-M1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.8.0-M1/junit-platform-launcher-1.8.0-M1.jar (154 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-reporting/1.8.0-M1/junit-platform-reporting-1.8.0-M1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar (185 kB at 2.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-reporting/1.8.0-M1/junit-platform-reporting-1.8.0-M1.jar (26 kB at 340 kB/s)
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ helidon-build-common-test-utils ---
+[INFO] 
+[INFO] --- resources:2.7:copy-resources (copy-license) @ helidon-build-common-test-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ helidon-build-common-test-utils ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/common/test-utils/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ helidon-build-common-test-utils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/common/test-utils/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Helidon Build Tools Project 4.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Helidon Build Tools Project ........................ SUCCESS [  3.117 s]
+[INFO] Helidon Build Tools Common Project ................. SUCCESS [  0.097 s]
+[INFO] Helidon Build Tools Common Test Utils .............. FAILURE [  1.514 s]
+[INFO] Helidon Build Tools Common ......................... SKIPPED
+[INFO] Helidon Build Tools Common Ansi .................... SKIPPED
+[INFO] Helidon Build Tools Common XML ..................... SKIPPED
+[INFO] Helidon Archetype Project .......................... SKIPPED
+[INFO] Helidon Archetype Engine ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.656 s
+[INFO] Finished at: 2026-10-11T18:46:06-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project helidon-build-common-test-utils: Fatal error compiling: invalid flag: --release -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :helidon-build-common-test-utils

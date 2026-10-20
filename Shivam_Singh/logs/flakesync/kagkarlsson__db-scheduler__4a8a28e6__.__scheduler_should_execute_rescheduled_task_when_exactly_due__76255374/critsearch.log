@@ -1,0 +1,123 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.github.kagkarlsson:db-scheduler >-----------------
+[INFO] Building Db-scheduler 4.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:critsearch (default-cli) > test-compile @ db-scheduler >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ db-scheduler ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/kagkarlsson__db-scheduler__4a8a28e6__./src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ db-scheduler ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:critsearch (default-cli) < test-compile @ db-scheduler <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:critsearch (default-cli) @ db-scheduler ---
+INFO: Running CritSearchMojo
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.kagkarlsson.scheduler.SchedulerTest
+[main] INFO com.opentable.db.postgres.embedded.EmbeddedPostgres - Detected a Darwin x86_64 system
+[main] INFO com.opentable.db.postgres.embedded.EmbeddedPostgres - Postgres binaries at /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.410 s <<< FAILURE! -- in com.github.kagkarlsson.scheduler.SchedulerTest
+[ERROR] com.github.kagkarlsson.scheduler.SchedulerTest.scheduler_should_execute_rescheduled_task_when_exactly_due -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.IllegalStateException: 
+Process [/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a/bin/initdb, -A, trust, -U, postgres, -D, /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/epg1390598230424870550, -E, UTF-8] failed
+
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.system(EmbeddedPostgres.java:585)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.initdb(EmbeddedPostgres.java:227)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.<init>(EmbeddedPostgres.java:145)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres$Builder.start(EmbeddedPostgres.java:572)
+	at com.github.kagkarlsson.scheduler.EmbeddedPostgresqlRule.initPostgres(EmbeddedPostgresqlRule.java:47)
+	at com.github.kagkarlsson.scheduler.EmbeddedPostgresqlRule.<init>(EmbeddedPostgresqlRule.java:28)
+	at com.github.kagkarlsson.scheduler.SchedulerTest.<init>(SchedulerTest.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SchedulerTest.<init>:31 » IllegalState Process [/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a/bin/initdb, -A, trust, -U, postgres, -D, /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/epg1390598230424870550, -E, UTF-8] failed
+
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_TRjzXj0pAIRaESnV7HNjN0RVNj3xwjmGfrGdxHHeuUA= with delay: 100
+java.io.FileNotFoundException: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/kagkarlsson__db-scheduler__4a8a28e6__./.flakesync/com.github.kagkarlsson.scheduler.SchedulerTest.scheduler_should_execute_rescheduled_task_when_exactly_due-StackTrace.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at flakesync.CritSearchMojo.parseStackTrace(CritSearchMojo.java:282)
+	at flakesync.CritSearchMojo.execute(CritSearchMojo.java:62)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.208 s
+[INFO] Finished at: 2026-10-11T19:21:22-05:00
+[INFO] ------------------------------------------------------------------------

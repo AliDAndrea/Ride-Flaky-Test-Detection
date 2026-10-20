@@ -1,0 +1,89 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.github.kagkarlsson:db-scheduler >-----------------
+[INFO] Building Db-scheduler 4.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ db-scheduler >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ db-scheduler ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/kagkarlsson__db-scheduler__4a8a28e6__./src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ db-scheduler ---
+[INFO] Copying 7 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ db-scheduler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ db-scheduler <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ db-scheduler ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.kagkarlsson.scheduler.SchedulerTest
+[main] INFO com.opentable.db.postgres.embedded.EmbeddedPostgres - Detected a Darwin x86_64 system
+[main] INFO com.opentable.db.postgres.embedded.EmbeddedPostgres - Postgres binaries at /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.806 s <<< FAILURE! -- in com.github.kagkarlsson.scheduler.SchedulerTest
+[ERROR] com.github.kagkarlsson.scheduler.SchedulerTest.scheduler_should_execute_rescheduled_task_when_exactly_due -- Time elapsed: 0.019 s <<< ERROR!
+java.lang.IllegalStateException: 
+Process [/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a/bin/initdb, -A, trust, -U, postgres, -D, /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/epg2629447117084389762, -E, UTF-8] failed
+
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.system(EmbeddedPostgres.java:585)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.initdb(EmbeddedPostgres.java:227)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres.<init>(EmbeddedPostgres.java:145)
+	at com.opentable.db.postgres.embedded.EmbeddedPostgres$Builder.start(EmbeddedPostgres.java:572)
+	at com.github.kagkarlsson.scheduler.EmbeddedPostgresqlRule.initPostgres(EmbeddedPostgresqlRule.java:47)
+	at com.github.kagkarlsson.scheduler.EmbeddedPostgresqlRule.<init>(EmbeddedPostgresqlRule.java:28)
+	at com.github.kagkarlsson.scheduler.SchedulerTest.<init>(SchedulerTest.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   SchedulerTest.<init>:31 » IllegalState Process [/var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/embedded-pg/PG-971b18df48f7cc3bdc222a040a3a0b8a/bin/initdb, -A, trust, -U, postgres, -D, /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/epg2629447117084389762, -E, UTF-8] failed
+
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_SNON66ZKwZublYTIC+Ncm3Qv51f4dZCTMqbYiZhKR1o= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.664 s
+[INFO] Finished at: 2026-10-11T19:20:54-05:00
+[INFO] ------------------------------------------------------------------------

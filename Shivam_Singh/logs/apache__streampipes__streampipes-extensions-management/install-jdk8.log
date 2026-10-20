@@ -1,0 +1,319 @@
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/gradle/develocity-maven-extension/2.1/develocity-maven-extension-2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/gradle/develocity-maven-extension/2.1/develocity-maven-extension-2.1.pom (1.4 kB at 1.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/gradle/develocity-maven-extension/2.1/develocity-maven-extension-2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/gradle/develocity-maven-extension/2.1/develocity-maven-extension-2.1.jar (25 MB at 21 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/gradle/common-custom-user-data-maven-extension/2.0.5/common-custom-user-data-maven-extension-2.0.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/gradle/common-custom-user-data-maven-extension/2.0.5/common-custom-user-data-maven-extension-2.0.5.pom (7.9 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/gradle/common-custom-user-data-maven-extension/2.0.5/common-custom-user-data-maven-extension-2.0.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/gradle/common-custom-user-data-maven-extension/2.0.5/common-custom-user-data-maven-extension-2.0.5.jar (9.2 MB at 26 MB/s)
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.2/spring-framework-bom-6.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.2/spring-framework-bom-6.2.2.pom (5.8 kB at 62 kB/s)
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache StreamPipes                                                 [pom]
+[INFO] StreamPipes Commons                                                [jar]
+[INFO] streampipes-model-shared                                           [jar]
+[INFO] streampipes-vocabulary                                             [jar]
+[INFO] streampipes-model                                                  [jar]
+[INFO] streampipes-dataformat                                             [jar]
+[INFO] streampipes-messaging                                              [jar]
+[INFO] streampipes-client-api                                             [jar]
+[INFO] streampipes-security-jwt                                           [jar]
+[INFO] streampipes-model-client                                           [jar]
+[INFO] streampipes-extensions-api                                         [jar]
+[INFO] streampipes-test-utils                                             [jar]
+[INFO] streampipes-serializers-json                                       [jar]
+[INFO] streampipes-client                                                 [jar]
+[INFO] streampipes-measurement-units                                      [jar]
+[INFO] streampipes-sdk                                                    [jar]
+[INFO] streampipes-connect-shared                                         [jar]
+[INFO] streampipes-extensions-management                                  [jar]
+[INFO] 
+[INFO] -------------< org.apache.streampipes:streampipes-parent >--------------
+[INFO] Building Apache StreamPipes 0.99.0-SNAPSHOT                       [1/18]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.6.3/maven-javadoc-plugin-3.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.6.3/maven-javadoc-plugin-3.6.3.pom (22 kB at 245 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.6.3/maven-javadoc-plugin-3.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.6.3/maven-javadoc-plugin-3.6.3.jar (510 kB at 5.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-maven-plugin/2.43.0/spotless-maven-plugin-2.43.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-maven-plugin/2.43.0/spotless-maven-plugin-2.43.0.pom (3.3 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-maven-plugin/2.43.0/spotless-maven-plugin-2.43.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-maven-plugin/2.43.0/spotless-maven-plugin-2.43.0.jar (128 kB at 2.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.3.1/maven-checkstyle-plugin-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.3.1/maven-checkstyle-plugin-3.3.1.pom (15 kB at 243 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.3.1/maven-checkstyle-plugin-3.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/3.3.1/maven-checkstyle-plugin-3.3.1.jar (99 kB at 1.4 MB/s)
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-parent ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib/2.45.0/spotless-lib-2.45.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib/2.45.0/spotless-lib-2.45.0.pom (1.5 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib-extra/2.45.0/spotless-lib-extra-2.45.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib-extra/2.45.0/spotless-lib-extra-2.45.0.pom (2.7 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.pom (2.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-swt.os/4.2.2/durian-swt.os-4.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-swt.os/4.2.2/durian-swt.os-4.2.2.pom (1.6 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.osgi/3.18.300/org.eclipse.osgi-3.18.300.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.osgi/3.18.300/org.eclipse.osgi-3.18.300.pom (1.3 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.pom (1.7 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.pom (1.9 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.pom (1.6 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.pom (1.6 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.pom (1.2 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.pom (1.4 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.pom (1.6 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.pom (1.6 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.21/kotlin-stdlib-common-1.8.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.21/kotlin-stdlib-common-1.8.21.pom (1.2 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.pom (1.4 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-io/1.2.0/durian-io-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-io/1.2.0/durian-io-1.2.0.pom (2.3 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib/2.45.0/spotless-lib-2.45.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib/2.45.0/spotless-lib-2.45.0.jar (485 kB at 7.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib-extra/2.45.0/spotless-lib-extra-2.45.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.osgi/3.18.300/org.eclipse.osgi-3.18.300.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-swt.os/4.2.2/durian-swt.os-4.2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.jar (411 kB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar (26 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-swt.os/4.2.2/durian-swt.os-4.2.2.jar (13 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/spotless/spotless-lib-extra/2.45.0/spotless-lib-extra-2.45.0.jar (80 kB at 174 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar (968 B at 1.8 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar (790 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/platform/org.eclipse.osgi/3.18.300/org.eclipse.osgi-3.18.300.jar (1.5 MB at 2.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar (225 kB at 394 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-io/1.2.0/durian-io-1.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar (963 B at 1.6 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/diffplug/durian/durian-io/1.2.0/durian-io-1.2.0.jar (187 kB at 294 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar (1.7 MB at 2.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar (360 kB at 395 kB/s)
+[WARNING] Error injecting: com.diffplug.spotless.maven.SpotlessCheckMojo
+java.lang.TypeNotPresentException: Type com.diffplug.spotless.maven.SpotlessCheckMojo not present
+    at org.eclipse.sisu.space.URLClassSpace.loadClass (URLClassSpace.java:149)
+    at org.eclipse.sisu.space.NamedClass.load (NamedClass.java:48)
+    at org.eclipse.sisu.space.AbstractDeferredClass.get (AbstractDeferredClass.java:50)
+    at com.google.inject.internal.ProviderInternalFactory.provision (ProviderInternalFactory.java:86)
+    at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision (InternalFactoryToInitializableAdapter.java:57)
+    at com.google.inject.internal.ProviderInternalFactory$1.call (ProviderInternalFactory.java:67)
+    at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision (ProvisionListenerStackCallback.java:109)
+    at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision (ProvisionListenerStackCallback.java:124)
+    at com.google.inject.internal.ProvisionListenerStackCallback.provision (ProvisionListenerStackCallback.java:66)
+    at com.google.inject.internal.ProviderInternalFactory.circularGet (ProviderInternalFactory.java:62)
+    at com.google.inject.internal.InternalFactoryToInitializableAdapter.get (InternalFactoryToInitializableAdapter.java:47)
+    at com.google.inject.internal.InjectorImpl$1.get (InjectorImpl.java:1101)
+    at org.eclipse.sisu.inject.Guice4$2.get (Guice4.java:235)
+    at org.eclipse.sisu.inject.LazyBeanEntry.getValue (LazyBeanEntry.java:83)
+    at org.eclipse.sisu.plexus.LazyPlexusBean.getValue (LazyPlexusBean.java:53)
+    at org.codehaus.plexus.DefaultPlexusContainer.lookup (DefaultPlexusContainer.java:265)
+    at org.codehaus.plexus.DefaultPlexusContainer.lookup (DefaultPlexusContainer.java:257)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo (DefaultMavenPluginManager.java:491)
+    at com.gradle.maven.cache.extension.g.b.getConfiguredMojo (SourceFile:57)
+    at com.gradle.maven.scan.extension.internal.d.b.executeMojo (SourceFile:104)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: java.lang.UnsupportedClassVersionError: com/diffplug/spotless/maven/SpotlessCheckMojo has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+    at java.lang.ClassLoader.defineClass1 (Native Method)
+    at java.lang.ClassLoader.defineClass (ClassLoader.java:756)
+    at java.security.SecureClassLoader.defineClass (SecureClassLoader.java:142)
+    at java.net.URLClassLoader.defineClass (URLClassLoader.java:473)
+    at java.net.URLClassLoader.access$100 (URLClassLoader.java:74)
+    at java.net.URLClassLoader$1.run (URLClassLoader.java:369)
+    at java.net.URLClassLoader$1.run (URLClassLoader.java:363)
+    at java.security.AccessController.doPrivileged (Native Method)
+    at java.net.URLClassLoader.findClass (URLClassLoader.java:362)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.findClassInternal (ClassRealm.java:256)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClassFromSelf (ClassRealm.java:351)
+    at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass (SelfFirstStrategy.java:36)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass (ClassRealm.java:225)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass (ClassRealm.java:210)
+    at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass (ClassRealm.java:205)
+    at org.eclipse.sisu.space.URLClassSpace.loadClass (URLClassSpace.java:141)
+    at org.eclipse.sisu.space.NamedClass.load (NamedClass.java:48)
+    at org.eclipse.sisu.space.AbstractDeferredClass.get (AbstractDeferredClass.java:50)
+    at com.google.inject.internal.ProviderInternalFactory.provision (ProviderInternalFactory.java:86)
+    at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision (InternalFactoryToInitializableAdapter.java:57)
+    at com.google.inject.internal.ProviderInternalFactory$1.call (ProviderInternalFactory.java:67)
+    at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision (ProvisionListenerStackCallback.java:109)
+    at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision (ProvisionListenerStackCallback.java:124)
+    at com.google.inject.internal.ProvisionListenerStackCallback.provision (ProvisionListenerStackCallback.java:66)
+    at com.google.inject.internal.ProviderInternalFactory.circularGet (ProviderInternalFactory.java:62)
+    at com.google.inject.internal.InternalFactoryToInitializableAdapter.get (InternalFactoryToInitializableAdapter.java:47)
+    at com.google.inject.internal.InjectorImpl$1.get (InjectorImpl.java:1101)
+    at org.eclipse.sisu.inject.Guice4$2.get (Guice4.java:235)
+    at org.eclipse.sisu.inject.LazyBeanEntry.getValue (LazyBeanEntry.java:83)
+    at org.eclipse.sisu.plexus.LazyPlexusBean.getValue (LazyPlexusBean.java:53)
+    at org.codehaus.plexus.DefaultPlexusContainer.lookup (DefaultPlexusContainer.java:265)
+    at org.codehaus.plexus.DefaultPlexusContainer.lookup (DefaultPlexusContainer.java:257)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo (DefaultMavenPluginManager.java:491)
+    at com.gradle.maven.cache.extension.g.b.getConfiguredMojo (SourceFile:57)
+    at com.gradle.maven.scan.extension.internal.d.b.executeMojo (SourceFile:104)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.3.2/maven-clean-plugin-3.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.3.2/maven-clean-plugin-3.3.2.pom (5.3 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.3.2/maven-clean-plugin-3.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.3.2/maven-clean-plugin-3.3.2.jar (36 kB at 504 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.pom (18 kB at 197 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.6.1/maven-dependency-plugin-3.6.1.jar (191 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.pom (8.9 kB at 150 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.1/maven-deploy-plugin-3.1.1.jar (39 kB at 560 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.0/maven-jar-plugin-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.0/maven-jar-plugin-3.4.0.pom (8.7 kB at 181 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.0/maven-jar-plugin-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.4.0/maven-jar-plugin-3.4.0.jar (34 kB at 440 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Apache StreamPipes 0.99.0-SNAPSHOT:
+[INFO] 
+[INFO] Apache StreamPipes ................................. FAILURE [  8.172 s]
+[INFO] StreamPipes Commons ................................ SKIPPED
+[INFO] streampipes-model-shared ........................... SKIPPED
+[INFO] streampipes-vocabulary ............................. SKIPPED
+[INFO] streampipes-model .................................. SKIPPED
+[INFO] streampipes-dataformat ............................. SKIPPED
+[INFO] streampipes-messaging .............................. SKIPPED
+[INFO] streampipes-client-api ............................. SKIPPED
+[INFO] streampipes-security-jwt ........................... SKIPPED
+[INFO] streampipes-model-client ........................... SKIPPED
+[INFO] streampipes-extensions-api ......................... SKIPPED
+[INFO] streampipes-test-utils ............................. SKIPPED
+[INFO] streampipes-serializers-json ....................... SKIPPED
+[INFO] streampipes-client ................................. SKIPPED
+[INFO] streampipes-measurement-units ...................... SKIPPED
+[INFO] streampipes-sdk .................................... SKIPPED
+[INFO] streampipes-connect-shared ......................... SKIPPED
+[INFO] streampipes-extensions-management .................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.002 s
+[INFO] Finished at: 2026-10-11T19:07:32-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 4 goals, 4 executed
+[ERROR] Failed to execute goal com.diffplug.spotless:spotless-maven-plugin:2.43.0:check (spotless-check) on project streampipes-parent: Execution spotless-check of goal com.diffplug.spotless:spotless-maven-plugin:2.43.0:check failed: Unable to load the mojo 'check' in the plugin 'com.diffplug.spotless:spotless-maven-plugin:2.43.0' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: com/diffplug/spotless/maven/SpotlessCheckMojo has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>com.diffplug.spotless:spotless-maven-plugin:2.43.0
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/Users/shivamsingh/.m2/repository/com/diffplug/spotless/spotless-maven-plugin/2.43.0/spotless-maven-plugin-2.43.0.jar
+[ERROR] urls[1] = file:/Users/shivamsingh/.m2/repository/com/diffplug/spotless/spotless-lib/2.45.0/spotless-lib-2.45.0.jar
+[ERROR] urls[2] = file:/Users/shivamsingh/.m2/repository/com/diffplug/spotless/spotless-lib-extra/2.45.0/spotless-lib-extra-2.45.0.jar
+[ERROR] urls[3] = file:/Users/shivamsingh/.m2/repository/com/googlecode/concurrent-trees/concurrent-trees/2.6.1/concurrent-trees-2.6.1.jar
+[ERROR] urls[4] = file:/Users/shivamsingh/.m2/repository/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.jar
+[ERROR] urls[5] = file:/Users/shivamsingh/.m2/repository/com/diffplug/durian/durian-swt.os/4.2.2/durian-swt.os-4.2.2.jar
+[ERROR] urls[6] = file:/Users/shivamsingh/.m2/repository/org/eclipse/platform/org.eclipse.osgi/3.18.300/org.eclipse.osgi-3.18.300.jar
+[ERROR] urls[7] = file:/Users/shivamsingh/.m2/repository/org/tukaani/xz/1.9/xz-1.9.jar
+[ERROR] urls[8] = file:/Users/shivamsingh/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar
+[ERROR] urls[9] = file:/Users/shivamsingh/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar
+[ERROR] urls[10] = file:/Users/shivamsingh/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar
+[ERROR] urls[11] = file:/Users/shivamsingh/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar
+[ERROR] urls[12] = file:/Users/shivamsingh/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar
+[ERROR] urls[13] = file:/Users/shivamsingh/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar
+[ERROR] urls[14] = file:/Users/shivamsingh/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[ERROR] urls[15] = file:/Users/shivamsingh/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar
+[ERROR] urls[16] = file:/Users/shivamsingh/.m2/repository/com/diffplug/durian/durian-core/1.2.0/durian-core-1.2.0.jar
+[ERROR] urls[17] = file:/Users/shivamsingh/.m2/repository/com/diffplug/durian/durian-io/1.2.0/durian-io-1.2.0.jar
+[ERROR] urls[18] = file:/Users/shivamsingh/.m2/repository/com/diffplug/durian/durian-collect/1.2.0/durian-collect-1.2.0.jar
+[ERROR] urls[19] = file:/Users/shivamsingh/.m2/repository/org/codehaus/plexus/plexus-resources/1.2.0/plexus-resources-1.2.0.jar
+[ERROR] urls[20] = file:/Users/shivamsingh/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+[ERROR] urls[21] = file:/Users/shivamsingh/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/6.7.0.202309050840-r/org.eclipse.jgit-6.7.0.202309050840-r.jar
+[ERROR] urls[22] = file:/Users/shivamsingh/.m2/repository/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar
+[ERROR] urls[23] = file:/Users/shivamsingh/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar
+[ERROR] urls[24] = file:/Users/shivamsingh/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException

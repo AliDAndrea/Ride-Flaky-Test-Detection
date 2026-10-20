@@ -1,0 +1,509 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[WARNING] The project com.fasterxml:classmate:bundle:1.5.2-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------< com.fasterxml:classmate >-----------------------
+[INFO] Building ClassMate 1.5.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ classmate >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-java) @ classmate ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (add-generated-sources) @ classmate ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/generated-sources added.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ classmate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ classmate ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 38 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ classmate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ classmate ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/AnnotationsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedPrimitiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[11,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/HierarchicTypeTest.java:[7,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/ResolvedTypeWithMembersTest.java:[14,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedMemberTest.java:[15,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedRecursiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[6,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedArrayTypeTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/TypePlaceHolderTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/TypeBindingsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ classmate <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ classmate ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_ZWbpX+B0twuYjxnlwUEJHdykHIFoOBgNeQjnTRtdwU=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Running com.fasterxml.classmate.TestTypeResolver
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.fasterxml.classmate.TestTypeResolver
+[INFO] Running com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Running com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Running com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Running com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Running com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Running com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Running com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Running com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Running com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Running com.fasterxml.classmate.StdConfigurationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.StdConfigurationTest
+[INFO] Running com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Running com.fasterxml.classmate.AnnotationsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.AnnotationsTest
+[INFO] Running com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Running com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Running com.fasterxml.classmate.members.RawMethodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.classmate.members.RawMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawFieldTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.RawFieldTest
+[INFO] Running com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Running com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[INFO] Running com.fasterxml.classmate.members.Issue28Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.Issue28Test
+[INFO] Running com.fasterxml.classmate.members.RawMemberTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMemberTest
+[INFO] Running com.fasterxml.classmate.TestMemberResolver
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.fasterxml.classmate.TestMemberResolver
+[INFO] Running com.fasterxml.classmate.TypeBindingsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.TypeBindingsTest
+[INFO] Running com.fasterxml.classmate.TestReadme
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.TestReadme
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 226, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexExecid=lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Running com.fasterxml.classmate.TestTypeResolver
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in com.fasterxml.classmate.TestTypeResolver
+[INFO] Running com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Running com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Running com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Running com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Running com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Running com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Running com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Running com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Running com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Running com.fasterxml.classmate.StdConfigurationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.StdConfigurationTest
+[INFO] Running com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Running com.fasterxml.classmate.AnnotationsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.AnnotationsTest
+[INFO] Running com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Running com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Running com.fasterxml.classmate.members.RawMethodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.RawMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawFieldTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawFieldTest
+[INFO] Running com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Running com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] testGhostTypeParameterWithInterface(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.013 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface(GhostTypeParameterInFieldTest.java:75)
+
+[ERROR] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[t]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:47)
+
+[INFO] Running com.fasterxml.classmate.members.Issue28Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.Issue28Test
+[INFO] Running com.fasterxml.classmate.members.RawMemberTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMemberTest
+[INFO] Running com.fasterxml.classmate.TestMemberResolver
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.TestMemberResolver
+[INFO] Running com.fasterxml.classmate.TypeBindingsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.TypeBindingsTest
+[INFO] Running com.fasterxml.classmate.TestReadme
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.TestReadme
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:47 expected:<[t]> but was:<[i]>
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface:75 expected:<[listOfT]> but was:<[i]>
+[INFO] 
+[ERROR] Tests run: 226, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexExecid=a2b9hx814txr5SZKKOvBmA3Z2Dh91c6QNpKrZ6rVk=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Running com.fasterxml.classmate.TestTypeResolver
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.fasterxml.classmate.TestTypeResolver
+[INFO] Running com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Running com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Running com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Running com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Running com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Running com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Running com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Running com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Running com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Running com.fasterxml.classmate.StdConfigurationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.StdConfigurationTest
+[INFO] Running com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Running com.fasterxml.classmate.AnnotationsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.AnnotationsTest
+[INFO] Running com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Running com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Running com.fasterxml.classmate.members.RawMethodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawFieldTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawFieldTest
+[INFO] Running com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Running com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] testGhostTypeParameterWithInterface(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.018 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[t]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface(GhostTypeParameterInFieldTest.java:84)
+
+[ERROR] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[t]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:38)
+
+[INFO] Running com.fasterxml.classmate.members.Issue28Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.Issue28Test
+[INFO] Running com.fasterxml.classmate.members.RawMemberTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMemberTest
+[INFO] Running com.fasterxml.classmate.TestMemberResolver
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.TestMemberResolver
+[INFO] Running com.fasterxml.classmate.TypeBindingsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.TypeBindingsTest
+[INFO] Running com.fasterxml.classmate.TestReadme
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.fasterxml.classmate.TestReadme
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:38 expected:<[listOfT]> but was:<[t]>
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface:84 expected:<[t]> but was:<[i]>
+[INFO] 
+[ERROR] Tests run: 226, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for a2b9hx814txr5SZKKOvBmA3Z2Dh91c6QNpKrZ6rVk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex
+nondexExecid=BD0EwmKTmkIqIaiOQCBagQGL9uN6NsFXakEaY8yniU=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in com.fasterxml.classmate.TestMemberGenericTypes
+[INFO] Running com.fasterxml.classmate.TestTypeResolver
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.fasterxml.classmate.TestTypeResolver
+[INFO] Running com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.ResolvedTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedObjectTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.types.ResolvedInterfaceTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.fasterxml.classmate.types.ResolvedRecursiveTypeTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.types.ResolvedArrayTypeTest
+[INFO] Running com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.fasterxml.classmate.types.TypePlaceHolderTest
+[INFO] Running com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.fasterxml.classmate.types.ResolvedPrimitiveTypeTest
+[INFO] Running com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.ClassKeyTest
+[INFO] Running com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.fasterxml.classmate.util.MethodKeyTest
+[INFO] Running com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.util.TestResolvedTypeCache
+[INFO] Running com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.fasterxml.classmate.TestSubtypeResolution
+[INFO] Running com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.TestSelfRefMemberTypes
+[INFO] Running com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.AnnotationInclusionTest
+[INFO] Running com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.OddJDKTypesTest
+[INFO] Running com.fasterxml.classmate.StdConfigurationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.StdConfigurationTest
+[INFO] Running com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.fasterxml.classmate.TestParameterAnnotations
+[INFO] Running com.fasterxml.classmate.AnnotationsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.fasterxml.classmate.AnnotationsTest
+[INFO] Running com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.fasterxml.classmate.ResolvedTypeWithMembersTest
+[INFO] Running com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.TestTypeDescriptions
+[INFO] Running com.fasterxml.classmate.members.RawMethodTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawFieldTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawFieldTest
+[INFO] Running com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.HierarchicTypeTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.fasterxml.classmate.members.ResolvedFieldTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.fasterxml.classmate.members.ResolvedMemberTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.ResolvedMethodTest
+[INFO] Running com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawConstructorTest
+[INFO] Running com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.ResolvedConstructorTest
+[INFO] Running com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in com.fasterxml.classmate.members.GhostTypeParameterInFieldTest
+[ERROR] testGhostTypeParameterWithInterface(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.006 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[t]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface(GhostTypeParameterInFieldTest.java:84)
+
+[ERROR] testGhostTypeParameterWithClass(com.fasterxml.classmate.members.GhostTypeParameterInFieldTest)  Time elapsed: 0.002 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[listOfT]> but was:<[i]>
+	at com.fasterxml.classmate.members.GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass(GhostTypeParameterInFieldTest.java:38)
+
+[INFO] Running com.fasterxml.classmate.members.Issue28Test
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.Issue28Test
+[INFO] Running com.fasterxml.classmate.members.RawMemberTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.members.RawMemberTest
+[INFO] Running com.fasterxml.classmate.TestMemberResolver
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.fasterxml.classmate.TestMemberResolver
+[INFO] Running com.fasterxml.classmate.TypeBindingsTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.fasterxml.classmate.TypeBindingsTest
+[INFO] Running com.fasterxml.classmate.TestReadme
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.fasterxml.classmate.TestReadme
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithClass:38 expected:<[listOfT]> but was:<[i]>
+[ERROR]   GhostTypeParameterInFieldTest.testGhostTypeParameterWithInterface:84 expected:<[t]> but was:<[i]>
+[INFO] 
+[ERROR] Tests run: 226, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for BD0EwmKTmkIqIaiOQCBagQGL9uN6NsFXakEaY8yniU=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexExecid=lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA= -DnondexLogging=CONFIG
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexExecid=a2b9hx814txr5SZKKOvBmA3Z2Dh91c6QNpKrZ6rVk= -DnondexLogging=CONFIG
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex" -DnondexExecid=BD0EwmKTmkIqIaiOQCBagQGL9uN6NsFXakEaY8yniU= -DnondexLogging=CONFIG
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[WARNING] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithInterface
+[INFO] com.fasterxml.classmate.members.GhostTypeParameterInFieldTest#testGhostTypeParameterWithClass
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex/lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA=/test_results.html
+[INFO] [NonDex] The id of this run is: lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.979 s
+[INFO] Finished at: 2026-10-11T18:46:35-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project classmate: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.nondex/lMqq83fokbUQMSYN0N0S5xFdSL7U7DCZ1OsCulst3TA= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,234 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-core:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 40, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts-maven-plugin:maven-plugin:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 33, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 42, column 14
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for edu.illinois:starts:pom:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 200, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] STARTS                                                             [pom]
+[INFO] starts-core                                                        [jar]
+[INFO] STARTS Maven Plugin                                       [maven-plugin]
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-5: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-5 requires Maven version 4.0.0-rc-6
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 requires Maven version 4.0.0-rc-4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.16.0
+[INFO] 
+[INFO] ------------------------< edu.illinois:starts >-------------------------
+[INFO] Building STARTS 1.4-SNAPSHOT                                       [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ starts >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ starts <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ starts ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts:1.4-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.053999900817871094 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] ----------------------< edu.illinois:starts-core >----------------------
+[INFO] Building starts-core 1.4-SNAPSHOT                                  [2/3]
+[INFO]   from starts-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ starts-core >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts-core ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- jacoco:0.8.6:merge (merge-id) @ starts-core ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ starts-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ starts-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ starts-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ starts-core ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ starts-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ starts-core ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts-core:1.4-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 17 tests. Time taken: 0.16199994087219238 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/.dtfixingtools/original-order
+[INFO] Getting original results (17 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (1.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (1.7 seconds elapsed (3.3 total), 2.6 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (3.3 seconds elapsed (5.0 total), 2.2 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (5.0 seconds elapsed (6.7 total), 1.3 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (6.7 seconds elapsed (8.3 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-core/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] 
+[INFO] ------------------< edu.illinois:starts-maven-plugin >------------------
+[INFO] Building STARTS Maven Plugin 1.4-SNAPSHOT                          [3/3]
+[INFO]   from starts-plugin/pom.xml
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ starts-maven-plugin >>>
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (validate) @ starts-maven-plugin ---
+[INFO] 
+[INFO] --- jacoco:0.8.6:prepare-agent (pre-unit-test) @ starts-maven-plugin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- plugin:3.3:helpmojo (help-goal) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ starts-maven-plugin ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ starts-maven-plugin ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug target 8] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[137,100] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Class<?> for a varargs call
+  cast to java.lang.Class<?>[] for a non-varargs call and to suppress this warning
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java:[139,77] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/main/java/edu/illinois/starts/jdeps/BaseMojo.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- plugin:3.3:descriptor (default-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO] 
+[INFO] --- plugin:3.3:descriptor (mojo-descriptor) @ starts-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.ImpactedMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.StartsMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.SelectMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.DiffMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.CleanMojo.: replace with @parameter name="${session}" @readonly
+[WARNING] Deprecated @component for project field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${project}" @readonly
+[WARNING] Deprecated @component for session field in edu.illinois.starts.jdeps.RunMojo.: replace with @parameter name="${session}" @readonly
+[INFO] Mojo extractor for language: java-annotations found 7 mojo descriptors.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ starts-maven-plugin ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/TestingResearchIllinois__starts__root/starts-plugin/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ starts-maven-plugin ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 8] to target/test-classes
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ starts-maven-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ starts-maven-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving edu.illinois:starts-maven-plugin:1.4-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 0.034999847412109375 seconds
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for STARTS 1.4-SNAPSHOT:
+[INFO] 
+[INFO] STARTS ............................................. SUCCESS [  5.958 s]
+[INFO] starts-core ........................................ SUCCESS [ 11.689 s]
+[INFO] STARTS Maven Plugin ................................ SUCCESS [ 21.536 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.006 s
+[INFO] Finished at: 2026-10-11T18:44:47-05:00
+[INFO] ------------------------------------------------------------------------

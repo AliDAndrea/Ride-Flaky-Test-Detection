@@ -1,0 +1,84 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< ro.pippo:pippo-session-hazelcast >------------------
+[INFO] Building Pippo Session Hazelcast 1.12.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ pippo-session-hazelcast >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-hazelcast ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-session-hazelcast ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/src/main/resources
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-session-hazelcast ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-session-hazelcast ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-session-hazelcast ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ pippo-session-hazelcast <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ pippo-session-hazelcast ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+get
+Oct 11, 2026 7:31:36 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 7:31:36 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - 77e3f24c-9151-4481-a81e-535276780430 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 78 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.180 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.611 s
+[INFO] Finished at: 2026-10-11T19:31:43-05:00
+[INFO] ------------------------------------------------------------------------

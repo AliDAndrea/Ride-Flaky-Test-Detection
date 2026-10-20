@@ -1,0 +1,933 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.codingchili:excelastic >---------------------
+[INFO] Building excelastic 1.3.3
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ excelastic >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ excelastic ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 27 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ excelastic ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ excelastic ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ excelastic ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ excelastic <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ excelastic ---
+INFO: Running DeltaDebugMojo
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:35:44 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:35:48 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2646 ms, time limit is 2000
+Oct 11, 2026 6:35:49 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.756 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:35:51 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:35:56 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2927 ms, time limit is 2000
+Oct 11, 2026 6:35:56 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.522 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+DELTA UPDATE DELAY: 200
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:35:59 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:04 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2109 ms, time limit is 2000
+Oct 11, 2026 6:36:05 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3114 ms, time limit is 2000
+Oct 11, 2026 6:36:05 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:06 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4117 ms, time limit is 2000
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.203 s <<< FAILURE! -- in com.codingchili.TestWriter
+[ERROR] com.codingchili.TestWriter.shouldWriteToElasticPort -- Time elapsed: 9.071 s <<< ERROR!
+java.util.concurrent.TimeoutException
+	at io.vertx.ext.unit.impl.TestContextImpl$Step.lambda$run$1(TestContextImpl.java:117)
+	at java.lang.Thread.run(Thread.java:750)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   TestWriter.shouldWriteToElasticPort » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_NqJQjb5hnOAzT+JjjxsuWe2nImOZrI6SsVVcHqJxgXA= with delay: 200
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:10 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:14 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.310 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:17 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:21 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2133 ms, time limit is 2000
+Oct 11, 2026 6:36:22 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:22 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3139 ms, time limit is 2000
+Oct 11, 2026 6:36:23 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.989 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+DELTA UPDATE DELAY: 400
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:24 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:27 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:29 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:29 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2707 ms, time limit is 2000
+Oct 11, 2026 6:36:30 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3712 ms, time limit is 2000
+Oct 11, 2026 6:36:31 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.029 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:32 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:35 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:36 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2117 ms, time limit is 2000
+Oct 11, 2026 6:36:37 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3121 ms, time limit is 2000
+Oct 11, 2026 6:36:38 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4125 ms, time limit is 2000
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.034 s <<< FAILURE! -- in com.codingchili.TestWriter
+[ERROR] com.codingchili.TestWriter.shouldWriteToElasticPort -- Time elapsed: 7.972 s <<< ERROR!
+java.util.concurrent.TimeoutException
+	at io.vertx.ext.unit.impl.TestContextImpl$Step.lambda$run$1(TestContextImpl.java:117)
+	at java.lang.Thread.run(Thread.java:750)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   TestWriter.shouldWriteToElasticPort » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_LYzQ6XXacyZVE1imTh5zj6LvRUGMNUO9ZWtsScdVkwg= with delay: 400
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:41 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:44 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:46 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2653 ms, time limit is 2000
+Oct 11, 2026 6:36:47 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3658 ms, time limit is 2000
+Oct 11, 2026 6:36:47 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.045 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:50 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:52 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:36:54 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2182 ms, time limit is 2000
+Oct 11, 2026 6:36:55 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.098 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+DELTA UPDATE DELAY: 800
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:36:57 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:36:59 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2666 ms, time limit is 2000
+Oct 11, 2026 6:37:01 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:37:03 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2299 ms, time limit is 2000
+Oct 11, 2026 6:37:04 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3300 ms, time limit is 2000
+Oct 11, 2026 6:37:05 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4305 ms, time limit is 2000
+Oct 11, 2026 6:37:06 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.06 s <<< FAILURE! -- in com.codingchili.TestWriter
+[ERROR] com.codingchili.TestWriter.shouldWriteToElasticPort -- Time elapsed: 9.910 s <<< ERROR!
+java.util.concurrent.TimeoutException
+	at io.vertx.ext.unit.impl.TestContextImpl$Step.lambda$run$1(TestContextImpl.java:117)
+	at java.lang.Thread.run(Thread.java:750)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   TestWriter.shouldWriteToElasticPort » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_yTLVkYY0bF4Xq9C3nCXq10uf0qQZ9OYtHp5zxI9N6KI= with delay: 800
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:37:10 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:37:11 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:37:14 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2698 ms, time limit is 2000
+Oct 11, 2026 6:37:15 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3703 ms, time limit is 2000
+Oct 11, 2026 6:37:15 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:37:16 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4708 ms, time limit is 2000
+Oct 11, 2026 6:37:16 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.638 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:37:19 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:37:21 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2748 ms, time limit is 2000
+Oct 11, 2026 6:37:25 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2584 ms, time limit is 2000
+Oct 11, 2026 6:37:26 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3589 ms, time limit is 2000
+Oct 11, 2026 6:37:26 PM io.vertx.core.http.impl.HttpClientRequestImpl
+SEVERE: io.vertx.core.VertxException: Connection was closed
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.925 s -- in com.codingchili.TestWriter
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+DELTA UPDATE DELAY: 1600
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:37:29 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:37:32 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:37:33 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2969 ms, time limit is 2000
+Oct 11, 2026 6:37:34 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3974 ms, time limit is 2000
+Oct 11, 2026 6:37:35 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4980 ms, time limit is 2000
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.408 s <<< FAILURE! -- in com.codingchili.TestWriter
+[ERROR] com.codingchili.TestWriter.shouldWriteToElasticPort -- Time elapsed: 7.207 s <<< ERROR!
+java.util.concurrent.TimeoutException
+	at io.vertx.ext.unit.impl.TestContextImpl$Step.lambda$run$1(TestContextImpl.java:117)
+	at java.lang.Thread.run(Thread.java:750)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   TestWriter.shouldWriteToElasticPort » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_myRlGZqKMT3d+78x3d2e7MMyddbRMTBk8mnocgzRXw= with delay: 1600
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codingchili.TestWriter
+Oct 11, 2026 6:37:38 PM com.codingchili.logging.ApplicationLogger onWriterStarted
+INFO: Started elastic writer. tls = false
+Oct 11, 2026 6:37:41 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2228 ms, time limit is 2000
+Oct 11, 2026 6:37:42 PM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: The Async complete method has been called more than 1 times, check your test.
+	at io.vertx.ext.unit.impl.TestContextImpl$AsyncImpl.complete(TestContextImpl.java:186)
+	at com.codingchili.TestWriter.lambda$null$0(TestWriter.java:48)
+	at io.vertx.core.http.HttpServerRequest.lambda$bodyHandler$0(HttpServerRequest.java:209)
+	at io.vertx.core.http.impl.HttpServerRequestImpl.handleEnd(HttpServerRequestImpl.java:417)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleEnd(Http1xServerConnection.java:482)
+	at io.vertx.core.http.impl.Http1xServerConnection.processMessage(Http1xServerConnection.java:456)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:144)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:728)
+	at io.vertx.core.http.impl.HttpServerImpl$ServerHandlerWithWebSockets.handleMessage(HttpServerImpl.java:619)
+	at io.vertx.core.net.impl.VertxHandler.lambda$channelRead$1(VertxHandler.java:146)
+	at io.vertx.core.impl.ContextImpl.lambda$wrapTask$2(ContextImpl.java:337)
+	at io.vertx.core.impl.ContextImpl.executeFromIO(ContextImpl.java:195)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:144)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1359)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:935)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 11, 2026 6:37:42 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3230 ms, time limit is 2000
+Oct 11, 2026 6:37:43 PM io.vertx.core.impl.BlockedThreadChecker
+WARNING: Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4234 ms, time limit is 2000
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.065 s <<< FAILURE! -- in com.codingchili.TestWriter
+[ERROR] com.codingchili.TestWriter.shouldWriteToElasticPort -- Time elapsed: 6.948 s <<< ERROR!
+java.util.concurrent.TimeoutException
+	at io.vertx.ext.unit.impl.TestContextImpl$Step.lambda$run$1(TestContextImpl.java:117)
+	at java.lang.Thread.run(Thread.java:750)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   TestWriter.shouldWriteToElasticPort » Timeout
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_sS03exQELAspD7u7MaQvIHrrdRI0O1MDSJ+jHG+8I= with delay: 1600
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:08 min
+[INFO] Finished at: 2026-10-11T18:37:44-05:00
+[INFO] ------------------------------------------------------------------------

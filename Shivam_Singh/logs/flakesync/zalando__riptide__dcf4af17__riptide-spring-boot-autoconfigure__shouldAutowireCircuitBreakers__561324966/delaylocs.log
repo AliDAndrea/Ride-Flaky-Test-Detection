@@ -1,0 +1,273 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< org.zalando:riptide-spring-boot-autoconfigure >------------
+[INFO] Building Riptide: Spring Boot Auto Configuration 3.2.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ riptide-spring-boot-autoconfigure >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0:enforce (enforce-maven) @ riptide-spring-boot-autoconfigure ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- duplicate-finder:1.5.1:check (default) @ riptide-spring-boot-autoconfigure ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (prepare-agent) @ riptide-spring-boot-autoconfigure ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ riptide-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ riptide-spring-boot-autoconfigure ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ riptide-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 13 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ riptide-spring-boot-autoconfigure ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ riptide-spring-boot-autoconfigure <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ riptide-spring-boot-autoconfigure ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8c1c9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53fe15ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@449a4f23, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1530c739, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b1669c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78e4deb0, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e9175d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470734c3]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 49803 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 7.163 seconds (JVM running for 10.163)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.447 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53fe15ff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@449a4f23, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1530c739, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5b1669c0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@78e4deb0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e9175d8, org.springframework.test.context.event.EventPublishingTestExecutionListener@7d0b7e3c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@470734c3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2cf3d63b]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 49861 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 8.533 seconds (JVM running for 11.43)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.445 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@449a4f23, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1530c739, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5b1669c0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78e4deb0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e9175d8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d0b7e3c, org.springframework.test.context.event.EventPublishingTestExecutionListener@15bb5034, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@470734c3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2cf3d63b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7674f035]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 49969 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 8.216 seconds (JVM running for 11.542)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.738 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5b1669c0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78e4deb0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6e9175d8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15bb5034, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b741d6d, org.springframework.test.context.event.EventPublishingTestExecutionListener@2eae8e6e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@470734c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2cf3d63b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7674f035, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@69e153c5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@173ed316]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 50048 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 7.243 seconds (JVM running for 10.464)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.495 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e6f2380, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76a4ebf2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e8c1c9b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53fe15ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@449a4f23, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1530c739, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b1669c0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78e4deb0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6e9175d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2eae8e6e]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 50141 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 6.076 seconds (JVM running for 8.501)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.031 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8c1c9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53fe15ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@449a4f23, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1530c739, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b1669c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78e4deb0, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e9175d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470734c3]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 50184 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 7.365 seconds (JVM running for 10.412)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.94 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e6f2380, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76a4ebf2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2e8c1c9b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53fe15ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@449a4f23, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1530c739, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b1669c0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78e4deb0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6e9175d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2eae8e6e]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 50349 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 8.381 seconds (JVM running for 11.508)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.96 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest], using SpringBootContextLoader
+[main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.zalando.riptide.autoconfigure.CircuitBreakerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e8c1c9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53fe15ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@449a4f23, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1530c739, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5b1669c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78e4deb0, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e9175d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d0b7e3c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15bb5034, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b741d6d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8f2ef19, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@470734c3]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Starting CircuitBreakerTest using Java 1.8.0_504 on Shivams-MacBook-Air.local with PID 50427 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__dcf4af17__riptide-spring-boot-autoconfigure/riptide-spring-boot-autoconfigure)
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - No active profile set, falling back to 1 default profile: "default"
+[main] INFO org.zalando.riptide.autoconfigure.CircuitBreakerTest - Started CircuitBreakerTest in 8.135 seconds (JVM running for 11.515)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.449 s - in org.zalando.riptide.autoconfigure.CircuitBreakerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:51 min
+[INFO] Finished at: 2026-10-11T20:16:10-05:00
+[INFO] ------------------------------------------------------------------------

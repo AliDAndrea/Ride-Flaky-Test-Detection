@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Wikidata Toolkit                                                   [pom]
+[INFO] Wikidata Toolkit Utilities                                         [jar]
+[INFO] 
+[INFO] -------------------< org.wikidata.wdtk:wdtk-parent >--------------------
+[INFO] Building Wikidata Toolkit 0.9.0                                    [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-parent ---
+[WARNING] No file to scan.
+[INFO] 
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-parent ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/LICENSE.txt
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-parent/0.9.0/wdtk-parent-0.9.0.pom
+[INFO] 
+[INFO] --------------------< org.wikidata.wdtk:wdtk-util >---------------------
+[INFO] Building Wikidata Toolkit Utilities 0.9.0                          [2/2]
+[INFO]   from wdtk-util/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license:1.6:update-file-header (first) @ wdtk-util ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/src/test/java
+[INFO] Scan 14 files header done in 50.178ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- license:1.6:update-project-license (first) @ wdtk-util ---
+[INFO] Will create or update license file [apache_v2] to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/LICENSE.txt
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/src/main/resources
+[INFO] Copying 1 resource from target/generated-sources/license to target/classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ wdtk-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wdtk-util ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ wdtk-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ wdtk-util ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ wdtk-util ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/target/wdtk-util-0.9.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ wdtk-util ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/pom.xml to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.9.0/wdtk-util-0.9.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/wikidata__wikidata-toolkit__wdtk-util/wdtk-util/target/wdtk-util-0.9.0.jar to /Users/shivamsingh/.m2/repository/org/wikidata/wdtk/wdtk-util/0.9.0/wdtk-util-0.9.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Wikidata Toolkit 0.9.0:
+[INFO] 
+[INFO] Wikidata Toolkit ................................... SUCCESS [  1.287 s]
+[INFO] Wikidata Toolkit Utilities ......................... SUCCESS [  2.871 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.337 s
+[INFO] Finished at: 2026-10-09T21:46:08-05:00
+[INFO] ------------------------------------------------------------------------

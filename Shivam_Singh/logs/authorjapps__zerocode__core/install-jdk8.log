@@ -1,0 +1,326 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.jsmart:http-testing:jar:1.3.36-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 50, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.jsmart:kafka-testing:jar:1.3.36-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 56, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.jsmart:zerocode-tdd-jupiter:jar:1.3.36-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 145, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ZeroCode TDD Parent                                                [pom]
+[INFO] Zerocode TDD Core                                                  [jar]
+[INFO] 
+[INFO] -------------------< org.jsmart:zerocode-tdd-parent >-------------------
+[INFO] Building ZeroCode TDD Parent 1.3.36-SNAPSHOT                       [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ zerocode-tdd-parent ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ zerocode-tdd-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/pom.xml to /Users/shivamsingh/.m2/repository/org/jsmart/zerocode-tdd-parent/1.3.36-SNAPSHOT/zerocode-tdd-parent-1.3.36-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------------------< org.jsmart:zerocode-tdd >-----------------------
+[INFO] Building Zerocode TDD Core 1.3.36-SNAPSHOT                         [2/2]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom (12 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar (45 kB at 757 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.pom (2.1 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.9.8/jackson-dataformats-text-2.9.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.9.8/jackson-dataformats-text-2.9.8.pom (3.0 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.pom (4.6 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.0/jackson-base-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.10.0/jackson-base-2.10.0.pom (6.6 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.0/jackson-bom-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.10.0/jackson-bom-2.10.0.pom (13 kB at 284 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.8.2/univocity-parsers-2.8.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.8.2/univocity-parsers-2.8.2.pom (6.7 kB at 142 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom (1.4 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.6.2/gson-parent-2.6.2.pom (3.6 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.3.1/kafka-clients-3.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.3.1/kafka-clients-3.3.1.pom (1.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.pom (1.9 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.pom (2.1 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.pom (3.5 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/json/json/20160810/json-20160810.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/json/json/20160810/json-20160810.pom (5.7 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.9.8/jackson-dataformat-csv-2.9.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.9.8/jackson-dataformat-csv-2.9.8.pom (2.3 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.pom (7.1 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.pom (2.7 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.19.0/wiremock-2.19.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.19.0/wiremock-2.19.0.pom (5.1 kB at 118 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom (4.1 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom (45 kB at 974 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom (2.5 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom (3.6 kB at 71 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom (2.3 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom (3.3 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom (2.8 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom (3.8 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.pom (2.0 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom (3.5 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom (2.0 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.pom (6.4 kB at 152 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5/httpcomponents-client-4.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5/httpcomponents-client-4.5.pom (16 kB at 356 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom (4.6 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.1/httpcomponents-core-4.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.1/httpcomponents-core-4.4.1.pom (13 kB at 286 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-legacy/2.5.1/xmlunit-legacy-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-legacy/2.5.1/xmlunit-legacy-2.5.1.pom (3.0 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.pom (5.2 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars.java/4.0.7/handlebars.java-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars.java/4.0.7/handlebars.java-4.0.7.pom (15 kB at 255 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.pom (2.0 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom (13 kB at 290 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.0.7/logback-parent-1.0.7.pom (15 kB at 327 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom (6.3 kB at 144 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.pom (3.3 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-all/2.2.1.GA/resteasy-jaxrs-all-2.2.1.GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs-all/2.2.1.GA/resteasy-jaxrs-all-2.2.1.GA.pom (21 kB at 474 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/jaxrs-api/2.2.1.GA/jaxrs-api-2.2.1.GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/jaxrs-api/2.2.1.GA/jaxrs-api-2.2.1.GA.pom (963 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.pom (3.1 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.pom (6.1 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.pom (3.5 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jukito/jukito/1.4.1/jukito-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jukito/jukito/1.4.1/jukito-1.4.1.pom (3.0 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jukito/jukito-parent/1.4.1/jukito-parent-1.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jukito/jukito-parent/1.4.1/jukito-parent-1.4.1.pom (15 kB at 209 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.pom (549 B at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/extensions-parent/3.0/extensions-parent-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/extensions-parent/3.0/extensions-parent-3.0.pom (3.6 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/3.0/guice-parent-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/3.0/guice-parent-3.0.pom (13 kB at 254 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.0/jackson-datatype-jdk8-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.0/jackson-datatype-jdk8-2.10.0.pom (2.2 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.10.0/jackson-modules-java8-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.10.0/jackson-modules-java8-2.10.0.pom (3.2 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jsmart/micro-simulator/1.1.10/micro-simulator-1.1.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jsmart/micro-simulator/1.1.10/micro-simulator-1.1.10.pom (10 kB at 151 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple/5.1.6/simple-5.1.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple/5.1.6/simple-5.1.6.pom (4.1 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191.pom (962 B at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.pom (7.8 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.pom (1.7 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.pom (1.3 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.pom (2.3 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.pom (4.8 kB at 109 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.pom (5.6 kB at 111 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.13.0/protobuf-parent-3.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.13.0/protobuf-parent-3.13.0.pom (7.7 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.13.0/protobuf-bom-3.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.13.0/protobuf-bom-3.13.0.pom (3.5 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.13.0/protobuf-java-util-3.13.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.13.0/protobuf-java-util-3.13.0.pom (4.8 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar (41 kB at 739 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.8.2/univocity-parsers-2.8.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.3.1/kafka-clients-3.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar (230 kB at 412 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/kafka/kafka-clients/3.3.1/kafka-clients-3.3.1.jar (5.0 MB at 7.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/json/json/20160810/json-20160810.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/univocity/univocity-parsers/2.8.2/univocity-parsers-2.8.2.jar (441 kB at 623 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.9.8/jackson-dataformat-csv-2.9.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/json/json/20160810/json-20160810.jar (54 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.19.0/wiremock-2.19.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar (683 kB at 830 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.9.8/jackson-dataformat-csv-2.9.8.jar (92 kB at 105 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/tomakehurst/wiremock/2.19.0/wiremock-2.19.0.jar (1.6 MB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar (108 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar (421 kB at 388 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar (116 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar (127 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar (96 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar (125 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.jar (16 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar (2.0 MB at 1.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-legacy/2.5.1/xmlunit-legacy-2.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar (108 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar (382 kB at 297 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar (44 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars-helpers/4.0.7/handlebars-helpers-4.0.7.jar (12 kB at 8.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-legacy/2.5.1/xmlunit-legacy-2.5.1.jar (126 kB at 89 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/jknack/handlebars/4.0.7/handlebars-4.0.7.jar (350 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/jaxrs-api/2.2.1.GA/jaxrs-api-2.2.1.GA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/jaxrs-api/2.2.1.GA/jaxrs-api-2.2.1.GA.jar (46 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar (364 kB at 242 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.jar (19 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar (577 kB at 368 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jukito/jukito/1.4.1/jukito-1.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar (252 kB at 158 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar (644 kB at 400 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar (15 kB at 8.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jukito/jukito/1.4.1/jukito-1.4.1.jar (46 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar (68 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.0/jackson-datatype-jdk8-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar (37 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.0/jackson-datatype-jdk8-2.10.0.jar (34 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar (349 kB at 198 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jsmart/micro-simulator/1.1.10/micro-simulator-1.1.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar (322 kB at 179 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple/5.1.6/simple-5.1.6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar (1.4 MB at 739 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jsmart/micro-simulator/1.1.10/micro-simulator-1.1.10.jar (31 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple/5.1.6/simple-5.1.6.jar (248 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar (346 kB at 163 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191.jar (1.8 MB at 794 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/3.3.0/bson-3.3.0.jar (234 kB at 96 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar (963 kB at 392 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar (1.4 MB at 576 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar (728 kB at 295 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.13.0/protobuf-java-util-3.13.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar (5.9 MB at 2.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar (41 kB at 16 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java-util/3.13.0/protobuf-java-util-3.13.0.jar (75 kB at 30 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.jar (1.7 MB at 636 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ zerocode-tdd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ zerocode-tdd ---
+[INFO] Copying 25 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ zerocode-tdd ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom (865 B at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom (5.3 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom (690 B at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom (769 B at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom (1.3 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar (25 kB at 634 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar (19 kB at 411 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar (4.6 kB at 97 kB/s)
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 179 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/main/java/org/jsmart/zerocode/core/verify/SmartJUnitNavigatorVerification.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/main/java/org/jsmart/zerocode/core/verify/SmartJUnitNavigatorVerification.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/main/java/org/jsmart/zerocode/core/kafka/helper/KafkaProducerHelper.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/main/java/org/jsmart/zerocode/core/kafka/helper/KafkaProducerHelper.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ zerocode-tdd ---
+[INFO] Copying 161 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ zerocode-tdd ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 135 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/test/java/org/jsmart/zerocode/core/httpclient/ssl/SslTrustCorporateProxyHttpClientTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/test/java/org/jsmart/zerocode/core/httpclient/ssl/SslTrustCorporateProxyHttpClientTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/test/java/org/jsmart/zerocode/core/runner/ZeroCodeUnitRuntimeAnnoTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/src/test/java/org/jsmart/zerocode/core/runner/ZeroCodeUnitRuntimeAnnoTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ zerocode-tdd ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ zerocode-tdd ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/target/zerocode-tdd-1.3.36-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ zerocode-tdd ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/pom.xml to /Users/shivamsingh/.m2/repository/org/jsmart/zerocode-tdd/1.3.36-SNAPSHOT/zerocode-tdd-1.3.36-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/authorjapps__zerocode__core/core/target/zerocode-tdd-1.3.36-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/jsmart/zerocode-tdd/1.3.36-SNAPSHOT/zerocode-tdd-1.3.36-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ZeroCode TDD Parent 1.3.36-SNAPSHOT:
+[INFO] 
+[INFO] ZeroCode TDD Parent ................................ SUCCESS [  1.839 s]
+[INFO] Zerocode TDD Core .................................. SUCCESS [ 22.222 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.481 s
+[INFO] Finished at: 2026-10-11T17:59:41-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,820 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< cern.c2mon.server:c2mon-server-common >----------------
+[INFO] Building c2mon-server-common 1.8.40-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) > test-compile @ c2mon-server-common >>>
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) < test-compile @ c2mon-server-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) @ c2mon-server-common ---
+INFO: Running BarrierPointSearchMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_S54KZDwz70HXn6bwmqShOrREadQ69vj6cRYEOmSKs=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:36:55.092 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.198 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.303 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.404 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.507 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.608 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.710 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.812 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:55.915 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:56.018 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.452 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_S54KZDwz70HXn6bwmqShOrREadQ69vj6cRYEOmSKs= with delay: 100
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_S54KZDwz70HXn6bwmqShOrREadQ69vj6cRYEOmSKs=
+cern.c2mon.server.common.republisher.RepublisherImplTest.txt
+TEST-cern.c2mon.server.common.republisher.RepublisherImplTest.xml
+org.junit.Assert 88
+org.junit.Assert 834
+org.junit.Assert 645
+org.junit.Assert 631
+cern.c2mon.server.common.republisher.RepublisherImplTest 176
+sun.reflect.NativeMethodAccessorImpl 62
+sun.reflect.DelegatingMethodAccessorImpl 43
+java.lang.reflect.Method 498
+org.junit.runners.model.FrameworkMethod$1 50
+org.junit.internal.runners.model.ReflectiveCallable 12
+org.junit.runners.model.FrameworkMethod 47
+org.junit.internal.runners.statements.InvokeMethod 17
+org.junit.internal.runners.statements.RunBefores 26
+org.junit.internal.runners.statements.RunAfters 27
+org.junit.runners.ParentRunner 325
+org.junit.runners.BlockJUnit4ClassRunner 78
+org.junit.runners.BlockJUnit4ClassRunner 57
+org.junit.runners.ParentRunner$3 290
+org.junit.runners.ParentRunner$1 71
+org.junit.runners.ParentRunner 288
+org.junit.runners.ParentRunner 58
+org.junit.runners.ParentRunner$2 268
+org.junit.runners.ParentRunner 363
+org.apache.maven.surefire.junit4.JUnit4TestSet 45
+org.apache.maven.surefire.junit4.JUnit4Provider 119
+org.apache.maven.surefire.junit4.JUnit4Provider 101
+sun.reflect.NativeMethodAccessorImpl 62
+sun.reflect.DelegatingMethodAccessorImpl 43
+java.lang.reflect.Method 498
+org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy 103
+org.apache.maven.surefire.booter.SurefireStarter 150
+org.apache.maven.surefire.booter.SurefireStarter 91
+org.apache.maven.surefire.booter.ForkedBooter 69
+cern.c2mon.server.common.republisher.RepublisherImpl$PublicationTask#139
+cern.c2mon.server.common.republisher.RepublisherImplTest#176
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_WvxxuaSETjeRpEyZwLD2XaSkE7YXPV2Q46clS+U7gY=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:36:57.663 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:57.770 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:57.875 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:57.981 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.086 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.191 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.296 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.401 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.507 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:36:58.610 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.676 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#176
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_LOselRDjiFRLZx6ggzqu28VTFyUKGmFM7RSq5YELSU=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:00.053 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.159 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.264 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.370 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.475 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.580 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.685 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.791 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:00.896 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:01.001 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.72 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_LOselRDjiFRLZx6ggzqu28VTFyUKGmFM7RSq5YELSU= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_Mim5GEHL2n+Wkz9XSXy3u18Xsnlr7K0PDNBIdX5MBA=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:02.455 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:02.562 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:02.665 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:02.768 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:02.872 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:02.978 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:03.083 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:03.188 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:03.293 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:03.398 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.924 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_Mim5GEHL2n+Wkz9XSXy3u18Xsnlr7K0PDNBIdX5MBA= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_MJkRe+kzLIU7d2spG1uPKtRG8uI2DU58LLOtGFaOabM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:04.772 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:04.879 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:04.984 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.089 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.195 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.300 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.405 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.510 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.616 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:05.719 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.748 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_MJkRe+kzLIU7d2spG1uPKtRG8uI2DU58LLOtGFaOabM= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#175
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_7VQ0QqNM2l7XAd3m6UZ0bemiM7JluAe9S8SOZ6Jsm0c=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:06.904 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.007 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.113 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.218 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.322 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.427 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.532 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.638 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.743 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:07.844 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.638 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_7VQ0QqNM2l7XAd3m6UZ0bemiM7JluAe9S8SOZ6Jsm0c= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_StcWbR3qhvXIdUcAjrlNbn+ElEzeTCTCYlDcva5H6U=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:09.868 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:09.975 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.077 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.183 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.288 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.393 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.499 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.604 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.709 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:10.815 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.506 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_7G5Fc8yg8J4ytIMo7K1c9bA1zIFbIqNSYqJcr7wor0=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:11.978 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.085 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.188 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.292 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.393 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.494 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.599 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.700 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.805 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:12.911 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.518 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_7G5Fc8yg8J4ytIMo7K1c9bA1zIFbIqNSYqJcr7wor0= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#174
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_zDmMjPlIWiT0zIjMR4Ut5cKYJD7JSd5qLQFg2n1Kfks=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:13.830 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:13.936 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.041 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.143 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.249 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.351 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.457 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.559 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.664 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:14.769 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.477 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_zDmMjPlIWiT0zIjMR4Ut5cKYJD7JSd5qLQFg2n1Kfks= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_hPyy6xjWJWPiNcUUoXb5b23eDsNi0It8WIivSIcqoqk=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:16.225 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.332 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.437 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.542 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.643 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.748 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.851 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:16.956 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:17.061 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:17.167 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.007 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_oiFjkI0D9ThEa74TsDlPqmuobsnXqYOl601wdHZAyI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:18.275 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.381 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.486 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.592 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.692 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.794 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:18.895 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:19.000 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:19.105 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:19.209 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.581 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_oiFjkI0D9ThEa74TsDlPqmuobsnXqYOl601wdHZAyI= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#173
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_0hbiutYwUn0DRs4UfFC6o6ZUdTVQXNXVSQq7ylM+qio=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:20.204 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.309 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.415 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.518 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.624 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.729 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.834 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:20.940 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:21.046 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:21.152 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.531 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_0hbiutYwUn0DRs4UfFC6o6ZUdTVQXNXVSQq7ylM+qio= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_dz754g5DimAlbYYhWPQ+ZwtKq8gZ+mr8zDn848Ks1w=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:22.530 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:22.637 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:22.742 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:22.846 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:22.951 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:23.057 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:23.163 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:23.268 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:23.374 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:23.480 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.917 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_dz754g5DimAlbYYhWPQ+ZwtKq8gZ+mr8zDn848Ks1w= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_CgQIXU+Vcb94V7SjSEUVFncKQUHBv4a6uTSEp5tbHLA=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:24.467 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:24.573 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:24.678 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:24.783 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:24.889 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:24.994 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:25.099 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:25.204 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:25.309 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:25.414 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.536 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_CgQIXU+Vcb94V7SjSEUVFncKQUHBv4a6uTSEp5tbHLA= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#172
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_FBXLCW2dViUYtUZMaUY6cAomoAZWyPRD3nVBD10KXw=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:26.445 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:26.551 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:26.653 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:26.758 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:26.863 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:26.969 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:27.075 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:27.178 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:27.284 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:27.386 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.552 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_FBXLCW2dViUYtUZMaUY6cAomoAZWyPRD3nVBD10KXw= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_hz7C5eqaigAiLPYK370ePIx+5F8NHSFvXd2T3n6UzTc=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:28.733 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:28.839 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:28.945 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.049 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.154 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.260 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.364 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.468 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.574 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:29.680 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.869 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_7y1rIFwgP9bhMM5FdCUs0IL08lkdF+5Z31gHso5vhw=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:30.593 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:30.700 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:30.806 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:30.911 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.016 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.121 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.226 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.330 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.432 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:31.537 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.494 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_7y1rIFwgP9bhMM5FdCUs0IL08lkdF+5Z31gHso5vhw= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#171
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_II0Ymtqli4znps+UWN0lMiKPv8yNbm39W65+Pk2ts4=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:32.509 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:32.611 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:32.716 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:32.817 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:32.921 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:33.026 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:33.131 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:33.235 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:33.340 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:33.442 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.512 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_II0Ymtqli4znps+UWN0lMiKPv8yNbm39W65+Pk2ts4= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_b3t4GLKpfLfKhkoKtbo4c8gjofX7qJTLdzk9ffzatc=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:34.848 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:34.955 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.059 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.164 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.266 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.372 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.477 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.582 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.689 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:35.794 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.915 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_b3t4GLKpfLfKhkoKtbo4c8gjofX7qJTLdzk9ffzatc= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_Bdz4dGB6YOq61ZX83Mu3BIzzg6rRwdLon32f2KLc=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:36.783 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:36.889 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:36.995 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.098 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.203 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.306 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.411 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.513 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.619 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:37.724 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.539 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_Bdz4dGB6YOq61ZX83Mu3BIzzg6rRwdLon32f2KLc= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#170
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_CBSKCfxAJwov8mUfYRZnywzQHgTEoGsCVkBWjTRxb0=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:37:58.643 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:58.750 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:58.854 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:58.957 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.058 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.163 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.269 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.374 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.477 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:37:59.583 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.482 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_CBSKCfxAJwov8mUfYRZnywzQHgTEoGsCVkBWjTRxb0= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_b5S77LjdW09UZEJVO8hR8AumJCH5N46sI7RuFZwoE7Q=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:01.282 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.389 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.494 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.595 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.700 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.806 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:01.908 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:02.014 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:02.119 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:02.224 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.24 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_Gplq+yBweMPD4k7XBM3bobiQXX6kTJvrYbO8YLkATB8=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:23.200 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.306 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.407 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.512 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.617 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.719 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.825 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:23.930 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:24.035 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:24.141 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.535 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_Gplq+yBweMPD4k7XBM3bobiQXX6kTJvrYbO8YLkATB8= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#169
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_j2++aPn6U7TSzEASmy7EZfYyYRg8Dp7p0Hlq698BTT4=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:25.390 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:25.496 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:25.602 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:25.707 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:25.812 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:25.917 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:26.023 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:26.128 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:26.233 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:26.338 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.76 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_j2++aPn6U7TSzEASmy7EZfYyYRg8Dp7p0Hlq698BTT4= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_dX6JDH3ZYQz3DHBAj+HSVY9wUZ73V2w5NP22k9Sj3ZE=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:28.185 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.291 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.396 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.501 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.607 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.712 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.813 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:28.918 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:29.023 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:29.129 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.268 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_dX6JDH3ZYQz3DHBAj+HSVY9wUZ73V2w5NP22k9Sj3ZE= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_k9cGuTTb8QR7fuzeQ3u6LBbXnacOEFGmjWMeWMdQnU=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:30.047 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.154 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.256 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.359 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.465 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.570 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.676 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.782 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.883 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:30.989 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.491 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_k9cGuTTb8QR7fuzeQ3u6LBbXnacOEFGmjWMeWMdQnU= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#168
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_x9S9Qhqbnt3MIAviYxJVCIFQFZBfXob3WpyK4buPI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:51.922 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.029 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.130 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.236 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.341 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.444 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.549 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.654 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.760 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:52.864 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.492 sec <<< FAILURE!
+
+Results :
+
+Failed tests: 
+  testMultipleExceptions(cern.c2mon.server.common.republisher.RepublisherImplTest): expected:<0> but was:<1>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_x9S9Qhqbnt3MIAviYxJVCIFQFZBfXob3WpyK4buPI= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_gMTfDOqw78tzzCoKKwviIno8Ch+twijVz6av8QHeZ8=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:38:54.344 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.450 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.556 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.661 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.766 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.867 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:54.973 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:55.078 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:55.179 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:38:55.280 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.013 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_ATYg2R6YLqQCHYoNJLxFy26AwCW1XpOc5Z3FVFLnGFE=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+Destroying 1 processes
+Destroying process..
+Destroyed 1 processes
+INFO: Surefire failed when running tests for clean_ATYg2R6YLqQCHYoNJLxFy26AwCW1XpOc5Z3FVFLnGFE= with delay: 100
+TRYING TO YIELD AT: cern.c2mon.server.common.republisher.RepublisherImplTest#167
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.

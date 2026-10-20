@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------< io.swagger.core.v3:swagger-jaxrs2 >------------------
+[INFO] Building swagger-jaxrs2 2.2.21-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ swagger-jaxrs2 >>>
+[INFO] 
+[INFO] --- enforcer:3.2.1:enforce (enforce-versions) @ swagger-jaxrs2 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ swagger-jaxrs2 ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from ../.. to target/classes/META-INF
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ swagger-jaxrs2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd:6.4.0:bnd-process (default) @ swagger-jaxrs2 ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ swagger-jaxrs2 ---
+[INFO] Copying 64 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ swagger-jaxrs2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ swagger-jaxrs2 <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ swagger-jaxrs2 ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving io.swagger.core.v3:swagger-jaxrs2:2.2.21-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.293 s
+[INFO] Finished at: 2026-10-11T17:40:40-05:00
+[INFO] ------------------------------------------------------------------------

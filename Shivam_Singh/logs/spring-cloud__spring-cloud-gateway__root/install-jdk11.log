@@ -1,0 +1,116 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:spring-cloud-gateway-sample:jar:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 144, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:grpc:jar:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 107, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:http2:jar:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 62, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:mvc-failure-analyzer:jar:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 54, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:httpclient:jar:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 69, column 12
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.cloud:spring-cloud-gateway-integration-tests:pom:5.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 32, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: osx
+[INFO] os.detected.arch: aarch_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 26.5
+[INFO] os.detected.version.major: 26
+[INFO] os.detected.version.minor: 5
+[INFO] os.detected.classifier: osx-aarch_64
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spring-cloud-gateway-dependencies                                  [pom]
+[INFO] Spring Cloud Gateway                                               [pom]
+[INFO] spring-cloud-gateway-proxyexchange-webflux                         [jar]
+[INFO] spring-cloud-gateway-proxyexchange-webmvc                          [jar]
+[INFO] spring-cloud-gateway-server-webflux                                [jar]
+[INFO] spring-cloud-gateway-server-webmvc                                 [jar]
+[INFO] spring-cloud-starter-gateway-server-webflux                        [jar]
+[INFO] spring-cloud-starter-gateway-server-webmvc                         [jar]
+[INFO] Spring Cloud Gateway Sample                                        [jar]
+[INFO] Spring Cloud Gateway Integration Tests                             [pom]
+[INFO] Spring Cloud Gateway gRPC Integration Test                         [jar]
+[INFO] Spring Cloud Gateway HTTP2 Integration Test                        [jar]
+[INFO] Spring Cloud Gateway MVC Failure Analyzer Integration Test         [jar]
+[INFO] Spring Cloud Gateway HttpClient Integration Test                   [jar]
+[INFO] Spring Cloud Gateway Docs                                          [jar]
+[INFO] 
+[INFO] ----< org.springframework.cloud:spring-cloud-gateway-dependencies >-----
+[INFO] Building spring-cloud-gateway-dependencies 5.0.0-SNAPSHOT         [1/15]
+[INFO]   from spring-cloud-gateway-dependencies/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ spring-cloud-gateway-dependencies ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/spring-cloud__spring-cloud-gateway__root/spring-cloud-gateway-dependencies/pom.xml to /Users/shivamsingh/.m2/repository/org/springframework/cloud/spring-cloud-gateway-dependencies/5.0.0-SNAPSHOT/spring-cloud-gateway-dependencies-5.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------< org.springframework.cloud:spring-cloud-gateway >-----------
+[INFO] Building Spring Cloud Gateway 5.0.0-SNAPSHOT                      [2/15]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- spring-javaformat:0.0.47:apply (default) @ spring-cloud-gateway ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Spring Cloud Gateway 5.0.0-SNAPSHOT:
+[INFO] 
+[INFO] spring-cloud-gateway-dependencies .................. SUCCESS [  0.042 s]
+[INFO] Spring Cloud Gateway ............................... FAILURE [  0.054 s]
+[INFO] spring-cloud-gateway-proxyexchange-webflux ......... SKIPPED
+[INFO] spring-cloud-gateway-proxyexchange-webmvc .......... SKIPPED
+[INFO] spring-cloud-gateway-server-webflux ................ SKIPPED
+[INFO] spring-cloud-gateway-server-webmvc ................. SKIPPED
+[INFO] spring-cloud-starter-gateway-server-webflux ........ SKIPPED
+[INFO] spring-cloud-starter-gateway-server-webmvc ......... SKIPPED
+[INFO] Spring Cloud Gateway Sample ........................ SKIPPED
+[INFO] Spring Cloud Gateway Integration Tests ............. SKIPPED
+[INFO] Spring Cloud Gateway gRPC Integration Test ......... SKIPPED
+[INFO] Spring Cloud Gateway HTTP2 Integration Test ........ SKIPPED
+[INFO] Spring Cloud Gateway MVC Failure Analyzer Integration Test SKIPPED
+[INFO] Spring Cloud Gateway HttpClient Integration Test ... SKIPPED
+[INFO] Spring Cloud Gateway Docs .......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.271 s
+[INFO] Finished at: 2026-10-11T13:36:59-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal io.spring.javaformat:spring-javaformat-maven-plugin:0.0.47:apply (default) on project spring-cloud-gateway: Execution default of goal io.spring.javaformat:spring-javaformat-maven-plugin:0.0.47:apply failed: An API incompatibility was encountered while executing io.spring.javaformat:spring-javaformat-maven-plugin:0.0.47:apply: java.lang.UnsupportedClassVersionError: io/spring/javaformat/eclipse/jdt/jdk17/internal/formatter/DefaultCodeFormatter has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>io.spring.javaformat:spring-javaformat-maven-plugin:0.0.47
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-maven-plugin/0.0.47/spring-javaformat-maven-plugin-0.0.47.jar
+[ERROR] urls[1] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-formatter/0.0.47/spring-javaformat-formatter-0.0.47.jar
+[ERROR] urls[2] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-config/0.0.47/spring-javaformat-config-0.0.47.jar
+[ERROR] urls[3] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-formatter-eclipse-jdt-jdk8/0.0.47/spring-javaformat-formatter-eclipse-jdt-jdk8-0.0.47.jar
+[ERROR] urls[4] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-formatter-eclipse-jdt-jdk17/0.0.47/spring-javaformat-formatter-eclipse-jdt-jdk17-0.0.47.jar
+[ERROR] urls[5] = file:/Users/shivamsingh/.m2/repository/io/spring/javaformat/spring-javaformat-formatter-eclipse-runtime/0.0.47/spring-javaformat-formatter-eclipse-runtime-0.0.47.jar
+[ERROR] urls[6] = file:/Users/shivamsingh/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :spring-cloud-gateway

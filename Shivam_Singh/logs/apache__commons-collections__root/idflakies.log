@@ -1,0 +1,87 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.commons:commons-collections4 >---------------
+[INFO] Building Apache Commons Collections 4.5-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ commons-collections4 >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-version) @ commons-collections4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat:0.13:check (rat-check) @ commons-collections4 ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper:3.2.0:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- antrun:3.0.0:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ commons-collections4 ---
+[INFO] Skipping remote resources execution.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root
+[INFO] Storing buildNumber: 371313a2e4d1da5e0776419ce94bb8b644158a20 at timestamp: 1791766922407
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 351 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/MapUtils.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/MapUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/main/java/org/apache/commons/collections4/comparators/FixedOrderComparator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bundle:5.1.1:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 180 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 239 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/MapUtilsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__commons-collections__root/src/test/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ commons-collections4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ commons-collections4 ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.apache.commons:commons-collections4:4.5-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 739 tests. Time taken: 2.946000099182129 seconds
+INFO: Locating tests...
+INFO: Located 847 tests. Time taken: 1.875 seconds
+INFO: This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+---------------------------------------------------
+Message was:
+This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.736 s
+[INFO] Finished at: 2026-10-11T20:02:40-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< cern.c2mon.server:c2mon-server-common >----------------
+[INFO] Building c2mon-server-common 1.8.40-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ c2mon-server-common >>>
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-server-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ c2mon-server-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ c2mon-server-common ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/.flakesync/clean_CePAdzGsbQt7Sp7uTtgsicPkf59lkSS5NUH3voWXbVA=
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.8.1/surefire-junit4-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.8.1/surefire-junit4-2.8.1.pom (2.6 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.8.1/surefire-providers-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.8.1/surefire-providers-2.8.1.pom (2.3 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.8.1/surefire-junit4-2.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.8.1/surefire-junit4-2.8.1.jar (33 kB at 386 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cern.c2mon.server.common.republisher.RepublisherImplTest
+17:31:23.280 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.393 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.500 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.611 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.716 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.817 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:23.921 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:24.026 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:24.128 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+17:31:24.229 [event-name-republication-thread] ERROR c.c.s.c.republisher.RepublisherImpl - JMS exception caught while attempting re-publication. Will retry shortly.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.919 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.219 s
+[INFO] Finished at: 2026-10-11T17:31:24-05:00
+[INFO] ------------------------------------------------------------------------

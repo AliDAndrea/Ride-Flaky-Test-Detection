@@ -1,0 +1,519 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[INFO] 
+[INFO] ------< org.apache.streampipes:streampipes-extensions-management >------
+[INFO] Building streampipes-extensions-management 0.99.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ streampipes-extensions-management >>>
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-extensions-management ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-extensions-management ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-extensions-management ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-extensions-management ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-extensions-management ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ streampipes-extensions-management <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ streampipes-extensions-management ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_3QmT71qH5HLRfOhNtBxCDbkwqPA113nVBSm4wRoHDNg=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.pom (3.2 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.pom (3.2 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar (260 kB at 2.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar (247 kB at 4.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.pom (3.0 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.11.4/junit-platform-launcher-1.11.4.jar (189 kB at 3.7 MB/s)
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+WARNING: package java.base not in java.base
+[INFO] Running org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.800 s -- in org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Running org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s -- in org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Running org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Running org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexExecid=zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+WARNING: package java.base not in java.base
+[INFO] Running org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.707 s -- in org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Running org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s -- in org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Running org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Running org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.264 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithoutHeader -- Time elapsed: 0.019 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"key_0":"v1","key_1":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"key_1":2.0,"key_0":"v1"}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithoutHeader(CsvParserTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma(CsvParserTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndSemicolon -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndSemicolon(CsvParserTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest.getGuessSchema -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest.getGuessSchema(JsonObjectParsersTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.080 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema -- Time elapsed: 0.069 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"latitude":51.437344,"longitude":6.946535,"temperature":5.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"latitude":51.437344,"temperature":5.0}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema(GeoJsonParserTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest.getGuessSchema -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest.getGuessSchema(JsonArrayParserTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CsvParserTest.getGuessSchemaWithHeaderAndComma:66 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}>
+[ERROR]   CsvParserTest.getGuessSchemaWithHeaderAndSemicolon:77 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}>
+[ERROR]   CsvParserTest.getGuessSchemaWithoutHeader:103 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"key_0":"v1","key_1":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"key_1":2.0,"key_0":"v1"}], fieldStatusInfo={}}>
+[ERROR]   GeoJsonParserTest.getGuessSchema:85 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"latitude":51.437344,"longitude":6.946535,"temperature":5.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"latitude":51.437344,"temperature":5.0}], fieldStatusInfo={}}>
+[ERROR]   JsonArrayParserTest.getGuessSchema:68 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+[ERROR]   JsonObjectParsersTest.getGuessSchema:66 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+[INFO] 
+[ERROR] Tests run: 41, Failures: 6, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexExecid=pYGwciK3pvCbY2sjiCnntThkFZD54mPVTLfTxt4MkE=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+WARNING: package java.base not in java.base
+[INFO] Running org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.045 s -- in org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Running org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s -- in org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Running org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Running org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s -- in org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.485 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma -- Time elapsed: 0.015 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma(CsvParserTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.121 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema -- Time elapsed: 0.107 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"temperature":5.0,"latitude":51.437344}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"latitude":51.437344,"temperature":5.0,"longitude":6.946535}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema(GeoJsonParserTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CsvParserTest.getGuessSchemaWithHeaderAndComma:66 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}>
+[ERROR]   GeoJsonParserTest.getGuessSchema:85 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"temperature":5.0,"latitude":51.437344}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"latitude":51.437344,"temperature":5.0,"longitude":6.946535}], fieldStatusInfo={}}>
+[INFO] 
+[ERROR] Tests run: 41, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for pYGwciK3pvCbY2sjiCnntThkFZD54mPVTLfTxt4MkE=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex
+nondexExecid=OeOTj4GLp+7exXEt4RO5GZqhNGq9PuhmfFsbQ+Y5BeU=
+nondexLogging=CONFIG
+test=
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+WARNING: package java.base not in java.base
+[INFO] Running org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.920 s -- in org.apache.streampipes.extensions.management.init.DeclarersSingletonTest
+[INFO] Running org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 s -- in org.apache.streampipes.extensions.management.locales.LabelGeneratorTest
+[INFO] Running org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in org.apache.streampipes.extensions.management.util.EventSchemaUtilsTest
+[INFO] Running org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in org.apache.streampipes.extensions.management.model.SpServiceDefinitionBuilderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s -- in org.apache.streampipes.extensions.management.connect.GuessManagementTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.345 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma -- Time elapsed: 0.014 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest.getGuessSchemaWithHeaderAndComma(CsvParserTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.040 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest.getGuessSchema -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest.getGuessSchema(JsonArrayKeyParserTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema -- Time elapsed: 0.083 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"latitude":51.437344,"temperature":5.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"temperature":5.0,"latitude":51.437344,"longitude":6.946535}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest.getGuessSchema(GeoJsonParserTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.110 s <<< FAILURE! -- in org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest
+[ERROR] org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest.getGuessSchema -- Time elapsed: 0.088 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":1.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":1.0,"k1":"v1"}], fieldStatusInfo={}}>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest.getGuessSchema(XmlParserTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in org.apache.streampipes.extensions.management.connect.ConnectWorkerDescriptionProviderTest
+[INFO] Running org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in org.apache.streampipes.extensions.management.connect.AdapterWorkerManagementTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CsvParserTest.getGuessSchemaWithHeaderAndComma:66 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2.0,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2.0}], fieldStatusInfo={}}>
+[ERROR]   XmlParserTest.getGuessSchema:71 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":1.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":1.0,"k1":"v1"}], fieldStatusInfo={}}>
+[ERROR]   GeoJsonParserTest.getGuessSchema:85 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"longitude":6.946535,"latitude":51.437344,"temperature":5.0}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"temperature":5.0,"latitude":51.437344,"longitude":6.946535}], fieldStatusInfo={}}>
+[ERROR]   JsonArrayKeyParserTest.getGuessSchema:67 expected: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k2":2,"k1":"v1"}], fieldStatusInfo={}}> but was: <GuessSchema{eventSchema=EventSchema{eventProperties=[EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#string', measurementUnit=null, valueSpecification=null}, EventPropertyPrimitive{runtimeType='http://www.w3.org/2001/XMLSchema#float', measurementUnit=null, valueSpecification=null}]}, eventPreview=[{"k1":"v1","k2":2}], fieldStatusInfo={}}>
+[INFO] 
+[ERROR] Tests run: 41, Failures: 4, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for OeOTj4GLp+7exXEt4RO5GZqhNGq9PuhmfFsbQ+Y5BeU=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexExecid=zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I= -DnondexLogging=CONFIG
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithoutHeader
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndComma
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndSemicolon
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest#getGuessSchema
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexExecid=pYGwciK3pvCbY2sjiCnntThkFZD54mPVTLfTxt4MkE= -DnondexLogging=CONFIG
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndComma
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex" -DnondexExecid=OeOTj4GLp+7exXEt4RO5GZqhNGq9PuhmfFsbQ+Y5BeU= -DnondexLogging=CONFIG
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest#getGuessSchema
+[WARNING] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndComma
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.json.GeoJsonParserTest#getGuessSchema
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayParserTest#getGuessSchema
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithoutHeader
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndComma
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.CsvParserTest#getGuessSchemaWithHeaderAndSemicolon
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonObjectParsersTest#getGuessSchema
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.json.JsonArrayKeyParserTest#getGuessSchema
+[INFO] org.apache.streampipes.extensions.management.connect.adapter.parser.XmlParserTest#getGuessSchema
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex/zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I=/test_results.html
+[INFO] [NonDex] The id of this run is: zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.081 s
+[INFO] Finished at: 2026-10-11T19:09:02-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 16 goals, 16 executed
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project streampipes-extensions-management: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.nondex/zbUQ8JCYY13HuYAXIt7E5QdES3rfOjk8AGdSlFtOK7I= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

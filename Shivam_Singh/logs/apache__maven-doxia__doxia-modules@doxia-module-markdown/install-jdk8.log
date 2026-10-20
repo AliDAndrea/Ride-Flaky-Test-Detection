@@ -1,0 +1,403 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Doxia                                                              [pom]
+[INFO] Doxia :: Sink API                                                  [jar]
+[INFO] Doxia :: Core                                                      [jar]
+[INFO] Doxia :: Modules                                                   [pom]
+[INFO] Doxia :: XHTML5 Module                                             [jar]
+[INFO] Doxia :: Markdown Module                                           [jar]
+[INFO] 
+[INFO] --------------------< org.apache.maven.doxia:doxia >--------------------
+[INFO] Building Doxia 2.1.0-SNAPSHOT                                      [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/maven-metadata.xml
+[INFO] Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/codehaus/mojo/clirr-maven-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/maven-metadata.xml (752 B at 1.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/2.9/clirr-maven-plugin-2.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/2.9/clirr-maven-plugin-2.9.pom (9.2 kB at 128 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/2.9/clirr-maven-plugin-2.9.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/2.9/clirr-maven-plugin-2.9.jar (76 kB at 549 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia/2.1.0-SNAPSHOT/doxia-2.1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< org.apache.maven.doxia:doxia-sink-api >----------------
+[INFO] Building Doxia :: Sink API 2.1.0-SNAPSHOT                          [2/6]
+[INFO]   from doxia-sink-api/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-sink-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-sink-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-sink-api ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-sink-api ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-sink-api ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-sink-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-sink-api ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-sink-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 5 source files with javac [debug deprecation target 8] to target/classes
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-sink-api ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-sink-api ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-sink-api ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-sink-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia-sink-api ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia-sink-api ---
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ doxia-sink-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ doxia-sink-api ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/target/doxia-sink-api-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia-sink-api ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-sink-api/2.1.0-SNAPSHOT/doxia-sink-api-2.1.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-sink-api/target/doxia-sink-api-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-sink-api/2.1.0-SNAPSHOT/doxia-sink-api-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------< org.apache.maven.doxia:doxia-core >------------------
+[INFO] Building Doxia :: Core 2.1.0-SNAPSHOT                              [3/6]
+[INFO]   from doxia-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-testing/1.4.0/plexus-testing-1.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-testing/1.4.0/plexus-testing-1.4.0.pom (2.5 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.pom (10 kB at 167 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/6.0.0/guice-parent-6.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/6.0.0/guice-parent-6.0.0.pom (19 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.pom (5.9 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.pom (3.2 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.pom (2.8 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.pom (2.4 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.0/xmlunit-parent-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-parent/2.10.0/xmlunit-parent-2.10.0.pom (21 kB at 392 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-matchers/2.10.0/xmlunit-matchers-2.10.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-matchers/2.10.0/xmlunit-matchers-2.10.0.pom (2.2 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-testing/1.4.0/plexus-testing-1.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-testing/1.4.0/plexus-testing-1.4.0.jar (6.7 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.1/junit-jupiter-api-5.11.1.jar (216 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-matchers/2.10.0/xmlunit-matchers-2.10.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-matchers/2.10.0/xmlunit-matchers-2.10.0.jar (21 kB at 118 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar (11 kB at 42 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.1/junit-platform-commons-1.11.1.jar (141 kB at 525 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar (181 kB at 576 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.jar (806 kB at 2.1 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-core ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-core ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 62 source files with javac [debug deprecation target 8] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/main/java/org/apache/maven/doxia/sink/impl/AbstractTextSinkFactory.java:[30,32] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/main/java/org/apache/maven/doxia/sink/impl/AbstractTextSinkFactory.java:[52,50] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/main/java/org/apache/maven/doxia/sink/impl/AbstractTextSinkFactory.java:[67,25] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/main/java/org/apache/maven/doxia/sink/impl/AbstractTextSinkFactory.java:[74,32] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-core ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-core ---
+[INFO] Copying 3 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 34 source files with javac [debug deprecation target 8] to target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/AbstractModuleTest.java:[31,32] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/xsd/AbstractXmlValidatorTest.java:[40,32] org.codehaus.plexus.util.ReaderFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/AbstractModuleTest.java:[77,16] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/AbstractModuleTest.java:[123,16] org.codehaus.plexus.util.WriterFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/index/IndexingSinkTest.java:[32,29] IndexingSink(org.apache.maven.doxia.index.IndexEntry) in org.apache.maven.doxia.index.IndexingSink has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/sink/impl/RandomAccessSinkTest.java:[61,9] org.apache.maven.doxia.sink.impl.RandomAccessSink in org.apache.maven.doxia.sink.impl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/sink/impl/RandomAccessSinkTest.java:[61,49] org.apache.maven.doxia.sink.impl.RandomAccessSink in org.apache.maven.doxia.sink.impl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/sink/impl/RandomAccessSinkTest.java:[83,9] org.apache.maven.doxia.sink.impl.RandomAccessSink in org.apache.maven.doxia.sink.impl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/sink/impl/RandomAccessSinkTest.java:[83,49] org.apache.maven.doxia.sink.impl.RandomAccessSink in org.apache.maven.doxia.sink.impl has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/xsd/AbstractXmlValidatorTest.java:[168,30] org.codehaus.plexus.util.ReaderFactory in org.codehaus.plexus.util has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/src/test/java/org/apache/maven/doxia/xsd/AbstractXmlValidatorTest.java:[170,30] org.codehaus.plexus.util.ReaderFactory in org.codehaus.plexus.util has been deprecated
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia-core ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia-core ---
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ doxia-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ doxia-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/target/doxia-core-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.4.2:test-jar (default) @ doxia-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/target/doxia-core-2.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-core/2.1.0-SNAPSHOT/doxia-core-2.1.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/target/doxia-core-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-core/2.1.0-SNAPSHOT/doxia-core-2.1.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-core/target/doxia-core-2.1.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-core/2.1.0-SNAPSHOT/doxia-core-2.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ----------------< org.apache.maven.doxia:doxia-modules >----------------
+[INFO] Building Doxia :: Modules 2.1.0-SNAPSHOT                           [4/6]
+[INFO]   from doxia-modules/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.pom (3.0 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.1/junit-jupiter-params-5.11.1.jar (591 kB at 7.8 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-modules ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-modules ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-modules ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-modules ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-modules ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-modules ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-modules ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-modules ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia-modules ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia-modules ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia-modules ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-modules/2.1.0-SNAPSHOT/doxia-modules-2.1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------< org.apache.maven.doxia:doxia-module-xhtml5 >-------------
+[INFO] Building Doxia :: XHTML5 Module 2.1.0-SNAPSHOT                     [5/6]
+[INFO]   from doxia-modules/doxia-module-xhtml5/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-module-xhtml5 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-module-xhtml5 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-module-xhtml5 ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-module-xhtml5 ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-module-xhtml5 ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-module-xhtml5 ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-module-xhtml5 ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-module-xhtml5 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug deprecation target 8] to target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/src/main/java/org/apache/maven/doxia/module/xhtml5/Xhtml5Parser.java:[209,96] getBasedir() in org.apache.maven.doxia.parser.AbstractParser has been deprecated
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-module-xhtml5 ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-module-xhtml5 ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-module-xhtml5 ---
+[INFO] Copying 5 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-module-xhtml5 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug deprecation target 8] to target/test-classes
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia-module-xhtml5 ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia-module-xhtml5 ---
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ doxia-module-xhtml5 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ doxia-module-xhtml5 ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/target/doxia-module-xhtml5-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia-module-xhtml5 ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/2.1.0-SNAPSHOT/doxia-module-xhtml5-2.1.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-xhtml5/target/doxia-module-xhtml5-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/2.1.0-SNAPSHOT/doxia-module-xhtml5-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------< org.apache.maven.doxia:doxia-module-markdown >------------
+[INFO] Building Doxia :: Markdown Module 2.1.0-SNAPSHOT                   [6/6]
+[INFO]   from doxia-modules/doxia-module-markdown/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.pom (1.5 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.pom (1.7 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.62.2/flexmark-ext-footnotes-0.62.2.jar (31 kB at 688 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/25.0.0/annotations-25.0.0.jar (31 kB at 602 kB/s)
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-module-markdown ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-module-markdown ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-module-markdown ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-module-markdown ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 8 source files with javac [debug deprecation target 8] to target/classes
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-module-markdown ---
+[INFO] Copying 24 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-module-markdown ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug deprecation target 8] to target/test-classes
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (index-project) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:test-index (default) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ doxia-module-markdown ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ doxia-module-markdown ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/doxia-module-markdown-2.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:3.1.2:install-file (copy-doxia-module-xhtml5-to-local-repo) @ doxia-module-markdown ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/../doxia-module-xhtml5/target/doxia-module-xhtml5-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/local-repo/org/apache/maven/doxia/doxia-module-xhtml5/2.1.0-SNAPSHOT/doxia-module-xhtml5-2.1.0-SNAPSHOT.jar
+[INFO] Installing /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/doxia-module-xhtml5-2.1.0-SNAPSHOT5150040873660788255.pom to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/local-repo/org/apache/maven/doxia/doxia-module-xhtml5/2.1.0-SNAPSHOT/doxia-module-xhtml5-2.1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- install:3.1.2:install-file (copy-doxia-to-local-repo) @ doxia-module-markdown ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/../../doxia-core/target/doxia-core-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/local-repo/org/apache/maven/doxia/doxia-core/2.1.0-SNAPSHOT/doxia-core-2.1.0-SNAPSHOT.jar
+[INFO] Installing /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/doxia-core-2.1.0-SNAPSHOT1695367443388837579.pom to /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/local-repo/org/apache/maven/doxia/doxia-core/2.1.0-SNAPSHOT/doxia-core-2.1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ doxia-module-markdown ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/pom.xml to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-module-markdown/2.1.0-SNAPSHOT/doxia-module-markdown-2.1.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/doxia-module-markdown-2.1.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/apache/maven/doxia/doxia-module-markdown/2.1.0-SNAPSHOT/doxia-module-markdown-2.1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Doxia 2.1.0-SNAPSHOT:
+[INFO] 
+[INFO] Doxia .............................................. SUCCESS [  8.480 s]
+[INFO] Doxia :: Sink API .................................. SUCCESS [  2.890 s]
+[INFO] Doxia :: Core ...................................... SUCCESS [ 10.751 s]
+[INFO] Doxia :: Modules ................................... SUCCESS [  0.576 s]
+[INFO] Doxia :: XHTML5 Module ............................. SUCCESS [  1.388 s]
+[INFO] Doxia :: Markdown Module ........................... SUCCESS [  3.037 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.820 s
+[INFO] Finished at: 2026-10-11T18:38:31-05:00
+[INFO] ------------------------------------------------------------------------

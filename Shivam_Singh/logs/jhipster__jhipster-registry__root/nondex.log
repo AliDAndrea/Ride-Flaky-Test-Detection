@@ -1,0 +1,1018 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< io.github.jhipster.registry:jhipster-registry >------------
+[INFO] Building JHipster Registry 4.0.6
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ jhipster-registry >>>
+[INFO] 
+[INFO] --- resources:3.1.0:copy-resources (default-resources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ jhipster-registry ---
+[WARNING]  Parameter 'resources' is read-only, must not be used in configuration
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-versions) @ jhipster-registry ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.1.0:copy-resources (docker-resources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (pre-unit-tests) @ jhipster-registry ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ jhipster-registry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/service/CloudConfigRefreshService.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/service/CloudConfigRefreshService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ jhipster-registry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ jhipster-registry <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ jhipster-registry ---
+INFO: The original argline is: -Djava.security.egd=file:/dev/./urandom -Xmx256m
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_eIB2IMyAnRnROWJAbM8YCASfK9ouGFdPlYp6QyKcC5U=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.405 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.064 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:35:14.306  INFO 18247 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:35:20.574  WARN 18247 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:35:22.130  WARN 18247 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:35:24.055  INFO 18247 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:35:24.059  INFO 18247 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:35:24.066  INFO 18247 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596124063 with initial instances count: 0
+2026-10-09 20:35:24.331  INFO 18247 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:35:24.332  INFO 18247 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:35:24.332  INFO 18247 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:35:24.332  INFO 18247 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:35:25.487  INFO 18247 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 13.417 seconds (JVM running for 15.679)
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.106 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:35:26.070  WARN 18247 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:35:26.096  WARN 18247 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:35:26.109  WARN 18247 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:35:26.123  WARN 18247 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:35:26.133  WARN 18247 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:35:26.232  INFO 18247 --- [      Thread-18] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:35:26.234  INFO 18247 --- [      Thread-18] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=Qd6LlHR3gtix9Jkec1VREw+whzHaHO3m3MrCPTmtISY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.88 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:35:32.248  INFO 18271 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:35:48.218  WARN 18271 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:35:52.713  WARN 18271 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:35:56.975  INFO 18271 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:35:56.978  INFO 18271 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:35:56.983  INFO 18271 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596156981 with initial instances count: 0
+2026-10-09 20:35:57.823  INFO 18271 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:35:57.823  INFO 18271 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:35:57.824  INFO 18271 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:35:57.824  INFO 18271 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:35:59.806  INFO 18271 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.472 seconds (JVM running for 32.725)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.642 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.579 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:36:00.568  WARN 18271 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:36:00.636  WARN 18271 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:36:00.659  WARN 18271 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:36:00.682  WARN 18271 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:36:00.710  WARN 18271 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:36:00.834  INFO 18271 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:36:00.837  INFO 18271 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=t7eciF7fl757S6Prnp9zIbtwvRr9bEmZ0ZWBvKOb2To=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.889 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:36:06.792  INFO 18314 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:36:22.297  WARN 18314 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:36:26.680  WARN 18314 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:36:30.903  INFO 18314 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:36:30.906  INFO 18314 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:36:30.913  INFO 18314 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596190910 with initial instances count: 0
+2026-10-09 20:36:31.753  INFO 18314 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:36:31.754  INFO 18314 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:36:31.754  INFO 18314 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:36:31.754  INFO 18314 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:36:33.584  INFO 18314 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 29.85 seconds (JVM running for 32.122)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.03 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:36:34.322  WARN 18314 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:36:34.369  WARN 18314 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:36:34.393  WARN 18314 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:36:34.415  WARN 18314 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:36:34.442  WARN 18314 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:36:34.548  INFO 18314 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:36:34.551  INFO 18314 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=UYqHnXZ8uDxIL7xqyRlXodFV30Tb8davEBnNLSzoMQ=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.907 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:36:40.307  INFO 18357 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:36:56.107  WARN 18357 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:37:00.529  WARN 18357 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:37:04.941  INFO 18357 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:37:04.945  INFO 18357 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:37:04.952  INFO 18357 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596224948 with initial instances count: 0
+2026-10-09 20:37:05.826  INFO 18357 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:37:05.826  INFO 18357 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:37:05.826  INFO 18357 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:37:05.826  INFO 18357 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:37:07.843  INFO 18357 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.444 seconds (JVM running for 32.712)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.617 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:37:08.475  WARN 18357 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:37:08.508  WARN 18357 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:37:08.531  WARN 18357 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:37:08.555  WARN 18357 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:37:08.580  WARN 18357 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:37:08.688  INFO 18357 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:37:08.691  INFO 18357 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1057510
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=LIxMivwBQHS58vKKlFsZ6AHRIDbTfHpJD2cMkV2mb4=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.897 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.126 s <<< FAILURE! - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] changeLevelTest(io.github.jhipster.registry.web.rest.LogsResourceTest)  Time elapsed: 0.09 s  <<< FAILURE!
+java.lang.AssertionError
+	at io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest(LogsResourceTest.java:55)
+
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:37:14.516  INFO 18397 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:37:30.642  WARN 18397 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:37:35.144  WARN 18397 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:37:39.447  INFO 18397 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:37:39.450  INFO 18397 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:37:39.456  INFO 18397 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596259453 with initial instances count: 0
+2026-10-09 20:37:40.298  INFO 18397 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:37:40.298  INFO 18397 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:37:40.298  INFO 18397 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:37:40.298  INFO 18397 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:37:42.225  INFO 18397 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.623 seconds (JVM running for 32.918)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.838 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.617 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:37:43.013  WARN 18397 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:37:43.047  WARN 18397 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:37:43.070  WARN 18397 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:37:43.094  WARN 18397 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:37:43.119  WARN 18397 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:37:43.227  INFO 18397 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:37:43.230  INFO 18397 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LogsResourceTest.changeLevelTest:55
+[INFO] 
+[ERROR] Tests run: 53, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for LIxMivwBQHS58vKKlFsZ6AHRIDbTfHpJD2cMkV2mb4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1098954
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=InH4rVFhyTyin4+9eU36B0fo088gz7Z53xPuCbhQQkM=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.897 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.133 s <<< FAILURE! - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] changeLevelTest(io.github.jhipster.registry.web.rest.LogsResourceTest)  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError
+	at io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest(LogsResourceTest.java:55)
+
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:37:49.236  INFO 18461 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:38:05.441  WARN 18461 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:38:09.940  WARN 18461 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:38:14.441  INFO 18461 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:38:14.445  INFO 18461 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:38:14.451  INFO 18461 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596294449 with initial instances count: 0
+2026-10-09 20:38:15.338  INFO 18461 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:38:15.338  INFO 18461 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:38:15.338  INFO 18461 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:38:15.339  INFO 18461 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:38:17.235  INFO 18461 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 31.017 seconds (JVM running for 33.331)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.21 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.519 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:38:17.883  WARN 18461 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:38:17.923  WARN 18461 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:38:17.945  WARN 18461 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:38:17.968  WARN 18461 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:38:17.985  WARN 18461 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:38:18.099  INFO 18461 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:38:18.102  INFO 18461 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LogsResourceTest.changeLevelTest:55
+[INFO] 
+[ERROR] Tests run: 53, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for InH4rVFhyTyin4+9eU36B0fo088gz7Z53xPuCbhQQkM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1140398
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=+UA3vGuQuda7GzXAwEX1V082z6wG9Yt2ElRhOQeNYlQ=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.919 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:38:24.113  INFO 18503 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:38:40.007  WARN 18503 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:38:44.587  WARN 18503 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:38:48.959  INFO 18503 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:38:48.964  INFO 18503 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:38:48.968  INFO 18503 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596328967 with initial instances count: 0
+2026-10-09 20:38:49.820  INFO 18503 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:38:49.821  INFO 18503 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:38:49.822  INFO 18503 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:38:49.822  INFO 18503 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:38:51.918  INFO 18503 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.838 seconds (JVM running for 33.17)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.047 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:38:52.572  WARN 18503 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:38:52.605  WARN 18503 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:38:52.628  WARN 18503 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:38:52.652  WARN 18503 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:38:52.671  WARN 18503 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:38:52.778  INFO 18503 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:38:52.781  INFO 18503 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1181842
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=q4oD3ZPifs7QkiXEtH0pd22qpPeNjCKHoXrI21f7Ww=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.887 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.126 s <<< FAILURE! - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] changeLevelTest(io.github.jhipster.registry.web.rest.LogsResourceTest)  Time elapsed: 0.089 s  <<< FAILURE!
+java.lang.AssertionError
+	at io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest(LogsResourceTest.java:55)
+
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:38:58.683  INFO 18544 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:39:14.718  WARN 18544 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:39:19.154  WARN 18544 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:39:23.486  INFO 18544 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:39:23.489  INFO 18544 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:39:23.494  INFO 18544 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596363492 with initial instances count: 0
+2026-10-09 20:39:24.367  INFO 18544 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:39:24.368  INFO 18544 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:39:24.368  INFO 18544 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:39:24.368  INFO 18544 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:39:26.402  INFO 18544 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.753 seconds (JVM running for 33.013)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.955 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.528 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:39:27.072  WARN 18544 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:39:27.106  WARN 18544 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:39:27.133  WARN 18544 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:39:27.157  WARN 18544 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:39:27.185  WARN 18544 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:39:27.307  INFO 18544 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:39:27.309  INFO 18544 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LogsResourceTest.changeLevelTest:55
+[INFO] 
+[ERROR] Tests run: 53, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for q4oD3ZPifs7QkiXEtH0pd22qpPeNjCKHoXrI21f7Ww=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1223286
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=hVyToPjVWQHmfsOxNyCG3GXiNt9E+1y6TciFhpWb83Y=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.876 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.125 s <<< FAILURE! - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[ERROR] changeLevelTest(io.github.jhipster.registry.web.rest.LogsResourceTest)  Time elapsed: 0.085 s  <<< FAILURE!
+java.lang.AssertionError
+	at io.github.jhipster.registry.web.rest.LogsResourceTest.changeLevelTest(LogsResourceTest.java:55)
+
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:39:33.118  INFO 18587 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:39:49.214  WARN 18587 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:39:53.644  WARN 18587 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:39:57.919  INFO 18587 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:39:57.923  INFO 18587 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:39:57.930  INFO 18587 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596397927 with initial instances count: 0
+2026-10-09 20:39:58.862  INFO 18587 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:39:58.862  INFO 18587 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:39:58.862  INFO 18587 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:39:58.862  INFO 18587 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:40:00.898  INFO 18587 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 30.664 seconds (JVM running for 32.943)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.849 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:40:01.635  WARN 18587 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:40:01.678  WARN 18587 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:40:01.700  WARN 18587 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:40:01.721  WARN 18587 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:40:01.746  WARN 18587 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:40:01.844  INFO 18587 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:40:01.847  INFO 18587 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   LogsResourceTest.changeLevelTest:55
+[INFO] 
+[ERROR] Tests run: 53, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for hVyToPjVWQHmfsOxNyCG3GXiNt9E+1y6TciFhpWb83Y=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1264730
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=fN8quq15ZkhxvRYOup+VjLuloy5a3Vw0WSSPIDVKZ4=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.886 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:40:07.759  INFO 18629 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:40:24.625  WARN 18629 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:40:29.523  WARN 18629 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:40:34.349  INFO 18629 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:40:34.352  INFO 18629 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:40:34.358  INFO 18629 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596434355 with initial instances count: 0
+2026-10-09 20:40:35.317  INFO 18629 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:40:35.318  INFO 18629 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:40:35.318  INFO 18629 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:40:35.318  INFO 18629 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:40:37.498  INFO 18629 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 32.751 seconds (JVM running for 35.013)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.934 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.629 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:40:38.277  WARN 18629 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:40:38.309  WARN 18629 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:40:38.334  WARN 18629 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:40:38.354  WARN 18629 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:40:38.379  WARN 18629 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:40:38.480  INFO 18629 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:40:38.482  INFO 18629 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1306174
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex
+nondexExecid=z1Yfqs9nwRfB3pHmF4+FK8dpD9EkkInTq3oQ3KgoDmc=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 s - in io.github.jhipster.registry.filters.responserewriting.SwaggerBasePathRewritingFilterTest
+[INFO] Running io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.891 s - in io.github.jhipster.registry.web.rest.AccountResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s - in io.github.jhipster.registry.web.rest.LogsResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.SshResourceTest
+
+        ██╗ ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
+        ██║ ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
+        ██║ ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
+  ██╗   ██║ ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
+  ╚██████╔╝ ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
+   ╚═════╝  ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
+
+:: JHipster Registry :: Running Spring Boot 2.0.6.RELEASE ::
+:: https://www.jhipster.tech ::
+
+2026-10-09 20:40:44.437  INFO 18692 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : The following profiles are active: composite,dev,swagger
+2026-10-09 20:41:00.634  WARN 18692 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:41:05.058  WARN 18692 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2026-10-09 20:41:09.424  INFO 18692 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-10-09 20:41:09.430  INFO 18692 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2026-10-09 20:41:09.435  INFO 18692 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1791596469433 with initial instances count: 0
+2026-10-09 20:41:10.365  INFO 18692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2026-10-09 20:41:10.366  INFO 18692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2026-10-09 20:41:10.366  INFO 18692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2026-10-09 20:41:10.366  INFO 18692 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2026-10-09 20:41:12.527  INFO 18692 --- [           main] i.g.j.r.web.rest.UserJWTControllerTest   : Started UserJWTControllerTest in 31.203 seconds (JVM running for 33.46)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.39 s - in io.github.jhipster.registry.web.rest.SshResourceTest
+[INFO] Running io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.602 s - in io.github.jhipster.registry.web.rest.UserJWTControllerTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.CustomParameterizedExceptionTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+2026-10-09 20:41:13.328  WARN 18692 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public org.springframework.http.ResponseEntity io.github.jhipster.registry.web.rest.UserJWTController.authorize(io.github.jhipster.registry.web.rest.vm.LoginVM,javax.servlet.http.HttpServletResponse), with 1 error(s): [Field error in object 'loginVM' on field 'username': rejected value [fakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLongfakeUsernameTooLong]; codes [Size.loginVM.username,Size.username,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginVM.username,username]; arguments []; default message [username],50,1]; default message [size must be between 1 and 50]] ]
+2026-10-09 20:41:13.365  WARN 18692 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.access.AccessDeniedException]
+2026-10-09 20:41:13.386  WARN 18692 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2026-10-09 20:41:13.421  WARN 18692 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.github.jhipster.registry.web.rest.errors.CustomParameterizedException]
+2026-10-09 20:41:13.439  WARN 18692 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.232 s - in io.github.jhipster.registry.web.rest.errors.ExceptionTranslatorTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.FieldErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.errors.ParameterizedErrorVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.EurekaVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in io.github.jhipster.registry.web.rest.vm.LoggerVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in io.github.jhipster.registry.web.rest.vm.LoginVMTest
+[INFO] Running io.github.jhipster.registry.web.rest.vm.UserVMTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in io.github.jhipster.registry.web.rest.vm.UserVMTest
+2026-10-09 20:41:13.550  INFO 18692 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-10-09 20:41:13.552  INFO 18692 --- [      Thread-19] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=Qd6LlHR3gtix9Jkec1VREw+whzHaHO3m3MrCPTmtISY= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=t7eciF7fl757S6Prnp9zIbtwvRr9bEmZ0ZWBvKOb2To= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=UYqHnXZ8uDxIL7xqyRlXodFV30Tb8davEBnNLSzoMQ= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1057510 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=LIxMivwBQHS58vKKlFsZ6AHRIDbTfHpJD2cMkV2mb4= -DnondexLogging=CONFIG
+[WARNING] io.github.jhipster.registry.web.rest.LogsResourceTest#changeLevelTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1098954 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=InH4rVFhyTyin4+9eU36B0fo088gz7Z53xPuCbhQQkM= -DnondexLogging=CONFIG
+[WARNING] io.github.jhipster.registry.web.rest.LogsResourceTest#changeLevelTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1140398 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=+UA3vGuQuda7GzXAwEX1V082z6wG9Yt2ElRhOQeNYlQ= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1181842 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=q4oD3ZPifs7QkiXEtH0pd22qpPeNjCKHoXrI21f7Ww= -DnondexLogging=CONFIG
+[WARNING] io.github.jhipster.registry.web.rest.LogsResourceTest#changeLevelTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1223286 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=hVyToPjVWQHmfsOxNyCG3GXiNt9E+1y6TciFhpWb83Y= -DnondexLogging=CONFIG
+[WARNING] io.github.jhipster.registry.web.rest.LogsResourceTest#changeLevelTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1264730 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=fN8quq15ZkhxvRYOup+VjLuloy5a3Vw0WSSPIDVKZ4= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1306174 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex" -DnondexExecid=z1Yfqs9nwRfB3pHmF4+FK8dpD9EkkInTq3oQ3KgoDmc= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] io.github.jhipster.registry.web.rest.LogsResourceTest#changeLevelTest
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex/Qd6LlHR3gtix9Jkec1VREw+whzHaHO3m3MrCPTmtISY=/test_results.html
+[INFO] [NonDex] The id of this run is: Qd6LlHR3gtix9Jkec1VREw+whzHaHO3m3MrCPTmtISY=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:12 min
+[INFO] Finished at: 2026-10-09T20:41:14-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project jhipster-registry: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.nondex/LIxMivwBQHS58vKKlFsZ6AHRIDbTfHpJD2cMkV2mb4= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

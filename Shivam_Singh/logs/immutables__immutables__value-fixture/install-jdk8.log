@@ -1,0 +1,1362 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.immutables.immutables                                          [pom]
+[INFO] org.immutables.testing                                             [jar]
+[INFO] org.immutables.generator                                           [jar]
+[INFO] org.immutables.generator-processor                                 [jar]
+[INFO] org.immutables.metainf                                             [jar]
+[INFO] org.immutables.mirror                                              [jar]
+[INFO] org.immutables.value-annotations                                   [jar]
+[INFO] org.immutables.value-processor                                     [jar]
+[INFO] org.immutables.value                                               [jar]
+[INFO] org.immutables.annotate                                            [jar]
+[INFO] org.immutables.builder                                             [jar]
+[INFO] org.immutables.android-stub                                        [jar]
+[INFO] org.immutables.gson                                                [jar]
+[INFO] org.immutables.processor-testlib                                   [jar]
+[INFO] org.immutables.criteria                                            [pom]
+[INFO] org.immutables.criteria-common                                     [jar]
+[INFO] org.immutables.mongo                                               [jar]
+[INFO] org.immutables.serial                                              [jar]
+[INFO] org.immutables.encode                                              [jar]
+[INFO] org.immutables.value-fixture                                       [jar]
+[INFO] 
+[INFO] ---------------------< org.immutables:immutables >----------------------
+[INFO] Building org.immutables.immutables 2.9.0-SNAPSHOT                 [1/20]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.12/build-helper-maven-plugin-1.12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.12/build-helper-maven-plugin-1.12.pom (6.1 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.12/build-helper-maven-plugin-1.12.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.12/build-helper-maven-plugin-1.12.jar (62 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ immutables ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ immutables ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ immutables ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ immutables ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/immutables-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ immutables ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/immutables-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ immutables ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/immutables-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/immutables/2.9.0-SNAPSHOT/immutables-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/target/immutables-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/immutables/2.9.0-SNAPSHOT/immutables-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:testing >-----------------------
+[INFO] Building org.immutables.testing 2.9.0-SNAPSHOT                    [2/20]
+[INFO]   from testing/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.pom (3.2 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.pom (2.8 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.pom (3.2 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.pom (3.2 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.3/junit-jupiter-params-5.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.3/junit-jupiter-params-5.6.3.pom (3.0 kB at 68 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.3/junit-vintage-engine-5.6.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.3/junit-vintage-engine-5.6.3.pom (3.3 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom (1.3 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.pom (11 kB at 242 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar (154 kB at 2.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.3/junit-jupiter-params-5.6.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.3/junit-vintage-engine-5.6.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar (174 kB at 2.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar (4.8 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar (209 kB at 790 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/vintage/junit-vintage-engine/5.6.3/junit-vintage-engine-5.6.3.jar (64 kB at 230 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar (97 kB at 335 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.6.3/junit-jupiter-params-5.6.3.jar (562 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar (252 kB at 738 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar (3.6 MB at 9.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ testing ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ testing ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ testing ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ testing ---
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ testing ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ testing ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ testing ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ testing ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ testing ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/testing-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ testing ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/testing-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ testing ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/testing/2.9.0-SNAPSHOT/testing-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/testing-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/testing/2.9.0-SNAPSHOT/testing-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/testing/target/testing-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/testing/2.9.0-SNAPSHOT/testing-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ----------------------< org.immutables:generator >----------------------
+[INFO] Building org.immutables.generator 2.9.0-SNAPSHOT                  [3/20]
+[INFO]   from generator/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.26.0/ecj-3.26.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.26.0/ecj-3.26.0.pom (1.7 kB at 19 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ generator ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ generator ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ generator ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ generator ---
+[INFO] Compiling 24 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ generator ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ generator ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ generator ---
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ generator ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ generator ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generator-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ generator ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generator-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ generator ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/generator/2.9.0-SNAPSHOT/generator-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generator-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/generator/2.9.0-SNAPSHOT/generator-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator/target/generator-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/generator/2.9.0-SNAPSHOT/generator-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------< org.immutables:generator-processor >-----------------
+[INFO] Building org.immutables.generator-processor 2.9.0-SNAPSHOT        [4/20]
+[INFO]   from generator-processor/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.5.1/value-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.5.1/value-2.5.1.pom (4.7 kB at 55 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/immutables/2.5.1/immutables-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/immutables/2.5.1/immutables-2.5.1.pom (7.1 kB at 94 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.pom (3.2 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1.pom (5.7 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/generator/2.5.1/generator-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/generator/2.5.1/generator-2.5.1.pom (2.8 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/dependency/utility/2.5.1/utility-2.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/dependency/utility/2.5.1/utility-2.5.1.pom (1.6 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-java/1.3.1/parboiled-java-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-java/1.3.1/parboiled-java-1.3.1.pom (2.6 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-core/1.3.1/parboiled-core-1.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-core/1.3.1/parboiled-core-1.3.1.pom (1.7 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.pom (3.6 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.5.1/value-2.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.5.1/value-2.5.1.jar (2.7 MB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-java/1.3.1/parboiled-java-1.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1-standalone.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-core/1.3.1/parboiled-core-1.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-java/1.3.1/parboiled-java-1.3.1.jar (79 kB at 982 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/parboiled/parboiled-core/1.3.1/parboiled-core-1.3.1.jar (194 kB at 2.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar (82 kB at 927 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.jar (16 kB at 77 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1-standalone.jar (1.3 MB at 6.0 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ generator-processor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ generator-processor ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ generator-processor ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ generator-processor ---
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/src/org/immutables/generator/processor/Trees.java:[262,16] Attribute initializer named 'from' clashes with special builder method, which will not be generated to not have ambiguous overload or conflict
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/src/org/immutables/generator/processor/Trees.java:[262,16] Attribute initializer named 'from' clashes with special builder method, which will not be generated to not have ambiguous overload or conflict
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/src/org/immutables/generator/processor/Trees.java:[262,16] Attribute initializer named 'from' clashes with special builder method, which will not be generated to not have ambiguous overload or conflict
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ generator-processor ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ generator-processor ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ generator-processor ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ generator-processor ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ generator-processor ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generator-processor-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ generator-processor ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generator-processor-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ generator-processor ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/generator-processor/2.9.0-SNAPSHOT/generator-processor-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generator-processor-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/generator-processor/2.9.0-SNAPSHOT/generator-processor-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/generator-processor/target/generator-processor-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/generator-processor/2.9.0-SNAPSHOT/generator-processor-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:metainf >-----------------------
+[INFO] Building org.immutables.metainf 2.9.0-SNAPSHOT                    [5/20]
+[INFO]   from metainf/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/tools/maven-shade-plugin/4/maven-shade-plugin-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/tools/maven-shade-plugin/4/maven-shade-plugin-4.pom (8.8 kB at 85 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/tools/maven-shade-plugin/4/maven-shade-plugin-4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/tools/maven-shade-plugin/4/maven-shade-plugin-4.jar (112 kB at 1.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.5.1/metainf-2.5.1.jar (9.7 kB at 67 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ metainf ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ metainf ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ metainf ---
+[INFO] Copying 1 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ metainf ---
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ metainf ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ metainf ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/test
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ metainf ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ metainf ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ metainf ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ metainf ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- shade:4:shade (default) @ metainf ---
+[INFO] Including org.immutables:generator:jar:2.9.0-SNAPSHOT in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:19.0 in the shaded jar.
+[INFO] Minimizing jar org.immutables:metainf:jar:2.9.0-SNAPSHOT
+[INFO] Minimized 1846 -> 892 (48%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT.jar with /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- shade:4:shade (annotations) @ metainf ---
+[INFO] Excluding org.immutables:generator:jar:2.9.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.google.guava:guava:jar:19.0 from the shaded jar.
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/metainf/2.9.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT-sources.jar
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ metainf ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/dependency-reduced-pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT-tests.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT-annotations.jar to /Users/shivamsingh/.m2/repository/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT-annotations.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/metainf/target/metainf-2.9.0-SNAPSHOT-annotations-sources.jar to /Users/shivamsingh/.m2/repository/org/immutables/metainf/2.9.0-SNAPSHOT/metainf-2.9.0-SNAPSHOT-annotations-sources.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:mirror >------------------------
+[INFO] Building org.immutables.mirror 2.9.0-SNAPSHOT                     [6/20]
+[INFO]   from mirror/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ mirror ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ mirror ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mirror ---
+[INFO] Copying 1 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ mirror ---
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ mirror ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mirror ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ mirror ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ mirror ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ mirror ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/mirror-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ mirror ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/mirror-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ mirror ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/mirror/2.9.0-SNAPSHOT/mirror-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/mirror-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/mirror/2.9.0-SNAPSHOT/mirror-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mirror/target/mirror-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/mirror/2.9.0-SNAPSHOT/mirror-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------< org.immutables:value-annotations >------------------
+[INFO] Building org.immutables.value-annotations 2.9.0-SNAPSHOT          [7/20]
+[INFO]   from value-annotations/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ value-annotations ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ value-annotations ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ value-annotations ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ value-annotations ---
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ value-annotations ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ value-annotations ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/test
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ value-annotations ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ value-annotations ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ value-annotations ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/value-annotations-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ value-annotations ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/value-annotations-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (default) @ value-annotations ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ value-annotations ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/value-annotations/2.9.0-SNAPSHOT/value-annotations-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/value-annotations-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-annotations/2.9.0-SNAPSHOT/value-annotations-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-annotations/target/value-annotations-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-annotations/2.9.0-SNAPSHOT/value-annotations-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -------------------< org.immutables:value-processor >-------------------
+[INFO] Building org.immutables.value-processor 2.9.0-SNAPSHOT            [8/20]
+[INFO]   from value-processor/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.7.5/metainf-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.7.5/metainf-2.7.5.pom (6.5 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/immutables/2.7.5/immutables-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/immutables/2.7.5/immutables-2.7.5.pom (12 kB at 276 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.7.5/value-2.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.7.5/value-2.7.5.pom (5.4 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.7.5/metainf-2.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/metainf/2.7.5/metainf-2.7.5.jar (1.3 MB at 10 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.7.5/value-2.7.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/immutables/value/2.7.5/value-2.7.5.jar (2.9 MB at 18 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ value-processor ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ value-processor ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ value-processor ---
+[INFO] Copying 16 resources from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ value-processor ---
+[INFO] Compiling 94 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/src/org/immutables/value/processor/meta/AttributeBuilderReflection.java:[30,17] (immutables:incompat) effective Style.visibility cannot be PRIVATE when builder is disabled and is not nested, automatically switching visibility to PACKAGE because top level implementation class is required
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/src/org/immutables/value/processor/meta/AttributeBuilderReflection.java:[136,19] (immutables:incompat) effective Style.visibility cannot be PRIVATE when builder is disabled and is not nested, automatically switching visibility to PACKAGE because top level implementation class is required
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/src/org/immutables/value/processor/meta/AttributeBuilderReflection.java:[176,19] (immutables:incompat) effective Style.visibility cannot be PRIVATE when builder is disabled and is not nested, automatically switching visibility to PACKAGE because top level implementation class is required
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/src/org/immutables/value/processor/encode/Structurizer.java:[97,5] (immutables:untype) @Value.Default on a optional attribute make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/src/org/immutables/value/processor/meta/Proto.java:[1887,26] (immutables:incompat) Avoid introduction of fields (except constants) in abstract value types
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ value-processor ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ value-processor ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ value-processor ---
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ value-processor ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ value-processor ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/value-processor-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ value-processor ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/value-processor-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ value-processor ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/value-processor/2.9.0-SNAPSHOT/value-processor-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/value-processor-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-processor/2.9.0-SNAPSHOT/value-processor-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-processor/target/value-processor-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-processor/2.9.0-SNAPSHOT/value-processor-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------------< org.immutables:value >------------------------
+[INFO] Building org.immutables.value 2.9.0-SNAPSHOT                      [9/20]
+[INFO]   from value/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ value ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ value ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ value ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ value ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ value ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ value ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/test
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ value ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ value ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ value ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ value ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- shade:4:shade (default) @ value ---
+[WARNING] Map in class org.apache.maven.plugins.shade.resource.ManifestResourceTransformer declares value type as: class java.util.jar.Attributes but saw: class java.lang.String at runtime
+[INFO] Including org.immutables:value-annotations:jar:2.9.0-SNAPSHOT in the shaded jar.
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/value-annotations/2.9.0-SNAPSHOT/value-annotations-2.9.0-SNAPSHOT-sources.jar
+[INFO] Including org.immutables:value-processor:jar:2.9.0-SNAPSHOT in the shaded jar.
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/value-processor/2.9.0-SNAPSHOT/value-processor-2.9.0-SNAPSHOT-sources.jar
+[INFO] Including com.google.guava:guava:jar:19.0 in the shaded jar.
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar (1.3 MB at 16 MB/s)
+[INFO] Including org.immutables:generator:jar:2.9.0-SNAPSHOT in the shaded jar.
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/generator/2.9.0-SNAPSHOT/generator-2.9.0-SNAPSHOT-sources.jar
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/value/2.9.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT-sources.jar
+[INFO] Minimizing jar org.immutables:value:jar:2.9.0-SNAPSHOT
+[INFO] Minimized 2844 -> 1920 (67%)
+[INFO] Minimized 2844 -> 1920 (67%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT.jar with /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-shaded.jar
+[INFO] Replacing original source artifact with shaded source artifact.
+[INFO] Replacing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-sources.jar with /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-shaded-sources.jar
+[INFO] Dependency-reduced POM written at: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- shade:4:shade (annotations) @ value ---
+[WARNING] Map in class org.apache.maven.plugins.shade.resource.ManifestResourceTransformer declares value type as: class java.util.jar.Attributes but saw: class java.lang.String at runtime
+[INFO] Including org.immutables:value-annotations:jar:2.9.0-SNAPSHOT in the shaded jar.
+[INFO] Excluding org.immutables:value-processor:jar:2.9.0-SNAPSHOT from the shaded jar.
+[INFO] Excluding com.google.guava:guava:jar:19.0 from the shaded jar.
+[INFO] Excluding org.immutables:generator:jar:2.9.0-SNAPSHOT from the shaded jar.
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ value ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/dependency-reduced-pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT-tests.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-sources.jar to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT-sources.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-annotations.jar to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT-annotations.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value/target/value-2.9.0-SNAPSHOT-annotations-sources.jar to /Users/shivamsingh/.m2/repository/org/immutables/value/2.9.0-SNAPSHOT/value-2.9.0-SNAPSHOT-annotations-sources.jar
+[INFO] 
+[INFO] ----------------------< org.immutables:annotate >-----------------------
+[INFO] Building org.immutables.annotate 2.9.0-SNAPSHOT                  [10/20]
+[INFO]   from annotate/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ annotate ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ annotate ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ annotate ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ annotate ---
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ annotate ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ annotate ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ annotate ---
+[INFO] Compiling 3 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ annotate ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ annotate ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/annotate-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ annotate ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/annotate-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ annotate ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/annotate/2.9.0-SNAPSHOT/annotate-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/annotate-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/annotate/2.9.0-SNAPSHOT/annotate-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/annotate/target/annotate-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/annotate/2.9.0-SNAPSHOT/annotate-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:builder >-----------------------
+[INFO] Building org.immutables.builder 2.9.0-SNAPSHOT                   [11/20]
+[INFO]   from builder/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ builder ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ builder ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ builder ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ builder ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ builder ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ builder ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ builder ---
+[INFO] Compiling 17 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/generated-test-sources/test-annotations/org/immutables/builder/fixture/telescopic/ImmutableMozi.java:[571,29] Possible heap pollution from parameterized vararg type V
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ builder ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ builder ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/builder-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ builder ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/builder-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ builder ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/builder/2.9.0-SNAPSHOT/builder-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/builder-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/builder/2.9.0-SNAPSHOT/builder-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/builder/target/builder-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/builder/2.9.0-SNAPSHOT/builder-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --------------------< org.immutables:android-stub >---------------------
+[INFO] Building org.immutables.android-stub 2.9.0-SNAPSHOT              [12/20]
+[INFO]   from android-stub/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ android-stub ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ android-stub ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ android-stub ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ android-stub ---
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ android-stub ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ android-stub ---
+[INFO] Copying 1 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ android-stub ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ android-stub ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ android-stub ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/android-stub-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ android-stub ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/android-stub-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ android-stub ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/android-stub/2.9.0-SNAPSHOT/android-stub-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/android-stub-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/android-stub/2.9.0-SNAPSHOT/android-stub-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/android-stub/target/android-stub-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/android-stub/2.9.0-SNAPSHOT/android-stub-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------------< org.immutables:gson >-------------------------
+[INFO] Building org.immutables.gson 2.9.0-SNAPSHOT                      [13/20]
+[INFO]   from gson/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8.pom (6.0 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.8/gson-parent-2.8.8.pom (4.6 kB at 113 kB/s)
+[INFO] Artifact com.fasterxml.jackson.core:jackson-core:pom:2.8.11 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.fasterxml.jackson.core:jackson-core:pom:2.8.11 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11.pom (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.6/jackson-databind-2.8.11.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.6/jackson-databind-2.8.11.6.pom (5.4 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.11/jersey-client-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.11/jersey-client-2.11.pom (6.0 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.11/project-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.11/project-2.11.pom (64 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.3.0-b05/hk2-bom-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-bom/2.3.0-b05/hk2-bom-2.3.0-b05.pom (18 kB at 379 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.11/jersey-common-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.11/jersey-common-2.11.pom (9.9 kB at 241 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.11/jersey-guava-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.11/jersey-guava-2.11.pom (12 kB at 298 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.11/project-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.11/project-2.11.pom (2.7 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.11/project-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.11/project-2.11.pom (3.1 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.3.0-b05/hk2-api-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.3.0-b05/hk2-api-2.3.0-b05.pom (4.5 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.3.0-b05/hk2-parent-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-parent/2.3.0-b05/hk2-parent-2.3.0-b05.pom (40 kB at 935 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.3.0-b05/hk2-utils-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.3.0-b05/hk2-utils-2.3.0-b05.pom (5.1 kB at 126 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b05/aopalliance-repackaged-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b05/aopalliance-repackaged-2.3.0-b05.pom (6.8 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.3.0-b05/external-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/2.3.0-b05/external-2.3.0-b05.pom (2.9 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.3.0-b05/javax.inject-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.3.0-b05/javax.inject-2.3.0-b05.pom (6.5 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.3.0-b05/hk2-locator-2.3.0-b05.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.3.0-b05/hk2-locator-2.3.0-b05.pom (5.5 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-grizzly2-http/2.11/jersey-container-grizzly2-http-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-grizzly2-http/2.11/jersey-container-grizzly2-http-2.11.pom (4.1 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.11/project-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.11/project-2.11.pom (3.8 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.16/grizzly-http-server-2.3.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.16/grizzly-http-server-2.3.16.pom (5.3 kB at 104 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-project/2.3.16/grizzly-project-2.3.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-project/2.3.16/grizzly-project-2.3.16.pom (20 kB at 435 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-bom/2.3.16/grizzly-bom-2.3.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-bom/2.3.16/grizzly-bom-2.3.16.pom (10 kB at 211 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.16/grizzly-http-2.3.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.16/grizzly-http-2.3.16.pom (4.5 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.16/grizzly-framework-2.3.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.16/grizzly-framework-2.3.16.pom (6.6 kB at 164 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.11/jersey-server-2.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.11/jersey-server-2.11.pom (9.2 kB at 229 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.pom (6.2 kB at 147 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.11/jackson-dataformat-xml-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.11/jackson-dataformat-xml-2.8.11.pom (5.5 kB at 135 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11/jackson-databind-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11/jackson-databind-2.8.11.pom (5.4 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.11/jackson-module-jaxb-annotations-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.11/jackson-module-jaxb-annotations-2.8.11.pom (3.5 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11/jackson-bom-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11/jackson-bom-2.8.11.pom (10 kB at 260 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.pom (7.2 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.pom (4.9 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/32/oss-parent-32.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/32/oss-parent-32.pom (22 kB at 514 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.pom (1.9 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.8.11/jackson-dataformats-binary-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.8.11/jackson-dataformats-binary-2.8.11.pom (3.2 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.8.11/jackson-dataformat-properties-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.8.11/jackson-dataformat-properties-2.8.11.pom (3.2 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.pom (2.1 kB at 50 kB/s)
+[INFO] Artifact com.fasterxml.jackson.core:jackson-core:jar:2.8.11 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact com.fasterxml.jackson.core:jackson-core:jar:2.8.11 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar (242 kB at 5.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.6/jackson-databind-2.8.11.6.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.11/jersey-client-2.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.11/jersey-common-2.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.11/jersey-guava-2.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.11/jackson-core-2.8.11.jar (0 B at 0 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.3.0-b05/hk2-api-2.3.0-b05.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.11/jersey-client-2.11.jar (155 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.3.0-b05/hk2-utils-2.3.0-b05.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-common/2.11/jersey-common-2.11.jar (726 kB at 4.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.3.0-b05/hk2-utils-2.3.0-b05.jar (83 kB at 541 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.3.0-b05/javax.inject-2.3.0-b05.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b05/aopalliance-repackaged-2.3.0-b05.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.11/jersey-guava-2.11.jar (963 kB at 6.3 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.3.0-b05/hk2-locator-2.3.0-b05.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.11.6/jackson-databind-2.8.11.6.jar (1.2 MB at 7.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-grizzly2-http/2.11/jersey-container-grizzly2-http-2.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/javax.inject/2.3.0-b05/javax.inject-2.3.0-b05.jar (5.9 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.16/grizzly-http-server-2.3.16.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b05/aopalliance-repackaged-2.3.0-b05.jar (15 kB at 72 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.16/grizzly-http-2.3.16.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-locator/2.3.0-b05/hk2-locator-2.3.0-b05.jar (162 kB at 788 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.16/grizzly-framework-2.3.16.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-grizzly2-http/2.11/jersey-container-grizzly2-http-2.11.jar (27 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.11/jersey-server-2.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http-server/2.3.16/grizzly-http-server-2.3.16.jar (281 kB at 1.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-http/2.3.16/grizzly-http-2.3.16.jar (331 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.11/jackson-dataformat-xml-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-api/2.3.0-b05/hk2-api-2.3.0-b05.jar (159 kB at 526 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-framework/2.3.16/grizzly-framework-2.3.16.jar (879 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.11/jackson-module-jaxb-annotations-2.8.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.11/jackson-dataformat-yaml-2.8.11.jar (41 kB at 124 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.11/jackson-module-jaxb-annotations-2.8.11.jar (35 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.8.11/jackson-dataformat-properties-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.8.11/jackson-dataformat-xml-2.8.11.jar (96 kB at 277 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.11/jackson-dataformat-smile-2.8.11.jar (74 kB at 195 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar (514 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.11/jersey-server-2.11.jar (920 kB at 2.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.11/jackson-dataformat-cbor-2.8.11.jar (51 kB at 131 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.8.11/jackson-dataformat-properties-2.8.11.jar (47 kB at 86 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ gson ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ gson ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ gson ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ gson ---
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ gson ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ gson ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ gson ---
+[INFO] Compiling 41 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/test/org/immutables/gson/adapter/Polymorphics.java:[52,17] (immutables:from) Attribute initializer named 'from' clashes with special builder method, which will not be generated to not have ambiguous overload or conflict
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ gson ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ gson ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ gson ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- shade:4:shade (default) @ gson ---
+[WARNING] Map in class org.apache.maven.plugins.shade.resource.ManifestResourceTransformer declares value type as: class java.util.jar.Attributes but saw: class java.lang.String at runtime
+[INFO] Excluding com.google.code.gson:gson:jar:2.8.8 from the shaded jar.
+[INFO] Excluding javax.ws.rs:javax.ws.rs-api:jar:2.0 from the shaded jar.
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/gson/2.9.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT-sources.jar
+[INFO] Attaching shaded artifact.
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ gson ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT-tests.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT-annotations.jar to /Users/shivamsingh/.m2/repository/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT-annotations.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/gson/target/gson-2.9.0-SNAPSHOT-annotations-sources.jar to /Users/shivamsingh/.m2/repository/org/immutables/gson/2.9.0-SNAPSHOT/gson-2.9.0-SNAPSHOT-annotations-sources.jar
+[INFO] 
+[INFO] ------------------< org.immutables:processor-testlib >------------------
+[INFO] Building org.immutables.processor-testlib 2.9.0-SNAPSHOT         [14/20]
+[INFO]   from processor-testlib/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.19/compile-testing-0.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.19/compile-testing-0.19.pom (6.7 kB at 87 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1/truth-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1/truth-1.1.pom (6.4 kB at 131 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/truth/truth-parent/1.1/truth-parent-1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/truth/truth-parent/1.1/truth-parent-1.1.pom (17 kB at 383 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.7.0/checker-qual-3.7.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.7.0/checker-qual-3.7.0.pom (2.2 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/0.11/auto-common-0.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/0.11/auto-common-0.11.pom (4.4 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.19/compile-testing-0.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.19/compile-testing-0.19.jar (136 kB at 2.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1/truth-1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.7.0/checker-qual-3.7.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/0.11/auto-common-0.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/0.11/auto-common-0.11.jar (103 kB at 1.9 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.7.0/checker-qual-3.7.0.jar (226 kB at 4.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/truth/truth/1.1/truth-1.1.jar (241 kB at 2.7 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ processor-testlib ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ processor-testlib ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ processor-testlib ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ processor-testlib ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ processor-testlib ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ processor-testlib ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ processor-testlib ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ processor-testlib ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ processor-testlib ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/processor-testlib-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ processor-testlib ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/processor-testlib-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ processor-testlib ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/processor-testlib/2.9.0-SNAPSHOT/processor-testlib-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/processor-testlib-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/processor-testlib/2.9.0-SNAPSHOT/processor-testlib-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/processor-testlib/target/processor-testlib-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/processor-testlib/2.9.0-SNAPSHOT/processor-testlib-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ----------------------< org.immutables:criteria >-----------------------
+[INFO] Building org.immutables.criteria 2.9.0-SNAPSHOT                  [15/20]
+[INFO]   from criteria/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ criteria ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ criteria ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ criteria ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ criteria ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/criteria-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ criteria ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/criteria-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ criteria ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/criteria-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/criteria/2.9.0-SNAPSHOT/criteria-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/target/criteria-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/criteria/2.9.0-SNAPSHOT/criteria-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -------------------< org.immutables:criteria-common >-------------------
+[INFO] Building org.immutables.criteria-common 2.9.0-SNAPSHOT           [16/20]
+[INFO]   from criteria/common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.2.19/rxjava-2.2.19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.2.19/rxjava-2.2.19.pom (2.4 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/19.0/guava-testlib-19.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/19.0/guava-testlib-19.0.pom (2.9 kB at 69 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.0.2/error_prone_annotations-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.0.2/error_prone_annotations-2.0.2.pom (1.3 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.0.2/error_prone_parent-2.0.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.0.2/error_prone_parent-2.0.2.pom (4.3 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue/3.0.0/fugue-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue/3.0.0/fugue-3.0.0.pom (2.6 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue-parent/3.0.0/fugue-parent-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue-parent/3.0.0/fugue-parent-3.0.0.pom (7.0 kB at 159 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/atlassian/pom/central-pom/4.0.4/central-pom-4.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/atlassian/pom/central-pom/4.0.4/central-pom-4.0.4.pom (4.5 kB at 110 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/4.0.4/base-pom-4.0.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/4.0.4/base-pom-4.0.4.pom (28 kB at 650 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.2.19/rxjava-2.2.19.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/reactivex/rxjava2/rxjava/2.2.19/rxjava-2.2.19.jar (2.4 MB at 21 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/19.0/guava-testlib-19.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.0.2/error_prone_annotations-2.0.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue/3.0.0/fugue-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/atlassian/fugue/fugue/3.0.0/fugue-3.0.0.jar (99 kB at 2.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.0.2/error_prone_annotations-2.0.2.jar (6.4 kB at 143 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/19.0/guava-testlib-19.0.jar (754 kB at 13 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ criteria-common ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ criteria-common ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ criteria-common ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ criteria-common ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_core/2.9.0/error_prone_core-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_core/2.9.0/error_prone_core-2.9.0.jar (2.9 MB at 22 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_core/2.9.0/error_prone_core-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_core/2.9.0/error_prone_core-2.9.0.pom (17 kB at 435 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.9.0/error_prone_parent-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.9.0/error_prone_parent-2.9.0.pom (11 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotation/2.9.0/error_prone_annotation-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotation/2.9.0/error_prone_annotation-2.9.0.pom (1.8 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_type_annotations/2.9.0/error_prone_type_annotations-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_type_annotations/2.9.0/error_prone_type_annotations-2.9.0.pom (1.6 kB at 40 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_check_api/2.9.0/error_prone_check_api-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_check_api/2.9.0/error_prone_check_api-2.9.0.pom (5.3 kB at 143 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/dataflow-errorprone/3.15.0/dataflow-errorprone-3.15.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/dataflow-errorprone/3.15.0/dataflow-errorprone-3.15.0.pom (2.0 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.pom (13 kB at 301 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.pom (9.3 kB at 223 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.4.1.201607150455-r/org.eclipse.jgit-parent-4.4.1.201607150455-r.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/4.4.1.201607150455-r/org.eclipse.jgit-parent-4.4.1.201607150455-r.pom (27 kB at 629 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.7/auto-value-annotations-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.7/auto-value-annotations-1.7.pom (2.6 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.7/auto-value-parent-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-parent/1.7/auto-value-parent-1.7.pom (6.1 kB at 161 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.pom (2.1 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.8/caffeine-2.8.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.8/caffeine-2.8.8.pom (2.1 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.1.2/auto-common-1.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.1.2/auto-common-1.1.2.pom (4.4 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.pom (4.7 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.4.0/protobuf-parent-3.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.4.0/protobuf-parent-3.4.0.pom (6.8 kB at 196 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotation/2.9.0/error_prone_annotation-2.9.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/dataflow-errorprone/3.15.0/dataflow-errorprone-3.15.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_check_api/2.9.0/error_prone_check_api-2.9.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_type_annotations/2.9.0/error_prone_type_annotations-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_type_annotations/2.9.0/error_prone_type_annotations-2.9.0.jar (3.1 kB at 71 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotation/2.9.0/error_prone_annotation-2.9.0.jar (7.7 kB at 133 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar (16 kB at 286 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.7/auto-value-annotations-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/dataflow-errorprone/3.15.0/dataflow-errorprone-3.15.0.jar (1.1 MB at 16 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.1.2/auto-common-1.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_check_api/2.9.0/error_prone_check_api-2.9.0.jar (677 kB at 7.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.7/auto-value-annotations-1.7.jar (5.9 kB at 123 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.jar (46 kB at 850 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/auto/auto-common/1.1.2/auto-common-1.1.2.jar (111 kB at 2.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.jar (2.4 MB at 16 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar (1.4 MB at 12 MB/s)
+[INFO] Compiling 147 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/src/org/immutables/criteria/backend/StandardOperations.java:[173,11] (immutables:untype) Wildcards are not supported as elements or key/values. Make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/src/org/immutables/criteria/backend/StandardOperations.java:[188,11] (immutables:untype) Wildcards are not supported as elements or key/values. Make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/src/org/immutables/criteria/matcher/ObjectMatcher.java:[55,17] [unchecked] Possible heap pollution from parameterized vararg type V
+  where V is a type-variable:
+    V extends Object declared in interface ObjectMatcher
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/src/org/immutables/criteria/matcher/ObjectMatcher.java:[64,20] [unchecked] Possible heap pollution from parameterized vararg type V
+  where V is a type-variable:
+    V extends Object declared in interface ObjectMatcher
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ criteria-common ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ criteria-common ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ criteria-common ---
+[INFO] Compiling 73 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/test/org/immutables/criteria/typemodel/TypeHolder.java:[450,31] (immutables:untype) Optional<Optional<*>> is turned into regular attribute to avoid ambiguity problems
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/test/org/immutables/criteria/typemodel/TypeHolder.java:[453,26] (immutables:untype) Optional<Optional<*>> is turned into regular attribute to avoid ambiguity problems
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/test/org/immutables/criteria/processor/JavaBeanModelTest.java:[328,9] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase attribute names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/test/org/immutables/criteria/processor/JavaBeanModelTest.java:[395,9] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase attribute names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/test/org/immutables/criteria/backend/KeyExtractorTest.java:[130,46] [unchecked] unchecked cast
+  required: Iterable<String>
+  found:    Object
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ criteria-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ criteria-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/criteria-common-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ criteria-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/criteria-common-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (default) @ criteria-common ---
+[WARNING] artifact org.immutables:criteria-common:test-jar:tests:2.9.0-SNAPSHOT already attached, replace previous instance
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ criteria-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/criteria-common/2.9.0-SNAPSHOT/criteria-common-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/criteria-common-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/criteria-common/2.9.0-SNAPSHOT/criteria-common-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/criteria/common/target/criteria-common-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/criteria-common/2.9.0-SNAPSHOT/criteria-common-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------------< org.immutables:mongo >------------------------
+[INFO] Building org.immutables.mongo 2.9.0-SNAPSHOT                     [17/20]
+[INFO]   from mongo/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.3.1/mongodb-driver-sync-4.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.3.1/mongodb-driver-sync-4.3.1.pom (1.7 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/4.3.1/bson-4.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/4.3.1/bson-4.3.1.pom (1.3 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.3.1/mongodb-driver-core-4.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.3.1/mongodb-driver-core-4.3.1.pom (3.1 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-legacy/4.3.1/mongodb-driver-legacy-4.3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-legacy/4.3.1/mongodb-driver-legacy-4.3.1.pom (1.9 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server/1.38.0/mongo-java-server-1.38.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server/1.38.0/mongo-java-server-1.38.0.pom (2.0 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-core/1.38.0/mongo-java-server-core-1.38.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-core/1.38.0/mongo-java-server-core-1.38.0.pom (2.4 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-memory-backend/1.38.0/mongo-java-server-memory-backend-1.38.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-memory-backend/1.38.0/mongo-java-server-memory-backend-1.38.0.pom (2.0 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom (3.8 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.28/slf4j-parent-1.7.28.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.28/slf4j-parent-1.7.28.pom (14 kB at 300 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.8.11/jackson-datatype-guava-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.8.11/jackson-datatype-guava-2.8.11.pom (2.9 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatypes-collections/2.8.11/jackson-datatypes-collections-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatypes-collections/2.8.11/jackson-datatypes-collections-2.8.11.pom (2.0 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.3.1/mongodb-driver-sync-4.3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.3.1/mongodb-driver-sync-4.3.1.jar (139 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/4.3.1/bson-4.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.3.1/mongodb-driver-core-4.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-legacy/4.3.1/mongodb-driver-legacy-4.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server/1.38.0/mongo-java-server-1.38.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-core/1.38.0/mongo-java-server-core-1.38.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/bson/4.3.1/bson-4.3.1.jar (501 kB at 6.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server/1.38.0/mongo-java-server-1.38.0.jar (307 B at 3.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-legacy/4.3.1/mongodb-driver-legacy-4.3.1.jar (149 kB at 866 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final.jar (648 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.3.1/mongodb-driver-core-4.3.1.jar (1.5 MB at 6.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar (33 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar (301 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-memory-backend/1.38.0/mongo-java-server-memory-backend-1.38.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar (321 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar (495 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.8.11/jackson-datatype-guava-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-memory-backend/1.38.0/mongo-java-server-memory-backend-1.38.0.jar (12 kB at 39 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar (41 kB at 127 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.8.11/jackson-datatype-guava-2.8.11.jar (81 kB at 243 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/bwaldvogel/mongo-java-server-core/1.38.0/mongo-java-server-core-1.38.0.jar (422 kB at 815 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final.jar (477 kB at 684 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ mongo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ mongo ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mongo ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ mongo ---
+[INFO] Compiling 24 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ mongo ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mongo ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ mongo ---
+[INFO] Compiling 50 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/generic/GenericTypeJsonSerializer.java:[46,22] unchecked call to value(T) as a member of the raw type org.immutables.mongo.fixture.generic.ImmutableGenericType.Builder
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/generic/GenericTypeJsonSerializer.java:[53,22] unchecked call to value(T) as a member of the raw type org.immutables.mongo.fixture.generic.ImmutableGenericType.Builder
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/generic/GenericTypeJsonSerializer.java:[55,22] unchecked call to value(T) as a member of the raw type org.immutables.mongo.fixture.generic.ImmutableGenericType.Builder
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/generic/GenericTypeJsonSerializer.java:[57,22] unchecked call to value(T) as a member of the raw type org.immutables.mongo.fixture.generic.ImmutableGenericType.Builder
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/bson4gson/JavaTimeTest.java:[130,71] unchecked cast
+  required: java.lang.Class<T>
+  found:    java.lang.Class<capture#1 of ? extends java.lang.Object>
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/JacksonRepoTest.java:[275,20] unchecked conversion
+  required: org.bson.codecs.Codec<java.util.UUID>
+  found:    org.bson.codecs.Codec
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/MongoCursorIsClosedTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/MongoCursorIsClosedTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/test/org/immutables/mongo/fixture/MongoCursorIsClosedTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ mongo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ mongo ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/mongo-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ mongo ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/mongo-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ mongo ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/mongo/2.9.0-SNAPSHOT/mongo-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/mongo-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/mongo/2.9.0-SNAPSHOT/mongo-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/mongo/target/mongo-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/mongo/2.9.0-SNAPSHOT/mongo-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:serial >------------------------
+[INFO] Building org.immutables.serial 2.9.0-SNAPSHOT                    [18/20]
+[INFO]   from serial/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ serial ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ serial ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ serial ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ serial ---
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ serial ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ serial ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ serial ---
+[INFO] Compiling 7 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/test/org/immutables/serial/fixture/SerialPrehashed.java:[28,3] (immutables:incompat) 'prehash' feature is automatically disabled when type is Serializable and copy constructor is off
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/generated-test-sources/test-annotations/org/immutables/serial/fixture/ImmutableNullableCollections.java:[268,57] unchecked cast
+  required: java.util.Collection<java.lang.String>
+  found:    java.lang.Object
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ serial ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ serial ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/serial-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ serial ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/serial-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ serial ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/serial/2.9.0-SNAPSHOT/serial-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/serial-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/serial/2.9.0-SNAPSHOT/serial-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/serial/target/serial-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/serial/2.9.0-SNAPSHOT/serial-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] -----------------------< org.immutables:encode >------------------------
+[INFO] Building org.immutables.encode 2.9.0-SNAPSHOT                    [19/20]
+[INFO]   from encode/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ encode ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ encode ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ encode ---
+[INFO] Copying 0 resource from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ encode ---
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/classes
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ encode ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ encode ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/test
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ encode ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ encode ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ encode ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/encode-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ encode ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/encode-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ encode ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/encode/2.9.0-SNAPSHOT/encode-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/encode-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/encode/2.9.0-SNAPSHOT/encode-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/encode/target/encode-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/encode/2.9.0-SNAPSHOT/encode-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --------------------< org.immutables:value-fixture >--------------------
+[INFO] Building org.immutables.value-fixture 2.9.0-SNAPSHOT             [20/20]
+[INFO]   from value-fixture/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11.pom (2.3 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom (2.5 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11.pom (1.9 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang/2.0.0-RC4/javaslang-2.0.0-RC4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang/2.0.0-RC4/javaslang-2.0.0-RC4.pom (2.7 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang-parent/2.0.0-RC4/javaslang-parent-2.0.0-RC4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang-parent/2.0.0-RC4/javaslang-parent-2.0.0-RC4.pom (18 kB at 230 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/org.eclipse.jdt.annotation/2.0.0/org.eclipse.jdt.annotation-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/org.eclipse.jdt.annotation/2.0.0/org.eclipse.jdt.annotation-2.0.0.pom (3.9 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.pom (15 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.17.Final/hibernate-validator-parent-6.0.17.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.17.Final/hibernate-validator-parent-6.0.17.Final.pom (61 kB at 922 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.11/jackson-datatype-jdk8-2.8.11.jar (34 kB at 242 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang/2.0.0-RC4/javaslang-2.0.0-RC4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/org.eclipse.jdt.annotation/2.0.0/org.eclipse.jdt.annotation-2.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jdt/org.eclipse.jdt.annotation/2.0.0/org.eclipse.jdt.annotation-2.0.0.jar (5.3 kB at 57 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.11/jackson-annotations-2.8.11.jar (56 kB at 531 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar (1.2 MB at 9.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/javaslang/javaslang/2.0.0-RC4/javaslang-2.0.0-RC4.jar (618 kB at 630 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ value-fixture ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.12:add-source (add-source) @ value-fixture ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ value-fixture ---
+[INFO] Copying 2 resources from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ value-fixture ---
+[INFO] Compiling 379 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/PrivateNoargConstructor.java:[53] (immutables:incompat) 'prehash' feature is automatically disabled when 'privateNoargConstructor' style is turned on
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/OptionalOfOptionalRegular.java:[24,22] (immutables:untype) Optional<Optional<*>> is turned into regular attribute to avoid ambiguity problems
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/ThrowsClauses.java:[29,18] (immutables:incompat) Checked exceptions in 'throws' clause are not supported for regular abstract, @Value.Derived, and @Value.Default attributes due to implementation difficulties and unclear semantics. This message reported as a warning to preserve compatibility, but there are high chances you'll see compile error in generated classed caused by this. NOTE: for @Value.Lazy attributes, checked exceptions are supported by simple propagation: neither runtime nor checked exceptions will not be memoised for lazy attributes, leading to lazy computation to be re-evaluated again and again until regular value returned and memoised.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/jdkonly/DefaultSpecializedOptionals.java:[23,2] (immutables:untype) @Value.Default on a optional attribute make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/HasUmlauts.java:[22,6] (immutables:incompat) Name 'zahlungsempfänger' contains some unsupported characters (a-z,A-Z,0-9,_ are ok), name formatting might not work as expected
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/OptionalNonOptional.java:[27,2] (immutables:untype) @Value.Default on a optional attribute make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/OptionalNonOptional.java:[32,66] (immutables:untype) Wildcards are not supported as elements or key/values. Make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/OptionalNonOptional.java:[34,43] (immutables:untype) @Nullable on a Optional attribute make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/Wildcards.java:[25,10] (immutables:untype) Wildcards are not supported as elements or key/values. Make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/Wildcards.java:[27,25] (immutables:untype) Wildcards are not supported as elements or key/values. Make it lose its special treatment
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/lowercased.java:[25,7] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase package names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/lowercased.java:[25,7] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with lowercase class names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/WithCapitalizedAttributes.java:[23,7] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase attribute names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/style/StagedBuilderImplementingBuilder.java:[18,2] (immutables:incompat) Extending Builder shouldn't be used with stagedBuilder style attribute, they are incompartible: Staged builder generate series of staged interfaces, but extending builder actually extends implementation and do not provide type safety for setting first attribute, as well as stagedBuilder forces generated builder interfaces to leak in code using the builder and hence defeating the purpose of using extending builder.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/style/ExtendingAndStagedBuilder.java:[30,2] (immutables:incompat) Extending Builder shouldn't be used with stagedBuilder style attribute, they are incompartible: Staged builder generate series of staged interfaces, but extending builder actually extends implementation and do not provide type safety for setting first attribute, as well as stagedBuilder forces generated builder interfaces to leak in code using the builder and hence defeating the purpose of using extending builder.
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/ConstructorParameterInheritanceLevels.java:[47,2] (immutables:from) Generated builder '.from' method will not copy from attribute 'a' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/ConstructorParameterInheritanceLevels.java:[47,2] (immutables:from) Generated builder '.from' method will not copy from attribute 'b' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/GenericInheritence.java:[30,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'a' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/GenericInheritence.java:[30,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'b' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/GenericInheritence.java:[33,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'a' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/GenericInheritence.java:[33,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'b' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/BuildFromCovariants.java:[35,18] (immutables:from) Generated builder '.from' method will not copy from attribute 'id' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/BuildFromCovariants.java:[35,18] (immutables:from) Generated builder '.from' method will not copy from attribute 'uid' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/generics/FromGenericInh.java:[14,9] (immutables:from) Generated builder '.from' method will not copy from attribute 'foo' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/generics/FromGenericInh.java:[14,9] (immutables:from) Generated builder '.from' method will not copy from attribute 'foo' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/builder/GuavaAttributeBuilderParent.java:[18,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'firstPartyImmutableList' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/builder/GuavaAttributeBuilderParent.java:[18,16] (immutables:from) Generated builder '.from' method will not copy from attribute 'thirdPartyImmutableList' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/couse/NotYetGeneratedGenericsInDefaultInitializer.java:[9] (immutables) Type parsing problem in FromSupertypesModel: java.lang.IllegalArgumentException: Cannot parse type from input string 'java.util.function.Supplier<java.util.stream.Stream<<any>>>'. unexpected term '<'
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/couse/NotYetGeneratedGenericsInDefaultInitializer.java:[9] (immutables:from) Generated builder '.from' method will not copy from attribute 'eventSupplier' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/imprt/ImportFromUppercasePackage.java:[23,7] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase package names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/alpha/Outer.java:[21,7] (immutables:from) Generated builder '.from' method will not copy from attribute 'start' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/alpha/Outer.java:[21,7] (immutables:from) Generated builder '.from' method will not copy from attribute 'start' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/alpha/Outer.java:[21,7] (immutables:from) Generated builder '.from' method will not copy from attribute 'finish' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/alpha/Outer.java:[21,7] (immutables:from) Generated builder '.from' method will not copy from attribute 'finish' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/recurs/AbstractSomething.java:[23,7] (immutables:from) Generated builder '.from' method will not copy from attribute 'content' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/nonimmutables/Uppercase/Just.java:[22,7] (immutables:incompat) Import rewriter will be disabled for generated source files to not mess up with uppercase package names
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/ast/InstantiationGenerics.java:[36,2] (immutables:from) Generated builder '.from' method will not copy from attribute 'elements' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/src/org/immutables/fixture/ast/InstantiationGenerics.java:[39,2] (immutables:from) Generated builder '.from' method will not copy from attribute 'value' because it has different return type in supertype (And we cannot handle generic specialization or covariant overrides yet). Sometimes it is possible to avoid this by providing abstract override method in this value object
+[INFO] 
+[INFO] --- build-helper:1.12:add-test-source (add-test-source) @ value-fixture ---
+[INFO] Test Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/generated-test-sources/test-annotations added.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ value-fixture ---
+[INFO] Copying 0 resource from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ value-fixture ---
+[INFO] Compiling 66 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ value-fixture ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ value-fixture ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/value-fixture-2.9.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jar:3.0.2:test-jar (test-jar) @ value-fixture ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/value-fixture-2.9.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ value-fixture ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/pom.xml to /Users/shivamsingh/.m2/repository/org/immutables/value-fixture/2.9.0-SNAPSHOT/value-fixture-2.9.0-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/value-fixture-2.9.0-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-fixture/2.9.0-SNAPSHOT/value-fixture-2.9.0-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/immutables__immutables__value-fixture/value-fixture/target/value-fixture-2.9.0-SNAPSHOT-tests.jar to /Users/shivamsingh/.m2/repository/org/immutables/value-fixture/2.9.0-SNAPSHOT/value-fixture-2.9.0-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for org.immutables.immutables 2.9.0-SNAPSHOT:
+[INFO] 
+[INFO] org.immutables.immutables .......................... SUCCESS [  2.760 s]
+[INFO] org.immutables.testing ............................. SUCCESS [  4.432 s]
+[INFO] org.immutables.generator ........................... SUCCESS [  4.183 s]
+[INFO] org.immutables.generator-processor ................. SUCCESS [  6.975 s]
+[INFO] org.immutables.metainf ............................. SUCCESS [  5.592 s]
+[INFO] org.immutables.mirror .............................. SUCCESS [  3.452 s]
+[INFO] org.immutables.value-annotations ................... SUCCESS [  0.651 s]
+[INFO] org.immutables.value-processor ..................... SUCCESS [ 13.926 s]
+[INFO] org.immutables.value ............................... SUCCESS [  4.069 s]
+[INFO] org.immutables.annotate ............................ SUCCESS [  1.133 s]
+[INFO] org.immutables.builder ............................. SUCCESS [  1.520 s]
+[INFO] org.immutables.android-stub ........................ SUCCESS [  0.425 s]
+[INFO] org.immutables.gson ................................ SUCCESS [  7.545 s]
+[INFO] org.immutables.processor-testlib ................... SUCCESS [  1.912 s]
+[INFO] org.immutables.criteria ............................ SUCCESS [  0.025 s]
+[INFO] org.immutables.criteria-common ..................... SUCCESS [ 42.689 s]
+[INFO] org.immutables.mongo ............................... SUCCESS [  4.923 s]
+[INFO] org.immutables.serial .............................. SUCCESS [  0.826 s]
+[INFO] org.immutables.encode .............................. SUCCESS [  0.072 s]
+[INFO] org.immutables.value-fixture ....................... SUCCESS [01:03 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:50 min
+[INFO] Finished at: 2026-10-11T18:26:50-05:00
+[INFO] ------------------------------------------------------------------------

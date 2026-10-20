@@ -1,0 +1,198 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.kevinsawicki:http-request:jar:6.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM com.github.kevinsawicki:http-request:6.1-SNAPSHOT (/Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/pom.xml) points at com.github.kevinsawicki:http-request-parent instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 5, column 11
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 139, column 24
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------< com.github.kevinsawicki:http-request >----------------
+[INFO] Building http-request 6.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ http-request >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ http-request ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ http-request ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/src/main/resources
+[INFO] 
+[INFO] --- compiler:2.3.2:compile (default-compile) @ http-request ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bundle:2.3.7:manifest (bundle-manifest) @ http-request ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ http-request ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.2:testCompile (default-testCompile) @ http-request ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ http-request <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ http-request ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving com.github.kevinsawicki:http-request:6.1-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 163 tests. Time taken: 1.553999900817871 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/.dtfixingtools/original-order
+[INFO] Getting original results (163 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode, status: expected FAILURE, got FAILURE
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent, status: expected FAILURE, got FAILURE
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithVaragsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithVaragsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithNumericQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithNumericQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace, status: expected FAILURE, got FAILURE
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 12 tests in round 1 of 20 (0.0 seconds elapsed (36.8 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 11 tests in round 2 of 20 (0.0 seconds elapsed (71.4 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent, status: expected FAILURE, got FAILURE
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithVarargsQueryParams, status: expected PASS, got PASS
+[INFO] Found 1 tests in round 3 of 20 (0.0 seconds elapsed (78.3 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithVaragsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithMappedQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 4 of 20 (0.0 seconds elapsed (91.2 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 5 of 20 (0.0 seconds elapsed (100.5 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 6 of 20 (0.0 seconds elapsed (112.7 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 7 of 20 (0.0 seconds elapsed (122.4 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (0.0 seconds elapsed (123.9 total), 0.0 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 9 of 20 (1.5 seconds elapsed (131.1 total), 1.8 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleVerifier, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 10 of 20 (8.7 seconds elapsed (134.9 total), 8.7 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (12.6 seconds elapsed (136.6 total), 10.3 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (14.2 seconds elapsed (138.1 total), 9.5 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 13 of 20 (15.8 seconds elapsed (145.4 total), 8.5 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.verifierAccepts, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 14 of 20 (23.0 seconds elapsed (153.0 total), 9.9 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 15 of 20 (30.6 seconds elapsed (157.3 total), 10.2 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+[INFO] Found 0 tests in round 16 of 20 (34.9 seconds elapsed (161.7 total), 8.7 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithMappedQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace, status: expected FAILURE, got FAILURE
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 17 of 20 (39.4 seconds elapsed (173.6 total), 6.9 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithMappedQueryParams, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 18 of 20 (51.3 seconds elapsed (180.4 total), 5.7 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (58.0 seconds elapsed (182.0 total), 3.1 seconds remaining).
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithVaragsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.headWithVaragsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.putWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected ERROR, got ERROR
+Verified com.github.kevinsawicki.http.HttpRequestTest.postWithEscapedVarargsQueryParams, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected PASS, got PASS
+Verified com.github.kevinsawicki.http.HttpRequestTest.singleSslSocketFactory, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 20 of 20 (59.6 seconds elapsed (198.4 total), 0.0 seconds remaining).
+
+[INFO] Found 28 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/kevinsawicki__http-request__lib/lib/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:28 min
+[INFO] Finished at: 2026-10-09T20:45:01-05:00
+[INFO] ------------------------------------------------------------------------

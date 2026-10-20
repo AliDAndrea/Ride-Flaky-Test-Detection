@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.intuit.karate:karate-demo:jar:1.0.0
+[WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-dependencies:pom must be one of [provided, compile, runtime, test, system] but is 'import'. @ line 26, column 20
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] karate-parent                                                      [pom]
+[INFO] karate-core                                                        [jar]
+[INFO] 
+[INFO] ------------------< com.intuit.karate:karate-parent >-------------------
+[INFO] Building karate-parent 1.0.0                                       [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ karate-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/pom.xml to /Users/shivamsingh/.m2/repository/com/intuit/karate/karate-parent/1.0.0/karate-parent-1.0.0.pom
+[INFO] 
+[INFO] -------------------< com.intuit.karate:karate-core >--------------------
+[INFO] Building karate-core 1.0.0                                         [2/2]
+[INFO]   from karate-core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.7.1/antlr4-maven-plugin-4.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.7.1/antlr4-maven-plugin-4.7.1.pom (5.9 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.7.1/antlr4-maven-plugin-4.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-maven-plugin/4.7.1/antlr4-maven-plugin-4.7.1.jar (30 kB at 634 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.18.Final/netty-handler-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.18.Final/netty-handler-4.1.18.Final.pom (3.0 kB at 41 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.18.Final/netty-parent-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.18.Final/netty-parent-4.1.18.Final.pom (52 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.18.Final/netty-buffer-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.18.Final/netty-buffer-4.1.18.Final.pom (1.6 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.18.Final/netty-common-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.18.Final/netty-common-4.1.18.Final.pom (8.4 kB at 120 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.18.Final/netty-transport-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.18.Final/netty-transport-4.1.18.Final.pom (1.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.18.Final/netty-resolver-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.18.Final/netty-resolver-4.1.18.Final.pom (1.6 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.18.Final/netty-codec-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.18.Final/netty-codec-4.1.18.Final.pom (3.3 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.18.Final/netty-codec-http-4.1.18.Final.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.18.Final/netty-codec-http-4.1.18.Final.pom (1.9 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.pom (2.2 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom (2.8 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.13/slf4j-parent-1.7.13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.13/slf4j-parent-1.7.13.pom (13 kB at 293 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.pom (38 kB at 877 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.pom (1.0 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.0.1/picocli-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.0.1/picocli-3.0.1.pom (1.4 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.18.Final/netty-handler-4.1.18.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.18.Final/netty-handler-4.1.18.Final.jar (375 kB at 1.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.18.Final/netty-buffer-4.1.18.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.18.Final/netty-common-4.1.18.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.18.Final/netty-transport-4.1.18.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.18.Final/netty-resolver-4.1.18.Final.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.18.Final/netty-codec-4.1.18.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.18.Final/netty-buffer-4.1.18.Final.jar (271 kB at 2.6 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.18.Final/netty-codec-http-4.1.18.Final.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.18.Final/netty-resolver-4.1.18.Final.jar (32 kB at 152 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.18.Final/netty-codec-http-4.1.18.Final.jar (564 kB at 2.5 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.18.Final/netty-codec-4.1.18.Final.jar (313 kB at 1.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar (33 kB at 119 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.1.0/json-path-2.1.0.jar (190 kB at 608 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar (303 kB at 890 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.0.1/picocli-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.jar (198 kB at 578 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.18.Final/netty-common-4.1.18.Final.jar (567 kB at 1.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.18.Final/netty-transport-4.1.18.Final.jar (454 kB at 1.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.jar (16 kB at 42 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/3.0.1/picocli-3.0.1.jar (204 kB at 482 kB/s)
+[INFO] 
+[INFO] --- antlr4:4.7.1:antlr4 (default) @ karate-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.7.1/antlr4-4.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.7.1/antlr4-4.7.1.pom (6.2 kB at 135 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom (14 kB at 352 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom (5.2 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.pom (5.0 kB at 103 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.7.1/antlr4-4.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.7.1/antlr4-4.7.1.jar (1.4 MB at 6.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar (27 kB at 546 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar (240 kB at 3.2 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar (12 MB at 13 MB/s)
+[INFO] ANTLR 4: Processing source directory /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/src/main/antlr4
+[INFO] Processing grammar: com/intuit/karate/core/KarateLexer.g4
+[INFO] Processing grammar: com/intuit/karate/core/KarateParser.g4
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ karate-core ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 6 resources from src/main/resources to target/classes
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ karate-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 138 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/src/main/java/com/intuit/karate/driver/WebDriver.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/src/main/java/com/intuit/karate/driver/WebDriver.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ karate-core ---
+[INFO] Copying 61 resources from src/test/java to target/test-classes
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ karate-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/src/test/java/com/intuit/karate/http/HttpClientTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/src/test/java/com/intuit/karate/http/HttpClientTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ karate-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ karate-core ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/target/karate-core-1.0.0.jar
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ karate-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/pom.xml to /Users/shivamsingh/.m2/repository/com/intuit/karate/karate-core/1.0.0/karate-core-1.0.0.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/intuit__karate__karate-core/karate-core/target/karate-core-1.0.0.jar to /Users/shivamsingh/.m2/repository/com/intuit/karate/karate-core/1.0.0/karate-core-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for karate-parent 1.0.0:
+[INFO] 
+[INFO] karate-parent ...................................... SUCCESS [  0.343 s]
+[INFO] karate-core ........................................ SUCCESS [ 12.427 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.969 s
+[INFO] Finished at: 2026-10-11T17:41:32-05:00
+[INFO] ------------------------------------------------------------------------

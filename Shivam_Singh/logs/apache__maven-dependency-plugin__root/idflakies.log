@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< org.apache.maven.plugins:maven-dependency-plugin >----------
+[INFO] Building Apache Maven Dependency Plugin 3.8.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ maven-dependency-plugin >>>
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ maven-dependency-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ maven-dependency-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ maven-dependency-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (ensure-no-container-api) @ maven-dependency-plugin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- plugin:3.13.1:helpmojo (generate-helpmojo) @ maven-dependency-plugin ---
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ maven-dependency-plugin ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ maven-dependency-plugin ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ maven-dependency-plugin ---
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ maven-dependency-plugin ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ maven-dependency-plugin ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- plugin:3.13.1:descriptor (default-descriptor) @ maven-dependency-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[WARNING] Could not get javadoc URL for reference SiteTool#DEFAULT_LOCALE at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference SiteTool#getSiteLocales(String) at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true]
+[WARNING] Unresolvable link in javadoc tag with value #getOutputName() found in target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:92: Could not resolve javadoc reference JavadocReference [moduleName=Optional.empty, packageNameClassName=Optional.empty, member=Optional[getOutputName()], label=Optional.empty]
+[WARNING] Could not get javadoc URL for reference StrictPatternExcludesArtifactFilter at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternExcludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/tree/TreeMojo.java:186): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternExcludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference StrictPatternIncludesArtifactFilter at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternIncludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/tree/TreeMojo.java:165): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.artifact.filter], className=Optional[StrictPatternIncludesArtifactFilter], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference SiteTool#DEFAULT_LOCALE at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[FIELD], member=Optional[DEFAULT_LOCALE], label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference SiteTool#getSiteLocales(String) at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true] (fully qualified target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:149): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.doxia.tools], className=Optional[SiteTool], memberType=Optional[METHOD], member=Optional[getSiteLocales(java.lang.String)], label=Optional.empty, isExternal=true]
+[WARNING] Unresolvable link in javadoc tag with value #getOutputName() found in target/maven-plugin-plugin-sources/org.apache.maven.reporting/maven-reporting-impl/4.0.0/sources/org/apache/maven/reporting/AbstractMavenReport.java:92: Could not resolve javadoc reference JavadocReference [moduleName=Optional.empty, packageNameClassName=Optional.empty, member=Optional[getOutputName()], label=Optional.empty]
+[WARNING] Could not get javadoc URL for reference ProjectDependencyAnalyzer at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.dependency.analyzer], className=Optional[ProjectDependencyAnalyzer], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/analyze/AbstractAnalyzeMojo.java:56): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.apache.maven.shared.dependency.analyzer], className=Optional[ProjectDependencyAnalyzer], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromConfiguration/UnpackMojo.java:90): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromDependencies/UnpackDependenciesMojo.java:98): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[WARNING] Could not get javadoc URL for reference FileMapper at FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true] (fully qualified src/main/java/org/apache/maven/plugins/dependency/fromConfiguration/ArtifactItem.java:119): Found no javadoc site for FullyQualifiedJavadocReference [moduleName=Optional.empty, packageName=Optional[org.codehaus.plexus.components.io.filemappers], className=Optional[FileMapper], memberType=Optional.empty, member=Optional.empty, label=Optional.empty, isExternal=true]
+[INFO] java-annotations mojo extractor found 26 mojo descriptors.
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ maven-dependency-plugin ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ maven-dependency-plugin ---
+[INFO] Copying 26 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ maven-dependency-plugin ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ maven-dependency-plugin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ maven-dependency-plugin ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.apache.maven.plugins:maven-dependency-plugin:3.8.2-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 246 tests. Time taken: 1.2739999294281006 seconds
+INFO: Locating tests...
+INFO: Located 39 tests. Time taken: 1.1770000457763672 seconds
+INFO: This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+---------------------------------------------------
+Message was:
+This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.473 s
+[INFO] Finished at: 2026-10-11T18:10:24-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,181 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.wildfly:wildfly-naming >---------------------
+[INFO] Building WildFly: Naming Subsystem 15.0.0.Alpha1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ wildfly-naming >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (ban-bad-dependencies) @ wildfly-naming ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-java-version) @ wildfly-naming ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven-version) @ wildfly-naming ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (get-scm-revision) @ wildfly-naming ---
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming
+[INFO] Storing buildNumber: b19048b72669fc0e96665b1b125dc1fda21f5993 at timestamp: 1791600516522
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ wildfly-naming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ wildfly-naming ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:3.0.0:checkstyle (check-style) @ wildfly-naming ---
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ wildfly-naming ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ wildfly-naming ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ wildfly-naming <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ wildfly-naming ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.wildfly:wildfly-naming:15.0.0.Alpha1-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 82 tests. Time taken: 0.309999942779541 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming/.dtfixingtools/original-order
+[INFO] Getting original results (82 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (2.5 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 20 (2.5 seconds elapsed (5.0 total), 22.3 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (5.0 seconds elapsed (7.5 total), 28.4 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (7.5 seconds elapsed (10.0 total), 30.1 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (10.0 seconds elapsed (12.4 total), 30.1 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (12.4 seconds elapsed (15.0 total), 29.0 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (15.0 seconds elapsed (17.5 total), 27.9 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (17.5 seconds elapsed (20.0 total), 26.3 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (20.0 seconds elapsed (22.5 total), 24.5 seconds remaining).
+Verified org.jboss.as.naming.NamingContextTestCase.testLookup, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookup, status: expected ERROR, got SKIPPED
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testSubsystem, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testSubsystem, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingOps, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingOps, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testBindReferenceable, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testBindReferenceable, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireOneLevelEvent, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireOneLevelEvent, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testListWithContinuation, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testListWithContinuation, status: expected ERROR, got SKIPPED
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireObjectEvent, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireObjectEvent, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testRebind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testRebind, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testPermissions, status: expected PASS, got PASS
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testPermissions, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupNameNotFound, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupNameNotFound, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testBindNested, status: expected PASS, got PASS
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testBindNested, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testUnbind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testUnbind, status: expected ERROR, got SKIPPED
+Verified org.jboss.as.naming.NamingContextTestCase.testRebindReferenceable, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testRebindReferenceable, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testListNameNotFound, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testListNameNotFound, status: expected SKIPPED, got SKIPPED
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testListBindings, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testListBindings, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindingsWithContinuation, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindingsWithContinuation, status: expected ERROR, got SKIPPED
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testBind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testBind, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupEmptyName, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupEmptyName, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.InitialContextTestCase.testRegisterURLSchemeHandler, status: expected PASS, got PASS
+Verified org.jboss.as.naming.InitialContextTestCase.testRegisterURLSchemeHandler, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingUpdate, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingUpdate, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupWitResolveResult, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupWitResolveResult, status: expected SKIPPED, got SKIPPED
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindings, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindings, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireAllEvent, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireAllEvent, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupLink, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupLink, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupContextLink, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupContextLink, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBindingUsingNestedContext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBindingUsingNestedContext, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory, status: expected PASS, got PASS
+Verified org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.InitialContextFactoryTestCase.testJavaContext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.InitialContextFactoryTestCase.testJavaContext, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testBind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testBind, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testStoredContext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testStoredContext, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupReference, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupReference, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testOnlyExternalContextAllowsCache, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testOnlyExternalContextAllowsCache, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromNamingContext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromNamingContext, status: expected SKIPPED, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testRebind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testRebind, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBinding, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBinding, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testList, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testList, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindingsNameNotFound, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testListBindingsNameNotFound, status: expected SKIPPED, got SKIPPED
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireSubTreeEvent, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireSubTreeEvent, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireMultiLevelEvent, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireMultiLevelEvent, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupWithContinuation, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testLookupWithContinuation, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromInitialContext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromInitialContext, status: expected SKIPPED, got SKIPPED
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testRejectionsEAP7, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testRejectionsEAP7, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testRejectionsEAP6, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testRejectionsEAP6, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testCreateSubcontext, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testCreateSubcontext, status: expected SKIPPED, got ERROR
+[INFO] Found 33 tests in round 10 of 20 (22.5 seconds elapsed (147.5 total), 22.5 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (0.0 seconds elapsed (150.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (3.5 seconds elapsed (154.0 total), 2.3 seconds remaining).
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingUpdate, status: expected PASS, got PASS
+Verified org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingUpdate, status: expected ERROR, got ERROR
+Verified org.jboss.as.naming.NamingContextTestCase.testBind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testBind, status: expected SKIPPED, got SKIPPED
+Verified org.jboss.as.naming.NamingContextTestCase.testRebind, status: expected PASS, got PASS
+Verified org.jboss.as.naming.NamingContextTestCase.testRebind, status: expected SKIPPED, got ERROR
+[INFO] Found 11 tests in round 13 of 20 (6.6 seconds elapsed (165.5 total), 3.5 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (0.0 seconds elapsed (168.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (2.8 seconds elapsed (171.1 total), 0.9 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (5.6 seconds elapsed (173.8 total), 1.4 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (8.3 seconds elapsed (176.6 total), 1.5 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (11.1 seconds elapsed (179.3 total), 1.2 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (13.8 seconds elapsed (182.0 total), 0.7 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (16.4 seconds elapsed (185.4 total), 0.0 seconds remaining).
+
+[INFO] Found 44 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/wildfly__wildfly__naming/naming/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:14 min
+[INFO] Finished at: 2026-10-09T21:52:47-05:00
+[INFO] ------------------------------------------------------------------------

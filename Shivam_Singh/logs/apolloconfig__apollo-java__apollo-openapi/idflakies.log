@@ -1,0 +1,134 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.ctrip.framework.apollo:apollo-openapi >--------------
+[INFO] Building Apollo Open Api 2.2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ apollo-openapi >>>
+[INFO] 
+[INFO] --- git-commit-id:2.2.6:revision (default) @ apollo-openapi ---
+[INFO] dotGitDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apolloconfig__apollo-java__apollo-openapi/.git
+[INFO] git.build.user.name Shivam Singh
+[INFO] git.build.user.email shivam.singh122718@gmail.com
+[INFO] git.branch 5344bc4f07288842bb850145bcf80a084bd94114
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[Ref[refs/tags/v2.1.0=f8d28868e5c300bca0161885a316cce3639bd342], Ref[refs/tags/v2.2.0=2c2b833dc4c68bdcb3da841d4d1436347d946677], Ref[refs/tags/v2.3.0=1fc9d27940c555431eabdd8325096c8daf1812db], Ref[refs/tags/v2.4.0=7ef0be033e85310f70ee62b93ae8a8d205126435], Ref[refs/tags/v2.5.0=04176ca6ad2a114ea9da0ef64a7535ae2f27a93d]]]
+[INFO] Created map: [{}]
+[INFO] evalCommit is [5344bc4f07288842bb850145bcf80a084bd94114]
+[INFO] git.commit.id.describe 5344bc4-dirty
+[INFO] git.commit.id 5344bc4f07288842bb850145bcf80a084bd94114
+[INFO] git.commit.id.abbrev 5344bc4
+[INFO] git.dirty true
+[INFO] git.commit.user.name wxq
+[INFO] git.commit.user.email Anilople@outlook.com
+[INFO] git.commit.message.full feat(openapi): create app (#32)
+
+* feat(openapi): create app
+
+* feat(openapi): create app
+
+* fix: remove create app by env
+
+* feat: support init admins when create app
+
+* refactor: path "apps/create" -> "apps"
+
+* test: move to IntegrationTest
+
+* Update AppOpenApiServiceTest.java
+
+* refactor: use OpenCreateAppDTO instead of OpenAppDTO
+
+* test: testCreateAppThenCreateNamespaceThenRelease
+
+* Update CHANGES.md
+
+* add assignAppRoleToSelf to mark role permission
+
+* testCreateAppButHaveNoAppRole
+
+* refactor: use composite instead of extend OpenAppDTO
+
+* Update OpenCreateAppDTO.java
+
+* test: make test more complex. create the cluster too
+[INFO] git.commit.message.short feat(openapi): create app (#32)
+[INFO] git.commit.time 2023-08-30T07:24:30-0500
+[INFO] git.remote.origin.url https://github.com/apolloconfig/apollo-java.git
+[INFO] git.tags v2.2.0,v2.3.0,v2.4.0,v2.5.0
+[INFO] evalCommit is [5344bc4f07288842bb850145bcf80a084bd94114]
+[INFO] Tag refs [[Ref[refs/tags/v2.1.0=f8d28868e5c300bca0161885a316cce3639bd342], Ref[refs/tags/v2.2.0=2c2b833dc4c68bdcb3da841d4d1436347d946677], Ref[refs/tags/v2.3.0=1fc9d27940c555431eabdd8325096c8daf1812db], Ref[refs/tags/v2.4.0=7ef0be033e85310f70ee62b93ae8a8d205126435], Ref[refs/tags/v2.5.0=04176ca6ad2a114ea9da0ef64a7535ae2f27a93d]]]
+[INFO] Created map: [{}]
+[INFO] git.closest.tag.name 
+[INFO] evalCommit is [5344bc4f07288842bb850145bcf80a084bd94114]
+[INFO] Tag refs [[Ref[refs/tags/v2.1.0=f8d28868e5c300bca0161885a316cce3639bd342], Ref[refs/tags/v2.2.0=2c2b833dc4c68bdcb3da841d4d1436347d946677], Ref[refs/tags/v2.3.0=1fc9d27940c555431eabdd8325096c8daf1812db], Ref[refs/tags/v2.4.0=7ef0be033e85310f70ee62b93ae8a8d205126435], Ref[refs/tags/v2.5.0=04176ca6ad2a114ea9da0ef64a7535ae2f27a93d]]]
+[INFO] Created map: [{}]
+[INFO] git.closest.tag.commit.count 
+[INFO] git.total.commit.count 23
+[INFO] git.build.time 2026-10-11T18:06:44-0500
+[INFO] git.build.version 2.2.0-SNAPSHOT
+[INFO] git.build.host Shivams-MacBook-Air.local
+[INFO] git.commit.id.describe-short 5344bc4-dirty
+[INFO] found property git.build.user.email
+[INFO] found property git.build.host
+[INFO] found property git.dirty
+[INFO] found property git.remote.origin.url
+[INFO] found property git.closest.tag.name
+[INFO] found property git.total.commit.count
+[INFO] found property git.commit.id.describe-short
+[INFO] found property git.commit.user.email
+[INFO] found property git.commit.time
+[INFO] found property git.commit.message.full
+[INFO] found property git.build.version
+[INFO] found property git.commit.message.short
+[INFO] found property git.commit.id.abbrev
+[INFO] found property git.branch
+[INFO] found property git.build.user.name
+[INFO] found property git.closest.tag.commit.count
+[INFO] found property git.commit.id.describe
+[INFO] found property git.commit.id
+[INFO] found property git.tags
+[INFO] found property git.build.time
+[INFO] found property git.commit.user.name
+[INFO] Reading existing properties file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/apolloconfig__apollo-java__apollo-openapi/apollo-openapi/target/classes/apollo-git.properties] (for module Apollo Open Api)...
+[INFO] Properties file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/apolloconfig__apollo-java__apollo-openapi/apollo-openapi/target/classes/apollo-git.properties] is up-to-date (for module Apollo Open Api)...
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ apollo-openapi ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apolloconfig__apollo-java__apollo-openapi/apollo-openapi/src/main/resources
+[INFO] 
+[INFO] --- flatten:1.1.0:flatten (flatten) @ apollo-openapi ---
+[INFO] Generating flattened POM of project com.ctrip.framework.apollo:apollo-openapi:jar:2.2.0-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ apollo-openapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ apollo-openapi ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ apollo-openapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ apollo-openapi <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ apollo-openapi ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.ctrip.framework.apollo:apollo-openapi:2.2.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 52 tests. Time taken: 0.5720000267028809 seconds
+INFO: Locating tests...
+INFO: Located 3 tests. Time taken: 0.309999942779541 seconds
+INFO: This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+---------------------------------------------------
+Message was:
+This project contains both JUnit 4 and JUnit 5 tests, which currently is not supported by iDFlakies
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.136 s
+[INFO] Finished at: 2026-10-11T18:06:48-05:00
+[INFO] ------------------------------------------------------------------------

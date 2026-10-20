@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.walmartlabs.ollie:ollie >---------------------
+[INFO] Building Ollie :: Core 0.0.38-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -----------------------------[ takari-jar ]-----------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ ollie >>>
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:update-check (default-update-check) @ ollie ---
+[INFO] 
+[INFO] --- license:1.14:update-file-header (first) @ ollie ---
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/takari__ollie__60c0ec50__ollie/ollie/src/main/java
+[INFO] Will search files to update from root /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/takari__ollie__60c0ec50__ollie/ollie/src/test/java
+[INFO] Scan 56 files header done in 212.753ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:process-resources (default-process-resources) @ ollie ---
+[INFO] Performing incremental build
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:compile (default-compile) @ ollie ---
+[INFO] Performing incremental build
+[INFO] Skipped compilation, all 32 classes are up to date
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:export-package (default-export-package) @ ollie ---
+[INFO] Performing incremental build
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:sisu-index (default-sisu-index) @ ollie ---
+[INFO] Performing incremental build
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:process-test-resources (default-process-test-resources) @ ollie ---
+[INFO] Performing incremental build
+[INFO] 
+[INFO] --- takari-lifecycle:1.13.3:testCompile (default-testCompile) @ ollie ---
+[INFO] Performing incremental build
+[INFO] Skipped compilation, all 24 classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ ollie <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ ollie ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.walmartlabs.ollie.app.OllieSslServerTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.378 s <<< FAILURE! - in com.walmartlabs.ollie.app.OllieSslServerTest
+[ERROR] validate(com.walmartlabs.ollie.app.OllieSslServerTest)  Time elapsed: 9.253 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.NoClassDefFoundError: edu/utexas/ece/flakesync/agent/Utility
+	at com.walmartlabs.ollie.app.OllieSslServerTest.assertClientCertificateRequest(OllieSslServerTest.java:89)
+	at com.walmartlabs.ollie.app.OllieSslServerTest.validate(OllieSslServerTest.java:56)
+Caused by: java.lang.NoClassDefFoundError: edu/utexas/ece/flakesync/agent/Utility
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   OllieSslServerTest.validate:56->assertClientCertificateRequest:89 » Runtime ja...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_ExtsvZoodfH28K+IgWKrpd2ujvLR2b5nynJ+kHRbNc0= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.143 s
+[INFO] Finished at: 2026-10-11T17:57:28-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,167 @@
+[INFO] Scanning for projects...
+[WARNING] This build will only read from the build cache, since the clean lifecycle is not part of the build invocation.
+[INFO] 
+[INFO] ------< org.apache.streampipes:streampipes-extensions-management >------
+[INFO] Building streampipes-extensions-management 0.99.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'encoding' is unknown for plugin 'maven-checkstyle-plugin:3.3.1:check (validate)'
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ streampipes-extensions-management >>>
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-maven-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-java-version) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (check-at-least-java-17) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-version-convergence) @ streampipes-extensions-management ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- spotless:2.43.0:check (spotless-check) @ streampipes-extensions-management ---
+[INFO] Spotless check skipped
+[INFO] 
+[INFO] --- checkstyle:3.3.1:check (validate) @ streampipes-extensions-management ---
+[INFO] Skipped
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ streampipes-extensions-management ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/main/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ streampipes-extensions-management ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ streampipes-extensions-management ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/src/test/resources
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ streampipes-extensions-management ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ streampipes-extensions-management <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ streampipes-extensions-management ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.apache.streampipes:streampipes-extensions-management:0.99.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 41 tests. Time taken: 0.2850000858306885 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/streampipes-extensions-management/.dtfixingtools/original-order
+[INFO] Getting original results (41 tests).
+---------------------------------------------------
+java.lang.Exception: Non-zero exit code (output in /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__streampipes__streampipes-extensions-management/failing-test-output-1791763720758-84179f39-5683-496f-acd7-ea5e9d334985): 2
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$3(Runner.scala:71)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$2(TempFiles.scala:38)
+	at edu.illinois.cs.testrunner.util.autoClose.$anonfun$autoCloseTry$1(autoClose.scala:7)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.autoClose.autoCloseTry(autoClose.scala:7)
+	at edu.illinois.cs.testrunner.util.autoClose.apply(autoClose.scala:24)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$1(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withProperties(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$2(Runner.scala:50)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$1(Runner.scala:49)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withSeq$1(TempFiles.scala:31)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withSeq(TempFiles.scala:25)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp(Runner.scala:48)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp$(Runner.scala:47)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runWithCp(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.lambda$runWithCp$0(InstrumentingSmartRunner.java:58)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles.withTempFile(TempFiles.scala)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.runWithCp(InstrumentingSmartRunner.java:54)
+	at edu.illinois.cs.testrunner.runner.Runner.run(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.Runner.run$(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.run(SmartRunner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList(Runner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList$(Runner.scala:27)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runList(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.detection.DetectorUtil.originalResults(DetectorUtil.java:35)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.<init>(RandomDetector.java:29)
+	at edu.illinois.cs.dt.tools.detection.detectors.DetectorFactory.makeDetector(DetectorFactory.java:20)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:268)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:204)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:204)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at com.gradle.maven.cache.extension.c.n.a(SourceFile:53)
+	at com.gradle.maven.cache.extension.c.d.a(SourceFile:27)
+	at com.gradle.maven.cache.extension.c.q.a(SourceFile:23)
+	at com.gradle.maven.cache.extension.c.j.a(SourceFile:28)
+	at com.gradle.maven.cache.extension.c.p.a(SourceFile:27)
+	at com.gradle.maven.cache.extension.c.b.c(SourceFile:118)
+	at com.gradle.maven.cache.extension.c.b.a(SourceFile:62)
+	at com.gradle.maven.cache.extension.c.g.a(SourceFile:27)
+	at com.gradle.maven.cache.extension.c.a.a(SourceFile:46)
+	at com.gradle.maven.cache.extension.c.o.a(SourceFile:18)
+	at com.gradle.maven.cache.extension.c.a.a(SourceFile:46)
+	at com.gradle.maven.cache.extension.c.c.a(SourceFile:26)
+	at com.gradle.maven.cache.extension.c.h$1.run(SourceFile:35)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(SourceFile:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(SourceFile:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(SourceFile:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(SourceFile:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(SourceFile:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(SourceFile:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(SourceFile:47)
+	at com.gradle.maven.cache.extension.c.h.a(SourceFile:31)
+	at com.gradle.maven.cache.extension.c.m.a(SourceFile:80)
+	at com.gradle.maven.cache.extension.g.b.lambda$createProxy$0(SourceFile:76)
+	at jdk.proxy10/jdk.proxy10.$Proxy90.execute(Unknown Source)
+	at com.gradle.maven.scan.extension.internal.d.b.executeMojo(SourceFile:116)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.892 s
+[INFO] Finished at: 2026-10-11T19:08:41-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 12 goals, 12 executed

@@ -1,0 +1,84 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[WARNING] The project com.fasterxml:classmate:bundle:1.5.2-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ----------------------< com.fasterxml:classmate >-----------------------
+[INFO] Building ClassMate 1.5.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ classmate >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M3:enforce (enforce-java) @ classmate ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (add-generated-sources) @ classmate ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/generated-sources added.
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ classmate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ classmate ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 38 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ classmate ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ classmate ---
+[WARNING]  Parameter 'optimize' (user property 'maven.compiler.optimize') is deprecated: This property is a no-op in {@code javac}.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 36 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/AnnotationsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedPrimitiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawFieldTest.java:[11,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/HierarchicTypeTest.java:[7,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/ResolvedTypeWithMembersTest.java:[14,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/RawMethodTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedMemberTest.java:[15,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedRecursiveTypeTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/StdConfigurationTest.java:[6,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/ResolvedArrayTypeTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/types/TypePlaceHolderTest.java:[5,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/TypeBindingsTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[9,30] junit.framework.Assert in junit.framework has been deprecated
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/src/test/java/com/fasterxml/classmate/members/ResolvedFieldTest.java:[10,30] junit.framework.Assert in junit.framework has been deprecated
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ classmate <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ classmate ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.fasterxml:classmate:1.5.2-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 229 tests. Time taken: 0.628000020980835 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.dtfixingtools/original-order
+[INFO] Getting original results (229 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (2.2 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (2.2 seconds elapsed (4.5 total), 3.3 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (4.5 seconds elapsed (6.6 total), 3.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (6.6 seconds elapsed (8.7 total), 1.7 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (8.7 seconds elapsed (10.4 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/FasterXML__java-classmate__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.506 s
+[INFO] Finished at: 2026-10-11T18:46:08-05:00
+[INFO] ------------------------------------------------------------------------

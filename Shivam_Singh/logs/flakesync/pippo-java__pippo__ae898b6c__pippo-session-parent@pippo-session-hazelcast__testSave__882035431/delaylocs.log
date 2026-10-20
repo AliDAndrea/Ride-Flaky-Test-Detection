@@ -1,0 +1,655 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< ro.pippo:pippo-session-hazelcast >------------------
+[INFO] Building Pippo Session Hazelcast 1.12.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ pippo-session-hazelcast >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ pippo-session-hazelcast ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ pippo-session-hazelcast ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/pippo-java__pippo__ae898b6c__pippo-session-parent@pippo-session-hazelcast/pippo-session-parent/pippo-session-hazelcast/src/main/resources
+[INFO] Copying 0 resource from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.5.1:compile (default-compile) @ pippo-session-hazelcast ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ pippo-session-hazelcast ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] Copying 0 resource from src/test/java to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.5.1:testCompile (default-testCompile) @ pippo-session-hazelcast ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ pippo-session-hazelcast <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ pippo-session-hazelcast ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:11:30 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:11:31 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - 8439719a-5da6-4f6b-bbfa-b48e25886b31 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:11:35 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:11:35 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49473
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49473 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49473
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 8439719a-5da6-4f6b-bbfa-b48e25886b31 this
+	Member [100.70.96.234]:5702 - d49acb02-bb85-4f3e-9adb-91080a85fc38
+}
+
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 8439719a-5da6-4f6b-bbfa-b48e25886b31
+	Member [100.70.96.234]:5702 - d49acb02-bb85-4f3e-9adb-91080a85fc38 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[hz._hzInstance_1_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Re-partitioning cluster data... Migration queue size: 136
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Old master [100.70.96.234]:5701 left the cluster, assigning new master Member [100.70.96.234]:5702 - d49acb02-bb85-4f3e-9adb-91080a85fc38 this
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5702 [dev] [3.7.4] Connection[id=1, /100.70.96.234:49473->/100.70.96.234:5701, endpoint=[100.70.96.234]:5701, alive=false, type=MEMBER] closed. Reason: Removing member [100.70.96.234]:5701, uuid: 8439719a-5da6-4f6b-bbfa-b48e25886b31, requested by: [100.70.96.234]:5701
+[main] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5701 [dev] [3.7.4] Connection[id=1, /100.70.96.234:5701->/100.70.96.234:49473, endpoint=[100.70.96.234]:5702, alive=false, type=MEMBER] closed. Reason: TcpIpConnectionManager is stopping
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Removing Member [100.70.96.234]:5701 - 8439719a-5da6-4f6b-bbfa-b48e25886b31
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [1] {
+	Member [100.70.96.234]:5702 - d49acb02-bb85-4f3e-9adb-91080a85fc38 this
+}
+
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Fetching most recent partition table! my version: 950
+[hz._hzInstance_2_dev.cached.thread-3] INFO com.hazelcast.transaction.TransactionManagerService - [100.70.96.234]:5702 [dev] [3.7.4] Committing/rolling-back alive transactions of Member [100.70.96.234]:5701 - 8439719a-5da6-4f6b-bbfa-b48e25886b31, UUID: 8439719a-5da6-4f6b-bbfa-b48e25886b31
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Most recent partition table version: 950
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 1175 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTTING_DOWN
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Partition balance is ok, no need to re-partition cluster data... 
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5702 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5702 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast Shutdown is completed in 1091 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.92 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:11:48 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:11:48 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - e105519b-6e4a-42b5-a7ad-7322bc4a8645 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:11:53 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:11:53 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49483
+[hz._hzInstance_1_dev.cached.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49483
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49483 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - e105519b-6e4a-42b5-a7ad-7322bc4a8645 this
+	Member [100.70.96.234]:5702 - 92b7c312-ea30-4e84-a3a5-797231dc0e1d
+}
+
+[hz._hzInstance_2_dev.generic-operation.thread-2] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - e105519b-6e4a-42b5-a7ad-7322bc4a8645
+	Member [100.70.96.234]:5702 - 92b7c312-ea30-4e84-a3a5-797231dc0e1d this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[hz._hzInstance_1_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Re-partitioning cluster data... Migration queue size: 136
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5701 [dev] [3.7.4] Connection[id=1, /100.70.96.234:5701->/100.70.96.234:49483, endpoint=[100.70.96.234]:5702, alive=false, type=MEMBER] closed. Reason: TcpIpConnectionManager is stopping
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Old master [100.70.96.234]:5701 left the cluster, assigning new master Member [100.70.96.234]:5702 - 92b7c312-ea30-4e84-a3a5-797231dc0e1d this
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5702 [dev] [3.7.4] Connection[id=1, /100.70.96.234:49483->/100.70.96.234:5701, endpoint=[100.70.96.234]:5701, alive=false, type=MEMBER] closed. Reason: Removing member [100.70.96.234]:5701, uuid: e105519b-6e4a-42b5-a7ad-7322bc4a8645, requested by: [100.70.96.234]:5701
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Removing Member [100.70.96.234]:5701 - e105519b-6e4a-42b5-a7ad-7322bc4a8645
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Fetching most recent partition table! my version: 950
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Most recent partition table version: 950
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [1] {
+	Member [100.70.96.234]:5702 - 92b7c312-ea30-4e84-a3a5-797231dc0e1d this
+}
+
+[hz._hzInstance_2_dev.cached.thread-3] INFO com.hazelcast.transaction.TransactionManagerService - [100.70.96.234]:5702 [dev] [3.7.4] Committing/rolling-back alive transactions of Member [100.70.96.234]:5701 - e105519b-6e4a-42b5-a7ad-7322bc4a8645, UUID: e105519b-6e4a-42b5-a7ad-7322bc4a8645
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 1314 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTTING_DOWN
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Partition balance is ok, no need to re-partition cluster data... 
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5702 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5702 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast Shutdown is completed in 1087 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.46 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:12:08 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:09 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - e6cf5250-b851-4c48-ae25-0c639b41ddca this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:12:15 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:15 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49491
+[hz._hzInstance_1_dev.cached.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49491
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49491 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - e6cf5250-b851-4c48-ae25-0c639b41ddca this
+	Member [100.70.96.234]:5702 - 555dacc6-fb14-4793-b3f2-c1a19fc6beaf
+}
+
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - e6cf5250-b851-4c48-ae25-0c639b41ddca
+	Member [100.70.96.234]:5702 - 555dacc6-fb14-4793-b3f2-c1a19fc6beaf this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[hz._hzInstance_1_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Re-partitioning cluster data... Migration queue size: 136
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5701 [dev] [3.7.4] Connection[id=1, /100.70.96.234:5701->/100.70.96.234:49491, endpoint=[100.70.96.234]:5702, alive=false, type=MEMBER] closed. Reason: TcpIpConnectionManager is stopping
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Old master [100.70.96.234]:5701 left the cluster, assigning new master Member [100.70.96.234]:5702 - 555dacc6-fb14-4793-b3f2-c1a19fc6beaf this
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5702 [dev] [3.7.4] Connection[id=1, /100.70.96.234:49491->/100.70.96.234:5701, endpoint=[100.70.96.234]:5701, alive=false, type=MEMBER] closed. Reason: Removing member [100.70.96.234]:5701, uuid: e6cf5250-b851-4c48-ae25-0c639b41ddca, requested by: [100.70.96.234]:5701
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[hz._hzInstance_1_dev.InvocationMonitorThread] ERROR com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor - [100.70.96.234]:5701 [dev] [3.7.4] Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@60d7fe2 rejected from java.util.concurrent.ScheduledThreadPoolExecutor@62e4ad0c[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@60d7fe2 rejected from java.util.concurrent.ScheduledThreadPoolExecutor@62e4ad0c[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:326)
+	at java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:533)
+	at com.hazelcast.nio.tcp.TcpIpConnectionManager.send(TcpIpConnectionManager.java:636)
+	at com.hazelcast.nio.tcp.TcpIpConnectionManager.transmit(TcpIpConnectionManager.java:619)
+	at com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor$BroadcastOperationHeartbeatsTask.sendHeartbeats(InvocationMonitor.java:482)
+	at com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor$BroadcastOperationHeartbeatsTask.run0(InvocationMonitor.java:454)
+	at com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor$FixedRateMonitorTask.run(InvocationMonitor.java:249)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Removing Member [100.70.96.234]:5701 - e6cf5250-b851-4c48-ae25-0c639b41ddca
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Fetching most recent partition table! my version: 950
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Most recent partition table version: 950
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [1] {
+	Member [100.70.96.234]:5702 - 555dacc6-fb14-4793-b3f2-c1a19fc6beaf this
+}
+
+[hz._hzInstance_2_dev.cached.thread-3] INFO com.hazelcast.transaction.TransactionManagerService - [100.70.96.234]:5702 [dev] [3.7.4] Committing/rolling-back alive transactions of Member [100.70.96.234]:5701 - e6cf5250-b851-4c48-ae25-0c639b41ddca, UUID: e6cf5250-b851-4c48-ae25-0c639b41ddca
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 1859 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTTING_DOWN
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Partition balance is ok, no need to re-partition cluster data... 
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5702 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5702 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast Shutdown is completed in 1048 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.71 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:12:30 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:30 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:12:35 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:35 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49533
+[hz._hzInstance_1_dev.cached.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49533
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49533 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8 this
+	Member [100.70.96.234]:5702 - 4389df1d-44a9-4b38-a7b8-8e2925f77bb8
+}
+
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8
+	Member [100.70.96.234]:5702 - 4389df1d-44a9-4b38-a7b8-8e2925f77bb8 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[hz._hzInstance_1_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Re-partitioning cluster data... Migration queue size: 136
+[hz._hzInstance_1_dev.partition-operation.thread-0] WARN com.hazelcast.map.impl.operation.ClearExpiredOperation - [100.70.96.234]:5701 [dev] [3.7.4] com.hazelcast.spi.exception.RetryableHazelcastException: Member [100.70.96.234]:5701 is currently shutting down! Operation: com.hazelcast.map.impl.operation.ClearExpiredOperation{serviceName='hz:impl:mapService', identityHash=958266371, partitionId=90, replicaIndex=0, callId=0, invocationTime=-1 (1969-12-31 17:59:59.999), waitTimeout=-1, callTimeout=9223372036854775807, expirationPercentage=10}
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5701 [dev] [3.7.4] Connection[id=1, /100.70.96.234:5701->/100.70.96.234:49533, endpoint=[100.70.96.234]:5702, alive=false, type=MEMBER] closed. Reason: TcpIpConnectionManager is stopping
+[hz._hzInstance_2_dev.generic-operation.thread-4] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Old master [100.70.96.234]:5701 left the cluster, assigning new master Member [100.70.96.234]:5702 - 4389df1d-44a9-4b38-a7b8-8e2925f77bb8 this
+[hz._hzInstance_2_dev.generic-operation.thread-4] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5702 [dev] [3.7.4] Connection[id=1, /100.70.96.234:49533->/100.70.96.234:5701, endpoint=[100.70.96.234]:5701, alive=false, type=MEMBER] closed. Reason: Removing member [100.70.96.234]:5701, uuid: 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8, requested by: [100.70.96.234]:5701
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[hz._hzInstance_2_dev.generic-operation.thread-4] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Removing Member [100.70.96.234]:5701 - 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Fetching most recent partition table! my version: 950
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Most recent partition table version: 950
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[hz._hzInstance_2_dev.cached.thread-3] INFO com.hazelcast.transaction.TransactionManagerService - [100.70.96.234]:5702 [dev] [3.7.4] Committing/rolling-back alive transactions of Member [100.70.96.234]:5701 - 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8, UUID: 8b66ea8c-8c4a-4b41-b49f-b38252d93fc8
+[hz._hzInstance_2_dev.generic-operation.thread-4] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [1] {
+	Member [100.70.96.234]:5702 - 4389df1d-44a9-4b38-a7b8-8e2925f77bb8 this
+}
+
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 1414 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTTING_DOWN
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Partition balance is ok, no need to re-partition cluster data... 
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5702 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5702 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast Shutdown is completed in 1099 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.01 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:12:52 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:52 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:12:59 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:12:59 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49703
+[hz._hzInstance_1_dev.cached.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49703
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49703 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc this
+	Member [100.70.96.234]:5702 - 4312b89a-85f5-4444-a35e-d490c2c3a897
+}
+
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc
+	Member [100.70.96.234]:5702 - 4312b89a-85f5-4444-a35e-d490c2c3a897 this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[main] INFO com.hazelcast.internal.partition.impl.PartitionStateManager - [100.70.96.234]:5701 [dev] [3.7.4] Initializing cluster partition table arrangement...
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5701 is handled
+[hz._hzInstance_1_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5701 [dev] [3.7.4] Re-partitioning cluster data... Migration queue size: 136
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down connection manager...
+[hz._hzInstance_2_dev.generic-operation.thread-3] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Old master [100.70.96.234]:5701 left the cluster, assigning new master Member [100.70.96.234]:5702 - 4312b89a-85f5-4444-a35e-d490c2c3a897 this
+[main] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5701 [dev] [3.7.4] Connection[id=1, /100.70.96.234:5701->/100.70.96.234:49703, endpoint=[100.70.96.234]:5702, alive=false, type=MEMBER] closed. Reason: TcpIpConnectionManager is stopping
+[hz._hzInstance_2_dev.generic-operation.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnection - [100.70.96.234]:5702 [dev] [3.7.4] Connection[id=1, /100.70.96.234:49703->/100.70.96.234:5701, endpoint=[100.70.96.234]:5701, alive=false, type=MEMBER] closed. Reason: Removing member [100.70.96.234]:5701, uuid: 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc, requested by: [100.70.96.234]:5701
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Shutting down node engine...
+[hz._hzInstance_2_dev.generic-operation.thread-3] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] Removing Member [100.70.96.234]:5701 - 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc
+[hz._hzInstance_2_dev.generic-operation.thread-3] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [1] {
+	Member [100.70.96.234]:5702 - 4312b89a-85f5-4444-a35e-d490c2c3a897 this
+}
+
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Fetching most recent partition table! my version: 950
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.InternalPartitionService - [100.70.96.234]:5702 [dev] [3.7.4] Most recent partition table version: 950
+[hz._hzInstance_2_dev.cached.thread-1] INFO com.hazelcast.transaction.TransactionManagerService - [100.70.96.234]:5702 [dev] [3.7.4] Committing/rolling-back alive transactions of Member [100.70.96.234]:5701 - 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc, UUID: 93bdcb5a-3b15-45a3-90ef-376bd1c95dfc
+[hz._hzInstance_2_dev.migration] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Partition balance is ok, no need to re-partition cluster data... 
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5701 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast Shutdown is completed in 1400 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is SHUTDOWN
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTTING_DOWN
+[main] INFO com.hazelcast.internal.partition.impl.MigrationManager - [100.70.96.234]:5702 [dev] [3.7.4] Shutdown request of [100.70.96.234]:5702 is handled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down multicast service...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down connection manager...
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Shutting down node engine...
+[main] INFO com.hazelcast.instance.NodeExtension - [100.70.96.234]:5702 [dev] [3.7.4] Destroying node NodeExtension.
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast Shutdown is completed in 1034 ms.
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is SHUTDOWN
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.86 s -- in ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING]  Parameter 'disableXmlReport' (user property 'disableXmlReport') is deprecated: No reason given
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ro.pippo.session.hazelcast.HazelcastSessionDataStorageTest
+Oct 11, 2026 8:13:18 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:13:19 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5701
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5701 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5701 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5701 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5701 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5701 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+
+Members [1] {
+	Member [100.70.96.234]:5701 - 9cba80ed-a683-4000-9a50-ce51df87719f this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5701 [dev] [3.7.4] [100.70.96.234]:5701 is STARTED
+Oct 11, 2026 8:13:23 PM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from classpath.
+Oct 11, 2026 8:13:23 PM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location incorrect using default
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Prefer IPv4 stack is true.
+[main] INFO com.hazelcast.instance.DefaultAddressPicker - [LOCAL] [dev] [3.7.4] Picked [100.70.96.234]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Hazelcast 3.7.4 (20161209 - 3df1bb5) starting at [100.70.96.234]:5702
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Copyright (c) 2008-2016, Hazelcast, Inc. All Rights Reserved.
+[main] INFO com.hazelcast.system - [100.70.96.234]:5702 [dev] [3.7.4] Configured Hazelcast Serialization version : 1
+[main] INFO com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator - [100.70.96.234]:5702 [dev] [3.7.4] Backpressure is disabled
+[main] INFO com.hazelcast.instance.Node - [100.70.96.234]:5702 [dev] [3.7.4] Creating MulticastJoiner
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTING
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 10 partition threads
+[main] INFO com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl - [100.70.96.234]:5702 [dev] [3.7.4] Starting 6 generic threads (1 dedicated for priority tasks)
+[main] INFO com.hazelcast.nio.tcp.nonblocking.NonBlockingIOThreadingModel - [100.70.96.234]:5702 [dev] [3.7.4] TcpIpConnectionManager configured with Non Blocking IO-threading model: 3 input threads and 3 output threads
+[main] INFO com.hazelcast.internal.cluster.impl.MulticastJoiner - [100.70.96.234]:5702 [dev] [3.7.4] Trying to join to discovered node: [100.70.96.234]:5701
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.InitConnectionTask - [100.70.96.234]:5702 [dev] [3.7.4] Connecting to /100.70.96.234:5701, timeout: 0, bind-any: true
+[hz._hzInstance_1_dev.IO.thread-Acceptor] INFO com.hazelcast.nio.tcp.SocketAcceptorThread - [100.70.96.234]:5701 [dev] [3.7.4] Accepting socket connection from /100.70.96.234:49740
+[hz._hzInstance_1_dev.cached.thread-3] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5701 [dev] [3.7.4] Established socket connection between /100.70.96.234:5701 and /100.70.96.234:49740
+[hz._hzInstance_2_dev.cached.thread-2] INFO com.hazelcast.nio.tcp.TcpIpConnectionManager - [100.70.96.234]:5702 [dev] [3.7.4] Established socket connection between /100.70.96.234:49740 and /100.70.96.234:5701
+[hz._hzInstance_1_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5701 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 9cba80ed-a683-4000-9a50-ce51df87719f this
+	Member [100.70.96.234]:5702 - b57cdc3c-34e5-49f8-998e-f7c5dfc7a18b
+}
+
+[hz._hzInstance_2_dev.priority-generic-operation.thread-0] INFO com.hazelcast.internal.cluster.ClusterService - [100.70.96.234]:5702 [dev] [3.7.4] 
+
+Members [2] {
+	Member [100.70.96.234]:5701 - 9cba80ed-a683-4000-9a50-ce51df87719f
+	Member [100.70.96.234]:5702 - b57cdc3c-34e5-49f8-998e-f7c5dfc7a18b this
+}
+
+[main] INFO com.hazelcast.core.LifecycleService - [100.70.96.234]:5702 [dev] [3.7.4] [100.70.96.234]:5702 is STARTED
+save
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_+4bxSPEGE1MNHRrhdOZEdiStltxxX7MOdKGeDWEyb4= with delay: 3200
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:11 min
+[INFO] Finished at: 2026-10-11T20:13:34-05:00
+[INFO] ------------------------------------------------------------------------

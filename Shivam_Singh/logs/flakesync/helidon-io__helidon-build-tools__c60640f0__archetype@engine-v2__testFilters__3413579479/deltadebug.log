@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< io.helidon.build-tools.archetype:helidon-archetype-engine-v2 >----
+[INFO] Building Helidon Archetype Engine 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ helidon-archetype-engine-v2 >>>
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ helidon-archetype-engine-v2 ---
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2
+[INFO] Storing buildNumber: c60640f0 at timestamp: 2026-10-11 19:38:49 CDT
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- resources:2.7:copy-resources (copy-license) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ helidon-archetype-engine-v2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2/target/classes
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ helidon-archetype-engine-v2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 119 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ helidon-archetype-engine-v2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/helidon-io__helidon-build-tools__c60640f0__archetype@engine-v2/archetype/engine-v2/target/test-classes
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ helidon-archetype-engine-v2 <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ helidon-archetype-engine-v2 ---
+INFO: Running DeltaDebugMojo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.671 s
+[INFO] Finished at: 2026-10-11T19:38:53-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.google.code.gson:gson >----------------------
+[INFO] Building Gson 2.10.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ gson >>>
+[INFO] 
+[INFO] --- enforcer:3.4.1:enforce (enforce-versions) @ gson ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- templating:1.0.0:filter-sources (filtering-java-templates) @ gson ---
+[INFO] Coping files with filtering to temporary directory.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] No files needs to be copied to output directory. Up to date: /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/target/generated-sources/java-templates
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/target/generated-sources/java-templates added.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ gson ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ gson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd:6.4.0:bnd-process (default) @ gson ---
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/bnd.bnd [0:0]: Export com.google.gson,  has 1,  private references [com.google.gson.internal]
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ gson ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ gson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ gson <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ gson ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.google.code.gson:gson:2.10.2-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 1291 tests. Time taken: 1.2360000610351562 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/.dtfixingtools/original-order
+[INFO] Getting original results (1291 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 5 (0.0 seconds elapsed (5.7 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 2 of 5 (5.7 seconds elapsed (11.4 total), 8.5 seconds remaining).
+[INFO] Found 0 tests in round 3 of 5 (11.4 seconds elapsed (17.0 total), 7.6 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (17.0 seconds elapsed (22.9 total), 4.3 seconds remaining).
+[INFO] Found 0 tests in round 5 of 5 (22.9 seconds elapsed (28.7 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/google__gson__gson/gson/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  49.300 s
+[INFO] Finished at: 2026-10-11T18:09:07-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,100 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< io.github.jhipster.registry:jhipster-registry >------------
+[INFO] Building JHipster Registry 4.0.6
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ jhipster-registry >>>
+[INFO] 
+[INFO] --- resources:3.1.0:copy-resources (default-resources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ jhipster-registry ---
+[WARNING]  Parameter 'resources' is read-only, must not be used in configuration
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-versions) @ jhipster-registry ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.1.0:copy-resources (docker-resources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (pre-unit-tests) @ jhipster-registry ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ jhipster-registry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/filters/responserewriting/SwaggerBasePathRewritingFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/service/CloudConfigRefreshService.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/main/java/io/github/jhipster/registry/service/CloudConfigRefreshService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ jhipster-registry ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ jhipster-registry ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/src/test/java/io/github/jhipster/registry/web/rest/AccountResourceTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ jhipster-registry <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ jhipster-registry ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving io.github.jhipster.registry:jhipster-registry:4.0.6 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 53 tests. Time taken: 0.375 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.dtfixingtools/original-order
+[INFO] Getting original results (53 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (14.4 total), 0.0 seconds remaining).
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected PASS, got PASS
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 20 (14.4 seconds elapsed (33.1 total), 129.3 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (0.0 seconds elapsed (47.3 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (14.2 seconds elapsed (61.9 total), 56.7 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (28.8 seconds elapsed (76.1 total), 86.3 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (43.0 seconds elapsed (90.8 total), 100.3 seconds remaining).
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected PASS, got PASS
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 7 of 20 (57.7 seconds elapsed (109.8 total), 107.1 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (76.7 seconds elapsed (125.3 total), 115.0 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (92.2 seconds elapsed (139.7 total), 112.7 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (106.6 seconds elapsed (154.7 total), 106.6 seconds remaining).
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected PASS, got PASS
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 11 of 20 (121.6 seconds elapsed (174.3 total), 99.5 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (141.2 seconds elapsed (189.5 total), 94.1 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (156.4 seconds elapsed (204.6 total), 84.2 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (171.5 seconds elapsed (220.5 total), 73.5 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (187.4 seconds elapsed (237.3 total), 62.5 seconds remaining).
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected PASS, got PASS
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 16 of 20 (204.2 seconds elapsed (273.1 total), 51.0 seconds remaining).
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected PASS, got PASS
+Verified io.github.jhipster.registry.web.rest.AccountResourceTest.testGetUnknownAccount, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 17 of 20 (240.0 seconds elapsed (294.4 total), 42.4 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (261.3 seconds elapsed (312.1 total), 29.0 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (279.0 seconds elapsed (328.9 total), 14.7 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (295.8 seconds elapsed (345.4 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/jhipster__jhipster-registry__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:07 min
+[INFO] Finished at: 2026-10-09T20:34:58-05:00
+[INFO] ------------------------------------------------------------------------

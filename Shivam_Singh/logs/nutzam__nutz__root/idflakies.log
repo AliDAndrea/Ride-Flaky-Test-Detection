@@ -1,0 +1,116 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< org.nutz:nutz >----------------------------
+[INFO] Building Nutz 1.r.68-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ nutz >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ nutz ---
+[INFO] Copying 5 resources from src to target/classes
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ nutz ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1173 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/dao/impl/entity/NutEntityIndex.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/dao/impl/entity/NutEntityIndex.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/dao/impl/entity/NutEntityIndex.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/mvc/impl/contextCollector/RefCollector.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/mvc/impl/contextCollector/RefCollector.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/src/org/nutz/mvc/impl/contextCollector/RefCollector.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ nutz ---
+[INFO] Copying 80 resources from test to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ nutz ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 503 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/test/org/nutz/mock/servlet/MockHttpSession.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/test/org/nutz/mock/servlet/MockHttpSession.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/test/org/nutz/json/GenericTypeTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/test/org/nutz/json/GenericTypeTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/test/org/nutz/json/GenericTypeTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ nutz <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ nutz ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving org.nutz:nutz:1.r.68-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 1206 tests. Time taken: 1.4219999313354492 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/.dtfixingtools/original-order
+[INFO] Getting original results (1206 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified org.nutz.dao.util.DaoUpTest.test_connection, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_connection, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_without_pojo, status: expected SKIPPED, got ERROR
+[INFO] Found 2 tests in round 1 of 20 (0.0 seconds elapsed (90.9 total), 0.0 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected ERROR, got ERROR
+[INFO] Found 3 tests in round 2 of 20 (0.0 seconds elapsed (193.2 total), 0.0 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected SKIPPED, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got ERROR
+[INFO] Found 0 tests in round 3 of 20 (0.0 seconds elapsed (269.8 total), 0.0 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected SKIPPED, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_without_pojo, status: expected SKIPPED, got ERROR
+[INFO] Found 1 tests in round 4 of 20 (76.6 seconds elapsed (321.8 total), 306.6 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 5 of 20 (0.0 seconds elapsed (365.6 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (43.8 seconds elapsed (389.7 total), 102.1 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (67.9 seconds elapsed (413.2 total), 126.1 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (91.3 seconds elapsed (436.3 total), 137.0 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 9 of 20 (114.4 seconds elapsed (485.3 total), 139.9 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected SKIPPED, got SKIPPED
+[INFO] Found 0 tests in round 10 of 20 (163.4 seconds elapsed (531.3 total), 163.4 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (209.4 seconds elapsed (555.7 total), 171.4 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_connection, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_connection, status: expected ERROR, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 12 of 20 (233.8 seconds elapsed (642.1 total), 155.9 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 13 of 20 (320.3 seconds elapsed (677.5 total), 172.5 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_custom_sql, status: expected SKIPPED, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected ERROR, got SKIPPED
+[INFO] Found 0 tests in round 14 of 20 (355.7 seconds elapsed (761.7 total), 152.4 seconds remaining).
+[INFO] Found 0 tests in round 15 of 20 (439.9 seconds elapsed (786.1 total), 146.6 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (464.3 seconds elapsed (809.7 total), 116.1 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (487.9 seconds elapsed (832.7 total), 86.1 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_pojo, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_without_pojo, status: expected SKIPPED, got ERROR
+[INFO] Found 0 tests in round 18 of 20 (510.8 seconds elapsed (875.4 total), 56.8 seconds remaining).
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected ERROR, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_sql, status: expected SKIPPED, got ERROR
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected SKIPPED, got SKIPPED
+Verified org.nutz.dao.util.DaoUpTest.test_links, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 19 of 20 (553.5 seconds elapsed (950.2 total), 29.1 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (628.4 seconds elapsed (973.7 total), 0.0 seconds remaining).
+
+[INFO] Found 6 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/nutzam__nutz__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17:34 min
+[INFO] Finished at: 2026-10-11T13:59:34-05:00
+[INFO] ------------------------------------------------------------------------

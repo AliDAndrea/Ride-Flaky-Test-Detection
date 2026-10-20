@@ -1,0 +1,150 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.oracle.oci.sdk:oci-java-sdk-examples:jar:1.3.2
+[WARNING] 'dependencies.dependency.version' for net.jodah:failsafe:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 88, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------< com.oracle.oci.sdk:oci-java-sdk-objectstorage-extensions >------
+[INFO] Building Oracle Cloud Infrastructure SDK - Object Storage - Extensions 1.3.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:deltadebug (default-cli) > test-compile @ oci-java-sdk-objectstorage-extensions >>>
+[INFO] 
+[INFO] --- lombok:1.16.16.0:delombok (delombok) @ oci-java-sdk-objectstorage-extensions ---
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/internal/ObjectStorageUtils.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/ProgressTrackingInputStreamFactory.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/MultipartObjectAssembler.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/UploadConfiguration.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/ProgressTrackerFactory.java [unchanged]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/StreamChunkCreator.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/SimpleRetry.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartManifestImpl.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/StreamHelper.java [unchanged]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartTransferManager.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/internal/MultipartUtils.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/ProgressReporter.java [unchanged]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/UploadManager.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/ProgressTracker.java [delomboked]
+File: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/java/com/oracle/bmc/objectstorage/transfer/MultipartManifest.java [unchanged]
+[INFO] Delombok complete.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/oracle__oci-java-sdk__2e9982f2__bmc-objectstorage@bmc-objectstorage-extensions/bmc-objectstorage/bmc-objectstorage-extensions/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ oci-java-sdk-objectstorage-extensions ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:deltadebug (default-cli) < test-compile @ oci-java-sdk-objectstorage-extensions <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:deltadebug (default-cli) @ oci-java-sdk-objectstorage-extensions ---
+INFO: Running DeltaDebugMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.398 sec <<< FAILURE! - in com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+multipartUploadProgressTrackerFactory_simulateRealLifeScenario(com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest)  Time elapsed: 26.395 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[8192, 16384, 24576, 32768, 40960, 49152, 40960, 49152, 57344, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 311296, 319488, 327680, 335872, 344064]> but was:<[8192, 16384, 24576, 32768, 40960, 49152, 40960, 49152, 57344, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408]>
+	at com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario(ProgressTrackerTest.java:274)
+
+
+Results :
+
+Failed tests: 
+  ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario:274 expected:<[8192, 16384, 24576, 32768, 40960, 49152, 40960, 49152, 57344, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 311296, 319488, 327680, 335872, 344064]> but was:<[8192, 16384, 24576, 32768, 40960, 49152, 40960, 49152, 57344, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408]>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_RVEAGWoA5XE+rZzZKbTqMJKML2cXSmMdWIltHGtZYo= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.252 sec - in com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.884 sec <<< FAILURE! - in com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+multipartUploadProgressTrackerFactory_simulateRealLifeScenario(com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest)  Time elapsed: 24.879 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944, 475136, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944]> but was:<[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944, 475136]>
+	at com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario(ProgressTrackerTest.java:274)
+
+
+Results :
+
+Failed tests: 
+  ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario:274 expected:<[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944, 475136, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944]> but was:<[8192, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912, 303104, 311296, 319488, 327680, 335872, 344064, 352256, 360448, 368640, 376832, 385024, 393216, 401408, 409600, 417792, 425984, 434176, 442368, 450560, 458752, 466944, 475136]>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_ViLn7QQ4kjfuHVixlqzFHYRp8K3XHOJZsESECRWXCo8= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.268 sec <<< FAILURE! - in com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+multipartUploadProgressTrackerFactory_simulateRealLifeScenario(com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest)  Time elapsed: 23.264 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[8192, 16384, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 57344, 65536, 73728, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 114688, 122880, 131072, 139264, 147456, 155648, 147456, 155648, 163840, 172032, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 131072, 139264, 147456, 155648, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 65536, 73728, 81920, 90112, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 49152, 57344, 65536, 73728]> but was:<[8192, 16384, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 57344, 65536, 73728, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 114688, 122880, 131072, 139264, 147456, 155648, 147456, 155648, 163840, 172032, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 131072, 139264, 147456, 155648, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 65536, 73728, 81920, 90112, 16384, 24576, 32768, 40960, 49152, 57344, 65536]>
+	at com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario(ProgressTrackerTest.java:274)
+
+
+Results :
+
+Failed tests: 
+  ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario:274 expected:<[8192, 16384, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 57344, 65536, 73728, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 114688, 122880, 131072, 139264, 147456, 155648, 147456, 155648, 163840, 172032, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 131072, 139264, 147456, 155648, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 65536, 73728, 81920, 90112, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 49152, 57344, 65536, 73728]> but was:<[8192, 16384, 16384, 24576, 32768, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 57344, 65536, 73728, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 114688, 122880, 131072, 139264, 147456, 155648, 147456, 155648, 163840, 172032, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 131072, 139264, 147456, 155648, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 65536, 73728, 81920, 90112, 16384, 24576, 32768, 40960, 49152, 57344, 65536]>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_blTzlX7B83pIQCxCeu0SQIfWhy3UFAT5VY+KGW8j4r8= with delay: 100
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.982 sec <<< FAILURE! - in com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest
+multipartUploadProgressTrackerFactory_simulateRealLifeScenario(com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest)  Time elapsed: 22.979 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[8192, 16384, 24576, 32768, 40960, 40960, 49152, 57344, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 114688, 40960, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 155648, 163840, 172032, 180224, 180224, 188416, 196608, 204800, 204800, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912]> but was:<[8192, 16384, 24576, 32768, 40960, 40960, 49152, 57344, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 114688, 40960, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 155648, 163840, 172032, 180224, 180224, 188416, 196608, 204800, 204800, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568]>
+	at com.oracle.bmc.objectstorage.transfer.ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario(ProgressTrackerTest.java:274)
+
+
+Results :
+
+Failed tests: 
+  ProgressTrackerTest.multipartUploadProgressTrackerFactory_simulateRealLifeScenario:274 expected:<[8192, 16384, 24576, 32768, 40960, 40960, 49152, 57344, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 114688, 40960, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 155648, 163840, 172032, 180224, 180224, 188416, 196608, 204800, 204800, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568, 245760, 253952, 262144, 270336, 278528, 286720, 294912]> but was:<[8192, 16384, 24576, 32768, 40960, 40960, 49152, 57344, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 73728, 81920, 90112, 98304, 106496, 114688, 40960, 40960, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 155648, 163840, 172032, 180224, 180224, 188416, 196608, 204800, 204800, 49152, 57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 81920, 90112, 98304, 106496, 114688, 122880, 131072, 139264, 147456, 155648, 163840, 172032, 180224, 188416, 196608, 204800, 212992, 221184, 229376, 237568]>
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_kaSdIGJG+XIvSmiL1Q7DuwYQbO2hxVScRy5UcfrAH0= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:57 min
+[INFO] Finished at: 2026-10-11T18:06:18-05:00
+[INFO] ------------------------------------------------------------------------

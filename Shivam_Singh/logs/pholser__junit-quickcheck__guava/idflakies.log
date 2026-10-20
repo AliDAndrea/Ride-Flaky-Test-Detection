@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.pholser:junit-quickcheck-guava >-----------------
+[INFO] Building junit-quickcheck-guava 0.9-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ junit-quickcheck-guava ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco:0.7.6.201602180812:prepare-agent (default-prepare-agent) @ junit-quickcheck-guava ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ junit-quickcheck-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- checkstyle:2.17:check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] >>> pmd:3.6:cpd-check (default) > :cpd @ junit-quickcheck-guava >>>
+[INFO] 
+[INFO] --- pmd:3.6:cpd (cpd) @ junit-quickcheck-guava ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:3.6:cpd-check (default) < :cpd @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:3.6:cpd-check (default) @ junit-quickcheck-guava ---
+[INFO] 
+[INFO] 
+[INFO] --- serviceloader:1.0.7:generate (default) @ junit-quickcheck-guava ---
+[INFO] Scanning generated classes for implementations...
+[INFO] Generating service file /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/target/classes/META-INF/services/com.pholser.junit.quickcheck.generator.Generator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.FunctionGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.PredicateGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.OptionalGenerator
+[INFO]   + com.pholser.junit.quickcheck.guava.generator.SupplierGenerator
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ junit-quickcheck-guava ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ junit-quickcheck-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ junit-quickcheck-guava <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ junit-quickcheck-guava ---
+INFO: No timeout specified. Using randomize.rounds: 20
+INFO: ROUNDS_CALCULATED: Giving com.pholser:junit-quickcheck-guava:0.9-SNAPSHOT 20 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 11 tests. Time taken: 0.17300009727478027 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.dtfixingtools/original-order
+[INFO] Getting original results (11 tests).
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[INFO] Found 0 tests in round 1 of 20 (0.0 seconds elapsed (5.0 total), 0.0 seconds remaining).
+Verified com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest.arrayOfFunction, status: expected PASS, got PASS
+Verified com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest.arrayOfFunction, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 20 (5.0 seconds elapsed (16.2 total), 44.9 seconds remaining).
+[INFO] Found 0 tests in round 3 of 20 (0.0 seconds elapsed (21.1 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 20 (4.9 seconds elapsed (25.8 total), 19.6 seconds remaining).
+[INFO] Found 0 tests in round 5 of 20 (9.5 seconds elapsed (30.7 total), 28.6 seconds remaining).
+[INFO] Found 0 tests in round 6 of 20 (14.4 seconds elapsed (35.7 total), 33.7 seconds remaining).
+[INFO] Found 0 tests in round 7 of 20 (19.5 seconds elapsed (40.6 total), 36.2 seconds remaining).
+[INFO] Found 0 tests in round 8 of 20 (24.4 seconds elapsed (45.7 total), 36.6 seconds remaining).
+[INFO] Found 0 tests in round 9 of 20 (29.5 seconds elapsed (50.6 total), 36.0 seconds remaining).
+[INFO] Found 0 tests in round 10 of 20 (34.4 seconds elapsed (55.6 total), 34.4 seconds remaining).
+[INFO] Found 0 tests in round 11 of 20 (39.4 seconds elapsed (60.6 total), 32.2 seconds remaining).
+[INFO] Found 0 tests in round 12 of 20 (44.3 seconds elapsed (65.2 total), 29.6 seconds remaining).
+[INFO] Found 0 tests in round 13 of 20 (49.0 seconds elapsed (70.2 total), 26.4 seconds remaining).
+[INFO] Found 0 tests in round 14 of 20 (54.0 seconds elapsed (74.8 total), 23.1 seconds remaining).
+Verified com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest.arrayOfFunction, status: expected PASS, got PASS
+Verified com.pholser.junit.quickcheck.guava.generator.FunctionPropertyParameterTypesTest.arrayOfFunction, status: expected ERROR, got ERROR
+[INFO] Found 0 tests in round 15 of 20 (58.6 seconds elapsed (84.8 total), 19.5 seconds remaining).
+[INFO] Found 0 tests in round 16 of 20 (68.5 seconds elapsed (89.8 total), 17.1 seconds remaining).
+[INFO] Found 0 tests in round 17 of 20 (73.6 seconds elapsed (94.6 total), 13.0 seconds remaining).
+[INFO] Found 0 tests in round 18 of 20 (78.4 seconds elapsed (99.3 total), 8.7 seconds remaining).
+[INFO] Found 0 tests in round 19 of 20 (83.1 seconds elapsed (104.2 total), 4.4 seconds remaining).
+[INFO] Found 0 tests in round 20 of 20 (88.0 seconds elapsed (108.8 total), 0.0 seconds remaining).
+
+[INFO] Found 1 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/pholser__junit-quickcheck__guava/guava/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:58 min
+[INFO] Finished at: 2026-10-09T21:12:01-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,440 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.vertexium:vertexium-accumulo >------------------
+[INFO] Building Vertexium: Accumulo 4.4.2-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ vertexium-accumulo >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-accumulo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-accumulo ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791768292339
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-accumulo ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-accumulo ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__accumulo/accumulo/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-accumulo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-accumulo ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-accumulo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jar:3.0.1:test-jar (default) @ vertexium-accumulo ---
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ vertexium-accumulo <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ vertexium-accumulo ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:24:58.881/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:24:58.910/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp64825917367559013672346246057393166
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:25:10.125/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:56735]
+2026-10-11 20:25:10.509/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:25:18.927/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:56735]
+2026-10-11 20:25:19.583/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:25:19.587/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:25:19.590/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:25:19.590/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:25:19.708/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:25:20.382/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:25:20.428/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:25:20.446/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:25:20.469/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:25:21.104/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:21.367/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:25:21.368/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:25:21.368/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:25:21.368/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:21.371/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:21.372/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:21.436/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:25:21.538/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:21.540/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:21.541/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:21.609/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:25:21.609/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:25:21.609/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:25:21.609/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:21.610/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:21.610/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:21.692/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:25:21.753/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:21.757/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:21.797/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.404 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:25:26.216/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:25:26.255/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp37636157193618247332346273397218874
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:25:37.859/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:56987]
+2026-10-11 20:25:38.231/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:25:45.750/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:56987]
+2026-10-11 20:25:46.311/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:25:46.313/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:25:46.314/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:25:46.315/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:25:46.392/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:25:47.206/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:25:47.248/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:25:47.264/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:25:47.290/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:25:47.734/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:47.962/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:25:47.962/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:25:47.962/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:25:47.963/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:47.965/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:47.967/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:48.041/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:25:48.119/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:48.120/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:48.120/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:48.192/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:25:48.193/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:25:48.193/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:25:48.193/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:48.193/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:48.194/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:25:48.244/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:25:48.314/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:25:48.317/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:25:48.354/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.739 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:25:53.006/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:25:53.041/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp66278287384478315522346300183137541
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:26:03.388/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57134]
+2026-10-11 20:26:03.696/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:26:12.159/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57134]
+2026-10-11 20:26:12.588/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:26:12.591/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:26:12.593/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:26:12.593/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:26:12.671/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:26:13.523/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:26:13.565/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:26:13.587/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:26:13.606/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:26:14.063/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:14.384/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:26:14.385/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:26:14.385/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:26:14.385/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:14.387/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:14.390/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:14.432/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:26:14.519/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:14.520/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:14.521/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:14.557/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:26:14.559/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:26:14.560/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:26:14.560/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:14.560/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:14.560/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:14.594/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:26:14.642/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:14.645/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:14.685/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.193 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:26:19.189/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:26:19.229/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp71977190904057853612346326365963249
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:26:29.414/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57282]
+2026-10-11 20:26:37.806/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57282]
+2026-10-11 20:26:38.248/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:26:38.252/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:26:38.253/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:26:38.253/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:26:38.327/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:26:39.103/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:26:39.168/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:26:39.180/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:26:39.211/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:26:39.807/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:40.092/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:26:40.092/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:26:40.092/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:26:40.092/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:40.095/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:40.097/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:40.170/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:26:40.273/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:40.273/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:40.274/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:40.307/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:26:40.310/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:26:40.310/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:26:40.310/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:40.310/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:40.311/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:26:40.371/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:26:40.475/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:26:40.477/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:26:40.521/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.796 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:26:44.367/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:26:44.403/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp78521003110113597452346351543484583
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:26:54.095/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57429]
+2026-10-11 20:27:02.154/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57429]
+2026-10-11 20:27:02.632/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:27:02.637/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:27:02.649/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:27:02.650/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:27:02.786/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:27:03.997/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:27:04.068/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:27:04.095/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:27:04.133/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:27:04.884/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:05.125/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:27:05.126/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:27:05.126/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:27:05.126/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:05.130/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:05.132/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:05.248/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:27:05.364/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:05.364/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:05.365/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:05.429/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:27:05.430/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:27:05.430/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:27:05.431/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:05.432/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:05.434/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:05.509/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:27:05.625/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:05.628/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:05.697/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.78 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:27:10.241/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:27:10.273/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp45691419326912038722346377417284208
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:27:21.654/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57585]
+2026-10-11 20:27:22.007/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:27:30.198/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57585]
+2026-10-11 20:27:30.803/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:27:30.806/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:27:30.808/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:27:30.809/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:27:30.907/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:27:31.739/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:27:31.785/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:27:31.797/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:27:31.814/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:27:32.290/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:32.531/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:27:32.531/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:27:32.531/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:27:32.531/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:32.534/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:32.535/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:32.602/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:27:32.693/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:32.694/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:32.694/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:32.764/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:27:32.764/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:27:32.765/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:27:32.765/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:32.768/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:32.772/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:27:32.841/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:27:32.902/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:27:32.907/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:27:32.952/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.227 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:27:37.392/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:27:37.426/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp13587753658487001562346404571596083
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:27:48.745/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57742]
+2026-10-11 20:27:49.258/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:27:57.471/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57742]
+2026-10-11 20:27:58.070/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:27:58.075/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:27:58.076/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:27:58.077/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:27:58.176/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:27:59.268/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:27:59.349/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:27:59.372/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:27:59.408/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:28:00.076/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:00.324/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:28:00.324/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:28:00.324/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:28:00.325/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:00.327/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:00.327/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:00.409/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:28:00.503/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:00.505/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:00.505/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:00.535/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:28:00.535/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:28:00.535/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:28:00.536/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:00.536/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:00.536/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:00.573/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:28:00.622/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:00.630/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:00.674/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.822 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.vertexium.accumulo.AccumuloGraphTest
+2026-10-11 20:28:05.814/CDT INFO  [vertexium.accumulo.AccumuloResource] Starting accumulo
+2026-10-11 20:28:05.847/CDT INFO  [vertexium.accumulo.AccumuloResource] writing to: /var/folders/d5/t9hsp32509dfjnx0hbwwq3zc0000gn/T/accumulo-temp67942626628583315822346432989688583
+Starting test: testFindPathsMultiplePaths
+2026-10-11 20:28:22.609/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57911]
+2026-10-11 20:28:23.273/CDT WARN  [client.impl.ServerClient] There are no tablet servers: check that zookeeper and accumulo are running.
+2026-10-11 20:28:43.818/CDT INFO  [vertexium.accumulo.AccumuloGraphConfiguration] Connecting to accumulo instance [miniInstance] zookeeper servers [localhost:57911]
+2026-10-11 20:28:44.449/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.search.DefaultSearchIndex'
+2026-10-11 20:28:44.455/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.UUIDIdGenerator'
+2026-10-11 20:28:44.458/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.JavaVertexiumSerializer'
+2026-10-11 20:28:44.459/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.id.IdentityNameSubstitutionStrategy'
+{buildNumber=52449f45692fe1224f8d8394e43b20be8ee8c840-20160407135007, version=0.23.1, timestamp=1460029807477}
+2026-10-11 20:28:44.681/CDT DEBUG [vertexium.util.ConfigurationUtils] creating provider 'org.vertexium.accumulo.util.DataInDataTableStreamingPropertyValueStorageStrategy'
+2026-10-11 20:28:46.354/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/idGenerator_classname
+2026-10-11 20:28:46.488/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_serializer
+2026-10-11 20:28:46.510/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_streamingPropertyValueStorageStrategy
+2026-10-11 20:28:46.539/CDT DEBUG [vertexium.accumulo.AccumuloGraph$AccumuloGraphMetadataStore] signaling change to metadata via path: /vertexium/metadata/accumulo_graph_version
+2026-10-11 20:28:47.806/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:48.243/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:28:48.243/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:28:48.244/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:28:48.244/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:48.248/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:48.250/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:48.527/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:28:48.743/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:48.744/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:48.744/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:48.933/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 10%: Searching source vertex edges
+2026-10-11 20:28:48.940/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 30%: Searching destination vertex edges
+2026-10-11 20:28:48.944/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 60%: Merging edges
+2026-10-11 20:28:48.945/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:48.945/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:48.946/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 0%: Finding path
+2026-10-11 20:28:49.061/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 66%: Finding path
+2026-10-11 20:28:49.143/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 90%: Adding paths
+2026-10-11 20:28:49.148/CDT DEBUG [vertexium.accumulo.AccumuloGraph] findPaths progress 100%: Complete
+2026-10-11 20:28:49.190/CDT INFO  [vertexium.accumulo.AccumuloResource] Stopping accumulo
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.304 sec - in org.vertexium.accumulo.AccumuloGraphTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:08 min
+[INFO] Finished at: 2026-10-11T20:28:51-05:00
+[INFO] ------------------------------------------------------------------------

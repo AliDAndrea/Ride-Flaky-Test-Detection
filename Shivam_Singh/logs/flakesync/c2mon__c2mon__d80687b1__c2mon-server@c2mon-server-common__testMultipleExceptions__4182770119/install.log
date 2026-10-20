@@ -1,0 +1,652 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] c2mon                                                              [pom]
+[INFO] c2mon-shared                                                       [pom]
+[INFO] c2mon-shared-util                                                  [jar]
+[INFO] c2mon-shared-common                                                [jar]
+[INFO] c2mon-shared-daq                                                   [jar]
+[INFO] c2mon-shared-rule                                                  [jar]
+[INFO] c2mon-shared-persistence-manager                                   [jar]
+[INFO] c2mon-shared-client                                                [jar]
+[INFO] c2mon-server-parent                                                [pom]
+[INFO] c2mon-server-common                                                [jar]
+[INFO] 
+[INFO] --------------------------< cern.c2mon:c2mon >--------------------------
+[INFO] Building c2mon 1.8.40-SNAPSHOT                                    [1/10]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.pom (16 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.jar (415 kB at 3.2 MB/s)
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.pom (5.9 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.jar (30 kB at 504 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.jar (185 kB at 2.3 MB/s)
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/c2mon/1.8.40-SNAPSHOT/c2mon-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] -------------------< cern.c2mon.shared:c2mon-shared >-------------------
+[INFO] Building c2mon-shared 1.8.40-SNAPSHOT                             [2/10]
+[INFO]   from c2mon-shared/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared <<<
+[INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.pom (1.3 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.4.2.RELEASE/spring-boot-starters-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/1.4.2.RELEASE/spring-boot-starters-1.4.2.RELEASE.pom (6.6 kB at 116 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.2.RELEASE/spring-boot-parent-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.2.RELEASE/spring-boot-parent-1.4.2.RELEASE.pom (26 kB at 454 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.2.RELEASE/spring-boot-dependencies-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.2.RELEASE/spring-boot-dependencies-1.4.2.RELEASE.pom (89 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.4.RELEASE/spring-framework-bom-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.4.RELEASE/spring-framework-bom-4.3.4.RELEASE.pom (5.1 kB at 90 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR5/spring-data-releasetrain-Hopper-SR5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR5/spring-data-releasetrain-Hopper-SR5.pom (4.4 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.5.RELEASE/spring-data-build-1.8.5.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.5.RELEASE/spring-data-build-1.8.5.RELEASE.pom (5.4 kB at 100 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.5.RELEASE/spring-integration-bom-4.3.5.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.5.RELEASE/spring-integration-bom-4.3.5.RELEASE.pom (8.5 kB at 157 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.1.3.RELEASE/spring-security-bom-4.1.3.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.1.3.RELEASE/spring-security-bom-4.1.3.RELEASE.pom (4.3 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.pom (13 kB at 192 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.8/logback-parent-1.1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.8/logback-parent-1.1.8.pom (18 kB at 346 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.pom (4.4 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom (1.9 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.pom (2.0 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom (1.8 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.jar (2.3 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar (5.0 kB at 72 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar (22 kB at 82 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar (17 kB at 57 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar (305 kB at 879 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar (471 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared/1.8.40-SNAPSHOT/c2mon-shared-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------------< cern.c2mon.shared:c2mon-shared-util >-----------------
+[INFO] Building c2mon-shared-util 1.8.40-SNAPSHOT                        [3/10]
+[INFO]   from c2mon-shared/c2mon-shared-util/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.8.1/maven-surefire-plugin-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.8.1/maven-surefire-plugin-2.8.1.pom (9.6 kB at 178 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.8.1/surefire-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.8.1/surefire-2.8.1.pom (12 kB at 153 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.8.1/maven-surefire-plugin-2.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.8.1/maven-surefire-plugin-2.8.1.jar (30 kB at 452 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.10/lombok-1.16.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.10/lombok-1.16.10.pom (1.6 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2.pom (7.6 kB at 176 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.pom (993 B at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom (2.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom (12 kB at 279 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom (22 kB at 495 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom (1.8 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom (11 kB at 252 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.15.2/activemq-client-5.15.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.15.2/activemq-client-5.15.2.pom (14 kB at 266 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.15.2/activemq-parent-5.15.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-parent/5.15.2/activemq-parent-5.15.2.pom (62 kB at 1.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.pom (2.6 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf-project/1.11/hawtbuf-project-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf-project/1.11/hawtbuf-project-1.11.pom (11 kB at 229 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/fusesource-pom/1.10/fusesource-pom-1.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/fusesource-pom/1.10/fusesource-pom-1.10.pom (15 kB at 274 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.pom (2.5 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.3.4.RELEASE/spring-jms-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.3.4.RELEASE/spring-jms-4.3.4.RELEASE.pom (3.7 kB at 43 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.pom (2.7 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.pom (2.5 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.pom (2.5 kB at 48 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.pom (5.0 kB at 123 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.pom (1.7 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/4.3.4.RELEASE/spring-messaging-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/4.3.4.RELEASE/spring-messaging-4.3.4.RELEASE.pom (4.0 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.pom (3.2 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar (1.4 MB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.15.2/activemq-client-5.15.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar (32 kB at 261 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar (50 kB at 415 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.3.4.RELEASE/spring-jms-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar (189 kB at 1.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.jar (389 kB at 2.2 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-client/5.15.2/activemq-client-5.15.2.jar (1.4 MB at 7.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar (20 kB at 134 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jms/4.3.4.RELEASE/spring-jms-4.3.4.RELEASE.jar (289 kB at 1.7 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar (761 kB at 3.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/4.3.4.RELEASE/spring-messaging-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar (263 kB at 972 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar (1.1 MB at 4.1 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar (380 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.4.RELEASE/spring-tx-4.3.4.RELEASE.jar (267 kB at 810 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-messaging/4.3.4.RELEASE/spring-messaging-4.3.4.RELEASE.jar (381 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar (1.1 MB at 2.9 MB/s)
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/src/main/java/cern/c2mon/shared/util/buffer/SynchroBuffer.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/src/main/java/cern/c2mon/shared/util/buffer/SynchroBuffer.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/src/main/java/cern/c2mon/shared/util/buffer/SynchroBuffer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-util ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.8.1/surefire-booter-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.8.1/surefire-booter-2.8.1.pom (2.1 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.8.1/surefire-api-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.8.1/surefire-api-2.8.1.pom (2.3 kB at 28 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.8.1/maven-surefire-common-2.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.8.1/maven-surefire-common-2.8.1.pom (4.0 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.7/plexus-utils-2.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.7/plexus-utils-2.0.7.pom (2.8 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.8.1/surefire-booter-2.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.8.1/surefire-booter-2.8.1.jar (34 kB at 560 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.8.1/surefire-api-2.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.8.1/maven-surefire-common-2.8.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.7/plexus-utils-2.0.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.8.1/maven-surefire-common-2.8.1.jar (61 kB at 972 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.8.1/surefire-api-2.8.1.jar (131 kB at 2.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.7/plexus-utils-2.0.7.jar (224 kB at 3.5 MB/s)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-util ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/target/c2mon-shared-util-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-util >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-util <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-util ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-util ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-util ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/target/c2mon-shared-util-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-util/1.8.40-SNAPSHOT/c2mon-shared-util-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-util/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-util/1.8.40-SNAPSHOT/c2mon-shared-util-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< cern.c2mon.shared:c2mon-shared-common >----------------
+[INFO] Building c2mon-shared-common 1.8.40-SNAPSHOT                      [4/10]
+[INFO]   from c2mon-shared/c2mon-shared-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple-xml/2.6.1/simple-xml-2.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple-xml/2.6.1/simple-xml-2.6.1.pom (3.0 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/stax/stax/1.2.0/stax-1.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/stax/stax/1.2.0/stax-1.2.0.pom (3.3 kB at 64 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.pom (145 B at 3.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.pom (4.9 kB at 97 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.2/jackson-parent-2.6.2.pom (7.8 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.pom (6.1 kB at 129 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.pom (1.3 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.6.1/jackson-parent-2.6.1.pom (7.8 kB at 190 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/23/oss-parent-23.pom (19 kB at 429 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple-xml/2.6.1/simple-xml-2.6.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/simpleframework/simple-xml/2.6.1/simple-xml-2.6.1.jar (366 kB at 5.0 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/stax/stax/1.2.0/stax-1.2.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar (93 kB at 1.8 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar (259 kB at 3.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar (47 kB at 635 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/stax/stax/1.2.0/stax-1.2.0.jar (179 kB at 2.4 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar (1.2 MB at 8.5 MB/s)
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 60 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/main/java/cern/c2mon/shared/common/datatag/SourceDataTagValue.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/main/java/cern/c2mon/shared/common/datatag/SourceDataTagValue.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/main/java/cern/c2mon/shared/common/serialisation/HardwareAddressDeserializer.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/main/java/cern/c2mon/shared/common/serialisation/HardwareAddressDeserializer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/test/java/cern/c2mon/shared/common/type/TypeConverterTest.java:[21,52] com.sun.org.apache.xpath.internal.operations.Bool is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/test/java/cern/c2mon/shared/common/type/TypeConverterTest.java:[21,52] com.sun.org.apache.xpath.internal.operations.Bool is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/test/java/cern/c2mon/shared/common/type/TypeConverterTest.java:[21,52] com.sun.org.apache.xpath.internal.operations.Bool is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/src/test/java/cern/c2mon/shared/common/type/TypeConverterTest.java:[21,52] com.sun.org.apache.xpath.internal.operations.Bool is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/target/c2mon-shared-common-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-common >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-common ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-common ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/target/c2mon-shared-common-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-common/1.8.40-SNAPSHOT/c2mon-shared-common-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-common/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-common/1.8.40-SNAPSHOT/c2mon-shared-common-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< cern.c2mon.shared:c2mon-shared-daq >-----------------
+[INFO] Building c2mon-shared-daq 1.8.40-SNAPSHOT                         [5/10]
+[INFO]   from c2mon-shared/c2mon-shared-daq/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-daq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-daq ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/process/ProcessMessageConverter.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/process/ProcessMessageConverter.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/process/ProcessMessageConverter.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/config/ChangeRequest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/config/ChangeRequest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/main/java/cern/c2mon/shared/daq/config/ChangeRequest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-daq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-daq ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/test/java/cern/c2mon/shared/daq/command/SourceCommandTagReportTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/src/test/java/cern/c2mon/shared/daq/command/SourceCommandTagReportTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-daq ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-daq ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/target/c2mon-shared-daq-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-daq >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-daq <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-daq ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-daq ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-daq ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/target/c2mon-shared-daq-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-daq/1.8.40-SNAPSHOT/c2mon-shared-daq-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-daq/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-daq/1.8.40-SNAPSHOT/c2mon-shared-daq-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ----------------< cern.c2mon.shared:c2mon-shared-rule >-----------------
+[INFO] Building c2mon-shared-rule 1.8.40-SNAPSHOT                        [6/10]
+[INFO]   from c2mon-shared/c2mon-shared-rule/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-rule ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-rule ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/main/java/cern/c2mon/shared/rule/parser/Parser.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/main/java/cern/c2mon/shared/rule/parser/Parser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-rule ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-rule ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/test/java/cern/c2mon/shared/rule/MultipleReturnValueRuleExpressionTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/test/java/cern/c2mon/shared/rule/MultipleReturnValueRuleExpressionTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/src/test/java/cern/c2mon/shared/rule/MultipleReturnValueRuleExpressionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-rule ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-rule ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/target/c2mon-shared-rule-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-rule >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-rule <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-rule ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-rule ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-rule ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/target/c2mon-shared-rule-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-rule/1.8.40-SNAPSHOT/c2mon-shared-rule-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-rule/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-rule/1.8.40-SNAPSHOT/c2mon-shared-rule-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------< cern.c2mon.shared:c2mon-shared-persistence-manager >---------
+[INFO] Building c2mon-shared-persistence-manager 1.8.40-SNAPSHOT         [7/10]
+[INFO]   from c2mon-shared/c2mon-shared-persistence-manager/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-persistence-manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-persistence-manager ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/main/java/cern/c2mon/pmanager/persistence/util/DataRecoveryThread.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/main/java/cern/c2mon/pmanager/persistence/util/DataRecoveryThread.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/main/java/cern/c2mon/pmanager/persistence/util/DataRecoveryThread.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-persistence-manager ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-persistence-manager ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/test/java/cern/c2mon/pmanager/mock/AlarmListenerImpl.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/test/java/cern/c2mon/pmanager/mock/AlarmListenerImpl.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/src/test/java/cern/c2mon/pmanager/mock/AlarmListenerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-persistence-manager ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-persistence-manager ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/target/c2mon-shared-persistence-manager-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-persistence-manager >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-persistence-manager <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-persistence-manager ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-persistence-manager ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-persistence-manager ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/target/c2mon-shared-persistence-manager-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-persistence-manager/1.8.40-SNAPSHOT/c2mon-shared-persistence-manager-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-persistence-manager/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-persistence-manager/1.8.40-SNAPSHOT/c2mon-shared-persistence-manager-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< cern.c2mon.shared:c2mon-shared-client >----------------
+[INFO] Building c2mon-shared-client 1.8.40-SNAPSHOT                      [8/10]
+[INFO]   from c2mon-shared/c2mon-shared-client/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.pom (11 kB at 137 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/27/mybatis-parent-27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/27/mybatis-parent-27.pom (36 kB at 809 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.pom (12 kB at 249 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.pom (11 kB at 263 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar (1.6 MB at 12 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar (39 kB at 845 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar (65 kB at 1.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/web/javax.el/2.2.4/javax.el-2.2.4.jar (118 kB at 1.5 MB/s)
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-shared-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-shared-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 89 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/java/cern/c2mon/shared/client/alarm/AlarmValueImpl.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/java/cern/c2mon/shared/client/alarm/AlarmValueImpl.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/java/cern/c2mon/shared/client/alarm/AlarmValueImpl.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/java/cern/c2mon/shared/client/alarm/AlarmValueImpl.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/main/java/cern/c2mon/shared/client/alarm/AlarmValueImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-shared-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-shared-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/test/java/cern/c2mon/shared/client/tag/TransferTagValueImplTest.java: Some input files use or override a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/test/java/cern/c2mon/shared/client/tag/TransferTagValueImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/test/java/cern/c2mon/shared/client/request/ClientRequestImplTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/test/java/cern/c2mon/shared/client/request/ClientRequestImplTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/src/test/java/cern/c2mon/shared/client/request/ClientRequestImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-shared-client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-shared-client ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/target/c2mon-shared-client-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-shared-client >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-shared-client <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-shared-client ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-shared-client ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-shared-client ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/target/c2mon-shared-client-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-client/1.8.40-SNAPSHOT/c2mon-shared-client-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-shared/c2mon-shared-client/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/shared/c2mon-shared-client/1.8.40-SNAPSHOT/c2mon-shared-client-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< cern.c2mon.server:c2mon-server-parent >----------------
+[INFO] Building c2mon-server-parent 1.8.40-SNAPSHOT                      [9/10]
+[INFO]   from c2mon-server/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-server-parent >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-server-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-server-parent ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-server-parent ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-server-parent ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/server/c2mon-server-parent/1.8.40-SNAPSHOT/c2mon-server-parent-1.8.40-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< cern.c2mon.server:c2mon-server-common >----------------
+[INFO] Building c2mon-server-common 1.8.40-SNAPSHOT                     [10/10]
+[INFO]   from c2mon-server/c2mon-server-common/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.15.2/activemq-broker-5.15.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.15.2/activemq-broker-5.15.2.pom (9.6 kB at 121 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.15.2/activemq-openwire-legacy-5.15.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.15.2/activemq-openwire-legacy-5.15.2.pom (1.6 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.pom (8.0 kB at 145 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.pom (3.5 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.pom (1.7 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.pom (10 kB at 194 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.pom (20 kB at 362 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/1.4.2.RELEASE/spring-boot-configuration-processor-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/1.4.2.RELEASE/spring-boot-configuration-processor-1.4.2.RELEASE.pom (1.6 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.2.RELEASE/spring-boot-tools-1.4.2.RELEASE.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.2.RELEASE/spring-boot-tools-1.4.2.RELEASE.pom (1.2 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom (1.3 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.15.2/activemq-broker-5.15.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-broker/5.15.2/activemq-broker-5.15.2.jar (1.2 MB at 11 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.15.2/activemq-openwire-legacy-5.15.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.jar (2.3 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar (659 kB at 7.4 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/1.4.2.RELEASE/spring-boot-configuration-processor-1.4.2.RELEASE.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.4.RELEASE/spring-jdbc-4.3.4.RELEASE.jar (426 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/activemq/activemq-openwire-legacy/5.15.2/activemq-openwire-legacy-5.15.2.jar (686 kB at 4.5 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/1.4.2.RELEASE/spring-boot-configuration-processor-1.4.2.RELEASE.jar (58 kB at 301 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.jar (596 kB at 2.7 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar (968 kB at 4.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar (1.5 MB at 5.3 MB/s)
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ c2mon-server-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 60 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/src/main/java/cern/c2mon/server/common/tag/AbstractTagCacheObject.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/src/main/java/cern/c2mon/server/common/tag/AbstractTagCacheObject.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ c2mon-server-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ c2mon-server-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/src/test/java/cern/c2mon/server/common/alarm/ValueAlarmConditionTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/src/test/java/cern/c2mon/server/common/alarm/ValueAlarmConditionTest.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/src/test/java/cern/c2mon/server/common/alarm/ValueAlarmConditionTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:2.8.1:test (default-test) @ c2mon-server-common ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ c2mon-server-common ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/target/c2mon-server-common-1.8.40-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.1:jar (attach-sources) > generate-sources @ c2mon-server-common >>>
+[INFO] 
+[INFO] <<< source:3.0.1:jar (attach-sources) < generate-sources @ c2mon-server-common <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.1:jar (attach-sources) @ c2mon-server-common ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (attach-javadocs) @ c2mon-server-common ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ c2mon-server-common ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/target/c2mon-server-common-1.8.40-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/cern/c2mon/server/c2mon-server-common/1.8.40-SNAPSHOT/c2mon-server-common-1.8.40-SNAPSHOT.jar
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/c2mon__c2mon__d80687b1__c2mon-server@c2mon-server-common/c2mon-server/c2mon-server-common/pom.xml to /Users/shivamsingh/.m2/repository/cern/c2mon/server/c2mon-server-common/1.8.40-SNAPSHOT/c2mon-server-common-1.8.40-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for c2mon 1.8.40-SNAPSHOT:
+[INFO] 
+[INFO] c2mon .............................................. SUCCESS [  5.118 s]
+[INFO] c2mon-shared ....................................... SUCCESS [  1.680 s]
+[INFO] c2mon-shared-util .................................. SUCCESS [  8.932 s]
+[INFO] c2mon-shared-common ................................ SUCCESS [  8.204 s]
+[INFO] c2mon-shared-daq ................................... SUCCESS [  3.430 s]
+[INFO] c2mon-shared-rule .................................. SUCCESS [  1.273 s]
+[INFO] c2mon-shared-persistence-manager ................... SUCCESS [  0.429 s]
+[INFO] c2mon-shared-client ................................ SUCCESS [  6.404 s]
+[INFO] c2mon-server-parent ................................ SUCCESS [  0.041 s]
+[INFO] c2mon-server-common ................................ SUCCESS [  2.912 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.262 s
+[INFO] Finished at: 2026-10-11T17:31:08-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,137 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.apache.maven.doxia:doxia-module-markdown >------------
+[INFO] Building Doxia :: Markdown Module 2.1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ doxia-module-markdown >>>
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-bytecode-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-java-version) @ doxia-module-markdown ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:check (checkstyle-check) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- remote-resources:3.2.0:process (process-resource-bundles) @ doxia-module-markdown ---
+[INFO] Preparing remote bundle org.apache.apache.resources:apache-jar-resource-bundle:1.5
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ doxia-module-markdown ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/src/main/resources
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/target/generated-site/xsd
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/classes
+[INFO] 
+[INFO] --- apache-rat:0.16.1:check (rat-check) @ doxia-module-markdown ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ doxia-module-markdown ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (index-project) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- sisu:0.9.0.M3:main-index (default) @ doxia-module-markdown ---
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ doxia-module-markdown ---
+[INFO] Copying 24 resources from src/test/resources to target/test-classes
+[INFO] Copying 3 resources from target/maven-shared-archive-resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ doxia-module-markdown ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ doxia-module-markdown <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ doxia-module-markdown ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.apache.maven.doxia:doxia-module-markdown:2.1.0-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 99 tests. Time taken: 0.7809998989105225 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/doxia-modules/doxia-module-markdown/.dtfixingtools/original-order
+[INFO] Getting original results (99 tests).
+---------------------------------------------------
+java.lang.Exception: Non-zero exit code (output in /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__maven-doxia__doxia-modules@doxia-module-markdown/failing-test-output-1791761932208-ec44fc09-e3f1-4f30-9910-d6d7faa29585): 2
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$3(Runner.scala:71)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$2(TempFiles.scala:38)
+	at edu.illinois.cs.testrunner.util.autoClose.$anonfun$autoCloseTry$1(autoClose.scala:7)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.autoClose.autoCloseTry(autoClose.scala:7)
+	at edu.illinois.cs.testrunner.util.autoClose.apply(autoClose.scala:24)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withProperties$1(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withProperties(TempFiles.scala:36)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$2(Runner.scala:50)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.runner.Runner.$anonfun$runWithCp$1(Runner.scala:49)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withSeq$1(TempFiles.scala:31)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withSeq(TempFiles.scala:25)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp(Runner.scala:48)
+	at edu.illinois.cs.testrunner.runner.Runner.runWithCp$(Runner.scala:47)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runWithCp(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.lambda$runWithCp$0(InstrumentingSmartRunner.java:58)
+	at edu.illinois.cs.testrunner.util.TempFiles$.$anonfun$withTempFile$1(TempFiles.scala:17)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.util.TempFiles$.withTempFile(TempFiles.scala:17)
+	at edu.illinois.cs.testrunner.util.TempFiles.withTempFile(TempFiles.scala)
+	at edu.illinois.cs.dt.tools.runner.InstrumentingSmartRunner.runWithCp(InstrumentingSmartRunner.java:54)
+	at edu.illinois.cs.testrunner.runner.Runner.run(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.Runner.run$(Runner.scala:33)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.run(SmartRunner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList(Runner.scala:28)
+	at edu.illinois.cs.testrunner.runner.Runner.runList$(Runner.scala:27)
+	at edu.illinois.cs.testrunner.runner.SmartRunner.runList(SmartRunner.scala:21)
+	at edu.illinois.cs.dt.tools.detection.DetectorUtil.originalResults(DetectorUtil.java:35)
+	at edu.illinois.cs.dt.tools.detection.detectors.RandomDetector.<init>(RandomDetector.java:29)
+	at edu.illinois.cs.dt.tools.detection.detectors.DetectorFactory.makeDetector(DetectorFactory.java:20)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.detectorExecute(DetectorMojo.java:268)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.lambda$execute$5(DetectorMojo.java:204)
+	at edu.illinois.cs.dt.tools.utility.ErrorLogger.runAndLogError(ErrorLogger.java:17)
+	at edu.illinois.cs.dt.tools.plugin.DetectorMojo.execute(DetectorMojo.java:204)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.567 s
+[INFO] Finished at: 2026-10-11T18:38:53-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,507 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.ebay.commerce:taxonomy-metadata-sdk >---------------
+[INFO] Building taxonomy-metadata-sdk 1.0.0-RELEASE
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ taxonomy-metadata-sdk >>>
+[INFO] 
+[INFO] --- jacoco:0.8.4:prepare-agent (pre-unit-test) @ taxonomy-metadata-sdk ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] surefireargs set to empty
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ taxonomy-metadata-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ taxonomy-metadata-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ taxonomy-metadata-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ taxonomy-metadata-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ taxonomy-metadata-sdk <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ taxonomy-metadata-sdk ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_XNGG+2K65u7te62w36oEhCbvKqZPvWta8cQkfCj3TGM=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+19:32:28.122 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.127 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:32:28.138 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:32:28.237 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:32:28.268 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest], using SpringBootContextLoader
+19:32:28.273 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTest-context.xml] does not exist
+19:32:28.274 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTestContext.groovy] does not exist
+19:32:28.274 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:32:28.275 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: AspectsSDKCoreTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:32:28.391 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.559 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/target/classes/com/ebay/commerce/taxonomy/Driver.class]
+19:32:28.562 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ebay.commerce.taxonomy.Driver for test class com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+19:32:28.715 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: using defaults.
+19:32:28.715 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:32:28.727 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+19:32:28.728 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:32:28.728 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71e9ddb4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@394df057, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4961f6af, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5aebe890, org.springframework.test.context.support.DirtiesContextTestExecutionListener@65d09a04, org.springframework.test.context.event.EventPublishingTestExecutionListener@33c911a1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@75db5df9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@707194ba, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1190200a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6a2f6f80, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45b4c3a9]
+19:32:28.731 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.733 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.734 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.734 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.734 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.734 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.738 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@58ea606c testClass = AspectsSDKCoreTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6f45df59 testClass = AspectsSDKCoreTest, locations = '{}', classes = '{class com.ebay.commerce.taxonomy.Driver}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@47db50c5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@954b04f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb0d3ed, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@b9afc07], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+19:32:28.741 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.741 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:28.774 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2026-10-11 19:32:29.394  WARN 32494 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/shivamsingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/shivamsingh/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-11 19:32:29.430  INFO 32494 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Starting AspectsSDKCoreTest on Shivams-MacBook-Air.local with PID 32494 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root)
+2026-10-11 19:32:29.432  INFO 32494 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : No active profile set, falling back to default profiles: default
+2026-10-11 19:32:31.341  INFO 32494 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2026-10-11 19:32:32.402  INFO 32494 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Started AspectsSDKCoreTest in 3.614 seconds (JVM running for 5.371)
+2026-10-11 19:32:32.406 ERROR 32494 --- [           main] c.e.c.taxonomy.options.OptionsHandler    : Please use -h to understand arguments supported
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.102 s - in com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+2026-10-11 19:32:33.042  INFO 32494 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexExecid=dOEOEyz1qVbZQJSVk4ttNLkTbTRQNhkqpl7xKyk=
+nondexLogging=CONFIG
+test=
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.pom (6.4 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.pom (3.3 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.pom (2.2 kB at 53 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.pom (1.6 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.pom (2.7 kB at 65 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.pom (2.7 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.jar (22 kB at 247 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar (40 kB at 471 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.jar (51 kB at 235 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.jar (28 kB at 96 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.jar (167 kB at 524 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.jar (12 kB at 27 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+19:32:36.245 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.254 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:32:36.266 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:32:36.347 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:32:36.371 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest], using SpringBootContextLoader
+19:32:36.376 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTest-context.xml] does not exist
+19:32:36.377 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTestContext.groovy] does not exist
+19:32:36.377 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:32:36.378 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: AspectsSDKCoreTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:32:36.489 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.645 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/target/classes/com/ebay/commerce/taxonomy/Driver.class]
+19:32:36.648 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ebay.commerce.taxonomy.Driver for test class com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+19:32:36.776 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: using defaults.
+19:32:36.776 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:32:36.789 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+19:32:36.790 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:32:36.790 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2638011, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ff29830, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@313b2ea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f465398, org.springframework.test.context.event.EventPublishingTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@623a8092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a1cdc6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@175b9425, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3098cf3b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@610f7aa]
+19:32:36.793 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.795 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.807 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.807 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.809 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.809 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.816 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@236e3f4e testClass = AspectsSDKCoreTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3cc1435c testClass = AspectsSDKCoreTest, locations = '{}', classes = '{class com.ebay.commerce.taxonomy.Driver}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@aecb35a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6483f5ae, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71d15f18, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@32cf48b7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+19:32:36.818 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.819 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:36.845 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2026-10-11 19:32:37.358  WARN 32550 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/shivamsingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/shivamsingh/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-11 19:32:37.401  INFO 32550 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Starting AspectsSDKCoreTest on Shivams-MacBook-Air.local with PID 32550 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root)
+2026-10-11 19:32:37.408  INFO 32550 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : No active profile set, falling back to default profiles: default
+2026-10-11 19:32:39.713  INFO 32550 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2026-10-11 19:32:41.028  INFO 32550 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Started AspectsSDKCoreTest in 4.17 seconds (JVM running for 5.631)
+2026-10-11 19:32:41.031 ERROR 32550 --- [           main] c.e.c.taxonomy.options.OptionsHandler    : Please use -h to understand arguments supported
+[INFO] Running com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 s - in com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+2026-10-11 19:32:41.544  INFO 32550 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexExecid=RVwV3cn8+w0g1zTPh7896wYJ8NddLN7gvm30qH+1oo=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+19:32:42.984 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:42.993 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:32:43.004 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:32:43.077 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:32:43.101 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest], using SpringBootContextLoader
+19:32:43.106 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTest-context.xml] does not exist
+19:32:43.106 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTestContext.groovy] does not exist
+19:32:43.106 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:32:43.107 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: AspectsSDKCoreTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:32:43.194 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.335 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/target/classes/com/ebay/commerce/taxonomy/Driver.class]
+19:32:43.337 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ebay.commerce.taxonomy.Driver for test class com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+19:32:43.504 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: using defaults.
+19:32:43.505 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:32:43.521 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+19:32:43.522 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:32:43.523 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2638011, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ff29830, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@313b2ea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f465398, org.springframework.test.context.event.EventPublishingTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@623a8092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a1cdc6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@175b9425, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3098cf3b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@610f7aa]
+19:32:43.526 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.528 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.543 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.544 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.547 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.547 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.548 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.548 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.548 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.549 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.553 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@236e3f4e testClass = AspectsSDKCoreTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3cc1435c testClass = AspectsSDKCoreTest, locations = '{}', classes = '{class com.ebay.commerce.taxonomy.Driver}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@aecb35a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6483f5ae, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71d15f18, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@32cf48b7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+19:32:43.556 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.556 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:43.588 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2026-10-11 19:32:44.427  WARN 32662 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/shivamsingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/shivamsingh/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-11 19:32:44.463  INFO 32662 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Starting AspectsSDKCoreTest on Shivams-MacBook-Air.local with PID 32662 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root)
+2026-10-11 19:32:44.475  INFO 32662 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : No active profile set, falling back to default profiles: default
+2026-10-11 19:32:48.670  INFO 32662 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2026-10-11 19:32:50.193  INFO 32662 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Started AspectsSDKCoreTest in 6.586 seconds (JVM running for 8.05)
+2026-10-11 19:32:50.203 ERROR 32662 --- [           main] c.e.c.taxonomy.options.OptionsHandler    : Please use -h to understand arguments supported
+[INFO] Running com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.663 s <<< FAILURE! - in com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+[ERROR] testAspectsDelta(com.ebay.commerce.taxonomy.AspectsSDKCoreTest)  Time elapsed: 0.656 s  <<< FAILURE!
+junit.framework.AssertionFailedError: 
+
+Expected: AspectsDelta<modifiedCategories=[ModifiedCategory<modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], categoryId="852", newAspects=[Aspect<...>], removedAspects=["Date of Creation"]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<category=Category<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>]>
+  Actual: AspectsDelta<modifiedCategories=[AspectDeltaProcessor.2<removedAspects=["Date of Creation"], newAspects=[Aspect<...>], categoryId="852", modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>]>], newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], removedCategories=["10000", "853"]>
+
+--- Found following differences ---
+removedCategories[1]: expected: "10000", actual: "853"
+removedCategories[0]: expected: "853", actual: "10000"
+
+--- Difference detail tree ---
+ expected: AspectsDelta<modifiedCategories=[ModifiedCategory<newAspects=[Aspect<...>], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], categoryId="852", removedAspects=["Date of Creation"]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<category=Category<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>]>
+   actual: AspectsDelta<newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], removedCategories=["10000", "853"], modifiedCategories=[AspectDeltaProcessor.2<categoryId="852", newAspects=[Aspect<...>], removedAspects=["Date of Creation"], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>]>]>
+
+removedCategories expected: ["853", "10000"]
+removedCategories   actual: ["10000", "853"]
+
+removedCategories[1] expected: "10000"
+removedCategories[1]   actual: "853"
+
+removedCategories[0] expected: "853"
+removedCategories[0]   actual: "10000"
+
+
+	at com.ebay.commerce.taxonomy.AspectsSDKCoreTest.testAspectsDelta(AspectsSDKCoreTest.java:54)
+
+2026-10-11 19:32:51.053  INFO 32662 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   AspectsSDKCoreTest.testAspectsDelta:54 
+Expected: AspectsDelta<modifiedCategories=[ModifiedCategory<modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], categoryId="852", newAspects=[Aspect<...>], removedAspects=["Date of Creation"]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<category=Category<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>]>
+  Actual: AspectsDelta<modifiedCategories=[AspectDeltaProcessor.2<removedAspects=["Date of Creation"], newAspects=[Aspect<...>], categoryId="852", modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>]>], newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], removedCategories=["10000", "853"]>
+
+--- Found following differences ---
+removedCategories[1]: expected: "10000", actual: "853"
+removedCategories[0]: expected: "853", actual: "10000"
+
+--- Difference detail tree ---
+ expected: AspectsDelta<modifiedCategories=[ModifiedCategory<newAspects=[Aspect<...>], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], categoryId="852", removedAspects=["Date of Creation"]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<category=Category<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>]>
+   actual: AspectsDelta<newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], removedCategories=["10000", "853"], modifiedCategories=[AspectDeltaProcessor.2<categoryId="852", newAspects=[Aspect<...>], removedAspects=["Date of Creation"], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>]>]>
+
+removedCategories expected: ["853", "10000"]
+removedCategories   actual: ["10000", "853"]
+
+removedCategories[1] expected: "10000"
+removedCategories[1]   actual: "853"
+
+removedCategories[0] expected: "853"
+removedCategories[0]   actual: "10000"
+
+
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for RVwV3cn8+w0g1zTPh7896wYJ8NddLN7gvm30qH+1oo=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex
+nondexExecid=hfMBMwA+jHJKdU+LGuZ7DSPuYl6lmurcJq7MBsIdTVI=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+19:32:53.284 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:53.300 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:32:53.316 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:32:53.423 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:32:53.459 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest], using SpringBootContextLoader
+19:32:53.464 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTest-context.xml] does not exist
+19:32:53.466 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: class path resource [com/ebay/commerce/taxonomy/AspectsSDKCoreTestContext.groovy] does not exist
+19:32:53.466 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:32:53.467 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: AspectsSDKCoreTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:32:53.606 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:53.876 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/target/classes/com/ebay/commerce/taxonomy/Driver.class]
+19:32:53.880 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ebay.commerce.taxonomy.Driver for test class com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+19:32:54.089 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]: using defaults.
+19:32:54.090 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:32:54.109 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+19:32:54.111 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+19:32:54.112 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2638011, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ff29830, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@313b2ea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f465398, org.springframework.test.context.event.EventPublishingTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@623a8092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a1cdc6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@175b9425, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3098cf3b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@610f7aa]
+19:32:54.115 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.119 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.137 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.137 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.140 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.141 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.142 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.143 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.143 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.143 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.149 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@236e3f4e testClass = AspectsSDKCoreTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3cc1435c testClass = AspectsSDKCoreTest, locations = '{}', classes = '{class com.ebay.commerce.taxonomy.Driver}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@aecb35a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6483f5ae, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@71d15f18, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@32cf48b7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+19:32:54.151 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.151 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ebay.commerce.taxonomy.AspectsSDKCoreTest]
+19:32:54.182 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2026-10-11 19:32:54.815  WARN 32703 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/shivamsingh/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/shivamsingh/.m2/repository/org/json/json/20180130/json-20180130.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-10-11 19:32:54.877  INFO 32703 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Starting AspectsSDKCoreTest on Shivams-MacBook-Air.local with PID 32703 (started by shivamsingh in /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root)
+2026-10-11 19:32:54.889  INFO 32703 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : No active profile set, falling back to default profiles: default
+2026-10-11 19:32:57.508  INFO 32703 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'threadPoolTaskExecutor'
+2026-10-11 19:32:58.694  INFO 32703 --- [           main] c.e.c.taxonomy.AspectsSDKCoreTest        : Started AspectsSDKCoreTest in 4.497 seconds (JVM running for 6.667)
+2026-10-11 19:32:58.697 ERROR 32703 --- [           main] c.e.c.taxonomy.options.OptionsHandler    : Please use -h to understand arguments supported
+[INFO] Running com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.709 s <<< FAILURE! - in com.ebay.commerce.taxonomy.AspectsSDKCoreTest
+[ERROR] testAspectsDelta(com.ebay.commerce.taxonomy.AspectsSDKCoreTest)  Time elapsed: 0.692 s  <<< FAILURE!
+junit.framework.AssertionFailedError: 
+
+Expected: AspectsDelta<modifiedCategories=[ModifiedCategory<removedAspects=["Date of Creation"], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], newAspects=[Aspect<...>], categoryId="852">], newCategories=[CategoryAspect<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=Category<...>>], removedCategories=["853", "10000"]>
+  Actual: AspectsDelta<modifiedCategories=[AspectDeltaProcessor.2<newAspects=[Aspect<...>], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>], categoryId="852", removedAspects=["Date of Creation"]>], newCategories=[AspectDeltaProcessor.1<category=AspectDeltaProcessor.1.1<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>], removedCategories=["10000", "853"]>
+
+--- Found following differences ---
+removedCategories[0]: expected: "853", actual: "10000"
+removedCategories[1]: expected: "10000", actual: "853"
+
+--- Difference detail tree ---
+ expected: AspectsDelta<modifiedCategories=[ModifiedCategory<categoryId="852", removedAspects=["Date of Creation"], newAspects=[Aspect<...>], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=Category<...>>]>
+   actual: AspectsDelta<newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], modifiedCategories=[AspectDeltaProcessor.2<categoryId="852", newAspects=[Aspect<...>], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>], removedAspects=["Date of Creation"]>], removedCategories=["10000", "853"]>
+
+removedCategories expected: ["853", "10000"]
+removedCategories   actual: ["10000", "853"]
+
+removedCategories[0] expected: "853"
+removedCategories[0]   actual: "10000"
+
+removedCategories[1] expected: "10000"
+removedCategories[1]   actual: "853"
+
+
+	at com.ebay.commerce.taxonomy.AspectsSDKCoreTest.testAspectsDelta(AspectsSDKCoreTest.java:54)
+
+2026-10-11 19:32:59.518  INFO 32703 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   AspectsSDKCoreTest.testAspectsDelta:54 
+Expected: AspectsDelta<modifiedCategories=[ModifiedCategory<removedAspects=["Date of Creation"], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>], newAspects=[Aspect<...>], categoryId="852">], newCategories=[CategoryAspect<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=Category<...>>], removedCategories=["853", "10000"]>
+  Actual: AspectsDelta<modifiedCategories=[AspectDeltaProcessor.2<newAspects=[Aspect<...>], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>], categoryId="852", removedAspects=["Date of Creation"]>], newCategories=[AspectDeltaProcessor.1<category=AspectDeltaProcessor.1.1<...>, aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>]>], removedCategories=["10000", "853"]>
+
+--- Found following differences ---
+removedCategories[0]: expected: "853", actual: "10000"
+removedCategories[1]: expected: "10000", actual: "853"
+
+--- Difference detail tree ---
+ expected: AspectsDelta<modifiedCategories=[ModifiedCategory<categoryId="852", removedAspects=["Date of Creation"], newAspects=[Aspect<...>], modifiedAspects=[ModifiedAspect<...>, ModifiedAspect<...>, ModifiedAspect<...>]>], removedCategories=["853", "10000"], newCategories=[CategoryAspect<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=Category<...>>]>
+   actual: AspectsDelta<newCategories=[AspectDeltaProcessor.1<aspects=[Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>, Aspect<...>], category=AspectDeltaProcessor.1.1<...>>], modifiedCategories=[AspectDeltaProcessor.2<categoryId="852", newAspects=[Aspect<...>], modifiedAspects=[AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>, AspectDeltaProcessor.3<...>], removedAspects=["Date of Creation"]>], removedCategories=["10000", "853"]>
+
+removedCategories expected: ["853", "10000"]
+removedCategories   actual: ["10000", "853"]
+
+removedCategories[0] expected: "853"
+removedCategories[0]   actual: "10000"
+
+removedCategories[1] expected: "10000"
+removedCategories[1]   actual: "853"
+
+
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for hfMBMwA+jHJKdU+LGuZ7DSPuYl6lmurcJq7MBsIdTVI=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexExecid=dOEOEyz1qVbZQJSVk4ttNLkTbTRQNhkqpl7xKyk= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexExecid=RVwV3cn8+w0g1zTPh7896wYJ8NddLN7gvm30qH+1oo= -DnondexLogging=CONFIG
+[WARNING] com.ebay.commerce.taxonomy.AspectsSDKCoreTest#testAspectsDelta
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex" -DnondexExecid=hfMBMwA+jHJKdU+LGuZ7DSPuYl6lmurcJq7MBsIdTVI= -DnondexLogging=CONFIG
+[WARNING] com.ebay.commerce.taxonomy.AspectsSDKCoreTest#testAspectsDelta
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] com.ebay.commerce.taxonomy.AspectsSDKCoreTest#testAspectsDelta
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex/dOEOEyz1qVbZQJSVk4ttNLkTbTRQNhkqpl7xKyk=/test_results.html
+[INFO] [NonDex] The id of this run is: dOEOEyz1qVbZQJSVk4ttNLkTbTRQNhkqpl7xKyk=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.042 s
+[INFO] Finished at: 2026-10-11T19:33:00-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project taxonomy-metadata-sdk: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/eBay__taxonomy-sdk__root/.nondex/RVwV3cn8+w0g1zTPh7896wYJ8NddLN7gvm30qH+1oo= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

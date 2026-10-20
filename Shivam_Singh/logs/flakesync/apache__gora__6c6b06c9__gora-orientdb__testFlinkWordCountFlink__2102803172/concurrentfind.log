@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.gora:gora-orientdb >--------------------
+[INFO] Building Apache Gora :: OrientDB 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) > test-compile @ gora-orientdb >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-java-version) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-output-timestamp-property) @ gora-orientdb ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- build-helper:1.7:add-source (default) @ gora-orientdb ---
+[INFO] Source directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/examples/java added.
+[INFO] 
+[INFO] --- remote-resources:1.7.0:process (process-resource-bundles) @ gora-orientdb ---
+[INFO] Preparing remote bundle org.apache:apache-jar-resource-bundle:1.4
+[INFO] Copying 3 resources from 1 bundle.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ gora-orientdb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[254,39] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[280,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[313,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[347,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[349,32] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[368,41] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[WARNING]   where RET is a type-variable:
+    RET extends OCommandRequest declared in method <RET>command(OCommandRequest)
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/apache__gora__6c6b06c9__gora-orientdb/gora-orientdb/src/main/java/org/apache/gora/orientdb/store/OrientDBStore.java:[404,61] [deprecation] <RET>command(OCommandRequest) in ODatabase has been deprecated
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gora-orientdb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ gora-orientdb ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) < test-compile @ gora-orientdb <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:concurrentfind (default-cli) @ gora-orientdb ---
+INFO: Running FindTestsRunMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount
+Oct 11, 2026 7:33:05 PM com.orientechnologies.common.log.OLogManager log
+INFO: Default limit of open files (512) will be used.
+
+2026-10-11 19:33:05:952 INFO  Loading configuration from input stream [OServerConfigurationLoaderXml]
+2026-10-11 19:33:06:264 INFO  OrientDB Server v3.0.30 - Veloce (build eae50981ca31c79c85e4524fb376fced313acc23, branch UNKNOWN) is starting up... [OServer][ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.688 s <<< FAILURE! - in org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount
+[ERROR] testFlinkWordCountFlink(org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount)  Time elapsed: 1.298 s  <<< ERROR!
+java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "com/orientechnologies/orient/server/OPushManager"
+	at org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount.setUp(TestOrientDBStoreWordCount.java:44)
+
+[ERROR] testFlinkWordCountFlink(org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount)  Time elapsed: 1.299 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount.tearDown(TestOrientDBStoreWordCount.java:53)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR] org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount.testFlinkWordCountFlink(org.apache.gora.orientdb.mapreduce.TestOrientDBStoreWordCount)
+[ERROR]   Run 1: TestOrientDBStoreWordCount.setUp:44 » Linkage loader (instance of  sun/misc/La...
+[ERROR]   Run 2: TestOrientDBStoreWordCount.tearDown:53 NullPointer
+[INFO] 
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_OCZUAx14elA1LhW7u4oRtdCCgBoiXpuTjhaBf9POOKw= with delay: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.792 s
+[INFO] Finished at: 2026-10-11T19:33:11-05:00
+[INFO] ------------------------------------------------------------------------

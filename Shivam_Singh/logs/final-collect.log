@@ -1,0 +1,19 @@
+## Answers
+
+1. **iDFlakies:** 135 flaky tests
+2. **NonDex:** 592 flaky tests
+3. **Detected by both:** 29
+4. **Unique across both:** 698
+
+## FlakeSync
+
+100 async (NOD) flaky tests from IDoFT were run through FlakeSync on 36 distinct projects that built (36 more candidates could not be built).
+
+| Outcome | Tests |
+|---|---:|
+| failure reproduced by delay injection; root cause not isolated | 71 |
+| no concurrent methods found | 23 |
+| critical points found (no patch) | 5 |
+| time cap reached in concurrentfind | 1 |
+
+[2026-10-11 20:57:41] ALL DONE - results in /Users/shivamsingh/iDFlakies/ride-run/Ride-Flaky-Test-Detection/shivam (not committed or pushed)

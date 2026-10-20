@@ -1,0 +1,1572 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< uk.gov.gchq.koryphe:core >----------------------
+[INFO] Building core 2.5.3-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ core >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (default-compile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- compiler:3.9.0:compile (compile-jdk8) @ core ---
+[WARNING]  Parameter 'outputDirectory' is read-only, must not be used in configuration
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ core ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.9.0:testCompile (default-testCompile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- compiler:3.9.0:testCompile (testCompile-jdk8) @ core ---
+[WARNING]  Parameter 'outputDirectory' is read-only, must not be used in configuration
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ core <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ core ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_SB7ZPPkT4B5R2h7lkqRBhRGAVY1OeHTHm0l2QvCtE4=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.299 s - in uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.788 s - in uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 s - in uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+gchq.koryphe.ValidationResult WARN  - Sum of 32762 and 6 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+gchq.koryphe.ValidationResult WARN  - Product of 32767 and 48 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CastTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.CastTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 s - in uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Running uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.345 s - in uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Running uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.MapTupleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.tuple.MapTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.706 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.611 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.21 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.448 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.103 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 2342, Failures: 0, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexExecid=CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.437 s - in uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.056 s - in uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.384 s - in uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] shouldJsonSerialiseAndDeserialise  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 1]}>
+	at uk.gov.gchq.koryphe.impl.predicate.IsInTest.shouldJsonSerialiseAndDeserialise(IsInTest.java:62)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 s - in uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+gchq.koryphe.ValidationResult WARN  - Sum of 32762 and 6 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+gchq.koryphe.ValidationResult WARN  - Product of 32767 and 48 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CastTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.CastTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] shouldJoinIterableOfStrings  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "bca"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStrings(StringJoinTest.java:70)
+
+[ERROR] shouldHandleNullDelimiter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "bca"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldHandleNullDelimiter(StringJoinTest.java:57)
+
+[ERROR] shouldJoinIterableOfStringsWithDelimiter  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "a,b,c"
+ but was: "b,c,a"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStringsWithDelimiter(StringJoinTest.java:96)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 s - in uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Running uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.452 s - in uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Running uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 s - in uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.435 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] testConstructorsWithHashMapTuple  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@72e49f6a[values={1=1, 0=0, 2=2}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 0: expected "0" but was "1"
+  - element at index 1: expected "1" but was "2"
+  - element at index 2: expected "2" but was "0"
+
+	at uk.gov.gchq.koryphe.tuple.MapTupleTest.testConstructorsWithHashMapTuple(MapTupleTest.java:49)
+
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.996 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.313 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.811 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.184 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.802 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   StringJoinTest.shouldHandleNullDelimiter:57 
+expected: "abc"
+ but was: "bca"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStrings:70 
+expected: "abc"
+ but was: "bca"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStringsWithDelimiter:96 
+expected: "a,b,c"
+ but was: "b,c,a"
+[ERROR]   IsInTest.shouldJsonSerialiseAndDeserialise:62 expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 1]}>
+[ERROR]   MapTupleTest.testConstructorsWithHashMapTuple:49 
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@72e49f6a[values={1=1, 0=0, 2=2}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 0: expected "0" but was "1"
+  - element at index 1: expected "1" but was "2"
+  - element at index 2: expected "2" but was "0"
+
+[INFO] 
+[ERROR] Tests run: 2342, Failures: 5, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Surefire failed when running tests for CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexExecid=Zv+4reQmB9rtFZHuilo4DrSFpu4RLOD7F2+nGkwC6iw=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.352 s - in uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.898 s - in uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.397 s - in uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] shouldJsonSerialiseAndDeserialise  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, 1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}]}>
+	at uk.gov.gchq.koryphe.impl.predicate.IsInTest.shouldJsonSerialiseAndDeserialise(IsInTest.java:62)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.192 s - in uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+gchq.koryphe.ValidationResult WARN  - Sum of 32762 and 6 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+gchq.koryphe.ValidationResult WARN  - Product of 32767 and 48 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.186 s - in uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CastTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.CastTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] shouldJoinIterableOfStrings  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "bca"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStrings(StringJoinTest.java:70)
+
+[ERROR] shouldHandleNullDelimiter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "bac"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldHandleNullDelimiter(StringJoinTest.java:57)
+
+[ERROR] shouldJoinIterableOfStringsWithDelimiter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "a,b,c"
+ but was: "b,c,a"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStringsWithDelimiter(StringJoinTest.java:96)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 s - in uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 s - in uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Running uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 s - in uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Running uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.382 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] testConstructorsWithHashMapTuple  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@54bc3bcf[values={0=0, 2=2, 1=1}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 1: expected "1" but was "2"
+  - element at index 2: expected "2" but was "1"
+
+	at uk.gov.gchq.koryphe.tuple.MapTupleTest.testConstructorsWithHashMapTuple(MapTupleTest.java:49)
+
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.96 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.528 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.05 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.503 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.972 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   StringJoinTest.shouldHandleNullDelimiter:57 
+expected: "abc"
+ but was: "bac"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStrings:70 
+expected: "abc"
+ but was: "bca"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStringsWithDelimiter:96 
+expected: "a,b,c"
+ but was: "b,c,a"
+[ERROR]   IsInTest.shouldJsonSerialiseAndDeserialise:62 expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, 1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}]}>
+[ERROR]   MapTupleTest.testConstructorsWithHashMapTuple:49 
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@54bc3bcf[values={0=0, 2=2, 1=1}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 1: expected "1" but was "2"
+  - element at index 2: expected "2" but was "1"
+
+[INFO] 
+[ERROR] Tests run: 2342, Failures: 5, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Surefire failed when running tests for Zv+4reQmB9rtFZHuilo4DrSFpu4RLOD7F2+nGkwC6iw=
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex
+nondexExecid=yWEv4UYN6ZSUZ8Oqq90aVikUfdBQKLCj7SIXAXHJVCw=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.403 s - in uk.gov.gchq.koryphe.impl.predicate.IsXMoreThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in uk.gov.gchq.koryphe.impl.predicate.AreInTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.IsMoreThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffFromDaysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.953 s - in uk.gov.gchq.koryphe.impl.predicate.NotTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.predicate.ExistsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.predicate.IsFalseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.impl.predicate.StringContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in uk.gov.gchq.koryphe.impl.predicate.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in uk.gov.gchq.koryphe.impl.predicate.IsShorterThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.predicate.MultiRegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.predicate.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.predicate.IsXLessThanYTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.409 s - in uk.gov.gchq.koryphe.impl.predicate.IsLessThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.predicate.IsInTest
+[ERROR] shouldJsonSerialiseAndDeserialise  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, 1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}]}>
+	at uk.gov.gchq.koryphe.impl.predicate.IsInTest.shouldJsonSerialiseAndDeserialise(IsInTest.java:62)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in uk.gov.gchq.koryphe.impl.predicate.MapContainsPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.predicate.IsEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.predicate.IsTrueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in uk.gov.gchq.koryphe.impl.predicate.range.InTimeRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeDualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.range.InRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in uk.gov.gchq.koryphe.impl.predicate.range.InDateRangeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.impl.predicate.CollectionContainsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.235 s - in uk.gov.gchq.koryphe.impl.predicate.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.predicate.IsATest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.predicate.AgeOffTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in uk.gov.gchq.koryphe.impl.predicate.IsLongerThanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.impl.predicate.RegexTest
+[INFO] Running uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in uk.gov.gchq.koryphe.impl.predicate.AreEqualTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+gchq.koryphe.ValidationResult WARN  - Sum of 32762 and 6 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in uk.gov.gchq.koryphe.impl.binaryoperator.SumTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.binaryoperator.AndTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.binaryoperator.StringDeduplicateConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+gchq.koryphe.ValidationResult WARN  - Product of 32767 and 48 exceeded the max short value. The max short value (32767) was used instead.
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in uk.gov.gchq.koryphe.impl.binaryoperator.ProductTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MinTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in uk.gov.gchq.koryphe.impl.binaryoperator.OrTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in uk.gov.gchq.koryphe.impl.binaryoperator.MaxTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.binaryoperator.CollectionIntersectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in uk.gov.gchq.koryphe.impl.function.IncrementTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in uk.gov.gchq.koryphe.impl.function.StringSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in uk.gov.gchq.koryphe.impl.function.ExtractValuesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.impl.function.StringReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in uk.gov.gchq.koryphe.impl.function.ToDoubleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in uk.gov.gchq.koryphe.impl.function.ToBooleanTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.impl.function.MultiplyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in uk.gov.gchq.koryphe.impl.function.ToDateStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in uk.gov.gchq.koryphe.impl.function.MapFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in uk.gov.gchq.koryphe.impl.function.ToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in uk.gov.gchq.koryphe.impl.function.DictionaryLookupTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in uk.gov.gchq.koryphe.impl.function.SizeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in uk.gov.gchq.koryphe.impl.function.ToArrayTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.impl.function.IterableLongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.impl.function.ConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.ToLongTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CastTest
+[WARNING] Tests run: 14, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.CastTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.GunzipTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseJsonTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in uk.gov.gchq.koryphe.impl.function.LongestTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in uk.gov.gchq.koryphe.impl.function.IterableFlattenTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.DivideTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.function.DivideByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.impl.function.StringPrependTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.function.FirstItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.ExtractValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.function.MultiplyLongByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in uk.gov.gchq.koryphe.impl.function.ReverseStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.StringRegexSplitTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.ToBytesTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.StringAppendTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.FunctionChainTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.CurrentTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.StringRegexReplaceTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in uk.gov.gchq.koryphe.impl.function.ParseTimeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.IsEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.MapToTupleTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in uk.gov.gchq.koryphe.impl.function.DeserialiseXmlTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfEmptyTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.IterableConcatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in uk.gov.gchq.koryphe.impl.function.CsvLinesToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.MultiplyByTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.impl.function.ToFloatTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.impl.function.ToIntegerTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.ExtractKeysTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.CsvToMapsTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.ApplyBiFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.impl.function.CallMethodTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in uk.gov.gchq.koryphe.impl.function.CreateObjectTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.impl.function.ToLowerCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.NthItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.ToListTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.066 s <<< FAILURE! - in uk.gov.gchq.koryphe.impl.function.StringJoinTest
+[ERROR] shouldJoinIterableOfStrings  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "acb"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStrings(StringJoinTest.java:70)
+
+[ERROR] shouldHandleNullDelimiter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "abc"
+ but was: "cab"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldHandleNullDelimiter(StringJoinTest.java:57)
+
+[ERROR] shouldJoinIterableOfStringsWithDelimiter  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "a,b,c"
+ but was: "b,a,c"
+	at uk.gov.gchq.koryphe.impl.function.StringJoinTest.shouldJoinIterableOfStringsWithDelimiter(StringJoinTest.java:96)
+
+[INFO] Running uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in uk.gov.gchq.koryphe.impl.function.DefaultIfNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in uk.gov.gchq.koryphe.impl.function.ToUpperCaseTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in uk.gov.gchq.koryphe.impl.function.IterableFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.impl.function.CurrentDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.ToStringTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in uk.gov.gchq.koryphe.impl.function.ParseDateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in uk.gov.gchq.koryphe.impl.function.LengthTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.IterableFilterTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in uk.gov.gchq.koryphe.impl.function.ToSetTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in uk.gov.gchq.koryphe.impl.function.SetValueTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in uk.gov.gchq.koryphe.impl.function.StringTruncateTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.impl.function.ToNullTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 s - in uk.gov.gchq.koryphe.impl.function.IfTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in uk.gov.gchq.koryphe.impl.function.Base64DecodeTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in uk.gov.gchq.koryphe.impl.function.LastItemTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.impl.function.StringTrimTest
+[INFO] Running uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.impl.function.FirstValidTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in uk.gov.gchq.koryphe.predicate.AdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in uk.gov.gchq.koryphe.predicate.PredicateMapTest
+[INFO] Running uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.predicate.PredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in uk.gov.gchq.koryphe.binaryoperator.AdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorMapTest
+[INFO] Running uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in uk.gov.gchq.koryphe.binaryoperator.BinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in uk.gov.gchq.koryphe.iterable.ChainedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in uk.gov.gchq.koryphe.iterable.MappedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in uk.gov.gchq.koryphe.iterable.LimitedIterableTest
+[INFO] Running uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in uk.gov.gchq.koryphe.iterable.FilteredIterableTest
+[INFO] Running uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.util.DateUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in uk.gov.gchq.koryphe.util.CloseableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in uk.gov.gchq.koryphe.util.IterableUtilTest
+[INFO] Running uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.444 s - in uk.gov.gchq.koryphe.util.ReflectionUtilTest
+[INFO] Running uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in uk.gov.gchq.koryphe.signature.SignatureTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in uk.gov.gchq.koryphe.tuple.ReflectiveTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in uk.gov.gchq.koryphe.tuple.TupleOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in uk.gov.gchq.koryphe.tuple.predicate.TupleAdaptedPredicateCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in uk.gov.gchq.koryphe.tuple.predicate.IntegerTupleAdaptedPredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in uk.gov.gchq.koryphe.tuple.binaryoperator.TupleAdaptedBinaryOperatorCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in uk.gov.gchq.koryphe.tuple.function.TupleAdaptedFunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in uk.gov.gchq.koryphe.tuple.function.TuplePredicateTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in uk.gov.gchq.koryphe.tuple.function.TupleFunctionTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in uk.gov.gchq.koryphe.tuple.ArrayTupleTest
+[INFO] Running uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in uk.gov.gchq.koryphe.tuple.MapTupleTest
+[ERROR] testConstructorsWithHashMapTuple  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@d3d5094[values={0=0, 1=1, 2=2}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 0: expected "0" but was "2"
+  - element at index 2: expected "2" but was "0"
+
+	at uk.gov.gchq.koryphe.tuple.MapTupleTest.testConstructorsWithHashMapTuple(MapTupleTest.java:49)
+
+[INFO] Running uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in uk.gov.gchq.koryphe.tuple.TupleInputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in uk.gov.gchq.koryphe.function.FunctionMapTest
+[INFO] Running uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in uk.gov.gchq.koryphe.function.FunctionCompositeTest
+[INFO] Running uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in uk.gov.gchq.koryphe.ValidationResultTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in uk.gov.gchq.koryphe.adapted.StateAgnosticOutputAdapterTest
+[INFO] Running uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in uk.gov.gchq.koryphe.adapted.InputAdaptedTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.686 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassNameIdResolverTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.35 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.82 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeyDeserializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.279 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassKeySerializerTest
+[INFO] Running uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.869 s - in uk.gov.gchq.koryphe.serialisation.json.SimpleClassSerializerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   StringJoinTest.shouldHandleNullDelimiter:57 
+expected: "abc"
+ but was: "cab"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStrings:70 
+expected: "abc"
+ but was: "acb"
+[ERROR]   StringJoinTest.shouldJoinIterableOfStringsWithDelimiter:96 
+expected: "a,b,c"
+ but was: "b,a,c"
+[ERROR]   IsInTest.shouldJsonSerialiseAndDeserialise:62 expected: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}, 3]}> but was: <{class=uk.gov.gchq.koryphe.impl.predicate.IsIn, values=[3, 1, {uk.gov.gchq.koryphe.util.CustomObj={value=1}}]}>
+[ERROR]   MapTupleTest.testConstructorsWithHashMapTuple:49 
+Expecting actual:
+  uk.gov.gchq.koryphe.tuple.MapTuple@d3d5094[values={0=0, 1=1, 2=2}]
+to contain exactly (and in same order):
+  [0, 1, 2]
+but there were differences at these indexes:
+  - element at index 0: expected "0" but was "2"
+  - element at index 2: expected "2" but was "0"
+
+[INFO] 
+[ERROR] Tests run: 2342, Failures: 5, Errors: 0, Skipped: 1
+[INFO] 
+INFO: Surefire failed when running tests for yWEv4UYN6ZSUZ8Oqq90aVikUfdBQKLCj7SIXAXHJVCw=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexExecid=CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY= -DnondexLogging=CONFIG
+[WARNING] uk.gov.gchq.koryphe.tuple.MapTupleTest#testConstructorsWithHashMapTuple
+[WARNING] uk.gov.gchq.koryphe.impl.predicate.IsInTest#shouldJsonSerialiseAndDeserialise
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStrings
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldHandleNullDelimiter
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStringsWithDelimiter
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexExecid=Zv+4reQmB9rtFZHuilo4DrSFpu4RLOD7F2+nGkwC6iw= -DnondexLogging=CONFIG
+[WARNING] uk.gov.gchq.koryphe.tuple.MapTupleTest#testConstructorsWithHashMapTuple
+[WARNING] uk.gov.gchq.koryphe.impl.predicate.IsInTest#shouldJsonSerialiseAndDeserialise
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStrings
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldHandleNullDelimiter
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStringsWithDelimiter
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexJarDir="/Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex" -DnondexExecid=yWEv4UYN6ZSUZ8Oqq90aVikUfdBQKLCj7SIXAXHJVCw= -DnondexLogging=CONFIG
+[WARNING] uk.gov.gchq.koryphe.tuple.MapTupleTest#testConstructorsWithHashMapTuple
+[WARNING] uk.gov.gchq.koryphe.impl.predicate.IsInTest#shouldJsonSerialiseAndDeserialise
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStrings
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldHandleNullDelimiter
+[WARNING] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStringsWithDelimiter
+[INFO] *********
+[INFO] All tests pass without NonDex shuffling
+[INFO] ####################
+[INFO] Across all seeds:
+[INFO] uk.gov.gchq.koryphe.tuple.MapTupleTest#testConstructorsWithHashMapTuple
+[INFO] uk.gov.gchq.koryphe.impl.predicate.IsInTest#shouldJsonSerialiseAndDeserialise
+[INFO] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStrings
+[INFO] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldHandleNullDelimiter
+[INFO] uk.gov.gchq.koryphe.impl.function.StringJoinTest#shouldJoinIterableOfStringsWithDelimiter
+[INFO] Test results can be found at: 
+[INFO] file:///Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex/CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY=/test_results.html
+[INFO] [NonDex] The id of this run is: CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:33 min
+[INFO] Finished at: 2026-10-11T19:08:22-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:2.2.1:nondex (default-cli) on project core: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/shivamsingh/iDFlakies/ride-run/work/projects/gchq__koryphe__core/core/.nondex/CugWxCvUfoISn+Wh5y0LD7i42+PCgnEruxdxWWRKqY= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

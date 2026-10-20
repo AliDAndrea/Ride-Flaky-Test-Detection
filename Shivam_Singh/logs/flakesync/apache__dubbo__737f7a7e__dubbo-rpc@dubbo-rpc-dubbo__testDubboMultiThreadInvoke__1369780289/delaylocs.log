@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.dubbo:dubbo-rpc-dubbo >------------------
+[INFO] Building dubbo-rpc-dubbo 2.7.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ dubbo-rpc-dubbo >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ dubbo-rpc-dubbo ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.0.0:check (checkstyle-validation) @ dubbo-rpc-dubbo ---
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (jacoco-initialize) @ dubbo-rpc-dubbo ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] jacocoArgLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ dubbo-rpc-dubbo ---
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ dubbo-rpc-dubbo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] Copying 2 resources to META-INF/
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:compile (default-compile) @ dubbo-rpc-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ dubbo-rpc-dubbo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.6.0:testCompile (default-testCompile) @ dubbo-rpc-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ dubbo-rpc-dubbo <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ dubbo-rpc-dubbo ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest
+2026-10-11 20:46:35,083 INFO [org.apache.dubbo.common.logger.LoggerFactory:?] - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2026-10-11 20:46:35,867 INFO [org.apache.dubbo.remoting.transport.AbstractServer:<init>] -  [DUBBO] Start NettyServer bind /0.0.0.0:20259, export /127.0.0.1:20259, dubbo version: 2.7.0-SNAPSHOT, current host: 100.70.96.234
+2026-10-11 20:46:35,963 INFO [org.apache.dubbo.remoting.transport.AbstractClient:connect] -  [DUBBO] Successed connect to server /100.70.96.234:20259 from NettyClient 100.70.96.234 using dubbo version 2.7.0-SNAPSHOT, channel is NettyChannel [channel=[id: 0x5ef661f0, L:/100.70.96.234:60460 - R:/100.70.96.234:20259]], dubbo version: 2.7.0-SNAPSHOT, current host: 100.70.96.234
+2026-10-11 20:46:35,964 INFO [org.apache.dubbo.remoting.transport.AbstractClient:<init>] -  [DUBBO] Start NettyClient /100.70.96.234 connect to the server /100.70.96.234:20259, dubbo version: 2.7.0-SNAPSHOT, current host: 100.70.96.234
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.504 sec <<< FAILURE! - in org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest
+testDubboMultiThreadInvoke(org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest)  Time elapsed: 5.914 sec  <<< ERROR!
+org.apache.dubbo.rpc.RpcException: Invoke remote method timeout. method: getSize, provider: dubbo://127.0.0.1:20259/TestService, cause: Sending request timeout in client-side by scan timer. start time: 2026-10-11 20:46:39.057, end time: 2026-10-11 20:46:40.087, elapsed: 1029 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.2, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getSize, parameterTypes=[class [Ljava.lang.String;], arguments=[[Ljava.lang.String;@3b1135d4], attachments={path=TestService, version=0.0.0}]], channel: /100.70.96.234:60460 -> /100.70.96.234:20259
+	at org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke(MultiThreadTest.java:45)
+Caused by: org.apache.dubbo.remoting.TimeoutException: Sending request timeout in client-side by scan timer. start time: 2026-10-11 20:46:39.057, end time: 2026-10-11 20:46:40.087, elapsed: 1029 ms, timeout: 1000 ms, request: Request [id=0, version=2.0.2, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getSize, parameterTypes=[class [Ljava.lang.String;], arguments=[[Ljava.lang.String;@3b1135d4], attachments={path=TestService, version=0.0.0}]], channel: /100.70.96.234:60460 -> /100.70.96.234:20259
+	at org.apache.dubbo.rpc.protocol.dubbo.MultiThreadTest.testDubboMultiThreadInvoke(MultiThreadTest.java:45)
+
+
+Results :
+
+Tests in error: 
+  MultiThreadTest.testDubboMultiThreadInvoke:45 » Rpc Invoke remote method timeo...
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_aOJxD3+Gnm1rCODjrrj0cJIDQE1M3yKUKJTskLqF+E= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.716 s
+[INFO] Finished at: 2026-10-11T20:46:41-05:00
+[INFO] ------------------------------------------------------------------------

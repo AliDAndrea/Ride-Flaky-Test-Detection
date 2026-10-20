@@ -1,0 +1,192 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.zalando:riptide-failsafe >--------------------
+[INFO] Building Riptide: Failsafe 2.11.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) > test-compile @ riptide-failsafe >>>
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ riptide-failsafe ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- duplicate-finder:1.3.0:check (default) @ riptide-failsafe ---
+[INFO] Checking compile classpath
+[INFO] Checking runtime classpath
+[INFO] Checking test classpath
+[INFO] 
+[INFO] --- jacoco:0.8.2:prepare-agent (prepare-agent) @ riptide-failsafe ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ riptide-failsafe ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__8277e11f__riptide-failsafe/riptide-failsafe/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ riptide-failsafe ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ riptide-failsafe ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__8277e11f__riptide-failsafe/riptide-failsafe/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ riptide-failsafe ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) < test-compile @ riptide-failsafe <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:barrierpointsearch (default-cli) @ riptide-failsafe ---
+INFO: Running BarrierPointSearchMojo
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @830ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@27a5f880{HTTP/1.1,[http/1.1]}{0.0.0.0:60090}
+[main] INFO org.eclipse.jetty.server.Server - Started @938ms
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.819 s <<< FAILURE! - in org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[ERROR] shouldRetryOnDemandWithDynamicDelay(org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "com/fasterxml/jackson/databind/type/ReferenceType"
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.createJsonConverter(RetryAfterDelayFunctionTest.java:67)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.<init>(RetryAfterDelayFunctionTest.java:58)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   RetryAfterDelayFunctionTest.<init>:58->createJsonConverter:67 » Linkage loader...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_GPcjGD4ZGAUZw2WHztZUSon7q2auh4I9jb2+bGmt8= with delay: 200
+/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/zalando__riptide__8277e11f__riptide-failsafe/riptide-failsafe/.flakesync/clean_GPcjGD4ZGAUZw2WHztZUSon7q2auh4I9jb2+bGmt8=
+org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.txt
+TEST-org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.xml
+org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest 67
+org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest 58
+net.jodah.failsafe.Functions$8$1#209
+org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest#67
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @482ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:60091}
+[main] INFO org.eclipse.jetty.server.Server - Started @569ms
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[qtp1483022288-20] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[qtp1483022288-15] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[main] INFO com.github.restdriver.clientdriver.ClientDriver - Beginning verification
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.724 s - in org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+TRYING TO YIELD AT: org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest#67
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @613ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:60114}
+[main] INFO org.eclipse.jetty.server.Server - Started @723ms
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[qtp1483022288-20] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[qtp1483022288-15] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 42.21 s <<< FAILURE! - in org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[ERROR] shouldRetryOnDemandWithDynamicDelay(org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest)  Time elapsed: 1.516 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 1500 milliseconds
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.lambda$shouldRetryOnDemandWithDynamicDelay$0(RetryAfterDelayFunctionTest.java:120)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.time(RetryAfterDelayFunctionTest.java:143)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.atLeast(RetryAfterDelayFunctionTest.java:136)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay(RetryAfterDelayFunctionTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay:115->atLeast:136->time:143->lambda$shouldRetryOnDemandWithDynamicDelay$0:120 » TestTimedOut
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_VQQCJc83bEpGFRuSxDYDCgrHdIR26QLaGlpu3tjYRSs= with delay: 200
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @608ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5f282abb{HTTP/1.1,[http/1.1]}{0.0.0.0:60290}
+[main] INFO org.eclipse.jetty.server.Server - Started @710ms
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.741 s <<< FAILURE! - in org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[ERROR] shouldRetryOnDemandWithDynamicDelay(org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.LinkageError: loader (instance of  sun/misc/Launcher$AppClassLoader): attempted  duplicate class definition for name: "com/fasterxml/jackson/databind/type/ReferenceType"
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.createJsonConverter(RetryAfterDelayFunctionTest.java:67)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.<init>(RetryAfterDelayFunctionTest.java:58)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   RetryAfterDelayFunctionTest.<init>:58->createJsonConverter:67 » Linkage loader...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_fMtjRdLChBd34ypFeLs9rPxDAjfldSN6J9tYG34IA= with delay: 200
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[main] INFO org.eclipse.jetty.util.log - Logging initialized @639ms to org.eclipse.jetty.util.log.Slf4jLog
+[main] INFO org.eclipse.jetty.server.Server - jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_504-b01
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:60294}
+[main] INFO org.eclipse.jetty.server.Server - Started @752ms
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[Time-limited test] INFO com.github.restdriver.clientdriver.ClientDriverRequest - addExpectation: GET "/baz"
+[qtp1483022288-20] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[qtp1483022288-15] INFO com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandler - Handling: GET /baz
+[main] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5d76b067{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.167 s <<< FAILURE! - in org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest
+[ERROR] shouldRetryOnDemandWithDynamicDelay(org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest)  Time elapsed: 1.517 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 1500 milliseconds
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.lambda$shouldRetryOnDemandWithDynamicDelay$0(RetryAfterDelayFunctionTest.java:120)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.time(RetryAfterDelayFunctionTest.java:143)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.atLeast(RetryAfterDelayFunctionTest.java:136)
+	at org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay(RetryAfterDelayFunctionTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   RetryAfterDelayFunctionTest.shouldRetryOnDemandWithDynamicDelay:115->atLeast:136->time:143->lambda$shouldRetryOnDemandWithDynamicDelay$0:120 » TestTimedOut
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_dzvCNYmMRvDEQV+2yFH0J1plsGR55vI2I6vkYk92Wd4= with delay: 200
+net.jodah.failsafe.Functions$8$1#209
+org.zalando.riptide.failsafe.RetryAfterDelayFunctionTest#67
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  58.147 s
+[INFO] Finished at: 2026-10-11T20:45:57-05:00
+[INFO] ------------------------------------------------------------------------

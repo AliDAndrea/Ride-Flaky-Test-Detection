@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------------< com.jsoniter:jsoniter >------------------------
+[INFO] Building json iterator 0.9.24-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ jsoniter >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jsoniter ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ jsoniter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jsoniter ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/test/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ jsoniter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ jsoniter <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ jsoniter ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving com.jsoniter:jsoniter:0.9.24-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 383 tests. Time taken: 1.437000036239624 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/.dtfixingtools/original-order
+[INFO] Getting original results (383 tests).
+INFO: No passing order for tests (3 runs). Continuing anyway with last run.
+INFO: Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+Verified com.jsoniter.TestObject.test_inheritance, status: expected ERROR, got ERROR
+Verified com.jsoniter.TestObject.test_inheritance, status: expected PASS, got PASS
+Verified com.jsoniter.extra.TestPreciseFloat.test_indirect_encode, status: expected PASS, got PASS
+Verified com.jsoniter.extra.TestPreciseFloat.test_indirect_encode, status: expected ERROR, got PASS
+Verified com.jsoniter.extra.TestPreciseFloat.test_direct_encode, status: expected PASS, got PASS
+Verified com.jsoniter.extra.TestPreciseFloat.test_direct_encode, status: expected ERROR, got PASS
+[INFO] Found 1 tests in round 1 of 5 (0.0 seconds elapsed (24.3 total), 0.0 seconds remaining).
+Verified com.jsoniter.TestMap.test_MapKeyCodec, status: expected PASS, got PASS
+Verified com.jsoniter.TestMap.test_MapKeyCodec, status: expected ERROR, got ERROR
+[INFO] Found 1 tests in round 2 of 5 (0.0 seconds elapsed (33.6 total), 0.0 seconds remaining).
+Verified com.jsoniter.output.TestObject.test_transient_field_getter, status: expected PASS, got PASS
+Verified com.jsoniter.output.TestObject.test_transient_field_getter, status: expected ERROR, got ERROR
+Verified com.jsoniter.output.TestObject.test_omit_selft_defined, status: expected PASS, got PASS
+Verified com.jsoniter.output.TestObject.test_omit_selft_defined, status: expected ERROR, got ERROR
+[INFO] Found 2 tests in round 3 of 5 (0.0 seconds elapsed (47.9 total), 0.0 seconds remaining).
+[INFO] Found 0 tests in round 4 of 5 (0.0 seconds elapsed (51.5 total), 0.0 seconds remaining).
+Verified com.jsoniter.TestMap.test_MapKeyCodec, status: expected PASS, got PASS
+Verified com.jsoniter.TestMap.test_MapKeyCodec, status: expected ERROR, got ERROR
+[INFO] Found 2 tests in round 5 of 5 (3.6 seconds elapsed (61.4 total), 0.0 seconds remaining).
+
+[INFO] Found 6 tests, writing list to /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/.dtfixingtools/detection-results/list.txt and dt lists to /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:18 min
+[INFO] Finished at: 2026-10-11T19:47:09-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.apache.shenyu:shenyu-admin >-------------------
+[INFO] Building shenyu-admin 2.5.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> idflakies:2.0.0:detect (default-cli) > test-compile @ shenyu-admin >>>
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven-version) @ shenyu-admin ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- checkstyle:3.1.0:check (validate) @ shenyu-admin ---
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (default) @ shenyu-admin ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- remote-resources:1.5:process (process-resource-bundles) @ shenyu-admin ---
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ shenyu-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 35 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ shenyu-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ shenyu-admin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ shenyu-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< idflakies:2.0.0:detect (default-cli) < test-compile @ shenyu-admin <<<
+[INFO] 
+[INFO] 
+[INFO] --- idflakies:2.0.0:detect (default-cli) @ shenyu-admin ---
+INFO: No timeout specified. Using randomize.rounds: 5
+INFO: ROUNDS_CALCULATED: Giving org.apache.shenyu:shenyu-admin:2.5.1-SNAPSHOT 5 rounds to run for random-class-method
+INFO: Locating tests...
+INFO: Located 0 tests. Time taken: 4.384000062942505 seconds
+INFO: Locating tests...
+INFO: Located 575 tests. Time taken: 3.9190001487731934 seconds
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/.dtfixingtools/original-order
+INFO: Getting original order by parsing logs. ignoreExisting set to: false
+INFO: Using original order in path: /Users/shivamsingh/iDFlakies/ride-run/work/projects/apache__shenyu__shenyu-admin/shenyu-admin/.dtfixingtools/original-order
+[INFO] Getting original results (575 tests).
+[watchdog] time cap of 600s reached - stopping; results so far are kept

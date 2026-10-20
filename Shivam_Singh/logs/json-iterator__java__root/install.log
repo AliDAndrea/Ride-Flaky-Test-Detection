@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------------< com.jsoniter:jsoniter >------------------------
+[INFO] Building json iterator 0.9.24-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.0.0/maven-javadoc-plugin-3.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.0.0/maven-javadoc-plugin-3.0.0.pom (18 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.0.0/maven-javadoc-plugin-3.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.0.0/maven-javadoc-plugin-3.0.0.jar (416 kB at 3.1 MB/s)
+[WARNING] Parameter 'additionalparam' is unknown for plugin 'maven-javadoc-plugin:3.0.0:jar (attach-javadocs)'
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.3/gson-2.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.3/gson-2.8.3.pom (1.9 kB at 32 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.3/gson-parent-2.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.3/gson-parent-2.8.3.pom (3.8 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.pom (9.4 kB at 200 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.20/jmh-parent-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-parent/1.20/jmh-parent-1.20.pom (11 kB at 232 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.20/jmh-generator-annprocess-1.20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.20/jmh-generator-annprocess-1.20.pom (3.8 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.3/gson-2.8.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.3/gson-2.8.3.jar (239 kB at 3.9 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.20/jmh-generator-annprocess-1.20.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-core/1.20/jmh-core-1.20.jar (510 kB at 5.1 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openjdk/jmh/jmh-generator-annprocess/1.20/jmh-generator-annprocess-1.20.jar (31 kB at 136 kB/s)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jsoniter ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ jsoniter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 117 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/java/com/jsoniter/output/JsonStream.java: /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/java/com/jsoniter/output/JsonStream.java uses or overrides a deprecated API.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/java/com/jsoniter/output/JsonStream.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/java/com/jsoniter/JsonIterator.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/main/java/com/jsoniter/JsonIterator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jsoniter ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/test/main/resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ jsoniter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 70 source files to /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/target/test-classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/IterImplForStreamingTest.java:[10,46] sun.reflect.generics.reflectiveObjects.NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/IterImplForStreamingTest.java:[10,46] sun.reflect.generics.reflectiveObjects.NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/IterImplForStreamingTest.java:[10,46] sun.reflect.generics.reflectiveObjects.NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/IterImplForStreamingTest.java:[10,46] sun.reflect.generics.reflectiveObjects.NotImplementedException is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/IterImplForStreamingTest.java:[80,43] sun.reflect.generics.reflectiveObjects.NotImplementedException is internal proprietary API and may be removed in a future release
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/output/TestNested.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/src/test/java/com/jsoniter/output/TestNested.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.21.0:test (default-test) @ jsoniter ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ jsoniter ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/target/jsoniter-0.9.24-SNAPSHOT.jar
+[INFO] 
+[INFO] --- source:3.0.1:jar-no-fork (attach-sources) @ jsoniter ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:3.0.0:jar (attach-javadocs) @ jsoniter ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.5/plexus-java-0.9.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.5/plexus-java-0.9.5.pom (2.4 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.5/plexus-languages-0.9.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.5/plexus-languages-0.9.5.pom (2.3 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.5/plexus-java-0.9.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.5/plexus-java-0.9.5.jar (32 kB at 206 kB/s)
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- gpg:1.6:sign (sign-artifacts) @ jsoniter ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ jsoniter ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/pom.xml to /Users/shivamsingh/.m2/repository/com/jsoniter/jsoniter/0.9.24-SNAPSHOT/jsoniter-0.9.24-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/projects/json-iterator__java__root/target/jsoniter-0.9.24-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/com/jsoniter/jsoniter/0.9.24-SNAPSHOT/jsoniter-0.9.24-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.396 s
+[INFO] Finished at: 2026-10-11T19:45:45-05:00
+[INFO] ------------------------------------------------------------------------

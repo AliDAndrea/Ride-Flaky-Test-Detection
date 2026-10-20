@@ -1,0 +1,807 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.graphhopper:graphhopper-core >------------------
+[INFO] Building GraphHopper Core 5.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex:2.2.1:nondex (default-cli) > test-compile @ graphhopper-core >>>
+[INFO] 
+[INFO] --- git-commit-id:3.0.0:revision (default) @ graphhopper-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ graphhopper-core ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 52 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ graphhopper-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ graphhopper-core ---
+[INFO] Copying 36 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ graphhopper-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex:2.2.1:nondex (default-cli) < test-compile @ graphhopper-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex:2.2.1:nondex (default-cli) @ graphhopper-core ---
+INFO: The original argline is: 
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/graphhopper__graphhopper__core/core/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_JoKJPSr0nf8b8wJ+Cs5s37zKukcTK2Bj3qJrX1oPgDE=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.graphhopper.reader.osm.OSMReaderUtilityTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in com.graphhopper.reader.osm.OSMReaderUtilityTest
+[INFO] Running com.graphhopper.reader.osm.conditional.ConditionalParserTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 s - in com.graphhopper.reader.osm.conditional.ConditionalParserTest
+[INFO] Running com.graphhopper.reader.osm.conditional.DateRangeParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.graphhopper.reader.osm.conditional.DateRangeParserTest
+[INFO] Running com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+[INFO] Running com.graphhopper.reader.osm.OSMTurnRelationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.reader.osm.OSMTurnRelationTest
+[INFO] Running com.graphhopper.reader.osm.OSMReaderTest
+2026-10-11 20:23:27,578 [main] WARN  com.graphhopper.reader.osm.WaySegmentParser - Loop in OSM way: 12, will be ignored, duplicate node: 2
+2026-10-11 20:23:27,862 [main] WARN  com.graphhopper.reader.osm.WaySegmentParser - Loop in OSM way: 12, will be ignored, duplicate node: 2
+2026-10-11 20:23:28,046 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:23:28,048 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:28,048 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:28,048 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:31,299 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:23:31,305 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:31,306 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:31,307 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:31,981 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:23:31,983 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:32,645 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:23:32,646 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:32,646 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:23:32,646 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.829 s - in com.graphhopper.reader.osm.OSMReaderTest
+[INFO] Running com.graphhopper.reader.osm.GraphHopperOSMTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.534 s - in com.graphhopper.reader.osm.GraphHopperOSMTest
+[INFO] Running com.graphhopper.reader.OSMElementTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.reader.OSMElementTest
+[INFO] Running com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.HeightTileTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.reader.dem.HeightTileTest
+[INFO] Running com.graphhopper.reader.dem.EdgeSamplingTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.reader.dem.EdgeSamplingTest
+[INFO] Running com.graphhopper.reader.dem.CGIARProviderTest
+[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.112 s - in com.graphhopper.reader.dem.CGIARProviderTest
+[INFO] Running com.graphhopper.reader.dem.ElevationInterpolatorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.reader.dem.ElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.GraphElevationSmoothingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.reader.dem.GraphElevationSmoothingTest
+[INFO] Running com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+[INFO] Running com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.SRTMProviderTest
+[WARNING] Tests run: 8, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.816 s - in com.graphhopper.reader.dem.SRTMProviderTest
+[INFO] Running com.graphhopper.reader.dem.SkadiProviderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.reader.dem.SkadiProviderTest
+[INFO] Running com.graphhopper.reader.dem.GMTEDProviderTest
+[WARNING] Tests run: 8, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.118 s - in com.graphhopper.reader.dem.GMTEDProviderTest
+[INFO] Running com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.017 s - in com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[INFO] Running com.graphhopper.util.UnzipperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.util.UnzipperTest
+[INFO] Running com.graphhopper.util.DepthFirstSearchTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.graphhopper.util.DepthFirstSearchTest
+[INFO] Running com.graphhopper.util.AngleCalcTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.util.AngleCalcTest
+[INFO] Running com.graphhopper.util.DouglasPeuckerTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.graphhopper.util.DouglasPeuckerTest
+[INFO] Running com.graphhopper.util.SimpleIntDequeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.util.SimpleIntDequeTest
+[INFO] Running com.graphhopper.util.shapes.BBoxTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.graphhopper.util.shapes.BBoxTest
+[INFO] Running com.graphhopper.util.shapes.PolygonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.graphhopper.util.shapes.PolygonTest
+[INFO] Running com.graphhopper.util.shapes.CircleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.util.shapes.CircleTest
+[INFO] Running com.graphhopper.util.DistanceCalcEuclideanTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.graphhopper.util.DistanceCalcEuclideanTest
+[INFO] Running com.graphhopper.util.PathSimplificationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 s - in com.graphhopper.util.PathSimplificationTest
+[INFO] Running com.graphhopper.util.BitUtilBigTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.graphhopper.util.BitUtilBigTest
+[INFO] Running com.graphhopper.util.ArrayUtilTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in com.graphhopper.util.ArrayUtilTest
+[INFO] Running com.graphhopper.util.GHUtilityTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s - in com.graphhopper.util.GHUtilityTest
+[INFO] Running com.graphhopper.util.InstructionListTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.graphhopper.util.InstructionListTest
+[INFO] Running com.graphhopper.util.TranslationMapTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.graphhopper.util.TranslationMapTest
+[INFO] Running com.graphhopper.util.BreadthFirstSearchTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.graphhopper.util.BreadthFirstSearchTest
+[INFO] Running com.graphhopper.util.DistanceCalcEarthTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.graphhopper.util.DistanceCalcEarthTest
+[INFO] Running com.graphhopper.util.BitUtilLittleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.util.BitUtilLittleTest
+[INFO] Running com.graphhopper.util.PointListTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in com.graphhopper.util.PointListTest
+[INFO] Running com.graphhopper.storage.RAMDataAccessTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.graphhopper.storage.RAMDataAccessTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.441 s - in com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+[INFO] Running com.graphhopper.storage.RAMDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.storage.RAMDirectoryTest
+[INFO] Running com.graphhopper.storage.CHStorageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.graphhopper.storage.CHStorageTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.326 s - in com.graphhopper.storage.GraphHopperStorageTest
+[INFO] Running com.graphhopper.storage.GraphStorageViaMMapTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.265 s - in com.graphhopper.storage.GraphStorageViaMMapTest
+[INFO] Running com.graphhopper.storage.TurnCostStorageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in com.graphhopper.storage.TurnCostStorageTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageCHTest
+2026-10-11 20:23:46,554 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+2026-10-11 20:23:46,554 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+2026-10-11 20:23:46,555 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.336 s - in com.graphhopper.storage.GraphHopperStorageCHTest
+[INFO] Running com.graphhopper.storage.NativeFSLockFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.graphhopper.storage.NativeFSLockFactoryTest
+[INFO] Running com.graphhopper.storage.ShortcutUnpackerTest
+[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.397 s - in com.graphhopper.storage.ShortcutUnpackerTest
+[INFO] Running com.graphhopper.storage.StorablePropertiesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.graphhopper.storage.StorablePropertiesTest
+[INFO] Running com.graphhopper.storage.MMapDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.storage.MMapDirectoryTest
+[INFO] Running com.graphhopper.storage.GraphEdgeIdFinderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.graphhopper.storage.GraphEdgeIdFinderTest
+[INFO] Running com.graphhopper.storage.RAMIntDataAccessTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.graphhopper.storage.RAMIntDataAccessTest
+[INFO] Running com.graphhopper.storage.MMapDataAccessTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.graphhopper.storage.MMapDataAccessTest
+[INFO] Running com.graphhopper.storage.EdgeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.storage.EdgeTest
+[INFO] Running com.graphhopper.storage.index.PixelGridTraversalTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in com.graphhopper.storage.index.PixelGridTraversalTest
+[INFO] Running com.graphhopper.storage.index.LocationIndexTreeTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.707 s - in com.graphhopper.storage.index.LocationIndexTreeTest
+[INFO] Running com.graphhopper.storage.SimpleFSLockFactoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.graphhopper.storage.SimpleFSLockFactoryTest
+[INFO] Running com.graphhopper.storage.GHDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.storage.GHDirectoryTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageLMTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in com.graphhopper.storage.GraphHopperStorageLMTest
+[INFO] Running com.graphhopper.storage.VLongStorageTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.graphhopper.storage.VLongStorageTest
+[INFO] Running com.graphhopper.search.StringIndexTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.659 s - in com.graphhopper.search.StringIndexTest
+[INFO] Running com.graphhopper.coll.BitSetImplTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.graphhopper.coll.BitSetImplTest
+[INFO] Running com.graphhopper.coll.GHLongIntBTreeTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in com.graphhopper.coll.GHLongIntBTreeTest
+[INFO] Running com.graphhopper.coll.GHTBitSetTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.coll.GHTBitSetTest
+[INFO] Running com.graphhopper.coll.GHTreeMapComposedTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.coll.GHTreeMapComposedTest
+[INFO] Running com.graphhopper.coll.MinHeapWithUpdateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.graphhopper.coll.MinHeapWithUpdateTest
+[INFO] Running com.graphhopper.coll.GHSortedCollectionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.graphhopper.coll.GHSortedCollectionTest
+[INFO] Running com.graphhopper.GraphHopperProfileTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 s - in com.graphhopper.GraphHopperProfileTest
+[INFO] Running com.graphhopper.geohash.SpatialKeyAlgoTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.graphhopper.geohash.SpatialKeyAlgoTest
+[INFO] Running com.graphhopper.isochrone.algorithm.ShortestPathTreeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in com.graphhopper.isochrone.algorithm.ShortestPathTreeTest
+[INFO] Running com.graphhopper.isochrone.algorithm.QuadEdgeSubdivisionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.graphhopper.isochrone.algorithm.QuadEdgeSubdivisionTest
+[INFO] Running com.graphhopper.routing.ProfileResolverTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.routing.ProfileResolverTest
+[INFO] Running com.graphhopper.routing.RandomizedRoutingTest
+[INFO] Tests run: 150, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.152 s - in com.graphhopper.routing.RandomizedRoutingTest
+[INFO] Running com.graphhopper.routing.CHQueryWithTurnCostsTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.594 s - in com.graphhopper.routing.CHQueryWithTurnCostsTest
+[INFO] Running com.graphhopper.routing.subnetwork.TarjanSCCTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.026 s - in com.graphhopper.routing.subnetwork.TarjanSCCTest
+[INFO] Running com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+[INFO] Running com.graphhopper.routing.subnetwork.EdgeBasedTarjanSCCTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.261 s - in com.graphhopper.routing.subnetwork.EdgeBasedTarjanSCCTest
+[INFO] Running com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+[INFO] Running com.graphhopper.routing.DijkstraOneToManyTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.graphhopper.routing.DijkstraOneToManyTest
+[INFO] Running com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.BikeFlagEncoderTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.graphhopper.routing.util.BikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.HeadingEdgeFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.util.HeadingEdgeFilterTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMSurfaceParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.util.parsers.OSMSurfaceParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadAccessParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.util.parsers.OSMRoadAccessParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTollParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.routing.util.parsers.OSMTollParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMSmoothnessParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMSmoothnessParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatWaterParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMHazmatWaterParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadClassParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.util.parsers.OSMRoadClassParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxWeightParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMMaxWeightParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMGetOffBikeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in com.graphhopper.routing.util.parsers.OSMGetOffBikeParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTrackTypeParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in com.graphhopper.routing.util.parsers.OSMTrackTypeParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTurnRelationParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.graphhopper.routing.util.parsers.OSMTurnRelationParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMHazmatParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatTunnelParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.routing.util.parsers.OSMHazmatTunnelParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMLanesParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.routing.util.parsers.OSMLanesParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMtbRatingParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.util.parsers.OSMMtbRatingParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxAxleLoadParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMMaxAxleLoadParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadEnvironmentParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMRoadEnvironmentParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxSpeedParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.parsers.OSMMaxSpeedParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMValueExtractorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.routing.util.parsers.OSMValueExtractorTest
+[INFO] Running com.graphhopper.routing.util.FootFlagEncoderTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in com.graphhopper.routing.util.FootFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.SnapPreventionEdgeFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.graphhopper.routing.util.SnapPreventionEdgeFilterTest
+[INFO] Running com.graphhopper.routing.util.EncodingManagerTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s - in com.graphhopper.routing.util.EncodingManagerTest
+[INFO] Running com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.344 s - in com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.Car4WDFlagEncoderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 s - in com.graphhopper.routing.util.Car4WDFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.AccessFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.util.AccessFilterTest
+[INFO] Running com.graphhopper.routing.util.WheelchairFlagEncoderTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in com.graphhopper.routing.util.WheelchairFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.HikeFlagEncoderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.graphhopper.routing.util.HikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.spatialrules.AreaIndexTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.588 s - in com.graphhopper.routing.util.spatialrules.AreaIndexTest
+[INFO] Running com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s - in com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.countryrules.CountryRuleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.util.countryrules.CountryRuleTest
+[INFO] Running com.graphhopper.routing.util.tour.SinglePointTourTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.util.tour.SinglePointTourTest
+[INFO] Running com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.CarFlagEncoderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 s - in com.graphhopper.routing.util.CarFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+[INFO] Running com.graphhopper.routing.HeadingResolverTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.graphhopper.routing.HeadingResolverTest
+[INFO] Running com.graphhopper.routing.DirectedBidirectionalDijkstraTest
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.874 s - in com.graphhopper.routing.DirectedBidirectionalDijkstraTest
+[INFO] Running com.graphhopper.routing.lm.LMIssueTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in com.graphhopper.routing.lm.LMIssueTest
+[INFO] Running com.graphhopper.routing.lm.PrepareLandmarksTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in com.graphhopper.routing.lm.PrepareLandmarksTest
+[INFO] Running com.graphhopper.routing.lm.LMPreparationHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 s - in com.graphhopper.routing.lm.LMPreparationHandlerTest
+[INFO] Running com.graphhopper.routing.lm.LMProfileSelectorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in com.graphhopper.routing.lm.LMProfileSelectorTest
+[INFO] Running com.graphhopper.routing.lm.LandmarkStorageTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in com.graphhopper.routing.lm.LandmarkStorageTest
+[INFO] Running com.graphhopper.routing.lm.LMApproximatorTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.245 s - in com.graphhopper.routing.lm.LMApproximatorTest
+[INFO] Running com.graphhopper.routing.AlternativeRouteEdgeCHTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 s - in com.graphhopper.routing.AlternativeRouteEdgeCHTest
+[INFO] Running com.graphhopper.routing.ch.EdgeBasedNodeContractorTest
+[INFO] Tests run: 81, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 s - in com.graphhopper.routing.ch.EdgeBasedNodeContractorTest
+[INFO] Running com.graphhopper.routing.ch.CHProfileSelectorTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in com.graphhopper.routing.ch.CHProfileSelectorTest
+[INFO] Running com.graphhopper.routing.ch.OnFlyStatisticsCalculatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.ch.OnFlyStatisticsCalculatorTest
+[INFO] Running com.graphhopper.routing.ch.CHPreparationGraphTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.routing.ch.CHPreparationGraphTest
+[INFO] Running com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 s - in com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+[INFO] Running com.graphhopper.routing.ch.NodeBasedWitnessPathSearcherTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.ch.NodeBasedWitnessPathSearcherTest
+[INFO] Running com.graphhopper.routing.ch.CHPreparationHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.graphhopper.routing.ch.CHPreparationHandlerTest
+[INFO] Running com.graphhopper.routing.ch.EdgeBasedWitnessPathSearcherTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.graphhopper.routing.ch.EdgeBasedWitnessPathSearcherTest
+[INFO] Running com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+[INFO] Running com.graphhopper.routing.ch.CHTurnCostTest
+[INFO] Tests run: 241, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.283 s - in com.graphhopper.routing.ch.CHTurnCostTest
+[INFO] Running com.graphhopper.routing.RoundTripRoutingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in com.graphhopper.routing.RoundTripRoutingTest
+[INFO] Running com.graphhopper.routing.ev.StringEncodedValueTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.graphhopper.routing.ev.StringEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.UnsignedDecimalEncodedValueTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.UnsignedDecimalEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.DecimalEncodedValueTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.ev.DecimalEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.BooleanEncodedValueTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.BooleanEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.DefaultEncodedValueFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.DefaultEncodedValueFactoryTest
+[INFO] Running com.graphhopper.routing.ev.EnumEncodedValueTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.EnumEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.RoadAccessTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.RoadAccessTest
+[INFO] Running com.graphhopper.routing.ev.IntEncodedValueTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.IntEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.MaxWeightTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.ev.MaxWeightTest
+[INFO] Running com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 s - in com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+[INFO] Running com.graphhopper.routing.RoutingAlgorithmTest
+[INFO] Tests run: 377, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.439 s - in com.graphhopper.routing.RoutingAlgorithmTest
+[INFO] Running com.graphhopper.routing.PriorityRoutingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 s - in com.graphhopper.routing.PriorityRoutingTest
+[INFO] Running com.graphhopper.routing.DirectionResolverTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in com.graphhopper.routing.DirectionResolverTest
+[INFO] Running com.graphhopper.routing.DefaultBidirPathExtractorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.DefaultBidirPathExtractorTest
+[INFO] Running com.graphhopper.routing.weighting.ShortFastestWeightingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.weighting.ShortFastestWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.FastestWeightingTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.graphhopper.routing.weighting.FastestWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.custom.CustomModelParserTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 s - in com.graphhopper.routing.weighting.custom.CustomModelParserTest
+[INFO] Running com.graphhopper.routing.weighting.custom.CustomWeightingTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.884 s - in com.graphhopper.routing.weighting.custom.CustomWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.custom.ExpressionVisitorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in com.graphhopper.routing.weighting.custom.ExpressionVisitorTest
+[INFO] Running com.graphhopper.routing.weighting.BlockAreaWeightingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.graphhopper.routing.weighting.BlockAreaWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.AbstractWeightingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.graphhopper.routing.weighting.AbstractWeightingTest
+[INFO] Running com.graphhopper.routing.RoutingAlgorithmWithOSMTest
+2026-10-11 20:24:43,294 [car] ERROR com.graphhopper.routing.lm.LandmarkStorage - method findLandmarks for 0.001,0.0 (3) resulted in too few visited nodes: 1 vs expected minimum 3, see #2256
+2026-10-11 20:24:58,750 [bike2] WARN  com.graphhopper.routing.lm.LandmarkStorage - landmark 10 (52.3509155,8.0119331): too many weights were maxed out (33/40). Use a bigger factor than 0.005074352755033054. For example use maximum_lm_weight: 631.5149906593406 in your LM profile definition
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.185 s - in com.graphhopper.routing.RoutingAlgorithmWithOSMTest
+[INFO] Running com.graphhopper.routing.TrafficChangeWithNodeOrderingReusingTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.003 s - in com.graphhopper.routing.TrafficChangeWithNodeOrderingReusingTest
+[INFO] Running com.graphhopper.routing.DirectedRoutingTest
+[INFO] Tests run: 120, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.307 s - in com.graphhopper.routing.DirectedRoutingTest
+[INFO] Running com.graphhopper.routing.QueryRoutingCHGraphTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.graphhopper.routing.QueryRoutingCHGraphTest
+[INFO] Running com.graphhopper.routing.AlternativeRouteTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in com.graphhopper.routing.AlternativeRouteTest
+[INFO] Running com.graphhopper.routing.PathTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.29 s - in com.graphhopper.routing.PathTest
+[INFO] Running com.graphhopper.routing.HeadingRoutingTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 s - in com.graphhopper.routing.HeadingRoutingTest
+[INFO] Running com.graphhopper.routing.DijkstraBidirectionCHTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in com.graphhopper.routing.DijkstraBidirectionCHTest
+[INFO] Running com.graphhopper.routing.RandomCHRoutingTest
+[WARNING] Tests run: 18, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 3.57 s - in com.graphhopper.routing.RandomCHRoutingTest
+[INFO] Running com.graphhopper.routing.DirectionResolverOnQueryGraphTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in com.graphhopper.routing.DirectionResolverOnQueryGraphTest
+[INFO] Running com.graphhopper.routing.AlternativeRouteCHTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.graphhopper.routing.AlternativeRouteCHTest
+[INFO] Running com.graphhopper.routing.querygraph.QueryGraphTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in com.graphhopper.routing.querygraph.QueryGraphTest
+[INFO] Running com.graphhopper.GraphHopperTest
+[WARNING] Tests run: 71, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 38.075 s - in com.graphhopper.GraphHopperTest
+[INFO] Running com.graphhopper.apache.commons.lang3.StringUtilsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in com.graphhopper.apache.commons.lang3.StringUtilsTest
+[INFO] Running com.graphhopper.apache.commons.collections.IntFloatBinaryHeapTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.graphhopper.apache.commons.collections.IntFloatBinaryHeapTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 2461, Failures: 0, Errors: 0, Skipped: 27
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Adding NonDex argLine to existing argLine specified by the project
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/graphhopper__graphhopper__core/core/.nondex
+nondexJarDir=/Users/shivamsingh/iDFlakies/ride-run/work/projects/graphhopper__graphhopper__core/core/.nondex
+nondexExecid=OZ0Bd1pSHGdKZeDL8DYMirwURhiCLH1EBrBXViAp+A=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.graphhopper.reader.osm.OSMReaderUtilityTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.231 s - in com.graphhopper.reader.osm.OSMReaderUtilityTest
+[INFO] Running com.graphhopper.reader.osm.conditional.ConditionalParserTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.21 s - in com.graphhopper.reader.osm.conditional.ConditionalParserTest
+[INFO] Running com.graphhopper.reader.osm.conditional.DateRangeParserTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 s - in com.graphhopper.reader.osm.conditional.DateRangeParserTest
+[INFO] Running com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.graphhopper.reader.osm.conditional.ConditionalOSMTagInspectorTest
+[INFO] Running com.graphhopper.reader.osm.OSMTurnRelationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.reader.osm.OSMTurnRelationTest
+[INFO] Running com.graphhopper.reader.osm.OSMReaderTest
+2026-10-11 20:26:27,408 [main] WARN  com.graphhopper.reader.osm.WaySegmentParser - Loop in OSM way: 12, will be ignored, duplicate node: 2
+2026-10-11 20:26:27,636 [main] WARN  com.graphhopper.reader.osm.WaySegmentParser - Loop in OSM way: 12, will be ignored, duplicate node: 2
+2026-10-11 20:26:27,842 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:26:27,844 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:27,844 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:27,844 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:30,739 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:26:30,742 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:30,742 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:30,742 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:30,973 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:26:30,973 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:31,679 [main] WARN  com.graphhopper.reader.osm.OSMReader - Parsing error in way with OSMID=17 : Cannot parse duration tag value: P01:10
+2026-10-11 20:26:31,680 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:31,680 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+2026-10-11 20:26:31,681 [main] WARN  com.graphhopper.routing.util.FerrySpeedCalculator - Unrealistic long duration ignored in way with way ID=18 : Duration tag value=P1M (=44640 minutes)
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.851 s - in com.graphhopper.reader.osm.OSMReaderTest
+[INFO] Running com.graphhopper.reader.osm.GraphHopperOSMTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.288 s - in com.graphhopper.reader.osm.GraphHopperOSMTest
+[INFO] Running com.graphhopper.reader.OSMElementTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.graphhopper.reader.OSMElementTest
+[INFO] Running com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.graphhopper.reader.dem.BridgeElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.HeightTileTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.graphhopper.reader.dem.HeightTileTest
+[INFO] Running com.graphhopper.reader.dem.EdgeSamplingTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.graphhopper.reader.dem.EdgeSamplingTest
+[INFO] Running com.graphhopper.reader.dem.CGIARProviderTest
+[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.11 s - in com.graphhopper.reader.dem.CGIARProviderTest
+[INFO] Running com.graphhopper.reader.dem.ElevationInterpolatorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.reader.dem.ElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.GraphElevationSmoothingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.reader.dem.GraphElevationSmoothingTest
+[INFO] Running com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.008 s - in com.graphhopper.reader.dem.MultiSourceElevationProviderTest
+[INFO] Running com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.graphhopper.reader.dem.TunnelElevationInterpolatorTest
+[INFO] Running com.graphhopper.reader.dem.SRTMProviderTest
+[WARNING] Tests run: 8, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.708 s - in com.graphhopper.reader.dem.SRTMProviderTest
+[INFO] Running com.graphhopper.reader.dem.SkadiProviderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.reader.dem.SkadiProviderTest
+[INFO] Running com.graphhopper.reader.dem.GMTEDProviderTest
+[WARNING] Tests run: 8, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.12 s - in com.graphhopper.reader.dem.GMTEDProviderTest
+[INFO] Running com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.027 s - in com.graphhopper.reader.dem.SRTMGL1ProviderTest
+[INFO] Running com.graphhopper.util.UnzipperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.graphhopper.util.UnzipperTest
+[INFO] Running com.graphhopper.util.DepthFirstSearchTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.graphhopper.util.DepthFirstSearchTest
+[INFO] Running com.graphhopper.util.AngleCalcTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.graphhopper.util.AngleCalcTest
+[INFO] Running com.graphhopper.util.DouglasPeuckerTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in com.graphhopper.util.DouglasPeuckerTest
+[INFO] Running com.graphhopper.util.SimpleIntDequeTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.graphhopper.util.SimpleIntDequeTest
+[INFO] Running com.graphhopper.util.shapes.BBoxTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in com.graphhopper.util.shapes.BBoxTest
+[INFO] Running com.graphhopper.util.shapes.PolygonTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in com.graphhopper.util.shapes.PolygonTest
+[INFO] Running com.graphhopper.util.shapes.CircleTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.graphhopper.util.shapes.CircleTest
+[INFO] Running com.graphhopper.util.DistanceCalcEuclideanTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.graphhopper.util.DistanceCalcEuclideanTest
+[INFO] Running com.graphhopper.util.PathSimplificationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in com.graphhopper.util.PathSimplificationTest
+[INFO] Running com.graphhopper.util.BitUtilBigTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.graphhopper.util.BitUtilBigTest
+[INFO] Running com.graphhopper.util.ArrayUtilTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.graphhopper.util.ArrayUtilTest
+[INFO] Running com.graphhopper.util.GHUtilityTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in com.graphhopper.util.GHUtilityTest
+[INFO] Running com.graphhopper.util.InstructionListTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.graphhopper.util.InstructionListTest
+[INFO] Running com.graphhopper.util.TranslationMapTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.util.TranslationMapTest
+[INFO] Running com.graphhopper.util.BreadthFirstSearchTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.util.BreadthFirstSearchTest
+[INFO] Running com.graphhopper.util.DistanceCalcEarthTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.graphhopper.util.DistanceCalcEarthTest
+[INFO] Running com.graphhopper.util.BitUtilLittleTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in com.graphhopper.util.BitUtilLittleTest
+[INFO] Running com.graphhopper.util.PointListTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in com.graphhopper.util.PointListTest
+[INFO] Running com.graphhopper.storage.RAMDataAccessTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.graphhopper.storage.RAMDataAccessTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+[INFO] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.236 s - in com.graphhopper.storage.GraphHopperStorageWithTurnCostsTest
+[INFO] Running com.graphhopper.storage.RAMDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.storage.RAMDirectoryTest
+[INFO] Running com.graphhopper.storage.CHStorageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.graphhopper.storage.CHStorageTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageTest
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s - in com.graphhopper.storage.GraphHopperStorageTest
+[INFO] Running com.graphhopper.storage.GraphStorageViaMMapTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in com.graphhopper.storage.GraphStorageViaMMapTest
+[INFO] Running com.graphhopper.storage.TurnCostStorageTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.graphhopper.storage.TurnCostStorageTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageCHTest
+2026-10-11 20:26:43,552 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+2026-10-11 20:26:43,552 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+2026-10-11 20:26:43,552 [main] WARN  com.graphhopper.storage.GraphHopperStorage - Setting weights smaller than 0.001 is not allowed. You passed: 0.0 for the shortcut  nodeA (0.0,0.0 nodeB 0.0,0.0
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.801 s - in com.graphhopper.storage.GraphHopperStorageCHTest
+[INFO] Running com.graphhopper.storage.NativeFSLockFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s - in com.graphhopper.storage.NativeFSLockFactoryTest
+[INFO] Running com.graphhopper.storage.ShortcutUnpackerTest
+[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.45 s - in com.graphhopper.storage.ShortcutUnpackerTest
+[INFO] Running com.graphhopper.storage.StorablePropertiesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.graphhopper.storage.StorablePropertiesTest
+[INFO] Running com.graphhopper.storage.MMapDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in com.graphhopper.storage.MMapDirectoryTest
+[INFO] Running com.graphhopper.storage.GraphEdgeIdFinderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in com.graphhopper.storage.GraphEdgeIdFinderTest
+[INFO] Running com.graphhopper.storage.RAMIntDataAccessTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.graphhopper.storage.RAMIntDataAccessTest
+[INFO] Running com.graphhopper.storage.MMapDataAccessTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in com.graphhopper.storage.MMapDataAccessTest
+[INFO] Running com.graphhopper.storage.EdgeTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.storage.EdgeTest
+[INFO] Running com.graphhopper.storage.index.PixelGridTraversalTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in com.graphhopper.storage.index.PixelGridTraversalTest
+[INFO] Running com.graphhopper.storage.index.LocationIndexTreeTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.33 s - in com.graphhopper.storage.index.LocationIndexTreeTest
+[INFO] Running com.graphhopper.storage.SimpleFSLockFactoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.graphhopper.storage.SimpleFSLockFactoryTest
+[INFO] Running com.graphhopper.storage.GHDirectoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.graphhopper.storage.GHDirectoryTest
+[INFO] Running com.graphhopper.storage.GraphHopperStorageLMTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in com.graphhopper.storage.GraphHopperStorageLMTest
+[INFO] Running com.graphhopper.storage.VLongStorageTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.storage.VLongStorageTest
+[INFO] Running com.graphhopper.search.StringIndexTest
+[ERROR] Tests run: 31, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 157.254 s <<< FAILURE! - in com.graphhopper.search.StringIndexTest
+[ERROR] testLoadKeys  Time elapsed: 0.024 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{a=value, b=another value}> but was: <{b=another value, a=value}>
+	at com.graphhopper.search.StringIndexTest.testLoadKeys(StringIndexTest.java:206)
+
+[ERROR] putDuplicate  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{a=longer name, b=longer name}> but was: <{b=longer name, a=longer name}>
+	at com.graphhopper.search.StringIndexTest.putDuplicate(StringIndexTest.java:121)
+
+[INFO] Running com.graphhopper.coll.BitSetImplTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.graphhopper.coll.BitSetImplTest
+[INFO] Running com.graphhopper.coll.GHLongIntBTreeTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in com.graphhopper.coll.GHLongIntBTreeTest
+[INFO] Running com.graphhopper.coll.GHTBitSetTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.graphhopper.coll.GHTBitSetTest
+[INFO] Running com.graphhopper.coll.GHTreeMapComposedTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in com.graphhopper.coll.GHTreeMapComposedTest
+[INFO] Running com.graphhopper.coll.MinHeapWithUpdateTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in com.graphhopper.coll.MinHeapWithUpdateTest
+[INFO] Running com.graphhopper.coll.GHSortedCollectionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in com.graphhopper.coll.GHSortedCollectionTest
+[INFO] Running com.graphhopper.GraphHopperProfileTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.791 s - in com.graphhopper.GraphHopperProfileTest
+[INFO] Running com.graphhopper.geohash.SpatialKeyAlgoTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s - in com.graphhopper.geohash.SpatialKeyAlgoTest
+[INFO] Running com.graphhopper.isochrone.algorithm.ShortestPathTreeTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.208 s - in com.graphhopper.isochrone.algorithm.ShortestPathTreeTest
+[INFO] Running com.graphhopper.isochrone.algorithm.QuadEdgeSubdivisionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in com.graphhopper.isochrone.algorithm.QuadEdgeSubdivisionTest
+[INFO] Running com.graphhopper.routing.ProfileResolverTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.graphhopper.routing.ProfileResolverTest
+[INFO] Running com.graphhopper.routing.RandomizedRoutingTest
+[INFO] Tests run: 150, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.952 s - in com.graphhopper.routing.RandomizedRoutingTest
+[INFO] Running com.graphhopper.routing.CHQueryWithTurnCostsTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.414 s - in com.graphhopper.routing.CHQueryWithTurnCostsTest
+[INFO] Running com.graphhopper.routing.subnetwork.TarjanSCCTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 s - in com.graphhopper.routing.subnetwork.TarjanSCCTest
+[INFO] Running com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in com.graphhopper.routing.subnetwork.PrepareRoutingSubnetworksTest
+[INFO] Running com.graphhopper.routing.subnetwork.EdgeBasedTarjanSCCTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.256 s - in com.graphhopper.routing.subnetwork.EdgeBasedTarjanSCCTest
+[INFO] Running com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.subnetwork.SubnetworkStorageTest
+[INFO] Running com.graphhopper.routing.DijkstraOneToManyTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.graphhopper.routing.DijkstraOneToManyTest
+[INFO] Running com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 s - in com.graphhopper.routing.util.RacingBikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.BikeFlagEncoderTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 s - in com.graphhopper.routing.util.BikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.HeadingEdgeFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.util.HeadingEdgeFilterTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMSurfaceParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.util.parsers.OSMSurfaceParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadAccessParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.util.parsers.OSMRoadAccessParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTollParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.graphhopper.routing.util.parsers.OSMTollParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMSmoothnessParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in com.graphhopper.routing.util.parsers.OSMSmoothnessParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatWaterParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.util.parsers.OSMHazmatWaterParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadClassParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.graphhopper.routing.util.parsers.OSMRoadClassParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxWeightParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in com.graphhopper.routing.util.parsers.OSMMaxWeightParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMGetOffBikeParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in com.graphhopper.routing.util.parsers.OSMGetOffBikeParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTrackTypeParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.routing.util.parsers.OSMTrackTypeParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMTurnRelationParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.routing.util.parsers.OSMTurnRelationParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.routing.util.parsers.OSMHazmatParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMHazmatTunnelParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in com.graphhopper.routing.util.parsers.OSMHazmatTunnelParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMLanesParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.graphhopper.routing.util.parsers.OSMLanesParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMtbRatingParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.util.parsers.OSMMtbRatingParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxAxleLoadParserTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.routing.util.parsers.OSMMaxAxleLoadParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMRoadEnvironmentParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.graphhopper.routing.util.parsers.OSMRoadEnvironmentParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMMaxSpeedParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.util.parsers.OSMMaxSpeedParserTest
+[INFO] Running com.graphhopper.routing.util.parsers.OSMValueExtractorTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in com.graphhopper.routing.util.parsers.OSMValueExtractorTest
+[INFO] Running com.graphhopper.routing.util.FootFlagEncoderTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.graphhopper.routing.util.FootFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.SnapPreventionEdgeFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.util.SnapPreventionEdgeFilterTest
+[INFO] Running com.graphhopper.routing.util.EncodingManagerTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in com.graphhopper.routing.util.EncodingManagerTest
+[INFO] Running com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s - in com.graphhopper.routing.util.Bike2WeightFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.Car4WDFlagEncoderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in com.graphhopper.routing.util.Car4WDFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.AccessFilterTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in com.graphhopper.routing.util.AccessFilterTest
+[INFO] Running com.graphhopper.routing.util.WheelchairFlagEncoderTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in com.graphhopper.routing.util.WheelchairFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.HikeFlagEncoderTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.graphhopper.routing.util.HikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.spatialrules.AreaIndexTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.216 s - in com.graphhopper.routing.util.spatialrules.AreaIndexTest
+[INFO] Running com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in com.graphhopper.routing.util.MountainBikeFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.countryrules.CountryRuleTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.util.countryrules.CountryRuleTest
+[INFO] Running com.graphhopper.routing.util.tour.SinglePointTourTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in com.graphhopper.routing.util.tour.SinglePointTourTest
+[INFO] Running com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.graphhopper.routing.util.MotorcycleFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.CarFlagEncoderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s - in com.graphhopper.routing.util.CarFlagEncoderTest
+[INFO] Running com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s - in com.graphhopper.routing.util.NameSimilarityEdgeFilterTest
+[INFO] Running com.graphhopper.routing.HeadingResolverTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.graphhopper.routing.HeadingResolverTest
+[INFO] Running com.graphhopper.routing.DirectedBidirectionalDijkstraTest
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.832 s - in com.graphhopper.routing.DirectedBidirectionalDijkstraTest
+[INFO] Running com.graphhopper.routing.lm.LMIssueTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.328 s - in com.graphhopper.routing.lm.LMIssueTest
+[INFO] Running com.graphhopper.routing.lm.PrepareLandmarksTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in com.graphhopper.routing.lm.PrepareLandmarksTest
+[INFO] Running com.graphhopper.routing.lm.LMPreparationHandlerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in com.graphhopper.routing.lm.LMPreparationHandlerTest
+[INFO] Running com.graphhopper.routing.lm.LMProfileSelectorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in com.graphhopper.routing.lm.LMProfileSelectorTest
+[INFO] Running com.graphhopper.routing.lm.LandmarkStorageTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in com.graphhopper.routing.lm.LandmarkStorageTest
+[INFO] Running com.graphhopper.routing.lm.LMApproximatorTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.985 s - in com.graphhopper.routing.lm.LMApproximatorTest
+[INFO] Running com.graphhopper.routing.AlternativeRouteEdgeCHTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.278 s - in com.graphhopper.routing.AlternativeRouteEdgeCHTest
+[INFO] Running com.graphhopper.routing.ch.EdgeBasedNodeContractorTest
+[INFO] Tests run: 81, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.985 s - in com.graphhopper.routing.ch.EdgeBasedNodeContractorTest
+[INFO] Running com.graphhopper.routing.ch.CHProfileSelectorTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 s - in com.graphhopper.routing.ch.CHProfileSelectorTest
+[INFO] Running com.graphhopper.routing.ch.OnFlyStatisticsCalculatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.graphhopper.routing.ch.OnFlyStatisticsCalculatorTest
+[INFO] Running com.graphhopper.routing.ch.CHPreparationGraphTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.ch.CHPreparationGraphTest
+[INFO] Running com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.442 s - in com.graphhopper.routing.ch.PrepareContractionHierarchiesTest
+[INFO] Running com.graphhopper.routing.ch.NodeBasedWitnessPathSearcherTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.graphhopper.routing.ch.NodeBasedWitnessPathSearcherTest
+[INFO] Running com.graphhopper.routing.ch.CHPreparationHandlerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.graphhopper.routing.ch.CHPreparationHandlerTest
+[INFO] Running com.graphhopper.routing.ch.EdgeBasedWitnessPathSearcherTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in com.graphhopper.routing.ch.EdgeBasedWitnessPathSearcherTest
+[INFO] Running com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 s - in com.graphhopper.routing.ch.NodeBasedNodeContractorTest
+[INFO] Running com.graphhopper.routing.ch.CHTurnCostTest
+[INFO] Tests run: 241, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.632 s - in com.graphhopper.routing.ch.CHTurnCostTest
+[INFO] Running com.graphhopper.routing.RoundTripRoutingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in com.graphhopper.routing.RoundTripRoutingTest
+[INFO] Running com.graphhopper.routing.ev.StringEncodedValueTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in com.graphhopper.routing.ev.StringEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.UnsignedDecimalEncodedValueTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in com.graphhopper.routing.ev.UnsignedDecimalEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.DecimalEncodedValueTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in com.graphhopper.routing.ev.DecimalEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.BooleanEncodedValueTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.ev.BooleanEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.DefaultEncodedValueFactoryTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.routing.ev.DefaultEncodedValueFactoryTest
+[INFO] Running com.graphhopper.routing.ev.EnumEncodedValueTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.ev.EnumEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.RoadAccessTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.graphhopper.routing.ev.RoadAccessTest
+[INFO] Running com.graphhopper.routing.ev.IntEncodedValueTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in com.graphhopper.routing.ev.IntEncodedValueTest
+[INFO] Running com.graphhopper.routing.ev.MaxWeightTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in com.graphhopper.routing.ev.MaxWeightTest
+[INFO] Running com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+[INFO] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.619 s - in com.graphhopper.routing.EdgeBasedRoutingAlgorithmTest
+[INFO] Running com.graphhopper.routing.RoutingAlgorithmTest
+[INFO] Tests run: 377, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.378 s - in com.graphhopper.routing.RoutingAlgorithmTest
+[INFO] Running com.graphhopper.routing.PriorityRoutingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 s - in com.graphhopper.routing.PriorityRoutingTest
+[INFO] Running com.graphhopper.routing.DirectionResolverTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in com.graphhopper.routing.DirectionResolverTest
+[INFO] Running com.graphhopper.routing.DefaultBidirPathExtractorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in com.graphhopper.routing.DefaultBidirPathExtractorTest
+[INFO] Running com.graphhopper.routing.weighting.ShortFastestWeightingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in com.graphhopper.routing.weighting.ShortFastestWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.FastestWeightingTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in com.graphhopper.routing.weighting.FastestWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.custom.CustomModelParserTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.467 s - in com.graphhopper.routing.weighting.custom.CustomModelParserTest
+[INFO] Running com.graphhopper.routing.weighting.custom.CustomWeightingTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.801 s - in com.graphhopper.routing.weighting.custom.CustomWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.custom.ExpressionVisitorTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in com.graphhopper.routing.weighting.custom.ExpressionVisitorTest
+[INFO] Running com.graphhopper.routing.weighting.BlockAreaWeightingTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.graphhopper.routing.weighting.BlockAreaWeightingTest
+[INFO] Running com.graphhopper.routing.weighting.AbstractWeightingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.graphhopper.routing.weighting.AbstractWeightingTest
+[INFO] Running com.graphhopper.routing.RoutingAlgorithmWithOSMTest
+2026-10-11 20:30:10,312 [car] ERROR com.graphhopper.routing.lm.LandmarkStorage - method findLandmarks for 0.001,0.0 (3) resulted in too few visited nodes: 1 vs expected minimum 3, see #2256
+2026-10-11 20:30:21,464 [bike2] WARN  com.graphhopper.routing.lm.LandmarkStorage - landmark 10 (52.3509155,8.0119331): too many weights were maxed out (33/40). Use a bigger factor than 0.005074352755033054. For example use maximum_lm_weight: 631.5149906593406 in your LM profile definition
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.602 s - in com.graphhopper.routing.RoutingAlgorithmWithOSMTest
+[INFO] Running com.graphhopper.routing.TrafficChangeWithNodeOrderingReusingTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s - in com.graphhopper.routing.TrafficChangeWithNodeOrderingReusingTest
+[INFO] Running com.graphhopper.routing.DirectedRoutingTest
+[INFO] Tests run: 120, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.355 s - in com.graphhopper.routing.DirectedRoutingTest
+[INFO] Running com.graphhopper.routing.QueryRoutingCHGraphTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in com.graphhopper.routing.QueryRoutingCHGraphTest
+[INFO] Running com.graphhopper.routing.AlternativeRouteTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 s - in com.graphhopper.routing.AlternativeRouteTest
+[INFO] Running com.graphhopper.routing.PathTest
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.366 s - in com.graphhopper.routing.PathTest
+[INFO] Running com.graphhopper.routing.HeadingRoutingTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.42 s - in com.graphhopper.routing.HeadingRoutingTest
+[INFO] Running com.graphhopper.routing.DijkstraBidirectionCHTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in com.graphhopper.routing.DijkstraBidirectionCHTest
+[INFO] Running com.graphhopper.routing.RandomCHRoutingTest
+[WARNING] Tests run: 18, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 3.861 s - in com.graphhopper.routing.RandomCHRoutingTest
+[INFO] Running com.graphhopper.routing.DirectionResolverOnQueryGraphTest
+[ERROR] Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.162 s <<< FAILURE! - in com.graphhopper.routing.DirectionResolverOnQueryGraphTest
+[ERROR] duplicateCoordinatesAtBaseOrAdjNode  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: unexpected resolved direction ==> expected: <in-edge-right: 1, out-edge-right: 2, in-edge-left: 2, out-edge-left: 1> but was: <in-edge-right: 2, out-edge-right: 1, in-edge-left: 1, out-edge-left: 2>
+	at com.graphhopper.routing.DirectionResolverOnQueryGraphTest.checkResults(DirectionResolverOnQueryGraphTest.java:318)
+	at com.graphhopper.routing.DirectionResolverOnQueryGraphTest.checkResult(DirectionResolverOnQueryGraphTest.java:307)
+	at com.graphhopper.routing.DirectionResolverOnQueryGraphTest.duplicateCoordinatesAtBaseOrAdjNode(DirectionResolverOnQueryGraphTest.java:252)
+
+[INFO] Running com.graphhopper.routing.AlternativeRouteCHTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in com.graphhopper.routing.AlternativeRouteCHTest
+[INFO] Running com.graphhopper.routing.querygraph.QueryGraphTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 s - in com.graphhopper.routing.querygraph.QueryGraphTest
+[INFO] Running com.graphhopper.GraphHopperTest
+[watchdog] time cap of 480s reached - stopping; results so far are kept

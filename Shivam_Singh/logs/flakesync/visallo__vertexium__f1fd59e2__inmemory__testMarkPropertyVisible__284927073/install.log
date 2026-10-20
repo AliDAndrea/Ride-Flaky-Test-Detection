@@ -1,0 +1,389 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Vertexium                                                          [pom]
+[INFO] Vertexium: Core                                                    [jar]
+[INFO] Vertexium: Security                                                [jar]
+[INFO] Vertexium: Test                                                    [jar]
+[INFO] Vertexium: In-memory                                               [jar]
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-root >--------------------
+[INFO] Building Vertexium 4.4.2-SNAPSHOT                                  [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766437452
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-root >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-root ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-root ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766437977
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-root ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-root <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-root ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-root ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-root ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-root/4.4.2-SNAPSHOT/vertexium-root-4.4.2-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-core >--------------------
+[INFO] Building Vertexium: Core 4.4.2-SNAPSHOT                            [2/5]
+[INFO]   from core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.1/maven-jar-plugin-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.1/maven-jar-plugin-3.0.1.pom (6.2 kB at 8.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.1/maven-jar-plugin-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.1/maven-jar-plugin-3.0.1.jar (27 kB at 380 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/0.23.1/cache2k-api-0.23.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/0.23.1/cache2k-api-0.23.1.pom (1.7 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-parent/0.23.1/cache2k-parent-0.23.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-parent/0.23.1/cache2k-parent-0.23.1.pom (15 kB at 248 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/0.23.1/cache2k-core-0.23.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/0.23.1/cache2k-core-0.23.1.pom (1.7 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-jmx-api/0.23.1/cache2k-jmx-api-0.23.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-jmx-api/0.23.1/cache2k-jmx-api-0.23.1.pom (1.2 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/0.23.1/cache2k-api-0.23.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-api/0.23.1/cache2k-api-0.23.1.jar (30 kB at 406 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/0.23.1/cache2k-core-0.23.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-jmx-api/0.23.1/cache2k-jmx-api-0.23.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-core/0.23.1/cache2k-core-0.23.1.jar (260 kB at 1.6 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/cache2k/cache2k-jmx-api/0.23.1/cache2k-jmx-api-0.23.1.jar (3.6 kB at 15 kB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766444843
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 219 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/src/main/java/org/vertexium/Edge.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/src/main/java/org/vertexium/Edge.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-core ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-core ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.0/maven-archiver-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.0/maven-archiver-3.1.0.pom (4.3 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.0/maven-archiver-3.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.1.0/maven-archiver-3.1.0.jar (24 kB at 432 kB/s)
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/target/vertexium-core-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-core >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-core ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766462623
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-core ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-core ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-core ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-core ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.4.2-SNAPSHOT/vertexium-core-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/core/target/vertexium-core-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-core/4.4.2-SNAPSHOT/vertexium-core-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.vertexium:vertexium-security >------------------
+[INFO] Building Vertexium: Security 4.4.2-SNAPSHOT                        [3/5]
+[INFO]   from security/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-security ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-security ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766463025
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-security ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-security ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-security ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/target/classes
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/main/java/org/vertexium/security/FastByteComparisons.java:[20,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/main/java/org/vertexium/security/FastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/main/java/org/vertexium/security/FastByteComparisons.java:[124,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/main/java/org/vertexium/security/FastByteComparisons.java:[129,47] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-security ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-security ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-security ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-security ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/target/vertexium-security-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-security >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-security ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-security ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766464591
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-security ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-security <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-security ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-security ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-security ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-security/4.4.2-SNAPSHOT/vertexium-security-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/security/target/vertexium-security-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-security/4.4.2-SNAPSHOT/vertexium-security-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --------------------< org.vertexium:vertexium-test >--------------------
+[INFO] Building Vertexium: Test 4.4.2-SNAPSHOT                            [4/5]
+[INFO]   from test/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-test ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766465081
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-test ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-test ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-test ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-test ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/target/vertexium-test-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-test >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-test ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-test ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766468147
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-test ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-test ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-test ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-test ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-test/4.4.2-SNAPSHOT/vertexium-test-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/test/target/vertexium-test-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-test/4.4.2-SNAPSHOT/vertexium-test-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------< org.vertexium:vertexium-inmemory >------------------
+[INFO] Building Vertexium: In-memory 4.4.2-SNAPSHOT                       [5/5]
+[INFO]   from inmemory/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.pom (5.3 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/13.0.1/guava-parent-13.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/13.0.1/guava-parent-13.0.1.pom (2.6 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/13.0.1/guava-13.0.1.jar (1.9 MB at 8.2 MB/s)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-inmemory ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-inmemory ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766469115
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-inmemory ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ vertexium-inmemory ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vertexium-inmemory ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/target/classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/main/java/org/vertexium/inmemory/InMemoryTableElement.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/main/java/org/vertexium/inmemory/InMemoryTableElement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ vertexium-inmemory ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vertexium-inmemory ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/target/test-classes
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/test/java/org/vertexium/inmemory/InMemoryGraphTest.java: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/test/java/org/vertexium/inmemory/InMemoryGraphTest.java uses unchecked or unsafe operations.
+[INFO] /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/src/test/java/org/vertexium/inmemory/InMemoryGraphTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- surefire:2.19.1:test (default-test) @ vertexium-inmemory ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.0.1:jar (default-jar) @ vertexium-inmemory ---
+[INFO] Building jar: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/target/vertexium-inmemory-4.4.2-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> source:3.0.0:jar (source-jar) > generate-sources @ vertexium-inmemory >>>
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ vertexium-inmemory ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.2:create (create-build-number) @ vertexium-inmemory ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildNumber: f1fd59e23610312cf0ec6756ea01baaf56cdb74e at timestamp: 1791766471425
+[INFO] Executing: /bin/sh -c cd /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory && git rev-parse --verify HEAD
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- buildnumber:1.2:create-timestamp (create-formatted-timestamp) @ vertexium-inmemory ---
+[INFO] 
+[INFO] <<< source:3.0.0:jar (source-jar) < generate-sources @ vertexium-inmemory <<<
+[INFO] 
+[INFO] 
+[INFO] --- source:3.0.0:jar (source-jar) @ vertexium-inmemory ---
+[INFO] Skipping source per configuration.
+[INFO] 
+[INFO] --- javadoc:2.10.4:jar (javadocs-jar) @ vertexium-inmemory ---
+[INFO] Skipping javadoc generation
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ vertexium-inmemory ---
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/pom.xml to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-inmemory/4.4.2-SNAPSHOT/vertexium-inmemory-4.4.2-SNAPSHOT.pom
+[INFO] Installing /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/visallo__vertexium__f1fd59e2__inmemory/inmemory/target/vertexium-inmemory-4.4.2-SNAPSHOT.jar to /Users/shivamsingh/.m2/repository/org/vertexium/vertexium-inmemory/4.4.2-SNAPSHOT/vertexium-inmemory-4.4.2-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Vertexium 4.4.2-SNAPSHOT:
+[INFO] 
+[INFO] Vertexium .......................................... SUCCESS [  8.293 s]
+[INFO] Vertexium: Core .................................... SUCCESS [ 20.751 s]
+[INFO] Vertexium: Security ................................ SUCCESS [  1.937 s]
+[INFO] Vertexium: Test .................................... SUCCESS [  3.617 s]
+[INFO] Vertexium: In-memory ............................... SUCCESS [  3.245 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.704 s
+[INFO] Finished at: 2026-10-11T19:54:31-05:00
+[INFO] ------------------------------------------------------------------------

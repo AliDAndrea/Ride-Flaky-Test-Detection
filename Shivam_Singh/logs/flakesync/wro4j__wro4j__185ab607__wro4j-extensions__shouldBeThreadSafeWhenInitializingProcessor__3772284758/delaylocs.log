@@ -1,0 +1,94 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ro.isdc.wro4j:wro4j-extensions >-------------------
+[INFO] Building wro4j extensions 1.8.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ wro4j-extensions >>>
+[INFO] 
+[INFO] --- enforcer:1.2:enforce (enforce-maven) @ wro4j-extensions ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ wro4j-extensions ---
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wro4j__wro4j__185ab607__wro4j-extensions/wro4j-extensions' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wro4j__wro4j__185ab607__wro4j-extensions/wro4j-extensions
+[INFO] Storing buildNumber: 185ab607 at timestamp: 1791744250628
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] ShortRevision tag detected. The value is '8'.
+[INFO] Executing: /bin/sh -c cd '/Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wro4j__wro4j__185ab607__wro4j-extensions/wro4j-extensions' && 'git' 'rev-parse' '--verify' '--short=8' 'HEAD'
+[INFO] Working directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/wro4j__wro4j__185ab607__wro4j-extensions/wro4j-extensions
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- jacoco:0.7.7.201606060606:prepare-agent (default) @ wro4j-extensions ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- gplus:1.6:generateStubs (default) @ wro4j-extensions ---
+[INFO] Using Groovy 2.4.12 to perform generateStubs.
+[INFO] Generated 4 stubs.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ wro4j-extensions ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 19 resources from src/main/java to target/classes
+[INFO] 
+[INFO] --- compiler:2.3.2:compile (default-compile) @ wro4j-extensions ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.6:compile (default) @ wro4j-extensions ---
+[INFO] Using Groovy 2.4.12 to perform compile.
+[INFO] Compiled 5 files.
+[INFO] 
+[INFO] --- gplus:1.6:generateTestStubs (default) @ wro4j-extensions ---
+[INFO] Using Groovy 2.4.12 to perform generateTestStubs.
+[INFO] Generated 1 stub.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ wro4j-extensions ---
+[INFO] Copying 808 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:2.3.2:testCompile (default-testCompile) @ wro4j-extensions ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gplus:1.6:compileTests (default) @ wro4j-extensions ---
+[INFO] Using Groovy 2.4.12 to perform compileTests.
+[INFO] Compiled 21 files.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ wro4j-extensions <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ wro4j-extensions ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ro.isdc.wro.extensions.processor.TestRubySassCssProcessor
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 46.014 sec <<< FAILURE! - in ro.isdc.wro.extensions.processor.TestRubySassCssProcessor
+shouldBeThreadSafeWhenInitializingProcessor(ro.isdc.wro.extensions.processor.TestRubySassCssProcessor)  Time elapsed: 45.968 sec  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: ro.isdc.wro.WroRuntimeException: java.util.ConcurrentModificationException
+	at ro.isdc.wro.extensions.processor.TestRubySassCssProcessor.shouldBeThreadSafeWhenInitializingProcessor(TestRubySassCssProcessor.java:101)
+Caused by: java.lang.RuntimeException: ro.isdc.wro.WroRuntimeException: java.util.ConcurrentModificationException
+Caused by: ro.isdc.wro.WroRuntimeException: java.util.ConcurrentModificationException
+Caused by: javax.script.ScriptException: java.util.ConcurrentModificationException
+Caused by: java.util.ConcurrentModificationException
+
+
+Results :
+
+Tests in error: 
+  TestRubySassCssProcessor.shouldBeThreadSafeWhenInitializingProcessor:101 » Execution
+
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+
+INFO: Surefire failed when running tests for clean_lT9Zn3DfbHosRgCYJikzXGkUwwPeFxcTqwqw3CLh4k0= with delay: 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  53.044 s
+[INFO] Finished at: 2026-10-11T13:45:01-05:00
+[INFO] ------------------------------------------------------------------------

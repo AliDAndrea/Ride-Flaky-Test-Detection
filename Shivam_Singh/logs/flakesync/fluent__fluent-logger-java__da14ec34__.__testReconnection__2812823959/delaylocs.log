@@ -1,0 +1,141 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.fluentd:fluent-logger >----------------------
+[INFO] Building Fluent Logger for Java 0.3.4-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> flakesync:1.0-SNAPSHOT:delaylocs (default-cli) > test-compile @ fluent-logger >>>
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.16.1-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ fluent-logger ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fluent-logger ---
+[INFO] skip non existing resourceDirectory /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fluent-logger ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ fluent-logger ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ fluent-logger ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< flakesync:1.0-SNAPSHOT:delaylocs (default-cli) < test-compile @ fluent-logger <<<
+[INFO] 
+[INFO] 
+[INFO] --- flakesync:1.0-SNAPSHOT:delaylocs (default-cli) @ fluent-logger ---
+INFO: Running RunWithDelaysMojo
+Inside createWhiteList
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_xASVYNluCjahc2ijD6SUpEDWdHVo+GUwClqvZ6w8GzQ=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:20:33,667 DEBUG [pool-1-thread-1] Started MockFluentd port:52327
+2026-10-11 18:20:40,118 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:20:40,121 DEBUG [pool-1-thread-1] Terminated MockFluentd port:52327
+2026-10-11 18:20:44,172 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Broken pipe (Write failed)
+2026-10-11 18:20:48,779 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:20:53,393 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:20:53,498 DEBUG [pool-1-thread-2] Started MockFluentd port:52327
+2026-10-11 18:21:01,774 DEBUG [pool-1-thread-2] Terminated MockFluentd port:52327
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.474 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_lMJ4uHk2D4SpluoVLM1WAys6iS+x6QjfxzuNe5vMEsI=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:21:04,567 DEBUG [pool-1-thread-1] Started MockFluentd port:53947
+2026-10-11 18:21:16,193 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:21:16,195 DEBUG [pool-1-thread-1] Terminated MockFluentd port:53947
+2026-10-11 18:21:23,655 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Broken pipe (Write failed)
+2026-10-11 18:21:31,960 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:21:40,253 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:21:40,459 DEBUG [pool-1-thread-2] Started MockFluentd port:53947
+2026-10-11 18:21:53,624 DEBUG [pool-1-thread-2] Terminated MockFluentd port:53947
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.405 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_8pczecZVF8LDbFbIx0SVVX8hDK7TrLlf1kBJUJjsXxM=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:21:56,283 DEBUG [pool-1-thread-1] Started MockFluentd port:56587
+2026-10-11 18:22:18,363 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:22:18,365 DEBUG [pool-1-thread-1] Terminated MockFluentd port:56587
+2026-10-11 18:22:32,604 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Broken pipe (Write failed)
+2026-10-11 18:22:48,310 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:23:04,005 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:23:04,414 DEBUG [pool-1-thread-2] Started MockFluentd port:56587
+2026-10-11 18:23:27,376 DEBUG [pool-1-thread-2] Terminated MockFluentd port:56587
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 93.39 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_f2Tf99Ko3rPTtR8hG8DSU3W8W+YfL29P3+OYfgEkrQ=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:23:30,987 DEBUG [pool-1-thread-1] Started MockFluentd port:57521
+2026-10-11 18:24:13,911 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:24:13,915 DEBUG [pool-1-thread-1] Terminated MockFluentd port:57521
+2026-10-11 18:24:41,767 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.SocketException: Broken pipe (Write failed)
+2026-10-11 18:25:12,245 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:25:42,752 ERROR [main] org.fluentd.logger.sender.RawSocketSender
+java.net.ConnectException: Connection refused (Connection refused)
+2026-10-11 18:25:43,558 DEBUG [pool-1-thread-2] Started MockFluentd port:57521
+2026-10-11 18:26:26,124 DEBUG [pool-1-thread-2] Terminated MockFluentd port:57521
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.816 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Surefire report directory: /Users/shivamsingh/iDFlakies/ride-run/work/fs/projects/fluent__fluent-logger-java__da14ec34__./.flakesync/clean_aKoJ4Tip4ounMFDzaM5EbrVYZuUr7RajYepoqcdXA=
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.fluentd.logger.TestFluentLogger
+2026-10-11 18:26:29,416 DEBUG [pool-1-thread-1] Started MockFluentd port:57567
+2026-10-11 18:27:53,908 INFO  [main] Closing the current fluentd instance
+2026-10-11 18:27:53,910 DEBUG [pool-1-thread-1] Terminated MockFluentd port:57567
+Destroying 1 processes
+Destroying process..
+Destroyed 1 processes
+INFO: Surefire failed when running tests for clean_aKoJ4Tip4ounMFDzaM5EbrVYZuUr7RajYepoqcdXA= with delay: 1600
